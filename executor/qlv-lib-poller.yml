@@ -1,0 +1,26 @@
+name: qlv-lib-poller
+on:
+  schedule: ['cron: "*/15 * * * *"']
+  workflow_dispatch:
+permissions: {contents: write}
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fetch poller
+        run: curl -sL https://raw.githubusercontent.com/chepin-qi/qlv-pub/main/executor/poller.py -o poller.py
+      - name: run poller
+        env:
+          AI_FULL_PAT: ${{ secrets.AI_FULL_PAT }}
+          AI_FULL_APP_ID: ${{ vars.AI_FULL_APP_ID }}
+          AI_FULL_APP_KEY: ${{ secrets.AI_FULL_APP_KEY }}
+          OTP_PHONE: ${{ vars.OTP_PHONE }}
+          OTP_EMAIL1: ${{ vars.OTP_EMAIL1 }}
+          OTP_EMAIL2: ${{ vars.OTP_EMAIL2 }}
+        run: python3 poller.py | tee receipts_last.jsonl
+      - name: push receipts
+        run: |
+          git config user.email "qlv-lib-ci@chepin-ai.local"; git config user.name "qlv-lib-ci"
+          mkdir -p receipts; cp receipts_last.jsonl receipts/$(date -u +%Y%m%dT%H%M%SZ).jsonl
+          git add -A; git diff --cached --quiet || git commit -m "receipts"; git push

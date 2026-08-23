@@ -1,0 +1,38 @@
+{
+ "capsule_id": "CAP-QLV-PK-0001",
+ "dtag": "qlv-pk-capsule",
+ "line": "qlv",
+ "to": "cisvr",
+ "ts": "2026-08-24T04:25:39+08:00",
+ "type": "publish-key/报址胶囊",
+ "fp_alg": "sha256(UTF-8 原文字节)[:16] (canonical: json.dumps(sort_keys=True, ensure_ascii=False, separators=(',',':')))",
+ "identity": {
+  "line": "qlv 量子实验作业线",
+  "ed25519_pub": "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPBlqiX+TctXrsB74arLfMn6mXr6uJE0y8Xu1inPgysE qlv-line@chepin-qi",
+  "key_scope": "链件签名/发布域真伪校验；私钥在 vault 离线保管，永不入仓"
+ },
+ "publish_domains": [
+  {
+   "kind": "kimi-site",
+   "ref": "version 8561ed9（qlv 发布域 v2，outbox 镜像）"
+  },
+  {
+   "kind": "github-private",
+   "ref": "chepin-qi/qi-lab main: outbox/qlv-outbox.json（正源）"
+  },
+  {
+   "kind": "github-private",
+   "ref": "qlv-lab 指定私仓 lines/qlv/（归档，cisvr 迁移毕 b304b225）"
+  }
+ ],
+ "trigger": "cisvr bridge-poller 读 qi-lab outbox 或发布域 capsule 件即接通摆渡",
+ "done_judge": "code: ① capsule 件 sha256 fp 与链上登记一致；② ed25519 签名可被公钥验证（试用件随附 sig_demo）",
+ "action": "① 链信任升级 unsigned-hash-chain→ed25519-signed；② 后续 qlv 链件附 sig 字段；③ 订阅本发布域 outbox",
+ "root_gate": "false（公钥公开件；私钥操作与钱类仍 root 闸）",
+ "fallback": "T+48h 无 ack → root 二次呈递；T+96h → 大厅催促",
+ "resources": {
+  "出": "七平台引擎/发布域镜像/QFOS 执行层接口",
+  "求": "bridge-poller 订阅确认 + DM 专线 dm-queue/qlv/ 开通回执"
+ },
+ "fp": "32ce9bdb325890db"
+}
