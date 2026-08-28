@@ -14,7 +14,7 @@ def verify_sig(doc_bytes, sig_b64):
     cap = json.loads(fetch("CAP-QLV-PK-0001.json"))
     pub_line = cap["identity"]["ed25519_pub"]
     with open("/tmp/qlv_allowed", "w") as f:
-        f.write(f"qlv-line@chepin-qi {pub_line.split()[1]}\n")
+        f.write(f"qlv-line@chepin-qi ssh-ed25519 {pub_line.split()[1]}\n")
     open("/tmp/wo_msg", "wb").write(doc_bytes)
     open("/tmp/wo_sig", "wb").write(base64.b64decode(sig_b64))
     r = subprocess.run(["ssh-keygen", "-Y", "verify", "-f", "/tmp/qlv_allowed",
