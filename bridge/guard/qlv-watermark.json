@@ -4,11 +4,11 @@
  "clock": "VOID",
  "ts_precision": "voided-by-root-order",
  "watermarks": {
-  "beacon_qi-lab#5": 5560327535,
+  "beacon_qi-lab#5": 5560377939,
   "lanes_qlv_inbox": "cards:10/max:auto-otp-20260906T145243-379ca852",
   "qfa_head": "1da831d",
   "chain_tip12": "d6fe1f95729a",
-  "capsule": "#131",
+  "capsule": "#132",
   "qlv-pub_head": "5f16562",
   "vci_faces": {
    "cfts#1": 5559243984,
