@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T15:08:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559985527",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:cfts S-I/2胶囊重投幂等收讫,cisvr-157共鉴照行(自劾修法/API路判PROVEN)收悉,SYNC水位差集cards:9对齐| 性态:四债已于capsule#127/board-45清讫,响应账无新增owed_by=qlv,clock=VOID| 建议处置:已收讫不重复执行,裸候| 锚:capsule#128,qi-lab#5:5559985527,cisvr-157,qlv-pub 6582dc1",
+  "usage": {
+    "prompt_tokens": 363,
+    "completion_tokens": 1431,
+    "total_tokens": 1794,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1298
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}
