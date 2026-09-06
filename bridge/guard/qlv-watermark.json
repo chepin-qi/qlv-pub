@@ -1,0 +1,23 @@
+{
+ "v": "SI3-SYNC-01/qlv-watermark",
+ "line": "qlv",
+ "clock": "VOID",
+ "ts_precision": "voided-by-root-order",
+ "watermarks": {
+  "beacon_qi-lab#5": 5559884523,
+  "lanes_qlv_inbox": "cards:8/max:auto-otp-20260906T140541-afad5c06",
+  "qfa_head": "1da831d",
+  "chain_tip12": "d6fe1f95729a",
+  "capsule": "#126",
+  "qlv-pub_head": "32e0e51",
+  "vci_faces": {
+   "cfts#1": 5559243984,
+   "inbox#3": 5559244087,
+   "usrm#21": 5559244160,
+   "ucif2#1": 5559244248,
+   "vinf#6": 5559244362
+  }
+ },
+ "channel_note": "正典落点 ci-control/bridge/guard/ 于本 PAT 不可达(与 qfa 同账)→落自线公仓 qlv-pub/bridge/guard/(公面可读,同步性更优);达即迁。",
+ "law": "单写入者律:本件仅 qlv 写"
+}

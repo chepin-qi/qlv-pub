@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# watchtower.py — qlv 无人驿巡塔 v1
+# watchtower.py — qlv 无人驿巡塔 v2(自醒事件链+道B巷卡守望)
 # 纯事件驱动:本脚本无定时器语义;由外部唤起(root 本地 cron / 仓侧 Action on issue_comment|issues|push|repository_dispatch / 手动)
 # 链:轮询联邦面 → 事件至 → Kimi API 新会话开工(判词纪要) → 落账回仓(文件轨;高值件附信标评论)
 # 钥:env KIMI_API_KEY 或 ~/.keys/vci_api_keys.json(kimi/vci-1);PAT: env QI_PAT 或 vault。值永不入文。
@@ -91,6 +91,18 @@ def poll(pat, st):
                 st.setdefault('quafu',{})[tid] = cur
             except Exception as e:
                 ev.append({'kind':'quafu.poll.err','ref':tid,'summary':str(e)[:120],'high_value':False})
+    # ③.5 道B巷卡直投守望(vci-inbox/lanes/qlv/inbox 文件数差分;SI3-SYNC-01 直投道,常开零额度)
+    try:
+        lane = gh_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100', pat)
+        cnt = len(lane)
+        prev_cnt = st.get('lane_inbox_count')
+        latest = max((f['name'] for f in lane), default='')
+        if prev_cnt is not None and cnt != prev_cnt:
+            ev.append({'kind':'lane.drop','ref':f'lanes/qlv/inbox:{latest}',
+                       'summary':f"巷卡 {prev_cnt}→{cnt},最新 {latest}",'high_value':True})
+        st['lane_inbox_count'] = cnt
+    except Exception as e:
+        ev.append({'kind':'lane.poll.err','ref':'lanes/qlv/inbox','summary':str(e)[:120],'high_value':False})
     # ④ vci 六面评论数变化
     faces = {'lgt-line#1':('/repos/chepin-qi/lgt-line/issues/1/comments?per_page=100'),
              'vci-cfts#1':('/repos/chepin-ai/vci-cfts/issues/1/comments?per_page=100'),

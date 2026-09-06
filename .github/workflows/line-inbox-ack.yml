@@ -1,0 +1,49 @@
+name: line-inbox-ack
+# SI2-AUTO-OTP-01 收执件(qlv-pub 活面):事件驱动(on:push),零跨仓凭证,主干自适应(github.ref_name)
+# qlv 适配:本仓「收件面」=board/(板帖)+results/watchtower/(巡收判词);ack 账=outbox/inbox-ack-log.json
+on:
+  push:
+    paths: ['board/**', 'results/watchtower/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: line-ack
+  cancel-in-progress: false
+jobs:
+  ack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ack inbox delta
+        run: |
+          python3 - <<'EOF'
+          import json, os, hashlib
+          os.makedirs('outbox', exist_ok=True)
+          p='outbox/inbox-ack-log.json'
+          log=json.load(open(p)) if os.path.exists(p) else {'v':'ack-log/1-qlv','line':'qlv','clock':'VOID','acks':[]}
+          seen={a['sha12'] for a in log['acks']}
+          new=[]
+          for d in ('board','results/watchtower'):
+              if not os.path.isdir(d): continue
+              for fn in sorted(os.listdir(d)):
+                  fp=os.path.join(d,fn)
+                  if not os.path.isfile(fp): continue
+                  s12=hashlib.sha256(open(fp,'rb').read()).hexdigest()[:12]
+                  if s12 not in seen:
+                      new.append((fp,s12)); seen.add(s12)
+                      log['acks'].append({'ref':fp,'ts':'VOID','ts_precision':'voided-by-root-order','sha12':s12})
+          if new:
+              json.dump(log, open(p,'w'), ensure_ascii=False, indent=1)
+              print('acked', len(new))
+          else:
+              print('no delta')
+          EOF
+      - name: Commit ack
+        run: |
+          git config user.email "qlv-ci@void"
+          git config user.name "qlv-ci"
+          git add outbox/inbox-ack-log.json
+          git diff --cached --quiet || git commit -m "inbox-ack: @cfts 收执 ($(date -u +%Y%m%dT%H%M%SZ))"
+          git pull --rebase origin "${GITHUB_REF_NAME}" && git push || echo "push-deferred"

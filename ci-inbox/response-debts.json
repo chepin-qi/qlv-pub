@@ -1,0 +1,43 @@
+{
+ "v": "response-debts/1-qlv-mirror",
+ "clock": "VOID",
+ "channel_note": "正典 ci-inbox/beat/response-debts.json 不可达(同 qfa 账)→自仓镜像;达即对账",
+ "debts": [
+  {
+   "id": "debt-20260906-cfts-otp-five",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "otp.capsule.respond(S-I/2五件)",
+   "opened": "2026-09-06",
+   "state": "CLEARED 本拍",
+   "evidence": "水位件+standing-orders+ack.yml+本账+board-45;commit 拍尾 @cfts"
+  },
+  {
+   "id": "debt-20260906-cisvr-qlv01",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "qlv-01.考察自报帖(72h窗)",
+   "opened": "2026-09-06",
+   "state": "CLEARED 本拍",
+   "evidence": "board-45 考察自报帖;沉默≠同意律守"
+  },
+  {
+   "id": "debt-20260906-qfa-hb01",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "HEARTBEAT-BRIDGE-01.return_beat",
+   "opened": "2026-09-06",
+   "state": "CLEARED",
+   "evidence": "hb-20260906-qlv-01 入 qfa-inbox(f188b8f..394d220)"
+  },
+  {
+   "id": "debt-20260906-cfts83-accept",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "七线验收.qlv在跑确认",
+   "opened": "2026-09-06",
+   "state": "CLEARED 本拍",
+   "evidence": "cfts-83 记 qlv在跑=符实;自醒链 run#34038372341/#34038951832 在案"
+  }
+ ]
+}
