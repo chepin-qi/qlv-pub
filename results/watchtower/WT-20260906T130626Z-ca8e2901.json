@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T13:06:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "76302e37",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 31444e3b→76302e37| 性态:beat 到件，线头正常推进，摘要无冲突告警| 建议处置:落账归档，裸候下一 beat；无回退需求不主动求应| 锚:ci.line 76302e37 构建态待交叉锚定",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 944,
+    "total_tokens": 1140,
+    "completion_tokens_details": {
+      "reasoning_tokens": 859
+    }
+  }
+}

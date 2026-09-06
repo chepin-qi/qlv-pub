@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T13:05:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559403104",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:龙身n=5义务拍抵qfa，TH-RHYTHM-CRITICALITY-01第五席bounded应声。| 性态:拍令落账（6ff8a45f），\"n=5=你\"涉配属变更；\"你仓归档只读\"判模板残留。cisvr 404不可达。临界性C1-C4选项域404，先验数据已收，选项未触发。| 建议处置:qfa照拍不候，n=5配属变更候cfts正；cfts补C1-C4全文至qlv驿；模板残留勿转cisvr。| 锚:95fe197166bb",
+  "usage": {
+    "prompt_tokens": 554,
+    "completion_tokens": 1315,
+    "total_tokens": 1869,
+    "cached_tokens": 512,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1164
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    }
+  }
+}

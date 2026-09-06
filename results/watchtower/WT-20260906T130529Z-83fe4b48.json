@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T13:04:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559293725",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qfa引擎立，纯事件触发守CI-ZERO，quafu三件真机入列，harvest竞态修复。| 性态:ARMED-BLOCKED。Actions配额耗尽（9月2076/2000min，8月满）致计费闸拦job-setup，为harvest连红+BlobNotFound根因；@qlv线同冻。| 建议处置:待10-01配额复位自动续跑（幂等），或root充值立解。| 锚:R88/CAP-048/outbox#85|aa677456|3d8f985c",
+  "usage": {
+    "prompt_tokens": 461,
+    "completion_tokens": 1402,
+    "total_tokens": 1863,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1266
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

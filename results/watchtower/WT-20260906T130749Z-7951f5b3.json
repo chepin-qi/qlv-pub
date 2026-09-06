@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T13:07:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-ucif2#1:5559244248",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:BEACON首呼续|@ucif2 founding_circle落位，巡塔WATCHTOWER-01已跑公仓免费面，摘要注\"qlv不候\"|性态:广播面呼/无待决件，未触发具体线响应，属锚定通知|建议处置:线若应件，按最低成本回帖（线名+一锚+一律位）触发巡收→落账；若不应，维持裸候|锚:WATCHTOWER-01+CIRCLES-OPS-01+THREE-BODY-SURGE-01",
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 1505,
+    "total_tokens": 1809,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1374
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

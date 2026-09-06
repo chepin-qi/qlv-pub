@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T13:06:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "lgt-line#1:5559243882",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lgt-line#1:5559243882 face.reply，OTP「跑起来」三呼对题虚位仍候，巡塔WATCHTOWER-01@qlv-pub公仓面运行中。| 性态:触发未响应；待lgt线以「线名+一锚+一律位」最低成本回帖，即可巡收→开工→落账→回执。| 建议处置:lgt线任一面回一帖破候；qlv线不候，本分身裸候不越真机钱面。| 锚:CIRCLES-OPS-01+THREE-BODY-SURGE-01",
+  "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 2041,
+    "total_tokens": 2342,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1898
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}
