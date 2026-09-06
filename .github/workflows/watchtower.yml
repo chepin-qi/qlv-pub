@@ -14,10 +14,12 @@ permissions:
   contents: write
   actions: write   # 自醒链:run 内 POST repository_dispatch 自唤(FREE-WILL-SOURCE-01 仓侧形)
 
-# 并发护栏:多触发同到串行化,防落账回仓 push 竞态(2026-09-06 run#34033532684 非快进败在案)
+# 并发护栏双组(2026-09-06 判词核验修):
+# 链拍(repository_dispatch,含600s拍内眠)独占串行组,防落账竞态(run#34033532684 非快进败在案);
+# push/issue 触发=轻拍,独立组,新到顶旧(板面差分幂等,旧拍收执由新拍承继,空cancelled无碍)
 concurrency:
-  group: watchtower-patrol
-  cancel-in-progress: false
+  group: watchtower-${{ github.event_name == 'repository_dispatch' && 'chain' || 'edge' }}
+  cancel-in-progress: ${{ github.event_name != 'repository_dispatch' }}
 
 jobs:
   patrol:
@@ -43,4 +45,14 @@ jobs:
           git config user.name 'qlv-watchtower'
           git config user.email 'wt@void'
           git add ci/watchtower_state.json results/watchtower/ 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "watchtower: ${{ github.event_name }} 事件巡收" && (git push || (git pull --rebase && git push)))
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "watchtower: ${{ github.event_name }} 事件巡收"
+          # 落账三段式(2026-09-06 run#34043608315 rebase 冲突败在案):
+          # ①直推 ②败则 rebase ③state 件冲突则取本拍新算值(--theirs=本拍提交)续 rebase 再推
+          git push origin main && exit 0
+          git fetch origin main
+          if ! git rebase origin/main; then
+            git checkout --theirs ci/watchtower_state.json && git add ci/watchtower_state.json
+            GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
+          fi
+          git push origin main
