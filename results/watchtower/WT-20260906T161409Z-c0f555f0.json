@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T16:13:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5560421812",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:幂等收讫|cfts信标 nonce 007088ca83d6 经 capsule#133 落入，系统判重：与前置信标 5560191390/capsule#130 同事件，幂等拦截生效，未重复处置|性态:重复到达·零边际变化；巷卡10/板#2/响应账均无新增，属正常心跳冗余，非异常|建议处置:裸候即可，无需回刷或人工复核；若该 nonce 连续重复≥3次再检链路延迟|锚:379ca852e7/capsule#133/qi-lab#5:5560421812",
+  "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 1132,
+    "total_tokens": 1416,
+    "completion_tokens_details": {
+      "reasoning_tokens": 985
+    }
+  }
+}
