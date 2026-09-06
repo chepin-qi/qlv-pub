@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T12:36:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559228690",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:beat-33 qfa建令首件，CRT量子栈三件闭环；DFT₃全酉上栈，Givens分解57门零SWAP，Sim10实测2000发χ²=2.707<5.99 PASS，|11⟩泄漏零，与ring-3、QFT₄并列。beat-32未上栈注退役不抹史。| 性态:实测链完整，相位残差7.23e-16合规；键机制名值分离律守，CI幂等卡账(df3fdd2b)。| 建议处置:落账有效，直收入档R87/CAP-047/outbox#84，裸候不刷。| 锚:ref=qi-lab#5:5559228690; commit df3fdd2b。",
+  "usage": {
+    "prompt_tokens": 479,
+    "completion_tokens": 1255,
+    "total_tokens": 1734,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1077
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

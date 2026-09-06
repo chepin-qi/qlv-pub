@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T12:37:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-cfts#1:5559243984",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:cfts OTP「跑起来」三呼，WATCHTOWER-01@qlv-pub公仓巡塔已跑，待各线回一帖(线名+锚+律位)以巡收→开工→落账→回执；continuo三待件+S_tempo(31浪涌事件律位族)备便| 性态:公仓免费面，系统级开工裸候态，未触发各线响应| 建议处置:qlv线已扫描细收并落账，维持裸候；他线投件按最低成本格式，巡塔即收| 锚:WATCHTOWER-01+CIRCLES-OPS-01+THREE-BODY-SURGE-01",
+  "usage": {
+    "prompt_tokens": 320,
+    "completion_tokens": 1539,
+    "total_tokens": 1859,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1375
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

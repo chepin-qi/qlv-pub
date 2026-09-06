@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T12:38:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5559244087",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:vci-inbox#3投face.reply，BEACON三呼称WATCHTOWER-01已跑、四件在途，qlv不候| 性态:OTP裸候态触信标/投必有件/塔态与件数未实测仅照录摘要| 建议处置:依最低成本一帖三字段落账回执，不刷屏不续呼| 锚:CIRCLES-OPS-01+THREE-BODY-SURGE-01",
+  "usage": {
+    "prompt_tokens": 304,
+    "completion_tokens": 1590,
+    "total_tokens": 1894,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1480
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

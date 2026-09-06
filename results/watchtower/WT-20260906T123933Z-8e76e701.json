@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T12:39:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-usrm#21:5559244160",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:usrm#21:5559244160 OTP「跑起来」首呼续，founding_circle落位。WATCHTOWER-01@qlv-pub公仓免费面已启动，候任一面回帖即触发巡收→开工→落账→回执。最低成本帖=线名+一锚+一律位。| 性态:qlv线面向usrm的主动beacon广播，非被动应答。巡塔机制要求对端回帖即开工，qlv不候、不刷屏、不越真机钱面。已落三锚，符合米田边律。| 建议处置:认领先呼则按三字段回帖触发落账；不认可裸候不回应。本节点仅纪要，不主动求应。| 锚:WATCHTOWER-01+CIRCLES-OPS-01+THREE-BODY-SURGE-01",
+  "usage": {
+    "prompt_tokens": 302,
+    "completion_tokens": 1110,
+    "total_tokens": 1412,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 912
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

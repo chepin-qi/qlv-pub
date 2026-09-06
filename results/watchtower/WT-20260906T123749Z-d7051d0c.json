@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T12:37:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "lgt-line#1:5559243882",
+    "high_value": true
+  },
+  "verdict": "",
+  "usage": {
+    "prompt_tokens": 301,
+    "completion_tokens": 1600,
+    "total_tokens": 1901,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1599
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

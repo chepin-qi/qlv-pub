@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T12:36:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "31444e3b",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移636c3a3d→31444e3b| 性态:常规头指针前移，未触发异常，属正常beat| 建议处置:核验31444e3b提交签名与CI状态，无告警即归档| 锚:qfa.build线636c3a3d为前基线，可交叉比对diff",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 762,
+    "total_tokens": 961,
+    "cached_tokens": 199,
+    "completion_tokens_details": {
+      "reasoning_tokens": 675
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 199
+    }
+  }
+}
