@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T16:25:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260906T161540-aab562b3.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡10→11跳变，伴随auto-otp-20260906T161540-aab562b3.json入inbox，属lane.drop类到件。| 性态:巷卡弃置/切变，文件未触发内容校验，仅触达通知；clock=VOID，无实测时标可落。| 建议处置:细收该json完整性→裁决是否归档至巷卡11→落账；若10号有挂账未结，先挂起迁移再弃卡。| 锚:lanes/qlv/archive:lane-drop-sop, AUTH-OTP-02挂账结清条款。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 951,
+    "total_tokens": 1171,
+    "cached_tokens": 220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 809
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 220
+    }
+  }
+}

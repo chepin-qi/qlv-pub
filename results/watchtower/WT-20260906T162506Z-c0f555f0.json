@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T16:24:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5560421812",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:beacon.comment@qi-lab#5:5560421812，nonce 007088ca83d6 重复唤收，系统检知同事件已于capsule#130/信标5560191390收讫| 性态:幂等拦截，无状态漂移；巷卡#10、板#2、响应账均无新增| 建议处置:不重复处置，本次落账为\"幂等收讫\"，裸候不刷屏| 锚:capsule#133←capsule#130;巷卡#10(cisvr-159);5560191390",
+  "usage": {
+    "prompt_tokens": 284,
+    "completion_tokens": 929,
+    "total_tokens": 1213,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 794
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T16:24:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5560377939",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:BEACON回程收讫(nonce 4b0a686376b9)。qlv-01三证前置已在板(board-47/capsule#131)，本帖(capsule#132)为道A回程执据，去程三证+本收执=API全环闭合。| 性态:标准beacon.comment回程闭合，链路自洽；clock=VOID不影响落账。| 建议处置:已落账。无异常，裸候，不主动求应。| 锚:qi-lab#5:5560377939;board-47;capsule#131;cfts",
+  "usage": {
+    "prompt_tokens": 275,
+    "completion_tokens": 1413,
+    "total_tokens": 1688,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1274
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}
