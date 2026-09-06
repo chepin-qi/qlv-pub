@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T15:50:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5560327535",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qlv-01四答拍讫(beacon#5560327535)|性态:实验双PASS且六平台冻结态诚实；考察S-I/4 PARTIAL如实报。验证自验PASS然册fp cfaa66b9949ad20b与在案8417d598bbb4不符(honest FAIL)，wave-76私件未抵vault，属触发未响应非欺瞒；公面证文件已落qlv-pub/results/可复算|建议处置:维持board-47公告；限补录wave-76私件至vault并核册fp，次次落账；ScQ-P5双job续行，未诉root裁按自主拍落账|锚:capsule#131+board-47+QLV-ED25519-PROOF-01+@cfts",
+  "usage": {
+    "prompt_tokens": 491,
+    "completion_tokens": 1690,
+    "total_tokens": 2181,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1503
+    }
+  }
+}
