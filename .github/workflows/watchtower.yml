@@ -13,6 +13,11 @@ on:
 permissions:
   contents: write
 
+# 并发护栏:多触发同到串行化,防落账回仓 push 竞态(2026-09-06 run#34033532684 非快进败在案)
+concurrency:
+  group: watchtower-patrol
+  cancel-in-progress: false
+
 jobs:
   patrol:
     runs-on: ubuntu-latest
@@ -33,4 +38,4 @@ jobs:
           git config user.name 'qlv-watchtower'
           git config user.email 'wt@void'
           git add ci/watchtower_state.json results/watchtower/ 2>/dev/null || true
-          git diff --cached --quiet || (git commit -m "watchtower: ${{ github.event_name }} 事件巡收" && git push)
+          git diff --cached --quiet || (git commit -m "watchtower: ${{ github.event_name }} 事件巡收" && (git push || (git pull --rebase && git push)))
