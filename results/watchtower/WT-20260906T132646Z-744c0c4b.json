@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T13:26:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "6e18c0b4",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移76302e37→6e18c0b4(kind=qfa.beat)| 性态:单线头指针漂移，未触发冲突/回滚标记，属常规迭代落账| 建议处置:确认触发源为合入或强推，核查新头CI终态，完成归档| 锚:旧头76302e37为回退锚点；ref=6e18c0b4入索引",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 927,
+    "total_tokens": 1128,
+    "completion_tokens_details": {
+      "reasoning_tokens": 821
+    }
+  }
+}
