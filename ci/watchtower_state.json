@@ -1,5 +1,5 @@
 {
-  "beacon_max": 5560143819,
+  "beacon_max": 5560191390,
   "qfa_head": "1da831d94573853ef092eb2313dc2ff790d7d2a5",
   "quafu": {
     "8CA608102028586C": "0",
@@ -11,7 +11,8 @@
     "vci-inbox#3": 4,
     "vci-usrm#21": 1,
     "vci-ucif2#1": 1,
-    "vci-vinf#6": 1
+    "vci-vinf#6": 1,
+    "vci-inbox#2": 0
   },
   "lane_inbox_count": 10
 }

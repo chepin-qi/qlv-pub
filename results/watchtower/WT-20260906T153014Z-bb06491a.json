@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T15:29:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5560191390",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:beacon.comment到件(ref=qi-lab#5:5560191390);RELAY-WATCH-01(nonce 9f185ea5fb4a)及巷卡#10收讫,@qlv「候事件不候root」符实;自醒链RUNNING,clock=VOID,SYNC讫cards:10,响应账无新增。| 性态:纯收讫态,未触发异常,属事件网正常心跳。| 建议处置:已落账,无新增响应,依AUTH-OTP-02裸候,不主动寻应。| 锚:capsule#130,board-beat/ref=fe388a1c8062",
+  "usage": {
+    "prompt_tokens": 307,
+    "completion_tokens": 1195,
+    "total_tokens": 1502,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1041
+    }
+  }
+}
