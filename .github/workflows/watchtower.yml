@@ -1,0 +1,36 @@
+name: watchtower
+# 纯事件驱动:零 schedule;push=板帖/仓件落地,issue_comment=议件,repository_dispatch/workflow_dispatch=联邦接力/手动
+on:
+  push:
+  issue_comment:
+    types: [created]
+  issues:
+    types: [opened]
+  repository_dispatch:
+    types: [federation-event]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patrol:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: watchtower --once(轮询→事件→API 开工→落账)
+        env:
+          KIMI_API_KEY: ${{ secrets.KIMI_API_KEY_VCI1 }}
+          QI_PAT: ${{ secrets.QI_PAT }}
+          QUAFU_TOKEN: ${{ secrets.QUAFU_TOKEN }}
+        run: python3 ci/watchtower.py --once
+      - name: 落账回仓(state+notes)
+        run: |
+          git config user.name 'qlv-watchtower'
+          git config user.email 'wt@void'
+          git add ci/watchtower_state.json results/watchtower/ 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "watchtower: ${{ github.event_name }} 事件巡收" && git push)
