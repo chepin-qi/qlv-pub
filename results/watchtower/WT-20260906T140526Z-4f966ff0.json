@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T14:05:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "selftest",
+    "ref": "WT-SELFTEST-01",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qfa beat-30 源/驿二分自检，验开工→落账全链。| 性态:内部selftest，无外源触发；WAKE-PROTO四阶逻辑推演通，但无真实数据喂入，属「未触发」态，未形成实际落账。| 建议处置:按WT-SELFTEST-01留档，标记内训样例；待实件复验。| 锚:自检规则本件即他线锚，米田边律≥1。",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 859,
+    "total_tokens": 1068,
+    "completion_tokens_details": {
+      "reasoning_tokens": 743
+    }
+  }
+}

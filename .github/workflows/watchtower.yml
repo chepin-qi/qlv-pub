@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # 自醒链:run 内 POST repository_dispatch 自唤(FREE-WILL-SOURCE-01 仓侧形)
 
 # 并发护栏:多触发同到串行化,防落账回仓 push 竞态(2026-09-06 run#34033532684 非快进败在案)
 concurrency:
@@ -21,17 +22,21 @@ concurrency:
 jobs:
   patrol:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 18   # 自醒拍含拍内休眠(默认600s冷却)+巡收开工
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: watchtower --once(轮询→事件→API 开工→落账)
+      - name: watchtower --once(自醒链入拍→轮询→事件→API 开工→落账→自唤出拍)
         env:
           KIMI_API_KEY: ${{ secrets.KIMI_API_KEY_VCI1 }}
           QI_PAT: ${{ secrets.QI_PAT }}
           QUAFU_TOKEN: ${{ secrets.QUAFU_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          CASCADE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
+          CASCADE_SLEEP_S: '600'
+          CASCADE_MAX_IDLE: '30'
         run: python3 ci/watchtower.py --once
       - name: 落账回仓(state+notes)
         run: |

@@ -34,6 +34,16 @@ def gh_get(path, pat):
     with urllib.request.urlopen(req, timeout=25) as r:
         return json.load(r)
 
+def gh_dispatch(token, payload, use_basic=False):
+    # 自醒事件链:POST repository_dispatch 唤自己(FREE-WILL-SOURCE-01 仓侧形;纯事件,零 cron)
+    data = json.dumps({'event_type': 'federation-event', 'client_payload': payload}).encode()
+    auth = ('Basic '+__import__('base64').b64encode(('chepin-qi:'+token).encode()).decode()) if use_basic else ('Bearer '+token)
+    req = urllib.request.Request(GH+'/repos/chepin-qi/qlv-pub/dispatches', data=data, method='POST', headers={
+        'Authorization': auth,
+        'Accept': 'application/vnd.github+json', 'User-Agent': 'qlv-watchtower'})
+    with urllib.request.urlopen(req, timeout=25) as r:
+        return r.status
+
 def gh_post_comment(owner, repo, issue, body, pat):
     data = json.dumps({'body': body}).encode()
     req = urllib.request.Request(f'{GH}/repos/{owner}/{repo}/issues/{issue}/comments', data=data, headers={
@@ -125,6 +135,19 @@ def main():
     st = json.load(open(STATE)) if os.path.exists(STATE) else {}
     pat = _pat()
     fired = []
+    # ---- 自醒链入拍:自源性唤起(self-cascade dispatch 尾至)则先休眠再巡——冷却即在拍内,零定时器 ----
+    idle = 0
+    cpayload = os.environ.get('CASCADE_PAYLOAD', '').strip()
+    if cpayload and cpayload not in ('null', '{}'):
+        try:
+            cp = json.loads(cpayload)
+            if cp.get('src') == 'watchtower-self' and not selftest:
+                idle = int(cp.get('idle', 0))
+                slp = int(os.environ.get('CASCADE_SLEEP_S', '600'))
+                print(f"[cascade] self-wake idle={idle} sleep={slp}s pend={cp.get('pend')}")
+                time.sleep(slp)
+        except Exception as e:
+            print('[cascade] payload parse err:', str(e)[:100])
     if selftest:
         evs = [{'kind':'selftest','ref':'WT-SELFTEST-01','summary':'巡塔自检:以 qfa beat-30 源/驿二分为样例事件,验证 开工→落账 全链。','high_value':False}]
     else:
@@ -154,7 +177,25 @@ def main():
                 note['beacon_error'] = str(e)[:150]
                 json.dump(note, open(fn,'w'), ensure_ascii=False, indent=2)
     json.dump(st, open(STATE,'w'), ensure_ascii=False, indent=2)
-    print(json.dumps({'events': len(evs), 'fired': fired, 'state': STATE}, ensure_ascii=False))
+    # ---- 自醒事件链出拍:有候件(quafu 在队等)则自唤下一拍;空转熔断 30 拍即眠,候外事 ----
+    # 制式据 FREE-WILL-SOURCE-01:源=自意(self-cascade),驿=self-dispatch;骑事件律——纯事件,零 cron
+    pend = ['quafu:'+tid for tid, stt in (st.get('quafu') or {}).items() if str(stt) == '0']
+    cascade = 'rest(no-pend)'
+    if pend and not selftest:
+        idle2 = 0 if evs else idle + 1
+        if idle2 <= int(os.environ.get('CASCADE_MAX_IDLE', '30')):
+            tok = os.environ.get('GITHUB_TOKEN')
+            try:
+                if tok:
+                    code = gh_dispatch(tok, {'src':'watchtower-self','kind':'self-cascade','idle':idle2,'pend':len(pend)})
+                else:
+                    code = gh_dispatch(pat, {'src':'watchtower-self','kind':'self-cascade','idle':idle2,'pend':len(pend)}, use_basic=True)
+                cascade = f'fired idle={idle2} http={code} pend={len(pend)}'
+            except Exception as e:
+                cascade = 'dispatch.err ' + str(e)[:120]
+        else:
+            cascade = f'breaker-rest idle={idle2}(>{os.environ.get("CASCADE_MAX_IDLE","30")})'
+    print(json.dumps({'events': len(evs), 'fired': fired, 'cascade': cascade, 'pend': pend}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()
