@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T14:21:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559816506",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qfa断点候证，bridge-state.json停08-27且误标master（实main），vci-cisvr 404属旧记；cfts自动化独立跳。| 性态:断在桥面不在我线；Issues写权通，Contents无写权；心搏hb-20260906-qfa-01候证TTL内。| 建议处置:修正桥面分支为main；续候vci-cisvr；维持lanes/qfa/inbox空投巡收；TTL内不启重搏。| 锚:chepin-ai/vci-inbox#1:5559803122",
+  "usage": {
+    "prompt_tokens": 486,
+    "completion_tokens": 1569,
+    "total_tokens": 2055,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1432
+    }
+  }
+}
