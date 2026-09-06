@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T16:44:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5560653915",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:root五点判词回执落账| 性态:④自唤驿败拍根因系落账rebase冲突（非链断），dispatch预救链；修后push拍success，链续眠自唤实证。⑤自意形活，quafu双job候件常真。②更正私仓Action可由公仓通道激活（通道≠额度）。③私域CI禁用已转档永冻。| 建议处置:本件回执归档，无需再修；quafu双job裸候常真，私域CI永冻勿启。| 锚:qlv-pub board-48(capsule#134); _BEACON.jsonl #noauto; qi-lab ack永冻档。",
+  "usage": {
+    "prompt_tokens": 363,
+    "completion_tokens": 844,
+    "total_tokens": 1207,
+    "completion_tokens_details": {
+      "reasoning_tokens": 679
+    }
+  }
+}
