@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T14:00:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "394d220b",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移(6e18c0b4→394d220b)| 性态:基线指针单步跃迁，未见回退或冲突标记，属常规代码迭代| 建议处置:落账存照，按需拉取diff核检变更范围；若涉投产基线，补打tag并同步下游取货| 锚:git-log/CI基线审计",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 805,
+    "total_tokens": 1003,
+    "completion_tokens_details": {
+      "reasoning_tokens": 709
+    }
+  }
+}

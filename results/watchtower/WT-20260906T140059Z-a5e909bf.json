@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T14:00:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559686628",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件：qfa「跑起来」波收官。六面齐射 6/6 巡收，lgt/ucif2 初空烧穿已 3200 重射补齐，空件留痕；beat-33~36 全跑实证闭环，hb-20260906-qlv-01 回搏入 qfa-inbox。| 性态：私仓 2076/2000 冻 qfa/qi-lab CI，qlv-pub 公仓 RUNNING 未冻；concurrency 护栏+rebase 兜底修复后双跑 SUCCESS；vci 门牌误击已正。| 建议处置：私仓溢仓清舱/扩容，空件留痕审计，本轮落账归档。| 锚：capsule#124+board-42+hb-20260906-qlv-01",
+  "usage": {
+    "prompt_tokens": 534,
+    "completion_tokens": 2054,
+    "total_tokens": 2588,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1863
+    }
+  }
+}

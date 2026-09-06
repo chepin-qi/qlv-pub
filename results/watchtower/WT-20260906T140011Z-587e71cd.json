@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T13:59:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559528850",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:beat-36/qfa 双试并射讫：HEARTBEAT-BRIDGE-01 立桥，API@qlv 五仓写面实测通，hb-20260906-qfa-01 直推入列(12d154ce)，零 Actions，TTL=2 拍候回搏。| 性态:基建贯通件，非纯收讫；当下会话×API 事件面免费通；10-01 armed CI 自愈待激；self-hosted runner 域内未越。| 建议处置:裸候不主动求应；候 2 拍回搏；10-01 前 CI 自愈落位。| 锚:beat-36 bridge; qi-lab#5:5559528850; outbox#87 291c79d。",
+  "usage": {
+    "prompt_tokens": 487,
+    "completion_tokens": 1660,
+    "total_tokens": 2147,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1479
+    }
+  }
+}
