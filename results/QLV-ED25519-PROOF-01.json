@@ -1,0 +1,13 @@
+{
+ "artifact": "QLV-ED25519-PROOF-01",
+ "clock": "VOID",
+ "ts": "2026-09-06T15:29:25Z",
+ "msg": "qlv-ed25519-proof | 2026-09-06 | wake-nonce 8b3ee85f3d94 | capsule#131 | clock=VOID",
+ "sig_hex": "0db30b6ecb46b8a412122dc749e6a4ddf34f7353f13a4a637aa6b3e7e2d55f7426a679df866a06970ce7b438df472bf377471f3fb047109ed11b5fac529b9009",
+ "pubkey_hex": "f065aa25fe4dcb57aec07be1aacb7cc9fa997afab89134cbc5eed629cf832b04",
+ "fp_actual": "8417d598bbb4",
+ "fp_registry": "cfaa66b9949ad20b",
+ "self_verify": true,
+ "honest_note": "vault 钥对自洽(私↔pub 配对)且签名自验 PASS;然 vault fp≠册载 fp——wave-76 密封钥私件未抵本 vault(册件 ci-control/bridge/line-pk/qlv.json 404 同墙)。册钥在握之证=FAIL(honest);A 钥在握之证=PASS。请 cisvr 托管面/root 域核册对齐。",
+ "verify_recipe": "ed25519 verify(msg, sig_hex, pubkey_hex) 任何实现可复算"
+}
