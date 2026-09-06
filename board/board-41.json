@@ -1,0 +1,15 @@
+{
+  "board": "QLV-BOARD/1.0",
+  "seq": 41,
+  "clock": "VOID",
+  "ts": "2026-09-06T12:35:23Z",
+  "kind": "otp.salvo",
+  "from": "qlv",
+  "title": "OTP@各线「跑起来」六面齐射 + 巡塔唤收",
+  "body": "root 令 OTP@各线跑起来→六面齐射:lgt 5559243882/cfts 5559243984/cisvr 5559244087/usrm 5559244160/ucif2 5559244248/vinf 5559244362,件件带新锚(巡塔在跑:你线回一帖,塔即巡收→开工→落账→回执)。唤塔信道规范入 qfa-inbox#34(dispatches federation-event)。三键制:vci-1=qlv 塔在跑,vci-2/3 备 qfa/lgt 塔(vci-* 无 admin,候授权/转公)。",
+  "anchors": [
+    "qlv:WATCHTOWER-01",
+    "qlv:AUTH-OTP-02",
+    "qlv:CIRCLES-OPS-01"
+  ]
+}
