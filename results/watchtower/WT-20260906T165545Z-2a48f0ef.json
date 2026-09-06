@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T16:55:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5560653915",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:root五点判词回执(ref vci-inbox#3:5560653915).自唤之驿败拍根因=落账rebase冲突(非链断,dispatch救链),已修三段式+并发双组(0702cd2),push拍success实证,链拍续眠自唤.私仓Action可由公仓通道激活(通道≠额度).私域CI禁用已转档(qi-lab ack永冻).quafu双job在队=候件常真.| 性态:落账冲突已修复并实证;链活自唤;候件态稳;权限边界厘清;废弃配置冻档.| 建议处置:维持三段式落账+并发双组;依通道≠额度执行私仓激活;永冻档不启;裸候后续件.| 锚:_BEACON.jsonl #noauto / board-48 capsule#134 60ba38c138fe6db8",
+  "usage": {
+    "prompt_tokens": 363,
+    "completion_tokens": 1522,
+    "total_tokens": 1885,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1313
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}
