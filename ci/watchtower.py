@@ -107,7 +107,7 @@ clock=VOID。判词须诚实:未实测不编数,区分「未触发 vs 触发未�
 输出制式(≤250字):【WT判词】事件:...| 性态:...| 建议处置:...| 锚:..."""
 
 def work_event(api_key, ev):
-    body = {'model':'kimi-k2.6','max_completion_tokens':1600,
+    body = {'model':'kimi-k2.6','max_completion_tokens':3200,
             'messages':[{'role':'system','content':WORKER_SYS},
                         {'role':'user','content':f"事件到件,请出判词纪要。\nkind={ev['kind']}\nref={ev['ref']}\n摘要:\n{ev['summary']}"}]}
     req = urllib.request.Request('https://api.moonshot.cn/v1/chat/completions',
