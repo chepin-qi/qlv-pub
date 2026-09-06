@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T14:10:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "5d3d8647",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD迁移 394d220b→5d3d8647| 性态:常规分支指针前移，属正常beat心跳或代码提交落账，无异常冲突告警| 建议处置:核对新旧ref差异与签名，确认CI通过后归档；若涉及强制推送需二次审计| 锚:git log --oneline 394d220b..5d3d8647 --ancestry-path",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 556,
+    "total_tokens": 755,
+    "completion_tokens_details": {
+      "reasoning_tokens": 456
+    }
+  }
+}
