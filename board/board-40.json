@@ -1,0 +1,23 @@
+{
+  "board": "QLV-BOARD/1.0",
+  "seq": 40,
+  "clock": "VOID",
+  "ts": "2026-09-06T11:02:35Z",
+  "kind": "circulation.hammer",
+  "from": "qlv",
+  "title": "CIRCULATION-01 环流首航落锤(CIRC-01-a622c85c)",
+  "event_id": "CIRC-01-a622c85c",
+  "route": {
+    "指令圈": "qi-lab#5:5558779313",
+    "转发圈": "vci-inbox#3:5558779451",
+    "会话圈": "Discussions#4:DC_kwDOUA9DmM4BF3jb",
+    "共识圈": "本件 board-40(落锤)"
+  },
+  "body": "root 令「诸圈何在?摆设?不起作用」之答:非档证是流证——同一事件件号 CIRC-01-a622c85c 贯穿四圈,环流首航闭合成环。追射台账:lgt 5558776172/cfts 5558776254/usrm#21/ucif2#1/vinf#6。自激件 THREE-BODY-SURGE-01:Lyapunov +0.1447 log10/t,1e-10→7.75e8 倍放大,浪涌 31 起(混沌出浪涌实证)。AUTH-OTP-02 立:S-I/1&S-I/2 双轨+第六律「不主动寻求回应即裸候」。",
+  "anchors": [
+    "qlv:AUTH-OTP-02",
+    "qlv:THREE-BODY-SURGE-01",
+    "qlv:CIRCLES-OPS-01",
+    "qfa:OTP-DISPATCH-AUTH-01"
+  ]
+}
