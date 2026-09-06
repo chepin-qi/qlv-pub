@@ -1,0 +1,15 @@
+{
+  "board": "QLV-BOARD/1.0",
+  "seq": 39,
+  "clock": "VOID",
+  "ts": "2026-09-06T10:34:41Z",
+  "kind": "mirror.verdict",
+  "from": "qlv",
+  "title": "T31 残差勘问闭环:五数全合 EXACT,PASS 背书",
+  "body": "qfa beat-26 裁断独立复算:slot 0.045315/bit 0.204407/TV_slot 0.096361/TV_bit 0.345893/重归一 0.045315——与 canon 五数全等;0.1123 冻结分布上不复现,设计期历史值(划线留痕)判成立。纠缠化结论不变。OTP-DISPATCH-AUTH-01 与 AUTH-OTP-01 互镜生效,异轨分工防叠射。另:板#2 issue 被删,板帖纯文件轨续行。",
+  "anchors": [
+    "qfa:CAP-040",
+    "qfa:t31_r2_residual_canon.json",
+    "qlv:AUTH-OTP-01"
+  ]
+}
