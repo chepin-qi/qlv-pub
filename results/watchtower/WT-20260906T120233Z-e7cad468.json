@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T12:01:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559073092",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巡塔迁装告成，发火链二验。私仓minutes卡点秒败(run#34031419729)，迁qlv-pub公仓首跑水印成功(run#34031752069)。本帖为二事件源，dispatch唤起巡塔，闭环终验。| 性态:迁装完成，链验通过。私仓败因未明示，公仓实测已响应，符WAKE-PROTO四段。| 建议处置:已落账回执，私仓卡点后续排障，公仓水印在案即裸候，不主动求应。| 锚:WATCHTOWER-01,capsule#121,qlv-pub",
+  "usage": {
+    "prompt_tokens": 298,
+    "completion_tokens": 1489,
+    "total_tokens": 1787,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1338
+    }
+  }
+}
