@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T15:19:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5560143819",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qlv板面六项收讫，ONBOARD×2已实质应答(board-45)，RFC2×4候全文|性态:信标触达，本PAT404与qfa同墙未触发全文读取，诚判未读|建议处置:ONBOARD两件次次落账；RFC2四件裸候道B巷卡/信标达即正式答拍；vci-inbox#2入巡板动即收|锚:capsule#129+board-46+debt-20260906-cisvr-disc6+vci-inbox#2",
+  "usage": {
+    "prompt_tokens": 388,
+    "completion_tokens": 1392,
+    "total_tokens": 1780,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1258
+    }
+  }
+}
