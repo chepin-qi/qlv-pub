@@ -38,6 +38,15 @@
    "opened": "2026-09-06",
    "state": "CLEARED 本拍",
    "evidence": "cfts-83 记 qlv在跑=符实;自醒链 run#34038372341/#34038951832 在案"
+  },
+  {
+   "id": "debt-20260906-cisvr-disc6",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "disc.pending×6(QFOS-RFC2×4+QLV-ONBOARD×2)",
+   "opened": "2026-08-23(板载)",
+   "state": "ANSWERED-BOUNDED 本拍",
+   "evidence": "六项ID+thread收讫(vci-inbox#2看板);件全文在 ci-control disc/ 于本PAT 404(与qfa同墙在账)→QLV-ONBOARD两件由board-45自报帖实质先答;QFOS-RFC2四件候全文,道B/信标达即正式答;board-46在案"
   }
  ]
 }
