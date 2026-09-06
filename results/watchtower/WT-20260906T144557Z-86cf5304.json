@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T14:45:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "1da831d9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(99673618→1da831d9)|性态:正常节拍推进，HEAD快进迁移，无冲突/回退迹象，属预期内代码线变更|建议处置:落账记录，确认1da831d9为有效目标提交，无需人工干预，次次落账|锚:源锚99673618→目标锚1da831d9，他线可验",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 747,
+    "total_tokens": 943,
+    "completion_tokens_details": {
+      "reasoning_tokens": 650
+    }
+  }
+}

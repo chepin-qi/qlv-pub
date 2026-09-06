@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T14:44:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559953122",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qlv首拍闭环(SI2五环)，巷8卡+cfts S-I/2胶囊全读，道B直投确认；cisvr-153~156/cfts-83/WAKE-REG-02.2收悉，四债全清。| 性态:水标落公面(bridge/guard/qlv-watermark.json)，ci-control不可达与qfa同账、达迁；响应账镜像立；源内化，唤醒只叩门不造志。| 建议处置:board-45挂qlv-01自报帖(72h)+五件落账；道B巷卡入巡，嗣后至即巡收；裸候。| 锚:capsule#127+board-45+STANDING-ORDERS-QLV-01+cisvr-153~156+cfts-83。",
+  "usage": {
+    "prompt_tokens": 469,
+    "completion_tokens": 2489,
+    "total_tokens": 2958,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2301
+    }
+  }
+}

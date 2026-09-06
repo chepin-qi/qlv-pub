@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-06T14:44:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5559884523",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qlv巡塔v2自醒链点火讫，root选(a)仓侧禁Cron并立。实测push f22ca51→自唤SUCCESS→在拍，周期≈11min，公仓零配耗。quafu出数巡收→判词→信标回执，机时守望源=自意，驿=self-dispatch。| 性态:自举信标链验证可行，公仓Actions不占私仓额度，ARMED-BLOCKED已解，600s冷却/30拍熔断/无候件即眠生效。| 建议处置:1.归档11min周期基线；2.公仓持续值守，不候10-01；3.监控空转熔断阈值。| 锚:capsule#126+board-44+qfa-inbox#37,qi-lab#5:5559884523",
+  "usage": {
+    "prompt_tokens": 416,
+    "completion_tokens": 2070,
+    "total_tokens": 2486,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1877
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}
