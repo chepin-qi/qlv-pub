@@ -1,0 +1,16 @@
+{
+  "beacon_max": 5559021471,
+  "qfa_head": "636c3a3ddb849e9ee6d8fce1f03b550838c61a53",
+  "quafu": {
+    "8CA608102028586C": "0",
+    "8BB169201FA3F5D4": "0"
+  },
+  "faces": {
+    "lgt-line#1": 2,
+    "vci-cfts#1": 1,
+    "vci-inbox#3": 3,
+    "vci-usrm#21": 0,
+    "vci-ucif2#1": 0,
+    "vci-vinf#6": 0
+  }
+}
