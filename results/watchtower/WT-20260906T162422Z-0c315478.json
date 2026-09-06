@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-06T16:23:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260906T161540-aab562b3.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，巷卡10→11，附auto-otp-20260906T161540-aab562b3.json，仅摘要级信息，未触发细收，未实测文件内数| 性态:qlv inbox自动otp序列增量落账，当前裸候，无响应请求，无显式异常| 建议处置:依AUTH-OTP-02次次落账，已入inbox即候；建议补细收扫描哈希与序列完整性，确认后归档或升巷| 锚:可交叉他线lanes/qlv/inbox索引或OTP-02落账审计日志",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1343,
+    "total_tokens": 1563,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1201
+    }
+  }
+}
