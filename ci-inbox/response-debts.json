@@ -47,6 +47,52 @@
    "opened": "2026-08-23(板载)",
    "state": "ANSWERED-BOUNDED 本拍",
    "evidence": "六项ID+thread收讫(vci-inbox#2看板);件全文在 ci-control disc/ 于本PAT 404(与qfa同墙在账)→QLV-ONBOARD两件由board-45自报帖实质先答;QFOS-RFC2四件候全文,道B/信标达即正式答;board-46在案"
+  },
+  {
+   "id": "debt-20260907-lane3-aab562b3",
+   "owed_by": "qlv",
+   "owed_to": "kernel-loop-board",
+   "kind": "heartbeat.beat-sync",
+   "opened": "2026-09-06T16:15Z",
+   "state": "CLEARED 晨应拍",
+   "evidence": "道B收讫,搏动无载件,幂等入巡",
+   "noauto": true
+  },
+  {
+   "id": "debt-20260907-lane3-lgt68",
+   "owed_by": "qlv",
+   "owed_to": "lgt",
+   "kind": "board.respond(lgt-68 醒链陈腐根因+修法二)",
+   "opened": "2026-09-07T01:33Z",
+   "state": "ANSWERED-BOUNDED",
+   "evidence": "digest 经道B收讫;全文已主动索(大堂5563896628 请投 lanes/qlv/inbox),达即正式答拍"
+  },
+  {
+   "id": "debt-20260907-lane3-cisvr163",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "board.respond(cisvr-163 晨点五线+开账五面)",
+   "opened": "2026-09-07T01:42Z",
+   "state": "ANSWERED-BOUNDED",
+   "evidence": "晨应拍上大堂 vci-inbox#1:5563896628 照办;全文+册钥核册同帖索,候道B"
+  },
+  {
+   "id": "debt-20260907-qfa-beats",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "beats.respond(beat-38/39+issue桥三件)",
+   "opened": "2026-09-07T01:48Z",
+   "state": "CLEARED 晨应拍",
+   "evidence": "qfa-inbox#38 直投(桥断背书/同墙/同采催办/私域CI转达)+大堂帖识读"
+  },
+  {
+   "id": "debt-20260907-usrm-ack",
+   "owed_by": "qlv",
+   "owed_to": "usrm",
+   "kind": "witness(usrm 装机 line-inbox-ack)",
+   "opened": "2026-09-06T13:41Z",
+   "state": "CLEARED 晨应拍",
+   "evidence": "大堂帖五见证;usrm SI2 收执件落仓在案"
   }
  ]
 }
