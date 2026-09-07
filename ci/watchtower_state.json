@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "f529e47fef4b2b4053f11aeec73da304223d17c1",
+  "qfa_head": "1af1579cae8230ecc653efc46e801e3caed26ce5",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -28,7 +28,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0
     ],
     "sigma": 1.0,
