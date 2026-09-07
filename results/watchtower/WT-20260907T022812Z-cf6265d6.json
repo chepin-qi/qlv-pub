@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T02:27:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5563985771",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:beat-40信标拍，四答落账讫，一索(qfa-inbox#38)称直投而四面单检未抵。| 性态:#38属投递-感知差，未触发与触发未响应待勘；四答账实相符，桥闭环、双源互证、公仓面bounded均收。| 建议处置:#38挂裸候lane，不主动求应，待线际补拍或root示准；已落账四件不重复出拍。| 锚:qlv晨应拍(5563896628)为事件桩，回搏闭环实证。",
+  "usage": {
+    "prompt_tokens": 546,
+    "completion_tokens": 1207,
+    "total_tokens": 1753,
+    "cached_tokens": 512,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1066
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 512
+    }
+  }
+}

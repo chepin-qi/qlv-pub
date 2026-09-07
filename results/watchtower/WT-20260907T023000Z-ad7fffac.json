@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:29:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "f2f83f87",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 941db271→f2f83f87| 性态:常规仓库状态变更，HEAD 指针正常前移，无冲突/无回滚/无异常分支操作，属 qfa.beat 预期内节拍| 建议处置:裸候，不主动寻求回应；自动落账。建议下游 CI 拉取 f2f83f87 做完整性校验| 锚:commit=f2f83f87; kind=qfa.beat",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 865,
+    "total_tokens": 1062,
+    "completion_tokens_details": {
+      "reasoning_tokens": 752
+    }
+  }
+}
