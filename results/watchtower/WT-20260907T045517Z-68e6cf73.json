@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:54:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "7b8c29d9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 0b030524→7b8c29d9，beat 到件|性态:常规 HEAD 前移，无冲突/异常标记，属主线正常推进，未触发告警条件|建议处置:裸候，不主动寻求回应；次次落账，不越真机钱面；若联动 CI 待下游信号|锚:git HEAD-ref 语义/主链推进锚",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 1334,
+    "total_tokens": 1535,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1233
+    }
+  }
+}
