@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T08:11:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T075648-e2b95c62.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop 到件，ref 为 inbox auto-otp 文件，摘要示巷卡 37→38。| 性态:投递迁移完成；未触发实测响应，无异常标记；clock=VOID。| 建议处置:依 WAKE-PROTO 裁决落账，裸候不主动外呼，不刷屏，归档待下游拾取。| 锚:sys://clock/VOID|hub://lanes/xfer/otp-02",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1805,
+    "total_tokens": 2027,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1702
+    }
+  }
+}
