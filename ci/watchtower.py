@@ -242,6 +242,15 @@ def main():
         except Exception as e:
             qfa_wake = 'pair.err ' + str(e)[:120]
     print(json.dumps({'events': len(evs), 'fired': fired, 'cascade': cascade, 'pend': pend, 'qfa_wake': qfa_wake}, ensure_ascii=False))
+    # AUTORESPONDER-01 输入件:事件面落盘(高值事件供 SI2 应答段)
+    try:
+        os.makedirs(os.path.join(HERE, 'auto-receipts'), exist_ok=True)
+        if evs:
+            json.dump({'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
+                       'evs': evs[:5], 'pend': pend},
+                      open(os.path.join(HERE, 'auto-receipts', '_last_event.json'), 'w'), ensure_ascii=False)
+    except Exception as e:
+        print('last_event.err', str(e)[:100])
 
 if __name__ == '__main__':
     main()
