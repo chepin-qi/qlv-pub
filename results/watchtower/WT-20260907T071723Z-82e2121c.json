@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T07:17:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ea66ff05",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main分支头指针迁移| 性态:正常节拍推进,1af1579c→ea66ff05,当前无异常告警或冲突标记| 建议处置:执行diff扫描确认变更签名与预期一致,完成归档落账,无需拦截| 锚:ref=ea66ff05,前序锚1af1579c",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 538,
+    "total_tokens": 734,
+    "completion_tokens_details": {
+      "reasoning_tokens": 454
+    }
+  }
+}

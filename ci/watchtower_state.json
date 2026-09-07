@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "1af1579cae8230ecc653efc46e801e3caed26ce5",
+  "qfa_head": "ea66ff0587f270ef44b81f067a537100607e42cd",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -14,26 +14,26 @@
     "vci-vinf#6": 1,
     "vci-inbox#2": 0
   },
-  "lane_inbox_count": 35,
+  "lane_inbox_count": 36,
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
-      0
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   }

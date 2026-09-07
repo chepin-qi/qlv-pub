@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T07:17:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T070638-f7fa21f7.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡35→36，auto-otp-20260907T070638-f7fa21f7.json入inbox。| 性态:常规OTP入栈，序进正常，未触发异常。| 建议处置:已落账归档，裸候。| 锚:ref=lanes/qlv/inbox:auto-otp-20260907T070638-f7fa21f7.json; 前序巷卡35。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1603,
+    "total_tokens": 1825,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1499
+    }
+  }
+}
