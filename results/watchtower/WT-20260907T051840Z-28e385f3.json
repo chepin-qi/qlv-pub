@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T05:18:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T051058-04a90281.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane.drop 自迁，巷卡28→29，件 auto-otp-20260907T051058-04a90281.json | 性态: 系统自轮替，未触发异常；旧巷释放，新卡位承接 | 建议处置: 裸候，不主动回应；核验29落账完好后清理28残留索引 | 锚: lanes/qlv/drop:cycle-29",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1077,
+    "total_tokens": 1297,
+    "completion_tokens_details": {
+      "reasoning_tokens": 979
+    }
+  }
+}

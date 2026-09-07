@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T05:17:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "3538eede",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 e5d2e01f→3538eede| 性态:HEAD指针漂移，属版本迭代或分支重定位；构建/告警差异未实测| 建议处置:核对变更清单与签名，预期内归档；非预期fast-forward或force-push则回查| 锚:e5d2e01f@obj-git/3538eede@qfa.beat",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 858,
+    "total_tokens": 1055,
+    "completion_tokens_details": {
+      "reasoning_tokens": 760
+    }
+  }
+}
