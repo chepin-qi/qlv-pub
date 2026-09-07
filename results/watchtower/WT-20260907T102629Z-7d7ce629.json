@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T10:26:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b04cf12b",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头迁(main 9daa6079→b04cf12b)|性态:常规beat落账，ref前移，未触发回滚/非快进强推，未实测diff体量|建议处置:裸候归档，次次落账，若后续附CI或diff超阈再裁决|锚:git-heads-proto(线外: commit-graph索引校验)",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 1075,
+    "total_tokens": 1271,
+    "completion_tokens_details": {
+      "reasoning_tokens": 982
+    }
+  }
+}
