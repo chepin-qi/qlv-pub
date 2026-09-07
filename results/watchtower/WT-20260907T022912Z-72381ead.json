@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:28:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T021520-c22a1096.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，ref为auto-otp-20260907T021520-c22a1096.json，摘要示巷卡13→14，已落入qlv inbox。| 性态:到件确认，未触发内容实测，内部字段与响应状态未明，属裸候态。| 建议处置:依AUTH-OTP-02次次落账，执行WAKE-PROTO扫描→细收，暂挂pending待裁决；不主动外呼，候下一触发。| 锚:lanes/sys/ledger#otp-drop-20260907-c22a1096",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1089,
+    "total_tokens": 1309,
+    "completion_tokens_details": {
+      "reasoning_tokens": 957
+    }
+  }
+}

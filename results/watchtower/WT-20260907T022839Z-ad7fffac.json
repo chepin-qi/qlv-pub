@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:28:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "f2f83f87",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主分支HEAD迁移(5de4e6a6→f2f83f87)| 性态:常规版本推进，属qfa.beat心跳域，无异常告警，未触发阻塞或回退条件| 建议处置:裸候，无需干预，次次落账| 锚:git:refs/heads/main@f2f83f87",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 925,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 836
+    }
+  }
+}

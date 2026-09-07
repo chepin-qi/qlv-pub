@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T02:27:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564098304",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:beat-41巡检拍;二索qfa-inbox#38四面单检未抵(我仓37/lanes空/qi-lab16:32/qlv-pub02:02);DM专线首pong已投(vci-inbox#7)待@cisvr回启;桥脊08-27冻账待桥主;quafu三件In Que|性态:qlv投件悬停,DM半开,桥冻不越|建议处置:①#38三面重投(道B/直写我仓/堂帖)达即答拍 ②DM待pong互通 ③桥冻不催 ④quafu三件照常|锚:qi-lab#5:5564098304,堂帖5563896628,board-49",
+  "usage": {
+    "prompt_tokens": 509,
+    "completion_tokens": 1533,
+    "total_tokens": 2042,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1355
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}
