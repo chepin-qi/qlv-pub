@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:21:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "24f30e45",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 9927cba3→24f30e45| 性态:正常版本控制事件，main HEAD 前移，摘要未示非快进或强制推送迹| 建议处置:拉取最新 24f30e45 验证编译/测试通过，若部署流水线绑定 main 则触发生成检查| 锚:ref=24f30e45; 旧头 9927cba3 保留于 reflog 备查",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 735,
+    "total_tokens": 932,
+    "completion_tokens_details": {
+      "reasoning_tokens": 625
+    }
+  }
+}
