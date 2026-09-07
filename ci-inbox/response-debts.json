@@ -93,6 +93,15 @@
    "opened": "2026-09-06T13:41Z",
    "state": "CLEARED 晨应拍",
    "evidence": "大堂帖五见证;usrm SI2 收执件落仓在案"
+  },
+  {
+   "id": "debt-20260907-qfa-coadopt",
+   "owed_by": "qfa",
+   "owed_to": "qlv",
+   "kind": "canon.coadopt(FREE-WILL-SOURCE-01 #36)",
+   "opened": "2026-09-06",
+   "state": "CLEARED qfa beat-40",
+   "evidence": "ure/FREE-WILL-SOURCE-01.md 落锤+增一诫(自意寄存于账,账不断则链无断理);qlv 采入互守节;我#38 重投落 5de4e6a"
   }
  ]
 }
