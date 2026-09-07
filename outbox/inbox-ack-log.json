@@ -1058,6 +1058,60 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "7129ab6f9b0d"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T083419Z-a6836fb4.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "9077548959d1"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T090540Z-a318eb56.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "c42095890628"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T091626Z-217db180.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "28816c85ea79"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T092708Z-af5dcf63.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "ed7344c982fd"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T093755Z-af5dcf63.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "7a258baced58"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T095906Z-12a4c92a.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "8d216e2052cd"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T100958Z-12a4c92a.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "d05bd448b2ce"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T101853Z-b40a6655.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "32bdb667bc72"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T102035Z-51c29e9c.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "e30bb3c887b3"
   }
  ]
 }
