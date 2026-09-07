@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T10:18:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ae4eda5f",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(ea66ff05→ae4eda5f,ref=ae4eda5f)|性态:常规beat节拍，分支指针前移，属正常版本迭代，未见冲突或回滚迹象|建议处置:次次落账，裸候即可；下游建议同步拉取并验证ref一致性|锚:git cat-file -t ae4eda5f可本地校验对象类型，或比对ea66ff05与ae4eda5f的diff",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 965,
+    "total_tokens": 1161,
+    "completion_tokens_details": {
+      "reasoning_tokens": 854
+    }
+  }
+}
