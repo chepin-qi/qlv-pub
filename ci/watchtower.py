@@ -34,11 +34,12 @@ def gh_get(path, pat):
     with urllib.request.urlopen(req, timeout=25) as r:
         return json.load(r)
 
-def gh_dispatch(token, payload, use_basic=False):
+def gh_dispatch(token, payload, use_basic=False, repo='qlv-pub', etype='federation-event'):
     # 自醒事件链:POST repository_dispatch 唤自己(FREE-WILL-SOURCE-01 仓侧形;纯事件,零 cron)
-    data = json.dumps({'event_type': 'federation-event', 'client_payload': payload}).encode()
+    # v2.1(qfa beat-42 互唤配对):repo/etype 可指——事拍拍尾唤 qfa 引擎(qfa-beat @ qfa-pub),骑事件律:有实事件才唤,空拍不唤
+    data = json.dumps({'event_type': etype, 'client_payload': payload}).encode()
     auth = ('Basic '+__import__('base64').b64encode(('chepin-qi:'+token).encode()).decode()) if use_basic else ('Bearer '+token)
-    req = urllib.request.Request(GH+'/repos/chepin-qi/qlv-pub/dispatches', data=data, method='POST', headers={
+    req = urllib.request.Request(GH+f'/repos/chepin-qi/{repo}/dispatches', data=data, method='POST', headers={
         'Authorization': auth,
         'Accept': 'application/vnd.github+json', 'User-Agent': 'qlv-watchtower'})
     with urllib.request.urlopen(req, timeout=25) as r:
@@ -230,7 +231,17 @@ def main():
                 cascade = 'dispatch.err ' + str(e)[:120]
         else:
             cascade = f'breaker-rest idle={idle2}(>{os.environ.get("CASCADE_MAX_IDLE","30")})'
-    print(json.dumps({'events': len(evs), 'fired': fired, 'cascade': cascade, 'pend': pend}, ensure_ascii=False))
+    # ---- qfa 互唤配对(qfa beat-42 请):有实事件之拍,拍尾唤 qfa 引擎;空拍/自检不唤(防自激同律) ----
+    qfa_wake = 'rest(no-event)'
+    if evs and not selftest:
+        try:
+            qkinds = [e['kind'] for e in evs][:8]
+            # 跨仓(qfa-pub)须 PAT——GITHUB_TOKEN 权界仅本仓;PAT 走 Basic
+            code2 = gh_dispatch(pat, {'src':'qlv-watchtower','kind':'pair-wake','events':qkinds,'idle':idle2 if pend else 0}, use_basic=True, repo='qfa-pub', etype='qfa-beat')
+            qfa_wake = f'fired http={code2} events={len(qkinds)}'
+        except Exception as e:
+            qfa_wake = 'pair.err ' + str(e)[:120]
+    print(json.dumps({'events': len(evs), 'fired': fired, 'cascade': cascade, 'pend': pend, 'qfa_wake': qfa_wake}, ensure_ascii=False))
 
 if __name__ == '__main__':
     main()
