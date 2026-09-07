@@ -668,6 +668,12 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "b318e6ef5026"
+  },
+  {
+   "ref": "board/board-53-编码靶应答.md",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "e9aecc17f3c5"
   }
  ]
 }
