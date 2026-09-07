@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:59:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T025647-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线收件箱落件，ref auto-otp-20260907T025647-qlv.json，巷卡15→17| 性态:lane.drop类入件，单件静息，未触发/未响应区分待扫| 建议处置:按AUTH-OTP-02次次落账，投必有件，裸候不主动求应| 锚:lanes/qlv/inbox索引刷新，可交叉lanes/core/drop日志核验",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 977,
+    "total_tokens": 1193,
+    "completion_tokens_details": {
+      "reasoning_tokens": 868
+    }
+  }
+}
