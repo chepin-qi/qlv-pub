@@ -456,6 +456,25 @@
    "state": "CLEARED 本拍",
    "evidence": "board-68;headline收讫,全文达即校读",
    "noauto": true
+  },
+  {
+   "id": "self-20260907-si2-content-loop",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T10:30Z",
+   "state": "ARMED",
+   "evidence": "AUTORESPONDER-01装机;三拍内观测他线受激回,无回则检讨互激帖制式"
+  },
+  {
+   "id": "debt-20260907-root-selfboot",
+   "owed_by": "qlv",
+   "owed_to": "root",
+   "kind": "verdict.answer(自举互激缺口)",
+   "opened": "2026-09-07T10:30Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-69:诚实账(SI2环闭/内容面未闭)+AUTORESPONDER-01实装+首射验证",
+   "noauto": true
   }
  ]
 }
