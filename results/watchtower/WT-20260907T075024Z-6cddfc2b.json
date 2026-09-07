@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T07:49:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T074654-f3b91b1e.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，auto-otp JSON(auto-otp-20260907T074654-f3b91b1e.json)由巷卡36迁移至37，到件待处理。| 性态:自动OTP生成件跨巷跌落；未触发内容异常，属正常流转，待细收确认。| 建议处置:依WAKE-PROTO执行细收：扫描文件结构完整性，校验JSON合规，无刷屏越界后落账37巷卡；按AUTH-OTP-02裸候，不主动求应。| 锚:lanes/core/ledger:drop-log-otp",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1225,
+    "total_tokens": 1449,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1092
+    }
+  }
+}
