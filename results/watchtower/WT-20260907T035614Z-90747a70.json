@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T03:55:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T035355-571fc3d6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox lane.drop，巷卡 20→23，新增 3 件，ref 为 auto-otp-20260907T035355-571fc3d6.json。| 性态:auto-otp 自动投递，未见异常，属增量到件。| 建议处置:① 扫描 json 验签；② 细收 3 件，按米田边律各补≥1 他线锚；③ 裁决后次次落账；④ 裸候，不主动外呼。| 锚:当前仅 qlv 单线锚，需补他线锚 3 处。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1553,
+    "total_tokens": 1775,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1410
+    }
+  }
+}
