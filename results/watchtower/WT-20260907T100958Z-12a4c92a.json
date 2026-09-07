@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T10:09:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T095814-423b8c95.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop 巷卡42→43,ref=auto-otp-20260907T095814-423b8c95.json | 性态:摘要级扫描，未实测载荷；系卡槽迁移弃件，42卡退役/43卡待纳，未触发与触发未响应不可辨，因无工具入件 | 建议处置:①43卡细收落账 ②42卡释放归档 ③核otp哈希防重 ④裸候，不主动追应 | 锚:lanes/std/wake-proto:v3",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1401,
+    "total_tokens": 1623,
+    "cached_tokens": 222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1275
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  }
+}
