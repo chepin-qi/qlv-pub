@@ -16,10 +16,10 @@ def load(p, d):
     try: return json.load(open(p))
     except Exception: return d
 
-def kimi_call(msgs, max_tokens=600):
+def kimi_call(msgs, max_tokens=1500):
     key = os.environ.get('KIMI_API_KEY')
     if not key: return None, 'no-key'
-    body = {'model': 'kimi-k2.6', 'messages': msgs, 'max_tokens': max_tokens}
+    body = {'model': 'kimi-k2.7-code', 'messages': msgs, 'max_tokens': max_tokens}
     req = urllib.request.Request('https://api.moonshot.cn/v1/chat/completions',
         data=json.dumps(body).encode(),
         headers={'Authorization': 'Bearer ' + key, 'Content-Type': 'application/json'}, method='POST')
@@ -51,6 +51,10 @@ def main():
     if arm.get('date') != today: arm = {'date': today, 'calls': 0}
     evs = ev['evs'][:5]
     kinds = [e.get('kind') for e in evs]
+    import hashlib as _hl
+    evfp = _hl.sha256(json.dumps([(e.get('kind'), e.get('ref')) for e in evs], sort_keys=True).encode()).hexdigest()[:12]
+    if arm.get('last_fp') == evfp:
+        print(json.dumps({'auto': 'idempotent-skip', 'fp': evfp})); return
     ts = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
     stamp = ts.replace(':', '').replace('-', '')
     noauto_only = all(('noauto' in json.dumps(e, ensure_ascii=False)) for e in evs)
@@ -71,10 +75,11 @@ def main():
     if text is None:
         print(json.dumps({'auto': 'api-err', 'err': usage})); return
     arm['calls'] += 1
+    arm['last_fp'] = evfp
     st['autoresp'] = arm
     json.dump(st, open(STATE_P, 'w'), ensure_ascii=False, indent=1)
     open(os.path.join(OUT_D, 'AR-' + stamp + '.md'), 'w').write(
-        f"# AR {ts} · qlv SI2 自动应答\n\n事件:{kinds}\n\n{text}\n\n---\nusage={usage} calls_today={arm['calls']}/{CAP} model=kimi-k2.6\n\n#noauto\n")
+        f"# AR {ts} · qlv SI2 自动应答\n\n事件:{kinds}\n\n{text}\n\n---\nusage={usage} calls_today={arm['calls']}/{CAP} model=kimi-k2.7-code\n\n#noauto\n")
     # 互激面:高值 @qlv 件→大堂公开收讫帖(他线引擎巡大堂即受激)
     lid = None
     if high_value:
