@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T07:28:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ea66ff05",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主头指针迁移，由1af1579c切换至ea66ff05| 性态:常规beat触发的主版本位移，未见冲突告警或回滚标记，属正常拓扑收敛/主动切主| 建议处置:1.校验ea66ff05全票落账状态 2.确认旧头1af1579c资源释放无悬垂 3.静默裸候下一beat，不主动seek响应| 锚:sys.sync/head-pointer-shift",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 834,
+    "total_tokens": 1030,
+    "cached_tokens": 196,
+    "completion_tokens_details": {
+      "reasoning_tokens": 722
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 196
+    }
+  }
+}

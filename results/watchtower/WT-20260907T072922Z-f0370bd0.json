@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T07:28:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T070638-f7fa21f7.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡35→36，新件auto-otp-20260907T070638-f7fa21f7.json落入inbox，lane.drop触发。| 性态:单件顺序推进，号段连续无跳，落入形态正常；payload未拆验，内容未知，属裸候态。| 建议处置:按WAKE-PROTO细收，校验OTP封装完整性后裁决落账；无需他线联动。| 锚:ref=lanes/qlv/inbox:auto-otp-20260907T070638-f7fa21f7.json",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1119,
+    "total_tokens": 1341,
+    "cached_tokens": 222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 991
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  }
+}

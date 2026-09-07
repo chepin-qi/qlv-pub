@@ -19,7 +19,6 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      0,
       1,
       0,
       0,
@@ -28,12 +27,13 @@
       0,
       0,
       0,
+      1,
       0,
-      1
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   }
