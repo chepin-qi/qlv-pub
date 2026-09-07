@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T09:37:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T092514-339188d0.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡41→42,件auto-otp-20260907T092514-339188d0.json入inbox| 性态:lane.drop,自动投送已落位,摘要未标异常,属裸候态| 建议处置:执行WAKE-PROTO扫描细收,次次落账,不越真机钱面,待触发方动| 锚:cross/ops:lane-handoff-log",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1143,
+    "total_tokens": 1363,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1042
+    }
+  }
+}
