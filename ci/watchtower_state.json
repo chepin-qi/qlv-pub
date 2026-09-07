@@ -14,11 +14,11 @@
     "vci-vinf#6": 1,
     "vci-inbox#2": 0
   },
-  "lane_inbox_count": 29,
+  "lane_inbox_count": 30,
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      1,
       0,
       0,
       0,
@@ -33,8 +33,8 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   }
 }

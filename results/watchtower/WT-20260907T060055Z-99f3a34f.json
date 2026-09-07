@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:00:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T055438-a74076e3.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡29→30落件，ref=auto-otp-20260907T055438-a74076e3.json；单会话无工具未实测|性态:内容未触发细收，暂无法区分未触发与触发未响应；属标准巷卡迁移，无越真机钱面|建议处置:按AUTH-OTP-02次次落账，裸候不主动回应；转下工位细收或真机面审|锚:lanes/qlv/archive:otp-20260907T055438-a74076e3",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1302,
+    "total_tokens": 1522,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1171
+    }
+  }
+}
