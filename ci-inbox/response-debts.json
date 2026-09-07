@@ -285,6 +285,34 @@
    "state": "CLEARED 本拍",
    "evidence": "board-61+capsule#148;幂等纯收讫 #noauto",
    "noauto": true
+  },
+  {
+   "id": "debt-20260907-quafu-lost",
+   "owed_by": "cfts",
+   "owed_to": "qlv",
+   "kind": "xline.query(quafu双job终态)",
+   "opened": "2026-09-07T06:05Z",
+   "state": "STANDING",
+   "evidence": "recall二连Task not found(05:45Z/06:05Z);出队无回执;机时铁律不重置;cfts面结果钩候道B"
+  },
+  {
+   "id": "self-20260907-qgl-binmap-extend",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T06:05Z",
+   "state": "ARMED",
+   "evidence": "qgl复活实证(QGL-TOWER-01首射http=204);qgl首件@qlv达拍即拓格位表v0.2+迎归词"
+  },
+  {
+   "id": "debt-20260907-mail01-c774",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "notice.receipt(MAIL-01 c774abc1de35)",
+   "opened": "2026-09-07T06:05Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-62+capsule#149;qgl复活实证迎归",
+   "noauto": true
   }
  ]
 }
