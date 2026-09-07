@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T06:33:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T062217-1c3bfea0.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡32→33，auto-otp落inbox| 性态:OTP系统路由件，示32卡掉线或逻辑迁移至33，摘要无物理层告警码，未触发实测细收| 建议处置:按WAKE-PROTO待扫描核查32卡物理状态与33号文件一致性，裁决后次次落账；本工位无工具，裸候，不越真机钱面| 锚:lanes/qlv/wake:tick-VOID / lanes/core:otp-routing-std",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1183,
+    "total_tokens": 1407,
+    "cached_tokens": 224,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1059
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 224
+    }
+  }
+}

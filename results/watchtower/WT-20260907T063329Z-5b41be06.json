@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:33:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "f529e47f",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD 迁移 24f30e45→f529e47f| 性态:常规头指针前进，版本迭代态，未见回滚或分支保护冲突特征| 建议处置:落账确认；按需审计目标提交 diff 与父链合规性| 锚:ref=f529e47f;qfa-main-head",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 875,
+    "total_tokens": 1072,
+    "completion_tokens_details": {
+      "reasoning_tokens": 792
+    }
+  }
+}
