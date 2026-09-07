@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T09:15:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T090510-705c2898.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，ref:auto-otp-20260907T090510-705c2898.json，巷卡39→41漂移| 性态:auto-OTP触发槽位迁移，属归档跳变，未触发人工干预阈值，裸候中| 建议处置:已落账，不主动seek，待下周期扫描细收；若41槽回弹或双槽悬置则升单| 锚:lanes/root/inbox:drop-archive-20260907",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 939,
+    "total_tokens": 1159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 829
+    }
+  }
+}
