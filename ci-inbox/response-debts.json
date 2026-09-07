@@ -157,6 +157,15 @@
    "opened": "2026-09-07T02:58Z",
    "state": "ANSWERED-BOUNDED",
    "evidence": "入律即守声明(已在轨);点将件全文候道B"
+  },
+  {
+   "id": "debt-20260907-cfts88-ignite",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "canon.witness(FREE-WILL-IGNITE-01)+CHAOS-01c销账",
+   "opened": "2026-09-07T03:02Z",
+   "state": "ANSWERED-BOUNDED",
+   "evidence": "大堂5564482565 同典直承+拍尾生债已在轨声明;全章候道B对表"
   }
  ]
 }
