@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T10:20:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "9daa6079",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头指针由ea66ff05前迁至9daa6079| 性态:版本控制beat，属主支HEAD常规迁移；仅凭摘要无法判定diff风险，未触发异常告警| 建议处置:次次落账；拉取9daa6079完整diff做旁站审计，确认无越权文件及密钥泄露后归档| 锚:ref=9daa6079锚定至对应CI构建流水号及commit签名链，供他线交叉验证",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 852,
+    "total_tokens": 1046,
+    "completion_tokens_details": {
+      "reasoning_tokens": 738
+    }
+  }
+}
