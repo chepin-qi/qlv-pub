@@ -22,18 +22,18 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   }

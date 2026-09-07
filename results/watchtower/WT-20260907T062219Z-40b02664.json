@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T06:21:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "24f30e45",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa.beat主线HEAD迁移(9927cba3→24f30e45)| 性态:常规提交推进，HEAD正常前移，未触发异常，无响应缺失| 建议处置:已落账，无需回退或干预，裸候下游CI节拍| 锚:git版本控制线/主链节拍线",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 882,
+    "total_tokens": 1079,
+    "cached_tokens": 197,
+    "completion_tokens_details": {
+      "reasoning_tokens": 802
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 197
+    }
+  }
+}

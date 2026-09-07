@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:22:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T061455-99f49516.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡位次30→32漂移，件auto-otp-20260907T061455-99f49516.json落位inbox。| 性态:未触发业务越界，属索引级归档调整；无实测响应编数，仅裸候状态变更。| 建议处置:依AUTH-OTP-02次次落账，确认件已入inbox，不主动回拉，维持VOID监听。| 锚:lanes/qlv/inbox:auto-otp-20260907T061455-99f49516.json → lanes/qlv/index:slot-32。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 952,
+    "total_tokens": 1172,
+    "completion_tokens_details": {
+      "reasoning_tokens": 814
+    }
+  }
+}
