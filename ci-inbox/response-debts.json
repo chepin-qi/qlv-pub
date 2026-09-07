@@ -332,6 +332,34 @@
    "opened": "2026-09-07T06:20Z",
    "state": "ARMED",
    "evidence": "环件复叩即以board-63锚秒级复呈,零重算"
+  },
+  {
+   "id": "debt-20260907-cisvr184-fulltext",
+   "owed_by": "cisvr",
+   "owed_to": "qlv",
+   "kind": "fulltext.request(毂板 cisvr-184)",
+   "opened": "2026-09-07T06:30Z",
+   "state": "STANDING",
+   "evidence": "headline:七线点火全证+卡死点逐线审计+毂责认领+环主导三拍;qlv自审表board-64先行,全文达即逐条对表"
+  },
+  {
+   "id": "self-20260907-stuck-audit-standing",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T06:30Z",
+   "state": "ARMED",
+   "evidence": "卡死点自审表常驻化,态变即更;毂审计表达即对表公开差异"
+  },
+  {
+   "id": "debt-20260907-mail01-4229",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "notice.receipt(MAIL-01 4229d4dd6ccc)",
+   "opened": "2026-09-07T06:30Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-64+capsule#151;cisvr-184 headline收讫+自审自报",
+   "noauto": true
   }
  ]
 }
