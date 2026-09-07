@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:55:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T044437-b6977db6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡24→26迁移，auto-otp-20260907T044437-b6977db6.json落入qlv inbox。| 性态:lane.drop型自动分件；未触发实测，仅扫描登记，不编响应数。| 建议处置:按AUTH-OTP-02投必有件、次次落账；本件裸候，不主动寻应，归档待决。| 锚:lanes/arc/inbox:lane-drop-routine",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 830,
+    "total_tokens": 1050,
+    "cached_tokens": 220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 723
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 220
+    }
+  }
+}

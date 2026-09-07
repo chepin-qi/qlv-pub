@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:55:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "7b8c29d9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD自ad9a1aa5前迁至7b8c29d9(ref)。| 性态:beat心跳到件，常规锚点漂移，无异常态，非裸候。| 建议处置:已落账。ci若挂接未动属触发未响应，未挂接则属未触发；常规归档，毋需回退。| 锚:git/qfa/main@7b8c29d9;diff ad9a1aa5..7b8c29d9待审。",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 675,
+    "total_tokens": 877,
+    "cached_tokens": 202,
+    "completion_tokens_details": {
+      "reasoning_tokens": 552
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 202
+    }
+  }
+}
