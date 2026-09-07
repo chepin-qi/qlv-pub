@@ -938,6 +938,12 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "470579a5c92b"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T061720Z-0d867c35.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "e2f4ca8e8425"
   }
  ]
 }
