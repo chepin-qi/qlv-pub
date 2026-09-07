@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T13:10:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T130330-0e7bf7d5.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡47→48切换，inbox收 auto-otp-20260907T130330-0e7bf7d5.json。| 性态:线路自动漂移；clock=VOID，未实测，不编延迟/丢包数，非越真机钱面。| 建议处置:裸候，不主动寻应；次周期扫描48卡稳态，哈希核对后落账。| 锚:lanes/core/heartbeat:slot-47",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1315,
+    "total_tokens": 1541,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1206
+    }
+  }
+}
