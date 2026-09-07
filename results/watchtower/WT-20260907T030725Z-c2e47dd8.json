@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T03:07:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T030238-d074d2ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡18→19落件，auto-otp-20260907T030238-d074d2ba.json已入库| 性态:lane.drop/自动投件/裸候态，未触发人工应答| 建议处置:扫描→细收→裁决→落账已毕，按AUTH-OTP-02次次落账，不主动寻求回应，裸候待应| 锚:core-ledger/void-drop-routing",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 803,
+    "total_tokens": 1023,
+    "completion_tokens_details": {
+      "reasoning_tokens": 699
+    }
+  }
+}
