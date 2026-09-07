@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:44:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T042614-7072c2ec.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡23→24，auto-otp-20260907T042614-7072c2ec.json入qlv inbox。| 性态:单件静默落位，未触发异常，属AUTH-OTP-02正常节律。| 建议处置:按WAKE-PROTO执行细收→裁决→落账，裸候下一周期，不主动外呼。| 锚:lanes/core/ledger:drop-seq",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1167,
+    "total_tokens": 1389,
+    "cached_tokens": 222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1066
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  }
+}

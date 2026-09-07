@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "0b03052493866ac311c9915073f3c7dd07fc9b39",
+  "qfa_head": "ad9a1aa52fcccdb27c39771bed4f7e5547fa6752",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -18,22 +18,22 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
-      0,
-      1,
-      0,
-      4,
       0,
       0,
       0,
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      2,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   }

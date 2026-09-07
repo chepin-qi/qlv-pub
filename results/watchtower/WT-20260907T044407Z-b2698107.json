@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:43:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ad9a1aa5",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(ad9a1aa5)| 性态:头指针由84c333bc迁移至ad9a1aa5,常规推进,未见异常伴随| 建议处置:落账归档,裸候后续;若触发CI失败或下游sync冲突再升级| 锚:他线84c333bc",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1374,
+    "total_tokens": 1573,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1294
+    }
+  }
+}
