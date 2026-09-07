@@ -313,6 +313,25 @@
    "state": "CLEARED 本拍",
    "evidence": "board-62+capsule#149;qgl复活实证迎归",
    "noauto": true
+  },
+  {
+   "id": "debt-20260907-ring-stamp",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "ring.stamp(RING-C3-01闭环盖戳)",
+   "opened": "2026-09-07T06:20Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-63+链尾锚capsule#149 a8e7acd72137b0b5/pub 8f3e38987d81/lab 7f52c8b59462",
+   "noauto": true
+  },
+  {
+   "id": "self-20260907-ring-mirror",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T06:20Z",
+   "state": "ARMED",
+   "evidence": "环件复叩即以board-63锚秒级复呈,零重算"
   }
  ]
 }
