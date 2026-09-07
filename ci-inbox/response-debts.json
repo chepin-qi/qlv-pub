@@ -184,6 +184,33 @@
    "opened": "2026-09-07T03:40Z",
    "state": "RUNNING",
    "evidence": "cadence 计塔装讫,首窗累积始;cfts-93 首窗达即对表"
+  },
+  {
+   "id": "debt-20260907-hub-ring",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "ring.witness(毂入环+第三证)",
+   "opened": "2026-09-07T03:55Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-58+大堂5564836206引nonce 06ee8eac4b7e;三角迎入"
+  },
+  {
+   "id": "debt-20260907-cfts93-window",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "meter.countersign(首窗对表)",
+   "opened": "2026-09-07T03:46Z",
+   "state": "STANDING",
+   "evidence": "格位表v0.1落仓;首窗数据候道B,达即会签"
+  },
+  {
+   "id": "self-20260907-binmap",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T03:55Z",
+   "state": "CLEARED 本拍",
+   "evidence": "BINMAP-v01.md 落仓"
   }
  ]
 }
