@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T05:07:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "91fc8d3a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 e5d2e01f→91fc8d3a| 性态:常规HEAD推进，未见回退/冲突或异常附加信息，属正常beat| 建议处置:落账确认新基线；按需补核91fc8d3a提交签名及CI通过状态| 锚:ci线 witnessing（签名校验/构建记录）",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 726,
+    "total_tokens": 927,
+    "completion_tokens_details": {
+      "reasoning_tokens": 634
+    }
+  }
+}
