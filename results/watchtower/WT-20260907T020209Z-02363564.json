@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:01:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "941db271",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线HEAD迁移，旧头1da831d9切至新头941db271| 性态:常规fast-forward指针前移，无冲突标记，属正常beat| 建议处置:落账毕，无需干预，保持裸候| 锚:refs/heads/main@qfa",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 590,
+    "total_tokens": 784,
+    "completion_tokens_details": {
+      "reasoning_tokens": 518
+    }
+  }
+}

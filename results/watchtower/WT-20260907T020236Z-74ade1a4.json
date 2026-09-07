@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:02:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T014216-b0aee5fe.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane.drop 巷卡 11→13，ref=auto-otp-20260907T014216-b0aee5fe.json，自动 OTP 件已入 inbox。| 性态: 节点漂移/更替形态；未实测内文，不编响应码，暂记「触发未响应」待核。| 建议处置: 按 AUTH-OTP-02 次次落账，移入 lanes/qlv/drop/ 归档，裸候主链回扫，不越真机钱面。| 锚: /lanes/qlv/main#slot-13",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 984,
+    "total_tokens": 1206,
+    "completion_tokens_details": {
+      "reasoning_tokens": 850
+    }
+  }
+}
