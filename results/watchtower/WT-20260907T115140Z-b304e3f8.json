@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T11:51:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "0530b41c",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头指针由 020701b2 迁移至 0530b41c。| 性态:常规分支头迁移事件，属预期内代码节拍更新；未触发异常告警，未实测具体 diff 内容，不作风险定级。| 建议处置:1) 校验 0530b41c 提交签名及树完整性；2) 确认 CI 流水线通过；3) 次次落账，归档 ref。| 锚:0530b41c",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 945,
+    "total_tokens": 1142,
+    "completion_tokens_details": {
+      "reasoning_tokens": 831
+    }
+  }
+}

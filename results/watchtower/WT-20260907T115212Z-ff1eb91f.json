@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T11:51:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T113541-a59024cc.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡44→45落件，ref入qlv/inbox，kind=lane.drop，clock=VOID| 性态:内轨裸候流转，未触发外部响应，无越真机钱面，件已实落| 建议处置:按AUTH-OTP-02次次落账，核验45卡位收讫后裸候，不主动唤应，循WAKE-PROTO下一周期扫描| 锚:lanes/hvb/sync:clock-VOID映像一致",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1153,
+    "total_tokens": 1371,
+    "cached_tokens": 218,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1039
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 218
+    }
+  }
+}
