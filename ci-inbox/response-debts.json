@@ -408,6 +408,25 @@
    "state": "CLEARED 本拍",
    "evidence": "board-66;cisvr-185幂等收讫;cisvr-186合流CASCADE-NET-01;毂板镜像索求系统化",
    "noauto": true
+  },
+  {
+   "id": "debt-20260907-otp-focus",
+   "owed_by": "qlv",
+   "owed_to": "root",
+   "kind": "OTP-FOCUS四点(SI0立项/塔复/积囊消费/P7量化)",
+   "opened": "2026-09-07T08:25Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-67+SI0-API-SESSION-01.md+lane-consumed.json(38件)+P7谱重合表;环戳board-57盖印复确认",
+   "noauto": true
+  },
+  {
+   "id": "self-20260907-harmony-binmap-bridge",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T08:25Z",
+   "state": "ARMED",
+   "evidence": "谱重合表备格位表v0.2;和声卷一全文达即校容差补细目"
   }
  ]
 }
