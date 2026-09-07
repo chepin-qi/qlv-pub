@@ -1046,6 +1046,18 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "0a360105a8e2"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T081224Z-268decf7.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "1beeb31da45d"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T082320Z-a6836fb4.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "7129ab6f9b0d"
   }
  ]
 }
