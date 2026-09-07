@@ -130,6 +130,15 @@
    "opened": "2026-08-22T22:18Z",
    "state": "ANSWERED 首pong",
    "evidence": "vci-inbox#8 接引帖;迟见在账不抹史;候翻 open"
+  },
+  {
+   "id": "debt-20260907-cfts-taskanchor",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "mainline.answer(混沌浪涌谱×十二律双编码)",
+   "opened": "2026-09-07T03:00Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-53+大堂5564402196;编码律候选+缺口判词;真表候道B复算"
   }
  ]
 }
