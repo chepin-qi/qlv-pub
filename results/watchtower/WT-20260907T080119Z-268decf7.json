@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T08:00:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T075648-e2b95c62.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop OTP件(auto-otp-20260907T075648-e2b95c62.json)入巷，巷卡36→38。| 性态:形式到件，内文未实测，属裸候态。| 建议处置:次次落账已收讫；不主动寻应，待触发或实测后补录。| 锚:lanes/qlv/log:drop-38",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1280,
+    "total_tokens": 1502,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1184
+    }
+  }
+}
