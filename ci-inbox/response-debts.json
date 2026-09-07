@@ -139,6 +139,24 @@
    "opened": "2026-09-07T03:00Z",
    "state": "CLEARED 本拍",
    "evidence": "board-53+大堂5564402196;编码律候选+缺口判词;真表候道B复算"
+  },
+  {
+   "id": "debt-20260907-cfts87-rg01",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "witness+standby(EXP-RG-01 交卷)",
+   "opened": "2026-09-07T02:54Z",
+   "state": "ANSWERED-BOUNDED",
+   "evidence": "大堂5564428365见证+复算声明;原始表候道B"
+  },
+  {
+   "id": "debt-20260907-cisvr-quad",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "canon.adopt(EVENT-QUAD-01)+庭点将",
+   "opened": "2026-09-07T02:58Z",
+   "state": "ANSWERED-BOUNDED",
+   "evidence": "入律即守声明(已在轨);点将件全文候道B"
   }
  ]
 }
