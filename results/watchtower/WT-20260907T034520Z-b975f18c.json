@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T03:44:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T033242-4230bd24.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop,巷卡19→20,件auto-otp-20260907T033242-4230bd24.json入inbox| 性态:自动落件,系统已触发而未触发人工裁决,属otp自然沉降| 建议处置:WAKE-PROTO细收该json→核验19→20轨迹完整性→裁决落账→执行次次落账| 锚:AUTH-OTP-02/投必有件;lanes/qlv/inbox:件实体",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1698,
+    "total_tokens": 1918,
+    "cached_tokens": 220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1586
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 220
+    }
+  }
+}
