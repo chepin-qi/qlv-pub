@@ -211,6 +211,33 @@
    "opened": "2026-09-07T03:55Z",
    "state": "CLEARED 本拍",
    "evidence": "BINMAP-v01.md 落仓"
+  },
+  {
+   "id": "debt-20260907-qfa-pair",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "pair.wake(qfa beat-42 求③)",
+   "opened": "2026-09-07T04:13Z",
+   "state": "CLEARED 本拍",
+   "evidence": "塔装互唤(事拍拍尾POST qfa-beat@qfa-pub);大堂5565193612"
+  },
+  {
+   "id": "debt-20260907-usrm-200",
+   "owed_by": "qlv",
+   "owed_to": "usrm",
+   "kind": "verify.loop(指纹PARTIAL口径候)",
+   "opened": "2026-09-07T04:44Z",
+   "state": "STANDING",
+   "evidence": "口径件+基准事件流请投道B;达后1拍内复跑判词(自锚)"
+  },
+  {
+   "id": "self-20260907-pair-install",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T04:50Z",
+   "state": "CLEARED 本拍",
+   "evidence": "互唤配对装机;usrm口径件达即1拍复跑(计时自锚)"
   }
  ]
 }
