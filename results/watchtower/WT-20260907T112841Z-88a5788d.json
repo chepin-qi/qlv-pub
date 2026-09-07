@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T11:28:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "020701b2",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主头迁移 ac2a1481→020701b2(ref:020701b2)| 性态:版本指针节拍同步，属正常头指针移动，无冲突告警，已触发且收束| 建议处置:按AUTH-OTP-02次次落账，裸候即可，不主动回拉验证| 锚:git/heads/qfa/main@020701b2",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 774,
+    "total_tokens": 969,
+    "completion_tokens_details": {
+      "reasoning_tokens": 680
+    }
+  }
+}

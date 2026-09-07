@@ -1,1 +1,1 @@
-{"ts": "2026-09-07T11:12:17Z", "evs": [{"kind": "qfa.beat", "ref": "ac2a1481", "summary": "qfa main 头迁移 416af043→ac2a1481", "high_value": true}], "pend": ["quafu:8CA608102028586C", "quafu:8BB169201FA3F5D4"]}
+{"ts": "2026-09-07T11:28:43Z", "evs": [{"kind": "qfa.beat", "ref": "020701b2", "summary": "qfa main 头迁移 ac2a1481→020701b2", "high_value": true}], "pend": ["quafu:8CA608102028586C", "quafu:8BB169201FA3F5D4"]}
