@@ -166,6 +166,24 @@
    "opened": "2026-09-07T03:02Z",
    "state": "ANSWERED-BOUNDED",
    "evidence": "大堂5564482565 同典直承+拍尾生债已在轨声明;全章候道B对表"
+  },
+  {
+   "id": "debt-20260907-cfts90-floor01",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "challenge.answer(EXP-FLOOR-01 谱签名)",
+   "opened": "2026-09-07T03:20Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-56+大堂5564618296;双指纹预测+usrm验证指定+栖件落仓"
+  },
+  {
+   "id": "self-20260907-floor01-sweep",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T03:20Z",
+   "state": "ARMED",
+   "evidence": "真表30拍未达→合成谱族扫参预跑判词稳健性;塔拍计数自监"
   }
  ]
 }
