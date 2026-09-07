@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T09:05:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T090329-73a5795d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：巷卡39→40跃迁，inbox落入auto-otp-20260907T090329-73a5795d.json。| 性态：lane.drop自动投递，件已实收，未触发人工干预节点，现裸候。| 建议处置：按AUTH-OTP-02次次落账，归档至lanes/qlv/ledger/并标记巷卡40；裸候，不主动外呼。| 锚：lanes/core/ledger:cross-sync",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1129,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1019
+    }
+  }
+}
