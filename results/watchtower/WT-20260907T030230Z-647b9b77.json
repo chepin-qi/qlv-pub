@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T03:01:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T025859-7fab1642.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：qlv inbox 到件 lane.drop，ref 为 auto-otp-20260907T025859-7fab1642.json，摘要示巷卡 15→18 偏移 | 性态：件已触达 inbox（触发未响应），未开箱实测，偏移根因待查；属待核验态 | 建议处置：启下一工序开箱核验 15→18 偏移，确判正常漂移或异常 drop；遵 AUTH-OTP-02 次次落账，不越真机钱面 | 锚：AUTH-OTP-02 投件校验链 / lanes 巷卡对齐基线",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1308,
+    "total_tokens": 1528,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1166
+    }
+  }
+}
