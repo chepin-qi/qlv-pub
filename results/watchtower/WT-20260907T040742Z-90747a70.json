@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:07:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T035355-571fc3d6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox 到件 auto-otp-20260907T035355-571fc3d6.json，摘要示巷卡 20→23，属 lane.drop 类。| 性态:件已落柜，未触发细收条件，仅见编号漂移，无显式报错或响应回执，属静默到件/未触发 actionable 边界。诚实：未实测文件实体，不确认是版本迭代或卡丢弃。| 建议处置:裸候，不入真机操作面；待下周期细收或触发侧补日志后裁决归档。| 锚:lanes/qlv/inbox:kind=lane.drop 跨线类比 lanes/std/drop-log 静默升级惯例。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1441,
+    "total_tokens": 1663,
+    "cached_tokens": 222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1282
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  }
+}
