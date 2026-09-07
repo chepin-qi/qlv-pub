@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T05:06:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T050202-d3c3f789.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡26→28漂移，新件auto-otp-20260907T050202-d3c3f789.json落入inbox。| 性态:lane.drop单件迁移，无冲突，属正常卡位置换。| 建议处置:裁决落账：旧卡26归档，新卡28启封，文件规置inbox。裸候，不主动求应。| 锚:ref=lanes/qlv/inbox:auto-otp-20260907T050202-d3c3f789.json。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1042,
+    "total_tokens": 1264,
+    "completion_tokens_details": {
+      "reasoning_tokens": 922
+    }
+  }
+}

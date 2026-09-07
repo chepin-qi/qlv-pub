@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T05:06:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "e5d2e01f",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa仓库main分支HEAD由7b8c29d9迁移至e5d2e01f| 性态:常规指针前移，本次beat单件到件，未触发阻断规则，无告警面伴随，属正常代码层面变更| 建议处置:1)核验e5d2e01f提交签名及qfa.ci流水线终态；2)绿灯则次次落账；3)异常即回退HEAD并升单排查| 锚:qfa.ci/构建终态; git.sig/签名链校验",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 1449,
+    "total_tokens": 1652,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1323
+    }
+  }
+}
