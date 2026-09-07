@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T10:53:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "416af043",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD迁移(cb32e036→416af043)| 性态:版本推进/常规beat, 属代码线正常同步, 无异常冲突或回滚迹象| 建议处置:按次落账, 裸候后续CI或beat反馈, 不主动拉取| 锚:ref=416af043; 父cb32e036; 仓库qfa主线",
+  "usage": {
+    "prompt_tokens": 192,
+    "completion_tokens": 782,
+    "total_tokens": 974,
+    "completion_tokens_details": {
+      "reasoning_tokens": 688
+    }
+  }
+}

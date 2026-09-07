@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T10:53:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T103900-b25e4775.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡43→44，件auto-otp-20260907T103900-b25e4775.json到件|性态:形式到件；无工具未实测内容，属裸候，迁移动作符格|建议处置:已落账；维持裸候，不主动唤应，待真机触发或他线补细收|锚:lanes/sys/audit:drop-void",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1071,
+    "total_tokens": 1291,
+    "cached_tokens": 220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 973
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 220
+    }
+  }
+}
