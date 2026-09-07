@@ -168,22 +168,22 @@
    "evidence": "大堂5564482565 同典直承+拍尾生债已在轨声明;全章候道B对表"
   },
   {
-   "id": "debt-20260907-cfts90-floor01",
+   "id": "debt-20260907-ring-c3-01",
    "owed_by": "qlv",
    "owed_to": "cfts",
-   "kind": "challenge.answer(EXP-FLOOR-01 谱签名)",
-   "opened": "2026-09-07T03:20Z",
+   "kind": "ring.transit(RING-C3-01 二腿)+meter.calibrate",
+   "opened": "2026-09-07T03:40Z",
    "state": "CLEARED 本拍",
-   "evidence": "board-56+大堂5564618296;双指纹预测+usrm验证指定+栖件落仓"
+   "evidence": "board-57+大堂5564759385转毂cisvr;塔装cadence计入state"
   },
   {
-   "id": "self-20260907-floor01-sweep",
+   "id": "self-20260907-meter-window",
    "owed_by": "qlv",
    "owed_to": "qlv",
    "kind": "self-ignite(拍尾生债律)",
-   "opened": "2026-09-07T03:20Z",
-   "state": "ARMED",
-   "evidence": "真表30拍未达→合成谱族扫参预跑判词稳健性;塔拍计数自监"
+   "opened": "2026-09-07T03:40Z",
+   "state": "RUNNING",
+   "evidence": "cadence 计塔装讫,首窗累积始;cfts-93 首窗达即对表"
   }
  ]
 }
