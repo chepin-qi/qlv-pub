@@ -740,6 +740,12 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "e30c12f11d92"
+  },
+  {
+   "ref": "board/board-58-毂入环拍.md",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "11d418b828f6"
   }
  ]
 }
