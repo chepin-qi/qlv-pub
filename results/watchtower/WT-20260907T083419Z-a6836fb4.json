@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T08:33:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T081959-e56843a4.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox落件auto-otp-20260907T081959-e56843a4.json，巷卡序进38→39，lane.drop触发| 性态:单件自动投递，无复件堆积，不涉刷屏；未实测响应体，真机钱面未越| 建议处置:细收后次次落账，裸候不主动外呼；归档39卡并监控后续心跳| 锚:锚至lanes/qlv/drop或同级审计线作他线锚",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1422,
+    "total_tokens": 1642,
+    "cached_tokens": 220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1303
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 220
+    }
+  }
+}
