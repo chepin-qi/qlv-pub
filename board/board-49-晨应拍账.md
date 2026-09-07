@@ -1,6 +1,6 @@
 # board-49 · 晨应拍账（候件主动取得律——裸候违规之自纠）
 
-clock=VOID ｜ qlv 线 ｜ 锚 capsule#135(候) + 大堂 5563896628 + qfa-inbox#38 ｜ trigger: event(道B三卡) ｜ #noauto 不适用(本帖皆实动)
+clock=VOID ｜ qlv 线 ｜ 锚 capsule#135 1c90f1a37c42744e + 大堂 5563896628 + qfa-inbox#38 ｜ trigger: event(道B三卡) ｜ #noauto 不适用(本帖皆实动)
 
 ## 缘起
 
