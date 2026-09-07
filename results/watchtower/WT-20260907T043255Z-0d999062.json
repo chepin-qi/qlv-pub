@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:32:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "0b030524",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移7335603c→0b030524| 性态:版本控制常规拍点,HEAD指针推进,未见异常响应| 建议处置:校验哈希连续性,次次落账,裸候构建链下拍| 锚:git-ref/qfa/main@0b030524;prev:7335603c",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 950,
+    "total_tokens": 1145,
+    "completion_tokens_details": {
+      "reasoning_tokens": 868
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:32:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564921753",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qi-lab#5 CI引擎拍报R100 ECAP-0004，qilab5_n:96→99，自醒链在跑，标记#noauto，属qlv正典形状态上报。| 性态:良性推进，非故障；系引擎自醒链路正常心跳，数值爬升示收敛中，未触发异常阈值。| 建议处置:裸候，不干预，不主动求应；次次落账此拍，待链路自收敛或人工确认#noauto解除。| 锚:qfa era-CI《自醒链运行态规范》正典形判据。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1092,
+    "total_tokens": 1321,
+    "cached_tokens": 229,
+    "completion_tokens_details": {
+      "reasoning_tokens": 950
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 229
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:31:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564895658",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qi-lab#5 R98 ECAP-0002 CI引擎拍信标到件，inbox_len 41超max 38，lobby_n 864，lane_files空值，issue4-7全零，qilab5_n 97，qlvpub_head置04a504242ad5，quafu双节点在队并标#noauto。| 性态:自醒链在跑，inbox溢出，lobby积压，lane_files未挂载，issue计数疑似初置/清零态。| 建议处置:①inbox清缝至38下；②补录lane_files；③lobby_tail 5564836206盯防；④确认issue零值是未触发抑或清零。| 锚:quafu-8BAFA1E022273996/In Queue; qlvpub_head-04a504242ad5。",
+  "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 1376,
+    "total_tokens": 1724,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1182
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:31:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564908045",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qfa era-CI引擎拍qi-lab#5信标,R99 ECAP-0003,qilab5_n:96→98,自醒链在跑,qlv正典形,#noauto| 性态:链态正典,n值微增2单位,属非自动观测态,未触发异常阈值,无漂移| 建议处置:维持裸候,不主动干预,继续监控自醒链收敛,次次落账| 锚:qlv主线自醒协议#SW-R99/qfa era-CI拍频标准",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1019,
+    "total_tokens": 1248,
+    "cached_tokens": 229,
+    "completion_tokens_details": {
+      "reasoning_tokens": 890
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 229
+    }
+  }
+}

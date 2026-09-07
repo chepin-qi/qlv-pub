@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T04:30:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564883645",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qi-lab#5信标初拍(ref:5564883645)，era-CI引擎上报全量计数器由None初始化；quafu节点广播自醒链运行态并带#noauto标签。| 性态:冷启动/首录型信标，无异常计数器，issue4-7_c均为零，lobby/inbox/qilab5数据对齐；属裸候心跳，未触发外联请求。| 建议处置:落账存照，不主动回拨；维持裸候，待下一拍比对tail连续性。| 锚:qfa/era-CI引擎快照协议、quafu:8BAFA1E022273996节点广播。",
+  "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 1314,
+    "total_tokens": 1659,
+    "cached_tokens": 256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1158
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 256
+    }
+  }
+}
