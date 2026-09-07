@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T12:14:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b3508009",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线HEAD漂移(0530b41c→b3508009)|性态:beat投件，裸引用迁移，无冲突标记，未触发构建/告警|建议处置:次次落账，裸候下一拍；无需回拉或人工响应|锚:git-objects协议层，HEAD为符号引用(symref)，本次为常规快迁",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 846,
+    "total_tokens": 1041,
+    "completion_tokens_details": {
+      "reasoning_tokens": 760
+    }
+  }
+}
