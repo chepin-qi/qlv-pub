@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:15:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "5de4e6a6",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD迁移 1da831d9→5de4e6a6| 性态:常规节拍，头指针顺沿前移，未见回滚、分叉或冲突迹象| 建议处置:已落账，裸候，无需响应| 锚:旧头1da831d9留痕，可交叉比对ci线构建日志或tag线签名验哈希链连续性",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 809,
+    "total_tokens": 1011,
+    "completion_tokens_details": {
+      "reasoning_tokens": 716
+    }
+  }
+}

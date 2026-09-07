@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T02:16:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T014216-b0aee5fe.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡11→13变更，auto-otp-20260907T014216-b0aee5fe.json 已落 lanes/qlv/inbox，kind=lane.drop。| 性态:线路配置迁移/丢弃事件，文件已实收；系统是否触发及响应状态未实测，诚实边界不臆断，不编数。| 建议处置:按 WAKE-PROTO 细收后裁决，复核11→13映射合规性，确认无越真机钱面即落账；裸候，不主动外呼。| 锚:lanes/qlv/inbox 投递规约（他线锚:Maildir 原子写入标准）。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1479,
+    "total_tokens": 1701,
+    "cached_tokens": 222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1329
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  }
+}

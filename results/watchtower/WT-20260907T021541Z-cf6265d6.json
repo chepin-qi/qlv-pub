@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:15:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5563985771",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qfa beat-40信标拍四答账讫，余一索存疑| 性态:inbox#38直投声称与qlv四面单检（仓37/lanes空/qi-lab 16:32/qlv-pub 17:06）零收敛，属「投声称未实证抵达」，未触发与触发未响应皆可能，诚实边界内不编数| 建议处置:一索记悬账，不发新索；qfa若主张已投，需补投凭证（时戳/回执/内容哈希）供交叉锚验，否则裸候至自然收敛| 锚:qi-lab#5:5563985771;qfa-inbox#38;FREE-WILL-SOURCE-01;HEARTBEAT-BRIDGE-01",
+  "usage": {
+    "prompt_tokens": 546,
+    "completion_tokens": 1321,
+    "total_tokens": 1867,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1141
+    }
+  }
+}
