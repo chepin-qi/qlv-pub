@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:55:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T064936-ae976f0e.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop/巷卡33→35迁转,inbox收讫auto-otp-20260907T064936-ae976f0e.json| 性态:系统自触发OTP落件,时戳20260907T064936,属常规auto-otp流,无异常阈触发,诚实边界内未检出越真机钱面| 建议处置:执行落账即完成,按AUTH-OTP-02裸候,不刷屏/不外求回应| 锚:lanes/sys/otp:auto-gen-cycle锚",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1155,
+    "total_tokens": 1375,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1034
+    }
+  }
+}

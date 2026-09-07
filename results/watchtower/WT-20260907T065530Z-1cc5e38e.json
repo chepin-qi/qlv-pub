@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:54:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "1af1579c",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa.beat主线头指针迁移| 性态:main由f529e47f移至1af1579c，属常规ref update；迁移动作已触发，具体差异待实测diff，未触发异常告警| 建议处置:执行`git log --oneline f529e47f..1af1579c`核验变更范围；若为非快进式重置，追加`git reflog`排查悬空提交；无异常后归档落账| 锚:上游 remote/qfa/main 对应位需同步校验，ref:1af1579c",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 1093,
+    "total_tokens": 1290,
+    "completion_tokens_details": {
+      "reasoning_tokens": 964
+    }
+  }
+}
