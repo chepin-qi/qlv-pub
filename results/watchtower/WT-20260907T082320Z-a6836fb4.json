@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T08:22:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T081959-e56843a4.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡38→39，auto-otp件落inbox|性态:lane.drop单件裸候，未触发异常响应，属常规漂移|建议处置:扫描-细收-裁决-落账已毕，不刷屏、不越真机钱面，次次落账，裸候|锚:lanes/qlv/inbox:auto-otp-20260907T081959-e56843a4.json;sys/void:hecto-drop-39",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1424,
+    "total_tokens": 1644,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1315
+    }
+  }
+}
