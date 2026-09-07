@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T02:40:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T023130-1322f5bf.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡14→15，新件落地ref=lanes/qlv/inbox:auto-otp-20260907T023130-1322f5bf.json。| 性态:lane.drop常态增量，文件名带auto-otp前缀合规；未实测payload，属已触发未校验。| 建议处置:依WAKE-PROTO细收后裁决落账；遵AUTH-OTP-02次次落账，裸候不主动求应。| 锚:lanes/qlv/ledger:drop-20260907T023130-1322f5bf",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1402,
+    "total_tokens": 1624,
+    "cached_tokens": 222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1273
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  }
+}
