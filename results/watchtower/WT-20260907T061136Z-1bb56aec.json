@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:11:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T061025-155887ac.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡30→31进件，ref为auto-otp命名规制文件，已触发lane.drop到件信号| 性态:自动投递流水件，命名合规，仅完成扫描落账，内容未实测细收，属裸候态| 建议处置:入inbox柜，不主动寻求回应，待下游触发或裁决节点调用，次次落账已毕| 锚:lanes/qlv/outbox:pend-void",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 934,
+    "total_tokens": 1152,
+    "completion_tokens_details": {
+      "reasoning_tokens": 828
+    }
+  }
+}
