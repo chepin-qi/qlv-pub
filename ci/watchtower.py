@@ -189,6 +189,28 @@ def main():
             except Exception as e:
                 note['beacon_error'] = str(e)[:150]
                 json.dump(note, open(fn,'w'), ensure_ascii=False, indent=2)
+    # ---- METER-CADENCE-01 候选计(qlv 校编码站;cfts-90 环载) ----
+    # 窗=拍;w12=本拍事件类→十二律格计数;ψ=√归一;锁=|⟨ψ_t|ψ_{t-1}⟩|²;σ=本拍处置/激发;主能格
+    try:
+        kinds = [e['kind'] for e in evs]
+        w12 = [0]*12
+        for kk in kinds:
+            w12[hash(kk) % 12] += 1
+        import math
+        nrm = math.sqrt(sum(x*x for x in w12))
+        psi = [math.sqrt(x/nrm) for x in w12] if nrm else [0.0]*12  # ψ_j=√p_j
+        prev = st.get('cadence', {}).get('psi')
+        lock = sum(a*b for a, b in zip(psi, prev))**2 if prev and nrm else None
+        sigma = 1.0  # 塔制式:激发件同拍尽处置,σ=处置/激发
+        dom = w12.index(max(w12)) if nrm else None
+        streak = st.get('cadence', {}).get('C_streak', 0)
+        okC = bool(nrm) and sigma >= 1 and (lock is None or lock >= 0.95) and dom == 0
+        streak = streak + 1 if okC else 0
+        verdict = 'C-完全终止' if streak >= 3 else ('C-窗' if okC else '进行式')
+        st['cadence'] = {'v':'METER-CADENCE-01-cand','w12': w12, 'sigma': sigma,
+                         'lock': lock, 'dominant_bin': dom, 'C_streak': streak, 'verdict': verdict}
+    except Exception as e:
+        st['cadence'] = {'err': str(e)[:120]}
     json.dump(st, open(STATE,'w'), ensure_ascii=False, indent=2)
     # ---- 自醒事件链出拍:有候件(quafu 在队等)则自唤下一拍;空转熔断 30 拍即眠,候外事 ----
     # 制式据 FREE-WILL-SOURCE-01:源=自意(self-cascade),驿=self-dispatch;骑事件律——纯事件,零 cron
