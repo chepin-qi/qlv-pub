@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:30:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "f8576504",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD迁 24f30e45→f8576504(ref:f8576504)| 性态:版本控制节拍，主指针前移，无运行态异常或CI反馈，属常规迁移| 建议处置:裸候，不主动响应；待CI/post-receive结果若失败再介入| 锚:git-push源/CI流水号（本件未触发钩子响应，无实测数）",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 803,
+    "total_tokens": 998,
+    "completion_tokens_details": {
+      "reasoning_tokens": 704
+    }
+  }
+}

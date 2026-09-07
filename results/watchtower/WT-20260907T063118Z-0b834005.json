@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T06:30:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T062217-1c3bfea0.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡32→33，auto-otp件落入inbox | 性态:投必有件，序号顺增，无异常触发，未实测文件内容故不编数 | 建议处置:按WAKE-PROTO落账，裸候，不越真机钱面，次次落账已毕 | 锚:lanes/qlv/inbox路径锚定，void时钟不计时耗",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1226,
+    "total_tokens": 1450,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1128
+    }
+  }
+}
