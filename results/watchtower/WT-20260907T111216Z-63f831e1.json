@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T11:11:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ac2a1481",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：qfa main 头指针迁移，源 416af043 目标 ac2a1481 | 性态：常规代码提变/合入触发的 HEAD 漂移，无冲突告警，属正常 beat | 建议处置：无需阻断，归档 ref；后续 3 个 beat 周期内观察该头是否稳定，若连续漂移再排查异常提变 | 锚：git-commit 线 ac2a1481 实体可核；ci 线若挂载该 ref 则触发构建单为邻线锚点",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 842,
+    "total_tokens": 1038,
+    "completion_tokens_details": {
+      "reasoning_tokens": 719
+    }
+  }
+}
