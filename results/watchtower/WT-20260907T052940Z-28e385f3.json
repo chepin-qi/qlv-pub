@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-07T05:29:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T051058-04a90281.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:QLV inbox巷卡28→29轮切，auto-otp文件（04a90281）单件落位|性态:lane.drop标准流，属OTP自动分片顺次投递，无刷屏；件已投落账，当前裸候（不主动求应），未触发越界|建议处置:按AUTH-OTP-02次次落账，验29卡可读性后归档；若触发未响应则记待修，未触发维持裸候|锚:lanes/qlv/inbox/auto-otp-20260907T051058-04a90281.json|巷卡28→29",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 963,
+    "total_tokens": 1183,
+    "cached_tokens": 220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 821
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 220
+    }
+  }
+}
