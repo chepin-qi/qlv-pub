@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T09:26:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T092514-339188d0.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡40→42漂移，新OTP件落入inbox|性态:自动lane.drop，未触发异常，clock=VOID|建议处置:WAKE-PROTO扫描细收裁决落账，更新映射裸候，不越真机钱面|锚:lanes/qlv/shadow:otp-ledger;lanes/core:clock-void",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1000,
+    "total_tokens": 1220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 917
+    }
+  }
+}
