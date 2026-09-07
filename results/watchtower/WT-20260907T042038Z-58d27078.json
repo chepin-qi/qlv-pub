@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:20:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "84c333bc",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主分支HEAD迁移(f2f83f87→84c333bc)| 性态:beat类节拍，版本头指针推进；属代码仓库常规状态迁移，未触发异常拦截| 建议处置:核查84c333bc提交签名、父链连续性与流水线gate；非受信强推则锁仓溯源，正常迭代按次落账| 锚:git-reflog/vcs审计线",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 1508,
+    "total_tokens": 1704,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1410
+    }
+  }
+}

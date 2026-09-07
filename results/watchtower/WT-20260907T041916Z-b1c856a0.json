@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:18:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564895658",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qi-lab#5 R98 ECAP-0002 CI引擎拍，inbox_len刷至41，lobby_n=864，qilab5_n=97，qlvpub_head=04a504242ad5，issue4-7_c俱零| 性态:正常自醒链路广播。quafu双节点一Queue一Q自醒链跑(qlv正典形)。lane_files为空，无报错，健康拍频| 建议处置:落账为基线，裸候下一拍。lane_files空值留痕，不强触| 锚:quafu节点8BB169201FA3F5D4自醒状态为旁证;lobby_tail=5564836206时序锚",
+  "usage": {
+    "prompt_tokens": 348,
+    "completion_tokens": 1289,
+    "total_tokens": 1637,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1121
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:17:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564883645",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qi-lab#5:5564883645 beacon.comment，qfa era-CI R97 ECAP-0001 引擎拍| 性态:自醒链在跑(qlv正典形)。inbox_len 41、lobby_n 864、qilab5_n 96，issue4-7_c 归零，lane_files 空值，qlvpub_head 锚 04a504242ad5，quafu(8BAFA1E022273996) 报 In Que 且 #noauto| 建议处置:裸候，不主动求应；已次次落账。lane_files 空态待下周期补同步| 锚:ref=qi-lab#5:5564883645;head=04a504242ad5",
+  "usage": {
+    "prompt_tokens": 345,
+    "completion_tokens": 2151,
+    "total_tokens": 2496,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1974
+    }
+  }
+}

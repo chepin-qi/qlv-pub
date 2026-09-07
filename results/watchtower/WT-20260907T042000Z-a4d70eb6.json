@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:19:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564921753",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qilab5_n:96→99，自醒链运转中，era-CI引擎拍频上报ECAP-0004，标记#noauto。| 性态:qlv正典形态，增量平滑，属正常自醒链路广播，未越异常阈值。| 建议处置:裸候，不主动干预；按AUTH-OTP-02次次落账，维持观察。| 锚:ops-mon#node-scale基准/infra-sre#自醒链巡检。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 921,
+    "total_tokens": 1150,
+    "completion_tokens_details": {
+      "reasoning_tokens": 809
+    }
+  }
+}

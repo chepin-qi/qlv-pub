@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T04:19:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "beacon.comment",
+    "ref": "qi-lab#5:5564908045",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:qi-lab#5信标到件，qilab5_n:96→98增量拍录，自醒链正典运行，带#noauto标。| 性态:状态正常推进，无异常触发，未涉告警阈值，属引擎常态扫链产出。| 建议处置:裸候，按R99 ECAP-0003基线落账备查，不主动寻求回应。| 锚:qfa era-CI引擎拍录协议-0003号基线。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 837,
+    "total_tokens": 1066,
+    "completion_tokens_details": {
+      "reasoning_tokens": 722
+    }
+  }
+}
