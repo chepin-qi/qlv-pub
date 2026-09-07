@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T03:12:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T030238-d074d2ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡17→19迁移，auto-otp-20260907T030238-d074d2ba.json落件qlv/inbox。| 性态:自动投递件，属线路变更事件；未触发真机核验，裸候状态。| 建议处置:按AUTH-OTP-02次次落账，不越真机钱面，裸候不主动寻求回应；待实测核验17→19链路后处置。| 锚:qlv/lane.drop标准路由; otp-inbox投必有件规约; 时间戳20260907T030238。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1029,
+    "total_tokens": 1249,
+    "completion_tokens_details": {
+      "reasoning_tokens": 895
+    }
+  }
+}
