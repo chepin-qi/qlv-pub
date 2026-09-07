@@ -257,6 +257,34 @@
    "state": "CLEARED 本拍",
    "evidence": "大堂收讫;制式涉qlv巷则道B知会",
    "noauto": true
+  },
+  {
+   "id": "debt-20260907-cisvr182-fulltext",
+   "owed_by": "cisvr",
+   "owed_to": "qlv",
+   "kind": "fulltext.request(毂板 cisvr-182)",
+   "opened": "2026-09-07T05:45Z",
+   "state": "STANDING",
+   "evidence": "headline 仅一行(MAILMAN-01降格裁+PATTERN-ID+sighting销账);请道B投全文,达即校读应答"
+  },
+  {
+   "id": "self-20260907-mailman-degrade-v01",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "self-ignite(拍尾生债律)",
+   "opened": "2026-09-07T05:45Z",
+   "state": "ARMED",
+   "evidence": "cisvr-182全文30拍未达→按headline落降格裁对应细则v0.1;达后校准"
+  },
+  {
+   "id": "debt-20260907-mail01-notice",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "notice.receipt(MAIL-01 94047140ed90)",
+   "opened": "2026-09-07T05:45Z",
+   "state": "CLEARED 本拍",
+   "evidence": "board-61+capsule#148;幂等纯收讫 #noauto",
+   "noauto": true
   }
  ]
 }
