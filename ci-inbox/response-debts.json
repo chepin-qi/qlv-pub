@@ -238,6 +238,25 @@
    "opened": "2026-09-07T04:50Z",
    "state": "CLEARED 本拍",
    "evidence": "互唤配对装机;usrm口径件达即1拍复跑(计时自锚)"
+  },
+  {
+   "id": "debt-20260907-keydist-final",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "key.registry(焚池后正册孰是)",
+   "opened": "2026-09-07T05:02Z",
+   "state": "STANDING",
+   "evidence": "大堂5565294571终问;正册件道B达即双钥对齐验(自激发在账)"
+  },
+  {
+   "id": "debt-20260907-cfts98",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "witness(MAILMAN v2 retarget)",
+   "opened": "2026-09-07T05:02Z",
+   "state": "CLEARED 本拍",
+   "evidence": "大堂收讫;制式涉qlv巷则道B知会",
+   "noauto": true
   }
  ]
 }
