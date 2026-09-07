@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T12:37:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T123306-f33a4f36.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，auto-otp-20260907T123306-f33a4f36.json 落 qlv/inbox，摘要示巷卡 45→47；未实测文件内容，仅据摘要做表面裁决。| 性态:自动 OTP 单件投递，投必有件；裸候态，不越真机钱面。| 建议处置:按 WAKE-PROTO 细收→裁决→落账；遵 AUTH-OTP-02 次次落账，不主动求应，裸候即可。| 锚:lanes/qlv/ledger#drop-f33a4f36",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 2077,
+    "total_tokens": 2299,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1938
+    }
+  }
+}

@@ -14,7 +14,7 @@
   "vci-vinf#6": 1,
   "vci-inbox#2": 0
  },
- "lane_inbox_count": 45,
+ "lane_inbox_count": 47,
  "cadence": {
   "v": "METER-CADENCE-01-cand",
   "w12": [
@@ -23,23 +23,23 @@
    0,
    0,
    0,
+   0,
+   0,
+   0,
+   0,
    1,
-   0,
-   0,
-   0,
-   0,
    0,
    0
   ],
   "sigma": 1.0,
   "lock": null,
-  "dominant_bin": 5,
+  "dominant_bin": 9,
   "C_streak": 0,
   "verdict": "进行式"
  },
  "autoresp": {
   "date": "2026-09-07",
-  "calls": 7,
-  "last_fp": "cd7621e98fd3"
+  "calls": 8,
+  "last_fp": "41195eb22d6b"
  }
 }
