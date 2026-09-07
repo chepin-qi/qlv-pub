@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T10:30:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "cb32e036",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主分支HEAD自b04cf12b迁移至cb32e036| 性态:常规beat推进，属正常版本前移，未见回滚或分叉异常| 建议处置:按WAKE-PROTO常规落账，扫描cb32e036变更摘要，裸候无需主动响应| 锚:git-log他线或CI流水线记录",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 821,
+    "total_tokens": 1016,
+    "completion_tokens_details": {
+      "reasoning_tokens": 736
+    }
+  }
+}
