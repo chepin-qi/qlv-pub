@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T09:58:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T095814-423b8c95.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡 42→43，inbox 落件 auto-otp-20260907T095814-423b8c95.json。| 性态:单件触发；前序 42 未在本会话实测，不编数为丢件，属「未触发 vs 触发未响应」边界。| 建议处置:细收该件格式/签名/时戳；裁决比对序列，若 42 未落账则补扫；校验通过后落账入队，裸候不主动求应。| 锚:lanes/meta:seq-continuity / lanes/arc:drop-audit-rule",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1439,
+    "total_tokens": 1661,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1301
+    }
+  }
+}
