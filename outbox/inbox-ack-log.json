@@ -944,6 +944,24 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "e2f4ca8e8425"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T062155Z-40b02664.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "8cff69b770cc"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T062219Z-40b02664.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "552cf8d30e54"
+  },
+  {
+   "ref": "results/watchtower/WT-20260907T062246Z-0d867c35.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "d6883f6d1072"
   }
  ]
 }
