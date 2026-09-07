@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-07T02:38:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260907T023130-1322f5bf.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，件号auto-otp-20260907T023130-1322f5bf.json由巷卡14切换至巷卡15，属自动落件路由迁移| 性态:路径已变更，未报触发失败，视为静默落账；未实测文件体，不编完整性/CRC数据，严格区分「已落件」与「触发未响应」| 建议处置:遵AUTH-OTP-02次次落账，该件已落15巷卡，裸候即可，不主动唤应；后续巡检可补文件头锚定| 锚:lanes/qlv/ledger:drop-seq; lanes/qlv/inbox:auto-otp索引",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 951,
+    "total_tokens": 1173,
+    "completion_tokens_details": {
+      "reasoning_tokens": 795
+    }
+  }
+}
