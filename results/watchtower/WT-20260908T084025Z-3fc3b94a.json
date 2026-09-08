@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T08:39:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T083831-9e21ae09.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡53→54，件auto-otp-20260908T083831-9e21ae09.json落入；clock=VOID，时标仅作序码，不计时效。| 性态:标准路由投递态，件随卡递进，无异常触发，裸候下一周期。| 建议处置:执行AUTH-OTP-02次次落账，54巷卡静默收讫，不越真机钱面，不主动寻求回应，裸候即可。| 锚:ref@lanes/qlv/inbox:auto-otp-20260908T083831-9e21ae09.json#53→54",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1305,
+    "total_tokens": 1527,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1159
+    }
+  }
+}
