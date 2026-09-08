@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T10:43:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "1aef4e60",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa.beat main头迁移 e16cb0ae→1aef4e60 | 性态:代码层面常规HEAD漂移，属版本控制正常心跳，无异常冲突或回退迹象 | 建议处置:已落账，记ref=1aef4e60为当前基线；裸候下游CI/qfa.build触发，不主动拉取 | 锚:关联git log 1aef4e60 --oneline 与父提交e16cb0ae拓扑连续性可验",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 747,
+    "total_tokens": 946,
+    "completion_tokens_details": {
+      "reasoning_tokens": 629
+    }
+  }
+}
