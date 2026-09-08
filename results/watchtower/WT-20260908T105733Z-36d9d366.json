@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T10:56:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "a83aaf61",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 d0de222e→a83aaf61| 性态:单次指针迁移，属qfa.beat常规节拍；后续CI/部署状态未报，不编实测数，按「触发未响应」记| 建议处置:已落账，裸候即可，不主动求应；如需追验，拉取diff并检索引证线| 锚:heimdall.obs#beat/a83aaf61",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 1315,
+    "total_tokens": 1509,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1209
+    }
+  }
+}
