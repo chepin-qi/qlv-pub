@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-08T13:30:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b6904c43",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: qfa主链路HEAD迁移，ref由0ae3d80e前推至b6904c43，属qfa.beat节拍触发的版本迭代落账。| 性态: 单点引用变更，无并行冲突/回退标记，未触发异常信号，当前裸候。| 建议处置: 常规落账；建议对该commit做差异快照备查，无需拦截。| 锚: 挂接版本审计线(audit-log#b6904c43)或构建流水线(ci-qfa#main)做二次锚定。",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 925,
+    "total_tokens": 1123,
+    "cached_tokens": 198,
+    "completion_tokens_details": {
+      "reasoning_tokens": 799
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 198
+    }
+  }
+}
