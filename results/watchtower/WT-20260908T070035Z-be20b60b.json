@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T07:00:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "6716689a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头指针迁移，由b3508009前移至6716689a|性态:常规代码迭代/集成事件，属正常ref更新，无异常冲突或回滚迹象|建议处置:按落账流程归档，确认新头结点6716689a可达性；无需拦截或回退|锚:git-rev/reproducible-build@mainline",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 680,
+    "total_tokens": 874,
+    "completion_tokens_details": {
+      "reasoning_tokens": 589
+    }
+  }
+}

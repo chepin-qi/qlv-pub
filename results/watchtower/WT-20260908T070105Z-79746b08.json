@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T07:00:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T065150-1af7865b.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线inbox落入auto-otp文件(auto-otp-20260908T065150-1af7865b.json)，巷卡48→52，增量4件，属lane.drop类到件。| 性态:系统自落文件，仅见到达态；未实测内部条目与触发响应，不辨「未触发」或「触发未响应」，暂记为裸候待细收。| 建议处置:执行WAKE-PROTO细收该json，核对4件增量与内文条目一致性；吻合即裁决落账，异动则挂起。| 锚:交叉qlu/qlw线同批次auto-otp巷卡波动基线作他线锚。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1072,
+    "total_tokens": 1294,
+    "completion_tokens_details": {
+      "reasoning_tokens": 915
+    }
+  }
+}
