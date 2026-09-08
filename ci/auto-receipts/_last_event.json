@@ -1,1 +1,1 @@
-{"ts": "2026-09-08T14:13:08Z", "evs": [{"kind": "lane.drop", "ref": "lanes/qlv/inbox:auto-otp-20260908T140741-e283f5ba.json", "summary": "巷卡 64→65,最新 auto-otp-20260908T140741-e283f5ba.json", "high_value": true}], "pend": ["quafu:8CA608102028586C", "quafu:8BB169201FA3F5D4"]}
+{"ts": "2026-09-08T15:16:19Z", "evs": [{"kind": "lane.drop", "ref": "lanes/qlv/inbox:auto-otp-20260908T150754-7e8ddcac.json", "summary": "巷卡 65→66,最新 auto-otp-20260908T150754-7e8ddcac.json", "high_value": true}], "pend": ["quafu:8CA608102028586C", "quafu:8BB169201FA3F5D4"]}

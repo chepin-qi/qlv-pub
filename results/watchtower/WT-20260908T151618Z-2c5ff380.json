@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T15:15:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T150754-7e8ddcac.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡65→66，ref=auto-otp-20260908T150754-7e8ddcac.json| 性态:单件裸候，未触发异常，属正常步进落件| 建议处置:按AUTH-OTP-02次次落账，不主动seek回应，裸候归档| 锚:lanes/qlv/core:otp-ledger",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1377,
+    "total_tokens": 1599,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1283
+    }
+  }
+}
