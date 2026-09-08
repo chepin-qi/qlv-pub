@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T07:22:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "dcdaeca5",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(6716689a→dcdaeca5)| 性态:常规版本推进,无冲突/回滚/强推迹象,属正常beat| 建议处置:落账确认,无需拦截,持续监听下一拍| 锚:可挂审计线比对变更diff规模与提交签名",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 609,
+    "total_tokens": 803,
+    "completion_tokens_details": {
+      "reasoning_tokens": 532
+    }
+  }
+}
