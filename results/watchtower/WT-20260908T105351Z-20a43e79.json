@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T10:53:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "d0de222e",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主链路HEAD迁移(ref=d0de222e),指针由1aef4e60→d0de222e|性态:常规代码迭代/版本位漂移,无异常告警,未触发阻断规则|建议处置:落账归档,裸候后续,不主动回查|锚:git线/qfa-main-HEAD",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 507,
+    "total_tokens": 705,
+    "completion_tokens_details": {
+      "reasoning_tokens": 425
+    }
+  }
+}

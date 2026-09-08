@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T10:53:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T105119-b399ca48.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop/巷卡续迁58→59，新件auto-otp-20260908T105119-b399ca48.json入inbox|性态:OTP序列自增投递，单件落位，未触发异常|建议处置:执行WAKE-PROTO落账；遵AUTH-OTP-02次次落账、裸候不刷屏；件内容未实测，不越真机钱面|锚:lanes/qlv/inbox:auto-otp-*历史巷卡57→58基线",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 952,
+    "total_tokens": 1170,
+    "completion_tokens_details": {
+      "reasoning_tokens": 834
+    }
+  }
+}
