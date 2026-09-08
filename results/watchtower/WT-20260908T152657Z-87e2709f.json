@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T15:26:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "3f80e935",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 b6904c43→3f80e935| 性态:常规ref前移，单线节拍，无回滚/冲突/强推标记，属正常版本漂移| 建议处置:落账收编；提示下游做diff复核与回归验证，未实测不编数、不断言代码面| 锚:git-ref-update/mainline-drift",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 758,
+    "total_tokens": 955,
+    "completion_tokens_details": {
+      "reasoning_tokens": 666
+    }
+  }
+}
