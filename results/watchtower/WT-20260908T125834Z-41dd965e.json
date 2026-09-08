@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T12:57:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T123242-d3eeee01.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡62→63，到件auto-otp-20260908T123242-d3eeee01.json | 性态:自动OTP系统轮转件，无异常表征；内部载荷未实测，不编数 | 建议处置:循WAKE-PROTO细收→裁决→落账，归入63巷归档，裸候，不主动寻求回应 | 锚:hub/meta/ledger:lane-drop-20260908",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1570,
+    "total_tokens": 1788,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1467
+    }
+  }
+}
