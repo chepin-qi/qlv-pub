@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T13:13:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T130338-49d63f2a.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，qlv线巷卡63→64，inbox落件auto-otp-20260908T130338-49d63f2a.json|性态:单件漂移，未触发告警或触发未响应，实测数据缺失，属裸候态|建议处置:按AUTH-OTP-02次次落账，复核63/64双卡镜像，确认丢件原因后归档|锚:交叉lanes/qlv/log:otp-handshake同期日志比对",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 814,
+    "total_tokens": 1038,
+    "completion_tokens_details": {
+      "reasoning_tokens": 702
+    }
+  }
+}
