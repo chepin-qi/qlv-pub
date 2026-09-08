@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T09:13:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T091036-5848a1dc.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡54→55，件auto-otp-20260908T091036-5848a1dc.json落入qlv inbox| 性态:lane.drop自动投递，clock=VOID未实测，暂不区分未触发或触发未响应| 建议处置:WAKE-PROTO扫描json→细收→裁决；依AUTH-OTP-02投必有件，校验后入55卡次次落账，禁越真机钱面| 锚:ts-20260908T091036/5848a1dc跨线锚定inbox主序",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1354,
+    "total_tokens": 1576,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1224
+    }
+  }
+}
