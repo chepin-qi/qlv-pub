@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T14:12:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T140741-e283f5ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线巷卡64→65切换，inbox收auto-otp-20260908T140741-e283f5ba.json一件| 性态:lane.drop投递，属换卡续传，待细收未裁决| 建议处置:执行WAKE-PROTO细收→裁决→落账；核验文件完整性；归入65卡裸候，不主动外求| 锚:AUTH-OTP-02投必有件/次次落账；qlv/hall/void-clock(VOID态)",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1011,
+    "total_tokens": 1231,
+    "completion_tokens_details": {
+      "reasoning_tokens": 891
+    }
+  }
+}
