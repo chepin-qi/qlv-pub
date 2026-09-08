@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T12:03:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "0ae3d80e",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(678b3e90→0ae3d80e)| 性态:正常节拍推进，属预期内版本链更替，无异常触发| 建议处置:已落账，裸候下一beat，无需回退| 锚:0ae3d80e纳入qfa.beat节律，关联前序头678b3e90形成链式锚定",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 714,
+    "total_tokens": 914,
+    "completion_tokens_details": {
+      "reasoning_tokens": 620
+    }
+  }
+}

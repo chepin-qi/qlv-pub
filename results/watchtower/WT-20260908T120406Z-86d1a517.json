@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T12:03:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T120102-3313a701.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡60→61迭代，新件auto-otp-20260908T120102-3313a701.json入巷。|性态:自动投递触发，文件已落inbox，无异常标记，属常流增量。|建议处置:确认落账完成，归档索引，裸候不主动唤启。|锚:lanes/通用巷规#drop落账; AUTH-OTP-02#投必有件/次次落账。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 834,
+    "total_tokens": 1054,
+    "completion_tokens_details": {
+      "reasoning_tokens": 727
+    }
+  }
+}
