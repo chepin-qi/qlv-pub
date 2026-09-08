@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T07:45:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T073745-3c79f836.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，qlv inbox收auto-otp时序文件，巷卡52→53|性态:路由迁移/文件态变更，未触发业务响应，属裸候|建议处置:依WAKE-PROTO细收后落账，核查53巷卡挂载及文件完整性|锚:lanes/qlv/inbox:auto-otp-20260908T073745-3c79f836.json",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 968,
+    "total_tokens": 1190,
+    "completion_tokens_details": {
+      "reasoning_tokens": 870
+    }
+  }
+}

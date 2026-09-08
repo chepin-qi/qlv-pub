@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T07:44:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "920c2ffd",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线HEAD节拍上报，位点由dcdaeca5迁移至920c2ffd| 性态:常规版本控制心跳，单拍位点偏移；未见回滚、分叉或强推异常迹，属正常git演进| 建议处置:次次落账，记录920c2ffd为新基准头；裸候下一beat，若连续位点跳跃超阈值再触发细收| 锚:920c2ffd需与远端源站或CI产物哈希交叉锚定，防漂移",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 1138,
+    "total_tokens": 1332,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1020
+    }
+  }
+}
