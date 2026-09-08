@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T11:17:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "770b43a7",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 a83aaf61→770b43a7| 性态:轻量beat，常规ref推进；未附构建/测试/审批态，属裸迁，未触发下游链路| 建议处置:裸候，不主动回拉；若存hook触发或门禁异常请补报| 锚:git引用更新遵循轻量投递原则，无附随CI态时不越真机钱面",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 853,
+    "total_tokens": 1049,
+    "completion_tokens_details": {
+      "reasoning_tokens": 752
+    }
+  }
+}
