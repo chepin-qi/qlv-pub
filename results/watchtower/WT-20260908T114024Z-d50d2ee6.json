@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T11:40:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "678b3e90",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD迁移(770b43a7→678b3e90)| 性态:版本控制常规演进，主指针前移，未见冲突、回滚或异常负载，属正常落账| 建议处置:归档备查，不拦截；后续若beat失联或hash回退，触发熔断复核| 锚:ref=678b3e90，交叉索引commit log与CI终态",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 735,
+    "total_tokens": 933,
+    "completion_tokens_details": {
+      "reasoning_tokens": 638
+    }
+  }
+}

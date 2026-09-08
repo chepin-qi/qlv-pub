@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-08T11:40:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T112611-8253a535.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡59→60迁移，auto-otp-20260908T112611-8253a535.json到件| 性态:系统级通道自动投递，文件已落inbox，属裸候态，未触发人工实测，无响应数据| 建议处置:执行次次落账，将该JSON归档至lanes/qlv/done；维持裸候，不主动寻求回应，待下游自然触发| 锚:lanes/infra/otp:cross-lane-sync",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 948,
+    "total_tokens": 1168,
+    "cached_tokens": 220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 832
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 220
+    }
+  }
+}
