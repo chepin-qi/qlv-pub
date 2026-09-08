@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T10:19:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T101209-b89946f6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox 巷卡57→58，新件auto-otp-20260908T101209-b89946f6.json落位| 性态:单件裸候，未触发解析，文件名与时戳合规，内容未实测| 建议处置:维持裸候，待细收触发后裁决；若需响应则次次落账，不越真机钱面| 锚:heka线流水索引锚",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 994,
+    "total_tokens": 1214,
+    "completion_tokens_details": {
+      "reasoning_tokens": 892
+    }
+  }
+}

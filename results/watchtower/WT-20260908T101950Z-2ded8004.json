@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T10:19:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "e16cb0ae",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa 主支头指针由 920c2ffd 迁移至 e16cb0ae| 性态:线性前迁，无回退/分叉显征，属常规 beat 迭代；差异域与推送方式未触发实测| 建议处置:校验新头提交签名、CI 闸口及 force-push 审计日志，无异常即落账归档| 锚:git-scm.com/docs/git-push",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 1104,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1005
+    }
+  }
+}
