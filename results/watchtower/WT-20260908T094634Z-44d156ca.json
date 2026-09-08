@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T09:45:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T093927-d3e2f2ce.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，ref已投件至qlv/inbox(auto-otp-20260908T093927-d3e2f2ce.json)，摘要示巷卡55→56迁移| 性态:件达，属通道卡槽漂移或静默切换，因clock=VOID且未实测，不编数，触发与否不可考| 建议处置:按AUTH-OTP-02裸候，不刷屏，次次落账即毕；若需排障，须运维在真机钱面核查，不越真机钱面| 锚:lanes/qlv/ledger:drop-20260908T093927; AUTH-OTP-02§次次落账",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1296,
+    "total_tokens": 1520,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1141
+    }
+  }
+}
