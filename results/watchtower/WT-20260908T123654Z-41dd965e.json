@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-08T12:36:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260908T123242-d3eeee01.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，auto-otp件d3eeee01由巷卡61迁62落入inbox，投必有件，到件正常。| 性态:最新序件，未触发异常，属裸候状态。| 建议处置:依WAKE-PROTO次次落账，完成归档即结单；不刷屏、不越真机钱面、不主动外呼。| 锚:qlv线驿inbox/61→62卡迁/d3eeee01。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1052,
+    "total_tokens": 1270,
+    "completion_tokens_details": {
+      "reasoning_tokens": 942
+    }
+  }
+}
