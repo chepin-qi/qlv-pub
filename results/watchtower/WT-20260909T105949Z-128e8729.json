@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T10:59:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260909T105415-b00dbb4d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane.drop巷卡80→81，auto-otp-20260909T105415-b00dbb4d.json单件到件| 性态: 自动化静默投递，未触发异常，裸候态| 建议处置: inbox次次落账，归档待链上调用，不主动寻应| 锚: xref:otp-archive/b00dbb4d@qlv-81",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1158,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1063
+    }
+  }
+}
