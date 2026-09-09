@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T14:38:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ce0c591a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移(3a8be983→ce0c591a)| 性态:常规 beat 推进/已落账;无回滚、无强制推送迹征,属正常 HEAD 漂移| 建议处置:确认 ce0c591a 对应 CI/构建通过;无异常则归档,不拦截| 锚:git-objects 索引链/主干自动化节拍线",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 824,
+    "total_tokens": 1022,
+    "completion_tokens_details": {
+      "reasoning_tokens": 729
+    }
+  }
+}
