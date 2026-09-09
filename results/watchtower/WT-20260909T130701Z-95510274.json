@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T13:06:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260909T130417-8689e132.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：巷卡漂移 82→83，auto-otp-20260909T130417-8689e132.json 入件。| 性态：lane.drop 触发，卡槽静默迁移。该件为自动 OTP 序列生成，落账于 qlv/inbox，未触发真机面实测响应（无 82/83 双端握手回显），属\"触发未响应\"或纯归档漂移。| 建议处置：按 AUTH-OTP-02 次次落账；裸候不主动外呼。若后续 83 巷卡回显到件，补录心跳；82 侧残留会话待细收扫尾。| 锚：关联 lanes/auto-otp 归档索引 / 82→83 巷卡历史漂移链。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1095,
+    "total_tokens": 1315,
+    "completion_tokens_details": {
+      "reasoning_tokens": 923
+    }
+  }
+}
