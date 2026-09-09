@@ -14,11 +14,10 @@
   "vci-vinf#6": 1,
   "vci-inbox#2": 0
  },
- "lane_inbox_count": 84,
+ "lane_inbox_count": 86,
  "cadence": {
   "v": "METER-CADENCE-01-cand",
   "w12": [
-   0,
    0,
    0,
    0,
@@ -29,17 +28,18 @@
    0,
    0,
    0,
+   0,
    0
   ],
   "sigma": 1.0,
   "lock": null,
-  "dominant_bin": 6,
+  "dominant_bin": 5,
   "C_streak": 0,
   "verdict": "进行式"
  },
  "autoresp": {
   "date": "2026-09-09",
-  "calls": 8,
-  "last_fp": "2028d3dc1e95"
+  "calls": 9,
+  "last_fp": "34d119a1d301"
  }
 }

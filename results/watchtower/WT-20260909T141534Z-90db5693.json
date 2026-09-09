@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-09T14:15:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-direct-beat35-20260909T135238-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop件cisvr-direct-beat35-20260909T135238-qlv.json落箱，巷卡84→86跳变，缺85节拍。|性态:序列缺口，单箱跳号；未实测文件内载荷，暂无法区分85未触发或触发未响应，按投必有件先落账。|建议处置:细收该件，核查85是否存在滞留或补传；若85为空拍则本件标记SKIP并落账，否则追件填谷。|锚:lanes/qlv/seq:86|c cisvr-direct线节拍队列。",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1006,
+    "total_tokens": 1229,
+    "cached_tokens": 223,
+    "completion_tokens_details": {
+      "reasoning_tokens": 873
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 223
+    }
+  }
+}
