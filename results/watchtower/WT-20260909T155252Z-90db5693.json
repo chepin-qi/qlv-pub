@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T15:52:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-direct-beat35-20260909T135238-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，巷卡86→87，cisvr-direct-beat35心跳json落入qlv inbox| 性态:文件级到件信号，属版本迭代投递；未触发内容实测，不编数，无法确认载荷完整性与响应状态| 建议处置:按WAKE-PROTO执行细收→裁决→落账；裸候下一beat，不主动求应| 锚:cisvr-direct-beat35通道线",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 934,
+    "total_tokens": 1157,
+    "completion_tokens_details": {
+      "reasoning_tokens": 830
+    }
+  }
+}
