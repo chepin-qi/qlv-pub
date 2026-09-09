@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T09:42:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260909T093657-9cc26efa.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox lane drop 到件，ref auto-otp-20260909T093657-9cc26efa.json，摘要标引巷卡 66→80| 性态:到件已触发，未实测 json 内文，不编数；单文件静默投件，无刷屏，无响应需求，裸候| 建议处置:AUTH-OTP-02 次次落账，归档 inbox 待扫队列，不越真机钱面，不主动回应| 锚:lanes/qlv/audit:otp-seq-20260909T093657 他线锚",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1653,
+    "total_tokens": 1873,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1515
+    }
+  }
+}
