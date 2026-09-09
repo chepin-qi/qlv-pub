@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-09T16:16:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "25a2983a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: qfa主线HEAD自ce0c591a迁移至25a2983a，单提交节拍。| 性态: 常规版本推进，无冲突/回滚标记，属正常迭代。| 建议处置: 按OTP-02次次落账，裸候下一qfa.beat；不主动回拉，双哈希归档备查。| 锚: 前序头节点ce0c591a为旧线锚，25a2983a为新头锚，可供交叉diff。",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 1039,
+    "total_tokens": 1236,
+    "cached_tokens": 197,
+    "completion_tokens_details": {
+      "reasoning_tokens": 924
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 197
+    }
+  }
+}

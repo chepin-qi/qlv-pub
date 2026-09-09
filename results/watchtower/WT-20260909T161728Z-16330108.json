@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T16:16:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanes/qlv/inbox 收到 cisvr-draft-beat37-20260909T1608Z-qlv.json，巷卡标记由87迭代至88，属单件草稿落件。| 性态:lane.drop 无触发异常，文件为 beat37 草稿，仅版本号自增，未涉及机钱面或实测数据变更。| 建议处置:按 WAKE-PROTO 完成扫描落账，置 inbox 裸候，待 cisvr 线下工序拉取或裁决；不主动外呼。| 锚:cisvr#main|draft-stream",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1064,
+    "total_tokens": 1289,
+    "completion_tokens_details": {
+      "reasoning_tokens": 932
+    }
+  }
+}
