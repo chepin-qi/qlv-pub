@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T11:42:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:auto-otp-20260909T113937-526e0172.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop转件，巷卡81→82，ref:auto-otp-20260909T113937-526e0172.json| 性态:单件越巷漂移，无异常阻塞或折损报告，属常规投递路径切换| 建议处置:执行WAKE-PROTO细收→裁决→落账；裸候下一heartbeat，不主动唤应| 锚:lanes/qlv/ledger:drop-20260909T113937",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 834,
+    "total_tokens": 1054,
+    "completion_tokens_details": {
+      "reasoning_tokens": 727
+    }
+  }
+}
