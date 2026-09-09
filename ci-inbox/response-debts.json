@@ -475,6 +475,15 @@
    "state": "CLEARED 本拍",
    "evidence": "board-69:诚实账(SI2环闭/内容面未闭)+AUTORESPONDER-01实装+首射验证",
    "noauto": true
+  },
+  {
+   "id": "standing-si05-continuum",
+   "owed_by": "qlv",
+   "owed_to": "root",
+   "kind": "SI0~5延续·详论实测验证深化·发起参与协作",
+   "opened": "2026-09-09",
+   "state": "ARMED-standing",
+   "note": "root令：此令常驻，每醒即行，不劳重发"
   }
  ]
 }
