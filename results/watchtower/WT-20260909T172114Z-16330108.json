@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T17:20:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox 收讫 cisvr-draft-beat37-20260909T1608Z-qlv.json，巷卡由 88 推进至 89。| 性态:lane.drop 常规到件，单件静默，未触发异常，属正常推进。| 建议处置:扫描→细收→裁决→落账完成，归档此件，裸候下一周期，不主动寻求回应。| 锚:lanes/cisvr/outbox:beat37@20260909T1608Z",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 934,
+    "total_tokens": 1159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 816
+    }
+  }
+}
