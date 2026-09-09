@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-09T13:51:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "3a8be983",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 65319399→3a8be983| 性态:基线漂移确认，单点快照收敛，未见异常触发，属常规投件| 建议处置:归档落账，通知下游同步拉取；若CI构建失败则回滚至65319399| 锚:git-ref/qfa-main@3a8be983",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 923,
+    "total_tokens": 1119,
+    "completion_tokens_details": {
+      "reasoning_tokens": 834
+    }
+  }
+}
