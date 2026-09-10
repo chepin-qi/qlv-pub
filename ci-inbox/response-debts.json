@@ -773,15 +773,21 @@
   {
    "id": "fix05b-adoption-trial",
    "opened": "2026-09-10T23:07:50Z",
-   "status": "ARMED",
-   "note": "qfa FIX-05b落账三段式反向领养受试:下拍watchtower落账段对拍qfa-90§二,成即双址回报 锚=QLV-ANS-EVAL2-01"
+   "status": "CLEARED",
+   "note": "qfa FIX-05b落账三段式反向领养受试:下拍watchtower落账段对拍qfa-90§二,成即双址回报 锚=QLV-ANS-EVAL2-01 | 2026-09-10T23:26:43Z 接种讫v3.1(株一空拍心跳)+对拍回报双址201+dispatch204 锚=QLV-FIX05B-ADOPT-01"
   },
   {
    "id": "ripple-01-selfcheck",
    "opened": "2026-09-10T23:17:52Z",
    "status": "ARMED",
-   "note": "RIPPLE-01施行自检:下拍验watchtower⑤LOOPS-CHECK首巡产出(loops_open计数/环事件);pend扩环自醒续拍"
+   "note": "RIPPLE-01施行自检:下拍验watchtower⑤LOOPS-CHECK首巡产出(loops_open计数/环事件);pend扩环自醒续拍 | 2026-09-10T23:26:43Z run 23:23:12Z in_progress@f88ae0e 首巡v3待发;cancelled=pending承继良性在证"
+  },
+  {
+   "id": "gate-values-spectra",
+   "opened": "2026-09-10T23:26:43Z",
+   "status": "ARMED",
+   "note": "闸值联邦对照谱:qfa钱卫四闸(RESP6/SI1_3/AR12/WT8)已录,候qfa确认现值+lvlu/lgt闸值→HARMONY-01参数面 锚=QLV-FIX05B-ADOPT-01"
   }
  ],
- "updated": "2026-09-10T23:17:52Z"
+ "updated": "2026-09-10T23:26:43Z"
 }
