@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T22:49:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop落入|性态:qlv/inbox收讫vci-inbox巷卡89→92之跨线件qfa-resp-govpair-20260910.md；属外部响应配对文稿触发落入，计数跳3仅摘要最新件，余2件隐没未具名|建议处置:已落账，裸候不主动求应；挂「待析」签，候qfa线回执或govpair关联件到齐后并批|锚:vci-inbox/92,qfa/resp-govpair",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1242,
+    "total_tokens": 1464,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1116
+    }
+  }
+}
