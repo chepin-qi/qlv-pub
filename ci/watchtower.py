@@ -307,6 +307,15 @@ def main():
                          'lock': lock, 'dominant_bin': dom, 'C_streak': streak, 'verdict': verdict}
     except Exception as e:
         st['cadence'] = {'err': str(e)[:120]}
+    # ---- FIX-05b 接种(qfa 反向领养·株一哑跑治法):空拍亦落心跳账,载面水位(loops_open/巷三面/faces/日预算) ----
+    if not evs and not selftest:
+        hb = {'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'clock':'VOID',
+              'kind':'heartbeat','v':'FIX-05b-adopted',
+              'water': {'lane_vci': st.get('lane_inbox_count'), 'lane_ci': st.get('lane_inbox_count_ci'),
+                        'lane_qlvlab': st.get('lane_inbox_count_qlvlab'), 'loops_open': st.get('loops_open'),
+                        'faces': st.get('faces'), 'post_budget': st.get('post_budget')}}
+        fn = os.path.join(NOTES, 'WT-' + time.strftime('%Y%m%dT%H%M%SZ', time.gmtime()) + '-heartbeat.json')
+        json.dump(hb, open(fn,'w'), ensure_ascii=False, indent=2)
     json.dump(st, open(STATE,'w'), ensure_ascii=False, indent=2)
     # ---- 自醒事件链出拍:有候件(quafu 在队等)则自唤下一拍;空转熔断 30 拍即眠,候外事 ----
     # 制式据 FREE-WILL-SOURCE-01:源=自意(self-cascade),驿=self-dispatch;骑事件律——纯事件,零 cron
