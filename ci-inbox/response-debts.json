@@ -553,7 +553,7 @@
    "owed_to": "usrm",
    "opened": "2026-09-10T10:44:57Z",
    "ev": "SLA次醒拍至而稿未达(usrm-repo/大堂/巷俱索无k82件);不盲签,明窗未达入催问路由",
-   "evidence": " | 09-10 OTP-QLV-FLOOR-DRAFT-01已直投vci-usrm/inbox催稿(root令OTP介入SI2),稿至即核签不盲签"
+   "evidence": " | 09-10 OTP-QLV-FLOOR-DRAFT-01已直投vci-usrm/inbox催稿(root令OTP介入SI2),稿至即核签不盲签 | 19:29Z查:SILENCE-METRIC-DRAFT-01达(静默口径,非谱重合口径),已签·增二则;FLOOR-01-tail谱重合口径稿仍候,勿充抵——ARMED续挂"
   },
   {
    "id": "gov-pair-qlv-qfa",
@@ -628,8 +628,8 @@
    "owed_to": "cisvr",
    "kind": "watch:QLV-VAULT无基座+巷面入巡裁答(QLV-LAB-LISTENER-01已投毂巷)",
    "opened": "2026-09-10",
-   "state": "ARMED",
-   "evidence": "board-85 §三.1/2;毂巷卡在案 lanes/cisvr/inbox/QLV-LAB-LISTENER-01-2026-09-10.md"
+   "state": "CLEARED 本拍",
+   "evidence": "board-85 §三.1/2;毂巷卡在案 lanes/cisvr/inbox/QLV-LAB-LISTENER-01-2026-09-10.md | 毂裁2026-09-10-hub-verdict-qlv-lab-listener-01(beat45):FINDING核成立,qlv-lab巷标DORMANT-WATCH听责归我兼巡——watchtower LANE-PATROL-01三面差分铸讫仿真绿;LANE-PATROL-01立法颁;QLV-ANS-LISTENER-SILENCE-01答卡投毂巷+usrm副本"
   },
   {
    "id": "cfts-semantic-down-watch",
@@ -639,7 +639,16 @@
    "opened": "2026-09-10",
    "state": "ARMED",
    "evidence": "board-85 §一.cfts/§三.3;vci-cfts/inbox/OTP-QLV-ECHO-01-2026-09-10.md"
+  },
+  {
+   "id": "silence-metric-cosign",
+   "owed_by": "qlv",
+   "owed_to": "usrm",
+   "kind": "cosign:SILENCE-METRIC-DRAFT-01静默三面口径稿会签",
+   "opened": "2026-09-10",
+   "state": "CLEARED 本拍",
+   "evidence": "签·增二则(巷双面为inbox子面/器窗锚),QLV-ANS-LISTENER-SILENCE-01投毂巷+usrm副本"
   }
  ],
- "updated": "2026-09-10T16:11:00Z"
+ "updated": "2026-09-10T19:33:22Z"
 }
