@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T09:09:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡 85→86 迭代，cisvr-draft-beat37-20260909T1608Z-qlv.json 落件 inbox。| 性态:草案版本升级，正常流转件，无异常告警，待裁决落账。| 建议处置:循 WAKE-PROTO 扫描→细收→裁决→落账；裸候，不主动寻求回应。| 锚:lanes/core/verctl:card86-proto",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 942,
+    "total_tokens": 1167,
+    "completion_tokens_details": {
+      "reasoning_tokens": 836
+    }
+  }
+}
