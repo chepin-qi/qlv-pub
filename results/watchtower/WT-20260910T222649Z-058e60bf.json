@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T22:26:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox 文件 qfa-resp-govpair-20260910.md 离席(drop)，源巷卡 chepin-ai/vci-inbox 版本 88→89。| 性态:单件正常下线，无滞留痕迹，非异常丢包。| 建议处置:按 lane.drop 落账，移出活跃队列，不追呼、不刷屏，裸候。| 锚:chepin-ai/vci-inbox@89",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 839,
+    "total_tokens": 1061,
+    "completion_tokens_details": {
+      "reasoning_tokens": 735
+    }
+  }
+}
