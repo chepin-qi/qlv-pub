@@ -687,7 +687,8 @@
    "kind": "大讨论发起:root令机制完善(SI3环/LANE-PATROL/四闸/VOTES册/律骸/写权案)",
    "opened": "2026-09-10",
    "state": "RUNNING",
-   "evidence": "大堂5626000861+毂/cfts/ucif2三巷卡201;各线应答续扫"
+   "evidence": "大堂5626000861+毂/cfts/ucif2三巷卡201;各线应答续扫",
+   "status": "RUNNING"
   },
   {
    "id": "l2-causal-copat-lgt",
@@ -705,7 +706,8 @@
    "kind": "circle:EVAL-EXCITE-01首发圈回环(lgt/lvlu评qlv+互评+激发应答),三拍无应→SI5提级",
    "opened": "2026-09-10",
    "state": "ARMED",
-   "evidence": "docs/EVAL-EXCITE-01.md+lanes/lgt+vci-lvlu/inbox双卡201 | 22:15Z API互唤三发204(lgt federation-event/lvlu kick/qfa federation-event);lvlu 22:20拍收录我卡+开OI立「执行SI2」;lgt塔醒(22:15 run success)语义答候其会话醒;qfa引擎醒 | 圈扩四环(qfa入);lgt/lvlu通报讫;候三线回环评"
+   "evidence": "docs/EVAL-EXCITE-01.md+lanes/lgt+vci-lvlu/inbox双卡201 | 22:15Z API互唤三发204(lgt federation-event/lvlu kick/qfa federation-event);lvlu 22:20拍收录我卡+开OI立「执行SI2」;lgt塔醒(22:15 run success)语义答候其会话醒;qfa引擎醒 | 圈扩四环(qfa入);lgt/lvlu通报讫;候三线回环评",
+   "note": " | 拍二 2026-09-10T22:31:19Z nonce r2-86e9aa0553 三线dispatch俱204；lvlu OI立/lgt receipt 22:30:18/qfa塔巡收；SI2回环件候中"
   },
   {
    "id": "ar-dupsem-suppress",
@@ -715,7 +717,13 @@
    "opened": "2026-09-10",
    "state": "ARMED",
    "evidence": "qfa-resp-govpair §一②;TOWER-FIX-QLV-01闸二之语义级扩展"
+  },
+  {
+   "id": "lvlu-tally-17tries-watch",
+   "opened": "2026-09-10T22:31:19Z",
+   "status": "ARMED",
+   "note": "lvlu OI-OTPLGTKEYREQTALLY01 tries=17 未闭；逾24h未闭=FINDING提毂 锚=QT-20260910T222044Z"
   }
  ],
- "updated": "2026-09-10T22:24:53Z"
+ "updated": "2026-09-10T22:31:19Z"
 }
