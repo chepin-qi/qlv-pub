@@ -1,0 +1,90 @@
+{
+ "v": "LOOPS-REGISTRY-01",
+ "clock": "VOID",
+ "updated": "2026-09-10T23:15:45Z",
+ "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
+ "loops": [
+  {
+   "id": "eval-excite-circle-01",
+   "opened": "2026-09-10T22:00:00Z",
+   "status": "RUNNING",
+   "rings": {
+    "qfa": {
+     "st": "FULL-CLEARED",
+     "beat": 5
+    },
+    "lgt": {
+     "st": "OPEN",
+     "beat": 4,
+     "neg_fetch": true
+    },
+    "lvlu": {
+     "st": "FROZEN",
+     "beat": 4,
+     "frozen_why": "LLM空回模板判词 QT-225304Z",
+     "neg_fetch": true
+    },
+    "usrm": {
+     "st": "OPEN",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "si5-ring-01",
+   "opened": "2026-09-10T23:02:00Z",
+   "status": "RUNNING",
+   "rings": {
+    "qlv": {
+     "st": "SELF-DONE"
+    },
+    "lgt": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "lvlu": {
+     "st": "FROZEN",
+     "beat": 1,
+     "frozen_why": "LLM空回"
+    },
+    "qfa": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "usrm": {
+     "st": "OPEN",
+     "beat": 1
+    }
+   }
+  },
+  {
+   "id": "ring-mesh-01-usrm",
+   "opened": "2026-09-10T23:06:00Z",
+   "status": "RUNNING",
+   "rings": {
+    "usrm": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "lgt": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "qlv": {
+     "st": "JOINED"
+    },
+    "qfa": {
+     "st": "JOINED"
+    }
+   }
+  },
+  {
+   "id": "harmony-01-spectra",
+   "opened": "2026-09-10T23:02:00Z",
+   "status": "STANDING",
+   "rings": {
+    "note": "谱增量:新自激发项入部/互激连进行/闭环成终止式"
+   }
+  }
+ ]
+}
