@@ -775,7 +775,13 @@
    "opened": "2026-09-10T23:07:50Z",
    "status": "ARMED",
    "note": "qfa FIX-05b落账三段式反向领养受试:下拍watchtower落账段对拍qfa-90§二,成即双址回报 锚=QLV-ANS-EVAL2-01"
+  },
+  {
+   "id": "ripple-01-selfcheck",
+   "opened": "2026-09-10T23:17:52Z",
+   "status": "ARMED",
+   "note": "RIPPLE-01施行自检:下拍验watchtower⑤LOOPS-CHECK首巡产出(loops_open计数/环事件);pend扩环自醒续拍"
   }
  ],
- "updated": "2026-09-10T23:07:50Z"
+ "updated": "2026-09-10T23:17:52Z"
 }
