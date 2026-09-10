@@ -18,8 +18,10 @@ permissions:
 # 链拍(repository_dispatch,含600s拍内眠)独占串行组,防落账竞态(run#34033532684 非快进败在案);
 # push/issue 触发=轻拍,独立组,新到顶旧(板面差分幂等,旧拍收执由新拍承继,空cancelled无碍)
 concurrency:
-  group: watchtower-${{ github.event_name == 'repository_dispatch' && 'chain' || 'edge' }}
-  cancel-in-progress: ${{ github.event_name != 'repository_dispatch' }}
+  # TOWER-FIX-QLV-02(2026-09-10):双组并行→落账推撞--theirs覆盖→state倒挂+大堂双收讫(cap 6→4铁证)。
+  # 单组全串行,同组仅留一pending(qfa TOWER-FIX-02同构互证);轻拍候链拍≤18min,正确性先于及时性。
+  group: watchtower
+  cancel-in-progress: false
 
 jobs:
   patrol:
