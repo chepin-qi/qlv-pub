@@ -551,7 +551,8 @@
    "since": "2026-09-10T10:44:57Z",
    "kind": "cosign",
    "owed_to": "usrm",
-   "opened": "2026-09-10T10:44:57Z"
+   "opened": "2026-09-10T10:44:57Z",
+   "ev": "SLA次醒拍至而稿未达(usrm-repo/大堂/巷俱索无k82件);不盲签,明窗未达入催问路由"
   },
   {
    "id": "gov-pair-qlv-qfa",
@@ -610,7 +611,16 @@
    "opened": "2026-09-10T15:20:18Z",
    "src": "巷首卡",
    "what": "浮现线WQ-04答问回声"
+  },
+  {
+   "id": "si5-votes-registry-watch",
+   "state": "ARMED",
+   "kind": "mirror",
+   "owed_to": "cisvr",
+   "opened": "2026-09-10T15:42:28Z",
+   "src": "board-84",
+   "what": "毂on_close后段:SI5-VOTES-01册铸否+ucif2律骸派件至否,日照扫"
   }
  ],
- "updated": "2026-09-10T15:20:18Z"
+ "updated": "2026-09-10T15:42:28Z"
 }
