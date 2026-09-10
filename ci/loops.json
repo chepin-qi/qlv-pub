@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-10T23:40:04Z",
+ "updated": "2026-09-10T23:48:36Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -48,8 +48,9 @@
      "frozen_why": "LLM空回"
     },
     "qfa": {
-     "st": "OPEN",
-     "beat": 1
+     "st": "CLEARED",
+     "beat": 2,
+     "note": "判据表至+级界量化应+复评讫"
     },
     "usrm": {
      "st": "OPEN",
@@ -105,8 +106,8 @@
      "frozen_why": "LLM空回"
     },
     "qfa": {
-     "st": "OPEN",
-     "beat": 1
+     "st": "REPLIED",
+     "note": "resp-qlv-03/04+si5ring-answer三件"
     },
     "usrm": {
      "st": "OPEN",
