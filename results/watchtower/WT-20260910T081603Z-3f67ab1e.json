@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T08:15:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "91b2560c",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 db2e5f0f→91b2560c| 性态:头指针前移,属常规提交节拍,无冲突或回滚标识| 建议处置:裸候,已落账,无需回退或人工介入| 锚:git-HEAD协议",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 598,
+    "total_tokens": 797,
+    "completion_tokens_details": {
+      "reasoning_tokens": 525
+    }
+  }
+}
