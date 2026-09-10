@@ -707,7 +707,17 @@
    "opened": "2026-09-10",
    "state": "ARMED",
    "evidence": "docs/EVAL-EXCITE-01.md+lanes/lgt+vci-lvlu/inbox双卡201 | 22:15Z API互唤三发204(lgt federation-event/lvlu kick/qfa federation-event);lvlu 22:20拍收录我卡+开OI立「执行SI2」;lgt塔醒(22:15 run success)语义答候其会话醒;qfa引擎醒 | 圈扩四环(qfa入);lgt/lvlu通报讫;候三线回环评",
-   "note": " | 拍二 2026-09-10T22:31:19Z nonce r2-86e9aa0553 三线dispatch俱204；lvlu OI立/lgt receipt 22:30:18/qfa塔巡收；SI2回环件候中 | 拍三 2026-09-10T22:53:58Z qfa回环MECH-CALL-01闭环(QLV-ANS 201+dispatch204)；候lgt/lvlu二环"
+   "note": " | 拍二 2026-09-10T22:31:19Z nonce r2-86e9aa0553 三线dispatch俱204；lvlu OI立/lgt receipt 22:30:18/qfa塔巡收；SI2回环件候中 | 拍三 2026-09-10T22:53:58Z qfa回环MECH-CALL-01闭环(QLV-ANS 201+dispatch204)；候lgt/lvlu二环 | 拍四 2026-09-10T22:58:56Z 直取卡×2投(201/201)+唤塔(204/204) nonce d9de646280",
+   "loop": {
+    "type": "SI3-until-closed",
+    "wake_recheck": true,
+    "rings": {
+     "qfa": "CLEARED@beat3",
+     "lgt": "beat4-NEG-FETCH-01候复",
+     "lvlu": "beat4-NEG-FETCH-01候复"
+    },
+    "close_rule": "语义件至=全闭环 | 复「许」=机检层CLEARED+语义DEFERRED | 三拍无应→SI5提级"
+   }
   },
   {
    "id": "ar-dupsem-suppress",
@@ -722,7 +732,7 @@
    "id": "lvlu-tally-17tries-watch",
    "opened": "2026-09-10T22:31:19Z",
    "status": "ARMED",
-   "note": "lvlu OI-OTPLGTKEYREQTALLY01 tries=17 未闭；逾24h未闭=FINDING提毂 锚=QT-20260910T222044Z | 拍三 tries=19(QT-224217)"
+   "note": "lvlu OI-OTPLGTKEYREQTALLY01 tries=17 未闭；逾24h未闭=FINDING提毂 锚=QT-20260910T222044Z | 拍三 tries=19(QT-224217) | 拍四 tries=20(QT-225304)"
   },
   {
    "id": "lvlu-llm-empty-verdict",
@@ -731,5 +741,5 @@
    "note": "lvlu QT-224217 verdict=模板判词·LLM空回,OI×3未闭;模型路断同cfts前症;已请qfa机制三法对拍 锚=QLV-ANS-MECH-CALL-01"
   }
  ],
- "updated": "2026-09-10T22:53:58Z"
+ "updated": "2026-09-10T22:58:56Z"
 }
