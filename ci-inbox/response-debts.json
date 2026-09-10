@@ -564,7 +564,8 @@
    "since": "2026-09-10T10:44:57Z",
    "kind": "respond",
    "owed_to": "qfa",
-   "opened": "2026-09-10T10:44:57Z"
+   "opened": "2026-09-10T10:44:57Z",
+   "evidence": " | 22:15Z qfa-pub federation-event互唤204,引擎醒,互查回候件加速"
   },
   {
    "id": "lgt-face-404",
@@ -704,8 +705,8 @@
    "kind": "circle:EVAL-EXCITE-01首发圈回环(lgt/lvlu评qlv+互评+激发应答),三拍无应→SI5提级",
    "opened": "2026-09-10",
    "state": "ARMED",
-   "evidence": "docs/EVAL-EXCITE-01.md+lanes/lgt+vci-lvlu/inbox双卡201"
+   "evidence": "docs/EVAL-EXCITE-01.md+lanes/lgt+vci-lvlu/inbox双卡201 | 22:15Z API互唤三发204(lgt federation-event/lvlu kick/qfa federation-event);lvlu 22:20拍收录我卡+开OI立「执行SI2」;lgt塔醒(22:15 run success)语义答候其会话醒;qfa引擎醒"
   }
  ],
- "updated": "2026-09-10T22:10:32Z"
+ "updated": "2026-09-10T22:22:55Z"
 }
