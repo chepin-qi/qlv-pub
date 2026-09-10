@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T19:16:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，巷卡86→87，附cisvr-draft-beat37-20260909T1608Z-qlv.json，属QLV inbox草案迭代| 性态:版本号递增投递，路径合规；实测内容未展开，无法判定触发与否| 建议处置:细收beat37结构一致性，裁决差异后落账；无回压需求则裸候| 锚:交叉lanes/cisvr主干线同beat草案schema版本做他线锚定",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1146,
+    "total_tokens": 1371,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1032
+    }
+  }
+}

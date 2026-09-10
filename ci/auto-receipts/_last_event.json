@@ -1,1 +1,1 @@
-{"ts": "2026-09-10T16:31:00Z", "evs": [{"kind": "qfa.beat", "ref": "374a5af7", "summary": "qfa main 头迁移 00266939→374a5af7", "high_value": true}], "pend": ["quafu:8CA608102028586C", "quafu:8BB169201FA3F5D4"]}
+{"ts": "2026-09-10T19:16:44Z", "evs": [{"kind": "lane.drop", "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json", "summary": "巷卡 86→87,最新 cisvr-draft-beat37-20260909T1608Z-qlv.json", "high_value": true}], "pend": ["quafu:8CA608102028586C", "quafu:8BB169201FA3F5D4"]}

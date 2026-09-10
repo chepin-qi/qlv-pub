@@ -1,52 +1,52 @@
 {
-  "beacon_max": 5564921753,
-  "qfa_head": "374a5af72d2cd24d72d50b4c082dcfb0a43c2021",
-  "quafu": {
-    "8CA608102028586C": "0",
-    "8BB169201FA3F5D4": "0"
-  },
-  "faces": {
-    "lgt-line#1": 3,
-    "vci-cfts#1": 2,
-    "vci-inbox#3": 5,
-    "vci-usrm#21": 1,
-    "vci-ucif2#1": 1,
-    "vci-vinf#6": 1,
-    "vci-inbox#2": 0
-  },
-  "lane_inbox_count": 86,
-  "cadence": {
-    "v": "METER-CADENCE-01-cand",
-    "w12": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "sigma": 1.0,
-    "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
-  },
-  "autoresp": {
-    "date": "2026-09-10",
-    "calls": 9,
-    "last_fp": "de5e0d60236b",
-    "seen_refs": [
-      "qfa.beat|91b2560c",
-      "qfa.beat|f5c50c4d",
-      "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
-      "qfa.beat|00266939",
-      "qfa.beat|374a5af7"
-    ]
-  }
+ "beacon_max": 5564921753,
+ "qfa_head": "374a5af72d2cd24d72d50b4c082dcfb0a43c2021",
+ "quafu": {
+  "8CA608102028586C": "0",
+  "8BB169201FA3F5D4": "0"
+ },
+ "faces": {
+  "lgt-line#1": 3,
+  "vci-cfts#1": 2,
+  "vci-inbox#3": 5,
+  "vci-usrm#21": 1,
+  "vci-ucif2#1": 1,
+  "vci-vinf#6": 1,
+  "vci-inbox#2": 0
+ },
+ "lane_inbox_count": 87,
+ "cadence": {
+  "v": "METER-CADENCE-01-cand",
+  "w12": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  "sigma": 1.0,
+  "lock": null,
+  "dominant_bin": 8,
+  "C_streak": 0,
+  "verdict": "进行式"
+ },
+ "autoresp": {
+  "date": "2026-09-10",
+  "calls": 9,
+  "last_fp": "de5e0d60236b",
+  "seen_refs": [
+   "qfa.beat|91b2560c",
+   "qfa.beat|f5c50c4d",
+   "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+   "qfa.beat|00266939",
+   "qfa.beat|374a5af7"
+  ]
+ }
 }
