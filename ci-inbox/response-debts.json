@@ -575,13 +575,41 @@
   },
   {
    "id": "tower-fix-qlv02-first",
-   "state": "ARMED",
+   "state": "ANSWERED-BOUNDED",
    "src": "TOWER-FIX-QLV-02",
    "what": "并发组合一后首链拍:无cancelled吞拍+无双收讫即证成,落大堂报(qfa互证)",
    "since": "2026-09-10T10:44:57Z",
    "kind": "self-ignite",
    "owed_to": "qlv",
-   "opened": "2026-09-10T10:44:57Z"
+   "opened": "2026-09-10T10:44:57Z",
+   "ev": "修后窗31成/1挂起置换/0中杀/零重锚/cap守恒——半销,候qfa互证一眼全销"
+  },
+  {
+   "id": "binmap-v2-semantic",
+   "state": "ARMED",
+   "kind": "spectrum",
+   "owed_to": "cfts",
+   "opened": "2026-09-10T15:20:18Z",
+   "src": "board-83 FINDING",
+   "what": "语义格位表v2起草:宏相变(主能归中)与微相变(跃迁)双判据语义层口径;候cfts-93首窗+qgl册律互校"
+  },
+  {
+   "id": "cfts-lane-reply-watch",
+   "state": "ARMED",
+   "kind": "respond",
+   "owed_to": "cfts",
+   "opened": "2026-09-10T15:20:18Z",
+   "src": "巷首卡",
+   "what": "cfts巷首卡回声;链断>24h=FINDING"
+  },
+  {
+   "id": "qlvlab-answer-watch",
+   "state": "ARMED",
+   "kind": "respond",
+   "owed_to": "qlv-lab",
+   "opened": "2026-09-10T15:20:18Z",
+   "src": "巷首卡",
+   "what": "浮现线WQ-04答问回声"
   }
  ],
  "updated": "2026-09-10T15:20:18Z"
