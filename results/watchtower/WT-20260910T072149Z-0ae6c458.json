@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T07:21:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "2a7d1e07",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 25a2983a→2a7d1e07| 性态:常规引用更新，beat类心跳事件，属版本控制正常前向推进，未触发冲突告警| 建议处置:裸候，次次落账记录新HEAD，无需人工干预| 锚:git-refs/heads/main",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 698,
+    "total_tokens": 900,
+    "completion_tokens_details": {
+      "reasoning_tokens": 616
+    }
+  }
+}
