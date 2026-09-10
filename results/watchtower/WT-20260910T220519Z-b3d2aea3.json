@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T22:05:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "c8a75fad",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头指针由ab72b5b6前迁至c8a75fad，属代码提交易常节拍。| 性态:单点提交，无冲突标记、无回滚迹、无告警伴随，态稳。| 建议处置:按AUTH-OTP-02次次落账，无需反向干预，裸候下一拍。| 锚:git线/CI流水账。",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 777,
+    "total_tokens": 974,
+    "completion_tokens_details": {
+      "reasoning_tokens": 682
+    }
+  }
+}

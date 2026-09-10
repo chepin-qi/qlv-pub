@@ -1,0 +1,9 @@
+{
+  "ts": "2026-09-10T22:05:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.poll.err",
+    "ref": "lanes/qlv/inbox",
+    "high_value": false
+  }
+}
