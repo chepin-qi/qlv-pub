@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-10T22:27:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv-inbox收chepin-ai/vci-inbox巷卡投递，件qfa-resp-govpair-20260910.md，计数88→89，kind=lane.drop| 性态:跨线文件落位，仅扫描到件，未触发实测，无响应态可判；符合投必有件| 建议处置:细收后按落账归档，裸候，不主动回询| 锚:chepin-ai/vci-inbox#89 · qlv/lane.drop · ref=qfa-resp-govpair-20260910.md",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1058,
+    "total_tokens": 1280,
+    "cached_tokens": 222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 927
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 222
+    }
+  }
+}
