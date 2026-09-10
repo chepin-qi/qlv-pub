@@ -1508,6 +1508,36 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "2990072424db"
+  },
+  {
+   "ref": "board/board-81-otp-cisvr-介入.md",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "c82bdc565799"
+  },
+  {
+   "ref": "results/watchtower/WT-20260910T072149Z-0ae6c458.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "36b7e907aa41"
+  },
+  {
+   "ref": "results/watchtower/WT-20260910T074220Z-8c946210.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "5a8f2f697dc5"
+  },
+  {
+   "ref": "results/watchtower/WT-20260910T081440Z-bb4296d1.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "c54a71629f94"
+  },
+  {
+   "ref": "results/watchtower/WT-20260910T081603Z-3f67ab1e.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "7028173dd100"
   }
  ]
 }
