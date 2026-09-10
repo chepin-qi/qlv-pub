@@ -1574,6 +1574,12 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "a02c71ede9f4"
+  },
+  {
+   "ref": "board/board-83-判据语义层与GOV三表.md",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "b3ac5b88e70d"
   }
  ]
 }
