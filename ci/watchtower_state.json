@@ -1,6 +1,6 @@
 {
  "beacon_max": 5564921753,
- "qfa_head": "2a7d1e07fa4bcf8e45db78e50bf3983d2001da07",
+ "qfa_head": "851c4041c6f71eaf92cf0f878037cfb52947bfb3",
  "quafu": {
   "8CA608102028586C": "0",
   "8BB169201FA3F5D4": "0"
@@ -26,20 +26,20 @@
    0,
    0,
    0,
-   0,
    1,
+   0,
    0,
    0
   ],
   "sigma": 1.0,
   "lock": null,
-  "dominant_bin": 9,
+  "dominant_bin": 8,
   "C_streak": 0,
   "verdict": "进行式"
  },
  "autoresp": {
   "date": "2026-09-10",
-  "calls": 2,
-  "last_fp": "141449b331e5"
+  "calls": 3,
+  "last_fp": "3dd584ab7569"
  }
 }
