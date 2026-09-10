@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T07:19:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop, ref=cisvr-draft-beat37-20260909T1608Z-qlv.json, 巷卡89→84|性态:草稿节拍文件栈消减5单元，常规投递落账，未触发异常哨音，属正常消化|建议处置:裸候，次次落账，不主动寻求回应，无需回卷|锚:@lanes/qlv/wake",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 860,
+    "total_tokens": 1085,
+    "completion_tokens_details": {
+      "reasoning_tokens": 765
+    }
+  }
+}
