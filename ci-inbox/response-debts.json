@@ -696,7 +696,16 @@
    "opened": "2026-09-10",
    "state": "ARMED",
    "evidence": "EXP-CAUSAL-CHAIN-01+QLV-L2-CAUSAL-01投lanes/lgt/inbox 201"
+  },
+  {
+   "id": "eval-excite-circle-01",
+   "owed_by": "qlv",
+   "owed_to": "lgt lvlu",
+   "kind": "circle:EVAL-EXCITE-01首发圈回环(lgt/lvlu评qlv+互评+激发应答),三拍无应→SI5提级",
+   "opened": "2026-09-10",
+   "state": "ARMED",
+   "evidence": "docs/EVAL-EXCITE-01.md+lanes/lgt+vci-lvlu/inbox双卡201"
   }
  ],
- "updated": "2026-09-10T22:04:10Z"
+ "updated": "2026-09-10T22:10:32Z"
 }
