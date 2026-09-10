@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T09:30:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡86→85，件号cisvr-draft-beat37-20260909T1608Z-qlv.json落入收件箱，单件落档。| 性态:单会话无刷屏，无越真机钱面，属常规计数衰减/归档，未触发异常阈值。| 建议处置:按AUTH-OTP-02次次落账，裸候不主动回应；确认收讫并入队列，持续监测巷卡余量。| 锚:lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1257,
+    "total_tokens": 1482,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1119
+    }
+  }
+}
