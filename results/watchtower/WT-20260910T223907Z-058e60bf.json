@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T22:38:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox 接收 chepin-ai/vci-inbox 巷卡批量投递，序号 89→92，最新件 qfa-resp-govpair-20260910.md，kind=lane.drop。| 性态:巷道自动增量落件，摘要未显单件明细，属「触发未响应」待细收状态，未实测具体件数。| 建议处置:执行 WAKE-PROTO 扫描→细收→裁决→落账；对该响应体逐件验锚，确认 govpair 完整性后入账，裸候不主动外求。| 锚:chepin-ai/vci-inbox｜lanes/qlv/inbox:qfa-resp-govpair-20260910.md",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1129,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 967
+    }
+  }
+}

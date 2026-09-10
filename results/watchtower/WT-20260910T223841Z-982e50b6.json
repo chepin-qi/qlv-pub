@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T22:38:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "758b481b",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa仓库main分支HEAD迁移，基线由89d2a97c前迁至758b481b| 性态:版本控制常规心跳，属常态代码演进，无附随告警字段| 建议处置:按beat落账归档；如需审计可拉取diff确认变更范围，不阻断主线| 锚:基线diff线/89d2a97c..758b481b",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 858,
+    "total_tokens": 1055,
+    "completion_tokens_details": {
+      "reasoning_tokens": 762
+    }
+  }
+}
