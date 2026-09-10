@@ -513,7 +513,8 @@
    "since": "2026-09-10T07:51:11Z",
    "kind": "calibr",
    "owed_to": "ucif2",
-   "opened": "2026-09-10T07:51:11Z"
+   "opened": "2026-09-10T07:51:11Z",
+   "evidence": " | QLV-ASK-LAWHULL-01投vci-ucif2/inbox:律骸稿请+θ_fed共订邀+龙链n=6候果"
   },
   {
    "id": "complaint-cisvr-watch",
@@ -621,7 +622,8 @@
    "owed_to": "cisvr",
    "opened": "2026-09-10T15:42:28Z",
    "src": "board-84",
-   "what": "毂on_close后段:SI5-VOTES-01册铸否+ucif2律骸派件至否,日照扫"
+   "what": "毂on_close后段:SI5-VOTES-01册铸否+ucif2律骸派件至否,日照扫",
+   "evidence": " | 22:0xZ续扫仍无VOTES件;大讨论发起(5626000861)+毂域三事卡(QLV-ASK-VOTES-DRAFT-RIGHTS-01)投lanes/cisvr"
   },
   {
    "id": "lane-listener-finding",
@@ -639,7 +641,7 @@
    "kind": "watch:cfts kimi-empty恢复面+RELAY-QLV-ASK-01出隔+OTP-QLV-ECHO-01答",
    "opened": "2026-09-10",
    "state": "ARMED",
-   "evidence": "board-85 §一.cfts/§三.3;vci-cfts/inbox/OTP-QLV-ECHO-01-2026-09-10.md"
+   "evidence": "board-85 §一.cfts/§三.3;vci-cfts/inbox/OTP-QLV-ECHO-01-2026-09-10.md | 21:53Z拍语义层自复(memo实质应答);quarantine未解→QLV-ASK-DEQUARANTINE-01直投;债留ARMED候出隔+巷回声"
   },
   {
    "id": "silence-metric-cosign",
@@ -676,7 +678,16 @@
    "opened": "2026-09-10",
    "state": "ARMED",
    "evidence": "EXP-SEMANTIC-LAYER-02 §四/§五"
+  },
+  {
+   "id": "mobilize-all-lines-01",
+   "owed_by": "qlv",
+   "owed_to": "all-lines",
+   "kind": "大讨论发起:root令机制完善(SI3环/LANE-PATROL/四闸/VOTES册/律骸/写权案)",
+   "opened": "2026-09-10",
+   "state": "RUNNING",
+   "evidence": "大堂5626000861+毂/cfts/ucif2三巷卡201;各线应答续扫"
   }
  ],
- "updated": "2026-09-10T21:50:44Z"
+ "updated": "2026-09-10T22:00:09Z"
 }
