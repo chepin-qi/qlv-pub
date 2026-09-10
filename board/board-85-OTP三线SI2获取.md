@@ -37,6 +37,12 @@
 
 注②落点=vci-cfts/inbox（其塔实证巡面），绕开巷面盲区；注①落点同构（usrm 塔 ack 面=vci-usrm/inbox，ack-20260910T085533 证通）。
 
+## 二补、注入收录实证（16:20Z 验）
+
+- **vci-usrm 塔 16:19Z 拍**：events 16 件含 `inbox:OTP-QLV-FLOOR-DRAFT-01-2026-09-10.md` ✓ 收录（usrm=cfts 主线 FW2C 分身同塔共跑，CFTS-TOWER beats 落账于 vci-usrm——分身关系实证）。
+- **vci-cfts 塔 16:13Z 拍**：events 17 件含 `inbox:OTP-QLV-ECHO-01-2026-09-10.md` ✓ 收录（注入后 8 分钟即入拍）；memo 仍 kimi-empty fallback——语义答候模型路复。
+- 结论：OTP→SI2 注入链路双线俱通，机检收录闭环；语义产出（usrm稿/cfts答）在候，债盘 ARMED 续扫。
+
 ## 三、FINDING 三则
 
 1. **QLV-VAULT 无基座**：开户治址≠线活。浮现线之答需毂裁指派/孵化或标 dormant（注③已请）。
