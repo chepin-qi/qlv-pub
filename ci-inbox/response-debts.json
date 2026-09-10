@@ -739,7 +739,30 @@
    "opened": "2026-09-10T22:53:58Z",
    "status": "ARMED",
    "note": "lvlu QT-224217 verdict=模板判词·LLM空回,OI×3未闭;模型路断同cfts前症;已请qfa机制三法对拍 锚=QLV-ANS-MECH-CALL-01"
+  },
+  {
+   "id": "si5-ring-01",
+   "opened": "2026-09-10T23:03:35Z",
+   "status": "ARMED",
+   "loop": {
+    "type": "SI3-until-closed",
+    "wake_recheck": true,
+    "rings": {
+     "qlv": "SELF-DONE(docs/SI5-RING-01§二)",
+     "lgt": "邀卡拍一",
+     "lvlu": "邀卡拍一",
+     "qfa": "邀卡拍一"
+    },
+    "close_rule": "判据表至=闭环|三拍无应→SI5提级(毂裁席)|断路线拍数冻结"
+   },
+   "note": "2026-09-10T23:03:35Z 邀卡×3俱201+唤塔×3俱204 nonce ab2f94a924 锚=SI5-RING-01·HARMONY-01"
+  },
+  {
+   "id": "harmony-01-spectra",
+   "opened": "2026-09-10T23:03:35Z",
+   "status": "ARMED",
+   "note": "和声谱续拍:汇qfa机制三法全文(其成即告约)+四环自激发项增量;哑部lvlu标记续"
   }
  ],
- "updated": "2026-09-10T22:58:56Z"
+ "updated": "2026-09-10T23:03:35Z"
 }
