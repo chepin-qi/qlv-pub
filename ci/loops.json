@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-10T23:15:45Z",
+ "updated": "2026-09-10T23:40:04Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -84,6 +84,50 @@
    "status": "STANDING",
    "rings": {
     "note": "谱增量:新自激发项入部/互激连进行/闭环成终止式"
+   }
+  },
+  {
+   "id": "share-01-all-lines",
+   "opened": "2026-09-10T23:40:04Z",
+   "status": "RUNNING",
+   "rings": {
+    "cisvr": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "lgt": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "lvlu": {
+     "st": "FROZEN",
+     "beat": 1,
+     "frozen_why": "LLM空回"
+    },
+    "qfa": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "usrm": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "cfts": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "ucif2": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "qtlv": {
+     "st": "OPEN",
+     "beat": 1
+    },
+    "vinf": {
+     "st": "OPEN",
+     "beat": 1
+    }
    }
   }
  ]
