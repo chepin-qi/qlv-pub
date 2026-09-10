@@ -92,18 +92,25 @@ def poll(pat, st):
                 st.setdefault('quafu',{})[tid] = cur
             except Exception as e:
                 ev.append({'kind':'quafu.poll.err','ref':tid,'summary':str(e)[:120],'high_value':False})
-    # ③.5 道B巷卡直投守望(vci-inbox/lanes/qlv/inbox 文件数差分;SI3-SYNC-01 直投道,常开零额度)
-    try:
-        lane = gh_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100', pat)
-        cnt = len(lane)
-        prev_cnt = st.get('lane_inbox_count')
-        latest = max((f['name'] for f in lane), default='')
-        if prev_cnt is not None and cnt != prev_cnt:
-            ev.append({'kind':'lane.drop','ref':f'lanes/qlv/inbox:{latest}',
-                       'summary':f"巷卡 {prev_cnt}→{cnt},最新 {latest}",'high_value':True})
-        st['lane_inbox_count'] = cnt
-    except Exception as e:
-        ev.append({'kind':'lane.poll.err','ref':'lanes/qlv/inbox','summary':str(e)[:120],'high_value':False})
+    # ③.5 道B巷卡直投守望(LANE-PATROL-01 遵律:本线巷双平面差分+DORMANT-WATCH qlv-lab巷兼巡;SI3-SYNC-01 直投道,常开零额度)
+    for lane_repo, lane_path, st_key in [
+        ('chepin-ai/vci-inbox', 'lanes/qlv/inbox', 'lane_inbox_count'),
+        ('chepin-ai/ci-inbox', 'lanes/qlv/inbox', 'lane_inbox_count_ci'),
+        ('chepin-ai/vci-inbox', 'lanes/qlv-lab/inbox', 'lane_inbox_count_qlvlab'),
+    ]:
+        try:
+            lane = gh_get(f'/repos/{lane_repo}/contents/{lane_path}?per_page=100', pat)
+            if not isinstance(lane, list):
+                raise ValueError('non-list resp')
+            cnt = len(lane)
+            prev_cnt = st.get(st_key)
+            latest = max((f['name'] for f in lane), default='')
+            if prev_cnt is not None and cnt != prev_cnt:
+                ev.append({'kind':'lane.drop','ref':f'{lane_path}:{latest}',
+                           'summary':f"巷卡[{lane_repo}] {prev_cnt}→{cnt},最新 {latest}",'high_value':True})
+            st[st_key] = cnt
+        except Exception as e:
+            ev.append({'kind':'lane.poll.err','ref':lane_path,'summary':str(e)[:120],'high_value':False})
     # ④ vci 六面评论数变化
     faces = {'lgt-line#1':('/repos/chepin-qi/lgt-line/issues/1/comments?per_page=100'),
              'vci-cfts#1':('/repos/chepin-ai/vci-cfts/issues/1/comments?per_page=100'),
@@ -242,16 +249,6 @@ def main():
         except Exception as e:
             qfa_wake = 'pair.err ' + str(e)[:120]
     print(json.dumps({'events': len(evs), 'fired': fired, 'cascade': cascade, 'pend': pend, 'qfa_wake': qfa_wake}, ensure_ascii=False))
-    # AUTORESPONDER-01 输入件:事件面落盘(高值事件供 SI2 应答段)
-    try:
-        ard = os.path.join(ROOT, 'ci', 'auto-receipts')
-        os.makedirs(ard, exist_ok=True)
-        if evs:
-            json.dump({'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()),
-                       'evs': evs[:5], 'pend': pend},
-                      open(os.path.join(ard, '_last_event.json'), 'w'), ensure_ascii=False)
-    except Exception as e:
-        print('last_event.err', str(e)[:100])
 
 if __name__ == '__main__':
     main()
