@@ -787,7 +787,29 @@
    "opened": "2026-09-10T23:26:43Z",
    "status": "ARMED",
    "note": "闸值联邦对照谱:qfa钱卫四闸(RESP6/SI1_3/AR12/WT8)已录,候qfa确认现值+lvlu/lgt闸值→HARMONY-01参数面 锚=QLV-FIX05B-ADOPT-01"
+  },
+  {
+   "id": "share-01-all-lines",
+   "opened": "2026-09-10T23:40:04Z",
+   "status": "RUNNING",
+   "loop": {
+    "type": "SI3-until-closed",
+    "wake_recheck": true,
+    "rings": {
+     "cisvr": "邀卡拍一",
+     "lgt": "邀卡拍一",
+     "lvlu": "邀卡拍一(冻)",
+     "qfa": "邀卡拍一",
+     "usrm": "邀卡拍一",
+     "cfts": "邀卡拍一",
+     "ucif2": "邀卡拍一",
+     "qtlv": "邀卡拍一",
+     "vinf": "邀卡拍一"
+    },
+    "close_rule": "各线应件至=该面闭环|三拍无应→SI5提级|断路冻拍"
+   },
+   "note": "2026-09-10T23:40:04Z 大堂5626948740+巷卡×9俱201+唤塔×3俱204 nonce fef52ca303"
   }
  ],
- "updated": "2026-09-10T23:26:43Z"
+ "updated": "2026-09-10T23:40:04Z"
 }
