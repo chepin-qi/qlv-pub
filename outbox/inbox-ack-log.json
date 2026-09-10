@@ -1580,6 +1580,12 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "b3ac5b88e70d"
+  },
+  {
+   "ref": "board/board-84-静窗自算拍.md",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "d0bc531923b3"
   }
  ]
 }
