@@ -17,12 +17,18 @@ def run(dry=True):
     db=load(DEBTS,{'debts':[]}); st=load(STATE,{'pushes':{},'runs':0})
     queue=[d for d in db['debts'] if d.get('state') in ACTIVE]
     queue.sort(key=lambda d:(d.get('opened','9999'), d['id']))  # 最老优先=SI5自裁序
-    acts=[]
+    acts=[]; lobby_used=0  # SI3-CAP-GATE-01: 大堂路帽计
     for d in queue:
         lp=st['pushes'].get(d['id'])
         if lp==today: continue  # 幂等: 本日已推
         kind=d.get('kind','')
         act=next((v for k,v in ROUTE.items() if k in kind), '大堂聚合催问')
+        # SI3-CAP-GATE-01(2026-09-10,beat43 语义拍帽≤2/日线):大堂路日≤2,溢出转巷卡路/自算路
+        if act.startswith('大堂'):
+            if lobby_used>=2:
+                act='巷卡转投('+d.get('owed_to','?')+')' if d.get('owed_to') not in ('?','qlv') else '自算推进(帽溢)'
+            else:
+                lobby_used+=1
         acts.append({'id':d['id'],'kind':kind,'opened':d.get('opened'),'act':act,'owed_to':d.get('owed_to','?')})
         if not dry: st['pushes'][d['id']]=today
     st['runs']=st.get('runs',0)+1
