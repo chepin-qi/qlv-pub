@@ -648,7 +648,25 @@
    "opened": "2026-09-10",
    "state": "CLEARED 本拍",
    "evidence": "签·增二则(巷双面为inbox子面/器窗锚),QLV-ANS-LISTENER-SILENCE-01投毂巷+usrm副本"
+  },
+  {
+   "id": "si3-loop-01-standing",
+   "owed_by": "qlv",
+   "owed_to": "all-lines",
+   "kind": "standing:SI3即时响应常驻环(感八面/判三级/动三轨/锚三落账)每醒即巡",
+   "opened": "2026-09-10",
+   "state": "STANDING",
+   "evidence": "docs/SI3-LOOP-01.md 立法登记;首巡四卡俱达201(lgt/qfa/qtlv/usrm)"
+  },
+  {
+   "id": "qtlv-spectra-x11-watch",
+   "owed_by": "qlv",
+   "owed_to": "qtlv",
+   "kind": "watch:×11反射谱类数据件(覆卦权投影算符/群作用)供件至即复算回签",
+   "opened": "2026-09-10",
+   "state": "ARMED",
+   "evidence": "QLV-ANS-WAKE-01投lanes/qtlv/inbox;qtlv仓现无该件"
   }
  ],
- "updated": "2026-09-10T19:33:22Z"
+ "updated": "2026-09-10T21:45:09Z"
 }
