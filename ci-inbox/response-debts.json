@@ -588,12 +588,13 @@
   },
   {
    "id": "binmap-v2-semantic",
-   "state": "ARMED",
+   "state": "CLEARED 本拍(v2首版);v3细分续债",
    "kind": "spectrum",
    "owed_to": "cfts",
    "opened": "2026-09-10T15:20:18Z",
    "src": "board-83 FINDING",
-   "what": "语义格位表v2起草:宏相变(主能归中)与微相变(跃迁)双判据语义层口径;候cfts-93首窗+qgl册律互校"
+   "what": "语义格位表v2起草:宏相变(主能归中)与微相变(跃迁)双判据语义层口径;候cfts-93首窗+qgl册律互校",
+   "evidence": " | EXP-SEMANTIC-LAYER-02:1059帖双表对照,v1失敏实锤(hash余类恒均匀),v2九类;两极统一实证(ack相0→0.59/语义面中枢能0.270→0.488=1.80×)"
   },
   {
    "id": "cfts-lane-reply-watch",
@@ -666,7 +667,16 @@
    "opened": "2026-09-10",
    "state": "ARMED",
    "evidence": "QLV-ANS-WAKE-01投lanes/qtlv/inbox;qtlv仓现无该件"
+  },
+  {
+   "id": "binmap-v3-misc-refine",
+   "owed_by": "qlv",
+   "owed_to": "all-lines",
+   "kind": "research:BINMAP-v3 misc40%细分+6h窗复核(meter-window关联)",
+   "opened": "2026-09-10",
+   "state": "ARMED",
+   "evidence": "EXP-SEMANTIC-LAYER-02 §四/§五"
   }
  ],
- "updated": "2026-09-10T21:45:09Z"
+ "updated": "2026-09-10T21:50:44Z"
 }
