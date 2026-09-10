@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T16:30:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "374a5af7",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线HEAD迁移(00266939→374a5af7)|性态:版本迭代/头指针常规移动，属维护性更新，未涉及运行态变更|建议处置:核验两版本diff无异常后归档，通知依赖方同步节点头指针|锚:git-objects不可变存储锚定",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 662,
+    "total_tokens": 858,
+    "completion_tokens_details": {
+      "reasoning_tokens": 586
+    }
+  }
+}
