@@ -41,6 +41,22 @@ def lobby_post(text):
         with urllib.request.urlopen(req, timeout=30) as r: return json.loads(r.read()).get('id')
     except Exception as e: return 'err ' + str(e)[:120]
 
+
+# ---- TOWER-FIX-QLV-01 双闸幂等(2026-09-10,受 qfa FINDING 双回执案更正) ----
+# 根因:仓侧 Action 每拍新 checkout,state 回滚竞态(水印迟于拍频)→同锚重收。
+# 闸一(state 级):seen_refs 近64件 (kind|ref) 已答即跳——常態防重。
+# 闸二(大堂级·耐久):发帖前扫大堂我线近50帖,同锚收讫已在即跳——抗 state 回滚。
+def _recent_my_lobby(pat, n=50):
+    try:
+        req = urllib.request.Request(LOBBY + '?per_page=' + str(n), headers={
+            'Authorization': 'token ' + pat, 'Accept': 'application/vnd.github+json',
+            'User-Agent': 'qlv-si2'})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            cs = json.loads(r.read())
+        return [c.get('body','') for c in cs if c.get('user',{}).get('login') == 'chepin-qi']
+    except Exception:
+        return None  # 不可达=放行(闸一仍守),诚注于账
+
 def main():
     ev = load(EV_P, None)
     if not ev or not ev.get('evs'):
@@ -65,6 +81,21 @@ def main():
         print(json.dumps({'auto': 'pure-receipt', 'kinds': kinds})); return
     if arm['calls'] >= CAP:
         print(json.dumps({'auto': 'cap-held', 'calls': arm['calls']})); return
+    # TOWER-FIX-QLV-01 闸一:seen_refs 逐事件去重(按单件非按列表)
+    seen = arm.get('seen_refs', [])
+    fresh = []
+    for e in evs:
+        tag = str(e.get('kind')) + '|' + str(e.get('ref'))
+        if tag not in seen:
+            fresh.append(e); seen.append(tag)
+    arm['seen_refs'] = seen[-64:]
+    if not fresh:
+        st['autoresp'] = arm
+        json.dump(st, open(STATE_P, 'w'), ensure_ascii=False, indent=1)
+        print(json.dumps({'auto': 'dedup-skip-all-seen', 'kinds': kinds})); return
+    if len(fresh) < len(evs):
+        print(json.dumps({'auto': 'dedup-partial', 'dropped': len(evs)-len(fresh)}))
+    evs = fresh; kinds = [e.get('kind') for e in evs]
     ctx = {'line': 'qlv(律制对偶/场引擎线)', 'clock': 'VOID',
            'pend': ev.get('pend', []), 'events': evs}
     msgs = [
@@ -83,6 +114,18 @@ def main():
     # 互激面:高值 @qlv 件→大堂公开收讫帖(他线引擎巡大堂即受激)
     lid = None
     if high_value:
+        # TOWER-FIX-QLV-01 闸二:大堂自回执扫描(耐久水印,抗 state 回滚)
+        refs = [str(e.get('ref'))[:8] for e in evs if e.get('ref')]
+        mine = _recent_my_lobby(os.environ.get('QI_PAT') or '')
+        dup = None
+        if mine is not None:
+            for r in refs:
+                if any(('收讫' in b) and (r in b) for b in mine):
+                    dup = r; break
+        if dup:
+            open(os.path.join(OUT_D, 'AR-' + stamp + '-dupsuppressed.md'), 'w').write(
+                f"# AR {ts} · 重发抑制(TOWER-FIX-QLV-01 闸二)\n\n锚 {dup} 大堂收讫已在,不重复发帖。事件:{kinds}\n\n#noauto\n")
+            print(json.dumps({'auto': 'dup-suppressed-lobby', 'ref': dup})); return
         lid = lobby_post(f"【qlv SI2|无人驿自动收讫】事件 {kinds} 抵——{text[:200]}\n\n(自动段判词;深裁件升 SI1 候 root 会话。usage={usage.get('total_tokens') if isinstance(usage, dict) else '?'}tok cap={arm['calls']}/{CAP}) #noauto")
     print(json.dumps({'auto': 'answered', 'calls': arm['calls'], 'lobby': lid,
                       'kinds': kinds}, ensure_ascii=False))
