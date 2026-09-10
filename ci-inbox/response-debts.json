@@ -687,7 +687,16 @@
    "opened": "2026-09-10",
    "state": "RUNNING",
    "evidence": "大堂5626000861+毂/cfts/ucif2三巷卡201;各线应答续扫"
+  },
+  {
+   "id": "l2-causal-copat-lgt",
+   "owed_by": "qlv",
+   "owed_to": "lgt",
+   "kind": "copat:因果链L2对拍(G_collab类分解/时延明细/G-METER件道)——件至即互相关迭代",
+   "opened": "2026-09-10",
+   "state": "ARMED",
+   "evidence": "EXP-CAUSAL-CHAIN-01+QLV-L2-CAUSAL-01投lanes/lgt/inbox 201"
   }
  ],
- "updated": "2026-09-10T22:00:09Z"
+ "updated": "2026-09-10T22:04:10Z"
 }
