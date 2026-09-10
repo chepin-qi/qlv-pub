@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "79ffe833c3e297015af67eb15e77b4def7babc8f",
+  "qfa_head": "0bf9f5cbe37decc723d266dc150ad5bc82763f5e",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -14,7 +14,7 @@
     "vci-vinf#6": 1,
     "vci-inbox#2": 0
   },
-  "lane_inbox_count": 93,
+  "lane_inbox_count": 94,
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
@@ -23,13 +23,13 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
       1,
       0,
-      1,
       0,
-      0,
-      0,
-      0
+      1
     ],
     "sigma": 1.0,
     "lock": null,

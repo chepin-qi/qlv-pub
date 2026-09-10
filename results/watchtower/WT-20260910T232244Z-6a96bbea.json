@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T23:22:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "0bf9f5cb",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(4e059399→0bf9f5cb)| 性态:基准漂移/常规推进，未见冲突、回滚或异常迹| 建议处置:落账确认，常轨归集，无需拦截| 锚:ref=0bf9f5cb; kind=qfa.beat",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 607,
+    "total_tokens": 806,
+    "completion_tokens_details": {
+      "reasoning_tokens": 528
+    }
+  }
+}

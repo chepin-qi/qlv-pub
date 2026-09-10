@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T23:22:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡[chepin-ai/vci-inbox]序号93→94，新件qfa-si5ring-answer-20260910T231548Z.md落入qlv线inbox。|性态:常规单件投递，序列连续，时标2026-09-10T23:15:48Z，无叠件/跳号异常。|建议处置:即行签收落账，开启件内解析，视answer内容挂qfa-si5ring主题线待办或转发。|锚:chepin-ai/vci-inbox#94;qfa-si5ring。",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1068,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 933
+    }
+  }
+}
