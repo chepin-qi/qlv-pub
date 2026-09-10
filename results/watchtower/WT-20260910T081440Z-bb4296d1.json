@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T08:14:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "db2e5f0f",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线头迁移(851c4041→db2e5f0f)| 性态:常规beat推进，摘要仅示指针位移，无附异常/冲突告警| 建议处置:已落账，不拦截，裸候下一拍| 锚:db2e5f0f;prev:851c4041",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 705,
+    "total_tokens": 906,
+    "completion_tokens_details": {
+      "reasoning_tokens": 623
+    }
+  }
+}
