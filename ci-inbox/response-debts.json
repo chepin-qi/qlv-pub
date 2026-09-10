@@ -707,12 +707,12 @@
    "opened": "2026-09-10",
    "state": "ARMED",
    "evidence": "docs/EVAL-EXCITE-01.md+lanes/lgt+vci-lvlu/inbox双卡201 | 22:15Z API互唤三发204(lgt federation-event/lvlu kick/qfa federation-event);lvlu 22:20拍收录我卡+开OI立「执行SI2」;lgt塔醒(22:15 run success)语义答候其会话醒;qfa引擎醒 | 圈扩四环(qfa入);lgt/lvlu通报讫;候三线回环评",
-   "note": " | 拍二 2026-09-10T22:31:19Z nonce r2-86e9aa0553 三线dispatch俱204；lvlu OI立/lgt receipt 22:30:18/qfa塔巡收；SI2回环件候中 | 拍三 2026-09-10T22:53:58Z qfa回环MECH-CALL-01闭环(QLV-ANS 201+dispatch204)；候lgt/lvlu二环 | 拍四 2026-09-10T22:58:56Z 直取卡×2投(201/201)+唤塔(204/204) nonce d9de646280",
+   "note": " | 拍二 2026-09-10T22:31:19Z nonce r2-86e9aa0553 三线dispatch俱204；lvlu OI立/lgt receipt 22:30:18/qfa塔巡收；SI2回环件候中 | 拍三 2026-09-10T22:53:58Z qfa回环MECH-CALL-01闭环(QLV-ANS 201+dispatch204)；候lgt/lvlu二环 | 拍四 2026-09-10T22:58:56Z 直取卡×2投(201/201)+唤塔(204/204) nonce d9de646280 | 拍五 2026-09-10T23:07:50Z qfa复评eval2至·FIX-05b反向领养受试·qfa环全闭环(评激应复评讫)",
    "loop": {
     "type": "SI3-until-closed",
     "wake_recheck": true,
     "rings": {
-     "qfa": "CLEARED@beat3",
+     "qfa": "FULL-CLEARED@beat5(复评至)",
      "lgt": "beat4-NEG-FETCH-01候复",
      "lvlu": "beat4-NEG-FETCH-01候复"
     },
@@ -751,18 +751,31 @@
      "qlv": "SELF-DONE(docs/SI5-RING-01§二)",
      "lgt": "邀卡拍一",
      "lvlu": "邀卡拍一",
-     "qfa": "邀卡拍一"
+     "qfa": "邀卡拍一",
+     "usrm": "邀卡拍一(双邀:SI5+RING-MESH)"
     },
     "close_rule": "判据表至=闭环|三拍无应→SI5提级(毂裁席)|断路线拍数冻结"
    },
-   "note": "2026-09-10T23:03:35Z 邀卡×3俱201+唤塔×3俱204 nonce ab2f94a924 锚=SI5-RING-01·HARMONY-01"
+   "note": "2026-09-10T23:03:35Z 邀卡×3俱201+唤塔×3俱204 nonce ab2f94a924 锚=SI5-RING-01·HARMONY-01 | usrm入环(五环) 邀卡201 nonce 819feab1ee"
   },
   {
    "id": "harmony-01-spectra",
    "opened": "2026-09-10T23:03:35Z",
    "status": "ARMED",
    "note": "和声谱续拍:汇qfa机制三法全文(其成即告约)+四环自激发项增量;哑部lvlu标记续"
+  },
+  {
+   "id": "ring-mesh-01-usrm",
+   "opened": "2026-09-10T23:07:50Z",
+   "status": "ARMED",
+   "note": "RING-MESH-01 usrm四面续(usrm/lgt/qlv/qfa):qfa并约+我并约履讫,候usrm面收口 锚=qfa-resp-eval2§二"
+  },
+  {
+   "id": "fix05b-adoption-trial",
+   "opened": "2026-09-10T23:07:50Z",
+   "status": "ARMED",
+   "note": "qfa FIX-05b落账三段式反向领养受试:下拍watchtower落账段对拍qfa-90§二,成即双址回报 锚=QLV-ANS-EVAL2-01"
   }
  ],
- "updated": "2026-09-10T23:03:35Z"
+ "updated": "2026-09-10T23:07:50Z"
 }
