@@ -1,0 +1,22 @@
+{
+  "ts": "2026-09-10T09:52:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "00266939",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main分支HEAD迁移，由f5c50c4d指向00266939| 性态:常规代码提交流水线beat事件，属正常分支指针移动，无异常告警特征| 建议处置:无需人工干预，按常规定期巡检，确认后续CI/CD流水线完成即可| 锚:ref=00266939; 父锚commit f5c50c4d",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 941,
+    "total_tokens": 1136,
+    "cached_tokens": 195,
+    "completion_tokens_details": {
+      "reasoning_tokens": 846
+    },
+    "prompt_tokens_details": {
+      "cached_tokens": 195
+    }
+  }
+}
