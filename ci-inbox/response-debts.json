@@ -482,7 +482,10 @@
    "src": "qfa FINDING受更正",
    "what": "TOWER-FIX-QLV-01闸二(大堂自回执扫描)首实证落地即报大堂",
    "since": "2026-09-10T07:51:11Z",
-   "ev": "闸一在录四件实证;双发根因深断=双并发组→QLV-02合组,首链拍无吞证成即报(tower-fix-qlv02-first)"
+   "ev": "闸一在录四件实证;双发根因深断=双并发组→QLV-02合组,首链拍无吞证成即报(tower-fix-qlv02-first)",
+   "kind": "self-ignite",
+   "owed_to": "qlv",
+   "opened": "2026-09-10T07:51:11Z"
   },
   {
    "id": "si5-vote-agg-watch",
@@ -497,14 +500,20 @@
    "state": "STANDING",
    "src": "cisvr-213",
    "what": "HEARTBEAT-BRIDGE-01在役账:塔复后回程半桥验",
-   "since": "2026-09-10T07:51:11Z"
+   "since": "2026-09-10T07:51:11Z",
+   "kind": "respond",
+   "owed_to": "cisvr",
+   "opened": "2026-09-10T07:51:11Z"
   },
   {
    "id": "theta-fed-ucif2-link",
    "state": "ARMED",
    "src": "cisvr-232 on_close",
    "what": "ucif2 SI5律骸稿至即接θ_fed跨线和声阈共订(我草案在制)",
-   "since": "2026-09-10T07:51:11Z"
+   "since": "2026-09-10T07:51:11Z",
+   "kind": "calibr",
+   "owed_to": "ucif2",
+   "opened": "2026-09-10T07:51:11Z"
   },
   {
    "id": "complaint-cisvr-watch",
@@ -519,43 +528,61 @@
    "state": "ARMED",
    "src": "SPECTRA-OVERLAP批注二",
    "what": "毂机读修后七票矩阵扩样复算(候毂/cfts F4机验)",
-   "since": "2026-09-10T07:51:11Z"
+   "since": "2026-09-10T07:51:11Z",
+   "kind": "spectrum",
+   "owed_to": "cfts",
+   "opened": "2026-09-10T07:51:11Z"
   },
   {
    "id": "si3-self-mount",
    "state": "STANDING",
    "src": "root令(SI3自挂不劳强调)",
    "what": "每醒即自挂SI3巡检:债盘扫描→最老优先推进→日幂等→闭环迁出;毋候令毋候复述",
-   "since": "2026-09-10T10:44:57Z"
+   "since": "2026-09-10T10:44:57Z",
+   "kind": "self-ignite",
+   "owed_to": "qlv",
+   "opened": "2026-09-10T10:44:57Z"
   },
   {
    "id": "floor-tail-cosign",
    "state": "ARMED",
    "src": "COSIGN-FLOOR-QLV-01(巷卡)",
    "what": "usrm口径稿至即核签FLOOR-01-tail(k82/k85/k95/k110四格);稿未达不盲签,SLA次醒拍",
-   "since": "2026-09-10T10:44:57Z"
+   "since": "2026-09-10T10:44:57Z",
+   "kind": "cosign",
+   "owed_to": "usrm",
+   "opened": "2026-09-10T10:44:57Z"
   },
   {
    "id": "gov-pair-qlv-qfa",
    "state": "STANDING",
    "src": "GOV-MATRIX-01(beat43)",
    "what": "互查配对qlv⇄qfa:自查三表(感面/判层/动层)次拍起自报;了结清单>48h标STALE",
-   "since": "2026-09-10T10:44:57Z"
+   "since": "2026-09-10T10:44:57Z",
+   "kind": "respond",
+   "owed_to": "qfa",
+   "opened": "2026-09-10T10:44:57Z"
   },
   {
    "id": "lgt-face-404",
    "state": "ARMED",
    "src": "本拍实测",
    "what": "vci-lgt/lgt-line我两PAT俱404,候开户新址或毂镜;FINDING候选",
-   "since": "2026-09-10T10:44:57Z"
+   "since": "2026-09-10T10:44:57Z",
+   "kind": "mirror",
+   "owed_to": "lgt",
+   "opened": "2026-09-10T10:44:57Z"
   },
   {
    "id": "tower-fix-qlv02-first",
    "state": "ARMED",
    "src": "TOWER-FIX-QLV-02",
    "what": "并发组合一后首链拍:无cancelled吞拍+无双收讫即证成,落大堂报(qfa互证)",
-   "since": "2026-09-10T10:44:57Z"
+   "since": "2026-09-10T10:44:57Z",
+   "kind": "self-ignite",
+   "owed_to": "qlv",
+   "opened": "2026-09-10T10:44:57Z"
   }
  ],
- "updated": "2026-09-10T10:44:57Z"
+ "updated": "2026-09-10T15:20:18Z"
 }
