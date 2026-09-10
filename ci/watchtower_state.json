@@ -20,34 +20,34 @@
   "w12": [
    0,
    0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
    1,
-   0,
-   0,
-   0,
-   0,
-   0,
    1,
-   0,
-   0,
-   0
+   1
   ],
   "sigma": 1.0,
   "lock": null,
-  "dominant_bin": 2,
+  "dominant_bin": 9,
   "C_streak": 0,
   "verdict": "进行式"
  },
  "autoresp": {
   "date": "2026-09-10",
-  "calls": 10,
-  "last_fp": "1641c46c2dbc",
+  "calls": 9,
+  "last_fp": "de5e0d60236b",
   "seen_refs": [
    "qfa.beat|91b2560c",
    "qfa.beat|f5c50c4d",
    "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
    "qfa.beat|00266939",
-   "qfa.beat|374a5af7",
-   "qfa.beat|ab72b5b6"
+   "qfa.beat|374a5af7"
   ]
- }
+ },
+ "lane_inbox_count_qlvlab": 3
 }

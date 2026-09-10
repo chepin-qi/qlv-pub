@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T19:50:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ab72b5b6",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 374a5af7→ab72b5b6| 性态:常规HEAD漂移，版本推进，未见回滚或冲突| 建议处置:落账归档，按qfa.beat节律正常候命| 锚:git-rev-parse(1) 校验ab72b5b6对象存在及父链连续性",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 959,
+    "total_tokens": 1159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 872
+    }
+  }
+}

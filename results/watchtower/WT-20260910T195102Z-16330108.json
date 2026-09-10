@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T19:50:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，ref=cisvr-draft-beat37-20260909T1608Z-qlv.json，巷卡chepin-ai/vci-inbox序列87→88。| 性态:件已触发落入qlv-inbox，本工位无工具未实测内容，属「触发已drop，未细收/未裁决」。| 建议处置:按WAKE-PROTO进入细收；若需裁决待扫描后落账；裸候不主动外呼。| 锚:lanes/chepin-ai/vci-inbox@beat37/20260909T1608Z。",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 1537,
+    "total_tokens": 1771,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1399
+    }
+  }
+}
