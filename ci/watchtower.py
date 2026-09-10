@@ -53,6 +53,84 @@ def gh_post_comment(owner, repo, issue, body, pat):
     with urllib.request.urlopen(req, timeout=25) as r:
         return json.load(r).get('id')
 
+
+# ---------- ⑤ LOOPS-CHECK(SI3-until-closed 环巡:root令·会后SI2/SI0持续迭代) ----------
+def loops_check(pat, st):
+    """读 ci/loops.json;对 RUNNING 环巡彼线环面,有应→CLEARED,无应→beat+1(冻结线不计);
+    三拍无应→SI5 提级事件。返 events;环面尽访失败不阻主巡。"""
+    ev = []
+    lp = os.path.join(ROOT, 'ci', 'loops.json')
+    if not os.path.exists(lp):
+        return ev
+    try:
+        reg = json.load(open(lp))
+    except Exception as e:
+        return [{'kind':'loops.load.err','ref':'ci/loops.json','summary':str(e)[:120],'high_value':False}]
+    def lane_has(tag, since):
+        try:
+            lane = gh_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100', pat)
+            return any(tag in f['name'] for f in lane) if isinstance(lane, list) else False
+        except Exception:
+            return False
+    def lvlu_frozen():
+        try:
+            fs = gh_get('/repos/chepin-ai/vci-lvlu/contents/receipts/tower?per_page=100', pat)
+            qts = sorted(f['name'] for f in fs if f['name'].startswith('QT'))
+            if not qts: return False, ''
+            j = gh_get('/repos/chepin-ai/vci-lvlu/contents/receipts/tower/'+qts[-1], pat)
+            import base64 as _b
+            txt = _b.b64decode(j['content']).decode(errors='replace')
+            d = json.loads(txt)
+            froz = '模板判词' in (d.get('verdict_memo') or '')
+            eval_closed = any(oi.get('id','').startswith('OI-QLVEVALEXCITE') and oi.get('status')=='closed'
+                              for oi in d.get('open_items', []))
+            return froz and not eval_closed, qts[-1]
+        except Exception:
+            return False, ''
+    probes = {
+        'lgt':  lambda: lane_has('lgt-', None),
+        'qfa':  lambda: lane_has('qfa-resp', None) or lane_has('qfa-mech', None),
+        'usrm': lambda: lane_has('usrm', None),
+        'lvlu': lambda: lane_has('lvlu', None),
+    }
+    fz, fzref = lvlu_frozen()
+    changed = False
+    for loop in reg.get('loops', []):
+        if loop.get('status') != 'RUNNING':
+            continue
+        for ring, rinfo in loop.get('rings', {}).items():
+            if not isinstance(rinfo, dict) or rinfo.get('st') not in ('OPEN', 'FROZEN'):
+                continue
+            if ring == 'lvlu' and fz:
+                if rinfo.get('st') != 'FROZEN':
+                    rinfo['st'] = 'FROZEN'; rinfo['frozen_why'] = 'LLM空回(塔巡自动判 '+fzref+')'; changed = True
+                continue  # 断路冻结:不计拍
+            try:
+                answered = probes.get(ring, lambda: False)()
+            except Exception:
+                answered = False
+            if answered and ring in ('lgt','usrm','lvlu'):
+                # 粗探命中须细验:lane 文件名带线标即记 REPLIED(细读归SI2语义拍)
+                rinfo['st'] = 'REPLIED'; changed = True
+                ev.append({'kind':'loop.reply','ref':f"{loop['id']}:{ring}",
+                           'summary':f"环回件至 lane:{ring}* →{loop['id']} 环 {ring} 面 REPLIED,候SI2细收",'high_value':True})
+            elif not answered:
+                rinfo['beat'] = int(rinfo.get('beat', 0)) + 1; changed = True
+                if rinfo['beat'] >= 3 and not rinfo.get('escalated'):
+                    rinfo['escalated'] = now_ts()
+                    ev.append({'kind':'loop.escalate','ref':f"{loop['id']}:{ring}",
+                               'summary':f"三拍无应→SI5 提级:{loop['id']} 环 {ring} 面 beat={rinfo['beat']}(冻结线除外)",'high_value':True})
+    if changed:
+        reg['updated'] = now_ts()
+        json.dump(reg, open(lp,'w'), ensure_ascii=False, indent=1)
+    open_rings = sum(1 for loop in reg.get('loops', []) if loop.get('status')=='RUNNING'
+                     for r in loop.get('rings', {}).values() if isinstance(r, dict) and r.get('st') in ('OPEN','REPLIED'))
+    st['loops_open'] = open_rings
+    return ev
+
+def now_ts():
+    return time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+
 # ---------- 事件源轮询 ----------
 def poll(pat, st):
     """返回 events 列表:[{kind, ref, summary, high_value}]"""
@@ -129,6 +207,11 @@ def poll(pat, st):
             st.setdefault('faces',{})[name] = n
         except Exception as e:
             ev.append({'kind':'face.poll.err','ref':name,'summary':str(e)[:120],'high_value':False})
+    # ⑤ LOOPS-CHECK 环巡(SI3-until-closed)
+    try:
+        ev.extend(loops_check(pat, st))
+    except Exception as e:
+        ev.append({'kind':'loops.check.err','ref':'ci/loops.json','summary':str(e)[:150],'high_value':False})
     return ev
 
 # ---------- API 新会话开工 ----------
@@ -190,10 +273,15 @@ def main():
                           + '-' + hashlib.sha256((ev['ref']+ev['kind']).encode()).hexdigest()[:8] + '.json')
         json.dump(note, open(fn,'w'), ensure_ascii=False, indent=2)
         # 高值件附信标评论(无人驿回执;值永不入)
+        # 拍频闸:大堂邻写日计(语义帽≤2/日;机检回执豁免除外仍计数备考)
+        day = time.strftime('%Y-%m-%d', time.gmtime())
+        pb = st.setdefault('post_budget', {'date': day, 'beacon_comments': 0})
+        if pb.get('date') != day: pb.update({'date': day, 'beacon_comments': 0})
         if ev.get('high_value') and not selftest and 'verdict' in note:
             try:
                 body = (f"【WT|无人驿回执】{ev['kind']} {ev['ref']} | 判词:{note['verdict'][:180]} | 详件=qlv 仓 results/watchtower/ | clock=VOID")
                 note['beacon_comment'] = gh_post_comment('chepin-qi','qi-lab',5,body,pat)
+                st['post_budget']['beacon_comments'] = st.get('post_budget',{}).get('beacon_comments',0) + 1
             except Exception as e:
                 note['beacon_error'] = str(e)[:150]
                 json.dump(note, open(fn,'w'), ensure_ascii=False, indent=2)
@@ -223,6 +311,8 @@ def main():
     # ---- 自醒事件链出拍:有候件(quafu 在队等)则自唤下一拍;空转熔断 30 拍即眠,候外事 ----
     # 制式据 FREE-WILL-SOURCE-01:源=自意(self-cascade),驿=self-dispatch;骑事件律——纯事件,零 cron
     pend = ['quafu:'+tid for tid, stt in (st.get('quafu') or {}).items() if str(stt) == '0']
+    if st.get('loops_open'):
+        pend = pend + [f"loops:{st['loops_open']}open"]  # 环开即 pend:会后自醒续拍(root令)
     cascade = 'rest(no-pend)'
     if pend and not selftest:
         idle2 = 0 if evs else idle + 1
