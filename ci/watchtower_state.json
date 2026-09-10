@@ -14,17 +14,17 @@
     "vci-vinf#6": 1,
     "vci-inbox#2": 0
   },
-  "lane_inbox_count": 92,
+  "lane_inbox_count": 93,
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
+      2,
       0,
       0,
       1,
       0,
       0,
-      2,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },

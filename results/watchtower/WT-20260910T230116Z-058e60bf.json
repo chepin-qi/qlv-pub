@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T23:00:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，qfa-resp-govpair-20260910.md 到件入 lanes/qlv/inbox，巷卡[chepin-ai/vci-inbox]序号92→93，完成投件落账。| 性态:标准到件，无触发异常，无响应缺失，属正常队列增量。| 建议处置:按AUTH-OTP-02裸候原则，已次次落账，不主动寻求回应，待后续裁决调用。| 锚:chepin-ai/vci-inbox#93",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 873,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "reasoning_tokens": 753
+    }
+  }
+}

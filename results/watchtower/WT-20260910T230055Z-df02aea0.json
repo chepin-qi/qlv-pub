@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T23:00:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "4e059399",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 分支头迁移(758b481b→4e059399)| 性态:常规 commit 推进，属 qfa.beat 标准心跳事件，未见异常告警| 建议处置:确认 diff 无异常后归档落账，无需拦截| 锚:git-ops/主线头指针迁移",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 748,
+    "total_tokens": 943,
+    "completion_tokens_details": {
+      "reasoning_tokens": 670
+    }
+  }
+}
