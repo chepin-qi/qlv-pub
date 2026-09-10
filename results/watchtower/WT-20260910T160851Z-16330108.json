@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T16:08:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡85→86割接，件cisvr-draft-beat37-20260909T1608Z-qlv.json|性态:旧巷弃置，草案beat37迭代，未触实机钱面|建议处置:归档85残锚，验86接续完整；裸候，次次落账|锚:cisvr-main/beat37",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1216,
+    "total_tokens": 1441,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1127
+    }
+  }
+}
