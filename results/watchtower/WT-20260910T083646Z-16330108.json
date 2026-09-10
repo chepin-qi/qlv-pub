@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T08:36:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡84→85，件cisvr-draft-beat37-20260909T1608Z-qlv.json已扫收入inbox| 性态:版本迭代到件，属卡跳移交；未触发内容实测，仅作到件登记，无响应态| 建议处置:按WAKE-PROTO落账归档，后续节点对beat37草案做合规扫描；裸候，不主动求应| 锚:lanes/qlv/outbox:drop-beat37-ack",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 881,
+    "total_tokens": 1106,
+    "completion_tokens_details": {
+      "reasoning_tokens": 762
+    }
+  }
+}
