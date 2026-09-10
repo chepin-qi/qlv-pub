@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T22:15:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "faf066bd",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(ab72b5b6→faf066bd)| 性态:常规beat同步，头指针正常推进，未见冲突、回滚或异常分支| 建议处置:已落账，常规归档，无需回退或人工介入| 锚:git头迁移属常态记账，本件纳入qfa线版本链尾端",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 661,
+    "total_tokens": 855,
+    "completion_tokens_details": {
+      "reasoning_tokens": 576
+    }
+  }
+}
