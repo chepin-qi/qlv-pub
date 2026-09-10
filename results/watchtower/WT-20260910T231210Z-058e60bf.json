@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T23:11:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡[chepin-ai/vci-inbox]计数92→93，新件qfa-resp-govpair-20260910.md到件入lanes/qlv/inbox| 性态:lane.drop标准投递，单件增量，未触发异常，属常规inbox到件流| 建议处置:执行次次落账，细收扫描该件元数据与完整性，无异常则落账归档；裸候，不主动求应| 锚:chepin-ai/vci-inbox(源线锚)",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1001,
+    "total_tokens": 1223,
+    "completion_tokens_details": {
+      "reasoning_tokens": 877
+    }
+  }
+}
