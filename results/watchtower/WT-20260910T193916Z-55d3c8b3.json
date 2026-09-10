@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T19:38:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ab72b5b6",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 374a5af7→ab72b5b6| 性态:单线快进，无回退/冲突，属常规beat同步| 建议处置:已落账，后续beat持续观测，若触发回滚或CI失败则升格| 锚:链:ab72b5b6",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 820,
+    "total_tokens": 1020,
+    "completion_tokens_details": {
+      "reasoning_tokens": 739
+    }
+  }
+}

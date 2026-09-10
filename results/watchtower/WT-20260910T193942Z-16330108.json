@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-10T19:39:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡87→88递升，cisvr-draft-beat37-20260909T1608Z-qlv.json 落件qlv inbox| 性态:lane.drop 正常到件，版本号线性+1，摘要未报异常，属常规草稿同步，未触发告警| 建议处置:执行细收比对87→88差异，核验无越界变更后裁决落账，裸候不主动寻求回应| 锚:lanes/qlv/audit:beat37-series",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 877,
+    "total_tokens": 1102,
+    "completion_tokens_details": {
+      "reasoning_tokens": 761
+    }
+  }
+}
