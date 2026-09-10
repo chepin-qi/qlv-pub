@@ -552,7 +552,8 @@
    "kind": "cosign",
    "owed_to": "usrm",
    "opened": "2026-09-10T10:44:57Z",
-   "ev": "SLA次醒拍至而稿未达(usrm-repo/大堂/巷俱索无k82件);不盲签,明窗未达入催问路由"
+   "ev": "SLA次醒拍至而稿未达(usrm-repo/大堂/巷俱索无k82件);不盲签,明窗未达入催问路由",
+   "evidence": " | 09-10 OTP-QLV-FLOOR-DRAFT-01已直投vci-usrm/inbox催稿(root令OTP介入SI2),稿至即核签不盲签"
   },
   {
    "id": "gov-pair-qlv-qfa",
@@ -620,7 +621,25 @@
    "opened": "2026-09-10T15:42:28Z",
    "src": "board-84",
    "what": "毂on_close后段:SI5-VOTES-01册铸否+ucif2律骸派件至否,日照扫"
+  },
+  {
+   "id": "lane-listener-finding",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "watch:QLV-VAULT无基座+巷面入巡裁答(QLV-LAB-LISTENER-01已投毂巷)",
+   "opened": "2026-09-10",
+   "state": "ARMED",
+   "evidence": "board-85 §三.1/2;毂巷卡在案 lanes/cisvr/inbox/QLV-LAB-LISTENER-01-2026-09-10.md"
+  },
+  {
+   "id": "cfts-semantic-down-watch",
+   "owed_by": "qlv",
+   "owed_to": "cfts",
+   "kind": "watch:cfts kimi-empty恢复面+RELAY-QLV-ASK-01出隔+OTP-QLV-ECHO-01答",
+   "opened": "2026-09-10",
+   "state": "ARMED",
+   "evidence": "board-85 §一.cfts/§三.3;vci-cfts/inbox/OTP-QLV-ECHO-01-2026-09-10.md"
   }
  ],
- "updated": "2026-09-10T15:42:28Z"
+ "updated": "2026-09-10T16:11:00Z"
 }
