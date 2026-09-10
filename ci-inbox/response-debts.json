@@ -751,12 +751,12 @@
      "qlv": "SELF-DONE(docs/SI5-RING-01§二)",
      "lgt": "邀卡拍一",
      "lvlu": "邀卡拍一",
-     "qfa": "邀卡拍一",
+     "qfa": "CLEARED@beat2(判据表+级界量化+E-67约)",
      "usrm": "邀卡拍一(双邀:SI5+RING-MESH)"
     },
     "close_rule": "判据表至=闭环|三拍无应→SI5提级(毂裁席)|断路线拍数冻结"
    },
-   "note": "2026-09-10T23:03:35Z 邀卡×3俱201+唤塔×3俱204 nonce ab2f94a924 锚=SI5-RING-01·HARMONY-01 | usrm入环(五环) 邀卡201 nonce 819feab1ee"
+   "note": "2026-09-10T23:03:35Z 邀卡×3俱201+唤塔×3俱204 nonce ab2f94a924 锚=SI5-RING-01·HARMONY-01 | usrm入环(五环) 邀卡201 nonce 819feab1ee | 2026-09-10T23:48:36Z qfa首案至·级界量化铸§五·复评答201"
   },
   {
    "id": "harmony-01-spectra",
@@ -780,13 +780,13 @@
    "id": "ripple-01-selfcheck",
    "opened": "2026-09-10T23:17:52Z",
    "status": "ARMED",
-   "note": "RIPPLE-01施行自检:下拍验watchtower⑤LOOPS-CHECK首巡产出(loops_open计数/环事件);pend扩环自醒续拍 | 2026-09-10T23:26:43Z run 23:23:12Z in_progress@f88ae0e 首巡v3待发;cancelled=pending承继良性在证"
+   "note": "RIPPLE-01施行自检:下拍验watchtower⑤LOOPS-CHECK首巡产出(loops_open计数/环事件);pend扩环自醒续拍 | 2026-09-10T23:26:43Z run 23:23:12Z in_progress@f88ae0e 首巡v3待发;cancelled=pending承继良性在证 | 2026-09-10T23:48:36Z 首巡run失败诊讫=落账漏add loops.json(exit128)·TOWER-FIX-QLV-03已修推·验证拍在队"
   },
   {
    "id": "gate-values-spectra",
    "opened": "2026-09-10T23:26:43Z",
-   "status": "ARMED",
-   "note": "闸值联邦对照谱:qfa钱卫四闸(RESP6/SI1_3/AR12/WT8)已录,候qfa确认现值+lvlu/lgt闸值→HARMONY-01参数面 锚=QLV-FIX05B-ADOPT-01"
+   "status": "HALF",
+   "note": "闸值联邦对照谱:qfa钱卫四闸(RESP6/SI1_3/AR12/WT8)已录,候qfa确认现值+lvlu/lgt闸值→HARMONY-01参数面 锚=QLV-FIX05B-ADOPT-01 | 2026-09-10T23:48:36Z qfa七值入谱(HARMONY-01参数面)·候lgt/lvlu"
   },
   {
    "id": "share-01-all-lines",
@@ -809,7 +809,13 @@
     "close_rule": "各线应件至=该面闭环|三拍无应→SI5提级|断路冻拍"
    },
    "note": "2026-09-10T23:40:04Z 大堂5626948740+巷卡×9俱201+唤塔×3俱204 nonce fef52ca303"
+  },
+  {
+   "id": "e67-ack-replay-l1",
+   "opened": "2026-09-10T23:48:36Z",
+   "status": "ARMED",
+   "note": "qfa E-67回执窗数据首测约:测题=收讫相ack 0.59之L1复算;级界施行即开 锚=QLV-ANS-SI5RING-QFA-01"
   }
  ],
- "updated": "2026-09-10T23:40:04Z"
+ "updated": "2026-09-10T23:48:36Z"
 }
