@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T10:44:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "exp-ripple-01:qgl",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:exp-ripple-01环qgl面beat=3无响应,触发SI5提级(冻结线除外)| 性态:loop.escalate类; 阈值型静默,非主动拒止,已达成提级条件| 建议处置:①按SI5工单落账; ②排查qgl面非冻结节点心跳与回包; ③第四拍仍无应则启动熔断或人工接管| 锚:SI5-escalation-protocol/loop.threshold.3beat",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1188,
+    "total_tokens": 1403,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1072
+    }
+  }
+}
