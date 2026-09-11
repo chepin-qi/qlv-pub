@@ -21,7 +21,6 @@
       0,
       0,
       0,
-      1,
       0,
       0,
       0,
@@ -29,11 +28,12 @@
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -52,5 +52,5 @@
     "date": "2026-09-11",
     "beacon_comments": 66
   },
-  "qgl_head": "b99b292add8609eb3d5e86665aebf5926ff326b0"
+  "qgl_head": "efd01b9a3a3b11e3e532be463148220345e35061"
 }
