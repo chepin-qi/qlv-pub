@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-11T08:20:08Z",
+ "updated": "2026-09-11T08:31:26Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -15,18 +15,17 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 21,
-     "neg_fetch": true,
-     "escalated": "2026-09-11T02:30:40Z"
+     "beat": 4,
+     "neg_fetch": true
     },
     "lvlu": {
-     "st": "REPLIED",
+     "st": "FROZEN",
      "beat": 4,
      "frozen_why": "LLM空回模板判词 QT-225304Z",
      "neg_fetch": true
     },
     "usrm": {
-     "st": "REPLIED",
+     "st": "OPEN",
      "beat": 1
     }
    }
@@ -41,11 +40,10 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:37Z"
+     "beat": 1
     },
     "lvlu": {
-     "st": "REPLIED",
+     "st": "FROZEN",
      "beat": 1,
      "frozen_why": "LLM空回"
     },
@@ -55,7 +53,7 @@
      "note": "判据表至+级界量化应+复评讫"
     },
     "usrm": {
-     "st": "REPLIED",
+     "st": "OPEN",
      "beat": 1
     }
    }
@@ -66,13 +64,12 @@
    "status": "RUNNING",
    "rings": {
     "usrm": {
-     "st": "REPLIED",
+     "st": "OPEN",
      "beat": 1
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     },
     "qlv": {
      "st": "JOINED"
@@ -97,16 +94,14 @@
    "rings": {
     "cisvr": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     },
     "lvlu": {
-     "st": "REPLIED",
+     "st": "FROZEN",
      "beat": 1,
      "frozen_why": "LLM空回"
     },
@@ -115,28 +110,24 @@
      "note": "resp-qlv-03/04+si5ring-answer三件"
     },
     "usrm": {
-     "st": "REPLIED",
+     "st": "OPEN",
      "beat": 1
     },
     "cfts": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     },
     "ucif2": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     },
     "qtlv": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     },
     "vinf": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     }
    }
   },
@@ -152,13 +143,11 @@
     },
     "qgl": {
      "st": "OPEN",
-     "beat": 3,
-     "escalated": "2026-09-11T05:51:41Z"
+     "beat": 1
     },
     "si5-intent": {
      "st": "OPEN",
-     "beat": 18,
-     "escalated": "2026-09-11T03:00:38Z"
+     "beat": 1
     }
    },
    "close_rule": "链环①②③俱通=反向驱动首实证|三拍无应→SI5提级"
@@ -169,6 +158,18 @@
    "status": "STANDING",
    "rings": {
     "note": "qlv⇄qfa常驻强化:pair-wake互唤在役+每醒互面差分复验;EVAL/SI5双环全闭后之常态桥"
+   }
+  },
+  {
+   "id": "ucif2-conj-driver",
+   "opened": "2026-09-11T08:31:26Z",
+   "status": "RUNNING",
+   "rings": {
+    "ucif2": {
+     "st": "REPLIED",
+     "note": "PUSH-03交讫候判"
+    },
+    "note": "DRIVER-POST四模式并轨候选;判收执候"
    }
   }
  ]
