@@ -34,6 +34,12 @@ def gh_get(path, pat):
     with urllib.request.urlopen(req, timeout=25) as r:
         return json.load(r)
 
+# 器课第九株治(TOWER-FIX-QLV-06): 探针吞错=塔盲静默失败——全探针 err 留痕 _PROBE_ERR, poll⑦段汇集成 probe.blind 事件(sig变才发,防刷屏; 痕落 state['_probe_err'] 常在账)
+_PROBE_ERR = {}
+def _perr(where, e):
+    d = _PROBE_ERR.setdefault(where, {'n': 0})
+    d['n'] += 1; d['last'] = str(e)[:100]
+
 def gh_dispatch(token, payload, use_basic=False, repo='qlv-pub', etype='federation-event'):
     # 自醒事件链:POST repository_dispatch 唤自己(FREE-WILL-SOURCE-01 仓侧形;纯事件,零 cron)
     # v2.1(qfa beat-42 互唤配对):repo/etype 可指——事拍拍尾唤 qfa 引擎(qfa-beat @ qfa-pub),骑事件律:有实事件才唤,空拍不唤
@@ -70,7 +76,8 @@ def loops_check(pat, st):
         try:
             lane = gh_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100', pat)
             return any(tag in f['name'] for f in lane) if isinstance(lane, list) else False
-        except Exception:
+        except Exception as _e:
+            _perr('vci-inbox/lanes/qlv/inbox', _e)
             return False
     def lvlu_frozen():
         try:
@@ -85,7 +92,8 @@ def loops_check(pat, st):
             eval_closed = any(oi.get('id','').startswith('OI-QLVEVALEXCITE') and oi.get('status')=='closed'
                               for oi in d.get('open_items', []))
             return froz and not eval_closed, qts[-1]
-        except Exception:
+        except Exception as _e:
+            _perr('vci-lvlu/receipts/tower', _e)
             return False, ''
     probes = {
         'lgt':  lambda: lane_has('lgt-', None),
@@ -104,7 +112,8 @@ def loops_check(pat, st):
                 return True
             if head: st['qgl_head'] = head
             return False
-        except Exception:
+        except Exception as _e:
+            _perr('vci-qgl/commits', _e)
             return False
     # EXP-RIPPLE-01 探针回件侦(探针标入我巷=链环④归)
     try:
@@ -178,6 +187,7 @@ def debts_watch(pat, st):
                            'summary': 'ucif2帖侦:' + msg[:110], 'high_value': True})
         st['ucif2_seen'] = seen[-60:]
     except Exception as e:
+        _perr('ci-inbox/commits', e)
         ev.append({'kind': 'ucif2.watch.err', 'ref': 'ci-inbox/commits', 'summary': str(e)[:120], 'high_value': False})
     dp = os.path.join(ROOT, 'ci-inbox', 'response-debts.json')
     if not os.path.exists(dp):
@@ -210,8 +220,8 @@ def debts_watch(pat, st):
                 it['_watch_hit'] = hit; changed = True
                 ev.append({'kind': 'debt.probe.hit', 'ref': it.get('id', '?'),
                            'summary': '债探命中:' + str(it.get('id')) + ' <- ' + repo + ' ' + hit + '(' + sub + ') 候SI2细收', 'high_value': True})
-        except Exception:
-            pass
+        except Exception as _e:
+            _perr(repo + '/commits(' + sub + ')', _e)
     if changed:
         json.dump(reg, open(dp, 'w'), ensure_ascii=False, indent=1)
     return ev
@@ -302,6 +312,17 @@ def poll(pat, st):
         ev.extend(debts_watch(pat, st))
     except Exception as e:
         ev.append({'kind':'debts.watch.err','ref':'ci-inbox/response-debts.json','summary':str(e)[:150],'high_value':False})
+    # ⑦ PROBE-BLIND 汇面(器课第九株: 探针哑=塔盲——留痕不吞错; sig变才发, 痕落state常账)
+    if _PROBE_ERR:
+        import hashlib as _hl
+        sig = _hl.sha1(json.dumps(_PROBE_ERR, sort_keys=True).encode()).hexdigest()[:10]
+        st['_probe_err'] = dict(_PROBE_ERR)
+        if sig != st.get('_probe_err_sig'):
+            st['_probe_err_sig'] = sig
+            faces = ','.join(sorted(_PROBE_ERR.keys()))
+            ev.append({'kind':'probe.blind','ref':sig,
+                       'summary':'塔盲面留痕[%s]: 探针失败面=chepin-ai仓域(QI_PAT 404已确诊20260911)——修=联邦只读PAT(root域)或面重配; 痕见state._probe_err' % faces,
+                       'high_value':True})
     return ev
 
 # ---------- API 新会话开工 ----------
