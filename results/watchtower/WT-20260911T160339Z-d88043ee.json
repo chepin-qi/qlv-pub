@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T16:03:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "probe.blind",
+    "ref": "d0529ec96f",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:探针盲面留痕失败(ref=d0529ec96f)，chepin-ai/ci-inbox多分支(cisvr-2/lgt-1/qfa-1/ucif2/vinf-1)触诊404| 性态:QI_PAT认证锚点失效，属触发后权限拒止，非未触发| 建议处置:联邦只读PAT(root域)替换或仓域面重配| 锚:state._probe_err已留痕，可交叉验证root域PAT可达性",
+  "usage": {
+    "prompt_tokens": 297,
+    "completion_tokens": 808,
+    "total_tokens": 1105,
+    "completion_tokens_details": {
+      "reasoning_tokens": 687
+    }
+  }
+}

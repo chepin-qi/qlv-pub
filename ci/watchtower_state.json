@@ -21,19 +21,19 @@
       0,
       0,
       0,
+      1,
+      0,
+      1,
       0,
       1,
       0,
       0,
-      1,
       0,
-      0,
-      0,
-      0
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -50,7 +50,34 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 98
+    "beacon_comments": 100
   },
-  "qgl_head": "c33e1fbc63755746282d089c2b27bfda3c05a30e"
+  "qgl_head": "ef6306b87cc2f9afba3cd6633c0d68c2d44a1df9",
+  "_probe_err": {
+    "ci-inbox/commits": {
+      "n": 1,
+      "last": "HTTP Error 404: Not Found"
+    },
+    "chepin-ai/ci-inbox/commits(lgt-1)": {
+      "n": 2,
+      "last": "HTTP Error 404: Not Found"
+    },
+    "chepin-ai/ci-inbox/commits(cisvr-2)": {
+      "n": 1,
+      "last": "HTTP Error 404: Not Found"
+    },
+    "chepin-ai/ci-inbox/commits(qfa-1)": {
+      "n": 1,
+      "last": "HTTP Error 404: Not Found"
+    },
+    "chepin-ai/ci-inbox/commits(vinf-1)": {
+      "n": 1,
+      "last": "HTTP Error 404: Not Found"
+    },
+    "chepin-ai/ci-inbox/commits(ucif2)": {
+      "n": 1,
+      "last": "HTTP Error 404: Not Found"
+    }
+  },
+  "_probe_err_sig": "d0529ec96f"
 }

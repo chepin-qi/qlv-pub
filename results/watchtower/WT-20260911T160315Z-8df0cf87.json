@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T16:02:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debt.probe.hit",
+    "ref": "tower-blind-fedpat-req",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt.probe.hit，tower-blind-fedpat-req源于chepin-qi/qlv-pub提交2d55a8adbcd5(TOWER-FIX-QLV-06)，现候SI2细收。| 性态:探针已命中触发，细收未完备；盲联邦请求债务边界待勘定，处扫描后细收态，未达裁决阈值。| 建议处置:续行SI2细收补全场域信息，完备后按WAKE-PROTO推进裁决落账；裸候，不主动外呼，严守诚实边界与真机钱面。| 锚:chepin-qi/qlv-pub 2d55a8adbcd5",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1151,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "reasoning_tokens": 993
+    }
+  }
+}
