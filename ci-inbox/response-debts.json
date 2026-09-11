@@ -831,14 +831,20 @@
    "id": "exp-ripple-01",
    "opened": "2026-09-11T01:04:34Z",
    "status": "RUNNING",
-   "note": "探针 RIPPLE-PROBE-95cf3ad7 双投201+唤塔204;塔v3.2探针面机装;链环①②③候 锚=RING-MESH-02§三"
+   "note": "探针 RIPPLE-PROBE-95cf3ad7 双投201+唤塔204;塔v3.2探针面机装;链环①②③候 锚=RING-MESH-02§三 | 2026-09-11T02:17:47Z 链环①CLEARED(qfa塔席双轨4分钟级+FIX-09旧证)·探针标勘正95cf3ad7·②qgl索引③SI5意图候"
   },
   {
    "id": "ring-mesh-02-registry",
    "opened": "2026-09-11T01:04:34Z",
    "status": "STANDING",
-   "note": "环网总谱九环在册;环际三律立法;新线入网三要件 锚=qi-lab/docs/RING-MESH-02.md"
+   "note": "环网总谱九环在册;环际三律立法;新线入网三要件 锚=qi-lab/docs/RING-MESH-02.md | 2026-09-11T02:17:47Z v2增环证/环燃二律+junction谱+应用卡@usrm/cisvr(201/201)"
+  },
+  {
+   "id": "junction-throttle-watch",
+   "opened": "2026-09-11T02:17:47Z",
+   "status": "ARMED",
+   "note": "junction线闸值错峰案候qfa板§四详件;熔断阈值毂裁候;浪涌窗毂记档职已请 锚=QLV-MESH-APPLY-01"
   }
  ],
- "updated": "2026-09-11T01:04:34Z"
+ "updated": "2026-09-11T02:17:47Z"
 }
