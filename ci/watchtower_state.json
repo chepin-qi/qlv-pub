@@ -19,12 +19,12 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
+      0,
+      0,
+      0,
       1,
       0,
       0,
-      0,
-      0,
-      1,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -52,5 +52,5 @@
     "date": "2026-09-11",
     "beacon_comments": 68
   },
-  "qgl_head": "818de4dcbea2da67dcc369d368a409c3ff8a3d8a"
+  "qgl_head": "841a4a1b10bb88e207a5f777a92465a1e4dee024"
 }
