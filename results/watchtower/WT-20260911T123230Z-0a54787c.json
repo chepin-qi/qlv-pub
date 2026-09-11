@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T12:31:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，qfa-si5ring-answer-20260910T231548Z.md落入qlv/inbox，巷卡[chepin-ai/vci-inbox]131→132。| 性态:跨线单件到件，未触发内容扫描，裸候状态。| 建议处置:按WAKE-PROTO：扫描→细收→裁决→落账；确认诚实边界，次次落账，不越真机钱面。| 锚:chepin-ai/vci-inbox巷卡132/qfa-si5ring来线。",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1262,
+    "total_tokens": 1494,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1134
+    }
+  }
+}
