@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T05:51:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "exp-ripple-01:qgl",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:exp-ripple-01 环 qgl 面 beat=3 三拍无应，SI5 提级（冻结线除外）| 性态:loop.escalate 裸候冷升级，未越真机钱面，无刷屏越权| 建议处置:依 WAKE-PROTO 落账 SI5，冻结线外继续裸候，不主动求应，待实机回线或下拍裁决| 锚:qgl-osc/VOID-clock",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 842,
+    "total_tokens": 1057,
+    "completion_tokens_details": {
+      "reasoning_tokens": 728
+    }
+  }
+}
