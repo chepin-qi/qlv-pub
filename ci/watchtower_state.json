@@ -18,11 +18,11 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,
@@ -33,9 +33,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 4,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-09-11",
@@ -47,10 +47,10 @@
     "last_fp": "1641c46c2dbc"
   },
   "lane_inbox_count_qlvlab": 3,
-  "loops_open": 18,
+  "loops_open": 20,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 96
+    "beacon_comments": 97
   },
-  "qgl_head": "240d8c1114b7e1631779dec52ad6e74309b948df"
+  "qgl_head": "346b8a5d32d4500bc943602fd7aa77a8828d27a6"
 }
