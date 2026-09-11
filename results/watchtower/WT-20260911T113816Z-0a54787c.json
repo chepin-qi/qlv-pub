@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T11:37:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv/inbox入件，巷卡129→130，件qfa-si5ring-answer-20260910T231548Z.md落入| 性态:lane.drop单件跨线回流，无异常告警，裸候态| 建议处置:执行WAKE-PROTO扫描→细收→裁决→落账；answer件优先核对触发条件，未触发则静默归档，不主动外呼| 锚:chepin-ai/vci-inbox巷卡;qfa-si5ring",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1133,
+    "total_tokens": 1365,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1016
+    }
+  }
+}
