@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:51:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：qlv inbox收妥chepin-ai/vci-inbox来件，巷卡序号128→129，件名qfa-si5ring-answer-20260910T231548Z.md，属answer回函落位。| 性态：单件静默投递，无重投或异常流量，payload未实测，内容待解析。| 建议处置：细收落账，按序裸候，不主动外呼，待调度裁决后触发下游。| 锚：chepin-ai/vci-inbox#129 / lanes/qlv/inbox#qfa-si5ring-answer",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 885,
+    "total_tokens": 1117,
+    "completion_tokens_details": {
+      "reasoning_tokens": 749
+    }
+  }
+}
