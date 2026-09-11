@@ -21,19 +21,19 @@
       0,
       0,
       0,
-      1,
       0,
       0,
       0,
       0,
       1,
       0,
-      1,
-      0
+      0,
+      0,
+      2
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -47,10 +47,10 @@
     "last_fp": "1641c46c2dbc"
   },
   "lane_inbox_count_qlvlab": 3,
-  "loops_open": 18,
+  "loops_open": 20,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 98
+    "beacon_comments": 99
   },
-  "qgl_head": "925c4925bdf98aa7600a9c6048a3c4021a40b82f"
+  "qgl_head": "c33e1fbc63755746282d089c2b27bfda3c05a30e"
 }

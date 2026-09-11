@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T15:30:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "76de8644",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头指针迁移(2c6d005d→76de8644)|性态:正常提交演进，无回滚、强推或冲突标记，属单会话预期内同步|建议处置:落账确认，无需拦截，按常规定期同步至下游镜像|锚:qfa主线提交图谱/beat心跳基线",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 569,
+    "total_tokens": 766,
+    "completion_tokens_details": {
+      "reasoning_tokens": 485
+    }
+  }
+}
