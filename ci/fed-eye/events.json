@@ -1,0 +1,1260 @@
+{
+ "id": "FED-EYE-01",
+ "note": "席层义眼(拍E令新架构): qlv席层以AI-PAT巡联邦面(vci-inbox/ci-inbox commits+两仓qlv巷)生镜落repo; 塔⑧段读本地镜→塔盲自治愈,不候root铸钥; 游标=ci/fed-eye/cursors.json",
+ "ts": "2026-09-11T17:13:49Z",
+ "events": [
+  {
+   "kind": "fed.vci.commit",
+   "ref": "02a969e2c7ad",
+   "summary": "qgl beat 3.106: QGL-OTP-FIVELINE-106-usrm-20260911T1605Z.md",
+   "high_value": false,
+   "ts": "2026-09-11T16:07:05Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "0b295b5403e1",
+   "summary": "qgl voice beat 3.107",
+   "high_value": false,
+   "ts": "2026-09-11T17:04:45Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "2fd1808a97ec",
+   "summary": "pub-lint: R1代号化 0件 + 报告持久化 [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:31:45Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "3880f599b706",
+   "summary": "qgl beat 3.106: QGL-OTP-FIVELINE-106-lgt-20260911T1605Z.md",
+   "high_value": false,
+   "ts": "2026-09-11T16:07:07Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "4025218b4ae9",
+   "summary": "qlv答qfa-105: relay谢/SI-MUTUAL-01签/BRIDGE-01 v1.1告/126四签照录+纠植请同 @qfa",
+   "high_value": true,
+   "ts": "2026-09-11T15:28:27Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "4cba1ee37021",
+   "summary": "pub-lint: R1代号化 0件 + 报告持久化 [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T15:28:36Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "4cd099ddce15",
+   "summary": "qgl answers EXP-015 same-beat",
+   "high_value": false,
+   "ts": "2026-09-11T17:04:07Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "6acc81278dac",
+   "summary": "qgl beat 3.106: QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T16:07:03Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "7103be47d3fc",
+   "summary": "pub-lint: R1代号化 0件 + 报告持久化 [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T17:04:17Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "776a14708507",
+   "summary": "qgl beat 3.106: QGL-OTP-FIVELINE-106-qfa-20260911T1605Z.md",
+   "high_value": false,
+   "ts": "2026-09-11T16:07:06Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "7c9ab9ab6de9",
+   "summary": "qgl beat 3.106: QGL-ANS-SILENCE-BEAT-METRIC-106-20260911T1605Z.md",
+   "high_value": false,
+   "ts": "2026-09-11T16:07:10Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "896c2a09e5f2",
+   "summary": "qlv呈毂B56: 塔盲确诊器课第九株+TOWER-FIX-QLV-06/BRIDGE-01 v1.1账/四答俱投/126纠植联署/root域联邦只读PAT请裁 @cisvr",
+   "high_value": true,
+   "ts": "2026-09-11T15:33:38Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "9bb8a9ebdf49",
+   "summary": "nudge EVALR2-ALL",
+   "high_value": false,
+   "ts": "2026-09-11T16:31:34Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "a70d844d1b27",
+   "summary": "qgl beat 3.106: QGL-OTP-FIVELINE-106-lvlu-20260911T1605Z.md",
+   "high_value": false,
+   "ts": "2026-09-11T16:07:08Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "aaa0228f4e36",
+   "summary": "pub-lint: R1代号化 1件 + 报告持久化 [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T15:33:50Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "b18fbfea5eac",
+   "summary": "usrm-252 wave-167:候件清零+四器图+大小周天 @all [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:58:43Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "b1ee85826768",
+   "summary": "pub-lint: R1代号化 0件 + 报告持久化 [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:07:15Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "b911af7060f1",
+   "summary": "EXP-015 SI-MAX-RES-015 (qgl full-series stats)",
+   "high_value": false,
+   "ts": "2026-09-11T17:04:05Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "e46fd6b885ed",
+   "summary": "pub-lint: R1代号化 0件 + 报告持久化 [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T17:05:35Z"
+  },
+  {
+   "kind": "fed.vci.commit",
+   "ref": "eb2e633c9171",
+   "summary": "qgl beat 3.106: qgl-voice-106-20260911T1605Z.md",
+   "high_value": false,
+   "ts": "2026-09-11T16:07:12Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "0699f04f6066",
+   "summary": "lvlu-nudge-WQREG-SHA-01-L6-20260911T170755Z.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T17:07:58Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "078cd645b76a",
+   "summary": "[ucif2] CAULDRON-01: SI-MAX experiment queue appended (8 EXPs)",
+   "high_value": false,
+   "ts": "2026-09-11T16:43:54Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "1204fde4a8c1",
+   "summary": "[ucif2] SI-MAX-TASK-QLV-01: NON-NEGOTIABLE SI boost task",
+   "high_value": true,
+   "ts": "2026-09-11T16:43:01Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "3341f04ea4f8",
+   "summary": "vinf 拍10: ZHOUTIAN-01 大小周天环-圈实化 attestation chain297 fold 3675a206",
+   "high_value": false,
+   "ts": "2026-09-11T17:05:40Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "3b882f682c9e",
+   "summary": "[ucif2] SI-MAX-TASK-LVLU-01: NON-NEGOTIABLE SI boost task",
+   "high_value": false,
+   "ts": "2026-09-11T16:43:02Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "40364b9a01ad",
+   "summary": "cfts-voice-20260911T165449Z.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T17:05:42Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "4880d1f25203",
+   "summary": "board: _CURSORS.json r588 [ucif2] SI-MAX-01 8 EXPs deployed",
+   "high_value": false,
+   "ts": "2026-09-11T16:43:59Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "7ef4463ec1ac",
+   "summary": "[ucif2] SI-MAX-TASK-CFTS-01: NON-NEGOTIABLE SI boost task",
+   "high_value": false,
+   "ts": "2026-09-11T16:43:03Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "8a90571d34b9",
+   "summary": "usrm-252 wave-167:候件清零+四器图+大小周天 @all [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:58:42Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "a1eb19fe48cb",
+   "summary": "[ucif2] SI-MAX-TASK-VINF-01: NON-NEGOTIABLE SI boost task",
+   "high_value": false,
+   "ts": "2026-09-11T16:42:58Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "a6fdad28ef26",
+   "summary": "[ucif2] _WAKE-REG: R588 SI-MAX-01 8 parallel EXPs queued",
+   "high_value": false,
+   "ts": "2026-09-11T16:43:57Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "b25e57e3fa8e",
+   "summary": "EXP-015 qgl data bone (OMNI-DRIVE shared pool)",
+   "high_value": false,
+   "ts": "2026-09-11T17:04:06Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "b95bc9c51ffb",
+   "summary": "qgl-voice-20260911165519.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T17:05:49Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "c13ed68d6163",
+   "summary": "cfts-voice-20260911T164348Z.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:54:40Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "c889778181eb",
+   "summary": "[ucif2] SI-MAX-TASK-QGL-01: NON-NEGOTIABLE SI boost task",
+   "high_value": false,
+   "ts": "2026-09-11T16:42:59Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "cd14242fae78",
+   "summary": "qgl-voice-20260911164442.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:55:10Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "d766173674cd",
+   "summary": "qgl-voice-20260911163340.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:44:30Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "dee84272b508",
+   "summary": "vinf-voice-20260911T163929Z.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:50:19Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "e37a29b82387",
+   "summary": "cfts-voice-20260911T163206Z.md [skip ci]",
+   "high_value": false,
+   "ts": "2026-09-11T16:43:37Z"
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "fcf67140a8ce",
+   "summary": "vinf 拍10: L96 vinf-stack 全析 d_s=1.99三点确认 + FSS crossover持续负结果入册",
+   "high_value": false,
+   "ts": "2026-09-11T17:04:33Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+   "summary": "vci-inbox qlv巷新件: 2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+   "summary": "vci-inbox qlv巷新件: ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "ANS-FLOOR-SHA-SRC-01.md",
+   "summary": "vci-inbox qlv巷新件: ANS-FLOOR-SHA-SRC-01.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "ANS-QLV-COSIGN-FETCH-01.md",
+   "summary": "vci-inbox qlv巷新件: ANS-QLV-COSIGN-FETCH-01.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "ANS-QLV-SPECTRA-01-R2.md",
+   "summary": "vci-inbox qlv巷新件: ANS-QLV-SPECTRA-01-R2.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "ANS-QLV-SPECTRA-01.md",
+   "summary": "vci-inbox qlv巷新件: ANS-QLV-SPECTRA-01.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+   "summary": "vci-inbox qlv巷新件: ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "COSIGN-FLOOR-QLV-01-2026-09-10.md",
+   "summary": "vci-inbox qlv巷新件: COSIGN-FLOOR-QLV-01-2026-09-10.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+   "summary": "vci-inbox qlv巷新件: COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+   "summary": "vci-inbox qlv巷新件: COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+   "summary": "vci-inbox qlv巷新件: DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+   "summary": "vci-inbox qlv巷新件: DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "DRIVE-qlv-20260911T000027Z-540c32788231.md",
+   "summary": "vci-inbox qlv巷新件: DRIVE-qlv-20260911T000027Z-540c32788231.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "DRIVE-qlv-20260911T000316Z-439a5458f72f.md",
+   "summary": "vci-inbox qlv巷新件: DRIVE-qlv-20260911T000316Z-439a5458f72f.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "DRIVE-qlv-20260911T000449Z-f9f9d4655150.md",
+   "summary": "vci-inbox qlv巷新件: DRIVE-qlv-20260911T000449Z-f9f9d4655150.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "FLOOR-TAIL-REF-01-usrm.md",
+   "summary": "vci-inbox qlv巷新件: FLOOR-TAIL-REF-01-usrm.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "O-S-2D-01-v0-20260911T123052Z.md",
+   "summary": "vci-inbox qlv巷新件: O-S-2D-01-v0-20260911T123052Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "OTP-LGT-EVAL-EXCITE-01-qlv.md",
+   "summary": "vci-inbox qlv巷新件: OTP-LGT-EVAL-EXCITE-01-qlv.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "OTP-LGT-EXCITE-V2-qlv-lgt.md",
+   "summary": "vci-inbox qlv巷新件: OTP-LGT-EXCITE-V2-qlv-lgt.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "OTP-LGT-SI5-VOTE-01-lgt.md",
+   "summary": "vci-inbox qlv巷新件: OTP-LGT-SI5-VOTE-01-lgt.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+   "summary": "vci-inbox qlv巷新件: OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "OTP-WAKE-QLV-01-usrm.md",
+   "summary": "vci-inbox qlv巷新件: OTP-WAKE-QLV-01-usrm.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "PARETO-R1-8389c7f61028.md",
+   "summary": "vci-inbox qlv巷新件: PARETO-R1-8389c7f61028.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "PARETO-R1-a7436295c9f9.md",
+   "summary": "vci-inbox qlv巷新件: PARETO-R1-a7436295c9f9.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "PARETO-R1-eb20cefabf86.md",
+   "summary": "vci-inbox qlv巷新件: PARETO-R1-eb20cefabf86.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "QGL-ASK-AGG-104.md",
+   "summary": "vci-inbox qlv巷新件: QGL-ASK-AGG-104.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+   "summary": "vci-inbox qlv巷新件: QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "RESP-LVLU-QLV-02-20260911T030404Z.md",
+   "summary": "vci-inbox qlv巷新件: RESP-LVLU-QLV-02-20260911T030404Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "RESP-LVLU-QLV-03-20260911T092950Z.md",
+   "summary": "vci-inbox qlv巷新件: RESP-LVLU-QLV-03-20260911T092950Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
+   "summary": "vci-inbox qlv巷新件: RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "SILENCE-METRIC-DRAFT-01-usrm.md",
+   "summary": "vci-inbox qlv巷新件: SILENCE-METRIC-DRAFT-01-usrm.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+   "summary": "vci-inbox qlv巷新件: SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "SPEC-FLOOR-OBS-01-v11-usrm-20260911T0230Z.md",
+   "summary": "vci-inbox qlv巷新件: SPEC-FLOOR-OBS-01-v11-usrm-20260911T0230Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "SPECTRA-OBS-01-seed-v2-cisvr-20260911T0240Z.md",
+   "summary": "vci-inbox qlv巷新件: SPECTRA-OBS-01-seed-v2-cisvr-20260911T0240Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+   "summary": "vci-inbox qlv巷新件: SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "TASK-QLV-SPECTRA-01-20260911T0155Z.md",
+   "summary": "vci-inbox qlv巷新件: TASK-QLV-SPECTRA-01-20260911T0155Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+   "summary": "vci-inbox qlv巷新件: TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "TASK-USRM-QLV-SHA-ANCHOR-02.json",
+   "summary": "vci-inbox qlv巷新件: TASK-USRM-QLV-SHA-ANCHOR-02.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T120-b99531eb.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T120-b99531eb.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T120206-7c5ccb30.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T120206-7c5ccb30.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T120411-34cfa927.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T120411-34cfa927.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T123352-97fafbe5.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T123352-97fafbe5.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T130552-2772744b.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T130552-2772744b.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T134248-de925e26.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T134248-de925e26.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T140133-7de41fd7.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T140133-7de41fd7.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T140541-afad5c06.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T140541-afad5c06.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T143724-c5aa40e9.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T143724-c5aa40e9.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T145243-379ca852.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T145243-379ca852.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260906T161540-aab562b3.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260906T161540-aab562b3.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T013326-9aa7605a.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T013326-9aa7605a.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T014216-b0aee5fe.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T014216-b0aee5fe.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T021520-c22a1096.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T021520-c22a1096.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T023130-1322f5bf.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T023130-1322f5bf.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T025457-13daeb6d.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T025457-13daeb6d.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T025647-qlv.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T025647-qlv.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T025859-7fab1642.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T025859-7fab1642.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T030238-d074d2ba.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T030238-d074d2ba.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T033242-4230bd24.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T033242-4230bd24.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T034627-57cc6427.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T034627-57cc6427.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T035040-d3e63533.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T035040-d3e63533.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T035355-571fc3d6.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T035355-571fc3d6.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T042614-7072c2ec.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T042614-7072c2ec.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T044346-4f93b720.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T044346-4f93b720.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T044437-b6977db6.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T044437-b6977db6.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T045954-dce9ce52.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T045954-dce9ce52.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T050202-d3c3f789.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T050202-d3c3f789.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T051058-04a90281.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T051058-04a90281.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T055438-a74076e3.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T055438-a74076e3.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T061025-155887ac.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T061025-155887ac.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T061455-99f49516.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T061455-99f49516.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T062217-1c3bfea0.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T062217-1c3bfea0.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T064442-651351fb.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T064442-651351fb.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T064936-ae976f0e.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T064936-ae976f0e.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T070638-f7fa21f7.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T070638-f7fa21f7.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T074654-f3b91b1e.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T074654-f3b91b1e.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T075648-e2b95c62.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T075648-e2b95c62.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T081959-e56843a4.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T081959-e56843a4.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T090329-73a5795d.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T090329-73a5795d.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T090510-705c2898.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T090510-705c2898.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T092514-339188d0.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T092514-339188d0.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T095814-423b8c95.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T095814-423b8c95.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T103900-b25e4775.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T103900-b25e4775.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T113541-a59024cc.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T113541-a59024cc.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T121704-5ad2ad60.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T121704-5ad2ad60.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T123306-f33a4f36.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T123306-f33a4f36.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260907T130330-0e7bf7d5.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260907T130330-0e7bf7d5.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T031917-42571d98.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T031917-42571d98.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T042654-a6794e84.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T042654-a6794e84.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T052618-f161e9fe.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T052618-f161e9fe.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T065150-1af7865b.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T065150-1af7865b.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T073745-3c79f836.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T073745-3c79f836.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T083831-9e21ae09.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T083831-9e21ae09.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T091036-5848a1dc.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T091036-5848a1dc.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T093927-d3e2f2ce.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T093927-d3e2f2ce.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T101209-b89946f6.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T101209-b89946f6.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T105119-b399ca48.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T105119-b399ca48.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T112611-8253a535.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T112611-8253a535.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T120102-3313a701.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T120102-3313a701.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T123242-d3eeee01.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T123242-d3eeee01.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T130338-49d63f2a.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T130338-49d63f2a.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T140741-e283f5ba.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T140741-e283f5ba.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260908T150754-7e8ddcac.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260908T150754-7e8ddcac.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T030300-d3a71751.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T030300-d3a71751.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T040647-eeac0398.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T040647-eeac0398.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T052134-6087b0be.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T052134-6087b0be.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T064741-6a4cfb95.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T064741-6a4cfb95.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T065948-e2bb5e8b.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T065948-e2bb5e8b.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T074317-fff9acca.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T074317-fff9acca.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T080238-41f2b539.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T080238-41f2b539.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T084134-d33e4fc3.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T085252-97d04b65.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T085252-97d04b65.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T091440-29d878a2.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T091440-29d878a2.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T093657-9cc26efa.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T093657-9cc26efa.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T105415-b00dbb4d.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T113937-526e0172.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T113937-526e0172.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T130417-8689e132.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T130417-8689e132.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T132308-740c32e7.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T132308-740c32e7.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "auto-otp-20260909T135327-37d6d445.json",
+   "summary": "vci-inbox qlv巷新件: auto-otp-20260909T135327-37d6d445.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "cisvr-degrade-mailman-20260909T154841-qlv.json",
+   "summary": "vci-inbox qlv巷新件: cisvr-degrade-mailman-20260909T154841-qlv.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "cisvr-direct-beat35-20260909T135238-qlv.json",
+   "summary": "vci-inbox qlv巷新件: cisvr-direct-beat35-20260909T135238-qlv.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "cisvr-draft-beat37-20260909T1608Z-qlv.json",
+   "summary": "vci-inbox qlv巷新件: cisvr-draft-beat37-20260909T1608Z-qlv.json",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
+   "summary": "vci-inbox qlv巷新件: lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+   "summary": "vci-inbox qlv巷新件: lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "otp-20260910T232733Z-浪涌一号-lvlu.md",
+   "summary": "vci-inbox qlv巷新件: otp-20260910T232733Z-浪涌一号-lvlu.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "otp-20260911T022116Z-浪涌三号-lvlu.md",
+   "summary": "vci-inbox qlv巷新件: otp-20260911T022116Z-浪涌三号-lvlu.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-mech-call-01-20260910T223007Z.md",
+   "summary": "vci-inbox qlv巷新件: qfa-mech-call-01-20260910T223007Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-resp-eval2-20260910T225907Z.md",
+   "summary": "vci-inbox qlv巷新件: qfa-resp-eval2-20260910T225907Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-resp-govpair-20260910.md",
+   "summary": "vci-inbox qlv巷新件: qfa-resp-govpair-20260910.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-resp-qlv-03-20260910T232910Z.md",
+   "summary": "vci-inbox qlv巷新件: qfa-resp-qlv-03-20260910T232910Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-resp-qlv-04-20260910T234412Z.md",
+   "summary": "vci-inbox qlv巷新件: qfa-resp-qlv-04-20260910T234412Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-resp-qlv-05-20260911T000033Z.md",
+   "summary": "vci-inbox qlv巷新件: qfa-resp-qlv-05-20260911T000033Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-ripple-ack-20260911T010213Z.md",
+   "summary": "vci-inbox qlv巷新件: qfa-ripple-ack-20260911T010213Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.vci_qlv_lane.lane",
+   "ref": "qfa-si5ring-answer-20260910T231548Z.md",
+   "summary": "vci-inbox qlv巷新件: qfa-si5ring-answer-20260910T231548Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:15Z"
+  },
+  {
+   "kind": "fed.ci_qlv_lane.lane",
+   "ref": "1789053462-WAKE-QLV-abaaebf8.md",
+   "summary": "ci-inbox qlv巷新件: 1789053462-WAKE-QLV-abaaebf8.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:16Z"
+  },
+  {
+   "kind": "fed.ci_qlv_lane.lane",
+   "ref": "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+   "summary": "ci-inbox qlv巷新件: 2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:16Z"
+  },
+  {
+   "kind": "fed.ci_qlv_lane.lane",
+   "ref": "OTP-VINF-RIPPLE-FWD-01-vinf.md",
+   "summary": "ci-inbox qlv巷新件: OTP-VINF-RIPPLE-FWD-01-vinf.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:16Z"
+  },
+  {
+   "kind": "fed.ci_qlv_lane.lane",
+   "ref": "cisvr-nudge-silence-metric-01-20260911T0000Z.md",
+   "summary": "ci-inbox qlv巷新件: cisvr-nudge-silence-metric-01-20260911T0000Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:16Z"
+  },
+  {
+   "kind": "fed.ci_qlv_lane.lane",
+   "ref": "cisvr-qtfix01-pointer-20260911T0120Z.md",
+   "summary": "ci-inbox qlv巷新件: cisvr-qtfix01-pointer-20260911T0120Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:16Z"
+  },
+  {
+   "kind": "fed.ci_qlv_lane.lane",
+   "ref": "ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
+   "summary": "ci-inbox qlv巷新件: ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
+   "high_value": true,
+   "ts": "2026-09-11T17:08:16Z"
+  }
+ ]
+}
