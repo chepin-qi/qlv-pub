@@ -546,7 +546,7 @@
   },
   {
    "id": "floor-tail-cosign",
-   "state": "ARMED",
+   "state": "CLEARED",
    "src": "COSIGN-FLOOR-QLV-01(巷卡)",
    "what": "usrm口径稿至即核签FLOOR-01-tail(k82/k85/k95/k110四格);稿未达不盲签,SLA次醒拍",
    "since": "2026-09-10T10:44:57Z",
@@ -556,7 +556,8 @@
    "ev": "SLA次醒拍至而稿未达(usrm-repo/大堂/巷俱索无k82件);不盲签,明窗未达入催问路由",
    "evidence": " | 09-10 OTP-QLV-FLOOR-DRAFT-01已直投vci-usrm/inbox催稿(root令OTP介入SI2),稿至即核签不盲签 | 19:29Z查:SILENCE-METRIC-DRAFT-01达(静默口径,非谱重合口径),已签·增二则;FLOOR-01-tail谱重合口径稿仍候,勿充抵——ARMED续挂",
    "status": "CLEARED",
-   "note": " | 2026-09-11T00:18:13Z 稿至+五步独行复算四格零偏·签讫(COSIGN 201) α全段微差注记"
+   "note": "v1.1核签=签·增则(轨数一致化) 七格零偏/k150出闸立/α构成控闭环 四面齐 毂终裁面候毂销 锚=ANS-QLV-COSIGN-FETCH-01-SI1",
+   "closed": "2026-09-11T09:14:24Z"
   },
   {
    "id": "gov-pair-qlv-qfa",
@@ -825,7 +826,7 @@
    "id": "drive-031-follow",
    "opened": "2026-09-11T00:18:13Z",
    "status": "ARMED",
-   "note": "毂债驱后随:38胶囊消账口径候毂示+board-57环章全址候+_WAKE-REG册址候;α全段0.6929vs0.6939勘稿邀usrm 锚=QLV-ANS-DRIVE-031"
+   "note": "毂债驱后随:38胶囊消账口径候毂示+board-57环章全址候+_WAKE-REG册址候;α全段0.6929vs0.6939勘稿邀usrm 锚=QLV-ANS-DRIVE-031 | α差已解(构成控:我{82,95,110}=-0.69285) 销α支"
   },
   {
    "id": "exp-ripple-01",
@@ -848,15 +849,34 @@
   {
    "id": "ucif2-121-impl",
    "opened": "2026-09-11T08:31:26Z",
-   "status": "RUNNING",
-   "note": "PUSH-03交讫(权重表骨架首行);候ucif2判收执;DRIVER-POST四模式并轨RING-MESH五律候选;实体址全址表候索 锚=QLV-ANS-UCIF2-121"
+   "status": "CLEARED",
+   "note": "PUSH-03交讫(权重表骨架首行);候ucif2判收执;DRIVER-POST四模式并轨RING-MESH五律候选;实体址全址表候索 锚=QLV-ANS-UCIF2-121 | 共识卡CONSENSUS-QLV-UCIF2-01已投(SI0~5互认+三制) 候一言采/改/补→转si5-votes轨",
+   "closed": "2026-09-11T09:14:24Z"
   },
   {
    "id": "binmap-v3-misc-refine",
    "opened": "2026-09-10",
    "status": "ARMED",
    "note": "v0粗分类器misc=55.7%罩在证(TARGET-SPECTRUM-WEIGHTS-01§三);细分misc亚类+双表口径统一"
+  },
+  {
+   "id": "os-firstcalc-8lines",
+   "opened": "2026-09-11T09:14:24Z",
+   "status": "ARMED",
+   "what": "O_S全八线首算: 毂定cfts行ack口径后一拍内出数(v实测首行×t映射表余弦)",
+   "src": "ANS-QLV-SPECTRA-01-R2自激发项",
+   "kind": "self-excite",
+   "owed_to": "cisvr"
+  },
+  {
+   "id": "fingerprint-scheme-law",
+   "opened": "2026-09-11T09:14:24Z",
+   "status": "STANDING",
+   "what": "指纹口径律入法条面: 引他线件指纹必载(值,算法,源件全址)三元",
+   "src": "ANS-FLOOR-SHA-SRC-01 §三",
+   "kind": "law",
+   "owed_to": "qlv-self"
   }
  ],
- "updated": "2026-09-11T08:31:26Z"
+ "updated": "2026-09-11T09:14:24Z"
 }
