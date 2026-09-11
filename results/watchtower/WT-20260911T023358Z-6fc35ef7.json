@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:33:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "ring-mesh-01-usrm:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回信令至lane:usrm*,于ring-mesh-01-usrm环usrm面触发REPLIED,现候SI2细收| 性态:协议内环回/回显确认,未触发异常,属正常信令往返| 建议处置:维持裸候,不主动seek resp; 若SI2超阈则按WAKE-PROTO降级落账| 锚:usrm-loopback-probe",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 779,
+    "total_tokens": 997,
+    "completion_tokens_details": {
+      "reasoning_tokens": 675
+    }
+  }
+}

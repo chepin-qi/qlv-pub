@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:33:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "si5-ring-01:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件loop.reply自lane:usrm*抵si5-ring-01,usrm面已REPLIED,现候SI2细收| 性态:正常环回应答中间态,无冲突,属扫描后待细收| 建议处置:维持裸候,不刷屏不追加,待SI2细收触发后按次次落账执行| 锚:SI2-recv-queue",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 956,
+    "total_tokens": 1168,
+    "completion_tokens_details": {
+      "reasoning_tokens": 859
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:30:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "1e0febe0",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 6da46469→1e0febe0| 性态:Git 引用常规漂移，Beat 正常到件，未见冲突或异常旗标| 建议处置:复核两提交间 diff，无异常即落账；保持裸候，不主动求应| 锚:repo-qfa#main@1e0febe0",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 504,
+    "total_tokens": 703,
+    "completion_tokens_details": {
+      "reasoning_tokens": 414
+    }
+  }
+}

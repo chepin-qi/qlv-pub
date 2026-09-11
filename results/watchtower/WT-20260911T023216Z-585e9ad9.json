@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:31:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "eval-excite-circle-01:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件eval-excite-circle-01:lvlu回注lane:lvlu*，lvlu面已REPLIED，当前候SI2细收| 性态:正常环回流，状态未决，属待收待决态，无异常| 建议处置:维持裸候，不主动寻求回应；待SI2细收完成后按落账规则处置，未触发不干预| 锚:eval-excite-circle-01",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 668,
+    "total_tokens": 882,
+    "completion_tokens_details": {
+      "reasoning_tokens": 563
+    }
+  }
+}

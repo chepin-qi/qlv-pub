@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:33:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "share-01-all-lines:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件至lane:lvlu*，于share-01-all-lines环lvlu面已REPLIED，现候SI2细收| 性态:loop.reply回波确认，属协议内正常周转；当前已应答未落账，无异常触发亦无阻塞| 建议处置:裸候不扰，不主动求应；依WAKE-PROTO待SI2细收后裁决落账，严守次次落账| 锚:share-01-all-lines; SI2细收",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 887,
+    "total_tokens": 1099,
+    "completion_tokens_details": {
+      "reasoning_tokens": 769
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:30:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线inbox落件，源巷卡chepin-ai/vci-inbox序位112→114，件qfa-si5ring-answer-20260910T231548Z.md|性态:常规到件，无异常触发，未触发响应需求|建议处置:执行细收→裁决→落账，裸候落账，不刷屏求应|锚:lanes/chepin-ai/vci-inbox#112-114;lanes/qlv/drop-journal",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 969,
+    "total_tokens": 1201,
+    "completion_tokens_details": {
+      "reasoning_tokens": 855
+    }
+  }
+}

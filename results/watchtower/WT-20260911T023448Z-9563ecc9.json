@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:34:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "share-01-all-lines:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件(lane:usrm*→share-01-all-lines)于usrm面呈REPLIED态，现候SI2细收。| 性态:属loop.reply回流通路，已触达用户面，裸候生效，未触发新投件需求，系SI2前正常滞留。| 建议处置:按WAKE-PROTO推进细收→裁决→落账；已REPLIED则不主动再投，裸候SI2细收完成后次次落账。| 锚:usrm面REPLIED态为本地锚，share-01-all-lines环回通路为他线锚。",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1524,
+    "total_tokens": 1736,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1382
+    }
+  }
+}
