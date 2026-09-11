@@ -321,8 +321,22 @@ def poll(pat, st):
             st['_probe_err_sig'] = sig
             faces = ','.join(sorted(_PROBE_ERR.keys()))
             ev.append({'kind':'probe.blind','ref':sig,
-                       'summary':'塔盲面留痕[%s]: 探针失败面=chepin-ai仓域(QI_PAT 404已确诊20260911)——修=联邦只读PAT(root域)或面重配; 痕见state._probe_err' % faces,
+                       'summary':'塔盲面留痕[%s]: 探针失败面=chepin-ai仓域(QI_PAT 404已确诊20260911)——根治=FED-EYE席层义眼(⑧段),不候root铸钥; 痕见state._probe_err' % faces,
                        'high_value':True})
+    # ⑧ FED-EYE 义眼面(拍E令新架构: 席层巡联邦生镜落repo, 塔读本地镜——塔盲自治愈, 零外部调用)
+    try:
+        fp = os.path.join(ROOT, 'ci', 'fed-eye', 'events.json')
+        if os.path.exists(fp):
+            fe = json.load(open(fp))
+            seen = st.setdefault('fedeye_seen', [])
+            for e in fe.get('events', []):
+                if e.get('ref') and e['ref'] not in seen:
+                    seen.append(e['ref'])
+                    ev.append({'kind': 'fedeye.' + str(e.get('kind', 'evt')), 'ref': str(e.get('ref')),
+                               'summary': '[义眼]' + str(e.get('summary', ''))[:150], 'high_value': bool(e.get('high_value', False))})
+            st['fedeye_seen'] = seen[-200:]
+    except Exception as e:
+        ev.append({'kind': 'fedeye.err', 'ref': 'ci/fed-eye/events.json', 'summary': str(e)[:120], 'high_value': False})
     return ev
 
 # ---------- API 新会话开工 ----------
