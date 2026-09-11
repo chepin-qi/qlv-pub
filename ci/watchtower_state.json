@@ -23,11 +23,11 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
@@ -47,10 +47,10 @@
     "last_fp": "1641c46c2dbc"
   },
   "lane_inbox_count_qlvlab": 3,
-  "loops_open": 18,
+  "loops_open": 20,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 96
+    "beacon_comments": 97
   },
-  "qgl_head": "bce301c2757659a5e0d194e3c49c09e23cac16f6"
+  "qgl_head": "717dccdc5c9151b7a55392814d0f7ac4c7ac5807"
 }

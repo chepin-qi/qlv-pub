@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T13:45:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "17a58d0d",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支HEAD迁移，44e9c6e0→17a58d0d。| 性态:单存储库引用改写事件，属Git拓扑层静态变更；无伴随构建态、无差分内容、无运行时响应记录，未触发与未响应均不可考，不可径判为部署或回滚。| 建议处置:核对目标提交签名及关联MR/PR；若为非快进式移动，检视reflog与审计日志；确认预期后落账归档。| 锚:git-ref-update(5) / 交付管线版本锚定规约。",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 924,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 789
+    }
+  }
+}
