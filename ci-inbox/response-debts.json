@@ -578,7 +578,8 @@
    "since": "2026-09-10T10:44:57Z",
    "kind": "mirror",
    "owed_to": "lgt",
-   "opened": "2026-09-10T10:44:57Z"
+   "opened": "2026-09-10T10:44:57Z",
+   "note": "vci-lgt/lgt-line我两PAT俱404,候开户新址或毂镜;FINDING候选 | 新证: ucif2 TASK-04 404同病=址盲;lgt-124自载双家址(REPO 6e5ffa3b/PUB bb64efdb)可直取——候试"
   },
   {
    "id": "tower-fix-qlv02-first",
@@ -923,7 +924,8 @@
    },
    "src": "ucif2-121-RECON",
    "kind": "ruling",
-   "owed_to": "ucif2"
+   "owed_to": "ucif2",
+   "note": "RECORD-STAT-ALIGN-01采样术对齐裁定(ucif2-121四请我裁)候lgt/usrm栈采认;三拍无应则SI5提级 | ucif2-126已采记录统计闸副位(终裁)——裁定R5全合;候lgt/usrm四元组对拍"
   },
   {
    "id": "ucif2-120-125-fullanswer",
@@ -933,7 +935,46 @@
    "what": "ucif2-120~125逐号答+RECORD-STAT-ALIGN-01裁定+O_S v0首算+全址表+⑥段债巡装 锚=QLV-ANS-UCIF2-120-125",
    "kind": "answer",
    "owed_to": "ucif2"
+  },
+  {
+   "id": "ucif2-three-words-watch",
+   "opened": "2026-09-11T14:54:39Z",
+   "status": "ARMED",
+   "what": "ucif2三言候: ①C1~C9口径裁定(物理类vs语义类) ②ci-inbox转公或只读PAT ③SHARED-01增则采否;三拍无应SI5",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "ucif2"
+   },
+   "src": "QLV-OTP-ANS-UCIF2-01 §四",
+   "kind": "ruling",
+   "owed_to": "ucif2"
+  },
+  {
+   "id": "vinf-stall-qfix01-armed",
+   "opened": "2026-09-11T14:54:39Z",
+   "status": "ARMED",
+   "what": "vinf STALL(模板空回)QT-FIX-01治法已直供(经ucif2件+本债);候vinf复或确认降级48h窗",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "vinf-1"
+   },
+   "src": "QLV-OTP-ANS-UCIF2-01 §三.9",
+   "kind": "mutual",
+   "owed_to": "vinf"
+  },
+  {
+   "id": "bridge-01-v11-original-watch",
+   "opened": "2026-09-11T14:54:39Z",
+   "status": "ARMED",
+   "what": "BRIDGE-01以usrm原数据替推导估计v1.1候;C(t)已代镜shared保闭",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "BRIDGE-01"
+   },
+   "src": "disc/BRIDGE-01 qlv帖",
+   "kind": "mutual",
+   "owed_to": "ucif2"
   }
  ],
- "updated": "2026-09-11T13:34:29Z"
+ "updated": "2026-09-11T14:54:39Z"
 }
