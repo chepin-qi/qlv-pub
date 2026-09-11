@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T13:34:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "17a58d0d",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线头迁移44e9c6e0→17a58d0d|性态:常规节拍，HEAD单向前进，无冲突无告警，属正常推进|建议处置:次次落账，裸候下一拍，不主动回拉|锚:ref=17a58d0d锚定部署镜像tag作他线验证",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 979,
+    "total_tokens": 1181,
+    "completion_tokens_details": {
+      "reasoning_tokens": 893
+    }
+  }
+}
