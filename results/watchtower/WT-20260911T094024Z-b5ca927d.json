@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:39:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "846067e4",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移，84ac057b→846067e4，节拍常规推进| 性态:单线递增，未见冲突或回滚标记，链路稳态| 建议处置:落账完成，保持裸候，不主动寻应| 锚:可横向抽验仓储object库或CI构建签名，以他线哈希锚定846067e4实体存在",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 1313,
+    "total_tokens": 1508,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1221
+    }
+  }
+}
