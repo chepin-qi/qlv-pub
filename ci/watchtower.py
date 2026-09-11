@@ -157,6 +157,65 @@ def loops_check(pat, st):
 def now_ts():
     return time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
 
+
+# ---------- ⑥ DEBTS-WATCH 债巡(root令20260911:裸候违规律——候件不主动取得即违规,一切ARMED债必配机巡面) ----------
+def debts_watch(pat, st):
+    """(a)ucif2-watch面: 扫ci-inbox新commit凡 ucif2-N 件,新至即旗(机层主动回应ucif2-120~125及之后);
+    (b)ARMED债 file-exists 探针: 债件载 watch:{repo,path_contains} 者,直探commit址在=hit(治commit窗口哑型)。
+    探针拍帽≤8(机时节)。返 events。"""
+    import re as _re
+    ev = []
+    try:
+        cs = gh_get('/repos/chepin-ai/ci-inbox/commits?per_page=15', pat)
+        seen = st.setdefault('ucif2_seen', [])
+        for c in (cs if isinstance(cs, list) else []):
+            sha = c.get('sha', ''); msg = c.get('commit', {}).get('message', '')
+            if sha in seen:
+                continue
+            if _re.search(r'ucif2[-_][0-9]{3}', msg, _re.I):
+                seen.append(sha)
+                ev.append({'kind': 'ucif2.watch', 'ref': sha[:12],
+                           'summary': 'ucif2帖侦:' + msg[:110], 'high_value': True})
+        st['ucif2_seen'] = seen[-60:]
+    except Exception as e:
+        ev.append({'kind': 'ucif2.watch.err', 'ref': 'ci-inbox/commits', 'summary': str(e)[:120], 'high_value': False})
+    dp = os.path.join(ROOT, 'ci-inbox', 'response-debts.json')
+    if not os.path.exists(dp):
+        return ev
+    try:
+        reg = json.load(open(dp))
+    except Exception:
+        return ev
+    budget = 8
+    changed = False
+    for it in reg.get('debts', []):
+        if budget <= 0:
+            break
+        if it.get('status') != 'ARMED' and it.get('state') != 'ARMED':
+            continue
+        w = it.get('watch')
+        if not isinstance(w, dict):
+            continue
+        repo, sub = w.get('repo', ''), w.get('path_contains', '')
+        if not repo or not sub:
+            continue
+        budget -= 1
+        try:
+            cs = gh_get('/repos/' + repo + '/commits?per_page=5', pat)
+            hit = None
+            for c in (cs if isinstance(cs, list) else []):
+                if sub in c.get('commit', {}).get('message', ''):
+                    hit = c['sha'][:12]; break
+            if hit and it.get('_watch_hit') != hit:
+                it['_watch_hit'] = hit; changed = True
+                ev.append({'kind': 'debt.probe.hit', 'ref': it.get('id', '?'),
+                           'summary': '债探命中:' + str(it.get('id')) + ' <- ' + repo + ' ' + hit + '(' + sub + ') 候SI2细收', 'high_value': True})
+        except Exception:
+            pass
+    if changed:
+        json.dump(reg, open(dp, 'w'), ensure_ascii=False, indent=1)
+    return ev
+
 # ---------- 事件源轮询 ----------
 def poll(pat, st):
     """返回 events 列表:[{kind, ref, summary, high_value}]"""
@@ -237,7 +296,12 @@ def poll(pat, st):
     try:
         ev.extend(loops_check(pat, st))
     except Exception as e:
-        ev.append({'kind':'loops.check.err','ref':'ci/loops.json','summary':str(e)[:150],'high_value':False})
+        ev.append({'kind':'loops.check.err','ref':'ci/loops.json','summary':str(e)[:120],'high_value':False})
+    # ⑥ DEBTS-WATCH 债巡(裸候违规律)
+    try:
+        ev.extend(debts_watch(pat, st))
+    except Exception as e:
+        ev.append({'kind':'debts.watch.err','ref':'ci-inbox/response-debts.json','summary':str(e)[:150],'high_value':False})
     return ev
 
 # ---------- API 新会话开工 ----------
