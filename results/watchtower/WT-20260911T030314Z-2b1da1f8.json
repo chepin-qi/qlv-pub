@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:02:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:lgt 面 beat=3 三拍无应(冻结线除外)，触发 SI5 提级| 性态:环 lgt 面多线裸候，扫描-细收未响应，提级条件成立| 建议处置:冻结线维持现状；非冻线执行 SI5 落账，按需重扫锚点或转入次轮| 锚:share-01-all-lines:lgt/SI5/beat=3",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 851,
+    "total_tokens": 1065,
+    "completion_tokens_details": {
+      "reasoning_tokens": 741
+    }
+  }
+}

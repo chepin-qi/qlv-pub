@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:01:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "ring-mesh-01-usrm:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ring-mesh-01-usrm 环 lgt 面 beat=3 三拍无应，触发 SI5 提级(已剔除冻结线)。| 性态:loop.escalate；探测有效但目标面静默，属裸候/未响应态，暂未判定节点真死，排除链路冻结后收敛为面级失联。| 建议处置:1) 次次落账，本件已收；2) 不主动寻应、不刷屏；3) 切备面或降权绕行，防环空转。| 锚:AUTH-OTP-02裸候条款/米田边律-他线锚定。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1063,
+    "total_tokens": 1283,
+    "completion_tokens_details": {
+      "reasoning_tokens": 911
+    }
+  }
+}

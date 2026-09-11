@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:05:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "exp-ripple-01:si5-intent",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：exp-ripple-01 环 si5-intent 面 beat=3 三拍无应（冻结线除外），触发 SI5 提级 | 性态：loop.escalate 规则内自动迁移，属正常控制面反馈，非异常；系统处于裸候态，未越真机钱面 | 建议处置：按 WAKE-PROTO 扫描环内非冻结节点存活态，细收确认 beat=3 边界后裁决落账；恪守 AUTH-OTP-02 不刷屏、不主动求应 | 锚：ref-wake-proto/escalate-tier-3 裸候收敛例",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 2010,
+    "total_tokens": 2229,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1864
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:04:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:vinf",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines 环 vinf 面 beat=3 三拍无应，触发 SI5 提级（已剔冻结线）| 性态:循环检测升级类，共享线路组虚拟接口层面连续 3 节拍无心跳应答；当前仅据摘要确认无应事实，尚未实测区分系探测未触发，抑或触发后对端/链路未响应| 建议处置:1) 拉取 vinf 面 beat=1-3 原始日志定位丢答应节点；2) 核查对端存活与链路质量；3) 复核冻结线台账，排除误剔；4) 按 SI5 预案执行熔断或切流| 锚:share-01-all-lines:vinf 环面历史基线/冻结线状态台账/SI5 处置手册",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1142,
+    "total_tokens": 1356,
+    "completion_tokens_details": {
+      "reasoning_tokens": 960
+    }
+  }
+}

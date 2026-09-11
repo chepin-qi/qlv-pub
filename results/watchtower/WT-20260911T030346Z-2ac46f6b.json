@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:03:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cfts",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:cfts 环面 beat=3 三拍无应，触发 loop.escalate 至 SI5（冻结线除外）。| 性态:cfts 面全环（除冻结线）三周期集体静默/失步，非单点故障；摘要仅呈结果态，未实测区分「未触发 vs 触发未响应」。| 建议处置:速查 cfts 环面链路；核验冻结线外各线心跳日志定位 beat=3 断点；若确认系统性失步，按 SI5 预案切备或降环；步步落账。| 锚:SI5-escalation|loop|cfts-health|beat3-gap",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1119,
+    "total_tokens": 1333,
+    "completion_tokens_details": {
+      "reasoning_tokens": 962
+    }
+  }
+}

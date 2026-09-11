@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:04:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:qtlv",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines 环 qtlv 线面 beat=3 三拍无应，触发 SI5 提级(冻结线除外)| 性态:loop.escalate，裸候超阈致环内静默升级| 建议处置:冻结线保持现状；余线裸候不主动求应，次次落账，不越真机钱面| 锚:ref=share-01-all-lines:qtlv，他线锚:SI5-提级协议",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1018,
+    "total_tokens": 1235,
+    "completion_tokens_details": {
+      "reasoning_tokens": 902
+    }
+  }
+}

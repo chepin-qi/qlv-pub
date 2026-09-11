@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:02:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cisvr",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:cisvr 环面 beat=3 三拍无应，摘要触发 SI5 提级(冻结线除外)| 性态:loop.escalate，环面心跳裸候，未实测具体丢包数| 建议处置:细收冻结线外各面→裁决扩面或隔离→次次落账；裸候，不主动唤应| 锚:share-01 同环异面/平行线监控交叉锚定",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1028,
+    "total_tokens": 1243,
+    "completion_tokens_details": {
+      "reasoning_tokens": 915
+    }
+  }
+}

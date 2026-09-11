@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T03:01:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "si5-ring-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI5环lgt面三拍无应,提级至beat=3(ref:si5-ring-01:lgt,冻结线除外)| 性态:环路节拍失效,进程循环异常| 建议处置:细收冻结线排除状态;排查lgt面节点连通;依WAKE-PROTO裁决落账;次次落账,不裸候| 锚:AUTH-OTP-02(次次落账)/WAKE-PROTO(扫描→落账)",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1059,
+    "total_tokens": 1273,
+    "completion_tokens_details": {
+      "reasoning_tokens": 948
+    }
+  }
+}
