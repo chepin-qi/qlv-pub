@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T11:59:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡chepin-ai/vci-inbox向qlv/inbox落件，序130→131，件qfa-si5ring-answer-20260910T231548Z.md| 性态:lane.drop触发，件已入位；本工位无读取工具，未触发内容校验，不编摘要| 建议处置:按序归档，裸候下游拉取，不主动求应| 锚:chepin-ai/vci-inbox#131",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1311,
+    "total_tokens": 1543,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1201
+    }
+  }
+}
