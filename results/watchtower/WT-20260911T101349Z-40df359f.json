@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T10:13:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "0585ef42",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(846067e4→0585ef42)| 性态:常规HEAD漂移，qfa.beat心跳事件，未触发异常，属正常版本递进| 建议处置:已落账；建议按需diff复核变更范围，裸候下一beat| 锚:git-HEAD-migration工作流",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 982,
+    "total_tokens": 1177,
+    "completion_tokens_details": {
+      "reasoning_tokens": 903
+    }
+  }
+}

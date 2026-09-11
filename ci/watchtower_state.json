@@ -20,12 +20,12 @@
     "w12": [
       0,
       0,
+      1,
+      1,
       0,
       0,
       0,
       0,
-      0,
-      2,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -47,10 +47,10 @@
     "last_fp": "1641c46c2dbc"
   },
   "lane_inbox_count_qlvlab": 3,
-  "loops_open": 18,
+  "loops_open": 20,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 90
+    "beacon_comments": 91
   },
   "qgl_head": "39fe03f31022b242c9f2496b2859b701773ddbb0"
 }
