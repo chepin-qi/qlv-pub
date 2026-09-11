@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T10:02:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "0585ef42",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移,846067e4→0585ef42| 性态:裸迁,无构建/测试/部署附随状态,属版本控制层常规流转,未触发后续链路| 建议处置:已落账;可按策略后置触发qfa.build/qfa.deploy关联巡检,本次裸候| 锚:@[build-line/qfa]该ref进入构建队列时复现核对",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 1010,
+    "total_tokens": 1205,
+    "completion_tokens_details": {
+      "reasoning_tokens": 913
+    }
+  }
+}
