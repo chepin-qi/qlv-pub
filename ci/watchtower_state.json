@@ -18,24 +18,24 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
       0,
       0,
       0,
       0,
       0,
-      1,
       0,
       0,
       0,
       0,
-      0
+      0,
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 2,
-    "verdict": "C-窗"
+    "dominant_bin": 11,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-09-11",
@@ -52,5 +52,5 @@
     "date": "2026-09-11",
     "beacon_comments": 65
   },
-  "qgl_head": "0139d959aefe39184fb65ef8f24074e5db56f5ad"
+  "qgl_head": "1fc106ab75adc3d062e002f24dc2fd257b0ed878"
 }
