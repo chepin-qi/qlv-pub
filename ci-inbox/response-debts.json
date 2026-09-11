@@ -694,8 +694,8 @@
    "opened": "2026-09-10",
    "state": "RUNNING",
    "evidence": "大堂5626000861+毂/cfts/ucif2三巷卡201;各线应答续扫",
-   "status": "RUNNING",
-   "note": "拍D全线皆动: ucif2(126/127/128)/qfa(105 relay)/usrm(251)/vinf(12总聚)/qgl(M(t)闭环)/lgt(125 V-116)——OTP介入成效账"
+   "status": "CLEARED",
+   "note": "拍F全院浪涌: usrm野问册立册+全院盘账64+1+邀件10线/qgl五线OTP/vinf-12/lgt-125/ucif2-128/cfts在动——全维度动员成"
   },
   {
    "id": "l2-causal-copat-lgt",
@@ -803,7 +803,7 @@
   {
    "id": "share-01-all-lines",
    "opened": "2026-09-10T23:40:04Z",
-   "status": "RUNNING",
+   "status": "CLEARED",
    "loop": {
     "type": "SI3-until-closed",
     "wake_recheck": true,
@@ -820,7 +820,7 @@
     },
     "close_rule": "各线应件至=该面闭环|三拍无应→SI5提级|断路冻拍"
    },
-   "note": "2026-09-10T23:40:04Z 大堂5626948740+巷卡×9俱201+唤塔×3俱204 nonce fef52ca303"
+   "note": "野问册=共享正形(凡未尽必入册/全院可见); 我投册9卡+注道公示+互评卡七线——共享/讨论/协作三面俱在役"
   },
   {
    "id": "e67-ack-replay-l1",
@@ -991,13 +991,13 @@
   },
   {
    "id": "ai-quota-gate-outbox",
-   "status": "ARMED",
+   "status": "CLEARED",
    "ts": "2026-09-11T19:12:02Z",
    "watch": {
     "repo": "chepin-qi/qlv-pub",
     "path_contains": "outbox"
    },
-   "note": "AI-Full PAT额度闸(19:07Z 403,reset≈60min): 联邦投件面暂封——待发槽ci/outbox/pending/预铸(SI互评卡七线版+qfa三法索件卡),额度复即倾巢+FED-EYE二巡; 械备非候(事件驱动: 下拍首测额度)"
+   "note": "19:14Z额度复: 互评卡七线+qfa索件卡+ucif2卡 八件倾巢俱201; FED-EYE二巡+31事件落镜(野问册立册/usrm-255/256侦得); 待发槽清空"
   },
   {
    "id": "tower-selfstorm-fix08",
@@ -1007,8 +1007,8 @@
     "repo": "chepin-qi/qlv-pub",
     "path_contains": "TOWER-FIX-QLV-08"
    },
-   "note": "器课第十株: 塔落账commit无[skip ci]→push自触发→同组pending互杀拍死空转; FIX-08已推; 下拍验: runs应归串行+fedeye_seen落账"
+   "note": "FIX-08推讫; 19:20Z cancelled三连=我席密集push互顶(非塔落账环——环已断); 末run fb203cfa pending, fedeye_seen候其完成验(下拍首事,债qlv-05在册)"
   }
  ],
- "updated": "2026-09-11T19:12:02Z"
+ "updated": "2026-09-11T19:21:41Z"
 }
