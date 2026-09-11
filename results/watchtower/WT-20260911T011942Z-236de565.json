@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:19:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "share-01-all-lines:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件loop.reply抵lane:lvlu*，ref=share-01-all-lines:lvlu，lvlu面已REPLIED，现候SI2细收。| 性态:流程中段，信令已环回并获面响应，无异常触发，属待细收挂起态。| 建议处置:遵WAKE-PROTO，停于细收阶，不主动_seek_response，裸候SI2自动落账；若逾SI2时限未收，再启裁决。| 锚:share-01-all-lines:lvlu/SI2-候收线",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 833,
+    "total_tokens": 1045,
+    "completion_tokens_details": {
+      "reasoning_tokens": 698
+    }
+  }
+}

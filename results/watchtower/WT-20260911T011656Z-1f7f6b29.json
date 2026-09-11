@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:16:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "eval-excite-circle-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:三拍无应触发SI5提级，eval-excite-circle-01环lgt面beat=5（冻结线除外）| 性态:裸候态，循环未闭合，响应链空转；属loop.escalate级，已达冻结线外升级阈值，实测未见回应包 | 建议处置:按AUTH-OTP-02裸候原则，不主动二次唤醒；挂起该环，次次落账记未响应，待他线锚触发或冷重启 | 锚:米田边律/次次落账/WAKE-PROTO裁决落账",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 840,
+    "total_tokens": 1056,
+    "completion_tokens_details": {
+      "reasoning_tokens": 705
+    }
+  }
+}

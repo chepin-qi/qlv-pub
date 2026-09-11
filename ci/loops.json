@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-11T01:03:25Z",
+ "updated": "2026-09-11T01:16:07Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -15,17 +15,18 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 4,
-     "neg_fetch": true
+     "beat": 5,
+     "neg_fetch": true,
+     "escalated": "2026-09-11T01:16:06Z"
     },
     "lvlu": {
-     "st": "FROZEN",
+     "st": "REPLIED",
      "beat": 4,
      "frozen_why": "LLM空回模板判词 QT-225304Z",
      "neg_fetch": true
     },
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     }
    }
@@ -40,10 +41,10 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "lvlu": {
-     "st": "FROZEN",
+     "st": "REPLIED",
      "beat": 1,
      "frozen_why": "LLM空回"
     },
@@ -53,7 +54,7 @@
      "note": "判据表至+级界量化应+复评讫"
     },
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     }
    }
@@ -64,12 +65,12 @@
    "status": "RUNNING",
    "rings": {
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "qlv": {
      "st": "JOINED"
@@ -94,14 +95,14 @@
    "rings": {
     "cisvr": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "lvlu": {
-     "st": "FROZEN",
+     "st": "REPLIED",
      "beat": 1,
      "frozen_why": "LLM空回"
     },
@@ -110,24 +111,24 @@
      "note": "resp-qlv-03/04+si5ring-answer三件"
     },
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     },
     "cfts": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "ucif2": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "qtlv": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "vinf": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     }
    }
   },
@@ -143,11 +144,11 @@
     },
     "qgl": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "si5-intent": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     }
    },
    "close_rule": "链环①②③俱通=反向驱动首实证|三拍无应→SI5提级"

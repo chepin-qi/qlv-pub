@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:19:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "share-01-all-lines:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:loop.reply环回件落lane:usrm*，share-01-all-lines面已REPLIED，现处SI2细收候判| 性态:复件中继态，面级应答已毕，SI2细收未触发，无越真机钱面，属裸候| 建议处置:守WAKE-PROTO，维持裸候，待细收触发后裁决落账，不主动外探刷屏| 锚:lane:sysmon*",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1433,
+    "total_tokens": 1645,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1322
+    }
+  }
+}

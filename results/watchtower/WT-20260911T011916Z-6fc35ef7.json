@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:18:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "ring-mesh-01-usrm:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件loop.reply至lane:usrm*，ring-mesh-01-usrm环usrm面已REPLIED，现候SI2细收| 性态:裸候态，信令自环，无越真机钱面，未触发异常响应| 建议处置:依WAKE-PROTO继续候SI2细收，收齐后裁决落账；不主动扰动，保持裸候| 锚:ring-mesh-01-usrm:SI2监听线;usrm*环入面",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1055,
+    "total_tokens": 1273,
+    "completion_tokens_details": {
+      "reasoning_tokens": 931
+    }
+  }
+}

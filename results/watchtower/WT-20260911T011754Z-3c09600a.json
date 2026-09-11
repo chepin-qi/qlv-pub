@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:17:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "eval-excite-circle-01:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:eval-excite-circle-01:usrm 环回件至 lane:usrm*，usrm 面已 REPLIED，现候 SI2 细收。| 性态:loop.reply 单环闭包，处细收后裸候态，未触发裁决/落账条件，无真机钱面越界。| 建议处置:守 AUTH-OTP-02 裸候原则，不主动寻求回应、不刷屏；待 SI2 回执到件后转裁决落账，若超时未响应则维持静默，不编数。| 锚:lane:usrm* 他线锚已置。",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 982,
+    "total_tokens": 1196,
+    "completion_tokens_details": {
+      "reasoning_tokens": 836
+    }
+  }
+}
