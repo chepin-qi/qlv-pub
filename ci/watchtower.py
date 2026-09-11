@@ -92,7 +92,33 @@ def loops_check(pat, st):
         'qfa':  lambda: lane_has('qfa-resp', None) or lane_has('qfa-mech', None),
         'usrm': lambda: lane_has('usrm', None),
         'lvlu': lambda: lane_has('lvlu', None),
+        'qgl':  lambda: qgl_touched() or lane_has('qgl', None),
     }
+    def qgl_touched():
+        try:
+            cs = gh_get('/repos/chepin-ai/vci-qgl/commits?per_page=3', pat)
+            prev = st.get('qgl_head')
+            head = cs[0]['sha'] if isinstance(cs, list) and cs else None
+            if head and prev and head != prev:
+                st['qgl_head'] = head
+                return True
+            if head: st['qgl_head'] = head
+            return False
+        except Exception:
+            return False
+    # EXP-RIPPLE-01 探针回件侦(探针标入我巷=链环④归)
+    try:
+        pr = (json.load(open(os.path.join(ROOT,'ci','loops.json'))).get('loops') or [])
+        for L in pr:
+            if L.get('id')=='exp-ripple-01' and L.get('probe'):
+                if lane_has(L['probe'], None):
+                    ev.append({'kind':'loop.probe.return','ref':L['probe'],
+                               'summary':f"EXP-RIPPLE-01 探针回件至我巷:{L['probe']} 链环④归",'high_value':True})
+                    for r_ in L.get('rings',{}).values():
+                        if isinstance(r_,dict) and r_.get('st')=='OPEN': r_['st']='REPLIED'
+                    json.dump(reg, open(lp,'w'), ensure_ascii=False, indent=1)
+    except Exception:
+        pass
     fz, fzref = lvlu_frozen()
     changed = False
     for loop in reg.get('loops', []):
