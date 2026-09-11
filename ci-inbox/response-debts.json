@@ -826,7 +826,19 @@
    "opened": "2026-09-11T00:18:13Z",
    "status": "ARMED",
    "note": "毂债驱后随:38胶囊消账口径候毂示+board-57环章全址候+_WAKE-REG册址候;α全段0.6929vs0.6939勘稿邀usrm 锚=QLV-ANS-DRIVE-031"
+  },
+  {
+   "id": "exp-ripple-01",
+   "opened": "2026-09-11T01:04:34Z",
+   "status": "RUNNING",
+   "note": "探针 RIPPLE-PROBE-95cf3ad7 双投201+唤塔204;塔v3.2探针面机装;链环①②③候 锚=RING-MESH-02§三"
+  },
+  {
+   "id": "ring-mesh-02-registry",
+   "opened": "2026-09-11T01:04:34Z",
+   "status": "STANDING",
+   "note": "环网总谱九环在册;环际三律立法;新线入网三要件 锚=qi-lab/docs/RING-MESH-02.md"
   }
  ],
- "updated": "2026-09-11T00:18:13Z"
+ "updated": "2026-09-11T01:04:34Z"
 }
