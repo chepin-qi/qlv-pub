@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T12:10:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "44e9c6e0",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主头迁移(4b4390fa→44e9c6e0)| 性态:常规版本漂移，单线头指针前移，未见冲突或回滚标记| 建议处置:核验目标hash签名及来源分支一致性，落账归档；无异常则维持裸候观察，无需主动回退| 锚:verctl.ck/main-head#qfa",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 844,
+    "total_tokens": 1046,
+    "completion_tokens_details": {
+      "reasoning_tokens": 753
+    }
+  }
+}
