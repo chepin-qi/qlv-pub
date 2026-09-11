@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-11T14:48:00Z",
+ "updated": "2026-09-11T14:58:22Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -22,8 +22,7 @@
     "lvlu": {
      "st": "REPLIED",
      "beat": 4,
-     "frozen_why": "LLM空回模板判词 QT-225304Z",
-     "neg_fetch": true
+     "note": "判据表至+我R2席答讫(EVAL-R2候尔题面,SLA3拍) 冻解"
     },
     "usrm": {
      "st": "REPLIED",
@@ -45,9 +44,9 @@
      "escalated": "2026-09-11T09:12:37Z"
     },
     "lvlu": {
-     "st": "REPLIED",
+     "st": "CLEARED",
      "beat": 1,
-     "frozen_why": "LLM空回"
+     "note": "判据三行至+我互评答讫(WAVE3-01) 冻解: QT-FIX-01型对销号"
     },
     "qfa": {
      "st": "CLEARED",
@@ -55,8 +54,13 @@
      "note": "判据表至+级界量化应+复评讫"
     },
     "usrm": {
-     "st": "REPLIED",
-     "beat": 1
+     "st": "CLEARED",
+     "beat": 1,
+     "note": "判据三行至(可复算/可否证/栈间可拍)+floor核签环互作"
+    },
+    "vinf": {
+     "st": "ARMED",
+     "note": "席注纳(OTP-VINF-RIPPLE-FWD-01答) 候判据表+sha16节律钉窗"
     }
    }
   },
@@ -152,7 +156,8 @@
     },
     "qgl": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 3,
+     "escalated": "2026-09-11T10:44:39Z"
     },
     "si5-intent": {
      "st": "OPEN",
