@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T16:24:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，qfa-si5ring-answer件由chepin-ai/vci-inbox投达qlv/inbox，巷卡132→133。| 性态:单件静默入桶，未触发内容实测，无响应数可编，属裸候。| 建议处置:依WAKE-PROTO扫描→细收→裁决→落账；现无即时回令需求，裸候待触发。| 锚:chepin-ai/vci-inbox@133",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1094,
+    "total_tokens": 1326,
+    "completion_tokens_details": {
+      "reasoning_tokens": 984
+    }
+  }
+}
