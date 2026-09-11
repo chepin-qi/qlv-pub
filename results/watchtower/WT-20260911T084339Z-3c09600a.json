@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T08:43:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "eval-excite-circle-01:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件落lane:usrm*→eval-excite-circle-01,usrm面REPLIED,候SI2细收| 性态:loop.reply,处WAKE-PROTO细收节点,件已触达且面有响应,无越真机钱面| 建议处置:按AUTH-OTP-02推进SI2细收,校验诚实边界与刷屏合规后裁决落账,维持裸候| 锚:lane:si2*;ref-eval-excite-circle-01",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 926,
+    "total_tokens": 1140,
+    "completion_tokens_details": {
+      "reasoning_tokens": 808
+    }
+  }
+}

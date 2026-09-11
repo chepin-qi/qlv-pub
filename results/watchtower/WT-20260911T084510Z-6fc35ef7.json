@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T08:44:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "ring-mesh-01-usrm:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:loop.reply环回件至lane:usrm*，经ref:ring-mesh-01-usrm于usrm面REPLIED，现候SI2细收| 性态:已触达且面响应完成，属裸候态，未触发异常，无越真机钱面| 建议处置:遵WAKE-PROTO待SI2细收后裁决落账，其间不主动求应，维持裸候| 锚:lane:sys-AUTH-OTP-02/裸候条款",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1076,
+    "total_tokens": 1294,
+    "completion_tokens_details": {
+      "reasoning_tokens": 956
+    }
+  }
+}

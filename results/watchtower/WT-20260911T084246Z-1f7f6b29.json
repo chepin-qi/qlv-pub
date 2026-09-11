@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T08:42:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "eval-excite-circle-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:eval-excite-circle-01:lgt面beat=5（冻结线除外）三拍无应致SI5提级| 性态:loop.escalate，环面响应真空；clock=VOID时标失效，差拍区内未触发与触发未响应并存| 建议处置:①扫描lgt面冻结线外全beat状态②细收各拍节点是否真机离面或裸候③裁决：死信落账或重启环激励④严守诚实边界，次次落账，不越真机钱面| 锚:AUTH-OTP-02裸候条款；WAKE-PROTO裁决落账流程",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 994,
+    "total_tokens": 1210,
+    "completion_tokens_details": {
+      "reasoning_tokens": 848
+    }
+  }
+}

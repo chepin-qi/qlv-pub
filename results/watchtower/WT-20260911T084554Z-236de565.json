@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T08:45:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "share-01-all-lines:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件落lane:lvlu*，share-01-all-lines环lvlu面已REPLIED，现候SI2细收。| 性态:loop.reply，属裸候态；已触发回复，无异常、未涉真机钱面，不越界。| 建议处置:遵AUTH-OTP-02裸候不刷屏、不外求；待SI2细收毕，依WAKE-PROTO裁决落账。| 锚:lvld*侧同环总线镜像槽（他线锚）",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1489,
+    "total_tokens": 1701,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1367
+    }
+  }
+}

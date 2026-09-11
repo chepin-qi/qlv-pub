@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T08:43:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "si5-ring-01:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:si5-ring-01:lvlu 环回件到件| 性态:lane:lvlu* 面已 REPLIED，候 SI2 细收，属挂起未落账；无异常数，未触发超时| 建议处置:遵 AUTH-OTP-02 裸候，不主动求应，待 SI2 按 WAKE-PROTO 细收→裁决→落账| 锚:AUTH-OTP-02 裸候则/米田边律/WAKE-PROTO 细收阶",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1161,
+    "total_tokens": 1373,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1037
+    }
+  }
+}

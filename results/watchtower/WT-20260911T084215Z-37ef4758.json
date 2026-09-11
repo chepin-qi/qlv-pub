@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T08:41:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "f116e3a8",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主分支HEAD迁移，版本头由b1ed7ded前移至f116e3a8| 性态:代码节拍正常推进，属版本链常规前滚，无异常冲突或回滚特征| 建议处置:按落账确认，不主动干预，裸候下一拍| 锚:git-ref-log|",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 688,
+    "total_tokens": 886,
+    "completion_tokens_details": {
+      "reasoning_tokens": 606
+    }
+  }
+}
