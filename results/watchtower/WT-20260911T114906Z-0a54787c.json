@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T11:48:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，ref=qfa-si5ring-answer-20260910T231548Z.md，来源巷卡chepin-ai/vci-inbox，计数129→131。| 性态:摘要做计数跃迁+文件名通报，未触发本工位内容实测（无工具读取），属形式到件，裸候状态；无刷屏/越真机钱面迹象。| 建议处置:按AUTH-OTP-02次次落账已落账；不主动寻求回应即裸候，仅做收件归档，待后续触发。| 锚:chepin-ai/vci-inbox（来源他线锚）",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1092,
+    "total_tokens": 1324,
+    "completion_tokens_details": {
+      "reasoning_tokens": 948
+    }
+  }
+}

@@ -14,26 +14,26 @@
     "vci-vinf#6": 1,
     "vci-inbox#2": 0
   },
-  "lane_inbox_count": 130,
+  "lane_inbox_count": 131,
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      1,
-      0,
-      0,
-      0,
       0,
       0,
       0,
       1,
       0,
       0,
+      0,
+      0,
+      0,
+      1,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -47,7 +47,7 @@
     "last_fp": "1641c46c2dbc"
   },
   "lane_inbox_count_qlvlab": 3,
-  "loops_open": 20,
+  "loops_open": 18,
   "post_budget": {
     "date": "2026-09-11",
     "beacon_comments": 93
