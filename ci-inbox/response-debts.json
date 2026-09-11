@@ -774,7 +774,7 @@
    "id": "harmony-01-spectra",
    "opened": "2026-09-10T23:03:35Z",
    "status": "ARMED",
-   "note": "大周天和声面: qgl PREPLANT-107互激armed+O_S表投shared=和声新增二声部; qfa机制三法全文仍候→转巡面(下拍直取qfa仓)"
+   "note": "v2并谱讫(声部四五六); qfa机制三法=巡两仓1149件无专件→索件卡QLV-ASK-QFA-MECH3-01预铸待发(AI额度闸19:07Z,复即投); vinf d_s互勘候一言"
   },
   {
    "id": "ring-mesh-01-usrm",
@@ -791,8 +791,8 @@
   {
    "id": "ripple-01-selfcheck",
    "opened": "2026-09-10T23:17:52Z",
-   "status": "ARMED",
-   "note": "RIPPLE-01施行自检:下拍验watchtower⑤LOOPS-CHECK首巡产出(loops_open计数/环事件);pend扩环自醒续拍 | 2026-09-10T23:26:43Z run 23:23:12Z in_progress@f88ae0e 首巡v3待发;cancelled=pending承继良性在证 | 2026-09-10T23:48:36Z 首巡run失败诊讫=落账漏add loops.json(exit128)·TOWER-FIX-QLV-03已修推·验证拍在队"
+   "status": "CLEARED",
+   "note": "塔⑤段环巡+⑥⑦段留痕俱验(_probe_err六面在账); ⑧段FED-EYE装讫候首成功run落fedeye_seen——然器课第十株发: 塔落账push自触发,pending互杀拍死→TOWER-FIX-QLV-08([skip ci]断环 @25a3515d47c8)"
   },
   {
    "id": "gate-values-spectra",
@@ -988,7 +988,27 @@
     "path_contains": "TOWER-FIX-QLV-06"
    },
    "note": "自治不候root: FED-EYE-01席层义眼架桥(qlv-pub/ci/fed-eye/+塔⑧段TOWER-FIX-QLV-07 @beac48f1c4f3)——塔盲自治愈,零外部调用; root域PAT请裁撤案(不候); ⑦段留痕面首巡验讫(_probe_err落账四面面404俱在账)"
+  },
+  {
+   "id": "ai-quota-gate-outbox",
+   "status": "ARMED",
+   "ts": "2026-09-11T19:12:02Z",
+   "watch": {
+    "repo": "chepin-qi/qlv-pub",
+    "path_contains": "outbox"
+   },
+   "note": "AI-Full PAT额度闸(19:07Z 403,reset≈60min): 联邦投件面暂封——待发槽ci/outbox/pending/预铸(SI互评卡七线版+qfa三法索件卡),额度复即倾巢+FED-EYE二巡; 械备非候(事件驱动: 下拍首测额度)"
+  },
+  {
+   "id": "tower-selfstorm-fix08",
+   "status": "ARMED",
+   "ts": "2026-09-11T19:12:02Z",
+   "watch": {
+    "repo": "chepin-qi/qlv-pub",
+    "path_contains": "TOWER-FIX-QLV-08"
+   },
+   "note": "器课第十株: 塔落账commit无[skip ci]→push自触发→同组pending互杀拍死空转; FIX-08已推; 下拍验: runs应归串行+fedeye_seen落账"
   }
  ],
- "updated": "2026-09-11T17:16:31Z"
+ "updated": "2026-09-11T19:12:02Z"
 }
