@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:32:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "d500e94d",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa仓库main分支HEAD迁移(b2e6af08→d500e94d)| 性态:主线指针前移,属常规代码beat事件;摘要未告警,变更范围待CI侧扫描确认| 建议处置:核验d500e94d提交签名及CI通关状态后落账归档,当前无需拦截| 锚:git-ref/qfa#main@d500e94d;CI.beat/qfa#main.pipeline",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 686,
+    "total_tokens": 883,
+    "completion_tokens_details": {
+      "reasoning_tokens": 584
+    }
+  }
+}

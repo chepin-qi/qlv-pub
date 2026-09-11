@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:34:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "ring-mesh-01-usrm:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ring-mesh-01-usrm环lgt面beat=3无应，触发SI5提级；已排除冻结线节点，余节点三拍失响| 性态:循环心跳超时，节点静默或链路中断，越自动恢复阈值，提级条件成立| 建议处置:执行SI5隔离规程：切备援径路，标失响节点为待审态，下发定向探测，冻结非必要交互，次次落账| 锚:WAKE-PROTO/扫描-裁决节、AUTH-OTP-02诚实边界、ring-mesh-01运维基线",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 893,
+    "total_tokens": 1113,
+    "completion_tokens_details": {
+      "reasoning_tokens": 755
+    }
+  }
+}

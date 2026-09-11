@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:37:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:vinf",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:vinf环beat=3无应，触发SI5提级(冻结线除外)|性态:loop.escalate；环面裸候，系多线未同步而非单点故障|建议处置:执行WAKE-PROTO细收-裁决，勘别冻结线与活跃线差异；若持续裸候即硬落账并封环待修|锚:SI5提级信号;vinf面环差;loop.escalate类案",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1206,
+    "total_tokens": 1420,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1094
+    }
+  }
+}

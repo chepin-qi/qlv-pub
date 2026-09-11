@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:36:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cfts",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines cfts面 beat=3 全环(除冻结线)三拍无应,触发SI5提级| 性态:cfts面循环心跳静默,冻结线外全量失步;属loop面级联超时,根因待勘(网络分区/服务假死/调度异常均可能),未实测不指实| 建议处置:①交叉复核mgmt面带外通道,区分链路丢包(未触发)与进程无响应(触发未回);②确认失步后按SI5执行cfts面切流及只读降级;③冻结线维持静默,禁止擅自解冻;④全量日志快照落账,裸候下拍裁决| 锚:share-01-all-lines:mgmt:alive梯度比对,以mgmt面心跳锚定cfts面失步边界",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1204,
+    "total_tokens": 1418,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1018
+    }
+  }
+}

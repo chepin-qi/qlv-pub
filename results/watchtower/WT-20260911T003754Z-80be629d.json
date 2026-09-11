@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:37:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:qtlv",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines 环 qtlv 面 beat=3 三拍无应触发 SI5 提级(冻结线除外)| 性态:环路节点在 qtlv 线面连续三拍无应，已达 SI5 提级阈值；冻结线不计入拍数，属 WAKE-PROTO 正常裁决路径| 建议处置:执行 SI5 提级预案，排查 qtlv 面非冻结节点真机/裸候状态，必要时下线或切备| 锚:share-01-all-lines:qtln",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 856,
+    "total_tokens": 1073,
+    "completion_tokens_details": {
+      "reasoning_tokens": 727
+    }
+  }
+}

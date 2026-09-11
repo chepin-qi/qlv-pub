@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:37:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:ucif2",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环ucif2面三拍无应，触发SI5提级，beat=3（冻结线除外）| 性态:协议内定时escalation，环面裸候未应，属正常提级态，非异常闯入| 建议处置:执行WAKE-PROTO裁决→落账，维持冻结线例外，将ucif2面挂入SI5待决队列，标记beat=3落账点，次次落账不回流| 锚:SI5待决池/cold-line归档锚",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 822,
+    "total_tokens": 1039,
+    "completion_tokens_details": {
+      "reasoning_tokens": 696
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:36:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "share-01-all-lines:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件落lane:lvlu*，于share-01-all-lines环lvlu面已REPLIED，现停候SI2细收| 性态:loop.reply控制面回环，未触发数据面流转，属“已回复/待细收”悬停态| 建议处置:按裸候原则不主动寻求回应，待SI2细收自动推进；超时则上抛裁决面，单工位不刷屏| 锚:qlv线share-01-all-lines:lvlu环回信令与SI2细收节点绑定，可锚定至该线路控制面",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1067,
+    "total_tokens": 1279,
+    "completion_tokens_details": {
+      "reasoning_tokens": 928
+    }
+  }
+}

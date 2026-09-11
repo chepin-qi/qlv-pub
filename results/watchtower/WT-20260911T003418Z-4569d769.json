@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:34:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "si5-ring-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI5环三拍无应提级(si5-ring-01:lgt beat=3,冻结线除外)| 性态:环面心跳裸候，被动提级；未触发真机钱面，未实测节点物理态故不编数，界于「触发未响应」与「未触发」间保持静默扫描| 建议处置:维持裸候不主动唤应，冻结线外节点持续监听，次次落账本次提级标记，不越真机钱面| 锚:si5-monitor-anchor/lgt-ring-void",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 706,
+    "total_tokens": 920,
+    "completion_tokens_details": {
+      "reasoning_tokens": 579
+    }
+  }
+}

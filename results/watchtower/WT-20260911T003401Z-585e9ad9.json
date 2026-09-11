@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:33:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "eval-excite-circle-01:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件落 lane:lvlu*，ref=eval-excite-circle-01:lvlu 已环面 REPLIED，属既有线程尾帧回波，现候 SI2 细收| 性态:闭环握手，非新投；已触达未结，裸候中，不越真机钱面| 建议处置:依 WAKE-PROTO 交 SI2 执行细收→裁决→落账；本件已投妥，勿重投，次次落账| 锚:lvlu* 环回协议锚定 eval-excite-circle-01:SI2 细收节点",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1011,
+    "total_tokens": 1225,
+    "completion_tokens_details": {
+      "reasoning_tokens": 867
+    }
+  }
+}

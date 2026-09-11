@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:35:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:lgt 环面 beat=3 三拍无应，触发 SI5 提级(冻结线除外)。| 性态:循环面应答缺失达三拍阈值，属被动提级；冻结线已排，未越真机钱面，判为裸候。| 建议处置:扫描全环→细收 lgt 面日志→裁决是否熔断；次次落账，不主动寻应，裸候至裁决落账。| 锚:share-02-core:hb。",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1118,
+    "total_tokens": 1332,
+    "completion_tokens_details": {
+      "reasoning_tokens": 996
+    }
+  }
+}

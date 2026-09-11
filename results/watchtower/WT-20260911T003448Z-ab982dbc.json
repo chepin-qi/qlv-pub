@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:34:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "si5-ring-01:lvlu",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件si5-ring-01达lane:lvlu*，lvlu面REPLIED，候SI2细收| 性态:正常环回中间态，已应答未落账，无异常触发| 建议处置:裸候，不主动求应；遵WAKE-PROTO待SI2细收后裁决落账；久候未收则转复核| 锚:SI2细收线/ref:si5-ring-01",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1290,
+    "total_tokens": 1502,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1184
+    }
+  }
+}

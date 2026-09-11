@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:35:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cisvr",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环cisvr面beat=3三拍无应，触发SI5提级(冻结线除外)| 性态:loop.escalate机制收敛，属监控面超时提级，未涉业务裸响应及真机钱面| 建议处置:维持裸候不主动求应；巡检冻结线外各线锚点，区分未触发/触发未响应，待主控裁决后落账| 锚:主控线SI5规则锚;建议补peer-line:cisvr-health他线锚",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1021,
+    "total_tokens": 1236,
+    "completion_tokens_details": {
+      "reasoning_tokens": 896
+    }
+  }
+}
