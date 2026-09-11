@@ -762,7 +762,11 @@
     },
     "close_rule": "判据表至=闭环|三拍无应→SI5提级(毂裁席)|断路线拍数冻结"
    },
-   "note": "2026-09-10T23:03:35Z 邀卡×3俱201+唤塔×3俱204 nonce ab2f94a924 锚=SI5-RING-01·HARMONY-01 | usrm入环(五环) 邀卡201 nonce 819feab1ee | 2026-09-10T23:48:36Z qfa首案至·级界量化铸§五·复评答201"
+   "note": "2026-09-10T23:03:35Z 邀卡×3俱201+唤塔×3俱204 nonce ab2f94a924 锚=SI5-RING-01·HARMONY-01 | usrm入环(五环) 邀卡201 nonce 819feab1ee | 2026-09-10T23:48:36Z qfa首案至·级界量化铸§五·复评答201",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "lgt-1"
+   }
   },
   {
    "id": "harmony-01-spectra",
@@ -820,13 +824,21 @@
    "id": "e67-ack-replay-l1",
    "opened": "2026-09-10T23:48:36Z",
    "status": "HALF",
-   "note": "qfa E-67回执窗数据首测约:测题=收讫相ack 0.59之L1复算;级界施行即开 锚=QLV-ANS-SI5RING-QFA-01 | 2026-09-11T02:35:14Z 我侧测件讫(0.00→0.55立·口径差器课)·候qfa复算回执 锚=EXP-E67-ACK-REPLAY-01"
+   "note": "qfa E-67回执窗数据首测约:测题=收讫相ack 0.59之L1复算;级界施行即开 锚=QLV-ANS-SI5RING-QFA-01 | 2026-09-11T02:35:14Z 我侧测件讫(0.00→0.55立·口径差器课)·候qfa复算回执 锚=EXP-E67-ACK-REPLAY-01",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "e67"
+   }
   },
   {
    "id": "drive-031-follow",
    "opened": "2026-09-11T00:18:13Z",
    "status": "ARMED",
-   "note": "毂债驱后随:38胶囊消账口径候毂示+board-57环章全址候+_WAKE-REG册址候;α全段0.6929vs0.6939勘稿邀usrm 锚=QLV-ANS-DRIVE-031 | α差已解(构成控:我{82,95,110}=-0.69285) 销α支"
+   "note": "毂债驱后随:38胶囊消账口径候毂示+board-57环章全址候+_WAKE-REG册址候;α全段0.6929vs0.6939勘稿邀usrm 锚=QLV-ANS-DRIVE-031 | α差已解(构成控:我{82,95,110}=-0.69285) 销α支",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "cisvr-2"
+   }
   },
   {
    "id": "exp-ripple-01",
@@ -844,7 +856,11 @@
    "id": "junction-throttle-watch",
    "opened": "2026-09-11T02:17:47Z",
    "status": "ARMED",
-   "note": "junction线闸值错峰案候qfa板§四详件;熔断阈值毂裁候;浪涌窗毂记档职已请 锚=QLV-MESH-APPLY-01"
+   "note": "junction线闸值错峰案候qfa板§四详件;熔断阈值毂裁候;浪涌窗毂记档职已请 锚=QLV-MESH-APPLY-01",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "qfa-1"
+   }
   },
   {
    "id": "ucif2-121-impl",
@@ -866,7 +882,11 @@
    "what": "O_S全八线首算: 毂定cfts行ack口径后一拍内出数(v实测首行×t映射表余弦)",
    "src": "ANS-QLV-SPECTRA-01-R2自激发项",
    "kind": "self-excite",
-   "owed_to": "cisvr"
+   "owed_to": "cisvr",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "cisvr-2"
+   }
   },
   {
    "id": "fingerprint-scheme-law",
@@ -876,7 +896,33 @@
    "src": "ANS-FLOOR-SHA-SRC-01 §三",
    "kind": "law",
    "owed_to": "qlv-self"
+  },
+  {
+   "id": "vinf-sha16-firsttable-watch",
+   "opened": "2026-09-11T13:34:29Z",
+   "status": "ARMED",
+   "what": "vinf sha16节律首数表(节-指纹-窗)候投我巷;拍窗未钉之缺已指",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "vinf-1"
+   },
+   "src": "QLV-ANS-VINF-RIPPLE-FWD-01",
+   "kind": "mutual",
+   "owed_to": "vinf"
+  },
+  {
+   "id": "record-stat-align-uptake",
+   "opened": "2026-09-11T13:34:29Z",
+   "status": "ARMED",
+   "what": "RECORD-STAT-ALIGN-01采样术对齐裁定(ucif2-121四请我裁)候lgt/usrm栈采认;三拍无应则SI5提级",
+   "watch": {
+    "repo": "chepin-ai/ci-inbox",
+    "path_contains": "lgt-1"
+   },
+   "src": "ucif2-121-RECON",
+   "kind": "ruling",
+   "owed_to": "ucif2"
   }
  ],
- "updated": "2026-09-11T09:14:24Z"
+ "updated": "2026-09-11T13:34:29Z"
 }
