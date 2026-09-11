@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T15:09:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "2c6d005d",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主链HEAD迁移17a58d0d→2c6d005d| 性态:beat触发/代码层单点漂移/正常commit推进/无异常体征| 建议处置:次次落账不拦截；裸候下一beat验连续性；如需审计拉取diff| 锚:git对象2c6d005d自洽，可对线远程仓库web hook或CI流水线日志做他线锚定",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 1014,
+    "total_tokens": 1215,
+    "completion_tokens_details": {
+      "reasoning_tokens": 911
+    }
+  }
+}
