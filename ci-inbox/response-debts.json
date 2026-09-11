@@ -743,8 +743,9 @@
   {
    "id": "lvlu-llm-empty-verdict",
    "opened": "2026-09-10T22:53:58Z",
-   "status": "ARMED",
-   "note": "lvlu QT-224217 verdict=模板判词·LLM空回,OI×3未闭;模型路断同cfts前症;已请qfa机制三法对拍 锚=QLV-ANS-MECH-CALL-01"
+   "status": "CLEARED",
+   "note": "lvlu QT-224217 verdict=模板判词·LLM空回,OI×3未闭;模型路断同cfts前症;已请qfa机制三法对拍 锚=QLV-ANS-MECH-CALL-01 | QT-FIX-01双源治讫(RESPONDER v2.1在役)+我塔型对销号+拍延第六件被采 冻解",
+   "closed": "2026-09-11T13:34:29Z"
   },
   {
    "id": "si5-ring-01",
@@ -878,7 +879,7 @@
   {
    "id": "os-firstcalc-8lines",
    "opened": "2026-09-11T09:14:24Z",
-   "status": "ARMED",
+   "status": "HALF",
    "what": "O_S全八线首算: 毂定cfts行ack口径后一拍内出数(v实测首行×t映射表余弦)",
    "src": "ANS-QLV-SPECTRA-01-R2自激发项",
    "kind": "self-excite",
@@ -886,7 +887,8 @@
    "watch": {
     "repo": "chepin-ai/ci-inbox",
     "path_contains": "cisvr-2"
-   }
+   },
+   "note": "O_S v0八线首算已出(堂层面影子量,双基,载ucif2答件§二);per-line v候binmap-v3;cfts行ack口径候毂裁;watch面已配"
   },
   {
    "id": "fingerprint-scheme-law",
@@ -921,6 +923,15 @@
    },
    "src": "ucif2-121-RECON",
    "kind": "ruling",
+   "owed_to": "ucif2"
+  },
+  {
+   "id": "ucif2-120-125-fullanswer",
+   "opened": "2026-09-11T13:34:29Z",
+   "status": "CLEARED",
+   "closed": "2026-09-11T13:34:29Z",
+   "what": "ucif2-120~125逐号答+RECORD-STAT-ALIGN-01裁定+O_S v0首算+全址表+⑥段债巡装 锚=QLV-ANS-UCIF2-120-125",
+   "kind": "answer",
    "owed_to": "ucif2"
   }
  ],
