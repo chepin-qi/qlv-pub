@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-11T16:56:21Z",
+ "updated": "2026-09-11T17:06:38Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -156,7 +156,7 @@
     },
     "qgl": {
      "st": "OPEN",
-     "beat": 4,
+     "beat": 3,
      "escalated": "2026-09-11T10:44:39Z"
     },
     "si5-intent": {
