@@ -844,7 +844,19 @@
    "opened": "2026-09-11T02:17:47Z",
    "status": "ARMED",
    "note": "junction线闸值错峰案候qfa板§四详件;熔断阈值毂裁候;浪涌窗毂记档职已请 锚=QLV-MESH-APPLY-01"
+  },
+  {
+   "id": "ucif2-121-impl",
+   "opened": "2026-09-11T08:31:26Z",
+   "status": "RUNNING",
+   "note": "PUSH-03交讫(权重表骨架首行);候ucif2判收执;DRIVER-POST四模式并轨RING-MESH五律候选;实体址全址表候索 锚=QLV-ANS-UCIF2-121"
+  },
+  {
+   "id": "binmap-v3-misc-refine",
+   "opened": "2026-09-10",
+   "status": "ARMED",
+   "note": "v0粗分类器misc=55.7%罩在证(TARGET-SPECTRUM-WEIGHTS-01§三);细分misc亚类+双表口径统一"
   }
  ],
- "updated": "2026-09-11T02:35:14Z"
+ "updated": "2026-09-11T08:31:26Z"
 }
