@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:29:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "29b244f3",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(84ac057b→29b244f3)| 性态:版本控制常规推进，分支指针合法前移，未见回滚或冲突特征| 建议处置:例行巡检落账，确认提交签章及CI链路无异常，无需拦截| 锚:git-ref-update/qfa-mainline",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 589,
+    "total_tokens": 786,
+    "completion_tokens_details": {
+      "reasoning_tokens": 510
+    }
+  }
+}

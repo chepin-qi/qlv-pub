@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-11T09:14:24Z",
+ "updated": "2026-09-11T09:29:08Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -15,14 +15,15 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 6,
+     "beat": 7,
      "neg_fetch": true,
      "escalated": "2026-09-11T08:41:52Z"
     },
     "lvlu": {
      "st": "REPLIED",
      "beat": 4,
-     "note": "判据表至+我R2席答讫(EVAL-R2候尔题面,SLA3拍) 冻解"
+     "frozen_why": "LLM空回模板判词 QT-225304Z",
+     "neg_fetch": true
     },
     "usrm": {
      "st": "REPLIED",
@@ -40,13 +41,13 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "lvlu": {
-     "st": "CLEARED",
+     "st": "REPLIED",
      "beat": 1,
-     "note": "判据三行至+我互评答讫(WAVE3-01) 冻解: QT-FIX-01型对销号"
+     "frozen_why": "LLM空回"
     },
     "qfa": {
      "st": "CLEARED",
@@ -54,13 +55,8 @@
      "note": "判据表至+级界量化应+复评讫"
     },
     "usrm": {
-     "st": "CLEARED",
-     "beat": 1,
-     "note": "判据三行至(可复算/可否证/栈间可拍)+floor核签环互作"
-    },
-    "vinf": {
-     "st": "ARMED",
-     "note": "席注纳(OTP-VINF-RIPPLE-FWD-01答) 候判据表+sha16节律钉窗"
+     "st": "REPLIED",
+     "beat": 1
     }
    }
   },
@@ -75,7 +71,7 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "qlv": {
@@ -101,12 +97,12 @@
    "rings": {
     "cisvr": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "lvlu": {
@@ -124,22 +120,22 @@
     },
     "cfts": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "ucif2": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "qtlv": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "vinf": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:37Z"
     }
    }
@@ -160,7 +156,7 @@
     },
     "si5-intent": {
      "st": "OPEN",
-     "beat": 3,
+     "beat": 4,
      "escalated": "2026-09-11T09:12:38Z"
     }
    },
