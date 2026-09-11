@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T07:37:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡[chepin-ai/vci-inbox]序号123→128跳变，文件qfa-si5ring-answer-20260910T231548Z.md落入qlv/inbox| 性态:lane.drop跨线落件，属chepin-ai/vci向qlv/inbox的同步投送；本线未触发内容实测，仅感知索引跳变与文件名| 建议处置:已按WAKE-PROTO落账，文件裸候于inbox，不主动外求回应；待后续工位细读或触发响应| 锚:chepin-ai/vci-inbox",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1194,
+    "total_tokens": 1426,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1055
+    }
+  }
+}
