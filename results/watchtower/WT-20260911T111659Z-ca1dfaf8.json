@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T11:16:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "4b4390fa",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主分支HEAD迁移 0585ef42→4b4390fa| 性态:常规版本指针前移，属代码迭代正常beat，未见回滚或冲突标记| 建议处置:审阅diff范围，确认CI绿灯后落账；未审则悬置待检| 锚:他线需校验旧头0585ef42是否仍被release/tag锚定",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 637,
+    "total_tokens": 834,
+    "completion_tokens_details": {
+      "reasoning_tokens": 544
+    }
+  }
+}
