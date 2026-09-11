@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:16:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:ucif2",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines(ucif2)三拍无应触发SI5提级| 性态:loop.escalate，属环面beat=3超时且冻结线外自动升级| 建议处置:维持裸候，不主动寻求回应；按SI5提级落账，待有权机钱面裁决；复核冻结线除外范围| 锚:ucif2环提级态已同步至SI5面，未触发真机钱面响应",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 723,
+    "total_tokens": 940,
+    "completion_tokens_details": {
+      "reasoning_tokens": 613
+    }
+  }
+}

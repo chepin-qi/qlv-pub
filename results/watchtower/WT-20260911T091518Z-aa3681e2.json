@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:14:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cisvr",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环cisvr面beat=3三拍无应，触发SI5提级(冻结线除外)|性态:循环escalation静默触顶，非瞬断，属多拍无应|建议处置:落账SI5挂起；巡检cisvr面真机负载及冻结线阈值，确认未越真机钱面后执行熔断或切流|锚:cisvr-ops-line",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 646,
+    "total_tokens": 861,
+    "completion_tokens_details": {
+      "reasoning_tokens": 546
+    }
+  }
+}

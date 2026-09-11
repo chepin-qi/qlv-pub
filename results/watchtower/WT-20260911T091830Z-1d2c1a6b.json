@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:17:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "exp-ripple-01:si5-intent",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: exp-ripple-01环si5-intent面三拍无应，SI5提级，beat=3，冻结线除外| 性态: 意图面裸候态下的循环escalation，属实验涟漪常规提级。三拍无应触发，冻结线隔离有效，未越钱面，非异常。| 建议处置: 维持提级态裸候，不主动刷屏；次次落账beat计数；复核冻结线完整性，防非预期解封；待外部投件或第四拍后再裁决。| 锚: AUTH-OTP-02裸候条款/exp-ripple-01实验协议",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1402,
+    "total_tokens": 1621,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1260
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:16:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:qtlv",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环qtlv面beat=3三拍无应触发SI5提级(冻结线除外)| 性态:环面协同失步，属已触发未响应，非瞬时延迟乃结构性静默| 建议处置:维持现有冻结线隔离，执行环面重扫确认各锚点活性；若重扫仍无应，拆环为链或启动fallback线，防止死锁扩散| 锚:SI5提级协议/share-01-all-lines非qtlv他线面",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 917,
+    "total_tokens": 1134,
+    "completion_tokens_details": {
+      "reasoning_tokens": 797
+    }
+  }
+}

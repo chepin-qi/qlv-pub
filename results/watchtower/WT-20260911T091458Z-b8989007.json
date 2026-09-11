@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:14:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "ring-mesh-01-usrm:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ring-mesh-01-usrm环lgt面beat=3三拍无应，触发SI5提级（冻结线除外）| 性态:环路心跳裸候，面级持续性失效；已跨三拍周期，排除冻结线后仍无响应，非瞬时抖动| 建议处置:①复核lgt面物理链路及peer状态；②核查冻结线策略是否误伤；③确认失效后按SI5切流或启冗余环| 锚:交叉比对同环drk/opr面心跳，排除clock=VOID下全域伪失联，落实他线落账",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1036,
+    "total_tokens": 1256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 898
+    }
+  }
+}

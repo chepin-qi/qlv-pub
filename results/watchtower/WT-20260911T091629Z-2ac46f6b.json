@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:15:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cfts",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines 环 cfts 面 beat=3 三拍无应,触发 SI5 提级(冻结线除外)| 性态:选择性无响应,非全量失效;严守诚实边界,区分「未触发」与「触发未响应」,不臆测根因| 建议处置:①细收该环面存活节点清单;②核实冻结线策略是否干扰正常心跳;③按裁决结果落账 SI5 或降档| 锚:交叉校验同环 cfts-backbeat 及邻线 share-02-all-lines 锚定",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 958,
+    "total_tokens": 1172,
+    "completion_tokens_details": {
+      "reasoning_tokens": 824
+    }
+  }
+}

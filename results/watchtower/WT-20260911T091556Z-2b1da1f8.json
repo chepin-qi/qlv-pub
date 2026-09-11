@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:15:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:lgt环面beat=3三拍无应，致SI5提级（冻结线除外）| 性态:裸候挂起，属触发未响应，loop.escalate自旋| 建议处置:不刷屏、不越真机钱面，按WAKE-PROTO落账；待冻结线解除后补测| 锚:ctrl-00-core",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1311,
+    "total_tokens": 1525,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1215
+    }
+  }
+}

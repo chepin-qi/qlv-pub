@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T09:17:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:vinf",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环vinf面beat=3三拍无应，触发SI5提级，已排除冻结线。| 性态:loop.escalate类环面心跳丢失，属被动提级，当前非裸候，疑似下游阻塞或未落账。| 建议处置:依WAKE-PROTO扫描→细收→裁决→落账；复核vinf面活跃线状态，根查未响应原因；投必有件，无件则裸候。| 锚:vinf提级源/share-01-all-lines主控/vback回环审计。",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1030,
+    "total_tokens": 1244,
+    "completion_tokens_details": {
+      "reasoning_tokens": 898
+    }
+  }
+}

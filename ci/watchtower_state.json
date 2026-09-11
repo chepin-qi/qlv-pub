@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "f116e3a82e7cbeebc1ad8223d098aff86092f8b7",
+  "qfa_head": "84ac057bf968b8dc19d450dd0aca83da71579272",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -18,14 +18,14 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      0,
+      1,
+      9,
       1,
       0,
       0,
       0,
       0,
-      1,
-      0,
-      8,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -50,7 +50,7 @@
   "loops_open": 20,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 77
+    "beacon_comments": 87
   },
-  "qgl_head": "6e7bd5fe7100ab8ac10851f75c79444e47ea0e48"
+  "qgl_head": "4ea42105712f042ae3b8c9d03df3b9e27ee58e29"
 }
