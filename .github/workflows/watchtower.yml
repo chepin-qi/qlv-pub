@@ -60,7 +60,10 @@ jobs:
           git push origin main && exit 0
           git fetch origin main
           if ! git rebase origin/main; then
-            git checkout --theirs ci/watchtower_state.json && git add ci/watchtower_state.json
+            # TOWER-FIX-QLV-04(2026-09-11): 冲突解器与落账集对齐——state+loops 双件皆取本拍新算值
+            # (器课第八株: 解器集⊊落账集=拍死; 前证 run#34580819713 loops.json 冲突 exit1)
+            git checkout --theirs ci/watchtower_state.json ci/loops.json 2>/dev/null || true
+            git add ci/watchtower_state.json ci/loops.json
             GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
           fi
           git push origin main
