@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:37:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:lgt面beat=3三拍无应，冻结线除外，触发SI5提级| 性态:全线lgt环触发后静默，非未触发；属轮询超时级联，真机面未越，诚标为触发未响应| 建议处置:按OTP-02裸候原则，不主动外呼寻求回应；SI5落账后持续监拍，待第4拍或人工解冻线复归| 锚:旁路心跳线hb-aux-02同环比对，交叉确认真空区|",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 873,
+    "total_tokens": 1087,
+    "completion_tokens_details": {
+      "reasoning_tokens": 741
+    }
+  }
+}

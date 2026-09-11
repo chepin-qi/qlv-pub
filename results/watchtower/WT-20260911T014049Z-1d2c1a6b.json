@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:40:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "exp-ripple-01:si5-intent",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:exp-ripple-01 环 si5-intent 面三拍无应，触发 loop.escalate，beat=3，冻结线除外。| 性态:SI5 提级已触发，属三拍裸候后意图层级联跳变，非首拍即挂，未越真机钱面。| 建议处置:复核冻结线外裸候边界，确认后落账；维持提级挂起，不主动外扰。| 锚:AUTH-OTP-02 裸候节/WAKE-PROTO 落账律。",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1055,
+    "total_tokens": 1274,
+    "completion_tokens_details": {
+      "reasoning_tokens": 928
+    }
+  }
+}

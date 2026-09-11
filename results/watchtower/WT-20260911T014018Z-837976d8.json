@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:39:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:vinf",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环vinf面beat=3三拍无应，触发SI5提级(冻结线除外)| 性态:loop.escalate，环面节拍超时悬停，未触发/触发未响应待实测区分，诚实边界内不编数| 建议处置:剔冻线后逐件复核，按AUTH-OTP-02裸候或次次落账，不越真机钱面| 锚:SI5节拍计数器@loop-escalation-vinf",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 987,
+    "total_tokens": 1201,
+    "completion_tokens_details": {
+      "reasoning_tokens": 869
+    }
+  }
+}

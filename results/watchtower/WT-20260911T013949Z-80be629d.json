@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:39:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:qtlv",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环qtlv面beat=3三拍无应(冻线外)，触发SI5提级| 性态:环面静默扩散，属触发未响应型超时失效| 建议处置:执行SI5旁路，冻结该环非关键线，裸候主站裁决，禁越真机钱面| 锚:share-01-all-lines:qtav他线面静默对比锚",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 735,
+    "total_tokens": 952,
+    "completion_tokens_details": {
+      "reasoning_tokens": 634
+    }
+  }
+}

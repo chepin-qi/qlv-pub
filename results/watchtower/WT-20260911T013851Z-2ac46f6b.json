@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:38:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cfts",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines:cfts 环面 beat=3 三拍无应，SI5 提级生效(冻结线除外)| 性态:协议内 loop.escalate，属自动提级轨迹，未越真机钱面，诚实边界内| 建议处置:已细收落账，维持裸候，不主动寻求回应，待下拍或自愈| 锚:SI5-提级律/裸候协议 AUTH-OTP-02/cfts 环面心跳",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1072,
+    "total_tokens": 1286,
+    "completion_tokens_details": {
+      "reasoning_tokens": 956
+    }
+  }
+}

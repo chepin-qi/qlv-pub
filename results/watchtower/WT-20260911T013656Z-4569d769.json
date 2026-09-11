@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:36:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "si5-ring-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:si5-ring-01环lgt面三拍无应，SI5提级至beat=3，冻结线除外| 性态:裸候未获响应，loop.escalate，未越真机钱面| 建议处置:扫描冻结线状态→细收裸候面→裁决维持提级或落账→次次落账；诚实边界，未实测不编数，区隔「未触发/触发未响应」| 锚:si5-ring-01:lgt↔si5提级协议",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 970,
+    "total_tokens": 1184,
+    "completion_tokens_details": {
+      "reasoning_tokens": 846
+    }
+  }
+}

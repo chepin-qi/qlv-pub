@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:36:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "ring-mesh-01-usrm:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ring-mesh-01-usrm环lgt面三拍无应，触发SI5提级| 性态:beat=3周期内该面除冻结线外全环静默，疑似链路级中断或批量节点假死，未确认真机掉电| 建议处置:1.核验冻结线隔离有效性；2.逐跳光功率与协议状态巡线；3.若保护未倒换，强启APS并上报告警台| 锚:值班台已收-ring-mesh-01-usrm:lgt/SI5提级同步态",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 928,
+    "total_tokens": 1148,
+    "completion_tokens_details": {
+      "reasoning_tokens": 795
+    }
+  }
+}

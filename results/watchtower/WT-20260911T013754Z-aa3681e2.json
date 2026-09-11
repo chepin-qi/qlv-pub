@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:37:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:cisvr",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines 环 cisvr 面 beat=3 三拍无应触发 SI5 提级（冻结线除外）| 性态:环面活跃线路全量应答失效，属环路收敛异常；冻结线已隔离，剩余节点在三拍周期内无响应，非单点故障，疑为网络分区或 cisvr 面服务悬停| 建议处置:① 排查活跃节点网络连通与负载；② 核验冻结线策略是否引发环面脑裂；③ 按 SI5 通报值班并预备降级/重启| 锚:cisvr 环面心跳 / SI5 自动提级",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1005,
+    "total_tokens": 1220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 858
+    }
+  }
+}

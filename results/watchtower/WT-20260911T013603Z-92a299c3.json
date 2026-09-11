@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:35:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "bc655937",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁55b741d0→bc655937| 性态:纯节拍事件，仅记录HEAD指针漂移，无异常载荷、无触发业务校验、无响应缺失| 建议处置:次次落账，裸候下一beat；未实测异常则不予干预| 锚:git-ref语义下commit链正常推进，qfa.beat线按WAKE-PROTO已扫描落账",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 776,
+    "total_tokens": 970,
+    "completion_tokens_details": {
+      "reasoning_tokens": 678
+    }
+  }
+}

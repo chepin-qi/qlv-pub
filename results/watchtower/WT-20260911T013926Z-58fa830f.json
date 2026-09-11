@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T01:38:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "share-01-all-lines:ucif2",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:share-01-all-lines环ucif2面beat=3无应，触发SI5提级，冻结线除外| 性态:loop escalation告警，属超时裸候；需严格区分节点未触发、触发未响应或链路假死，诚实边界不编数| 建议处置:一、细收ucif2节点真机状态与配置漂移；二、裸候按AUTH-OTP-02次次落账，不主动seek response；三、非冻结线则启备线切换或生根检查| 锚:ucif2裸候节点锚至share-01-monitor线交叉验活，符合米田边律",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1262,
+    "total_tokens": 1479,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1115
+    }
+  }
+}
