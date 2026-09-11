@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "1e0febe0025708035c56a6aa7d35398320853a3d",
+  "qfa_head": "1aa52711e80e27e9d7666eb7631a9dcd49157631",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -14,26 +14,26 @@
     "vci-vinf#6": 1,
     "vci-inbox#2": 0
   },
-  "lane_inbox_count": 120,
+  "lane_inbox_count": 122,
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
-      0,
-      0,
-      9,
-      0,
-      0,
       0,
       1,
       0,
       0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -50,7 +50,7 @@
   "loops_open": 19,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 62
+    "beacon_comments": 64
   },
-  "qgl_head": "a62307c2d9593fb9a0104be3d20aa1648dd77a14"
+  "qgl_head": "cf26429aa873985bcf9e9a0d09db2cd59c86d4f6"
 }
