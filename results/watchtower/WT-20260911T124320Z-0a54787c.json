@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T12:42:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡chepin-ai/vci-inbox版本131→132推进，同刻qfa-si5ring-answer-20260910T231548Z.md落件qlv/inbox，属lane.drop到件| 性态:跨巷投件，版本号跳变伴随应答文件落入；当前未触发内容扫描与裁决，状态为裸候| 建议处置:依WAKE-PROTO执行扫描→细收，核验投必有件与诚实边界；有效则裁决落账，无效则标废留痕| 锚:chepin-ai/vci-inbox@132",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 891,
+    "total_tokens": 1123,
+    "completion_tokens_details": {
+      "reasoning_tokens": 756
+    }
+  }
+}
