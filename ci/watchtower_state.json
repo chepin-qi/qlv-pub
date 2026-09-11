@@ -22,18 +22,18 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       1,
       0,
       0,
       0,
-      2
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -47,10 +47,10 @@
     "last_fp": "1641c46c2dbc"
   },
   "lane_inbox_count_qlvlab": 3,
-  "loops_open": 20,
+  "loops_open": 18,
   "post_budget": {
     "date": "2026-09-11",
-    "beacon_comments": 99
+    "beacon_comments": 98
   },
   "qgl_head": "c33e1fbc63755746282d089c2b27bfda3c05a30e"
 }
