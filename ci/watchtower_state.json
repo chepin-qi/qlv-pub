@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "2c6d005d82561cbf281fdee39c6a047b2c6860bf",
+  "qfa_head": "76de864488595b4015f11ec5242a559c9e5ca600",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -22,13 +22,13 @@
       0,
       0,
       1,
+      0,
+      0,
+      0,
+      0,
       1,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
     ],
     "sigma": 1.0,
@@ -47,7 +47,7 @@
     "last_fp": "1641c46c2dbc"
   },
   "lane_inbox_count_qlvlab": 3,
-  "loops_open": 20,
+  "loops_open": 18,
   "post_budget": {
     "date": "2026-09-11",
     "beacon_comments": 98

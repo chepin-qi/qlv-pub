@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T15:19:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "76de8644",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 21a6937c→76de8644 | 性态:版本迭代落账，beat类事件，主分支指针前移，属常规代码仓变更，未触发异常 | 建议处置:已落账，无需拦截；关注后续构建/部署链路是否同步 | 锚:qfa main@76de8644",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 702,
+    "total_tokens": 898,
+    "completion_tokens_details": {
+      "reasoning_tokens": 616
+    }
+  }
+}
