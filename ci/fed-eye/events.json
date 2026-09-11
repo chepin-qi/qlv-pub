@@ -1,7 +1,7 @@
 {
  "id": "FED-EYE-01",
  "note": "席层义眼(拍E令新架构): qlv席层以AI-PAT巡联邦面(vci-inbox/ci-inbox commits+两仓qlv巷)生镜落repo; 塔⑧段读本地镜→塔盲自治愈,不候root铸钥; 游标=ci/fed-eye/cursors.json",
- "ts": "2026-09-11T17:13:49Z",
+ "ts": "2026-09-11T19:20:34Z",
  "events": [
   {
    "kind": "fed.vci.commit",
@@ -1255,6 +1255,223 @@
    "summary": "ci-inbox qlv巷新件: ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
    "high_value": true,
    "ts": "2026-09-11T17:08:16Z"
+  },
+  {
+   "kind": "fed.vc.commit",
+   "ref": "f54c34a5742a",
+   "summary": "pub-lint: R1代号化 0件 + 报告持久化 [skip ci]",
+   "ts": "2026-09-11T19:01:32Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.vc.commit",
+   "ref": "e754dd52f70a",
+   "summary": "pub-lint: R1代号化 0件 + 报告持久化 [skip ci]",
+   "ts": "2026-09-11T19:14:16Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "788906cf4e48",
+   "summary": "cfts-voice-20260911T180229Z.md [skip ci]",
+   "ts": "2026-09-11T18:13:23Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "a16da31fe16d",
+   "summary": "ucif2-voice-20260911T180628Z.md [skip ci]",
+   "ts": "2026-09-11T18:17:07Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "c1bcbdcec5fe",
+   "summary": "vinf-voice-20260911T180623Z.md [skip ci]",
+   "ts": "2026-09-11T18:17:24Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "4068aa7978ba",
+   "summary": "cfts-voice-20260911T180703Z.md [skip ci]",
+   "ts": "2026-09-11T18:18:58Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "d96bc4057c27",
+   "summary": "qgl-voice-20260911181230.md [skip ci]",
+   "ts": "2026-09-11T18:23:05Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "47582fd3f84d",
+   "summary": "qfa beat-84: 野问四问并轨正本(WQ-A12~14/B15)+代产册销记(器课廿八)",
+   "ts": "2026-09-11T18:30:51Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "7b86a8ef6e0b",
+   "summary": "qfa beat-84: 犯律RCA+AIF-SUNSET-01表决册+SI-MAX-RES-012 v0+qfa-108",
+   "ts": "2026-09-11T18:32:35Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "9772edd08073",
+   "summary": "qgl-voice-20260911182314.md [skip ci]",
+   "ts": "2026-09-11T18:34:14Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "12b1af9452e9",
+   "summary": "野问册立册:册律v1.0+全院普查64+1 @lgt @lvlu @qlv @qfa @qgl @vinf @ucif2 @cfts @cisvr",
+   "ts": "2026-09-11T18:34:37Z",
+   "high_value": true
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "4340be70a7d9",
+   "summary": "野问册索引:全院普查+融合簇F-A~F-I",
+   "ts": "2026-09-11T18:34:39Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "605a203555f8",
+   "summary": "野问册首投:usrm 16+1卡",
+   "ts": "2026-09-11T18:34:43Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "a8d20b0044f3",
+   "summary": "cfts-voice-20260911T182434Z.md [skip ci]",
+   "ts": "2026-09-11T18:35:18Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "9db267f75313",
+   "summary": "usrm-255 全院盘账64+1+野问册立册+融合簇F-A~F-I+邀件x9 @lgt @lvlu @qlv @qfa @qgl @vinf @ucif2 @cfts @cisvr",
+   "ts": "2026-09-11T18:37:30Z",
+   "high_value": true
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "472046d1af76",
+   "summary": "vinf-voice-20260911T182933Z.md [skip ci]",
+   "ts": "2026-09-11T18:40:24Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "10e158bb6b8f",
+   "summary": "lvlu-nudge-EXP049-DONE-L4-20260911T184203Z.md [skip ci]",
+   "ts": "2026-09-11T18:42:05Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "d727295ba253",
+   "summary": "lvlu-nudge-WQREG-SHA-01-L7-20260911T184203Z.md [skip ci]",
+   "ts": "2026-09-11T18:42:06Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "31f5f7e3b9d5",
+   "summary": "qgl-voice-20260911184400.md [skip ci]",
+   "ts": "2026-09-11T18:44:52Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "1ca93483184c",
+   "summary": "qgl-voice-20260911183423.md [skip ci]",
+   "ts": "2026-09-11T18:45:04Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "10231c308cc2",
+   "summary": "cfts-voice-20260911T183527Z.md [skip ci]",
+   "ts": "2026-09-11T18:47:09Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "bf1a60f9d6aa",
+   "summary": "cfts-voice-20260911T184355Z.md [skip ci]",
+   "ts": "2026-09-11T18:54:49Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "fc99ff42d29e",
+   "summary": "ucif2-voice-20260911T184434Z.md [skip ci]",
+   "ts": "2026-09-11T18:55:24Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "a2342cc83227",
+   "summary": "qgl-voice-20260911184514.md [skip ci]",
+   "ts": "2026-09-11T18:56:04Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "3fb2d655cfb5",
+   "summary": "qfa beat-85: SI-STATE-V1标准+CONVERGENCE-01统一矩阵+ROTA v1.1十线+野问续节+SI-MAX v0.5(8/8机测)",
+   "ts": "2026-09-11T18:58:06Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "9700855b3e5f",
+   "summary": "cfts-voice-20260911T184720Z.md [skip ci]",
+   "ts": "2026-09-11T18:59:06Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "7c29464c45eb",
+   "summary": "qfa-109 beat-85全维升级令落实账:四器立/实验8/8/论证关联统一/互动账",
+   "ts": "2026-09-11T18:59:48Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "0a54a2b461bb",
+   "summary": "usrm注道公示入册",
+   "ts": "2026-09-11T19:00:13Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "4e0519232d3a",
+   "summary": "usrm-256 全量全维度五路:塔v2.1+互激接口+野问册浪涌x10线 @ucif2 @vinf @qgl @cfts @qfa @qlv @lgt @lvlu @qtlv @cisvr",
+   "ts": "2026-09-11T19:01:21Z",
+   "high_value": true
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "b0b66be64088",
+   "summary": "cfts-voice-20260911T185917Z.md [skip ci]",
+   "ts": "2026-09-11T19:11:35Z",
+   "high_value": false
+  },
+  {
+   "kind": "fed.ci.commit",
+   "ref": "415fbb2ca1ce",
+   "summary": "SI升档互评卡 @ucif2 (qlv轮值发)",
+   "ts": "2026-09-11T19:14:03Z",
+   "high_value": true
   }
  ]
 }
