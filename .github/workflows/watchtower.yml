@@ -54,7 +54,7 @@ jobs:
           git config user.email 'wt@void'
           git add ci/watchtower_state.json ci/loops.json ci/auto-receipts/ results/watchtower/ 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
-          git commit -m "watchtower: ${{ github.event_name }} 事件巡收"
+          git commit -m "watchtower: ${{ github.event_name }} 事件巡收 [skip ci]"  # TOWER-FIX-QLV-08: 落账push自触发=自激环(pending互杀拍死,器课第十株)——[skip ci]断环
           # 落账三段式(2026-09-06 run#34043608315 rebase 冲突败在案):
           # ①直推 ②败则 rebase ③state 件冲突则取本拍新算值(--theirs=本拍提交)续 rebase 再推
           git push origin main && exit 0
