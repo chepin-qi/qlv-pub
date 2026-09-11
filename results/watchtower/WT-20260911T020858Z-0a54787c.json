@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T02:08:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop入件，chepin-ai/vci-inbox巷卡109→112，新件qfa-si5ring-answer-20260910T231548Z.md落入qlv-inbox。| 性态:常规被动收束，无异常标记，属跨巷同步增量，未触发裁决条件。| 建议处置:执行细收落账，更新巷卡水位为112；按裸候原则不主动回传，静默归档待链式调用。| 锚:chepin-ai/vci-inbox#112",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 717,
+    "total_tokens": 949,
+    "completion_tokens_details": {
+      "reasoning_tokens": 596
+    }
+  }
+}
