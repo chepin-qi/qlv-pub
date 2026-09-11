@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T05:19:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b1ed7ded",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移(beat)| 性态:1aa52711→b1ed7ded，单指针常规推进，摘要未示冲突/回滚/强推标记，属标准 beat 更新| 建议处置:纳账落库；建议后续补强分支保护、CI门禁及 diff 复核，防未经评审直接 Advance| 锚:建议交叉核对 remote hook 日志与 CI 流水，确认 b1ed7ded 已过门禁且非强推覆盖。",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 930,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 816
+    }
+  }
+}
