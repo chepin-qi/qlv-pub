@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:05:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "si5-ring-01:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件抵lane:usrm*，经si5-ring-01环usrm面REPLIED，候SI2细收| 性态:流程中态，环回已闭环，待SI2确认，未触发异常，未越真机钱面| 建议处置:遵裸候原则，不主动求应，待SI2细收自动落账；仅置超时扫描| 锚:si5-ring-01↔SI2.handoff/环回复位链",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1115,
+    "total_tokens": 1327,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1000
+    }
+  }
+}

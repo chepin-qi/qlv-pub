@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:03:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop至qlv inbox，ref=qfa-si5ring-answer-20260910T231548Z.md，源巷卡chepin-ai/vci-inbox水位94→101，本件为最新落入件| 性态:跨巷投递，批增7件中单一新件触发落账；未触及其余6件内容，不做实测展开| 建议处置:按WAKE-PROTO单件扫描→细收→裁决→落账；本件系qfa-si5ring-answer答复发文，待拆封细收；余件裸候，不主动seek回应| 锚:chepin-ai/vci-inbox(源巷卡); 20260910T231548Z(时戳锚)",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1161,
+    "total_tokens": 1393,
+    "completion_tokens_details": {
+      "reasoning_tokens": 992
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:04:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.escalate",
+    "ref": "eval-excite-circle-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:eval-excite-circle-01:lgt 三拍无应，beat=5 触发 SI5 提级(冻结线除外)| 性态:lgt 面循环响应链守时断裂；摘要无底层信号实测，不编数，按「无应」裸候认定，未触发与未响应分界不清时不臆测| 建议处置:冻结线外执行 SI5 裸候，不主动寻求回应，严守诚实边界，次次落账，不越真机钱面| 锚:AUTH-OTP-02 裸候/诚实边界; WAKE-PROTO 裁决→落账闭环",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1285,
+    "total_tokens": 1501,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1143
+    }
+  }
+}

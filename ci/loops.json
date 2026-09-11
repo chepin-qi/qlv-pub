@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-10T23:48:36Z",
+ "updated": "2026-09-11T00:03:11Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -15,8 +15,9 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 4,
-     "neg_fetch": true
+     "beat": 5,
+     "neg_fetch": true,
+     "escalated": "2026-09-11T00:03:08Z"
     },
     "lvlu": {
      "st": "FROZEN",
@@ -25,7 +26,7 @@
      "neg_fetch": true
     },
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     }
    }
@@ -40,7 +41,7 @@
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "lvlu": {
      "st": "FROZEN",
@@ -53,7 +54,7 @@
      "note": "判据表至+级界量化应+复评讫"
     },
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     }
    }
@@ -64,12 +65,12 @@
    "status": "RUNNING",
    "rings": {
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "qlv": {
      "st": "JOINED"
@@ -94,11 +95,11 @@
    "rings": {
     "cisvr": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "lgt": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "lvlu": {
      "st": "FROZEN",
@@ -110,24 +111,24 @@
      "note": "resp-qlv-03/04+si5ring-answer三件"
     },
     "usrm": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 1
     },
     "cfts": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "ucif2": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "qtlv": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     },
     "vinf": {
      "st": "OPEN",
-     "beat": 1
+     "beat": 2
     }
    }
   }

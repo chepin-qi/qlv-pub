@@ -1,54 +1,55 @@
 {
-  "beacon_max": 5564921753,
-  "qfa_head": "0bf9f5cbe37decc723d266dc150ad5bc82763f5e",
-  "quafu": {
-    "8CA608102028586C": "0",
-    "8BB169201FA3F5D4": "0"
-  },
-  "faces": {
-    "lgt-line#1": 3,
-    "vci-cfts#1": 2,
-    "vci-inbox#3": 5,
-    "vci-usrm#21": 1,
-    "vci-ucif2#1": 1,
-    "vci-vinf#6": 1,
-    "vci-inbox#2": 0
-  },
-  "lane_inbox_count": 94,
-  "cadence": {
-    "v": "METER-CADENCE-01-cand",
-    "w12": [
-      0,
-      1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0,
-      0,
-      1
-    ],
-    "sigma": 1.0,
-    "lock": null,
-    "dominant_bin": 1,
-    "C_streak": 0,
-    "verdict": "进行式"
-  },
-  "autoresp": {
-    "date": "2026-09-10",
-    "calls": 10,
-    "last_fp": "1641c46c2dbc",
-    "seen_refs": [
-      "qfa.beat|91b2560c",
-      "qfa.beat|f5c50c4d",
-      "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json",
-      "qfa.beat|00266939",
-      "qfa.beat|374a5af7",
-      "qfa.beat|ab72b5b6"
-    ]
-  },
-  "lane_inbox_count_qlvlab": 3
+ "beacon_max": 5564921753,
+ "qfa_head": "b2e6af08f736a97dae5f85ebcb02924fbffb92c4",
+ "quafu": {
+  "8CA608102028586C": "0",
+  "8BB169201FA3F5D4": "0"
+ },
+ "faces": {
+  "lgt-line#1": 3,
+  "vci-cfts#1": 2,
+  "vci-inbox#3": 5,
+  "vci-usrm#21": 1,
+  "vci-ucif2#1": 1,
+  "vci-vinf#6": 1,
+  "vci-inbox#2": 0
+ },
+ "lane_inbox_count": 101,
+ "cadence": {
+  "v": "METER-CADENCE-01-cand",
+  "w12": [
+   0,
+   0,
+   4,
+   0,
+   2,
+   0,
+   0,
+   1,
+   1,
+   0,
+   0,
+   0
+  ],
+  "sigma": 1.0,
+  "lock": null,
+  "dominant_bin": 2,
+  "C_streak": 0,
+  "verdict": "进行式"
+ },
+ "autoresp": {
+  "date": "2026-09-11",
+  "calls": 1,
+  "seen_refs": [
+   "qfa.beat|ab72b5b6",
+   "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  ],
+  "last_fp": "1641c46c2dbc"
+ },
+ "lane_inbox_count_qlvlab": 3,
+ "loops_open": 14,
+ "post_budget": {
+  "date": "2026-09-11",
+  "beacon_comments": 7
+ }
 }

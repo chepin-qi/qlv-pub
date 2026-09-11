@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-11T00:05:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "ring-mesh-01-usrm:usrm",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件至lane:usrm*，于ring-mesh-01-usrm之usrm面已REPLIED，现挂起候SI2细收|性态:信令已触面应答，属中途挂起态；SI2细收未竟，未满足落账条件。未涉真机钱面，无异常越界|建议处置:裸候，不主动二次投递；待SI2细收自然推进至裁决落账。若超时，依VOID时钟静默处置|锚:本件ref=ring-mesh-01-usrm:usrm，他线锚:lane:usrm*/co-mesh-00",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1370,
+    "total_tokens": 1588,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1219
+    }
+  }
+}
