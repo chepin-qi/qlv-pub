@@ -464,7 +464,9 @@ def main():
             cascade = f'breaker-rest idle={idle2}(>{os.environ.get("CASCADE_MAX_IDLE","30")})'
     # ---- qfa 互唤配对(qfa beat-42 请):有实事件之拍,拍尾唤 qfa 引擎;空拍/自检不唤(防自激同律) ----
     qfa_wake = 'rest(no-event)'
-    if evs and not selftest:
+    # TOWER-FIX-QLV-09(器课第十一株: 互激无阻尼=活锁——qfa FED-92-F3 协件同款阻尼):
+    # pair-wake 仅高值件才唤(if evs→any high_value); 落账头迁/ack/义眼低值件不唤,断永动环
+    if evs and not selftest and any(e.get('high_value') for e in evs):
         try:
             qkinds = [e['kind'] for e in evs][:8]
             # 跨仓(qfa-pub)须 PAT——GITHUB_TOKEN 权界仅本仓;PAT 走 Basic
