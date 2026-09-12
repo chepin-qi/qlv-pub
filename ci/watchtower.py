@@ -326,8 +326,26 @@ def poll(pat, st):
             st['_probe_err_sig'] = sig
             faces = ','.join(sorted(_PROBE_ERR.keys()))
             ev.append({'kind':'probe.blind','ref':sig,
-                       'summary':'塔盲面留痕[%s]: 探针失败面=chepin-ai仓域(QI_PAT 404已确诊20260911)——根治=FED-EYE席层义眼(⑧段),不候root铸钥; 痕见state._probe_err' % faces,
+                       'summary':'塔盲面留痕[%s]: 探针失败面=chepin-ai仓域(QI_PAT 404已确诊20260911)——根治=FED-EYE义眼(⑧段)+FED_PAT自钥环(FIX-10在役); 痕见state._probe_err' % faces,
                        'high_value':True})
+    # ⑦.5 KEY-DARK-01 钥亡警面+降级面(SUNSET-01四务之④): 连三拍探针全哑→dark→降级巡不停车; 复明→警收
+    try:
+        _KD = st.setdefault('keydark', {'fails': 0, 'dark': False})
+        if _PROBE_ERR:
+            _KD['fails'] = int(_KD.get('fails', 0)) + 1
+        else:
+            if _KD.get('dark'):
+                ev.append({'kind': 'keydark.recovered', 'ref': 'keydark',
+                           'summary': '[钥复]联邦探针复明,降级收,待发槽待倾巢(KEY-DARK-01§复归)', 'high_value': True})
+            _KD['fails'] = 0
+            _KD['dark'] = False
+        if int(_KD.get('fails', 0)) >= 3 and not _KD.get('dark'):
+            _KD['dark'] = True
+            ev.append({'kind': 'keydark.alarm', 'ref': 'keydark',
+                       'summary': '[钥亡警]联邦面连三拍全哑→KEY-DARK降级:义眼残镜独撑+待发槽预铸制+QI面续巡,不停车', 'high_value': True})
+        st['keydark'] = _KD
+    except Exception as e:
+        ev.append({'kind': 'keydark.err', 'ref': 'keydark', 'summary': str(e)[:120], 'high_value': False})
     # ⑧ FED-EYE 义眼面(拍E令新架构: 席层巡联邦生镜落repo, 塔读本地镜——塔盲自治愈, 零外部调用)
     try:
         fp = os.path.join(ROOT, 'ci', 'fed-eye', 'events.json')

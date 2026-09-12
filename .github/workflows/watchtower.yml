@@ -32,6 +32,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: SCAN-OWN-KEYS-01 自钥闸(写前闸:凡出文先扫,值片段运行时派生)
+        run: python ci/scan_own_keys.py .
+        env:
+          QI_PAT: ${{ secrets.QI_PAT }}
+          FED_PAT: ${{ secrets.FED_PAT }}
       - name: watchtower --once(自醒链入拍→轮询→事件→API 开工→落账→自唤出拍)
         env:
           KIMI_API_KEY: ${{ secrets.KIMI_API_KEY_VCI1 }}

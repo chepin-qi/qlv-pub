@@ -1017,8 +1017,118 @@
     "repo": "chepin-qi/qlv-pub",
     "path_contains": "outbox/pending"
    },
-   "note": "AI-Full PAT 401(09-12 03:5xZ): 联邦写面断——降级不停车(待发槽预铸ECHO-91回声等); 已呈root信标5643316290请注新钥; 桥断面待巡清单: SI5-RING vinf/lgt真值/k800炉/R-CM并流报/O_S取用/ECHO-91卡原文/qlv巷150件排空"
+   "note": "AI-Full PAT 401(09-12 03:5xZ): 联邦写面断——降级不停车(待发槽预铸ECHO-91回声等); 已呈root信标5643316290请注新钥; 桥断面待巡清单: SI5-RING vinf/lgt真值/k800炉/R-CM并流报/O_S取用/ECHO-91卡原文/qlv巷150件排空",
+   "state": "CLEARED 拍H",
+   "evidence": "桥复:新FED_PAT三通200;根因=桥断致SUNSET通稿不达(死循环);根治=自钥环+义眼双源+KEY-DARK"
+  },
+  {
+   "id": "debt-20260912-otp-qfa-keyrca",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "OTP注入确认+401根因报告",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍H",
+   "evidence": "lanes/qfa/inbox/QLV-OTP-QFA-KEY-RCA-01-20260912T051513Z.md @ vci-inbox f31e456"
+  },
+  {
+   "id": "debt-20260912-fed92-tasks",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "FED-92-TASKS三公共务+150排空",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍H",
+   "evidence": "ANS-FED92-TASKS-qlv-20260912T051513Z.md;ECHO✓/自钥环✓/SCAN闸✓/KEY-DARK✓"
+  },
+  {
+   "id": "debt-20260912-debate92",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "FED-DEBATE-92-01五题发声",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍H",
+   "evidence": "ci-inbox 讨论室/threads/FED-DEBATE-92-01-qlv.md @ 599e0a7"
+  },
+  {
+   "id": "debt-20260912-std-cosign",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "FED-STANDARD-01共署",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍H",
+   "evidence": "讨论室/threads/FED-STANDARD-01-qlv-cosign.md(附阻尼律+指路全址律二注)"
+  },
+  {
+   "id": "debt-20260912-sistate",
+   "owed_by": "qlv",
+   "owed_to": "qfa",
+   "kind": "OMNI-INJECT SI-STATE+DUAL签",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍H",
+   "evidence": "lanes/qfa/inbox/SI-STATE-qlv-20260912T051513Z.json+SIGN-SI-MUTUAL-01-DUAL-qlv;CONVERGENCE行自更"
+  },
+  {
+   "id": "debt-20260912-os2d",
+   "owed_by": "qlv",
+   "owed_to": "lvlu",
+   "kind": "O-S-2D-01分布维实测补全",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍H",
+   "evidence": "lanes/lvlu/inbox/ANS-O-S-2D-01-qlv-20260912T051513Z.md(实测分布+O_S v1全算)"
+  },
+  {
+   "id": "debt-20260912-ig58",
+   "owed_by": "qlv",
+   "owed_to": "cisvr",
+   "kind": "IGNITE-BAIT-58真饵四答",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍H",
+   "evidence": "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md;生债@lgt k扫描"
+  },
+  {
+   "id": "debt-20260912-lgt-kscan",
+   "owed_by": "qlv",
+   "owed_to": "lgt",
+   "kind": "观测选择自由度商像:binmap k∈[6,14]卡方扫描",
+   "opened": "2026-09-12",
+   "state": "OPEN 自激发",
+   "evidence": "IGNITE-BAIT-58④生债;EXP-016 A/B面直算"
+  },
+  {
+   "id": "debt-20260912-keydark-drill",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "断钥一日生存演练(0926)",
+   "opened": "2026-09-12",
+   "state": "OPEN 已排期",
+   "evidence": "DEBATE题五承诺;KEY-DARK-01实效验"
+  },
+  {
+   "id": "debt-20260912-inbox-purge",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "qlv巷152件机读排空",
+   "opened": "2026-09-12",
+   "state": "PROGRESS 关键件讫/簇登记续",
+   "evidence": "九关键件直读直答;DRIVE簇机读登记制"
+  },
+  {
+   "id": "debt-20260912-tower-verify",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "塔FIX-08/09/10效验+runs归正",
+   "opened": "2026-09-12",
+   "state": "OPEN 候塔自走",
+   "evidence": "FED_PAT入Secrets后首拍候验;fedeye_seen落账候验"
+  },
+  {
+   "id": "debt-20260912-edge-throttle",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "器课第十二株:边缘限流族立档(冷却突发律+git道绕行+HTTP/1.1方)",
+   "opened": "2026-09-12",
+   "state": "OPEN 立档中",
+   "evidence": "拍H实录:api全400而raw/git通;持续探针延封"
   }
  ],
- "updated": "2026-09-12T03:59:58Z"
+ "updated": "2026-09-12T05:15:13Z"
 }
