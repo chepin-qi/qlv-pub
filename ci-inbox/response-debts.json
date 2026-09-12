@@ -1128,7 +1128,52 @@
    "opened": "2026-09-12",
    "state": "OPEN 立档中",
    "evidence": "拍H实录:api全400而raw/git通;持续探针延封"
+  },
+  {
+   "id": "debt-20260912-orbit-cap01-bypass",
+   "owed_by": "lvlu",
+   "owed_to": "qlv",
+   "kind": "CAP-01旁路补位(滞qfa~19h)",
+   "opened": "2026-09-12",
+   "state": "OPEN 已促",
+   "evidence": "ORBIT-RELAY-QLV-01投lvlu lane"
+  },
+  {
+   "id": "debt-20260912-orbit-cap02-lgt",
+   "owed_by": "lgt",
+   "owed_to": "qlv",
+   "kind": "CAP-02下下站旁路权行使",
+   "opened": "2026-09-12",
+   "state": "OPEN 已促",
+   "evidence": "ORBIT-BYPASS-RIGHT-lgt投lgt lane"
+  },
+  {
+   "id": "debt-20260912-orbit-cap03-ring",
+   "owed_by": "qlv",
+   "owed_to": "federation",
+   "kind": "CAP-03自发环巡归",
+   "opened": "2026-09-12",
+   "state": "OPEN 环行中",
+   "evidence": "ORBIT-CAP-03-QLV-01投qfa lane;塔⑧段自驿在役"
+  },
+  {
+   "id": "debt-20260912-tower-seg9-verify",
+   "owed_by": "qlv",
+   "owed_to": "qlv",
+   "kind": "塔⑨段五件效验(runs直读)",
+   "opened": "2026-09-12",
+   "state": "OPEN 候塔自走",
+   "evidence": "⓪a⓪b⑤⑦⑧铸讫compile PASS;下拍验pulse首行+secrets快照"
+  },
+  {
+   "id": "debt-20260912-exp016-xchk",
+   "owed_by": "lvlu/cfts",
+   "owed_to": "qlv",
+   "kind": "EXP-016交叉验证回件",
+   "opened": "2026-09-12",
+   "state": "OPEN 已派",
+   "evidence": "TASK-EXP016-XCHK投双lane,detect三段齐"
   }
  ],
- "updated": "2026-09-12T05:15:13Z"
+ "updated": "2026-09-12T11:49:50Z"
 }

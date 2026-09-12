@@ -58,7 +58,7 @@ jobs:
         run: |
           git config user.name 'qlv-watchtower'
           git config user.email 'wt@void'
-          git add ci/watchtower_state.json ci/loops.json ci/auto-receipts/ results/watchtower/ 2>/dev/null || true
+          git add ci/watchtower_state.json ci/loops.json ci/pulse.jsonl ci/auto-receipts/ results/watchtower/ 2>/dev/null || true
           if git diff --cached --quiet; then exit 0; fi
           git commit -m "watchtower: ${{ github.event_name }} 事件巡收 [skip ci]"  # TOWER-FIX-QLV-08: 落账push自触发=自激环(pending互杀拍死,器课第十株)——[skip ci]断环
           # 落账三段式(2026-09-06 run#34043608315 rebase 冲突败在案):
@@ -68,8 +68,8 @@ jobs:
           if ! git rebase origin/main; then
             # TOWER-FIX-QLV-04(2026-09-11): 冲突解器与落账集对齐——state+loops 双件皆取本拍新算值
             # (器课第八株: 解器集⊊落账集=拍死; 前证 run#34580819713 loops.json 冲突 exit1)
-            git checkout --theirs ci/watchtower_state.json ci/loops.json 2>/dev/null || true
-            git add ci/watchtower_state.json ci/loops.json
+            git checkout --theirs ci/watchtower_state.json ci/loops.json ci/pulse.jsonl 2>/dev/null || true
+            git add ci/watchtower_state.json ci/loops.json ci/pulse.jsonl
             GIT_EDITOR=true git rebase --continue || { git rebase --abort; exit 1; }
           fi
           git push origin main
