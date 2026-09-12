@@ -3266,6 +3266,12 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "5e42a9c0445a"
+  },
+  {
+   "ref": "board/board-115-beatG-stacklink.md",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "1fa4dd1f1243"
   }
  ]
 }
