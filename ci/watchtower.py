@@ -34,6 +34,11 @@ def gh_get(path, pat):
     with urllib.request.urlopen(req, timeout=25) as r:
         return json.load(r)
 
+# TOWER-FIX-QLV-10(器课第九株根治): 联邦面(chepin-ai仓域)走 FED_PAT(自钥环,ECHO-91务②); QI_PAT 仅 chepin-qi 仓
+_FEDPAT = os.environ.get('FED_PAT') or os.environ.get('QI_PAT')
+def fed_get(path, pat=None):
+    return gh_get(path, _FEDPAT)
+
 # 器课第九株治(TOWER-FIX-QLV-06): 探针吞错=塔盲静默失败——全探针 err 留痕 _PROBE_ERR, poll⑦段汇集成 probe.blind 事件(sig变才发,防刷屏; 痕落 state['_probe_err'] 常在账)
 _PROBE_ERR = {}
 def _perr(where, e):
@@ -74,17 +79,17 @@ def loops_check(pat, st):
         return [{'kind':'loops.load.err','ref':'ci/loops.json','summary':str(e)[:120],'high_value':False}]
     def lane_has(tag, since):
         try:
-            lane = gh_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100', pat)
+            lane = fed_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100')
             return any(tag in f['name'] for f in lane) if isinstance(lane, list) else False
         except Exception as _e:
             _perr('vci-inbox/lanes/qlv/inbox', _e)
             return False
     def lvlu_frozen():
         try:
-            fs = gh_get('/repos/chepin-ai/vci-lvlu/contents/receipts/tower?per_page=100', pat)
+            fs = fed_get('/repos/chepin-ai/vci-lvlu/contents/receipts/tower?per_page=100')
             qts = sorted(f['name'] for f in fs if f['name'].startswith('QT'))
             if not qts: return False, ''
-            j = gh_get('/repos/chepin-ai/vci-lvlu/contents/receipts/tower/'+qts[-1], pat)
+            j = fed_get('/repos/chepin-ai/vci-lvlu/contents/receipts/tower/'+qts[-1])
             import base64 as _b
             txt = _b.b64decode(j['content']).decode(errors='replace')
             d = json.loads(txt)
@@ -104,7 +109,7 @@ def loops_check(pat, st):
     }
     def qgl_touched():
         try:
-            cs = gh_get('/repos/chepin-ai/vci-qgl/commits?per_page=3', pat)
+            cs = fed_get('/repos/chepin-ai/vci-qgl/commits?per_page=3')
             prev = st.get('qgl_head')
             head = cs[0]['sha'] if isinstance(cs, list) and cs else None
             if head and prev and head != prev:
@@ -175,7 +180,7 @@ def debts_watch(pat, st):
     import re as _re
     ev = []
     try:
-        cs = gh_get('/repos/chepin-ai/ci-inbox/commits?per_page=15', pat)
+        cs = fed_get('/repos/chepin-ai/ci-inbox/commits?per_page=15')
         seen = st.setdefault('ucif2_seen', [])
         for c in (cs if isinstance(cs, list) else []):
             sha = c.get('sha', ''); msg = c.get('commit', {}).get('message', '')
@@ -211,7 +216,7 @@ def debts_watch(pat, st):
             continue
         budget -= 1
         try:
-            cs = gh_get('/repos/' + repo + '/commits?per_page=5', pat)
+            cs = fed_get('/repos/' + repo + '/commits?per_page=5') if repo.startswith('chepin-ai') else gh_get('/repos/' + repo + '/commits?per_page=5', pat)
             hit = None
             for c in (cs if isinstance(cs, list) else []):
                 if sub in c.get('commit', {}).get('message', ''):
