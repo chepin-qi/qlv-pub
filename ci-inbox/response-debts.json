@@ -1173,7 +1173,25 @@
    "opened": "2026-09-12",
    "state": "OPEN 已派",
    "evidence": "TASK-EXP016-XCHK投双lane,detect三段齐"
+  },
+  {
+   "id": "debt-20260912-rhythm-xvalid",
+   "owed_by": "qlv",
+   "owed_to": "lvlu",
+   "kind": "节律维142min断拍交叉验证",
+   "opened": "2026-09-12",
+   "state": "CLEARED 拍J",
+   "evidence": "O-S-3D-01-R1+RHYTHM-XVALID-142MIN投lvlu lane"
+  },
+  {
+   "id": "debt-20260912-os3d-lvlu-dist",
+   "owed_by": "lvlu",
+   "owed_to": "qlv",
+   "kind": "分布维实测替换骨架(XCHK)",
+   "opened": "2026-09-12",
+   "state": "OPEN 候回件",
+   "evidence": "O_S v2 lvlu面0.3290系骨架L3暂代"
   }
  ],
- "updated": "2026-09-12T11:49:50Z"
+ "updated": "2026-09-12T15:28:00Z"
 }
