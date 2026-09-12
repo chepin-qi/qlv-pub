@@ -1007,8 +1007,18 @@
     "repo": "chepin-qi/qlv-pub",
     "path_contains": "TOWER-FIX-QLV-08"
    },
-   "note": "FIX-08推讫; 19:20Z cancelled三连=我席密集push互顶(非塔落账环——环已断); 末run fb203cfa pending, fedeye_seen候其完成验(下拍首事,债qlv-05在册)"
+   "note": "FIX-08/09俱推; runs互顶根因=qfa互唤永动活锁(FED-92-F3直证02:39-03:07Z qfa塔28min无拍成)——FIX-09阻尼装讫; fedeye_seen落账+⑧段效验续巡(10s早退run疑selftest旁路,下拍直读主段)"
+  },
+  {
+   "id": "ai-bridge-down-401",
+   "status": "ARMED",
+   "ts": "2026-09-12T03:59:58Z",
+   "watch": {
+    "repo": "chepin-qi/qlv-pub",
+    "path_contains": "outbox/pending"
+   },
+   "note": "AI-Full PAT 401(09-12 03:5xZ): 联邦写面断——降级不停车(待发槽预铸ECHO-91回声等); 已呈root信标5643316290请注新钥; 桥断面待巡清单: SI5-RING vinf/lgt真值/k800炉/R-CM并流报/O_S取用/ECHO-91卡原文/qlv巷150件排空"
   }
  ],
- "updated": "2026-09-11T19:21:41Z"
+ "updated": "2026-09-12T03:59:58Z"
 }
