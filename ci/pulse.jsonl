@@ -4,3 +4,6 @@
 {"ts": "2026-09-13T18:59:33Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-09-13T19:09:33Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-09-13T19:09:33Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-09-13T19:09:42Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-09-13T19:19:42Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-13T19:21:26Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 703.6, "ev_n": 4}

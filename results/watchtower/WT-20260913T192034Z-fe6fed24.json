@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-13T19:20:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-keydark-drill(断钥一日生存演练0926)促件升至第1级|性态:演练态债务候件，属受控断钥压力测试，已触发一级催收阈值，非真机钱面|建议处置:裸候不主动外呼，次次落账备案；监控是否向第2级自然滑移，演练闭环后归档|锚:debt-escalation-matrix(促件升级矩阵)A.1条——演练件仅走模拟链路，不越真机钱面",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 909,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 781
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-13T19:20:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge 促件升至第1级，qlv巷152件机读排空待落账| 性态:自债候流程节点触发，机读已完成，属账实核对类债务，非实物在途未响应| 建议处置:按次次落账原则逐件核对机读底账与真机钱面差异；若账实相符则裸候归档，不主动回刷；差异件单列补锚后再决| 锚:qlv巷机读日志线/audit-20260912-inbox/归档核销线",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1145,
+    "total_tokens": 1361,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1009
+    }
+  }
+}

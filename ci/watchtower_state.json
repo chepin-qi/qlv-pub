@@ -21,7 +21,7 @@
       0,
       0,
       0,
-      0,
+      4,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -49,8 +49,8 @@
   "lane_inbox_count_qlvlab": 3,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-09-11",
-    "beacon_comments": 101
+    "date": "2026-09-13",
+    "beacon_comments": 0
   },
   "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
   "_probe_err": {
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 2,
+  "seg_cursor": 3,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -97,5 +97,24 @@
     "KIMI_API_KEY_VCI1": "2026-09-06T11:54:26Z",
     "QI_PAT": "2026-09-12T04:36:11Z",
     "QUAFU_TOKEN": "2026-09-06T11:54:27Z"
-  }
+  },
+  "nudge_cd": {
+    "debt-20260912-lgt-kscan": {
+      "t": 1789327182.5816734,
+      "n": 1
+    },
+    "debt-20260912-keydark-drill": {
+      "t": 1789327182.5816836,
+      "n": 1
+    },
+    "debt-20260912-inbox-purge": {
+      "t": 1789327182.581686,
+      "n": 1
+    },
+    "debt-20260912-tower-verify": {
+      "t": 1789327182.5816872,
+      "n": 1
+    }
+  },
+  "nudge_backlog": 7
 }
