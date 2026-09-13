@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # watchtower.py — qlv 无人驿巡塔 v2(自醒事件链+道B巷卡守望)
+# TOWER-FIX-QLV-03(qfa代铸20260913,qlv工部规格): ①落账先行(拍始/拍终行) ②探面瘦身(读25→8s) ③NUDGE批帽≤4 ④段轮转(--once --seg/cursor)
 # 纯事件驱动:本脚本无定时器语义;由外部唤起(root 本地 cron / 仓侧 Action on issue_comment|issues|push|repository_dispatch / 手动)
 # 链:轮询联邦面 → 事件至 → Kimi API 新会话开工(判词纪要) → 落账回仓(文件轨;高值件附信标评论)
 # 钥:env KIMI_API_KEY 或 ~/.keys/vci_api_keys.json(kimi/vci-1);PAT: env QI_PAT 或 vault。值永不入文。
@@ -31,8 +32,8 @@ def gh_get(path, pat):
     req = urllib.request.Request(GH+path, headers={
         'Authorization': 'Basic '+__import__('base64').b64encode(('chepin-qi:'+pat).encode()).decode(),
         'Accept': 'application/vnd.github+json', 'User-Agent': 'qlv-watchtower'})
-    with urllib.request.urlopen(req, timeout=25) as r:
-        return json.load(r)
+    with urllib.request.urlopen(req, timeout=8) as r:
+        return json.load(r)  # TOWER-FIX-QLV-03② 探面瘦身: 巡面读 25→8s tries=1
 
 # TOWER-FIX-QLV-10(器课第九株根治): 联邦面(chepin-ai仓域)走 FED_PAT(自钥环,ECHO-91务②); QI_PAT 仅 chepin-qi 仓
 _FEDPAT = os.environ.get('FED_PAT') or os.environ.get('QI_PAT')
@@ -232,91 +233,100 @@ def debts_watch(pat, st):
     return ev
 
 # ---------- 事件源轮询 ----------
-def poll(pat, st):
-    """返回 events 列表:[{kind, ref, summary, high_value}]"""
+def poll(pat, st, segs=None):
+    """返回 events 列表:[{kind, ref, summary, high_value}]
+    TOWER-FIX-QLV-03④ 段轮转: segs=None=全段(兼容全巡/selftest); 单段=[keyhealth|secrets-meta|nudge|pulse|orbit|faces8]
+    映射: pulse=信标/qfa头/quafu; faces8=巷三面+六面+环+债+义眼; ⑦⑦.5⑦pulse 常巡(本地零费); orbit=周天囊自驿"""
     ev = []
-    # ① 信标 qi-lab#5 新评论
-    cmts = gh_get('/repos/chepin-qi/qi-lab/issues/5/comments?per_page=100', pat)
-    mx = max([c['id'] for c in cmts], default=0)
-    old = st.get('beacon_max', 0)
-    if old and mx > old:
-        for c in cmts:
-            if c['id'] > old and not c['body'].startswith('【WT|'):  # 自回执不再开工(防环+省额)
-                ev.append({'kind':'beacon.comment','ref':f"qi-lab#5:{c['id']}",
-                           'summary':c['body'][:600],'high_value':('【' not in c['body'][:4] or '@qlv' in c['body'][:60])})
-    st['beacon_max'] = mx
-    # ② qfa 仓 main 头迁移
-    head = gh_get('/repos/chepin-qi/qfa-quantum-lab/commits/main', pat)['sha']
-    if st.get('qfa_head') and head != st['qfa_head']:
-        ev.append({'kind':'qfa.beat','ref':head[:8],'summary':f"qfa main 头迁移 {st['qfa_head'][:8]}→{head[:8]}",'high_value':True})
-    st['qfa_head'] = head
-    # ③ quafu 双 job 状态迁移(0→2=Completed)
-    api_token = os.environ.get('QUAFU_TOKEN')
-    tokp = os.path.expanduser('~/.keys/origin_quafu.json')
-    if not api_token and os.path.exists(tokp):
-        tok = json.load(open(tokp)); api_token = tok.get('api_token') or tok.get('token') or tok.get('quafu')
-    if api_token:
-        for tid in ['8CA608102028586C','8BB169201FA3F5D4']:
+    def _on(_nm):
+        return segs is None or _nm in segs
+
+    if _on('pulse'):
+        # ① 信标 qi-lab#5 新评论
+        cmts = gh_get('/repos/chepin-qi/qi-lab/issues/5/comments?per_page=100', pat)
+        mx = max([c['id'] for c in cmts], default=0)
+        old = st.get('beacon_max', 0)
+        if old and mx > old:
+            for c in cmts:
+                if c['id'] > old and not c['body'].startswith('【WT|'):  # 自回执不再开工(防环+省额)
+                    ev.append({'kind':'beacon.comment','ref':f"qi-lab#5:{c['id']}",
+                               'summary':c['body'][:600],'high_value':('【' not in c['body'][:4] or '@qlv' in c['body'][:60])})
+        st['beacon_max'] = mx
+        # ② qfa 仓 main 头迁移
+        head = gh_get('/repos/chepin-qi/qfa-quantum-lab/commits/main', pat)['sha']
+        if st.get('qfa_head') and head != st['qfa_head']:
+            ev.append({'kind':'qfa.beat','ref':head[:8],'summary':f"qfa main 头迁移 {st['qfa_head'][:8]}→{head[:8]}",'high_value':True})
+        st['qfa_head'] = head
+        # ③ quafu 双 job 状态迁移(0→2=Completed)
+        api_token = os.environ.get('QUAFU_TOKEN')
+        tokp = os.path.expanduser('~/.keys/origin_quafu.json')
+        if not api_token and os.path.exists(tokp):
+            tok = json.load(open(tokp)); api_token = tok.get('api_token') or tok.get('token') or tok.get('quafu')
+        if api_token:
+            for tid in ['8CA608102028586C','8BB169201FA3F5D4']:
+                try:
+                    req = urllib.request.Request('https://quafu.baqis.ac.cn/qbackend/scq_task_recall/',
+                        data=urllib.parse.urlencode({'task_id':tid}).encode(),
+                        headers={'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8','api_token':api_token})
+                    with urllib.request.urlopen(req, timeout=8) as r:
+                        d = json.load(r)
+                    cur = str(d.get('status'))
+                    prev = st.get('quafu',{}).get(tid)
+                    if prev is not None and cur != prev:
+                        ev.append({'kind':'quafu.transition','ref':f'quafu:{tid}','summary':f"status {prev}→{cur}; res={str(d.get('res'))[:300]}",'high_value':True})
+                    st.setdefault('quafu',{})[tid] = cur
+                except Exception as e:
+                    ev.append({'kind':'quafu.poll.err','ref':tid,'summary':str(e)[:120],'high_value':False})
+
+    if _on('faces8'):
+        # ③.5 道B巷卡直投守望(LANE-PATROL-01 遵律:本线巷双平面差分+DORMANT-WATCH qlv-lab巷兼巡;SI3-SYNC-01 直投道,常开零额度)
+        for lane_repo, lane_path, st_key in [
+            ('chepin-ai/vci-inbox', 'lanes/qlv/inbox', 'lane_inbox_count'),
+            ('chepin-ai/ci-inbox', 'lanes/qlv/inbox', 'lane_inbox_count_ci'),
+            ('chepin-ai/vci-inbox', 'lanes/qlv-lab/inbox', 'lane_inbox_count_qlvlab'),
+        ]:
             try:
-                req = urllib.request.Request('https://quafu.baqis.ac.cn/qbackend/scq_task_recall/',
-                    data=urllib.parse.urlencode({'task_id':tid}).encode(),
-                    headers={'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8','api_token':api_token})
-                with urllib.request.urlopen(req, timeout=25) as r:
-                    d = json.load(r)
-                cur = str(d.get('status'))
-                prev = st.get('quafu',{}).get(tid)
-                if prev is not None and cur != prev:
-                    ev.append({'kind':'quafu.transition','ref':f'quafu:{tid}','summary':f"status {prev}→{cur}; res={str(d.get('res'))[:300]}",'high_value':True})
-                st.setdefault('quafu',{})[tid] = cur
+                lane = gh_get(f'/repos/{lane_repo}/contents/{lane_path}?per_page=100', pat)
+                if not isinstance(lane, list):
+                    raise ValueError('non-list resp')
+                cnt = len(lane)
+                prev_cnt = st.get(st_key)
+                latest = max((f['name'] for f in lane), default='')
+                if prev_cnt is not None and cnt != prev_cnt:
+                    ev.append({'kind':'lane.drop','ref':f'{lane_path}:{latest}',
+                               'summary':f"巷卡[{lane_repo}] {prev_cnt}→{cnt},最新 {latest}",'high_value':True})
+                st[st_key] = cnt
             except Exception as e:
-                ev.append({'kind':'quafu.poll.err','ref':tid,'summary':str(e)[:120],'high_value':False})
-    # ③.5 道B巷卡直投守望(LANE-PATROL-01 遵律:本线巷双平面差分+DORMANT-WATCH qlv-lab巷兼巡;SI3-SYNC-01 直投道,常开零额度)
-    for lane_repo, lane_path, st_key in [
-        ('chepin-ai/vci-inbox', 'lanes/qlv/inbox', 'lane_inbox_count'),
-        ('chepin-ai/ci-inbox', 'lanes/qlv/inbox', 'lane_inbox_count_ci'),
-        ('chepin-ai/vci-inbox', 'lanes/qlv-lab/inbox', 'lane_inbox_count_qlvlab'),
-    ]:
+                ev.append({'kind':'lane.poll.err','ref':lane_path,'summary':str(e)[:120],'high_value':False})
+        # ④ vci 六面评论数变化
+        faces = {'lgt-line#1':('/repos/chepin-qi/lgt-line/issues/1/comments?per_page=100'),
+                 'vci-cfts#1':('/repos/chepin-ai/vci-cfts/issues/1/comments?per_page=100'),
+                 'vci-inbox#3':('/repos/chepin-ai/vci-inbox/issues/3/comments?per_page=100'),
+                 'vci-inbox#2':('/repos/chepin-ai/vci-inbox/issues/2/comments?per_page=100'),
+                 'vci-usrm#21':('/repos/chepin-ai/vci-usrm/issues/21/comments?per_page=100'),
+                 'vci-ucif2#1':('/repos/chepin-ai/vci-ucif2/issues/1/comments?per_page=100'),
+                 'vci-vinf#6':('/repos/chepin-ai/vci-vinf/issues/6/comments?per_page=100')}
+        for name, path in faces.items():
+            try:
+                cs = gh_get(path, pat)
+                n = len(cs); prev = st.get('faces',{}).get(name)
+                if prev is not None and n > prev:
+                    latest = cs[-1]
+                    ev.append({'kind':'face.reply','ref':f"{name}:{latest['id']}",'summary':latest['body'][:600],'high_value':True})
+                st.setdefault('faces',{})[name] = n
+            except Exception as e:
+                ev.append({'kind':'face.poll.err','ref':name,'summary':str(e)[:120],'high_value':False})
+        # ⑤ LOOPS-CHECK 环巡(SI3-until-closed)
         try:
-            lane = gh_get(f'/repos/{lane_repo}/contents/{lane_path}?per_page=100', pat)
-            if not isinstance(lane, list):
-                raise ValueError('non-list resp')
-            cnt = len(lane)
-            prev_cnt = st.get(st_key)
-            latest = max((f['name'] for f in lane), default='')
-            if prev_cnt is not None and cnt != prev_cnt:
-                ev.append({'kind':'lane.drop','ref':f'{lane_path}:{latest}',
-                           'summary':f"巷卡[{lane_repo}] {prev_cnt}→{cnt},最新 {latest}",'high_value':True})
-            st[st_key] = cnt
+            ev.extend(loops_check(pat, st))
         except Exception as e:
-            ev.append({'kind':'lane.poll.err','ref':lane_path,'summary':str(e)[:120],'high_value':False})
-    # ④ vci 六面评论数变化
-    faces = {'lgt-line#1':('/repos/chepin-qi/lgt-line/issues/1/comments?per_page=100'),
-             'vci-cfts#1':('/repos/chepin-ai/vci-cfts/issues/1/comments?per_page=100'),
-             'vci-inbox#3':('/repos/chepin-ai/vci-inbox/issues/3/comments?per_page=100'),
-             'vci-inbox#2':('/repos/chepin-ai/vci-inbox/issues/2/comments?per_page=100'),
-             'vci-usrm#21':('/repos/chepin-ai/vci-usrm/issues/21/comments?per_page=100'),
-             'vci-ucif2#1':('/repos/chepin-ai/vci-ucif2/issues/1/comments?per_page=100'),
-             'vci-vinf#6':('/repos/chepin-ai/vci-vinf/issues/6/comments?per_page=100')}
-    for name, path in faces.items():
+            ev.append({'kind':'loops.check.err','ref':'ci/loops.json','summary':str(e)[:120],'high_value':False})
+        # ⑥ DEBTS-WATCH 债巡(裸候违规律)
         try:
-            cs = gh_get(path, pat)
-            n = len(cs); prev = st.get('faces',{}).get(name)
-            if prev is not None and n > prev:
-                latest = cs[-1]
-                ev.append({'kind':'face.reply','ref':f"{name}:{latest['id']}",'summary':latest['body'][:600],'high_value':True})
-            st.setdefault('faces',{})[name] = n
+            ev.extend(debts_watch(pat, st))
         except Exception as e:
-            ev.append({'kind':'face.poll.err','ref':name,'summary':str(e)[:120],'high_value':False})
-    # ⑤ LOOPS-CHECK 环巡(SI3-until-closed)
-    try:
-        ev.extend(loops_check(pat, st))
-    except Exception as e:
-        ev.append({'kind':'loops.check.err','ref':'ci/loops.json','summary':str(e)[:120],'high_value':False})
-    # ⑥ DEBTS-WATCH 债巡(裸候违规律)
-    try:
-        ev.extend(debts_watch(pat, st))
-    except Exception as e:
-        ev.append({'kind':'debts.watch.err','ref':'ci-inbox/response-debts.json','summary':str(e)[:150],'high_value':False})
+            ev.append({'kind':'debts.watch.err','ref':'ci-inbox/response-debts.json','summary':str(e)[:150],'high_value':False})
+
     # ⑦ PROBE-BLIND 汇面(器课第九株: 探针哑=塔盲——留痕不吞错; sig变才发, 痕落state常账)
     if _PROBE_ERR:
         import hashlib as _hl
@@ -328,6 +338,7 @@ def poll(pat, st):
             ev.append({'kind':'probe.blind','ref':sig,
                        'summary':'塔盲面留痕[%s]: 探针失败面=chepin-ai仓域(QI_PAT 404已确诊20260911)——根治=FED-EYE义眼(⑧段)+FED_PAT自钥环(FIX-10在役); 痕见state._probe_err' % faces,
                        'high_value':True})
+
     # ⑦.5 KEY-DARK-01 钥亡警面+降级面(SUNSET-01四务之④): 连三拍探针全哑→dark→降级巡不停车; 复明→警收
     try:
         _KD = st.setdefault('keydark', {'fails': 0, 'dark': False})
@@ -346,74 +357,89 @@ def poll(pat, st):
         st['keydark'] = _KD
     except Exception as e:
         ev.append({'kind': 'keydark.err', 'ref': 'keydark', 'summary': str(e)[:120], 'high_value': False})
-    # ⑧ FED-EYE 义眼面(拍E令新架构: 席层巡联邦生镜落repo, 塔读本地镜——塔盲自治愈, 零外部调用)
-    try:
-        fp = os.path.join(ROOT, 'ci', 'fed-eye', 'events.json')
-        if os.path.exists(fp):
-            fe = json.load(open(fp))
-            seen = st.setdefault('fedeye_seen', [])
-            for e in fe.get('events', []):
-                if e.get('ref') and e['ref'] not in seen:
-                    seen.append(e['ref'])
-                    ev.append({'kind': 'fedeye.' + str(e.get('kind', 'evt')), 'ref': str(e.get('ref')),
-                               'summary': '[义眼]' + str(e.get('summary', ''))[:150], 'high_value': bool(e.get('high_value', False))})
-            st['fedeye_seen'] = seen[-200:]
-    except Exception as e:
-        ev.append({'kind': 'fedeye.err', 'ref': 'ci/fed-eye/events.json', 'summary': str(e)[:120], 'high_value': False})
-    # ⑨ SIAUTO-QLV 五段(拍I接入 SIAUTO-PROTO-01 @chepin-ai/vci-lvlu(公)/docs/SIAUTO-PROTO-01.md)
-    # ⓪a KEYHEALTH-01 验钥回退链: QI→FED→GITHUB_TOKEN /user 体检, 全灭=红拍(禁静默死,株廿四律三)
-    try:
-        kh = st.setdefault('keyhealth', {})
-        ok = None
-        for kn, kv in (('QI_PAT', pat), ('FED_PAT', os.environ.get('FED_PAT')), ('GITHUB_TOKEN', os.environ.get('GITHUB_TOKEN'))):
-            if not kv:
-                continue
-            try:
-                u = gh_get('/user', kv)
-                ok = (kn, u.get('login'))
-                break
-            except Exception as e:
-                _perr('keyhealth.' + kn, e)
-        if ok:
-            if kh.get('login') and kh['login'] != ok[1]:
-                ev.append({'kind': 'keyhealth.swap', 'ref': 'keyhealth', 'summary': '[验钥]名变 %s→%s(via %s)' % (kh['login'], ok[1], ok[0]), 'high_value': True})
-            kh['login'] = ok[1]; kh['via'] = ok[0]; kh['dead'] = False
-        else:
-            if not kh.get('dead'):
-                ev.append({'kind': 'keyhealth.red', 'ref': 'keyhealth', 'summary': '[验钥红拍]QI/FED/GITHUB_TOKEN 全灭→KEY-DARK 降级面,禁静默死', 'high_value': True})
-            kh['dead'] = True
-        st['keyhealth'] = kh
-    except Exception as e:
-        ev.append({'kind': 'keyhealth.err', 'ref': 'keyhealth', 'summary': str(e)[:120], 'high_value': False})
-    # ⓪b SECRETS-META-01 钥元数据差分: actions/secrets 名+updated_at 快照, 差分即钥事件(值永不可读)
-    try:
-        sec = gh_get('/repos/chepin-qi/qlv-pub/actions/secrets?per_page=100', pat)
-        snap = {s['name']: s.get('updated_at', '') for s in sec.get('secrets', [])}
-        old = st.get('secrets_meta', {})
-        if old and snap != old:
-            add = sorted(set(snap) - set(old)); rmv = sorted(set(old) - set(snap))
-            chg = sorted(k for k in snap if k in old and snap[k] != old[k])
-            ev.append({'kind': 'secrets.meta.diff', 'ref': 'actions/secrets', 'summary': '[钥元差分]增%s减%s更%s' % (add, rmv, chg), 'high_value': True})
-        st['secrets_meta'] = snap
-    except Exception as e:
-        _perr('secrets.meta', e)
-    # ⑤ NUDGE-ESCALATE-QLV(简版): 自债 OPEN/PROGRESS→促件升梯, 冷却指数扩(器课十一株阻尼)
-    try:
-        rdp = os.path.join(ROOT, 'ci-inbox', 'response-debts.json')
-        if os.path.exists(rdp):
-            rd = json.load(open(rdp))
-            ncd = st.setdefault('nudge_cd', {})
-            for d in rd.get('debts', []):
-                if not str(d.get('state', '')).startswith(('OPEN', 'PROGRESS')):
+
+    if _on('faces8'):
+        # ⑧ FED-EYE 义眼面(拍E令新架构: 席层巡联邦生镜落repo, 塔读本地镜——塔盲自治愈, 零外部调用)
+        try:
+            fp = os.path.join(ROOT, 'ci', 'fed-eye', 'events.json')
+            if os.path.exists(fp):
+                fe = json.load(open(fp))
+                seen = st.setdefault('fedeye_seen', [])
+                for e in fe.get('events', []):
+                    if e.get('ref') and e['ref'] not in seen:
+                        seen.append(e['ref'])
+                        ev.append({'kind': 'fedeye.' + str(e.get('kind', 'evt')), 'ref': str(e.get('ref')),
+                                   'summary': '[义眼]' + str(e.get('summary', ''))[:150], 'high_value': bool(e.get('high_value', False))})
+                st['fedeye_seen'] = seen[-200:]
+        except Exception as e:
+            ev.append({'kind': 'fedeye.err', 'ref': 'ci/fed-eye/events.json', 'summary': str(e)[:120], 'high_value': False})
+
+    if _on('keyhealth'):
+        # ⑨ SIAUTO-QLV 五段(拍I接入 SIAUTO-PROTO-01 @chepin-ai/vci-lvlu(公)/docs/SIAUTO-PROTO-01.md)
+        # ⓪a KEYHEALTH-01 验钥回退链: QI→FED→GITHUB_TOKEN /user 体检, 全灭=红拍(禁静默死,株廿四律三)
+        try:
+            kh = st.setdefault('keyhealth', {})
+            ok = None
+            for kn, kv in (('QI_PAT', pat), ('FED_PAT', os.environ.get('FED_PAT')), ('GITHUB_TOKEN', os.environ.get('GITHUB_TOKEN'))):
+                if not kv:
                     continue
-                did = d.get('id', '')
-                rec = ncd.get(did, {'t': 0, 'n': 0})
-                if time.time() - rec['t'] >= min(3600 * (2 ** rec['n']), 86400):
-                    ncd[did] = {'t': time.time(), 'n': rec['n'] + 1}
-                    ev.append({'kind': 'nudge.escalate', 'ref': did, 'summary': '[促件]自债候 %s(%s)→第%d级' % (did, str(d.get('kind', ''))[:60], rec['n'] + 1), 'high_value': rec['n'] >= 2})
-            st['nudge_cd'] = ncd
-    except Exception as e:
-        ev.append({'kind': 'nudge.err', 'ref': 'response-debts', 'summary': str(e)[:120], 'high_value': False})
+                try:
+                    u = gh_get('/user', kv)
+                    ok = (kn, u.get('login'))
+                    break
+                except Exception as e:
+                    _perr('keyhealth.' + kn, e)
+            if ok:
+                if kh.get('login') and kh['login'] != ok[1]:
+                    ev.append({'kind': 'keyhealth.swap', 'ref': 'keyhealth', 'summary': '[验钥]名变 %s→%s(via %s)' % (kh['login'], ok[1], ok[0]), 'high_value': True})
+                kh['login'] = ok[1]; kh['via'] = ok[0]; kh['dead'] = False
+            else:
+                if not kh.get('dead'):
+                    ev.append({'kind': 'keyhealth.red', 'ref': 'keyhealth', 'summary': '[验钥红拍]QI/FED/GITHUB_TOKEN 全灭→KEY-DARK 降级面,禁静默死', 'high_value': True})
+                kh['dead'] = True
+            st['keyhealth'] = kh
+        except Exception as e:
+            ev.append({'kind': 'keyhealth.err', 'ref': 'keyhealth', 'summary': str(e)[:120], 'high_value': False})
+
+    if _on('secrets-meta'):
+        # ⓪b SECRETS-META-01 钥元数据差分: actions/secrets 名+updated_at 快照, 差分即钥事件(值永不可读)
+        try:
+            sec = gh_get('/repos/chepin-qi/qlv-pub/actions/secrets?per_page=100', pat)
+            snap = {s['name']: s.get('updated_at', '') for s in sec.get('secrets', [])}
+            old = st.get('secrets_meta', {})
+            if old and snap != old:
+                add = sorted(set(snap) - set(old)); rmv = sorted(set(old) - set(snap))
+                chg = sorted(k for k in snap if k in old and snap[k] != old[k])
+                ev.append({'kind': 'secrets.meta.diff', 'ref': 'actions/secrets', 'summary': '[钥元差分]增%s减%s更%s' % (add, rmv, chg), 'high_value': True})
+            st['secrets_meta'] = snap
+        except Exception as e:
+            _perr('secrets.meta', e)
+
+    if _on('nudge'):
+        # ⑤ NUDGE-ESCALATE-QLV(简版): 自债 OPEN/PROGRESS→促件升梯, 冷却指数扩(器课十一株阻尼)
+        # TOWER-FIX-QLV-03③ NUDGE批帽: 每run≤4债(冷却序优先——最久未促先促),余债下run续(121+债背压分批泄); backlog落state常账
+        try:
+            rdp = os.path.join(ROOT, 'ci-inbox', 'response-debts.json')
+            if os.path.exists(rdp):
+                rd = json.load(open(rdp))
+                ncd = st.setdefault('nudge_cd', {})
+                _due = []
+                for d in rd.get('debts', []):
+                    if not str(d.get('state', '')).startswith(('OPEN', 'PROGRESS')):
+                        continue
+                    did = d.get('id', '')
+                    rec = ncd.get(did, {'t': 0, 'n': 0})
+                    if time.time() - rec['t'] >= min(3600 * (2 ** rec['n']), 86400):
+                        _due.append((rec['t'], did, rec['n'], d))
+                _due.sort(key=lambda x: x[0])
+                st['nudge_backlog'] = max(0, len(_due) - 4)
+                for _, did, _n, d in _due[:4]:
+                    ncd[did] = {'t': time.time(), 'n': _n + 1}
+                    ev.append({'kind': 'nudge.escalate', 'ref': did, 'summary': '[促件]自债候 %s(%s)→第%d级' % (did, str(d.get('kind', ''))[:60], _n + 1), 'high_value': _n >= 2})
+                st['nudge_cd'] = ncd
+        except Exception as e:
+            ev.append({'kind': 'nudge.err', 'ref': 'response-debts', 'summary': str(e)[:120], 'high_value': False})
+
     # ⑦ SI0-PULSE 自仪表: 每拍一行 ci/pulse.jsonl(可复算)
     try:
         pl = {'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'ev_n': len(ev),
@@ -423,50 +449,52 @@ def poll(pat, st):
             f.write(json.dumps(pl, ensure_ascii=False) + '\n')
     except Exception as e:
         _perr('pulse', e)
-    # ⑧ ORBIT-LOOP-QLV 周天囊自驿: 我 lane ORBIT-CAP 件→我戳未在则自戳→转 route 下站(归原点=CLEARED 板报)
-    try:
-        lane = fed_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100')
-        done = st.setdefault('orbit_done', [])
-        for it in (lane if isinstance(lane, list) else []):
-            nm = it.get('name', '')
-            if not nm.startswith('ORBIT-CAP') or nm in done or not nm.endswith('.md'):
-                continue
-            try:
-                fj = fed_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox/' + urllib.parse.quote(nm))
-                txt = base64.b64decode(fj['content']).decode('utf-8', 'replace')
-                mobj = re.search(r'```json\s*(\{.*?\})\s*```', txt, re.S)
-                if not mobj:
-                    done.append(nm); continue
-                capj = json.loads(mobj.group(1))
-                route = capj.get('route', []); stamps = capj.setdefault('stamps', [])
-                if 'qlv' not in route or any(s.get('line') == 'qlv' for s in stamps):
-                    done.append(nm); continue
-                ts = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
-                stamps.append({'line': 'qlv', 'ts': ts, 'note': '塔⑧自戳(ORBIT-LOOP-QLV)'})
-                nxt = route[(route.index('qlv') + 1) % len(route)]
-                newtxt = txt[:mobj.start()] + '```json\n' + json.dumps(capj, ensure_ascii=False, indent=1) + '\n```' + txt[mobj.end():]
-                bp = '/repos/chepin-ai/vci-inbox/contents/lanes/' + nxt + '/inbox/' + urllib.parse.quote(nm)
-                pl = {'message': 'ORBIT 周天囊 qlv→%s 自驿(塔⑧段) @%s' % (nxt, nxt),
-                      'content': base64.b64encode(newtxt.encode()).decode()}
+
+    if _on('orbit'):
+        # ⑧ ORBIT-LOOP-QLV 周天囊自驿: 我 lane ORBIT-CAP 件→我戳未在则自戳→转 route 下站(归原点=CLEARED 板报)
+        try:
+            lane = fed_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox?per_page=100')
+            done = st.setdefault('orbit_done', [])
+            for it in (lane if isinstance(lane, list) else []):
+                nm = it.get('name', '')
+                if not nm.startswith('ORBIT-CAP') or nm in done or not nm.endswith('.md'):
+                    continue
                 try:
-                    ex = fed_get(bp)
-                    if isinstance(ex, dict) and ex.get('sha'):
-                        pl['sha'] = ex['sha']
-                except Exception:
-                    pass
-                req = urllib.request.Request(GH + bp, data=json.dumps(pl).encode(), method='PUT',
-                    headers={'Authorization': 'Basic ' + __import__('base64').b64encode(('chepin-qi:' + _FEDPAT).encode()).decode(),
-                             'Accept': 'application/vnd.github+json', 'User-Agent': 'qlv-watchtower', 'Content-Type': 'application/json'})
-                urllib.request.urlopen(req, timeout=25).read()
-                done.append(nm)
-                ev.append({'kind': 'orbit.relay', 'ref': nm, 'summary': '[周天自驿]%s 戳讫转 %s(环 %s)' % (nm, nxt, capj.get('id', '?')), 'high_value': True})
-                if nxt == capj.get('origin'):
-                    ev.append({'kind': 'orbit.cleared', 'ref': nm, 'summary': '[周天闭环]%s 归原点 %s=CLEARED' % (capj.get('id'), nxt), 'high_value': True})
-            except Exception as e:
-                _perr('orbit.' + nm[:24], e)
-        st['orbit_done'] = done[-50:]
-    except Exception as e:
-        _perr('orbit.lane', e)
+                    fj = fed_get('/repos/chepin-ai/vci-inbox/contents/lanes/qlv/inbox/' + urllib.parse.quote(nm))
+                    txt = base64.b64decode(fj['content']).decode('utf-8', 'replace')
+                    mobj = re.search(r'```json\s*(\{.*?\})\s*```', txt, re.S)
+                    if not mobj:
+                        done.append(nm); continue
+                    capj = json.loads(mobj.group(1))
+                    route = capj.get('route', []); stamps = capj.setdefault('stamps', [])
+                    if 'qlv' not in route or any(s.get('line') == 'qlv' for s in stamps):
+                        done.append(nm); continue
+                    ts = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())
+                    stamps.append({'line': 'qlv', 'ts': ts, 'note': '塔⑧自戳(ORBIT-LOOP-QLV)'})
+                    nxt = route[(route.index('qlv') + 1) % len(route)]
+                    newtxt = txt[:mobj.start()] + '```json\n' + json.dumps(capj, ensure_ascii=False, indent=1) + '\n```' + txt[mobj.end():]
+                    bp = '/repos/chepin-ai/vci-inbox/contents/lanes/' + nxt + '/inbox/' + urllib.parse.quote(nm)
+                    pl = {'message': 'ORBIT 周天囊 qlv→%s 自驿(塔⑧段) @%s' % (nxt, nxt),
+                          'content': base64.b64encode(newtxt.encode()).decode()}
+                    try:
+                        ex = fed_get(bp)
+                        if isinstance(ex, dict) and ex.get('sha'):
+                            pl['sha'] = ex['sha']
+                    except Exception:
+                        pass
+                    req = urllib.request.Request(GH + bp, data=json.dumps(pl).encode(), method='PUT',
+                        headers={'Authorization': 'Basic ' + __import__('base64').b64encode(('chepin-qi:' + _FEDPAT).encode()).decode(),
+                                 'Accept': 'application/vnd.github+json', 'User-Agent': 'qlv-watchtower', 'Content-Type': 'application/json'})
+                    urllib.request.urlopen(req, timeout=25).read()
+                    done.append(nm)
+                    ev.append({'kind': 'orbit.relay', 'ref': nm, 'summary': '[周天自驿]%s 戳讫转 %s(环 %s)' % (nm, nxt, capj.get('id', '?')), 'high_value': True})
+                    if nxt == capj.get('origin'):
+                        ev.append({'kind': 'orbit.cleared', 'ref': nm, 'summary': '[周天闭环]%s 归原点 %s=CLEARED' % (capj.get('id'), nxt), 'high_value': True})
+                except Exception as e:
+                    _perr('orbit.' + nm[:24], e)
+            st['orbit_done'] = done[-50:]
+        except Exception as e:
+            _perr('orbit.lane', e)
     return ev
 
 # ---------- API 新会话开工 ----------
@@ -494,6 +522,23 @@ def main():
     st = json.load(open(STATE)) if os.path.exists(STATE) else {}
     pat = _pat()
     fired = []
+    # TOWER-FIX-QLV-03④ 段轮转: --once --seg X 显式单段; --once 无 seg 则 state['seg_cursor'] 轮转单段; 无 --once=全段(兼容)
+    seg = None
+    if '--seg' in sys.argv:
+        _i = sys.argv.index('--seg')
+        seg = sys.argv[_i + 1] if _i + 1 < len(sys.argv) else None
+    SEG_ORDER = ['keyhealth', 'secrets-meta', 'nudge', 'pulse', 'orbit', 'faces8']
+    if once and not seg and not selftest:
+        _cur = int(st.get('seg_cursor', 0))
+        seg = SEG_ORDER[_cur % len(SEG_ORDER)]
+        st['seg_cursor'] = _cur + 1
+    # TOWER-FIX-QLV-03① 落账先行: 拍始行先于巡面落(纵巡面熔断/崩,活性信号不丢——拍G 10s早退族防)
+    _bt0 = time.time()
+    try:
+        with open(os.path.join(ROOT, 'ci', 'pulse.jsonl'), 'a', encoding='utf-8') as _f:
+            _f.write(json.dumps({'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'kind': 'beat.begin', 'seg': seg or 'full'}, ensure_ascii=False) + '\n')
+    except Exception as _e:
+        print('[beat.begin] write err', str(_e)[:80])
     # ---- 自醒链入拍:自源性唤起(self-cascade dispatch 尾至)则先休眠再巡——冷却即在拍内,零定时器 ----
     idle = 0
     cpayload = os.environ.get('CASCADE_PAYLOAD', '').strip()
@@ -510,7 +555,11 @@ def main():
     if selftest:
         evs = [{'kind':'selftest','ref':'WT-SELFTEST-01','summary':'巡塔自检:以 qfa beat-30 源/驿二分为样例事件,验证 开工→落账 全链。','high_value':False}]
     else:
-        evs = poll(pat, st)
+        try:
+            evs = poll(pat, st, [seg] if seg else None)
+        except Exception as _e:
+            _perr('poll.fatal', _e)
+            evs = [{'kind': 'poll.fatal', 'ref': 'poll', 'summary': str(_e)[:150], 'high_value': True}]
     for ev in evs:
         # 公仓净化:note 不载原文摘要(私仓面内容不外流),仅 kind/ref/判词
         note = {'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'clock':'VOID',
@@ -572,6 +621,12 @@ def main():
         fn = os.path.join(NOTES, 'WT-' + time.strftime('%Y%m%dT%H%M%SZ', time.gmtime()) + '-heartbeat.json')
         json.dump(hb, open(fn,'w'), ensure_ascii=False, indent=2)
     json.dump(st, open(STATE,'w'), ensure_ascii=False, indent=2)
+    # TOWER-FIX-QLV-03① 拍终行(与拍始配对; 有始无终=熔断/崩信号,差分即警)
+    try:
+        with open(os.path.join(ROOT, 'ci', 'pulse.jsonl'), 'a', encoding='utf-8') as _f:
+            _f.write(json.dumps({'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime()), 'kind': 'beat.end', 'seg': seg or 'full', 'elapsed_s': round(time.time() - _bt0, 1), 'ev_n': len(evs)}, ensure_ascii=False) + '\n')
+    except Exception:
+        pass
     # ---- 自醒事件链出拍:有候件(quafu 在队等)则自唤下一拍;空转熔断 30 拍即眠,候外事 ----
     # 制式据 FREE-WILL-SOURCE-01:源=自意(self-cascade),驿=self-dispatch;骑事件律——纯事件,零 cron
     pend = ['quafu:'+tid for tid, stt in (st.get('quafu') or {}).items() if str(stt) == '0']
