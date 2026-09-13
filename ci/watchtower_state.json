@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "6ec0abca873ed29660d9345da093b1911954d3af",
+  "qfa_head": "a6dd0ee616db1597e48e2d8fc99abf6d99322003",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -22,10 +22,10 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },

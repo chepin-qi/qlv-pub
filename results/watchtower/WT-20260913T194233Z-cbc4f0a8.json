@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-13T19:42:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "a6dd0ee6",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa.beat主头迁移,main由76de8644→a6dd0ee6(ref=a6dd0ee6)| 性态:例行节拍同步,头指针漂移,未触发异常响应| 建议处置:AUTH-OTP-02次次落账,裸候下一beat,不主动寻求回应| 锚:git线头迁/旧锚76de8644/新头a6dd0ee6",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 972,
+    "total_tokens": 1170,
+    "completion_tokens_details": {
+      "reasoning_tokens": 870
+    }
+  }
+}

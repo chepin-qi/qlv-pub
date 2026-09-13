@@ -7,6 +7,6 @@
 {"ts": "2026-09-13T19:09:42Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-09-13T19:19:42Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-09-13T19:21:26Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 703.6, "ev_n": 4}
-{"ts": "2026-09-13T19:21:37Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-09-13T19:31:41Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-13T19:31:57Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 619.8, "ev_n": 1}
+{"ts": "2026-09-13T19:32:07Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-09-13T19:42:10Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-13T19:42:34Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 627.1, "ev_n": 1}
