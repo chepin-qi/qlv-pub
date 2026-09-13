@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "a6dd0ee616db1597e48e2d8fc99abf6d99322003",
+  "qfa_head": "6ec0abca873ed29660d9345da093b1911954d3af",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0"
@@ -22,7 +22,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 4,
+  "seg_cursor": 5,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -116,5 +116,8 @@
       "n": 1
     }
   },
-  "nudge_backlog": 7
+  "nudge_backlog": 7,
+  "orbit_done": [
+    "ORBIT-CAP-03-QLV-01-20260913T001817Z.md"
+  ]
 }
