@@ -1,83 +1,93 @@
 {
-  "beacon_max": 5564921753,
-  "qfa_head": "76de864488595b4015f11ec5242a559c9e5ca600",
-  "quafu": {
-    "8CA608102028586C": "0",
-    "8BB169201FA3F5D4": "0"
+ "beacon_max": 5564921753,
+ "qfa_head": "76de864488595b4015f11ec5242a559c9e5ca600",
+ "quafu": {
+  "8CA608102028586C": "0",
+  "8BB169201FA3F5D4": "0"
+ },
+ "faces": {
+  "lgt-line#1": 3,
+  "vci-cfts#1": 2,
+  "vci-inbox#3": 5,
+  "vci-usrm#21": 1,
+  "vci-ucif2#1": 1,
+  "vci-vinf#6": 1,
+  "vci-inbox#2": 0
+ },
+ "lane_inbox_count": 133,
+ "cadence": {
+  "v": "METER-CADENCE-01-cand",
+  "w12": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "sigma": 1.0,
+  "lock": null,
+  "dominant_bin": null,
+  "C_streak": 0,
+  "verdict": "进行式"
+ },
+ "autoresp": {
+  "date": "2026-09-13",
+  "calls": 1,
+  "seen_refs": [
+   "qfa.beat|ab72b5b6",
+   "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json"
+  ],
+  "last_fp": "1641c46c2dbc"
+ },
+ "lane_inbox_count_qlvlab": 3,
+ "loops_open": 18,
+ "post_budget": {
+  "date": "2026-09-11",
+  "beacon_comments": 101
+ },
+ "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
+ "_probe_err": {
+  "ci-inbox/commits": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
   },
-  "faces": {
-    "lgt-line#1": 3,
-    "vci-cfts#1": 2,
-    "vci-inbox#3": 5,
-    "vci-usrm#21": 1,
-    "vci-ucif2#1": 1,
-    "vci-vinf#6": 1,
-    "vci-inbox#2": 0
+  "chepin-ai/ci-inbox/commits(lgt-1)": {
+   "n": 2,
+   "last": "HTTP Error 404: Not Found"
   },
-  "lane_inbox_count": 133,
-  "cadence": {
-    "v": "METER-CADENCE-01-cand",
-    "w12": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      2,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "sigma": 1.0,
-    "lock": null,
-    "dominant_bin": 5,
-    "C_streak": 0,
-    "verdict": "进行式"
+  "chepin-ai/ci-inbox/commits(cisvr-2)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
   },
-  "autoresp": {
-    "date": "2026-09-11",
-    "calls": 1,
-    "seen_refs": [
-      "qfa.beat|ab72b5b6",
-      "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json"
-    ],
-    "last_fp": "1641c46c2dbc"
+  "chepin-ai/ci-inbox/commits(qfa-1)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
   },
-  "lane_inbox_count_qlvlab": 3,
-  "loops_open": 18,
-  "post_budget": {
-    "date": "2026-09-11",
-    "beacon_comments": 101
+  "chepin-ai/ci-inbox/commits(vinf-1)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
   },
-  "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
-  "_probe_err": {
-    "ci-inbox/commits": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(lgt-1)": {
-      "n": 2,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(cisvr-2)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(qfa-1)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(vinf-1)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(ucif2)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    }
-  },
-  "_probe_err_sig": "d0529ec96f"
+  "chepin-ai/ci-inbox/commits(ucif2)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  }
+ },
+ "_probe_err_sig": "d0529ec96f",
+ "seg_cursor": 1,
+ "keydark": {
+  "fails": 0,
+  "dark": false
+ },
+ "keyhealth": {
+  "login": "chepin-qi",
+  "via": "QI_PAT",
+  "dead": false
+ }
 }
