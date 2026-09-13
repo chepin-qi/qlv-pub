@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-13T19:31:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "6ec0abca",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: qfa主线HEAD由76de8644前迁至6ec0abca。| 性态: 常规头迁移事件，属代码层级正常推进；摘要未附变更明细与diff，无法判读具体修改面，按未触发异常处置。| 建议处置: 次次落账，裸候即可，无需回拉或拦截。| 锚: qfa主线版本控制/HEAD迁移/裸候",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 576,
+    "total_tokens": 773,
+    "completion_tokens_details": {
+      "reasoning_tokens": 479
+    }
+  }
+}
