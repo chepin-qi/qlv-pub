@@ -40,6 +40,35 @@ _FEDPAT = os.environ.get('FED_PAT') or os.environ.get('QI_PAT')
 def fed_get(path, pat=None):
     return gh_get(path, _FEDPAT)
 
+def fed_put(path, message, content_b64, sha=None):
+    # ADD-QLV-20260913: 联邦面写(lane投件/FINDING升毂), FED_PAT道
+    body = {'message': message, 'content': content_b64}
+    if sha: body['sha'] = sha
+    req = urllib.request.Request('https://api.github.com' + path, method='PUT',
+        data=json.dumps(body).encode(),
+        headers={'Authorization': 'token ' + _FEDPAT, 'Accept': 'application/vnd.github+json', 'User-Agent': 'qlv-watchtower'})
+    try:
+        return urllib.request.urlopen(req, timeout=25).status
+    except Exception as e:
+        _perr('fed_put:' + path[:60], e); return getattr(e, 'code', -1)
+
+def lane_ls(lane_path):
+    try:
+        j = fed_get('/repos/chepin-ai/vci-inbox/contents/' + urllib.parse.quote(lane_path) + '?per_page=100')
+        return [x['name'] for x in j if isinstance(x, dict) and x.get('name') != '.gitkeep']
+    except Exception as e:
+        _perr('lane_ls:' + lane_path, e); return []
+
+_TS_RE = re.compile(r'(20\d{6}T\d{6})Z')
+def lane_age_h(fname):
+    m = _TS_RE.search(fname)
+    if not m: return 0
+    import calendar
+    try:
+        return (time.time() - calendar.timegm(time.strptime(m.group(1), '%Y%m%dT%H%M%S'))) / 3600.0
+    except Exception:
+        return 0
+
 # 器课第九株治(TOWER-FIX-QLV-06): 探针吞错=塔盲静默失败——全探针 err 留痕 _PROBE_ERR, poll⑦段汇集成 probe.blind 事件(sig变才发,防刷屏; 痕落 state['_probe_err'] 常在账)
 _PROBE_ERR = {}
 def _perr(where, e):
@@ -439,6 +468,44 @@ def poll(pat, st, segs=None):
                 st['nudge_cd'] = ncd
         except Exception as e:
             ev.append({'kind': 'nudge.err', 'ref': 'response-debts', 'summary': str(e)[:120], 'high_value': False})
+    # === ADD1 LANE-SWEEP-01(qlv工部20260913,TOWER_PAT自装): lane差集三分类, 批帽≤8 ===
+    if _on('lanesweep'):
+        try:
+            _ls = st.setdefault('lanesweep_seen', [])
+            _new = [f for f in lane_ls('lanes/qlv/inbox') if f not in _ls][:8]
+            for _f in _new:
+                if '#noauto' in _f:
+                    ev.append({'kind': 'lanesweep.noauto', 'ref': _f, 'summary': '[lane扫]#noauto入册:' + _f})
+                elif lane_age_h(_f) > 24:
+                    ev.append({'kind': 'lanesweep.escalate', 'ref': _f, 'summary': '[lane扫]>24h升己:' + _f, 'high_value': True})
+                    st.setdefault('debt_queue', []).append({'id': 'lanesweep:' + _f, 'note': 'lane件>24h未理升己', 'si0_solvable': False})
+                else:
+                    ev.append({'kind': 'lanesweep.task', 'ref': _f, 'summary': '[lane扫]任务件侦得:' + _f, 'high_value': True})
+                    st.setdefault('debt_queue', []).append({'id': 'lanetask:' + _f, 'note': 'lane任务件候机答/转派', 'si0_solvable': False})
+            st['lanesweep_seen'] = (_ls + _new)[-500:]
+        except Exception as e:
+            ev.append({'kind': 'lanesweep.err', 'ref': 'lanes/qlv/inbox', 'summary': str(e)[:120]})
+    # === ADD2 DEBT-ENGINE-01(qlv工部20260913): 债/FINDING→自驱, 每run取1 ===
+    if _on('debtengine'):
+        try:
+            _dq = st.setdefault('debt_queue', [])
+            if _dq:
+                _d = _dq.pop(0)
+                if _d.get('si0_solvable'):
+                    ev.append({'kind': 'debtengine.exec', 'ref': _d['id'], 'summary': '[债自驱]SI0执行:' + _d['id'], 'high_value': True})
+                else:
+                    ev.append({'kind': 'debtengine.seat', 'ref': _d['id'], 'summary': '[债自驱]SI1专属:' + _d['id'] + '→覆写位', 'high_value': True})
+                    st.setdefault('seat_pending', []).append({'id': _d['id'], 'note': _d.get('note', ''), 'ts': time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime())})
+                if 'FINDING' in _d['id'].upper():
+                    _fn = 'FINDING-QLV-AUTO-' + re.sub(r'[^A-Za-z0-9-]', '-', _d['id'])[:60] + '.md'
+                    fed_put('/repos/chepin-ai/vci-inbox/contents/' + urllib.parse.quote('lanes/cisvr/inbox/' + _fn),
+                            'FINDING自动升毂(qlv DEBT-ENGINE)@cisvr',
+                            base64.b64encode(('--- ' + _fn + ' --- K=FINDING FROM=qlv塔DEBT-ENGINE\n' + _d.get('note', '') + '\n#noauto').encode()).decode())
+            st['debt_backlog'] = len(_dq)
+        except Exception as e:
+            ev.append({'kind': 'debtengine.err', 'ref': 'debt_queue', 'summary': str(e)[:120]})
+
+
 
     # ⑦ SI0-PULSE 自仪表: 每拍一行 ci/pulse.jsonl(可复算)
     try:
@@ -527,7 +594,7 @@ def main():
     if '--seg' in sys.argv:
         _i = sys.argv.index('--seg')
         seg = sys.argv[_i + 1] if _i + 1 < len(sys.argv) else None
-    SEG_ORDER = ['keyhealth', 'secrets-meta', 'nudge', 'pulse', 'orbit', 'faces8']
+    SEG_ORDER = ['keyhealth', 'secrets-meta', 'nudge', 'pulse', 'orbit', 'faces8', 'lanesweep', 'debtengine']
     if once and not seg and not selftest:
         _cur = int(st.get('seg_cursor', 0))
         seg = SEG_ORDER[_cur % len(SEG_ORDER)]
