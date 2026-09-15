@@ -43,6 +43,7 @@ jobs:
           QI_PAT: ${{ secrets.QI_PAT }}
           FED_PAT: ${{ secrets.FED_PAT }}
           QUAFU_TOKEN: ${{ secrets.QUAFU_TOKEN }}
+          TOWER_PAT: ${{ secrets.TOWER_PAT }}
           GITHUB_TOKEN: ${{ github.token }}
           CASCADE_PAYLOAD: ${{ toJson(github.event.client_payload) }}
           CASCADE_SLEEP_S: '600'
