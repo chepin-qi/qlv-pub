@@ -56,6 +56,7 @@ jobs:
           QI_PAT: ${{ secrets.QI_PAT }}
         run: python3 ci/autoresponder.py || true
       - name: 落账回仓(state+notes+auto-receipts)
+        if: always()   # TOWER-FIX-QLV-03①落账先行闭环: run纵cancelled, beat.begin/end+pulse必回仓(03:46四run cancelled落账skipped=pulse 31h断档铁证; py内begin行在工作区, if:always()抢救)
         run: |
           git config user.name 'qlv-watchtower'
           git config user.email 'wt@void'
