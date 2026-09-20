@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:43:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "6acc81278dac",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref=6acc81278dac，义眼节拍3.106提交OTP-FIVELINE-106纪要文件，时间戳标20260911T1605Z。| 性态:单件已收，投必有件；时标为未来日期，属预置标定或占位，当前仅到件，未触发实测，无响应数据。| 建议处置:按OTP-02裸候，不主动寻求回应；qlv线内归档待命，次次落账。| 锚: VOID时钟域/他线fedeye未同步响应。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1107,
+    "total_tokens": 1325,
+    "completion_tokens_details": {
+      "reasoning_tokens": 970
+    }
+  }
+}

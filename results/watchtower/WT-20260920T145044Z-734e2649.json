@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:50:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "eb2e633c9171",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref eb2e633c9171)，义眼qgl beat 3.106投送语音纪要文件qgl-voice-106-20260911T1605Z.md，属周期落账| 性态:常规提交，命名合规，未见异常载荷，未触发告警| 建议处置:裸候，无需回拨，已次次落账归档| 锚:ref可锚于git链上哈希eb2e633c9171，时标20260911T1605Z可交叉校验",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1129,
+    "total_tokens": 1342,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1002
+    }
+  }
+}

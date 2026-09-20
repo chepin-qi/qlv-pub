@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:41:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4025218b4ae9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线答qfa-105提交(fedeye.fed.vci.commit,ref:4025218b4ae9)，载relay谢、SI-MUTUAL-01签、BRIDGE-01 v1.1告及126四签照录+纠植请同| 性态:常规跨线协议同步，要件齐，无异常触发或未响应| 建议处置:依BRIDGE-01 v1.1落账，126纠植同步挂qfa线待回，遵裸候不主动求应| 锚:qfa线/@qfa; BRIDGE-01 v1.1; SI-MUTUAL-01",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1311,
+    "total_tokens": 1543,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1162
+    }
+  }
+}

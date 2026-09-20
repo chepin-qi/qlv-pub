@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:40:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "2fd1808a97ec",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit, ref:2fd1808a97ec | 性态: 义眼pub-lint批次，R1代号化0件，报告持久化，[skip ci]；属流程触发但零增量，非未响应 | 建议处置: 本件已落账，无回执，裸候 | 锚: fedeye.vci/limbo#pub-lint-zero",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 959,
+    "total_tokens": 1169,
+    "completion_tokens_details": {
+      "reasoning_tokens": 860
+    }
+  }
+}

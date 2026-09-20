@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:48:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b18fbfea5eac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(b18fbfea5eac);摘要[义眼]usrm-252 wave-167:候件清零+四器图+大小周天 @all [skip ci]| 性态:常规提报,skip ci标记使CI忽略本次提交,属未触发;内部黑话未实测不编义,未见异常| 建议处置:次次落账,按VCI归档;skip ci无需构建响应,裸候| 锚:Git skip ci语法规范(不触发Runner),同项目历史wave批次号格式一致,标准化",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1767,
+    "total_tokens": 1980,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1635
+    }
+  }
+}

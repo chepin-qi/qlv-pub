@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:39:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "ring-mesh-01-usrm:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件落 lane:lgt*，ring-mesh-01-usrm 节点于 lgt 面已 REPLIED，现候 SI2 细收。| 性态:loop.reply 悬停态，属应答后未闭环，未触发超时，未实测丢包。| 建议处置:执行细收扫描，确认 SI2 回执边界；按 AUTH-OTP-02 裸候，不主动重投，待次次落账。| 锚:可交叉 ring-mesh-01-usrm:ack 线或 lgt:si2-ledger 面做锚定校验。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 894,
+    "total_tokens": 1110,
+    "completion_tokens_details": {
+      "reasoning_tokens": 752
+    }
+  }
+}

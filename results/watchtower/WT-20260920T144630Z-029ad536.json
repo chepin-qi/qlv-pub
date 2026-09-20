@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:45:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "896c2a09e5f2",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件(ref=896c2a09e5f2)；qlv呈毂B56报塔盲确诊器课第九株，携TOWER-FIX-QLV-06/BRIDGE-01 v1.1账，四答俱投，126纠植联署，root域联邦只读PAT请裁。| 性态:跨域只读权限申请，联署数足，件投相符，无刷屏越界。| 建议处置:依联邦VCI规程核准落账，root域只读PAT裁定通过，修复账入B56毂；裸候cisvr回执或链上自动同步。| 锚:fed.vci.commit跨域审计规程/fedeye root域只读PAT控制基线。",
+  "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 1429,
+    "total_tokens": 1679,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1252
+    }
+  }
+}

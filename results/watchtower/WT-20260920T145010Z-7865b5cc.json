@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:49:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "e46fd6b885ed",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye pub-lint提交(ref:e46fd6b885ed)，R1代号化0件，仅报告持久化，含[skip ci]| 性态:空转维护提交，无实代码变更，未触发CI，属义眼例行日志归档| 建议处置:次次落账已收，无需回滚或补测，裸候下一周期| 锚:fedeye.report.archive / ci.skip-rule",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 972,
+    "total_tokens": 1181,
+    "completion_tokens_details": {
+      "reasoning_tokens": 872
+    }
+  }
+}

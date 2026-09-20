@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:47:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "aaa0228f4e36",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref=aaa0228f4e36)/[义眼]pub-lint:R1代号化1件+报告持久化[skip ci]|性态:工具链静默维护提交，含代码面代号替换与产物落盘，显式绕行CI流水线|建议处置:审[skip ci]投件合规性；核查R1代号映射表及持久化报告落盘路径，排除密钥残留|锚:交运维线核对落盘路径权限/或交审计线抽查R1代号化覆盖范围",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1070,
+    "total_tokens": 1280,
+    "completion_tokens_details": {
+      "reasoning_tokens": 945
+    }
+  }
+}

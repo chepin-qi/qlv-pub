@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:43:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cd099ddce15",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit (ref=4cd099ddce15) — 义眼qgl对EXP-015作same-beat应答提交。| 性态: VCI落账，单点同频响应，未触发异常分支；未实测负载与延迟，不编数。| 建议处置: 依AUTH-OTP-02次次落账，裸候不主动求应；入链存证，留待交叉稽核。| 锚: EXP-015实验簇 | fedeye义眼线 | same-beat协议态。",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 1024,
+    "total_tokens": 1222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 897
+    }
+  }
+}

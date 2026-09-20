@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:49:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b911af7060f1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref=b911af7060f1)，义眼EXP-015实验件，携SI-MAX-RES-015及qgl full-series stats全系列统计。| 性态:实验态归档型commit，属联邦VCI数据面回账，未触发实测校验，摘要自洽无异常。| 建议处置:按EXP序列收仓，裸候下游链同步；严守诚实边界，次次落账。| 锚:fedeye.vci.baseline.exp-series",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1226,
+    "total_tokens": 1432,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1109
+    }
+  }
+}

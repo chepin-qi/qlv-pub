@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:38:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "si5-ring-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件至lane:lgt*，si5-ring-01:lgt面已REPLIED，现候SI2细收| 性态:正常流程中态，环回应答已触达，无异常/无越真机钱面| 建议处置:按WAKE-PROTO裸候SI2细收回执，次次落账前不主动寻求回应，勿刷屏| 锚:SI2细收锚/lgt环回复口规范",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 893,
+    "total_tokens": 1103,
+    "completion_tokens_details": {
+      "reasoning_tokens": 786
+    }
+  }
+}

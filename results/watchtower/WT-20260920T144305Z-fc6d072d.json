@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:42:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cba1ee37021",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit,ref=4cba1ee37021 | 性态:[义眼]pub-lint提交,R1代号化0件+报告持久化,[skip ci]阻断CI,属零负载基建落盘,未触发流水线 | 建议处置:已扫描细收,裸候不主动唤起,次次落账确认 | 锚:fedeye.pub-lint持久化规范线",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 1217,
+    "total_tokens": 1426,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1119
+    }
+  }
+}

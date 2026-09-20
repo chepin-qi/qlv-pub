@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-11T17:16:59Z",
+ "updated": "2026-09-20T14:32:50Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -14,7 +14,7 @@
      "beat": 5
     },
     "lgt": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 30,
      "neg_fetch": true,
      "escalated": "2026-09-11T08:41:52Z"
@@ -39,7 +39,7 @@
      "st": "SELF-DONE"
     },
     "lgt": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 27,
      "escalated": "2026-09-11T09:12:37Z"
     },
@@ -74,7 +74,7 @@
      "beat": 1
     },
     "lgt": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 27,
      "escalated": "2026-09-11T09:12:37Z"
     },
@@ -101,11 +101,11 @@
    "rings": {
     "cisvr": {
      "st": "OPEN",
-     "beat": 27,
+     "beat": 28,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "lgt": {
-     "st": "OPEN",
+     "st": "REPLIED",
      "beat": 27,
      "escalated": "2026-09-11T09:12:37Z"
     },
@@ -124,22 +124,22 @@
     },
     "cfts": {
      "st": "OPEN",
-     "beat": 27,
+     "beat": 28,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "ucif2": {
      "st": "OPEN",
-     "beat": 27,
+     "beat": 28,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "qtlv": {
      "st": "OPEN",
-     "beat": 27,
+     "beat": 28,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "vinf": {
      "st": "OPEN",
-     "beat": 27,
+     "beat": 28,
      "escalated": "2026-09-11T09:12:37Z"
     }
    }
@@ -161,7 +161,7 @@
     },
     "si5-intent": {
      "st": "OPEN",
-     "beat": 27,
+     "beat": 28,
      "escalated": "2026-09-11T09:12:38Z"
     }
    },

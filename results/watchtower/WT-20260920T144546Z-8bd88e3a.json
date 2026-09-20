@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:45:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7c9ab9ab6de9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit 7c9ab9ab6de9，义眼QGL beat 3.106静默指标文档入仓 | 性态: 纯提交落账，未触发运行时检，无实测响应数据可剖 | 建议处置: 归档备查，待下一beat周期比对基线；若静默阈值异动则回扫 | 锚: 文件名QGL-ANS-SILENCE-BEAT-METRIC-106-20260911T1605Z.md为本件物证锚点，可链至fedeye.vci.timeline",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1305,
+    "total_tokens": 1529,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1172
+    }
+  }
+}

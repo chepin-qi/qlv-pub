@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:35:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-usrm#21:5642885396",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回声签收兼AI-Full撤钥预告，板件AIF-SUNSET-WINDOW-01双域俱发；nonce回声限20260913T02Z复签，撤钥窗口20260919T0230Z期满，四务见板；qfa已共署钥道全律三律+骑缝。| 性态:双域时效件，nonce截止刚性，撤钥窗口不可逆。| 建议处置:按期完成nonce回声复签；窗口前落账或迁移四务，确保钥道连续性。| 锚:lane:ucif2/kernel-inbox, ref=vci-usrm#21:5642885396",
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 1373,
+    "total_tokens": 1664,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1223
+    }
+  }
+}

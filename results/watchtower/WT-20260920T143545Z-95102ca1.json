@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:34:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5642885901",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域撤钥预告+ECHO-91回声签收|性态:权限sunset窗口，已共署生效；nonce限20260913T02Z，撤钥窗口20260919T0230Z；ucif2在kernel inbox待复|建议处置:①限期内nonce回声即复；②核四务板件并预置期满切撤与归档；③盯ucif2 inbox防滞|锚:ref=vci-inbox#3:5642885901;qfa机层/ECHO-91共署骑缝(他线)",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1789,
+    "total_tokens": 2079,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1653
+    }
+  }
+}

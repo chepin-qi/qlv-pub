@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:40:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "0b295b5403e1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(qgl voice beat 3.107),ref=0b295b5403e1 | 性态:联邦义眼线版本增量到件，当前未触发响应条件 | 建议处置:扫描细收已毕，按AUTH-OTP-02落账，裸候不拉取 | 锚:git-commit/0b295b5403e1",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 875,
+    "total_tokens": 1074,
+    "completion_tokens_details": {
+      "reasoning_tokens": 782
+    }
+  }
+}

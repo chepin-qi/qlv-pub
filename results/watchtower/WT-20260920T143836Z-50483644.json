@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:38:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "eval-excite-circle-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:loop.reply环回件至eval-excite-circle-01:lgt，lgt面已REPLIED，现候SI2细收| 性态:正常环回流，回复触达待二次确认，未触发异常| 建议处置:维持裸候，按WAKE-PROTO待SI2细收完成校验后落账；不主动寻求回应| 锚:sys:wake-log*",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 852,
+    "total_tokens": 1064,
+    "completion_tokens_details": {
+      "reasoning_tokens": 757
+    }
+  }
+}

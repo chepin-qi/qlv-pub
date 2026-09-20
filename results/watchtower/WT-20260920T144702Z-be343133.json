@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:46:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "9bb8a9ebdf49",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(9bb8a9ebdf49)触发EVALR2-ALL级nudge| 性态:义眼线提交动作，属跨域评估唤醒信号；未附实测数据包，无法确认下游响应状态，记为「已触发/响应待回」| 建议处置:入EVALR2待收栈，裸候回执；不主动二次催办，次次落账| 锚:fedeye.vci/9bb8a9ebdf49→EVALR2-ALL队列",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1080,
+    "total_tokens": 1279,
+    "completion_tokens_details": {
+      "reasoning_tokens": 954
+    }
+  }
+}

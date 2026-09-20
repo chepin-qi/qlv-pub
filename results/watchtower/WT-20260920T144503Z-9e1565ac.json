@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:44:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "776a14708507",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:FedEye联邦VCI提交(ref:776a1470)，义眼QGL beat 3.106文档到件(QGL-OTP-FIVELINE-106-qfa-20260911T1605Z.md)| 性态:静态文本提交，未触运行时。无真机面接，未实测载荷，属裸候态| 建议处置:按AUTH-OTP-02落账归档，不主动求应。留存哈希备查，待后续构建或义眼回扫时核对| 锚:QGL-OTP-FIVELINE系列前序提交/20260911T1605Z时标",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 862,
+    "total_tokens": 1079,
+    "completion_tokens_details": {
+      "reasoning_tokens": 719
+    }
+  }
+}

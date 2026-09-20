@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:40:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "02a969e2c7ad",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit;ref=02a969e2c7ad;qgl beat 3.106用户手册(QGL-OTP-FIVELINE-106-usrm-20260911T1605Z.md)到件|性态:常规VCI文档迭代commit，未触发异常阈值，属裸候态|建议处置:按AUTH-OTP-02次次落账，归档usrm线，不主动寻求回应|锚:VCI-3.106文档锚点、usrm-20260911T1605Z时间锚点",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1103,
+    "total_tokens": 1324,
+    "completion_tokens_details": {
+      "reasoning_tokens": 973
+    }
+  }
+}

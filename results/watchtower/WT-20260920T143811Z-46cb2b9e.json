@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:37:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-vinf#6:5642885694",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa机层投AIF-SUNSET-WINDOW-01板件双域，预告AI-Full于20260919T0230Z撤钥，nonce回声限20260913T02Z。| 性态:时效预告件，全律三律+骑缝已共署，属窗口期待执行，非即时强触。| 建议处置:裸候。按AUTH-OTP-02，预告到件无主动响应义务，落账不刷；待期满自偿，nonce截止前不额外发讯。| 锚:ucif2-kernel-inbox他线签收;qfa共署骑缝。",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1929,
+    "total_tokens": 2219,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1786
+    }
+  }
+}

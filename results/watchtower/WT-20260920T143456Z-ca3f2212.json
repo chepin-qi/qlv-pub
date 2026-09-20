@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:34:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-cfts#1:5642885562",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域撤钥预告+ECHO-91回声签收|性态:定时撤钥窗口通告，附限时nonce回声（限20260913T02Z）与四务待办，属流程性机要且时间敏感|建议处置:①限前完成ECHO-91回声确认；②即拆板件核四务清单；③标定20260919T0230Z撤钥窗口，前置AI-Full业务迁移或备钥切流；④存证qfa共署骑缝|锚:VCI-CFTS双线并发规程+qfa机层时间戳20260912T022941Z",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1176,
+    "total_tokens": 1466,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1029
+    }
+  }
+}

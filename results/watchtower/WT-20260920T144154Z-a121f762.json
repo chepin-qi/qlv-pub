@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:41:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "3880f599b706",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref:3880f599b706)，义眼QGL beat 3.106五线文档(QGL-OTP-FIVELINE-106-lgt-20260911T1605Z.md)入仓| 性态:常规VCI落账，未触发异常阈值，裸候状态，无钱面越界| 建议处置:已收讫，无需响应，按WAKE-PROTO归档| 锚:QGL-OTP-FIVELINE协议栈@fedeye联邦节点;lgt标记视为轻量审阅通过态",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 983,
+    "total_tokens": 1201,
+    "completion_tokens_details": {
+      "reasoning_tokens": 848
+    }
+  }
+}
