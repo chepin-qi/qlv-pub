@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:53:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-cfts#1:5642885562",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回声签收兼AI-Full撤钥预告双域投件，板件AIF-SUNSET-WINDOW-01预置钥周期终结，nonce回声限20260913T02Z，撤钥窗口20260919T0230Z，四务见板，骑缝共署完妥。| 性态:预通知型钥命周期事件，未触发即时失效，属待响应裸候态。| 建议处置:确认kernel inbox落位；若需回声则于限前nonce复件；窗口前自检四务；不主动外探，裸候期满落账。| 锚:vci-cfts#1:5642885562;qfa机层20260912T022941Z。",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1066,
+    "total_tokens": 1356,
+    "completion_tokens_details": {
+      "reasoning_tokens": 903
+    }
+  }
+}

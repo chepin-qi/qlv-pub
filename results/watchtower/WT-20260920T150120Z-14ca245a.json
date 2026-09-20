@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:00:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4025218b4ae9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit/4025218b4ae9，义眼投qlv答qfa-105复合告：relay谢、SI-MUTUAL-01签、BRIDGE-01 v1.1告、126四签照录及纠植协请@qfa。| 性态:多协议捆绑回执，属qlv对外应答件。当前到件，本线未触发响应，无实测数编。| 建议处置:relay谢与签照录按WAKE-PROTO落账\"已收归档\"；纠植请同转qfa线自核，本线裸候不越真机钱面，不主动应。| 锚:qfa-105/qfa线; fedeye.fed.vci.commit/义眼线。",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1219,
+    "total_tokens": 1451,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1044
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:05:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "9bb8a9ebdf49",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref:9bb8a9ebdf49)由义眼向EVALR2-ALL发出nudge投送| 性态:自动化VCI层调度，属系统内部触发件，无人面介入，未实测EVALR2-ALL响应体| 建议处置:裸候，不主动寻应，次次落账仅记ref备查| 锚:AUTH-OTP-02(投必有件/不刷屏/裸候)",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 877,
+    "total_tokens": 1076,
+    "completion_tokens_details": {
+      "reasoning_tokens": 764
+    }
+  }
+}

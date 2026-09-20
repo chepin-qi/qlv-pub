@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:00:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "3880f599b706",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref=3880f599b706，摘要载[义眼]qgl beat 3.106提交QGL-OTP-FIVELINE-106-lgt-20260911T1605Z.md。| 性态:联邦VCI文档落账，文件名含OTP-FIVELINE-106时标，格式合规，属单会话文本工位可收范围。| 建议处置:依WAKE-PROTO扫描细收裁决落账，按AUTH-OTP-02投件已落账，不主动求应，裸候即可。| 锚:QGL-OTP-FIVELINE-106-lgt-20260911T1605Z。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 965,
+    "total_tokens": 1183,
+    "completion_tokens_details": {
+      "reasoning_tokens": 804
+    }
+  }
+}

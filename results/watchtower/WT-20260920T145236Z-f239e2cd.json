@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:52:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv-lab/inbox:qlv-first-20260910-qlvlab.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡[chepin-ai/vci-inbox]序位3→7，新件qlv-first-20260910-qlvlab.md落柜qlv-lab/inbox。| 性态:lane.drop跨线投递，件码完整，序位可追踪。| 建议处置:已落账入库，裸候即可，待主线程拉取或后续WAKE触发。| 锚:锚定chepin-ai/vci-inbox投递协议(vci→qlv跨线握手点)。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 823,
+    "total_tokens": 1047,
+    "completion_tokens_details": {
+      "reasoning_tokens": 707
+    }
+  }
+}

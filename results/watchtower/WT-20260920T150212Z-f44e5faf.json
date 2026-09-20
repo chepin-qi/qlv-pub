@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:01:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cd099ddce15",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit，ref=4cd099ddce15，义眼qgl节点对EXP-015执行same-beat应答提交| 性态:VCI常规单次提交，响应节奏正常，未触发重复或异常阈值| 建议处置:正常落账，归入EXP-015实验卷宗，裸候后续链式响应| 锚:EXP-015实验主线/qgl节点状态日志",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 918,
+    "total_tokens": 1116,
+    "completion_tokens_details": {
+      "reasoning_tokens": 820
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:59:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "0b295b5403e1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit(0b295b5403e1) 义眼采集端上报 qgl voice beat 3.107 | 性态: 常规VCI自动提交件，qgl语音心跳数据，无告警、无越界、无篡改痕，属联邦义眼常态同步流 | 建议处置: 扫描细收完成，裁决正常，按次次落账归档；裸候即可，不主动回拉复核 | 锚: qgl#voice/beat-3.107",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1164,
+    "total_tokens": 1363,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1043
+    }
+  }
+}

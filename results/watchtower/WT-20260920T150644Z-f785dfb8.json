@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:06:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "aaa0228f4e36",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit(ref=aaa0228f4e36) 义眼pub-lint执行R1代号化1件并持久化报告，标记[skip ci]| 性态: 代码风格自动化治理，无业务逻辑变更，持续集成跳过已显式声明，属例行技术债务清理| 建议处置: 次次落账，按VCI提交规范直接归档，无需触发补建或回退| 锚: fedeye.pub-lint治理线/ref-aaa0228f4e36",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 872,
+    "total_tokens": 1082,
+    "completion_tokens_details": {
+      "reasoning_tokens": 749
+    }
+  }
+}

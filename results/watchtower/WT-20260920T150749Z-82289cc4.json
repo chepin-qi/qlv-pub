@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:07:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b1ee85826768",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit (ref:b1ee85826768) pub-lint 流水线提交，R1代号化0件，报告持久化，含[skip ci]| 性态: 例行空转，代号化命中0件，仅报告落盘，无实质变更面，属工具侧静默作业| 建议处置: 按0件落账，归档备查，不阻断流水线，无需回滚| 锚: ref:b1ee85826768 → fedeye.pub-lint 规则快照 / R1代号化空集基线",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1239,
+    "total_tokens": 1447,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1109
+    }
+  }
+}

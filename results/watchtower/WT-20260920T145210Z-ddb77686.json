@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:51:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: qlv inbox lane.drop 到件，巷卡 chepin-ai/vci-inbox 133→206，析出 qtlv-spectra-x11-qsca7fce6884.md；因无工具读取，内容未实测，属到件未触发态| 性态: 谱线类文件增量沉降，疑似视觉侧灌件，待细收解析| 建议处置: 依 WAKE-PROTO 落账，建议转 spectra 工位镜像拆解；裸候，不主动求应| 锚: lanes/chepin-ai/vci-inbox#206; lanes/qtlv/spectra-x11",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1380,
+    "total_tokens": 1610,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1236
+    }
+  }
+}

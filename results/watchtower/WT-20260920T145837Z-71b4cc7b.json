@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:58:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "share-01-all-lines:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane:lgt*环回件→share-01-all-lines，lgt面REPLIED，现候SI2细收|性态:环回回复确认，流程常轨，未触发异常，无实测可编|建议处置:裸候SI2细收完成，不主动追加查询，按次落账待闭环|锚:ref=lane:si2*待收",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 764,
+    "total_tokens": 974,
+    "completion_tokens_details": {
+      "reasoning_tokens": 672
+    }
+  }
+}

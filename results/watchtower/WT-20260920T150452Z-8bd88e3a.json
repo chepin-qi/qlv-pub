@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:04:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7c9ab9ab6de9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref:7c9ab9ab6de9)，义眼提交QGL-ANS-SILENCE-BEAT-METRIC-106-20260911T1605Z.md，属qgl beat 3.106静默心跳指标文档落盘。| 性态:指标归档类事件，文件名含ANS-SILENCE-BEAT，未触发异常阈值，属常规周期性度量，无实测数不编。| 建议处置:扫描细收后落账，不主动寻求回应，裸候下一beat。| 锚:monitor.doc.vci/归档线。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1592,
+    "total_tokens": 1816,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1454
+    }
+  }
+}

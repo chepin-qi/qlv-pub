@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:06:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b18fbfea5eac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼FedVCI提交(ref b18fbfea5eac)，USR-252/wave-167，含候件清零、四器图、大小周天全量变更，附@all广播及[skip ci]标记。| 性态:批量落账类提交，@all有刷屏倾向；[skip ci]跳过质量门禁，未呈触发态或实测记录，属未触发/触发未响应不明区间。| 建议处置:裸候。核skip ci是否经豁免授权；四器图+大小周天变更须补影响面评估与冒烟落账；候件清零确认无未决依赖。@all慎用。| 锚:波次167交付基线/USRM-252工线/CI豁免规约。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1018,
+    "total_tokens": 1231,
+    "completion_tokens_details": {
+      "reasoning_tokens": 853
+    }
+  }
+}

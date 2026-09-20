@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:08:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "eb2e633c9171",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit，义眼qgl beat 3.106语音件(qgl-voice-106-20260911T1605Z.md)到件| 性态:标准索引提交，时标20260911T1605Z，未触发内容实测，裸候状态| 建议处置:按VCI规范归档beat 3.106，置裸候队列，不主动拉取响应| 锚: ref:eb2e633c9171 / ts:20260911T1605Z / beat:3.106",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1085,
+    "total_tokens": 1298,
+    "completion_tokens_details": {
+      "reasoning_tokens": 957
+    }
+  }
+}

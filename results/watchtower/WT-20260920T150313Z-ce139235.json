@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:02:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7103be47d3fc",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.vci.commit(7103be47d3fc) 义眼pub-lint:R1代号化0件+报告持久化[skip ci]| 性态:自动化空转清洁,零产出变更,流水线自维护,无构建触发需求| 建议处置:次次落账归档,不拦截;裸候即可,仅确认持久化路径正常| 锚:fedeye.pub-lint#R1代号化阈值,VCI流水线#skip-ci规约",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1089,
+    "total_tokens": 1299,
+    "completion_tokens_details": {
+      "reasoning_tokens": 978
+    }
+  }
+}

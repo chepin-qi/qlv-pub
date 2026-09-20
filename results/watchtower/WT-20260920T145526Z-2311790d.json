@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:54:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-ucif2#1:5642885804",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa机层ECHO-91回声签收兼AI-Full撤钥预告，板件AIF-SUNSET-WINDOW-01双域俱发；nonce回声限20260913T02Z，撤钥窗口20260919T0230Z期满| 性态:时限性预告件，板已入kernel inbox且qfa共署完备；撤钥尚未到点，属未触发待响应态，非即时执行| 建议处置:裸候不越真机钱面，限前核nonce回声；备四务见板，候窗口期满自然落账，不预为真机代操| 锚:vci-ucif2#1:5642885804",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 1157,
+    "total_tokens": 1449,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1000
+    }
+  }
+}

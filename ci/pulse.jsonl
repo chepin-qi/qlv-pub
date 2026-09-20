@@ -13,5 +13,5 @@
 {"ts": "2026-09-13T19:53:00Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-09-13T20:03:00Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-09-13T20:03:00Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.6, "ev_n": 0}
-{"ts": "2026-09-20T14:32:45Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-09-20T14:32:51Z", "ev_n": 221, "probe_err_faces": [], "fedeye_seen": 200, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-20T14:51:24Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-09-20T14:51:31Z", "ev_n": 221, "probe_err_faces": [], "fedeye_seen": 200, "keydark": false, "key_via": "QI_PAT"}

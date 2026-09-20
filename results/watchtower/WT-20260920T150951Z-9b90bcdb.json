@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:09:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "0699f04f6066",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.ci.commit ref=0699f04f6066, 义眼规则文档提交 lvlu-nudge-WQREG-SHA-01-L6 带[skip ci]| 性态: 纯文档落账, 未触发构建流水线, 无实测数据| 建议处置: 裸候归档, 不响应| 锚: 他线锚至义眼规则库L6层级/WQREG-SHA-01规范节点",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 923,
+    "total_tokens": 1138,
+    "completion_tokens_details": {
+      "reasoning_tokens": 815
+    }
+  }
+}

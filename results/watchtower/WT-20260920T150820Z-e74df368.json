@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:07:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b911af7060f1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref=b911af7060f1，义眼EXP-015 SI-MAX-RES-015(qgl full-series stats)提交落账| 性态:VCI统计类数据面，扫描无异常，未触发告警，属常规commit| 建议处置:已收妥落账，统计数值未实测不编数，待校验节点复核全序列完整性| 锚:ref=b911af7060f1已锁，可锚EXP-015实验链/联邦眼日志线",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1165,
+    "total_tokens": 1371,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1041
+    }
+  }
+}

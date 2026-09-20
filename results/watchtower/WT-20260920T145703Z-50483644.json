@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:56:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "eval-excite-circle-01:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:eval-excite-circle-01:lgt 环回件达 lane:lgt*，lgt 面已 REPLIED，候 SI2 细收 | 性态:loop.reply 中段态，细收未结，处裸候区间，无越真机钱面 | 建议处置:维持细收等耐，不主动促应，待 SI2 完收后依 WAKE-PROTO 转裁决落账 | 锚:cross-lane:si2-buffer@VOID",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1254,
+    "total_tokens": 1466,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1139
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:57:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "loop.reply",
+    "ref": "ring-mesh-01-usrm:lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:环回件loop.reply抵lane:lgt*，ring-mesh-01-usrm:lgt面已REPLIED，现候SI2细收| 性态:协议内正常流转，属REPLIED待收态，未触发异常，未越真机钱面| 建议处置:遵WAKE-PROTO继续细收，裸候SI2完成，次次落账，不主动寻求回应| 锚:ring-mesh-01-usrm:dpt面监听同件回环/AUTH-OTP-02裸候则",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 862,
+    "total_tokens": 1078,
+    "completion_tokens_details": {
+      "reasoning_tokens": 734
+    }
+  }
+}

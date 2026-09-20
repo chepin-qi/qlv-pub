@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:52:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "lgt-line#1:5642885976",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回声签收+AI-Full撤钥预告，板件AIF-SUNSET-WINDOW-01双域俱发，巷卡于lanes/inbox(ucif2/kernel inbox)|性态:时效双束型通知，nonce回声即复限20260913T02Z，撤钥窗口20260919T0230Z期满；钥道全律三律及骑缝已由qfa共署，四务见板，当前为「触发待响应」态，未触发项不另列|建议处置:①限内返nonce回声；②预勘撤钥切面；③按板核查四务及骑缝完整性|锚:ref=lgt-line#1:5642885976;void-ntp#session-sync",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 1363,
+    "total_tokens": 1652,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1196
+    }
+  }
+}

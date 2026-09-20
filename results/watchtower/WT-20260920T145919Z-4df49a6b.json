@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T14:58:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "02a969e2c7ad",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye义眼VCI提交，ref 02a969e2c7ad，qgl beat 3.106 用户手册到件(QGL-OTP-FIVELINE-106-usrm-20260911T1605Z.md)。| 性态:文档迭代落账类，摘要完整，文件名带版本与时戳，未见异常触发或未响应标记，属常规commit。| 建议处置:依WAKE-PROTO扫描后落账，归档beat 3.106文档槽，裸候不主动回执。| 锚:fedeye.qgl.beat/3.106线锚定，跨线挂 qlv.wake.void/20260911T1605Z。",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1505,
+    "total_tokens": 1726,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1346
+    }
+  }
+}

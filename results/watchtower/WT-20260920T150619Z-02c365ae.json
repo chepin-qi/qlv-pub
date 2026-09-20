@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:05:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "a70d844d1b27",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼联邦VCI提交(QGL beat 3.106)，ref=a70d844d1b27，件名QGL-OTP-FIVELINE-106-lvlu-20260911T1605Z.md，属配置落账类到件。| 性态:beat版本迭代提交，OTP五线谱系第106次落账，时戳20260911T1605Z；未触发实测数据，裸候状态。| 建议处置:按AUTH-OTP-02投件落账，不刷屏、不越真机钱面，裸候不主动寻求回应，次次落账。| 锚:fedeye.fed.vci.commit协议栈锚定至分布式版本树a70d844d1b27。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 930,
+    "total_tokens": 1150,
+    "completion_tokens_details": {
+      "reasoning_tokens": 761
+    }
+  }
+}

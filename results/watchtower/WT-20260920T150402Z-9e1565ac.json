@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-20T15:03:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "776a14708507",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit 落账 ref 776a14708507，载件 QGL-OTP-FIVELINE-106-qfa-20260911T1605Z.md | 性态: 义眼单件投送，不刷屏，时间戳预置未来时点，未触发实测链路，无越真机钱面 | 建议处置: 裸候归档，次次落账，不主动寻应 | 锚: fedeye.fed.vci/QGL-OTP-FIVELINE-106/776a14708507",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1574,
+    "total_tokens": 1791,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1445
+    }
+  }
+}
