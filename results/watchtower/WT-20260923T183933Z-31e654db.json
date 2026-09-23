@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:39:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属债自驱覆写位，ref指向hub-verdict-qlv-lab-listener-01.md，属元数据级到件，未触发具体债项运算。| 性态:覆写位待裁决；未实测响应数据，无越真机钱面；状态为“到件-裸候”。| 建议处置:按WAKE-PROTO完成扫描细收后落账；裸候监听，不主动寻求回应；待实测数据补录后二次裁决。| 锚:hub-verdict-qlv-lab-listener-01.md覆写位为SI1他线锚。",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 818,
+    "total_tokens": 1054,
+    "completion_tokens_details": {
+      "reasoning_tokens": 670
+    }
+  }
+}
