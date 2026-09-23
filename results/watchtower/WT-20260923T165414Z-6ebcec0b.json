@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:53:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "2fd1808a97ec",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit(2fd1808a97ec) 义眼pub-lint提交，R1代号化0件，仅报告持久化，附[skip ci]| 性态:偏锚零主件。主指标未触发增量，旁生报告持久化，属投件主空。区分「未触发vs触发未响应」：R1代号化未触发，报告模块独立响应| 建议处置:旁落件记1（报告持久化），R1记0；复核[skip ci]是否规避vci门禁；次次落账，不裸候| 锚:pub-lint规则集/fedeye.vci.[skip ci]旁路策略",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1699,
+    "total_tokens": 1909,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1540
+    }
+  }
+}

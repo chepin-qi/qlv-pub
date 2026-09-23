@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:55:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "6acc81278dac",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye fed.vci.commit 到件，ref=6acc81278dac；义眼捕获 qgl beat 3.106，文件 QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md 归档| 性态:投件有锚，节拍落账，未触发异常，clock=VOID 无响应要求| 建议处置:已收讫，按 AUTH-OTP-02 裸候，不主动寻求回应，次次落账，诚实边界内| 锚:qlv↔fedeye.commit/6acc8127↔qgl/otp/106-20260911T1605Z 他线锚",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1602,
+    "total_tokens": 1820,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1445
+    }
+  }
+}

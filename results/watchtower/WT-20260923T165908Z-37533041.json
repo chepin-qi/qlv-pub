@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:58:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b18fbfea5eac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.vci commit(ref b18fbfea5eac)| 性态:义眼wave-167迭代提交，集候件清零/四器图/大小周天多变更，含@all及[skip ci]标记；属常规代码落账，粒度偏粗| 建议处置:予落账，CI显式跳过不补跑，建议后续拆分@all节制使用| 锚:git-log fedeye/vci@b18fbfea5eac",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1165,
+    "total_tokens": 1378,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1055
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:00:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "078cd645b76a",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI提交(ref:078cd645b76a)，[义眼][ucif2] CAULDRON-01之SI-MAX实验队列追加8 EXPs，属配置/代码入队。| 性态:仅队列追加事件，未实测运行时触发状态，无法区分「未触发」或「触发未响应」；属投递后待调度态。| 建议处置:裸候，不主动拉取构建日志；待下游状态回写后再行细收。| 锚:ref=078cd645b76a;ucif2→义眼CAULDRON-01实验队列。",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1058,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "reasoning_tokens": 918
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:56:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7c9ab9ab6de9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit 提交 ref=7c9ab9ab6de9，义眼 QGL beat 3.106 静默心跳指标文档(QGL-ANS-SILENCE-BEAT-METRIC-106-20260911T1605Z.md)到件| 性态:属联邦义眼 VCI 常规文档落账，时间戳 2026-09-11T16:05Z，文件名指向 ANS 沉默心跳度量标准第106次迭代，未见异常载荷或告警触发，诚实边界内未实测具体 diff| 建议处置:按 VCI 规范完成归档落账，可前向追溯比对前序 beat metric 修订；当前裸候，不主动求应| 锚:fedeye.spec.vci.tree/beat-metrics;qgl.ans.silence/105(前序基线)",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1268,
+    "total_tokens": 1492,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1074
+    }
+  }
+}

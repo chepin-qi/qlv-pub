@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:51:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-usrm#21:5642885396",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域撤钥预告板件已签收，nonce回声限20260913T02Z，AI-Full窗口期满20260919T0230Z，四务见板；钥道全律三律及骑缝已由qfa共署。| 性态:时限性系统生命周期事件，双域同步触发，处扫描-细收态；未实测执行结果，不越真机钱面。| 建议处置:确认lanes/inbox(ucif2)落账；四务于窗口前备妥迁移/降级；nonce前若未触发则不主动裸候，次次落账待期满自动裁决。| 锚:ref vci-usrm#21:5642885396 对端可稽，同板见 qfa机层20260912T022941Z原始投件。",
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 984,
+    "total_tokens": 1275,
+    "completion_tokens_details": {
+      "reasoning_tokens": 795
+    }
+  }
+}

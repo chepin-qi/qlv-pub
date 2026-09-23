@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:55:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cd099ddce15",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(4cd099ddce15)，义眼qgl回执EXP-015 same-beat应答并落commit。| 性态:VCI常规提交，属实验响应回执，无异常载荷或越权特征，性态平稳。| 建议处置:依AUTH-OTP-02次次落账原则收档；same-beat实际触发效果未实测，不编数，仅记触达状态。| 锚:EXP-015实验条款/fedeyeVCI提交规范。",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 1084,
+    "total_tokens": 1282,
+    "completion_tokens_details": {
+      "reasoning_tokens": 964
+    }
+  }
+}

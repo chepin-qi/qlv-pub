@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:07:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "e37a29b82387",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI提交 ref=e37a29b82387，归档义眼语音记录 cfts-voice-20260911T163206Z.md，含[skip ci]标记。| 性态:文档落库存档事件，非构建触发，属纯文本增量提交，无流水线副作用。| 建议处置:按AUTH-OTP-02次次落账，已裸候收讫；因skip ci，不触发构建反馈，静默入账即可。| 锚:同批语音转录文档通常入docs-archive或voice-log线，可交叉锚定时间戳前缀cfts-voice-*他件。",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 739,
+    "total_tokens": 944,
+    "completion_tokens_details": {
+      "reasoning_tokens": 599
+    }
+  }
+}

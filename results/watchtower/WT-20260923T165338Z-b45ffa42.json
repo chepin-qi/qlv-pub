@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:53:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "0b295b5403e1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:[义眼]qgl voice beat 3.107提交(ref=0b295b5403e1)| 性态:常规VCI版本提报，单点摘要无异常负载或告警标记，属联邦眼下游组件常态commit| 建议处置:按fedeye.fed.vci.commit规范归档，无需即时响应；如需复核可校验ref哈希链完整性| 锚:git-objects/blob规范作为ref校验锚",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 774,
+    "total_tokens": 973,
+    "completion_tokens_details": {
+      "reasoning_tokens": 674
+    }
+  }
+}

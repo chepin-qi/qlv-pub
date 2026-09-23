@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:50:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "lgt-line#1:5642885976",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域撤钥预告及ECHO-91回声签收| 性态:时效程序件，nonce限20260913T02Z回声即复，撤钥窗口20260919T0230Z期满；钥道三律+骑缝已共署，当前到件未触发回声复签| 建议处置:①核ucif2 kernel inbox巷卡落位②限期内完成回声复签③期满前阅四务板④裸候不另起主动寻应| 锚:lgt-line#1:5642885976;qfa机层共署",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 942,
+    "total_tokens": 1231,
+    "completion_tokens_details": {
+      "reasoning_tokens": 804
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:57:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "9bb8a9ebdf49",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼 fedeye.fed.vci.commit 提交通知(ref:9bb8a9ebdf49)，摘要 nudge EVALR2-ALL。| 性态:系统级触发信号，仅见提交动作，未附响应载荷与实测回执；属「已触发、响应未明」，不确认 EVALR2-ALL 执行结果。| 建议处置:次次落账，裸候下游回执；如需推进，须拉取 EVALR2-ALL 状态机实测数据，未实测不编数。| 锚:fedeye",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 993,
+    "total_tokens": 1192,
+    "completion_tokens_details": {
+      "reasoning_tokens": 862
+    }
+  }
+}

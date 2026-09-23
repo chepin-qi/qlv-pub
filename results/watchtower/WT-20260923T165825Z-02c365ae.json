@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:57:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "a70d844d1b27",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼qgl beat 3.106经fedeye联邦VCI提交(ref:a70d844d1b27)，件为QGL-OTP-FIVELINE-106-lvlu-20260911T1605Z.md，系106号线五线lvlu节点。| 性态:静态commit，单向归档，无实测触发，未响应，属裸候期落账前件。| 建议处置:依WAKE-PROTO扫描细收后裁决落账，clock=VOID不主动干预，入106号线待拼。| 锚:qgl线(义眼源)为产出锚，五线协议(OTP-FIVELINE)为他线锚。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1293,
+    "total_tokens": 1513,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1139
+    }
+  }
+}

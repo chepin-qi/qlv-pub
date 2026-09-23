@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:59:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b1ee85826768",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit pub-lint,R1代号化0件+报告持久化[skip ci](b1ee8582)|性态:零业务件,纯元数据落盘,CI显式跳过,无真机钱面触及|建议处置:裸候归档,次次落账,不触发回检|锚:VCI流水轻量提交规范",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1072,
+    "total_tokens": 1280,
+    "completion_tokens_details": {
+      "reasoning_tokens": 983
+    }
+  }
+}

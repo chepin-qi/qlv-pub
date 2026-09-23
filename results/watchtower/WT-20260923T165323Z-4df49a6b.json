@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:53:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "02a969e2c7ad",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit版本提件，ref=02a969e2c7ad，义眼qgl beat 3.106用户手册文档落库。| 性态:常规文档迭代，属usrm类静态文件提交，无异常触发，未涉运行时响应。| 建议处置:按OTP-FIVELINE编目归档，落账存证；例行一致性扫描，无需拦截。| 锚:关联QGL-OTP-FIVELINE-106规范线，同批usrm历史版本锚定。",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 777,
+    "total_tokens": 998,
+    "completion_tokens_details": {
+      "reasoning_tokens": 654
+    }
+  }
+}

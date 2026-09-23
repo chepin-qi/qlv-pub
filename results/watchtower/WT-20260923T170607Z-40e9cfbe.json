@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:05:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "b95bc9c51ffb",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye捕获CI提交(ref=b95bc9c51ffb)，摘要为`[义眼]qgl-voice-20260911165519.md [skip ci]`。| 性态:文档类裸候件，用户侧主动标记`[skip ci]`，流水线未触发，无构建载荷与异常回弹，属正常静默投递。| 建议处置:次次落账，归档即可；不主动寻求回应，裸候闭环。| 锚:锚定fedeye.ci.skip规则线、qgl-voice文档时序线。",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 897,
+    "total_tokens": 1100,
+    "completion_tokens_details": {
+      "reasoning_tokens": 772
+    }
+  }
+}

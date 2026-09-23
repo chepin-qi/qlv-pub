@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:07:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "d766173674cd",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.ci.commit投件，ref d766173674cd，义眼语音纪要文档qgl-voice-20260911163340.md入仓，显式声明[skip ci]| 性态: 轻量文档裸候件，skip ci生效，流水线未触发，属合规静默提交| 建议处置: 已收讫落账，无需回执；建议义眼侧按分级对该语音转录md做脱敏核查与归档| 锚: fedeye.logs/voice-2026/ 他线锚定",
+  "usage": {
+    "prompt_tokens": 201,
+    "completion_tokens": 835,
+    "total_tokens": 1036,
+    "completion_tokens_details": {
+      "reasoning_tokens": 709
+    }
+  }
+}

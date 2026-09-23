@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:02:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "40364b9a01ad",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI提交(ref:40364b9a01ad)，新增语音纪要文件cfts-voice-20260911T165449Z.md，含[skip ci]标记，未触发构建流水线。| 性态:静默文档到件，无编译/部署行为，属记录型存档；诚实边界内无异常，未触发而非触发未响应。| 建议处置:已阅归档，无需回退；确认[skip ci]为预期行为，同类文档维持skip策略。| 锚:时间戳锚20260911T165449Z(UTC语音切片)/义眼文档管理线。",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 699,
+    "total_tokens": 905,
+    "completion_tokens_details": {
+      "reasoning_tokens": 562
+    }
+  }
+}

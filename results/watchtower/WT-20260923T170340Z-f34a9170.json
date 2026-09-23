@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:03:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "4880d1f25203",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI commit ref=4880d1f，_CURSORS.json r588 迭代，ucif2 域 SI-MAX-01 批次部署 8 EXPs| 性态:配置层增量到站，无逻辑 diff；EXP 投放为计划内扩容，本件仅到件，实测流尚未触发，无错单| 建议处置:按 AUTH-OTP-02 次次落账，裸候回执；若下周期无状态回写再议| 锚:cross-line ml-ring/ucif2-batch#SI-MAX-01",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1082,
+    "total_tokens": 1295,
+    "completion_tokens_details": {
+      "reasoning_tokens": 948
+    }
+  }
+}

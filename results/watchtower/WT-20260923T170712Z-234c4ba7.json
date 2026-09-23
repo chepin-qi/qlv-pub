@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:06:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "cd14242fae78",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.ci.commit推送(ref:cd14242fae78)，摘要标记[义眼]与[skip ci]，件为qgl-voice-20260911164442.md文档入库。| 性态:文档类静默提交，显式声明跳过CI，构建流水线未触发；单文件增订，无源码变更，无实测产出。| 建议处置:依[skip ci]意旨豁免构建调度，直接落账归档；若该件系语音纪要，建议并入知识库索引。| 锚:CI系统普遍遵循SKIP-CI-RFC约定，带此标记的提交仅做版本记账，不进入执行节点。",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 1175,
+    "total_tokens": 1378,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1028
+    }
+  }
+}

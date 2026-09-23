@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:01:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "3341f04ea4f8",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.ci.commit(ref:3341f04ea4f8,[义眼]vinf拍10 ZHOUTIAN-01大小周天环-圈实化，attestation chain297 fold 3675a206)| 性态:链式证明归档提交，圈实化attestation落账，无实测项故无触发/未响应之分| 建议处置:次次落账，fold 3675a206哈希裸候，不主动seek响应| 锚:同chain296/298 fold序列做他线交叉锚定",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1707,
+    "total_tokens": 1927,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1580
+    }
+  }
+}

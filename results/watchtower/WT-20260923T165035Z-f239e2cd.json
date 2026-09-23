@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:50:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv-lab/inbox:qlv-first-20260910-qlvlab.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: qlv-lab/inbox到件qlv-first-20260910-qlvlab.md，来源chepin-ai/vci-inbox巷卡3→7 | 性态: 单件静默落入，未触发本线实测响应，已落账 | 建议处置: 裸候，不主动求应，待触发或他线回扫后细收 | 锚: chepin-ai/vci-inbox→qlv-lab/inbox路由跃迁，件号qlv-first-20260910",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1136,
+    "total_tokens": 1360,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1017
+    }
+  }
+}

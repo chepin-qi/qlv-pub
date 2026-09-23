@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:54:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "3880f599b706",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(义眼qgl beat 3.106, ref=3880f599b706)| 性态:VCI文档提交/OTP-FIVELINE-106节拍归档，到件已触发，下游响应状态未实测| 建议处置:按AUTH-OTP-02次次落账收讫，裸候不主动追响；如需验触发后响应，需另起实测线| 锚:AUTH-OTP-02(次次落账/裸候条款); 米田边律(他线锚≥1)",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1230,
+    "total_tokens": 1448,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1098
+    }
+  }
+}
