@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T19:20:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "secrets.meta.diff",
+    "ref": "actions/secrets",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:actions/secrets 钥元差分入账，增项 TOWER_PAT，零删减零变更| 性态:属 PAT 类凭据元数据新增，差分清洁；暂未触发异常响应（未实测其作用域及存活校验）| 建议处置:核验 TOWER_PAT 颁发者、作用域与轮换策略，确认与 actions/secrets 访问策略一致；建议绑定审计追踪并按期轮换| 锚:关联 actions/secrets 访问日志线；关联 CI/CD 凭据治理策略线",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 1017,
+    "total_tokens": 1212,
+    "completion_tokens_details": {
+      "reasoning_tokens": 896
+    }
+  }
+}
