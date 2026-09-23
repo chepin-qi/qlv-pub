@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:04:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "c2cb204a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主链头迁移(6ec0abca→c2cb204a)| 性态:常规版本推进/同步落账，未触发异常告警，属预期内迭代| 建议处置:按AUTH-OTP-02次次落账，裸候不主动求应；纳入常规审计迹，无需额外干预防| 锚:ref=c2cb204a可与远端仓库哈希交叉校验，若需复核请查qfa beat周期上报日志",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 670,
+    "total_tokens": 867,
+    "completion_tokens_details": {
+      "reasoning_tokens": 561
+    }
+  }
+}
