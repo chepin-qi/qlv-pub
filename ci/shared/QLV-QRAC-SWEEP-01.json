@@ -1,0 +1,810 @@
+[
+ {
+  "v": 0.5,
+  "S_werner": 0.5625,
+  "S_dephase": 0.78125,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.505,
+  "S_werner": 0.566875,
+  "S_dephase": 0.783437,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.51,
+  "S_werner": 0.57125,
+  "S_dephase": 0.785625,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.515,
+  "S_werner": 0.575625,
+  "S_dephase": 0.787812,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.52,
+  "S_werner": 0.58,
+  "S_dephase": 0.79,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.525,
+  "S_werner": 0.584375,
+  "S_dephase": 0.792187,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.53,
+  "S_werner": 0.58875,
+  "S_dephase": 0.794375,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.535,
+  "S_werner": 0.593125,
+  "S_dephase": 0.796563,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.54,
+  "S_werner": 0.5975,
+  "S_dephase": 0.79875,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.545,
+  "S_werner": 0.601875,
+  "S_dephase": 0.800938,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.55,
+  "S_werner": 0.60625,
+  "S_dephase": 0.803125,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.555,
+  "S_werner": 0.610625,
+  "S_dephase": 0.805313,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 3,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.56,
+  "S_werner": 0.615,
+  "S_dephase": 0.8075,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.565,
+  "S_werner": 0.619375,
+  "S_dephase": 0.809688,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.57,
+  "S_werner": 0.62375,
+  "S_dephase": 0.811875,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.575,
+  "S_werner": 0.628125,
+  "S_dephase": 0.814063,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.58,
+  "S_werner": 0.6325,
+  "S_dephase": 0.81625,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.585,
+  "S_werner": 0.636875,
+  "S_dephase": 0.818437,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.59,
+  "S_werner": 0.64125,
+  "S_dephase": 0.820625,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.595,
+  "S_werner": 0.645625,
+  "S_dephase": 0.822812,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.6,
+  "S_werner": 0.65,
+  "S_dephase": 0.825,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.605,
+  "S_werner": 0.654375,
+  "S_dephase": 0.827188,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.61,
+  "S_werner": 0.65875,
+  "S_dephase": 0.829375,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.615,
+  "S_werner": 0.663125,
+  "S_dephase": 0.831563,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 5
+ },
+ {
+  "v": 0.62,
+  "S_werner": 0.6675,
+  "S_dephase": 0.83375,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.625,
+  "S_werner": 0.671875,
+  "S_dephase": 0.835938,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.63,
+  "S_werner": 0.67625,
+  "S_dephase": 0.838125,
+  "cert_d_werner": 1,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.635,
+  "S_werner": 0.680625,
+  "S_dephase": 0.840313,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.64,
+  "S_werner": 0.685,
+  "S_dephase": 0.8425,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.645,
+  "S_werner": 0.689375,
+  "S_dephase": 0.844688,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.65,
+  "S_werner": 0.69375,
+  "S_dephase": 0.846875,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.655,
+  "S_werner": 0.698125,
+  "S_dephase": 0.849063,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.66,
+  "S_werner": 0.7025,
+  "S_dephase": 0.85125,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.665,
+  "S_werner": 0.706875,
+  "S_dephase": 0.853438,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 4,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.67,
+  "S_werner": 0.71125,
+  "S_dephase": 0.855625,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.675,
+  "S_werner": 0.715625,
+  "S_dephase": 0.857813,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.68,
+  "S_werner": 0.72,
+  "S_dephase": 0.86,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.685,
+  "S_werner": 0.724375,
+  "S_dephase": 0.862188,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.69,
+  "S_werner": 0.72875,
+  "S_dephase": 0.864375,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.695,
+  "S_werner": 0.733125,
+  "S_dephase": 0.866563,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.7,
+  "S_werner": 0.7375,
+  "S_dephase": 0.86875,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.705,
+  "S_werner": 0.741875,
+  "S_dephase": 0.870938,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.71,
+  "S_werner": 0.74625,
+  "S_dephase": 0.873125,
+  "cert_d_werner": 2,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.715,
+  "S_werner": 0.750625,
+  "S_dephase": 0.875313,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.72,
+  "S_werner": 0.755,
+  "S_dephase": 0.8775,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.725,
+  "S_werner": 0.759375,
+  "S_dephase": 0.879688,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.73,
+  "S_werner": 0.76375,
+  "S_dephase": 0.881875,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.735,
+  "S_werner": 0.768125,
+  "S_dephase": 0.884063,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.74,
+  "S_werner": 0.7725,
+  "S_dephase": 0.88625,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.745,
+  "S_werner": 0.776875,
+  "S_dephase": 0.888438,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 6
+ },
+ {
+  "v": 0.75,
+  "S_werner": 0.78125,
+  "S_dephase": 0.890625,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.755,
+  "S_werner": 0.785625,
+  "S_dephase": 0.892813,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.76,
+  "S_werner": 0.79,
+  "S_dephase": 0.895,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 5,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.765,
+  "S_werner": 0.794375,
+  "S_dephase": 0.897188,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.77,
+  "S_werner": 0.79875,
+  "S_dephase": 0.899375,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.775,
+  "S_werner": 0.803125,
+  "S_dephase": 0.901563,
+  "cert_d_werner": 3,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.78,
+  "S_werner": 0.8075,
+  "S_dephase": 0.90375,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.785,
+  "S_werner": 0.811875,
+  "S_dephase": 0.905938,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.79,
+  "S_werner": 0.81625,
+  "S_dephase": 0.908125,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.795,
+  "S_werner": 0.820625,
+  "S_dephase": 0.910313,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.8,
+  "S_werner": 0.825,
+  "S_dephase": 0.9125,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.805,
+  "S_werner": 0.829375,
+  "S_dephase": 0.914688,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.81,
+  "S_werner": 0.83375,
+  "S_dephase": 0.916875,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.815,
+  "S_werner": 0.838125,
+  "S_dephase": 0.919063,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.82,
+  "S_werner": 0.8425,
+  "S_dephase": 0.92125,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.825,
+  "S_werner": 0.846875,
+  "S_dephase": 0.923438,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.83,
+  "S_werner": 0.85125,
+  "S_dephase": 0.925625,
+  "cert_d_werner": 4,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.835,
+  "S_werner": 0.855625,
+  "S_dephase": 0.927813,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.84,
+  "S_werner": 0.86,
+  "S_dephase": 0.93,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.845,
+  "S_werner": 0.864375,
+  "S_dephase": 0.932188,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 6,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.85,
+  "S_werner": 0.86875,
+  "S_dephase": 0.934375,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.855,
+  "S_werner": 0.873125,
+  "S_dephase": 0.936563,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.86,
+  "S_werner": 0.8775,
+  "S_dephase": 0.93875,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.865,
+  "S_werner": 0.881875,
+  "S_dephase": 0.940938,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.87,
+  "S_werner": 0.88625,
+  "S_dephase": 0.943125,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 7
+ },
+ {
+  "v": 0.875,
+  "S_werner": 0.890625,
+  "S_dephase": 0.945313,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.88,
+  "S_werner": 0.895,
+  "S_dephase": 0.9475,
+  "cert_d_werner": 5,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.885,
+  "S_werner": 0.899375,
+  "S_dephase": 0.949688,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.89,
+  "S_werner": 0.90375,
+  "S_dephase": 0.951875,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.895,
+  "S_werner": 0.908125,
+  "S_dephase": 0.954063,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.9,
+  "S_werner": 0.9125,
+  "S_dephase": 0.95625,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.905,
+  "S_werner": 0.916875,
+  "S_dephase": 0.958438,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.91,
+  "S_werner": 0.92125,
+  "S_dephase": 0.960625,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.915,
+  "S_werner": 0.925625,
+  "S_dephase": 0.962813,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.92,
+  "S_werner": 0.93,
+  "S_dephase": 0.965,
+  "cert_d_werner": 6,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.925,
+  "S_werner": 0.934375,
+  "S_dephase": 0.967188,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 7,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.93,
+  "S_werner": 0.93875,
+  "S_dephase": 0.969375,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.935,
+  "S_werner": 0.943125,
+  "S_dephase": 0.971563,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.94,
+  "S_werner": 0.9475,
+  "S_dephase": 0.97375,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.945,
+  "S_werner": 0.951875,
+  "S_dephase": 0.975938,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.95,
+  "S_werner": 0.95625,
+  "S_dephase": 0.978125,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.955,
+  "S_werner": 0.960625,
+  "S_dephase": 0.980313,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.96,
+  "S_werner": 0.965,
+  "S_dephase": 0.9825,
+  "cert_d_werner": 7,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.965,
+  "S_werner": 0.969375,
+  "S_dephase": 0.984688,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.97,
+  "S_werner": 0.97375,
+  "S_dephase": 0.986875,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.975,
+  "S_werner": 0.978125,
+  "S_dephase": 0.989063,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.98,
+  "S_werner": 0.9825,
+  "S_dephase": 0.99125,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.985,
+  "S_werner": 0.986875,
+  "S_dephase": 0.993438,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.99,
+  "S_werner": 0.99125,
+  "S_dephase": 0.995625,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 0.995,
+  "S_werner": 0.995625,
+  "S_dephase": 0.997813,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ },
+ {
+  "v": 1.0,
+  "S_werner": 1.0,
+  "S_dephase": 1.0,
+  "cert_d_werner": 8,
+  "cert_d_dephase": 8,
+  "true_schmidt_isotropic": 8
+ }
+]
