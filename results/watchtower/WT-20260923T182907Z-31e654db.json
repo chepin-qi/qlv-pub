@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:28:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat债自驱事件，SI1专属lanetask覆写位被触发，ref指向hub-verdict-qlv-lab-listener-01.md。| 性态:未触发外部钱面响应，属内部席位自驱覆写；因clock=VOID且无实测流水，判定为结构空转/预置位偏移，非真机交易。| 建议处置:裸候不主动外寻，按次次落账挂起“覆写待验”；确认SI1自驱权限后落账为结构覆写，不越真机钱面。| 锚:hub-verdict主线 listener-01.md 交叉存证，满足米田边律。",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1299,
+    "total_tokens": 1535,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1142
+    }
+  }
+}

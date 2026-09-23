@@ -20,20 +20,20 @@
     "w12": [
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      7
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -50,7 +50,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-23",
-    "beacon_comments": 8
+    "beacon_comments": 9
   },
   "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
   "_probe_err": {
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 7,
+  "seg_cursor": 8,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -132,11 +132,6 @@
   ],
   "debt_queue": [
     {
-      "id": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
       "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
@@ -171,5 +166,13 @@
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
-  ]
+  ],
+  "seat_pending": [
+    {
+      "id": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-23T18:28:48Z"
+    }
+  ],
+  "debt_backlog": 7
 }
