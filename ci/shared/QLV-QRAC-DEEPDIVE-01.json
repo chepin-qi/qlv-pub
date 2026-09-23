@@ -1,0 +1,72 @@
+{
+ "artifact": "QLV-QRAC-DEEPDIVE-01",
+ "beat": "拍X",
+ "date_true": "2026-09-23/24",
+ "paper": {
+  "arxiv": "2502.04887v1",
+  "prl": "135, 120802 (2025)",
+  "doi": "10.1103/rq78-1qbh"
+ },
+ "evidence_grade": "L1(沙盒numpy全出口直测) + L2(arXiv全文, 已载全址)",
+ "pillars": {
+  "argue": {
+   "protocol_proof": "S=1 解析证(y=1: 计算基差恒=x1; y=2: F†⊗F 旋转后差恒=x2), 机器证 n=2..8 全2n²出口 Δ≤1.1e-15",
+   "bound_derivation": "附录2链 S5→S14 逐级复核: 纯态wlog+弛豫弃no-signaling→S8最优本征态→Kittaneh(S9)→S11→S12 Schatten→S13 concavity→S14 ΣTr(PQ)=Tr(I_nd)=nd→½(1+√(d/n))",
+   "kittaneh_random_check": "1000/1000 随机PSD无违例",
+   "chain_numeric": "10/10 随机测量链条逐级成立, ΣTr(PQ)=nd Δ=1.8e-15"
+  },
+  "implement": {
+   "simulator": "numpy n维QRAC: X移位/Z钟/F归一Fourier, M_b|1=Σ|a+b,a><|, M_b|2=(F⊗F†)M(F†⊗F)",
+   "dims_verified": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ]
+  },
+  "experiment": {
+   "ideal": "S=1.0000000000 全部7个维度",
+   "split_d8": "S_y1=1, S_y2=1"
+  },
+  "stress": {
+   "werner": "S(v)=v+(1-v)/n 解析↔数值全符(7抽样Δ≤1e-15)",
+   "v_star_ladder_werner": {
+    "2": 0.6306,
+    "3": 0.7143,
+    "4": 0.7785,
+    "5": 0.8326,
+    "6": 0.8803,
+    "7": 0.9234,
+    "8": 0.9631
+   },
+   "v_star_ladder_dephase": {
+    "2": 0.2612,
+    "3": 0.4286,
+    "4": 0.557,
+    "5": 0.6653,
+    "6": 0.7607,
+    "7": 0.8469,
+    "8": 0.9262
+   },
+   "exp_implied_v": {
+    "werner": 0.969,
+    "dephase": 0.9381
+   },
+   "FINDING_witness_conservative": "各向同性态 v=0.9 真Schmidt=8 但见证仅认证d≥6; v=0.8 真=7 见证仅d≥4 (附录2自承: 中间d界不紧, 松1-2%)",
+   "FINDING_submaximal": "Schmidt-d截断态+原协议: S_y1=1 恒完美(与d无关!), S_y2=d/n → S=½+d/(2n) 线性谱; 纠缠敏感性全在X⊗X一路; d=7非均匀λ优化不越均匀(Nelder-Mead 6种子)",
+   "mc_stats": "Poisson MC σ∈[5e-5(二项模型),4.3e-4(独立比模型)], 文载1e-4 同阶",
+   "pvalue": "p≤exp(-500)≈10^-217 (N=1.28e7, µ=5.2e-3) 文载vanishingly small ✓",
+   "44pct_resolved": "0.2961/0.6768=43.75%≈44% 为相对百分比, 非百分点"
+  },
+  "verify": {
+   "bound_grid": "(d,n)网格 8档×8维全复算, 拍W 8值回验全符",
+   "endpoints": "d=1→½(1+1/√n)=无纠缠量子最优[33] ✓; d=n→1 ✓",
+   "S_exp_gate": "0.9729>0.967707=bound(7) → d=8 认证回验通过, z=51.9σ"
+  }
+ },
+ "SI6_hook": "场纠缠认证器基线: QRAC见证=单粒子测量+黑盒(仅需信道DOF知识), 比Bell不等式噪声门槛低; 但见证保守(压测量化); y=1/y=2分解→场槽可只测Z⊗Z路做活性探针(恒1), X⊗X路做纠缠计量",
+ "sweep_file": "101点 v∈[0.5,1] 双模型认证谱 /tmp/qrac_sweep.json"
+}
