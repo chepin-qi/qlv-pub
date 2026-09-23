@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T19:32:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap03-ring 自发环巡归首级促件触发 | 性态: 系统CAP-03轨道自发巡视回归，属第1级nudge.escalate，无外部响应，clock=VOID，未触发真机钱面操作 | 建议处置: 依AUTH-OTP-02裸候原则次次落账，不主动寻求回应，维持第1级归档待归；未实测资金响应则不编数 | 锚: VOID-clock截点 / CAP-03轨道基准 / AUTH-OTP-02裸候条款",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 972,
+    "total_tokens": 1189,
+    "completion_tokens_details": {
+      "reasoning_tokens": 839
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T19:31:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-orbit-cap02-lgt因CAP-02下下站旁路权行使，促发第1级nudge.escalate| 性态:机制性路由升级，非人工催收；未触发清算，亦无响应超时记录| 建议处置:依AUTH-OTP-02裸候，不越真机钱面，次次落账，维持旁路观察，不主动求应| 锚:锚定cap02-ledger主链旁路权日志，待下下站回执补全",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1424,
+    "total_tokens": 1646,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1295
+    }
+  }
+}
