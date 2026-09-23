@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:17:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DEMAND-KEYFP-ESC-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ref「ANS-DEMAND-KEYFP-ESC-qlv.md」索引件。| 性态:静态捕获，未触发内容解析及 ESC 序列实测，状态属「侦得未展开」；诚实记为未越真机钱面之残余归档件。| 建议处置:按 qlv 线规范落账归档，若需勘验其 KEYFP 签名与 ESC 响应，应另起专项任务，本次仅作索引登记。| 锚:doc-index 线交叉复核该 .md 的 KEYFP 指纹与元数据一致性。",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1047,
+    "total_tokens": 1257,
+    "completion_tokens_details": {
+      "reasoning_tokens": 910
+    }
+  }
+}

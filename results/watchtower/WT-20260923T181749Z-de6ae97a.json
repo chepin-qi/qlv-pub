@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:17:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DEBT-75-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫得ANS-DEBT-75-QLV-01.md| 性态:扫件触发，本工位无文件探针，内容未实测，属触发未响应；存在性及完整性待真机核验| 建议处置:①真机细收该件头体 ②校验与DEBT-75主题关联 ③有效则按AUTH-OTP-02签押落账，无效/空件则标废 ④裸候下工序| 锚:QLV-ARCH/ANS-DEBT-75-QLV-01.md@实机面",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1267,
+    "total_tokens": 1475,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1131
+    }
+  }
+}

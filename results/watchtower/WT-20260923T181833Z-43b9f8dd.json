@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:18:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DRILL-0919-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task件到，ref=ANS-DRILL-0919-QLV-01.md，属演练扫道类|性态:件已触发，内容未实测读取（无文件系统工具），为触发未响应态；具体lane标清与异常注入项未校验|建议处置:裸候备案，转有读权真机面工位细收，按ANS-DRILL手册复核通路后闭环，次次落账|锚:ANS-DRILL-0919-QLV-01.md/qlv-line-drill",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1503,
+    "total_tokens": 1713,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1376
+    }
+  }
+}

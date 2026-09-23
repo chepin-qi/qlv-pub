@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:17:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DEBT-72-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane扫侦得 ANS-DEBT-72-QLV-01.md（债务应答档），仅文件名命中，内容未触发细收 | 性态: 单件孤悬，无实质载荷，属扫描侦得态；区分「未触发」——本件尚未启内容解析，非触发后无响应 | 建议处置: 执行WAKE细收，提取72号债务条目并裁决落账；若档体空或无响应，按AUTH-OTP-02裸候，不刷屏二扰 | 锚: DEBT-72(QLV债档) / lane扫投件 / 米田边律：待补≥1他线锚",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1076,
+    "total_tokens": 1284,
+    "completion_tokens_details": {
+      "reasoning_tokens": 923
+    }
+  }
+}

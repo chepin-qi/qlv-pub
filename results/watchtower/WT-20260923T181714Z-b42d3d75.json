@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:17:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-CIRCLE-66-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-CIRCLE-66-QLV-01.md到件，仅获外壳摘要，内容未实测，无响应体。|性态:未触发（未开卷/未解析），属裸候态，非触发未响应。|建议处置:已落账；待收卷指令开读，若需裁决则实测内文，今不越真机钱面，裸候。|锚:ANS-CIRCLE-66-QLV-01.md↗QLV主归档线。",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 975,
+    "total_tokens": 1181,
+    "completion_tokens_details": {
+      "reasoning_tokens": 857
+    }
+  }
+}

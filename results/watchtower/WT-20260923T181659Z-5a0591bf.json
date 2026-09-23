@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:16:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件ANS-CIRCLE-66-QLV-01-20260913T104013Z.md逾24h未落账，触发escalate。| 性态:流程滞压，属>24h升己事件。摘要未示原卷lane扫实测结果，无法判定未触发抑或触发未响应，信息缺口待补。| 建议处置:①即启WAKE-PROTO补裁决落账；②调原卷ANS-CIRCLE-66-QLV-01细扫内容，核实触发态与响应链；③按AUTH-OTP-02次次落账原则完成闭环，裸候不寻应。| 锚:AUTH-OTP-02/WAKE-PROTO/米田边律",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 881,
+    "total_tokens": 1106,
+    "completion_tokens_details": {
+      "reasoning_tokens": 719
+    }
+  }
+}

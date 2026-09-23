@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:16:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-CAULDRON-PULSE-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-CAULDRON-PULSE-QLV-01.md到件|性态:脉冲日志件，到件待收；内容层未展开，属存在性触发，未实测不编数|建议处置:细收锁件入待解析队列，禁预解码；裁决后落账；裸候，不主动外寻回应|锚:并轨ARCH-LOG线作交叉存证，沉MIRROR-POOL冷备",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1461,
+    "total_tokens": 1673,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1352
+    }
+  }
+}
