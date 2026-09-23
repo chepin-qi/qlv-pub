@@ -599,6 +599,11 @@ def main():
         _cur = int(st.get('seg_cursor', 0))
         seg = SEG_ORDER[_cur % len(SEG_ORDER)]
         st['seg_cursor'] = _cur + 1
+        # 株廿三 内存态先行写盘律(拍X首圈回验坐实: 态唯拍终dump, run被cancel则seg_cursor永滞faces8, lanesweep/debtengine永不轮转)
+        try:
+            json.dump(st, open(STATE,'w'), ensure_ascii=False, indent=2)
+        except Exception as _e:
+            print('[cursor write-through err]', str(_e)[:80])
     # TOWER-FIX-QLV-03① 落账先行: 拍始行先于巡面落(纵巡面熔断/崩,活性信号不丢——拍G 10s早退族防)
     _bt0 = time.time()
     try:
