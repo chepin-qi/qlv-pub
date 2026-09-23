@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:15:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "6acc81278dac",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref=6acc81278dac，义眼qgl beat 3.106提交文件QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md。| 性态:线内VCI文档落账，无越真机钱面，未触发异常，裸候收束。| 建议处置:按WAKE-PROTO扫描-细收-裁决-落账，归档qlv线，无需回执。| 锚:qlv线→fedeye联邦版本索引(跨线锚定)。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1214,
+    "total_tokens": 1432,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1079
+    }
+  }
+}

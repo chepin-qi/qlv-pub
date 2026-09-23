@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:17:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "aaa0228f4e36",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref=aaa0228f4e36).[义眼]pub-lint:R1代号化1件+报告持久化[skip ci]| 性态:代号迁移与持久化并提，属配置层静默变更，CI旁路| 建议处置:复核skip ci合理性，核验R1映射表及持久化链路完整性，留档备审| 锚:需交叉验证联邦节点git-show与后端写确认(未实测)",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 863,
+    "total_tokens": 1073,
+    "completion_tokens_details": {
+      "reasoning_tokens": 751
+    }
+  }
+}

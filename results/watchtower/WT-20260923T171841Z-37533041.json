@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:18:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b18fbfea5eac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(b18fbfea5eac)| 性态:usrm-252 wave-167合流，含候件清零、四器图、大小周天三项批量变更，自声明[skip ci]且@all广播| 建议处置:常规commit落账，CI侧依显式标注按未触发处理；裸候归档，无需回拉响应| 锚:usrm-252需求线/wave-167交付线/[skip ci]规则线",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1256,
+    "total_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1142
+    }
+  }
+}

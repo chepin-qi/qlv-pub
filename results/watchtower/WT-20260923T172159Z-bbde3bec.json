@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:21:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "3341f04ea4f8",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.ci.commit ref=3341f04ea4f8；义眼vinf拍10提交ZHOUTIAN-01大小周天环-圈实化，attestation chain297 fold 3675a206。| 性态:投件有件，摘要级落账；本件未触发实测校验，非“触发未响应”，属裸候态，未实测不编数。| 建议处置:次次落账，不主动寻应；将该fold入账，待后续拍交叉验证圈实化一致性。| 锚:分布式attestation chain-fold机制同Merkle log审计槽，他线锚定，不越真机钱面。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1829,
+    "total_tokens": 2049,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1677
+    }
+  }
+}

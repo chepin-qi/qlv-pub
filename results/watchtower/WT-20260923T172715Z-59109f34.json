@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:26:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "fcf67140a8ce",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fcf67140a8ce义眼vinf拍10 L96全析入册| 性态:d_s=1.99三点确认，距主线阈2.00仅0.01差，属临界未越界；FSS crossover持续负结果已入册，无新增异常| 建议处置:归档不阻断，设拍11 d_s≤1.95或FSS转正视差异动即提复核| 锚:fedeye主线阈d_s=2.00/L96基线负样册",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1426,
+    "total_tokens": 1645,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1306
+    }
+  }
+}

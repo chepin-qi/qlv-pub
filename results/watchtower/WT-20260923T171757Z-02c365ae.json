@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:17:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "a70d844d1b27",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼联邦VCI提交(ref a70d844d1b27)，beat 3.106版本，件名QGL-OTP-FIVELINE-106-lvlu-20260911T1605Z.md到件| 性态:commit单件落账，未触发异常，属裸候态，无实测数不编| 建议处置:按OTP-02次次落账，归档收仓，不刷屏不越真机钱面，静待他线回波| 锚:锚QGL-OTP-FIVELINE-105历史线及义眼联邦VCI主干",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1117,
+    "total_tokens": 1337,
+    "completion_tokens_details": {
+      "reasoning_tokens": 978
+    }
+  }
+}

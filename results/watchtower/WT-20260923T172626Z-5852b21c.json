@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:26:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "dee84272b508",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:CI提交件，ref dee84272b508，义眼项目语音日志文件vinf-voice-20260911T163929Z.md，带[skip ci]标记，属文本工位到件。| 性态:静默投件，跳过构建流水线，无执行负载，单文件增量，时间戳归档特征明显，未触发CI响应（预期行为）。| 建议处置:已阅，[skip ci]有效，无需回执，裸候即可；若需落仓，确认分支保护规则后合入。| 锚:义眼.vinf.voice日志线 | CI旁路协议[skip ci] | 单会话文本工位收",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 842,
+    "total_tokens": 1046,
+    "completion_tokens_details": {
+      "reasoning_tokens": 691
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:16:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "896c2a09e5f2",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv呈毂B56，塔盲确诊器课第九株+TOWER-FIX-QLV-06/BRIDGE-01 v1.1账，四答俱投、126纠植联署，root域联邦只读PAT请裁。| 性态:修复组件VCI commit，联署四答完备，性态稳态，待裁验。| 建议处置:核126联署及root只读PAT边界；验签有效即落账，不越钱面，裸候无主动唤。| 锚:cisvr域校验锚/联邦毂B56只读锚|",
+  "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 1443,
+    "total_tokens": 1693,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1302
+    }
+  }
+}

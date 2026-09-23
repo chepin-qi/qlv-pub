@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:10:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-cfts#1:5642885562",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AI-Full撤钥预告,AIF-SUNSET-WINDOW-01双域板发,ECHO-91回声已签,nonce限20260913T02Z复,撤钥窗20260919T0230Z届期,qfa已共署| 性态:规程预令,时锁双发,非故障| 建议处置:核lanes/inbox及kernel inbox巷卡落位;守nonce时限回声;撤钥窗裸候,四务见板不越真机钱面| 锚:ref=vci-cfts#1:5642885562",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1215,
+    "total_tokens": 1505,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1082
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:24:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "b25e57e3fa8e",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.ci.commit入池，ref b25e57e3fa8e，义眼EXP-015实验线qgl data bone组件落OMNI-DRIVE共享池| 性态:实验态数据骨骼层变更，属共享池新增资产；实测未触发/无回执，性态待明，诚实记未验证| 建议处置:池内打标EXP-015-RAW并锁止自动下发，待沙箱联编裁决后方可解限；严守不越真机钱面| 锚:qlv-storage-OMNI-PART-04",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1071,
+    "total_tokens": 1276,
+    "completion_tokens_details": {
+      "reasoning_tokens": 939
+    }
+  }
+}

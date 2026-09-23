@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:22:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "7ef4463ec1ac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye fed.ci commit(ref 7ef4463ec1ac)，载[义眼][ucif2] SI-MAX-TASK-CFTS-01，声明为NON-NEGOTIABLE SI boost task。| 性态:系强制基线提交件；摘要仅声明，未触发实测接口，无响应数据，状态为「已收讫待验证」。| 建议处置:依AUTH-OTP-02投必有件、次次落账，该件已裸候收讫；后续须挂接SI回归验证门禁，通过方可真机落账。| 锚:RFC 2119 MUST级不可协商语义 / NIST SP 800-53 基线强制控制框架。",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1560,
+    "total_tokens": 1772,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1399
+    }
+  }
+}

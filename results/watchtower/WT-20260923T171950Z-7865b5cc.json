@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:19:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "e46fd6b885ed",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye VCI提交 e46fd6b，pub-lint执行R1代号化0件+报告持久化，带[skip ci]标记。| 性态: 零代码增量之纯元数据/报告归档件，CI已显式跳过，属维护性落账。| 建议处置: 已落账，无需回执；关注后续是否频现空件提交挤占版本线。| 锚: 会计凭证中\"零金额附件\"——手续完备但无实际收付，仅作备查簿登记。",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 729,
+    "total_tokens": 938,
+    "completion_tokens_details": {
+      "reasoning_tokens": 604
+    }
+  }
+}

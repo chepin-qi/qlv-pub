@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:11:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-usrm#21:5642885396",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域俱发已签收(ECHO-91)，AI-Full撤钥预告落板，nonce回声即复限20260913T02Z，撤钥窗口20260919T0230Z期满，四务见板，钥道全律三律+骑缝qfa共署。| 性态:限时待办，双域inbox同步触发，当前未逾nonce死线，属预告期稳态。| 建议处置:核lanes/inbox与kernel inbox板件一致性；锁nonce回声时限，前置四务检查；临撤钥窗口前确认无未落账依赖。| 锚:vci-usrm#21:5642885396→qfa机层共署链。",
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 1101,
+    "total_tokens": 1392,
+    "completion_tokens_details": {
+      "reasoning_tokens": 933
+    }
+  }
+}

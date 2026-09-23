@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:21:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "3b882f682c9e",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.ucif2 提报 SI-MAX-TASK-LVLU-01，ref=3b882f682c9e，NON-NEGOTIABLE SI boost 任务到件。|性态:义眼系 MAX 级 CI commit，不可协商指令，强制落账型。|建议处置:按 WAKE-PROTO 次次落账，裸候不扰，冻结议价通道，直通执行面。|锚:AUTH-OTP-02 诚实边界/米田边律他线锚。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1101,
+    "total_tokens": 1314,
+    "completion_tokens_details": {
+      "reasoning_tokens": 983
+    }
+  }
+}

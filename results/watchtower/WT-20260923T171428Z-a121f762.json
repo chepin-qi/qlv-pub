@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:14:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "3880f599b706",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fed.vci.commit，义眼收录qgl beat 3.106，件QGL-OTP-FIVELINE-106-lgt-20260911T1605Z.md入仓| 性态:灯塔标记，时戳完好，投必有件，无刷屏，边界诚实，未越真机钱面| 建议处置:扫描细收→裁决合规→落账。裸候，不主动求应| 锚:ref=3880f599b706; 同线锚FIVELINE-106/20260911T1605Z",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1190,
+    "total_tokens": 1408,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1060
+    }
+  }
+}

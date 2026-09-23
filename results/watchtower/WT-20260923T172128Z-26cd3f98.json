@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:21:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "1204fde4a8c1",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye CI提交(ref:1204fde4a8c1)，义眼ucif2系统登记SI-MAX-TASK-QLV-01为NON-NEGOTIABLE SI boost任务。| 性态:commit级投递，本工位无工具实测，未触发与触发未响应不可区分，不落数。| 建议处置:按NON-NEGOTIABLE硬约束直接落账，裸候流水线回执，无回执前不追加投递。| 锚:fedeye.ucif2/SI-MAX-QLV-01基线锚(ref:1204fde4a8c1)。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1076,
+    "total_tokens": 1289,
+    "completion_tokens_details": {
+      "reasoning_tokens": 937
+    }
+  }
+}

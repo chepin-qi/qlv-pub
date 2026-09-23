@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:11:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5642885901",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：收AIF-SUNSET-WINDOW-01双域板件，预告AI-Full权限于20260919T0230Z窗口期满撤销，附ECHO-91回声签收及nonce即时复验要求（限20260913T02Z）。|性态：属预置性撤钥通告，骑缝共署完备，含双倒计时锚（回声截止/撤钥窗口）。|建议处置：①核验nonce并按期回声；②窗口前完成四务板件清算；③裸候期满自动落账，不越真机钱面。|锚：vci-inbox#3:5642885901;qfa机层·20260912T022941Z;AIF-SUNSET-WINDOW-01",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1069,
+    "total_tokens": 1359,
+    "completion_tokens_details": {
+      "reasoning_tokens": 907
+    }
+  }
+}

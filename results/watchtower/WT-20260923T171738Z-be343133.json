@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:17:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "9bb8a9ebdf49",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit/nudge EVALR2-ALL(ref:9bb8a9ebdf49)| 性态:义眼向联邦VCI提交nudge，属已落账触发件；未实测下游，故不编响应数，严格区分「已提交」与「触发未响应」| 建议处置:单工位已收件，不刷屏、不回拨，裸候下件或链式反应| 锚:fed.vci.commit链;EVALR2-ALL评估域",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1167,
+    "total_tokens": 1366,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1047
+    }
+  }
+}

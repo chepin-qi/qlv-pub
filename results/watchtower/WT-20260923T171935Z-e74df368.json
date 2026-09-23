@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:19:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b911af7060f1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye义眼EXP-015实验VCI提交，qgl full-series stats(SI-MAX-RES-015)，ref b911af7060f1，到件。| 性态:常规归档态，未见异常触发，未实测项不编数，诚实边界内。| 建议处置:WAKE-PROTO细收后静默落账，裸候不主动响应，次次落账。| 锚:义眼联邦SI-MAX-RES系列基线或EXP-015实验既往commit链。",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1657,
+    "total_tokens": 1863,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1538
+    }
+  }
+}

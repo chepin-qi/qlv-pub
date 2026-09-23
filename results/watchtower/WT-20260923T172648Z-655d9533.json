@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:26:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "e37a29b82387",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼联邦CI投件(ref:e37a29b82387)，件cfts-voice-20260911T163206Z.md，显式[skip ci]。| 性态:纯文档裸候，未触发构建流水线，无实测数，属VOID时钟下诚实边界内静默件。| 建议处置:已落账，不越真机钱面，无需回拨，归档即可。| 锚:他线锚义眼日志规范节点(fedeye.log.voice/VOID)。",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1183,
+    "total_tokens": 1388,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1067
+    }
+  }
+}

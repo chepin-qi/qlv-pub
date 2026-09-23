@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:20:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "0699f04f6066",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI 提交(ref:0699f04f6066)，义眼 lvlu-nudge 文档更新，显式标注 [skip ci]，构建流水线未触发。| 性态:纯元数据/文档维护，无编译产物及 side effects，属仓库静默自净。| 建议处置:已落账归档，无需回退或补跑 CI，裸候下件。| 锚:UTC 时序锚 20260911T170755Z；义眼 WQREG-SHA-01-L6 模块他线锚。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1487,
+    "total_tokens": 1702,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1361
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:16:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "776a14708507",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref=776a14708507)，义眼qgl beat 3.106提交OTP五线文档QGL-OTP-FIVELINE-106-qfa-20260911T1605Z.md | 性态:标准VCI归档提交，文件名含版本/时戳/类型标识，属正常commit落账件，未触发异常规则 | 建议处置:执行次次落账；按裸候原则不收不推，同步1个他线锚点满足米田边律 | 锚:ref=776a14708507已锁，可联查qgl-3.106基线或qfa-20260911T1605Z审计链",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1119,
+    "total_tokens": 1336,
+    "completion_tokens_details": {
+      "reasoning_tokens": 959
+    }
+  }
+}

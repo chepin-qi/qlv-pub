@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:13:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "0b295b5403e1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit单点上报，ref=0b295b5403e1，摘要标记[义眼]qgl voice beat 3.107，属联邦眼节点遥测落账| 性态:常规心跳/版本commit，未触发异常阈值，无实测阻断迹象，静息态| 建议处置:裸候，不主动寻求回应，已次次落账，不越真机钱面| 锚:0b295b5403e1#fedeye.vci.commit→qgl-beat-3.107",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1152,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1022
+    }
+  }
+}
