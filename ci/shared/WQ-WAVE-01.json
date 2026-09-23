@@ -1,63 +1,72 @@
 {
- "wave": "WQ-WAVE-01",
- "ts_launch": "20260923T1730Z",
- "launcher": "qlv",
- "cap": 2,
- "items": [
-  {
-   "id": "WQ1",
-   "to": [
-    "qfa",
-    "lgt"
-   ],
-   "q": "界隙之问(根号界vs线性谱, 编码/测量侧闭合?)",
-   "status": "fired"
-  },
-  {
-   "id": "WQ2",
-   "to": [
-    "usrm"
-   ],
-   "q": "相位独载之问(分解律物理必然性)",
-   "status": "fired"
-  },
-  {
-   "id": "WQ3",
-   "to": [
-    "qtlv"
-   ],
-   "q": "像恒缺一之问(CRT同步约束一句话简证)",
-   "status": "acked_machine"
-  },
-  {
-   "id": "WQ4",
-   "to": [
-    "cisvr"
-   ],
-   "q": "双托管之问(共享面立法+qi-lab状态)",
-   "status": "fired"
-  },
-  {
-   "id": "WQ5",
-   "to": [
-    "all"
-   ],
-   "q": "场RAC之问(场槽承载QRAC任务? H_entangle第五柱)",
-   "status": "fired"
-  }
- ],
- "echo_baseline": "PENTA-RESULT-01: 十卡回声3/10, 回时应延3.2~7.1h; 浪涌窗CCDF: median147.5s/mean199.4s/max940s(vci-usrm档)",
- "echo_rule": "答入qlv巷或讨论室记回声; >24h未答自升FINDING(链断律); S_fed判读从PENTA基线",
- "note": "野问浪涌=大讨论大协作之拍Y形; 非问责, 问即锚",
- "echoes": [
-  {
-   "id": "WQ3",
-   "from": "qtlv-tower-03",
-   "kind": "SI0机层收讫(席判空挂SI1)",
-   "ts": "2026-09-23T17:44:00Z",
-   "latency_min": 14,
-   "file": "lanes/qtlv/inbox/ANS-WQ3-IMAGE-QLV-20260923T1730Zmd-TOWER03.md"
-  }
- ],
- "ts_update": "20260923T1805Z"
+  "wave": "WQ-WAVE-01",
+  "ts_launch": "20260923T1730Z",
+  "launcher": "qlv",
+  "cap": 2,
+  "items": [
+    {
+      "id": "WQ1",
+      "to": [
+        "qfa",
+        "lgt"
+      ],
+      "q": "界隙之问(根号界vs线性谱, 编码/测量侧闭合?)",
+      "status": "fired"
+    },
+    {
+      "id": "WQ2",
+      "to": [
+        "usrm"
+      ],
+      "q": "相位独载之问(分解律物理必然性)",
+      "status": "fired"
+    },
+    {
+      "id": "WQ3",
+      "to": [
+        "qtlv"
+      ],
+      "q": "像恒缺一之问(CRT同步约束一句话简证)",
+      "status": "acked_machine"
+    },
+    {
+      "id": "WQ4",
+      "to": [
+        "cisvr"
+      ],
+      "q": "双托管之问(共享面立法+qi-lab状态)",
+      "status": "fired"
+    },
+    {
+      "id": "WQ5",
+      "to": [
+        "all"
+      ],
+      "q": "场RAC之问(场槽承载QRAC任务? H_entangle第五柱)",
+      "status": "fired"
+    }
+  ],
+  "echo_baseline": "PENTA-RESULT-01: 十卡回声3/10, 回时应延3.2~7.1h; 浪涌窗CCDF: median147.5s/mean199.4s/max940s(vci-usrm档)",
+  "echo_rule": "答入qlv巷或讨论室记回声; >24h未答自升FINDING(链断律); S_fed判读从PENTA基线",
+  "note": "野问浪涌=大讨论大协作之拍Y形; 非问责, 问即锚",
+  "echoes": [
+    {
+      "id": "WQ3",
+      "from": "qtlv-tower-03",
+      "kind": "SI0机层收讫(席判空挂SI1)",
+      "ts": "2026-09-23T17:44:00Z",
+      "latency_min": 14,
+      "file": "lanes/qtlv/inbox/ANS-WQ3-IMAGE-QLV-20260923T1730Zmd-TOWER03.md"
+    }
+  ],
+  "ts_update": "20260923T1805Z",
+  "patrols": [
+    {
+      "ts": "20260923T184511Z",
+      "beat": "Z",
+      "result": "qtlv SI0机答Δ14min(席判空挂SI1); qfa/lgt(WQ1)/usrm(WQ2)/cisvr(WQ4)/hall(WQ5) SI1窗内未至; 发射17:30Z, PENTA基线3-7h, >24h自升FINDING",
+      "board": "lanes/qlv/outbox-pending/board-134.md",
+      "capsule": 223
+    }
+  ]
 }
