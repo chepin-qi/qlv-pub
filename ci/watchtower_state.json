@@ -27,13 +27,13 @@
       0,
       0,
       0,
-      1,
       0,
+      1,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -50,7 +50,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-23",
-    "beacon_comments": 11
+    "beacon_comments": 12
   },
   "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
   "_probe_err": {
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 12,
+  "seg_cursor": 13,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -117,25 +117,26 @@
       "n": 1
     },
     "debt-20260912-edge-throttle": {
-      "t": 1790192555.9352372,
+      "t": 1790191871.091112,
       "n": 1
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790192555.935243,
+      "t": 1790191871.0911174,
       "n": 1
     },
     "debt-20260912-orbit-cap02-lgt": {
-      "t": 1790192555.9352489,
+      "t": 1790191871.0911202,
       "n": 1
     },
     "debt-20260912-orbit-cap03-ring": {
-      "t": 1790192555.9352505,
+      "t": 1790191871.0911217,
       "n": 1
     }
   },
   "nudge_backlog": 7,
   "orbit_done": [
-    "ORBIT-CAP-03-QLV-01-20260913T001817Z.md"
+    "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+    "ORBIT-CAP-01-20260913T014500Z.md"
   ],
   "lanesweep_seen": [
     "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
