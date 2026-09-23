@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:38:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-ucif2#1:5642885804",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域俱发；ECHO-91回声签收nonce限20260913T02Z，AI-Full撤钥窗口20260919T0230Z期满，四务见板，钥道三律+骑缝已共署。| 性态:限时链式响应，nonce硬截止；撤钥预告属前置操作，双域需防异步丢包。| 建议处置:核本线AI-Full受影响范围，限期内回执；预演四务移交；盯双域ACK同步。| 锚:qfa机层VCI-ucif2共署，可交叉核验lanes/inbox落账态。",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 1543,
+    "total_tokens": 1835,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1392
+    }
+  }
+}

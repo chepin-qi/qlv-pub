@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:41:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "3880f599b706",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref:3880f599b706)，义眼qgl beat 3.106提交OTP-FIVELINE-106-lgt文档(20260911T1605Z.md)| 性态:标准VCI落账事件；文件名规范嵌入五线制标识与UTC时间戳，未见异常；因无diff载荷，具体变更内容未实测，属「未触发」状态| 建议处置:按WAKE-PROTO落账，归档106号线束，裸候后续同步| 锚:AUTH-OTP-02/FIVELINE线束规范",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1058,
+    "total_tokens": 1276,
+    "completion_tokens_details": {
+      "reasoning_tokens": 922
+    }
+  }
+}

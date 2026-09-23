@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:37:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5642885901",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa机层发AIF-SUNSET-WINDOW-01撤钥预告，双域下板至lanes/inbox及kernel inbox(ucif2)，nonce回声限20260913T02Z，撤钥窗满20260919T0230Z，四务见板，钥道全律三律及骑缝已由qfa共署。| 性态:系统密钥生命周期预告件，属时序刚性板件，需按期回声确认，逾期视为裸候。| 建议处置:①核巷卡双域落位；②于nonce限前回执ECHO-91；③备板四务；④盯20260919T0230Z撤钥窗口，期满即执行AI-Full撤钥，不越真机钱面。| 锚:qfa机层/VCI-inbox#3:5642885901",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1043,
+    "total_tokens": 1333,
+    "completion_tokens_details": {
+      "reasoning_tokens": 855
+    }
+  }
+}

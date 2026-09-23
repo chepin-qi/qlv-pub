@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:37:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-cfts#1:5642885562",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域撤钥预告，巷卡lanes/inbox(ucif2 kernel inbox)，nonce回声限20260913T02Z，AI-Full撤钥窗口20260919T0230Z，四务见板，qfa共署。| 性态:待回声之钥生命周期管理件，双域俱发，硬时限。| 建议处置:裸候不刷屏，限期内回声签收；备四务；窗口前盯落实，次次落账。| 锚:ref=vci-cfts#1:5642885562; lane=kernel inbox(ucif2).",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1612,
+    "total_tokens": 1902,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1472
+    }
+  }
+}

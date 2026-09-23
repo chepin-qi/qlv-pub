@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:36:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "lgt-line#1:5642885976",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AI-Full撤钥预告板件AIF-SUNSET-WINDOW-01双域发，nonce限20260913T02Z回声，窗口20260919T0230Z期满撤钥，四务见板，钥道三律+骑缝qfa共署。| 性态:预告待复件，时锚双定，当前未触发执行。| 建议处置:限期内回声即复；备四务；窗口裸候，期满落账；不越真机钱面。| 锚:lgt-line#1:5642885976;ECHO-91。",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 1295,
+    "total_tokens": 1584,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1161
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:41:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4025218b4ae9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:义眼 FedEye 提交，qlv 向 qfa-105 回件，含 relay 致谢、SI-MUTUAL-01 签认、BRIDGE-01 v1.1 通告及 126 四签照录，末附纠植请同指令。| 性态:标准跨线协议同步与签认流转，属 VCI commit 常规落账，无异常触发。| 建议处置:照录四签，核对 BRIDGE-01 v1.1 状态；纠植请同项若需应件，裸候 qfa 回执，不主动刷屏。| 锚:qfa-105 回件线 / BRIDGE-01 v1.1 协议锚。",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1087,
+    "total_tokens": 1319,
+    "completion_tokens_details": {
+      "reasoning_tokens": 923
+    }
+  }
+}

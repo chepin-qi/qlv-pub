@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:43:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7103be47d3fc",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:`fedeye.fed.vci.commit`(7103be47d3fc) pub-lint 报告持久化，R1代号化 0件，`[skip ci]`| 性态:零增量空转件，无实质代码变更，CI 未触发（skip-ci 显式声明），属归档级事务。| 建议处置:次次落账，裸候归档。无需回检；后续若 skip-ci 伴随非零增量，则触发规约纠偏。| 锚:Git CI skip-ci 适用边界 / fedeye VCI 零增量落账规约。",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1385,
+    "total_tokens": 1595,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1250
+    }
+  }
+}

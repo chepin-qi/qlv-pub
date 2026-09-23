@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:40:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "2fd1808a97ec",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼pub-lint提交(ref:2fd1808a97ec)，R1代号化0件，报告持久化，显式[skip ci]| 性态:零产出静默维护，显式阻断下游流水线，属合规空转| 建议处置:已落账，裸候不响应，不越真机钱面| 锚:git-skip-ci语义锚定CI/CD空跑边界",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 808,
+    "total_tokens": 1018,
+    "completion_tokens_details": {
+      "reasoning_tokens": 711
+    }
+  }
+}

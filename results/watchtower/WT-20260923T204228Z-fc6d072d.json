@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:42:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cba1ee37021",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref:4cba1ee37021)，义眼pub-lint流水线提交，R1代号化0件、报告持久化，显式[skip ci]| 性态:非功能代码变更，无执行体diff，CI显式跳过、未触发，风险净空| 建议处置:次次落账，已收讫归档，无需回滚或补测| 锚:ref=4cba1ee37021",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 1190,
+    "total_tokens": 1399,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1082
+    }
+  }
+}
