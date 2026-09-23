@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T20:25:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "orbit.relay",
+    "ref": "ORBIT-CAP-01-20260913T014500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: ORBIT-CAP-01-20260913T014500Z.md 于周天驿戳讫，orbit.relay 转 lvlu，附\"(环 ?)\"示节点属性待核 | 性态: 阅转中继，无负载异常，目标归属未确认，属已触发已响应 | 建议处置: 次次落账，裸候不索应；环疑标存档，待 lvlu 或环管回证 | 锚: 时序戳 20260913T014500Z 交叉 cap 线；lvlu 为收件节点锚",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1161,
+    "total_tokens": 1382,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1027
+    }
+  }
+}
