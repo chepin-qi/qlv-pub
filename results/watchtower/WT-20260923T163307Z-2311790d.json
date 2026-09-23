@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:32:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-ucif2#1:5642885804",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域签发，ECHO-91回声签收暨AI-Full撤钥预告，nonce限期20260913T02Z，撤钥窗口20260919T0230Z，四务见板，qfa共署三律骑缝。| 性态:时序锚定件。预告性撤钥非即执行，属倒计时生效态；双域俱发为冗余备份；nonce回声即复系活性校验。| 建议处置:一线核收板件入库，二线索引骑缝签名校验，三线于20260913T02Z前落账nonce回执，四线备档20260919T0230Z撤钥交割清单。裸候，不主动外联。| 锚:vci-ucif2#1:5642885804机层原始收信；AIF-SUNSET-WINDOW-01双域板件编号；钥道全律三律+骑缝qfa共署为权源锚。",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 953,
+    "total_tokens": 1245,
+    "completion_tokens_details": {
+      "reasoning_tokens": 733
+    }
+  }
+}

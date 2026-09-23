@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:47:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "c889778181eb",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI commit(c889778181eb)，义眼ucif2推送SI-MAX-TASK-QGL-01，属NON-NEGOTIABLE的SI增强任务| 性态:系统级强制硬约束，QGL阻断型，自动触达即生效，无协商空间| 建议处置:依WAKE-PROTO直接裁决落账，免议执行；核验QGL门限与依赖链，确保单次闭环| 锚:AUTH-OTP-02(次次落账/不越真机钱面)",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1044,
+    "total_tokens": 1252,
+    "completion_tokens_details": {
+      "reasoning_tokens": 921
+    }
+  }
+}

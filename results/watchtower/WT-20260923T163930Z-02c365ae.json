@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:39:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "a70d844d1b27",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit,ref=a70d844d1b27,qgl beat 3.106(QGL-OTP-FIVELINE-106-lvlu-20260911T1605Z.md)| 性态:常规VCI提件,义眼观测下五线106节拍归档,时序正常,未见异常越界| 建议处置:次次落账,核验链式锚哈希连续性,裸候不主动寻求回应| 锚:QGL-FIVELINE-105-lvlu-20260910T0830Z(前序基线)",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 941,
+    "total_tokens": 1161,
+    "completion_tokens_details": {
+      "reasoning_tokens": 805
+    }
+  }
+}

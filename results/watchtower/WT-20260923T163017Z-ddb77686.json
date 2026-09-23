@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:30:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanes/qlv/inbox 巷卡计数自133跳至216，新增单件 qtlv-spectra-x11-qsca7fce6884.md 落账。| 性态: lane.drop 类入件，属 chepin-ai/vci-inbox 巷卡批量增量（+83），但仅标注最新单件名；未触发本机实测接口，不辨83件中其余82件详情。| 建议处置: 按WAKE-PROTO扫描→细收该件元数据，核对件名哈希与落账一致性；若仅单件变更则修正计数差标注，其余82件需补清单。| 锚: ref=lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 742,
+    "total_tokens": 972,
+    "completion_tokens_details": {
+      "reasoning_tokens": 567
+    }
+  }
+}

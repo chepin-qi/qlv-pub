@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:37:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "776a14708507",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit|ref=776a14708507;义眼qgl beat 3.106文档到件,QGL-OTP-FIVELINE-106-qfa-20260911T1605Z.md|性态:单件文本工位,投必有件,未触发异常,裸候态,clock=VOID|建议处置:细收已毕,次次落账,不主动寻求回应,静默候命|锚:fedeye.fed.vci为空间锚;AUTH-OTP-02五线制为制度锚",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1318,
+    "total_tokens": 1535,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1189
+    }
+  }
+}

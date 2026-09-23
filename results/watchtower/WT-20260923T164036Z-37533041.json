@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:40:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b18fbfea5eac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye vci提交(b18fbfea5eac)，义眼usrm-252 wave-167候件清零+四器图+大小周天，@all且[skip ci]。| 性态:批量清零与双图重构并全量广播，属高影响结构操作；[skip ci]致CI未触发，无实测流水。| 建议处置:遵OTP-02次次落账，裸候不主动外呼；建议补单测锚定四器图与周天映射。| 锚:vci.commit fedeye↔fedeye.ops.deploy流水线。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1406,
+    "total_tokens": 1619,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1274
+    }
+  }
+}

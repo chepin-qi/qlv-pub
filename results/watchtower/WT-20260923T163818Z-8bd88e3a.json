@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:37:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7c9ab9ab6de9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit 到件，ref=7c9ab9ab6de9，义眼 qgl beat 3.106 提交静默节拍指标文档 QGL-ANS-SILENCE-BEAT-METRIC-106-20260911T1605Z.md。| 性态: 静态文档上链，无触发响应，未涉真机钱面，属归档类投件。| 建议处置: 依 WAKE-PROTO 裁决落账，裸候不寻应，次次落账毕。| 锚: fedeye.qgl.ans-silence/20260911T1605Z 线锚，关联义眼观测流。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1218,
+    "total_tokens": 1442,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1062
+    }
+  }
+}

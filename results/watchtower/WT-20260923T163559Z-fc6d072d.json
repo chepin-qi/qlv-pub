@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:35:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cba1ee37021",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye commit 4cba1ee3，摘要\"pub-lint: R1代号化 0件 + 报告持久化 [skip ci]\"| 性态: 空件投仓/元数据落账。R1代号处理0件，仅执行报告持久化，且显式跳过CI，属无构建静默提交| 建议处置: 1)核实报告持久化必要性及存储路径；2)确认[skip ci]是否规避必要检查；3)若R1代号化未产出，归档未触发原因；4)次次落账备查| 锚: CI流水线配置/.pub-lint报告仓/R1代号映射主键",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 856,
+    "total_tokens": 1065,
+    "completion_tokens_details": {
+      "reasoning_tokens": 704
+    }
+  }
+}

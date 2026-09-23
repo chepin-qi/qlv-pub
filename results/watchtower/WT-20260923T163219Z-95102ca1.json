@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:31:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5642885901",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回声签收，板件AIF-SUNSET-WINDOW-01双域俱发，预告AI-Full撤钥窗口20260919T0230Z期满，nonce复验限20260913T02Z，钥道三律及骑缝已由qfa共署。| 性态:属协议过渡期的密钥生命周期管理（撤钥预告+回声确认），件态完整，时限双锚，无异常征候。| 建议处置:裸候。nonce回声区分「未触发vs触发未响应」，未触发即不复；四务见板待期满自动落账，不主动寻求回应。| 锚:AUTH-OTP-02裸候/落账条款; lanes/ucif2-kernel-inbox路由规约。",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 2160,
+    "total_tokens": 2450,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1991
+    }
+  }
+}

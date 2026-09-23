@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:40:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b1ee85826768",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye 义眼 pub-lint 提交(ref=b1ee85826768)，R1 代号化 0 件并完成报告持久化，含 [skip ci]| 性态: 工具链空跑/配置型维护，无有效产出件变更| 建议处置: 按 lint-0 件报告细收归档，次次落账；CI 豁免无需补跑，纳入 R1 批次追踪| 锚: fedeye.pub-lint 节点 / [skip ci] 豁免规程 / b1ee85826768",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1449,
+    "total_tokens": 1657,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1323
+    }
+  }
+}

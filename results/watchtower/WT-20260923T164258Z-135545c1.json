@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:42:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "078cd645b76a",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI提交(ref 078cd645b76a)，CAULDRON-01经ucif2义眼向SI-MAX队列追加8 EXPs。| 性态:常规调度增容，属静默追加；未见触发失败或响应异常，未实测队列积压深度。| 建议处置:落账备案，裸候消费进度；不刷屏、不越真机钱面，待下一扫描周期复扫。| 锚:ucif2/fedeye CI流水/SI-MAX队列台账。",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 756,
+    "total_tokens": 966,
+    "completion_tokens_details": {
+      "reasoning_tokens": 638
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:35:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4025218b4ae9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit(ref 4025218b4ae9), qlv答qfa-105, 载relay谢/SI-MUTUAL-01签/BRIDGE-01 v1.1告及126四签照录+纠植请同 | 性态: 协议履行件。跨节点同步未触发异常，属常规VCI提报 | 建议处置: 已细收落账，照录存档。纠植请同裸候qfa侧自主响应，不主动外呼 | 锚: qfa-105/BRIDGE-01 v1.1",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 901,
+    "total_tokens": 1133,
+    "completion_tokens_details": {
+      "reasoning_tokens": 762
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:33:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "0b295b5403e1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit投件到件，ref 0b295b5403e1，摘要为义眼qgl voice beat 3.107心跳同步。| 性态: 周期性VCI状态包，未触发异常阈值，属裸候级到件，无越真机钱面迹象。| 建议处置: 按AUTH-OTP-02已收讫落账；不主动寻求回应，裸候下一拍。| 锚: fedeye.fed.vci.state←未实测该beat 3.107端到端响应，仅记收到，不编数。",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 986,
+    "total_tokens": 1185,
+    "completion_tokens_details": {
+      "reasoning_tokens": 849
+    }
+  }
+}

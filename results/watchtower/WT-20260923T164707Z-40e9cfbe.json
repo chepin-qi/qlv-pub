@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:46:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "b95bc9c51ffb",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye ci commit, ref=b95bc9c51ffb, 档名qgl-voice-20260911165519.md, 标[skip ci]| 性态:文檔触达, CI显式跳过, 未触发构建, 属合规静默落笔| 建议处置:落账裸候, 不补跑流水线, 无需回拉| 锚:git skip-ci惯例允md免建; 同线锚:义眼prefix-commit规约",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 1272,
+    "total_tokens": 1475,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1158
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:44:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "4880d1f25203",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:kind=fedeye.fed.ci.commit, ref=4880d1f, _CURSORS.json[r588], ucif2 SI-MAX-01 8 EXPs deployed| 性态:CI触发已响应，自动部署流水，摘要无异常标记，按常规到件落账| 建议处置:裸候不主动seek；若持窗巡检，仅核对8 EXPs终态，不刷屏| 锚:git-ops 提交即终态契约",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1410,
+    "total_tokens": 1623,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1299
+    }
+  }
+}

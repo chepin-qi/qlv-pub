@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:45:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "a6fdad28ef26",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye CI commit(ref:a6fdad28ef26)，ucif2 _WAKE-REG 上报 R588 SI-MAX-01 的 8 parallel EXPs 已入队。| 性态: 已触发且系统已响应，属队列占位态，尚未被 runner 调度执行，非阻塞。| 建议处置: 裸候。次次落账，不主动 seek 响应，待状态变更或回传后再收。| 锚: 可交叉至 ucif2-WAKE-REG 注册表线及 SI-MAX-01 资源调度线，ref 留档备查。",
+  "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 1262,
+    "total_tokens": 1473,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1120
+    }
+  }
+}

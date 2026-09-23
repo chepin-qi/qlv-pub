@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:48:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "dee84272b508",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye CI提交(ref=dee84272b508)，义眼项目追加vinf-voice-20260911T163929Z.md，显式[skip ci]| 性态: 文档到件，流水线免触发，无构建副作用，属静默归档| 建议处置: 已落账，裸候即可，无需回执| 锚: 义眼声纹日志-20260911",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 777,
+    "total_tokens": 981,
+    "completion_tokens_details": {
+      "reasoning_tokens": 681
+    }
+  }
+}

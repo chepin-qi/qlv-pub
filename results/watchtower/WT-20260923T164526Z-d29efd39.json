@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:45:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "8a90571d34b9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI 提交(ref:8a90571d)带[skip ci]，义眼 usrm-252/wave-167 候件清零+四器图+大小周天变更，@all 广播。| 性态:裸候件，未触发构建，属系统内循环。| 建议处置:旁路落仓，不入流水线，无回执。| 锚:fedeye.fed.ci.commit.skipci→裸候不触线。",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1445,
+    "total_tokens": 1659,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1339
+    }
+  }
+}

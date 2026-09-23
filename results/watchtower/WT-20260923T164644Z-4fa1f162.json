@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:46:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "b25e57e3fa8e",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.ci.commit(ref=b25e57e3fa8e) 义眼EXP-015实验线向OMNI-DRIVE共享池注入qgl data bone变更。| 性态: 投递态；未声明触发结果，无实测构建响应数据，不臆测编译产出。| 建议处置: 1)按EXP线规约沙箱预检 2)监测OMNI-DRIVE共享池I/O争用 3)落账后裸候，不主动求应。| 锚: fedeye.govern.EXP/sandbox.pre(AUTH-OTP-02)",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1383,
+    "total_tokens": 1588,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1247
+    }
+  }
+}

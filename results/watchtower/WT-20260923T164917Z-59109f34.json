@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:48:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "fcf67140a8ce",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.ci.commit(ref=fcf67140a8ce) [义眼]vinf拍10/L96 vinf-stack全析 d_s=1.99三点确认; FSS crossover持续负结果入册 | 性态: CI流拍负向收敛，d_s临界三点未越真机钱面，属正常数据沉淀 | 建议处置: 按AUTH-OTP-02次次落账，静默入册，裸候，不刷屏 | 锚: vinf-stack.d_s/1.99三点基线锚定fcf67140a8ce",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1234,
+    "total_tokens": 1453,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1101
+    }
+  }
+}

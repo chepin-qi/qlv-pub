@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:41:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b911af7060f1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref=b911af7060f1，摘要为[义眼]EXP-015 SI-MAX-RES-015 qgl full-series stats| 性态:VCI提交类事件；文本工位无工具未实测，仅形式收裁，不触真机校验，不编造统计数值| 建议处置:依WAKE-PROTO裁决落账；件为数据提交，无需回执，裸候存档；待验数请转实测工位| 锚:fedeye.vci规范线/EXP-015实验锚",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1371,
+    "total_tokens": 1577,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1238
+    }
+  }
+}

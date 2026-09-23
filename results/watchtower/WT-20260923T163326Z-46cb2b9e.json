@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:33:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-vinf#6:5642885694",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域签发，预告20260919T0230Z撤AI-Full钥，附ECHO-91回声签收及nonce复签时限20260913T02Z，四务见板。| 性态:协议流程执行业务，属骑缝共署后的标准撤钥预告，非异常。| 建议处置:nonce截止前完成回声复签；按窗口期备迁/备册；期满依板件执行四务落账。| 锚:板件骑缝共署于qfa机层，见vci-vinf#6:5642885694。",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 885,
+    "total_tokens": 1175,
+    "completion_tokens_details": {
+      "reasoning_tokens": 744
+    }
+  }
+}

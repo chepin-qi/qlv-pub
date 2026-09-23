@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:47:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "c13ed68d6163",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye CI commit(ref c13ed68d6163)提交义眼语音纪要文档cfts-voice-20260911T164348Z.md，含[skip ci]标记| 性态:纯文档留档，无代码变更，未触发构建流水线，无实测单元| 建议处置:归档备查，无需回执；若纪要涉敏感标注应人工复核分级| 锚:fedeye.fed.doc.retention",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 908,
+    "total_tokens": 1113,
+    "completion_tokens_details": {
+      "reasoning_tokens": 805
+    }
+  }
+}

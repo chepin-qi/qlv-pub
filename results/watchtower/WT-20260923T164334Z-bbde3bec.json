@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:43:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "3341f04ea4f8",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye联邦之眼CI落账，ref 3341f04ea4f8，ZHOUTIAN-01大小周天环圈实化，vinf拍10，attestation chain297，fold 3675a206。| 性态:正常投递，扫描无异常，未触发告警，诚实边界内。| 建议处置:裸候，不主动寻求回应，次次落账已毕。| 锚:git-sha作tree锚，跨链核验可回查3675a206父提交。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 988,
+    "total_tokens": 1208,
+    "completion_tokens_details": {
+      "reasoning_tokens": 871
+    }
+  }
+}

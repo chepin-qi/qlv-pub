@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:42:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "0699f04f6066",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼联邦CI提交(ref=0699f04f6066)，件名lvlu-nudge-WQREG-SHA-01-L6-20260911T170755Z.md，含[skip ci]指令，属规则触发的元数据登记，未进入构建节点。| 性态:投件已落账，CI因[skip ci]未触发，无构建、无实测、无流水响应，属提交级主动抑制，非系统故障。| 建议处置:按WQREG-SHA-01-L6归档，无需回滚，记skip ci理由备审计；裸候即可，不追呼。| 锚:git-commit-0699f04f6066;义眼联邦nudge协议SHA-01-L6;米田边律≥1锚已满足。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1537,
+    "total_tokens": 1752,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1359
+    }
+  }
+}

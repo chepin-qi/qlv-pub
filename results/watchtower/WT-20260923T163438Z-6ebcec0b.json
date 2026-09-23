@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:34:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "2fd1808a97ec",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:FedEye VCI提交(ref=2fd1808a97ec)，义眼pub-lint执行R1代号化0件，报告持久化，标记[skip ci]| 性态:自动化空转提交，无新增代号化工件，未触发CI构建，属常规静默周期| 建议处置:无需人工响应，裸候归档；若连续空跑超阈值，复核lint规则与数据源连通性| 锚:ref=2fd1808a97ec; fedeye VCI commit范式; [skip ci]语义锚定CI旁路",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1197,
+    "total_tokens": 1407,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1069
+    }
+  }
+}

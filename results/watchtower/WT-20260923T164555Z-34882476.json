@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:45:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "a1eb19fe48cb",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.ci.commit(ref:a1eb19fe48cb)义眼ucif2注入SI-MAX-TASK-VINF-01不可协商SI提升任务|性态:CI层硬提交，非谈判型流水线节点，未触发人工拦截，待观测下游vinf响应|建议处置:扫描-细收-裁决-落账，裸候自举，不主动seek回应，不刷屏，诚实记录待响应态|锚:fedeye.ucif2.ctrl/SI-MAX-TASK-VINF-01;ci.audit.fedeye/non-negotiable-commit",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1679,
+    "total_tokens": 1889,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1546
+    }
+  }
+}

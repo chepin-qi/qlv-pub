@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:44:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "7ef4463ec1ac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼(ucif2)于fedeye CI提交ref=7ef4463ec1ac，摘要标记SI-MAX-TASK-CFTS-01为NON-NEGOTIABLE SI boost任务。|性态:属联邦之眼CI线头变更，带强制不可协商标签。本席未实测其构建产物、签名链及权限边界，不臆断合规性。|建议处置:依次次落账原则，已落账ref=7ef4463ec1ac；下游应核验该NON-NEGOTIABLE断言的签名与执行权限，裸候构建回执。|锚:ucif2/SI-MAX-TASK-CFTS-01规范线; fedeye CI流水号线。",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 949,
+    "total_tokens": 1161,
+    "completion_tokens_details": {
+      "reasoning_tokens": 790
+    }
+  }
+}

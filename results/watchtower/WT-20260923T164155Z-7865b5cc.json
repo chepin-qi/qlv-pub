@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:41:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "e46fd6b885ed",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fed.vci提交(e46fd6b)| 性态:维护性落账，R1代号化0件+报告持久化，[skip ci]标记，无代码增量，属静默清扫| 建议处置:裸候存档，不触发CI及下游流水线，次次落账即可| 锚:git skip-ci规范/义眼联邦审计线",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 675,
+    "total_tokens": 884,
+    "completion_tokens_details": {
+      "reasoning_tokens": 588
+    }
+  }
+}

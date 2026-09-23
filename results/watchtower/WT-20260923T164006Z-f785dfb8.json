@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:39:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "aaa0228f4e36",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref=aaa0228f4e36):[义眼]pub-lint完成R1代号化1件及报告持久化,标记[skip ci]| 性态:工程面整理提交,属内部构建维护;计数1件,持久化动作明确,CI因明示skip ci未触发| 建议处置:常规收件,直接落账归档,不拦截| 锚:fedeye.fed/vci.build",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1575,
+    "total_tokens": 1785,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1468
+    }
+  }
+}

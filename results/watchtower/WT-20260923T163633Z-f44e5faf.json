@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:35:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cd099ddce15",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref=4cd099ddce15);[义眼]qgl对EXP-015回same-beat | 性态:联邦视觉通道同步提交，同拍应答已触发，未验实际偏移量 | 建议处置:细收EXP-015节拍基准与qgl回执时戳，裁决同拍真伪；无论是否响应，次次落账，裸候不seek | 锚:无他线锚（单线输入）",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 1567,
+    "total_tokens": 1765,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1455
+    }
+  }
+}

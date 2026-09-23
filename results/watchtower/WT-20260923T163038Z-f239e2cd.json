@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T16:30:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv-lab/inbox:qlv-first-20260910-qlvlab.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv-lab/inbox收外巷drop，chepin-ai/vci-inbox件数3→7，新到qlv-first-20260910-qlvlab.md| 性态:跨巷投件，lane.drop触发，文件命名合规，未触发内容校验（裸候态，未实测内部数）| 建议处置:按WAKE-PROTO执行细收，核对4件增量完整性后落账qlv-lab/inbox待处理队列| 锚:chepin-ai/vci-inbox",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 963,
+    "total_tokens": 1187,
+    "completion_tokens_details": {
+      "reasoning_tokens": 842
+    }
+  }
+}
