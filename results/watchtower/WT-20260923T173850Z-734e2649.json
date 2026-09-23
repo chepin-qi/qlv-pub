@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:38:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "eb2e633c9171",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼线qgl beat 3.106联邦VCI到件，ref=eb2e633c9171，文件qgl-voice-106-20260911T1605Z.md投件，无异常表征。| 性态:常规commit，未触发告警，未实测内容，不编数。| 建议处置:按AUTH-OTP-02次次落账，裸候不主动求应，归档备查。| 锚:fedeye.fci.loop/unk-02",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 940,
+    "total_tokens": 1153,
+    "completion_tokens_details": {
+      "reasoning_tokens": 826
+    }
+  }
+}

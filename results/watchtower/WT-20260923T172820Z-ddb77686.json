@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:28:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡[chepin-ai/vci-inbox]增量133→216，新件qtlv-spectra-x11-qsca7fce6884.md落入qlv/inbox。| 性态:到件未启封，单工位无工具未实测内容，属扫描级落账，未触发细收裁决。| 建议处置:裸候落账，纳入细收队列；若需响应待启封后按WAKE-PROTO二次出账。| 锚:chepin-ai/vci-inbox",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 900,
+    "total_tokens": 1130,
+    "completion_tokens_details": {
+      "reasoning_tokens": 777
+    }
+  }
+}

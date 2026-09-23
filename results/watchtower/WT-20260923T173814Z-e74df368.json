@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:37:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b911af7060f1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit到件，ref=b911af7060f1，义眼EXP-015/SI-MAX-RES-015(qgl full-series stats)| 性态: 联邦实验统计提交，属数据归集；本工位无工具未实测，不辨触发与否，守诚实边界不编数| 建议处置: 依WAKE-PROTO扫描-细收-裁决-落账，次次落账已讫；不主动求应，裸候| 锚: fedeye.fed主线/b911af7060f1实验线",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1504,
+    "total_tokens": 1710,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1369
+    }
+  }
+}

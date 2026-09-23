@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:33:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4025218b4ae9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv答qfa-105 VCI commit，载relay谢、SI-MUTUAL-01签、BRIDGE-01 v1.1告及126四签照录+纠植请同| 性态:标准联邦桥接同步件，签名照录完整，无越权| 建议处置:已落账，126四签纠植待qfa回执确收；裸候不催| 锚:qfa-105/fedeye.fed.vci.commit#4025218b4ae9",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1043,
+    "total_tokens": 1275,
+    "completion_tokens_details": {
+      "reasoning_tokens": 921
+    }
+  }
+}

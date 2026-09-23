@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:30:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-ucif2#1:5642885804",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:AIF-SUNSET-WINDOW-01双域撤钥预告到件。ECHO-91回声签收，nonce复限20260913T02Z，AI-Full撤钥窗20260919T0230Z期满。钥道全律三律及骑缝qfa共署，四务见板。性态:时效约束型协议终止预告；裸候期内合规性信息层到件，未触发实操亦无响应义务。建议处置:核板件原文与四务清单；若需留钥应于nonce限前回执，否则裸候至窗满自动撤除，不主动寻求回应。锚:ref=vci-ucif2#1:5642885804|qfa机层20260912T022941Z|kernel inbox/ucif2。",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 1671,
+    "total_tokens": 1963,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1495
+    }
+  }
+}

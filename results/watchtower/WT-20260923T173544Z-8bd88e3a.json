@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:35:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7c9ab9ab6de9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼联邦VCI指标提交，ref 7c9ab9ab6de9，载qgl beat 3.106静默节拍文档。| 性态:常规commit，未触发异常，属心跳度量正常上链。| 建议处置:准其落账，裸候下一beat；不主动寻应。| 锚:fedeye.fed.vci.commit链路锚定QGL-ANS-SILENCE度量线。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1011,
+    "total_tokens": 1235,
+    "completion_tokens_details": {
+      "reasoning_tokens": 910
+    }
+  }
+}

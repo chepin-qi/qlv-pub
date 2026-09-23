@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:38:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "0699f04f6066",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye fed CI提交(ref=0699f04f6066)，义眼文档更新(lvlu-nudge-WQREG-SHA-01-L6-20260911T170755Z.md)，含[skip ci]标记。| 性态:轻量文档级commit，无源码变更，流水线跳过符预期，未见异常。| 建议处置:裸候归档，无需回执，落账已毕。| 锚:Git skip-ci指令规范([skip ci]为标准流水线阻断标识，文档类变更合规)。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1041,
+    "total_tokens": 1256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 922
+    }
+  }
+}

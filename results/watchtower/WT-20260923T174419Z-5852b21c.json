@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:44:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "dee84272b508",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.ci.commit 到件，ref dee84272b508，摘要「[义眼]vinf-voice-20260911T163929Z.md」，含[skip ci]标记。| 性态: 静态文档入库，无流水线触发，无实测数据，无异常载荷。| 建议处置: 已收妥落账，裸候下件，无需回执。| 锚: git-object tree / 文档索引线。",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 903,
+    "total_tokens": 1107,
+    "completion_tokens_details": {
+      "reasoning_tokens": 797
+    }
+  }
+}

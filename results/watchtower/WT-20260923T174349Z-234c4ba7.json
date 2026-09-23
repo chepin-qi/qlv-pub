@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:43:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "cd14242fae78",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye义眼项目CI提交(ref cd14242fae78)，入仓qgl-voice-20260911164442.md，含[skip ci]标记，属文档类静态更新。| 性态:显式跳过流水线，未触发构建作业；单文件文本入仓，无执行态与扩散面。| 建议处置:裸候，不拦截、不响应，归档备查。| 锚:CI通用规范中[skip ci]为免构指令，文档入仓不触发流水线属常例。",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 1101,
+    "total_tokens": 1304,
+    "completion_tokens_details": {
+      "reasoning_tokens": 980
+    }
+  }
+}

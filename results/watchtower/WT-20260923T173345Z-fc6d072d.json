@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:33:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cba1ee37021",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref:4cba1ee37021)，义眼pub-lint提交，R1代号化0件，报告持久化，含[skip ci]标记。| 性态:纯元数据落账，未触发CI流水线，无实件变更，属空转归档提交。| 建议处置:落账归档，无需回退；确认报告持久化路径可访问后封包。| 锚:fedeye.pub-lint.report-store",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 819,
+    "total_tokens": 1028,
+    "completion_tokens_details": {
+      "reasoning_tokens": 710
+    }
+  }
+}

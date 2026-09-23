@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:38:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "e46fd6b885ed",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye VCI提交 e46fd6b8，pub-lint R1代号化0件+报告持久化，含[skip ci]| 性态:常规维护空转。0件代换示无命中或已清场；报告持久化为旁路固化；skip ci系主动规避CI，属未触发而非触发未响应| 建议处置:正常落账，无需回拨。抽查持久化报告路径权限与保留策略，确认skip ci符团队约定| 锚:可挂存储线持久化策略及fedeye监控看板回流链路",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 1179,
+    "total_tokens": 1388,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1049
+    }
+  }
+}

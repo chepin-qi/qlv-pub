@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:36:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "aaa0228f4e36",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit(ref:aaa0228f4e36)。义眼pub-lint提交，含R1代号化1件及报告持久化，附[skip ci]。| 性态: 属配置/元数据层落账，未进入运行态触发；因[skip ci]显式绕开CI，自动构建验证缺位，形成“件已投、验未行”。| 建议处置: 1)审计R1代号映射与实体一致性；2)核查报告持久化路径权限及落盘结果；3)补做本地pub-lint或手动校验，防止规则漂移。| 锚: 交叉锚定至 fedeye.pub-lint.ruleset 版本号及报告存储卷快照线。",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1092,
+    "total_tokens": 1302,
+    "completion_tokens_details": {
+      "reasoning_tokens": 923
+    }
+  }
+}

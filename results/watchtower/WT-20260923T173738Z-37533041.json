@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:37:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "b18fbfea5eac",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye vci提交(ref b18fbfea5eac)，摘要载「[义眼]usrm-252 wave-167:候件清零+四器图+大小周天 @all [skip ci]」| 性态:批量功能合入，显式[skip ci]致CI未触发；属usrm-252 wave-167交付节点，@all广而告之| 建议处置:审[skip ci]合理性，确认三变更本地已验；无CI则补人工深评或门禁兜底| 锚:ci.skip线「skip ci」/需求线「usrm-252」/协作线「@all」",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1289,
+    "total_tokens": 1502,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1140
+    }
+  }
+}

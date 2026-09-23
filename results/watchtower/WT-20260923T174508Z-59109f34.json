@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:44:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "fcf67140a8ce",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼vinf拍10 L96 vinf-stack全析，d_s=1.99三点确认，FSS crossover持续负结果入册(ref fcf67140a8ce)。| 性态:全析收敛，d_s=1.99经三点互验锁定；FSS crossover无正向跃迁，负结果持续，属基线波动，未触发越界。| 建议处置:依AUTH-OTP-02落账归档，续扫下一拍；d_s若跳变则重裁决，当前裸候。| 锚:fcf67140a8ce/vinf-stack L96全析crossover负结果链。",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1429,
+    "total_tokens": 1648,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1283
+    }
+  }
+}

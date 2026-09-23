@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:42:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "c13ed68d6163",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.ci.commit(ref=c13ed68d6163)，义眼语音纪要cfts-voice-20260911T164348Z.md入库，标记[skip ci]。| 性态:静态文档提交，未触发CI流水线，无构建产物与部署行为，属知识资产单次落账，诚实边界内无越面。| 建议处置:裸候，不主动寻求回应；件已落账，无需回退或干预。| 锚:UTC锚20260911T164348Z，义眼同批次语音件序列锚。",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1122,
+    "total_tokens": 1327,
+    "completion_tokens_details": {
+      "reasoning_tokens": 994
+    }
+  }
+}

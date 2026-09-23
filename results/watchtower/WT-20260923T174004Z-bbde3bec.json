@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:39:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "3341f04ea4f8",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.ci.commit(ref:3341f04ea4f8)，义眼vinf拍10 ZHOUTIAN-01大小周天环-圈实化，附attestation chain297及fold 3675a206。| 性态:CI提交流转件，链式认证记录完整，据摘要不显异常触发。| 建议处置:即行落账，备核chain297与fold 3675a206一致性，裸候流水线后续反馈，不越真机面。| 锚:同仓库CI审计日志或ZHOUTIAN-01历史版本tag。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1421,
+    "total_tokens": 1641,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1287
+    }
+  }
+}

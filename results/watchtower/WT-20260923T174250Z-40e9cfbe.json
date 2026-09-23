@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:42:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "b95bc9c51ffb",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.ci.commit，ref=b95bc9c51ffb，摘要呈报[义眼]文档qgl-voice-20260911165519.md入仓，附[skip ci]| 性态:静态归档型提交，据摘要自声明跳过CI构建，无下游激活表征；未触发/触发未响应均不涉产出面| 建议处置:已阅落账，裸候，不主动寻求回应，无需回执、补建或回滚| 锚:git-scm.org/docs/git-commit#_options",
+  "usage": {
+    "prompt_tokens": 203,
+    "completion_tokens": 1252,
+    "total_tokens": 1455,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1127
+    }
+  }
+}

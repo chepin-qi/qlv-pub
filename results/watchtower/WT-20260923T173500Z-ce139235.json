@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:34:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7103be47d3fc",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit ref=7103be47d3fc，摘要「[义眼]pub-lint: R1代号化 0件 + 报告持久化 [skip ci]」| 性态:代码提交，零文件变更（0件），纯报告持久化，且显式声明跳过CI，属低风险维护性提交| 建议处置:按常规落账，无需阻断；确认报告落盘路径与权限即可| 锚:git-commit惯例中[skip ci]标记显式跳过流水线，零diff提交不改变制品面",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1185,
+    "total_tokens": 1395,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1055
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:32:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "3880f599b706",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref 3880f599b706；[义眼]qgl beat 3.106提交QGL-OTP-FIVELINE-106-lgt-20260911T1605Z.md，属五线文档投件。| 性态:单次落账，未触发异常响应，无刷屏。未实测运行态，不编数。诚实边界内，不越真机钱面。| 建议处置:按WAKE-PROTO扫描细收后落账；裸候，不主动寻求回应；存档备查。| 锚:ref:3880f599b706 | chron:20260911T1605Z | qgl:beat-3.106",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1504,
+    "total_tokens": 1722,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1341
+    }
+  }
+}

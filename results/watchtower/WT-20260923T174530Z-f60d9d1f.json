@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:45:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci_qlv_lane.lane",
+    "ref": "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv巷vci-inbox新件到件，ref=2026-09-10-hub-verdict-qlv-lab-listener-01.md；摘要仅报文件名，内容未触发解析。| 性态:裸候到件态，单会话文本工位无工具，未实测内文，属「到件未触发」而非「触发未响应」。| 建议处置:依WAKE-PROTO行扫描-细收，先行落账锚定；裁决待有工具位或下轮回话补全内容后推进。| 锚:fedeye.fed.vci_qlv_lane.lane/inbox/newfile/VOID-clock",
+  "usage": {
+    "prompt_tokens": 237,
+    "completion_tokens": 982,
+    "total_tokens": 1219,
+    "completion_tokens_details": {
+      "reasoning_tokens": 834
+    }
+  }
+}

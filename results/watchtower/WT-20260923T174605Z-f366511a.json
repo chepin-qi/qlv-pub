@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:45:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci_qlv_lane.lane",
+    "ref": "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci_qlv_lane.lane新件到件，ref=ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md，义眼VCI-inbox投递| 性态:标准投递信号，件信息完整，未触发异常，属待细收状态| 建议处置:按WAKE-PROTO执行细收→裁决→落账；核验usrm共签验证件完整性；依AUTH-OTP-02裸候，不主动外寻，不越真机钱面| 锚:ANCHOR:fedeye.fed.cosign_verify/同域共签验证线",
+  "usage": {
+    "prompt_tokens": 243,
+    "completion_tokens": 2072,
+    "total_tokens": 2315,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1923
+    }
+  }
+}

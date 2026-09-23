@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:46:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci_qlv_lane.lane",
+    "ref": "ANS-QLV-COSIGN-FETCH-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:义眼联邦VCI-QLV巷道新件到件，ref=ANS-QLV-COSIGN-FETCH-01.md，kind=fedeye.fed.vci_qlv_lane.lane，当前为纯到件未触发解析| 性态:标准VCI协同签名获取流程文档投递，属QLV Lane规范内数据报文，未实测其内部签章与载荷| 建议处置:执行lane标准收验：核对cosign fetch参数完整性，确认签发方凭据，如需响应则按协议回执ACK；裸候不主动外联| 锚:kind#fedeye.fed.vci_qlv_lane.lane",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1024,
+    "total_tokens": 1247,
+    "completion_tokens_details": {
+      "reasoning_tokens": 873
+    }
+  }
+}

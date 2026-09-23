@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:40:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "40364b9a01ad",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye CI commit ref 40364b9a01ad，义眼语音纪要 cfts-voice-20260911T165449Z.md 入仓，显式 [skip ci] 跳过构建 | 性态: 纯 Markdown 文档追加，无源码变更，CI 未触发（skip 语义生效），无部署面与构建产物风险 | 建议处置: 无需回滚，归档备查；若后续需语音-文本对齐检索，建议在同目录补充采集元数据（时长/摘要/关联案号）索引 | 锚: 义眼 cfts 系列介质文件惯用 [skip ci] 直推入仓，同构于 cfts-vision 档线惯例",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1348,
+    "total_tokens": 1554,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1186
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:41:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.ci.commit",
+    "ref": "8a90571d34b9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.ci.commit ref 8a90571d34b9，摘要含[skip ci]| 性态:义眼模块usrm-252/wave-167落账，摘要用内部黑话（四器图、大小周天）且@all广播，然投件附[skip ci]致流水线未触发/触发未响应待核，属器匿声| 建议处置:已落账，裸候不追；若skip ci非豁免，责令补跑或下件回收| 锚:usrm-252需求线、wave-167波次线、CI治理线(skip ci审计项)",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1924,
+    "total_tokens": 2138,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1782
+    }
+  }
+}

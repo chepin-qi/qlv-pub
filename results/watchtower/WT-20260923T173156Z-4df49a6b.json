@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:31:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "02a969e2c7ad",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:FedEye联邦眼VCI提交(ref:02a969e2c7ad)，件为QGL beat 3.106之OTP-FIVELINE-106用户管理文档(QGL-OTP-FIVELINE-106-usrm-20260911T1605Z.md)，属版本迭代。| 性态:常规commit，本单会话无工具实测，未触发亦未响应异常，依AUTH-OTP-02裸候，守诚实边界不越真机钱面。| 建议处置:次次落账已归档，不主动求应，续裸候。| 锚:ref=02a969e2c7ad跨线锚QGL-OTP-FIVELINE-106-usrm。",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1601,
+    "total_tokens": 1822,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1437
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T17:34:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "6acc81278dac",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref=6acc81278dac，载[义眼]qgl beat 3.106文件QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md| 性态:单件裸投，无伴随体/无前置触发链显影，属静默归档commit；文件名嵌五线OTP协议戳与qlv标识，clock=VOID时不予校验| 建议处置:细收裁决后直落账，存为qlv线义眼联邦归档件；裸候，不主动求应| 锚:QGL-OTP-FIVELINE协议线锚/QGL-beat-3.106义眼观测锚",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1531,
+    "total_tokens": 1749,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1367
+    }
+  }
+}
