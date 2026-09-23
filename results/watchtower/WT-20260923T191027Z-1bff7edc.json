@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T19:10:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "secrets.meta.diff",
+    "ref": "actions/secrets",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:actions/secrets 域新增密钥 TOWER_PAT，属 PAT 凭证注入，无删减及变更。| 性态:密钥元数据差分，新增个人访问令牌，需确认授权主体与权限边界，防范越权与长期凭证驻留。| 建议处置:核对授权工单，确认最小权限；设有效期并纳入轮转；审计该 PAT 调用链与访问范围。| 锚:对照 Actions 审计日志与 IAM 授权工单，确认注入主体与业务必要性。",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 1086,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "reasoning_tokens": 973
+    }
+  }
+}
