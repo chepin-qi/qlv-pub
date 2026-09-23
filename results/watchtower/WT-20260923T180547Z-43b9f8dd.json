@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:05:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DRILL-0919-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，侦得ANS-DRILL-0919-QLV-01.md；因摘要不展，判为未触发细收。| 性态:单件静默，无刷屏，未越真机钱面，已落账。| 建议处置:裸候后续；请补全drill内容后复扫，若涉线则再裁决。| 锚:ANS-DRILL-0919-QLV-01.md（drill→qlv）",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1386,
+    "total_tokens": 1596,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1273
+    }
+  }
+}

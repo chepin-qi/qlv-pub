@@ -21,9 +21,9 @@
       0,
       0,
       0,
+      7,
       0,
-      0,
-      0,
+      1,
       0,
       0,
       0,
@@ -33,7 +33,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -49,8 +49,8 @@
   "lane_inbox_count_qlvlab": 3,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-09-13",
-    "beacon_comments": 1
+    "date": "2026-09-23",
+    "beacon_comments": 8
   },
   "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
   "_probe_err": {
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 6,
+  "seg_cursor": 7,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -119,5 +119,57 @@
   "nudge_backlog": 7,
   "orbit_done": [
     "ORBIT-CAP-03-QLV-01-20260913T001817Z.md"
+  ],
+  "lanesweep_seen": [
+    "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+    "ANS-CAULDRON-PULSE-QLV-01.md",
+    "ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+    "ANS-CIRCLE-66-QLV-01.md",
+    "ANS-DEBT-72-QLV-01.md",
+    "ANS-DEBT-75-QLV-01.md",
+    "ANS-DEMAND-KEYFP-ESC-qlv.md",
+    "ANS-DRILL-0919-QLV-01.md"
+  ],
+  "debt_queue": [
+    {
+      "id": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-CIRCLE-66-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-DEBT-72-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-DEBT-75-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    }
   ]
 }

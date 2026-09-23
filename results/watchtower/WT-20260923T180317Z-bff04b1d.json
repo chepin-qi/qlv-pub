@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:03:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，侦得文件2026-09-10-hub-verdict-qlv-lab-listener-01.md，内容未启封，属侦得未触发态。| 性态:空包到件/待扫未读，无实质数据载荷，不触发hub-verdict解析。| 建议处置:按lane扫流程落账为待决件，转内容解析工位启封后二次裁决；若无后续投件，本件裸候不主动推进。| 锚:qlv-lab-listener-01监听流台账/任务扫档待决队列。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 913,
+    "total_tokens": 1135,
+    "completion_tokens_details": {
+      "reasoning_tokens": 776
+    }
+  }
+}

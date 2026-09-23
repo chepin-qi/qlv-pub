@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:03:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线超24h未闭环，触发升己(escalate)；ref指向ANS-CIRCLE-66-QLV-01-20260913T104013Z.md历史纪要，当前无外投件，属裸候。| 性态:自治扫描超时，非外部触发未响应；自生节拍空转，诚实边界内未实测到新件。| 建议处置:按WAKE-PROTO执行细收→裁决该ref为NIL件→落空账；保持裸候，不主动寻求回应，不越真机钱面。| 锚:CIRCLE-66线|ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1607,
+    "total_tokens": 1832,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1455
+    }
+  }
+}

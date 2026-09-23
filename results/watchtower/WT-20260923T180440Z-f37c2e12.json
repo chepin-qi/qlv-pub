@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:04:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DEBT-72-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件到件，侦得ANS-DEBT-72-QLV-01.md，摘要未展具体项| 性态:常规扫件，未触发异常，内容未实测不编数| 建议处置:按lanesweep.task落账归档，转细读岗展开该ref后二次裁决| 锚:AUTH-OTP-02次次落账、WAKE-PROTO扫描细收裁决落账",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 938,
+    "total_tokens": 1146,
+    "completion_tokens_details": {
+      "reasoning_tokens": 836
+    }
+  }
+}

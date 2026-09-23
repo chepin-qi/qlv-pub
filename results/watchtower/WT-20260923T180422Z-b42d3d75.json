@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:04:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-CIRCLE-66-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫描到件ref=ANS-CIRCLE-66-QLV-01.md，当前仅完成WAKE-PROTO首步侦测，未进入细收。| 性态:属「未触发」状态；本工位无读取工具，未实测该md内容，不作数据编报，不混淆为「触发未响应」。| 建议处置:保持裸候，不主动外召；将该任务件挂起入待细收队列，若后续他线授解析权或实机触达，即执行裁决→次次落账。| 锚:ANS-CIRCLE-66-QLV-01.md∥CIRCLE-66环扫序列∥待他线读取权确认。",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1087,
+    "total_tokens": 1293,
+    "completion_tokens_details": {
+      "reasoning_tokens": 925
+    }
+  }
+}

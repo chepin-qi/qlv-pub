@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:04:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DEBT-75-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 ANS-DEBT-75-QLV-01.md | 性态: 仅收摘要，未触发文件内容实测，属到件未细收裸候态 | 建议处置: 裸候实体件下传；待内容到位后启扫描-细收-裁决-落账 | 锚: ANS-DEBT-75-QLV-01/QLV-VOID",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1272,
+    "total_tokens": 1480,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1171
+    }
+  }
+}

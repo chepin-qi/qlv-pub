@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:05:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-DEMAND-KEYFP-ESC-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ref=ANS-DEMAND-KEYFP-ESC-qlv.md|性态:扫描触发，文件存在性已确认；内容/状态未实测，属「侦得」态，尚未细收与裁决|建议处置:依WAKE-PROTO续行细收→裁决→落账；本工位无工具，仅完成扫描级落账，内容解析请转有匙工位或裸候下环响应|锚:cross-line.ref/demand-keyfp-esc→qlv.md已建档，待并线收束",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 935,
+    "total_tokens": 1145,
+    "completion_tokens_details": {
+      "reasoning_tokens": 804
+    }
+  }
+}

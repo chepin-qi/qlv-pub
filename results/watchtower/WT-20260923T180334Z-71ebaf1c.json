@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T18:03:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-CAULDRON-PULSE-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：lanesweep.task 扫线件投件，侦得 ref=ANS-CAULDRON-PULSE-QLV-01.md | 性态：单会话文本工位无工具，未触发文件实测，无法确认 cauldron-pulse 内容/响应态，属「侦得未展开」 | 建议处置：按 WAKE-PROTO 细收后转裁决岗实测落账，裸候不主动寻求回应 | 锚：SYS-ANCHOR-FILE-READ-PERMISSION-QLV-02",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 881,
+    "total_tokens": 1093,
+    "completion_tokens_details": {
+      "reasoning_tokens": 759
+    }
+  }
+}
