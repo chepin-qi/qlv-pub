@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-23T19:54:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "c2cb204a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头指针迁移(6ec0abca→c2cb204a)| 性态:源码版本常规漂移，未见阻断或异常日志| 建议处置:核验合入记录为预期内变更，目视关联构建态，正常则落账| 锚:qfa/main@c2cb204a",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 1095,
+    "total_tokens": 1292,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1017
+    }
+  }
+}
