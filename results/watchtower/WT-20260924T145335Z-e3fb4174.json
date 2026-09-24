@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:53:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 债自驱覆写位落账，ref=ANS-CAULDRON-PULSE-QLV-01.md 为 SI1 专属。| 性态: 配置态覆写，无真机钱面越界，未触发实测流，属裸候锚定。| 建议处置: 确认覆写位已落账，维持裸候，不主动唤响，待 seat 自驱脉冲或外部投件触发。| 锚: seat:SI1/debtengine。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1399,
+    "total_tokens": 1625,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1280
+    }
+  }
+}
