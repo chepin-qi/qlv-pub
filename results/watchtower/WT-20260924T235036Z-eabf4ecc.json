@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:50:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h触发ANS-TOWER-FIX-QLV-03自我升级(升己)| 性态:周期性扫件超期未闭环，自动落入escalate路径；属系统自维护行为，未见异常触发或阻断迹象| 建议处置:裸候下一心跳周期，不主动外呼求真机回应；若再经24h仍未落账则按二次升己处理| 锚:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 875,
+    "total_tokens": 1104,
+    "completion_tokens_details": {
+      "reasoning_tokens": 755
+    }
+  }
+}

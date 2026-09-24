@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:49:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ref=ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md，摘要仅呈文件名级信号，实体未触发解析| 性态:引用型空转/待细收状态，未实测文件指纹与内容边界，不编数| 建议处置:执行细收：补读该 .md 实体，确认 KEYFP-OVR-01 覆盖域与生效标记；若无权直读，转裸候待投喂或按 lanesweep 清册规则落账| 锚:AUTH-OTP-02/米田边律/WAKE-PROTO 扫收阶段",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 921,
+    "total_tokens": 1137,
+    "completion_tokens_details": {
+      "reasoning_tokens": 777
+    }
+  }
+}

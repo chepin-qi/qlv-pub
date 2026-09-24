@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:49:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-SI70-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep侦得 ANS-SI70-QLV-01.md| 性态:静态文本件，扫描触达，未触发内容解析与响应实测，属「侦存未触」态| 建议处置:执行细收（解析并校验完整性），随后进入裁决/落账；若涉密级转 AUTH-OTP-02 复核| 锚:QLV-ARCH-01",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 666,
+    "total_tokens": 870,
+    "completion_tokens_details": {
+      "reasoning_tokens": 570
+    }
+  }
+}

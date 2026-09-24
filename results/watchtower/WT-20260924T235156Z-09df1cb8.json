@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:51:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "CADERING-STAMP-01-cisvr-20260911T1740Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得CADERING-STAMP-01-cisvr-20260911T1740Z.md，仅获句柄，内容未展开。| 性态:触发未响应；元数据触达，未实测载荷，不编数。| 建议处置:细收该md内容，按WAKE-PROTO裁决落账；空壳/重复则归虚。| 锚:file-system/cisvr-stamp-01|lanesweep",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1314,
+    "total_tokens": 1534,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1208
+    }
+  }
+}

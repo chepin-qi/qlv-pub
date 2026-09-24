@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:50:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-WAVE-68-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane扫ANS-WAVE-68-QLV-01超24h未落账，系统自升escalate。| 性态: 超时裸候，人工裁决缺位，属触发未响应。| 建议处置: 复核卷宗，依WAKE-PROTO补细收-裁决-落账，关闭escalate。| 锚: 缺他线锚，按米田边律须补挂同波次他线卷（如ANS-WAVE-67/69系），诚实标注待固。",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1835,
+    "total_tokens": 2060,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1714
+    }
+  }
+}

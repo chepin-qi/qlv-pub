@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:51:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务>24h未闭环，触发自升(lanesweep.escalate)，ref单挂| 性态:静默滞留，单线未收，clock=VOID，属超时裸候态| 建议处置:已落账，不主动寻应；维持裸候，待他线收束或真机复核；次次落账| 锚:CAULDRON-PULSE-62批次锚/clock=VOID状态锚/线扫超时升己锚",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 889,
+    "total_tokens": 1116,
+    "completion_tokens_details": {
+      "reasoning_tokens": 776
+    }
+  }
+}

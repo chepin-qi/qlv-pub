@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:51:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-WAVE-68-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ANS-WAVE-68-QLV-01.md，件达单工位，无外显载荷与实测数。| 性态:触发已响应，内容未展开，属扫获待决态；未触发深度解析，不编未测数。| 建议处置:依 WAKE-PROTO 细收全文，核实 lanesweep 命中规则及元数据，裁决后落账，涉跨线则升维。| 锚:SYS-ARCHIVE-W68-QLV-01",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1186,
+    "total_tokens": 1392,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1065
+    }
+  }
+}
