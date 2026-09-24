@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:07:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-OCTA-67-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ANS-OCTA-67-QLV-01.md，单任务件到驿。| 性态:通道扫描触发，未越真机钱面，裸候态（不主动求应），已落账。| 建议处置:按WAKE-PROTO完成扫-收-裁决-落账闭环；件已收讫，归档待下一触发。| 锚:引 ANS-OCTA-67-QLV-01.md 为lane扫实收锚。",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 838,
+    "total_tokens": 1046,
+    "completion_tokens_details": {
+      "reasoning_tokens": 719
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:08:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-PENTA-lgt-20260913T172139Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线超24h触发自动升己，ref=ANS-PENTA-lgt-20260913T172139Z.md| 性态:规则命中且系统已执行escalate，属触发有响应；未涉及真机钱面，无人工侧实测数据故不编数| 建议处置:依AUTH-OTP-02次次落账，完成该ref复核归档，裸候后续抽检，不主动外呼| 锚:AUD-ESC-VOID-20260913T172139Z",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1352,
+    "total_tokens": 1569,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1230
+    }
+  }
+}

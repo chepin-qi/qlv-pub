@@ -20,6 +20,7 @@
     "w12": [
       0,
       0,
+      3,
       0,
       0,
       0,
@@ -28,12 +29,11 @@
       0,
       0,
       0,
-      0,
-      3
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },

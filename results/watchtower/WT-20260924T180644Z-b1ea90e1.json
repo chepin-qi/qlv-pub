@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:06:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-KEY-FINGERPRINT-BOOK.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得ANS-KEY-FINGERPRINT-BOOK.md| 性态:密钥指纹簿文件，属身份验证辅助凭证类，lane扫暴露风险高；内容层未触发解析，仅文件名命中| 建议处置:细收文件至安全岛，核验访问ACL与使用场景，若闲置则ROT或落加密仓；次次落账| 锚:锚凭证生命周期管理-密钥指纹簿不应驻留开放lane",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 694,
+    "total_tokens": 896,
+    "completion_tokens_details": {
+      "reasoning_tokens": 591
+    }
+  }
+}

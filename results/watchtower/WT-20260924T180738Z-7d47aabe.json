@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:07:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-OCTA-67-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h升己，ref ANS-OCTA-67-QLV-01-20260913T104013Z.md 超时触发escalate| 性态:自升级机制已触发，原件裸候逾24h未结，属扫描后未落账或细收阶段阻滞，未实测具体响应延迟秒级| 建议处置:执行WAKE-PROTO裁决落账，复核该lane是否属真机钱面越界；若裸候属实，按AUTH-OTP-02次次落账，不主动再seek| 锚:ESC-24H-RULE / WAKE-FALLBACK",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 906,
+    "total_tokens": 1133,
+    "completion_tokens_details": {
+      "reasoning_tokens": 759
+    }
+  }
+}

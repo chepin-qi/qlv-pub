@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:06:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-KEYUNIFY-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务侦得ref文件ANS-KEYUNIFY-QLV-01.md，单件触扫，内容未细收| 性态:属索引侦得态，未触发内部键统一逻辑实测，无执行响应，无越真机钱面| 建议处置:依WAKE-PROTO进入细收→裁决→落账；若仅为索引残片则归账至主索引| 锚:SYS-ARCH-01",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1218,
+    "total_tokens": 1424,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1113
+    }
+  }
+}

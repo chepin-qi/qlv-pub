@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:07:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h触发自升级，ref=ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md已落件|性态:时序阈值到达触发的常规escalate，属生命周期自动流转，无外部异常指征，未触发与触发未响应均不涉及|建议处置:按ANS-LEVELUP-CARD协议复核lvlu升级要件，确认水位-条件匹配后执行归档或继续上抛|锚:lvlu-20260912T153227Z.md本体为自洽锚点，lanesweep.escalate类目下时效规则即触发器",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 958,
+    "total_tokens": 1181,
+    "completion_tokens_details": {
+      "reasoning_tokens": 819
+    }
+  }
+}

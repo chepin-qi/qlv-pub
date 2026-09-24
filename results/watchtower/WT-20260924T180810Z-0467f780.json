@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:07:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-OTP64-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ANS-OTP64-QLV-01.md| 性态:单文件触发，lane扫常态收束，无异常载荷，任务件到件| 建议处置:已细收录入，按AUTH-OTP-02裸候，不刷屏，次次落账| 锚:OTP-64.QNS/QLV-01",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 931,
+    "total_tokens": 1135,
+    "completion_tokens_details": {
+      "reasoning_tokens": 842
+    }
+  }
+}
