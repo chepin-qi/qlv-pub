@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:10:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-COSIGN-FETCH-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫件侦得ANS-QLV-COSIGN-FETCH-01.md，单文件到件，无异常触发。| 性态:扫描正常命中，文件静态存在，未触发交互需求，属VOID时钟下裸候态。| 建议处置:按WAKE-PROTO次次落账，本件已收讫，无需干预；若需FETCH-01内容解析，另件投送。| 锚:lanesweep.task/ANS-QLV-COSIGN-FETCH-01.md/单扫命中/不主动寻求回应|",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 926,
+    "total_tokens": 1134,
+    "completion_tokens_details": {
+      "reasoning_tokens": 797
+    }
+  }
+}

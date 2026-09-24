@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:11:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-SPECTRA-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫出ANS-QLV-SPECTRA-01.md到件| 性态:裸件已侦得，内容未触发解析；未触发内容响应，无实测数可编| 建议处置:依WAKE-PROTO入暂存区，待spectra协议拆解或下转分析工位| 锚:锚定QLV-SPECTRA系列谱系件，复用同批lane扫任务索引",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 1081,
+    "total_tokens": 1285,
+    "completion_tokens_details": {
+      "reasoning_tokens": 979
+    }
+  }
+}

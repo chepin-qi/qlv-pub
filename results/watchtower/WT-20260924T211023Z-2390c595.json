@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:10:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-PENTA-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫链超24h自升，ref=ANS-PENTA-qtlv-20260913T131611Z.md | 性态:扫链滞后/队列积压，lanesweep.escalate阈值触发；未实测具体阻塞点，仅确认>24h规则响应，区分「触发」与「触发未响应」 | 建议处置:按WAKE-PROTO细收该md→裁决→落账；查积压根因；若处裸候态则维持监听，不主动外求回应 | 锚:qlv扫链时效阈值 | WAKE细收节点 | AUTH-OTP-02诚实边界(未实测不编数)",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1046,
+    "total_tokens": 1265,
+    "completion_tokens_details": {
+      "reasoning_tokens": 894
+    }
+  }
+}

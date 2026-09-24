@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:09:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-PENTA-lvlu-20260913T170511Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务超24h自升级(ref:ANS-PENTA-lvlu-20260913T170511Z.md)|性态:仅见升级标记，未获执行侧完成回执或清理实证，暂无法区分「扫描挂起未触发」与「触发未响应」|建议处置:值守方应核查该ref对应实例日志及指标面版，确认扫线进程状态；如属通路延迟则补录落账，如属挂起则按升级链路重投；本工位裸候，不越真机|锚:可挂运维SOP线/链路监控侧做交叉锚定",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 999,
+    "total_tokens": 1218,
+    "completion_tokens_details": {
+      "reasoning_tokens": 856
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:10:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-SPECTRA-01-R2.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得 ANS-QLV-SPECTRA-01-R2.md| 性态:存在性触发，未实测内容，无响应载荷；裸候| 建议处置:已落账归档，不主动求应；待后续细收触发再裁决| 锚:WAKE-PROTO存在扫描规程/ANS-QLV-SPECTRA-01-R2.md",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1013,
+    "total_tokens": 1221,
+    "completion_tokens_details": {
+      "reasoning_tokens": 920
+    }
+  }
+}

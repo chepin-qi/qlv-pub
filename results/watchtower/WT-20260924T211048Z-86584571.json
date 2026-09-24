@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:10:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦获ref文件ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md，属[lane扫]任务到件。| 性态:元数据级触达，文件名指向QLV-LEVELUP用户模型件；仅摘要到件，内容体未触发解析，处于\"侦得未启封\"状态。| 建议处置:按lanesweep.task SOP落档，标记为usrm-LEVELUP关联件；待显式调用或内容级触发后再行细收与裁决，本次仅做收讫落账。| 锚:QLV-USERMODEL-SPEC(用户模型层级协议)/lanesweep.task-SOP-收束规程。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1061,
+    "total_tokens": 1287,
+    "completion_tokens_details": {
+      "reasoning_tokens": 899
+    }
+  }
+}

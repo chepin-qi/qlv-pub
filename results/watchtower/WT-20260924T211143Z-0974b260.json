@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:11:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md，摘要仅含文件名，本体内容未展开、未实测。| 性态:单文件线索态，属「侦得未触发」；无内容解析及响应验证，JUDGMENT内涵与风险等级待定。| 建议处置:细收全文并执行WAKE-PROTO裁决落账；若目标件静默则按AUTH-OTP-02裸候，不主动寻求回应。| 锚:文件名符合ANS-{SITE}-{RING}{SEQ}-{TYPE}-{usrm}-{ISO8601}协议，可交叉索引SI5-RING01 usrm工位会话日志。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1126,
+    "total_tokens": 1356,
+    "completion_tokens_details": {
+      "reasoning_tokens": 966
+    }
+  }
+}
