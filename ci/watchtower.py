@@ -394,12 +394,28 @@ def poll(pat, st, segs=None):
             if os.path.exists(fp):
                 fe = json.load(open(fp))
                 seen = st.setdefault('fedeye_seen', [])
-                for e in fe.get('events', []):
-                    if e.get('ref') and e['ref'] not in seen:
-                        seen.append(e['ref'])
-                        ev.append({'kind': 'fedeye.' + str(e.get('kind', 'evt')), 'ref': str(e.get('ref')),
-                                   'summary': '[义眼]' + str(e.get('summary', ''))[:150], 'high_value': bool(e.get('high_value', False))})
-                st['fedeye_seen'] = seen[-200:]
+                _evs = fe.get('events', [])
+                # 拍AB 株廿三族止血(假阳性泵根拆): 义眼停产期(events 210件>seen截断200, 每圈滚出重报=ev_n幻影)
+                # ①截断200→5000 旧镜全量免疫 ②陈旧豁免: 末件老于2日则免逐件报, 只留一痕(sig变才发)
+                try:
+                    _last_ts = str(_evs[-1].get('ts','')) if _evs else ''
+                    _stale = bool(_last_ts) and _last_ts < time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(time.time()-172800))
+                except Exception:
+                    _stale = False
+                if _stale:
+                    if st.get('fedeye_stale_mark') != _last_ts:
+                        ev.append({'kind':'fedeye.stale','ref':'ci/fed-eye/events.json',
+                                   'summary':f'义眼镜停产(末件{_last_ts}),逐件报豁免;产镜自动化在拍AB设计稿','high_value':True})
+                        st['fedeye_stale_mark'] = _last_ts
+                    for e in _evs:
+                        if e.get('ref') and e['ref'] not in seen: seen.append(e['ref'])
+                else:
+                    for e in _evs:
+                        if e.get('ref') and e['ref'] not in seen:
+                            seen.append(e['ref'])
+                            ev.append({'kind': 'fedeye.' + str(e.get('kind', 'evt')), 'ref': str(e.get('ref')),
+                                       'summary': '[义眼]' + str(e.get('summary', ''))[:150], 'high_value': bool(e.get('high_value', False))})
+                st['fedeye_seen'] = seen[-5000:]
         except Exception as e:
             ev.append({'kind': 'fedeye.err', 'ref': 'ci/fed-eye/events.json', 'summary': str(e)[:120], 'high_value': False})
 
