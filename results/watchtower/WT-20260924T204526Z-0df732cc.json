@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:45:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.stale",
+    "ref": "ci/fed-eye/events.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:义眼镜停产，末件2026-09-11T19:14:03Z，逐件报豁免；产镜自动化在拍AB设计稿。| 性态:fedeye.stale，旧线休眠，新稿迭代中，为计划内停产过渡态。| 建议处置:落账末件批次，封冻结豁免流；裸候AB稿评审，不越产线自动化。| 锚:AB设计稿评审流(ci/design-review)",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 996,
+    "total_tokens": 1211,
+    "completion_tokens_details": {
+      "reasoning_tokens": 889
+    }
+  }
+}

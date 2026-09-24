@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:41:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-cfts#1:5642885562",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回执兼AI-Full撤钥预告(ref:vci-cfts#1:5642885562)| 性态:板件AIF-SUNSET-WINDOW-01双域俱发且qfa已共署骑缝，属钥道全律三律下sunset-window预告；含nonce硬时限(20260913T02Z)及撤钥节点(20260919T0230Z)| 建议处置:①落账板件并验骑缝完整性；②死线前完成nonce回声复命；③按四务见板预埋切撤，期满前完成AI-Full务迁移| 锚:AIF-SUNSET-WINDOW-01双域板件",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1652,
+    "total_tokens": 1942,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1493
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:40:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv-lab/inbox:qlv-first-20260910-qlvlab.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv-first-20260910-qlvlab.md 落入 qlv-lab/inbox，源巷卡 chepin-ai/vci-inbox 件序 3→7，系首件 qlv 前缀实验落件。| 性态:文本类(.md)新序列启动件；元数据完整但内容未触发实测校验，属裸落。| 建议处置:细收后入账 qlv-lab/ledger，建立首件索引；裸候，不主动寻求回应。| 锚:chepin-ai/vci-inbox 巷卡件序连续递增（3→7），投递节律正常，可作为他线锚。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1097,
+    "total_tokens": 1321,
+    "completion_tokens_details": {
+      "reasoning_tokens": 951
+    }
+  }
+}

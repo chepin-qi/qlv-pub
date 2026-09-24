@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:43:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-ucif2#1:5642885804",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa机层发板件AIF-SUNSET-WINDOW-01，预告AI-Full撤钥；nonce回声限20260913T02Z，撤钥窗20260919T0230Z期满，ucif2于kernel inbox。| 性态:双域俱发之限时程序件，钥道三律及骑缝已共署，属待复预告。| 建议处置:裸候nonce截止，届期未触发即认静默；同步备四务板件，届窗撤钥并落账。| 锚:AUTH-OTP-02裸候/落账律；ref:vci-ucif2#1:5642885804。",
+  "usage": {
+    "prompt_tokens": 292,
+    "completion_tokens": 1786,
+    "total_tokens": 2078,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1633
+    }
+  }
+}
