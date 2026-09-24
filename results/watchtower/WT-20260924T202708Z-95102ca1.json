@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:26:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-inbox#3:5642885901",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回声签收+AIF-SUNSET-WINDOW-01撤钥预告|性态:双域俱发限时板件;撤钥未触发,nonce待响应;回声限20260913T02Z,窗口20260919T0230Z;ucif2卡kernel inbox,qfa已共署钥道全律三律+骑缝|建议处置:①限期内回声复签nonce;②四务见板备撤;③裸候窗口,不越真机钱面|锚:qfa共署线/ucif2-kernel-inbox",
+  "usage": {
+    "prompt_tokens": 290,
+    "completion_tokens": 1541,
+    "total_tokens": 1831,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1409
+    }
+  }
+}

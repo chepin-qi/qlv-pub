@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:24:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡chepin-ai/vci-inbox向qlv/inbox落件，序列133→220，件号qtlv-spectra-x11-qsca7fce6884.md。| 性态:跨线投递，裸候到件，无触发响应要求，属静默收信。| 建议处置:细收归档，次次落账，不主动外呼，裸候待续。| 锚:chepin-ai/vci-inbox;qtlv-spectra-x11-qsca7fce6884.md",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1092,
+    "total_tokens": 1322,
+    "completion_tokens_details": {
+      "reasoning_tokens": 970
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:25:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "lgt-line#1:5642885976",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回声签收，AIF-SUNSET-WINDOW-01撤钥预告双域发，nonce限20260913T02Z复，撤钥窗20260919T0230Z期满，四务见板，qfa共署。| 性态:触发已响应，属定时撤钥流程件，无异常。| 建议处置:已收落账；裸候nonce限期回声，盯期满撤钥，不刷屏。| 锚:ref=lgt-line#1:5642885976",
+  "usage": {
+    "prompt_tokens": 289,
+    "completion_tokens": 1370,
+    "total_tokens": 1659,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1252
+    }
+  }
+}

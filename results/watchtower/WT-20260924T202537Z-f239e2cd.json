@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:25:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv-lab/inbox:qlv-first-20260910-qlvlab.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，qlv-lab/inbox 收件 qlv-first-20260910-qlvlab.md，巷卡 chepin-ai/vci-inbox 计数 3→7。| 性态:单件裸候，clock=VOID，未触发实测，属扫描阶段到件，无响应数据。| 建议处置:按 WAKE-PROTO 挂账待细收与裁决；本工位无工具，不越真机钱面，不主动求应，裸候落账。| 锚:他线锚 chepin-ai/vci-inbox。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1001,
+    "total_tokens": 1225,
+    "completion_tokens_details": {
+      "reasoning_tokens": 869
+    }
+  }
+}
