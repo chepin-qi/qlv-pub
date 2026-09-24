@@ -71,36 +71,39 @@
 {"ts": "2026-09-24T18:19:12Z", "kind": "beat.begin", "seg": "debtengine"}
 {"ts": "2026-09-24T18:29:12Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-09-24T18:29:42Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 630.1, "ev_n": 1}
-{"ts": "2026-09-24T18:40:05Z", "kind": "beat.begin", "seg": "keyhealth"}
-{"ts": "2026-09-24T18:50:06Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T18:50:06Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
-{"ts": "2026-09-24T19:00:31Z", "kind": "beat.begin", "seg": "secrets-meta"}
-{"ts": "2026-09-24T19:10:31Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T19:10:31Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
-{"ts": "2026-09-24T19:21:57Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-09-24T19:31:57Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T19:33:00Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 663.1, "ev_n": 4}
-{"ts": "2026-09-24T19:43:43Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-09-24T19:53:54Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T19:54:05Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 622.1, "ev_n": 1}
-{"ts": "2026-09-24T20:04:31Z", "kind": "beat.begin", "seg": "orbit"}
-{"ts": "2026-09-24T20:14:31Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T20:14:31Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.4, "ev_n": 0}
-{"ts": "2026-09-24T20:29:50Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-09-24T20:39:54Z", "ev_n": 9, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T20:45:26Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 935.7, "ev_n": 9}
-{"ts": "2026-09-24T20:59:56Z", "kind": "beat.begin", "seg": "lanesweep"}
-{"ts": "2026-09-24T21:09:56Z", "ev_n": 8, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T21:11:44Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 708.7, "ev_n": 8}
-{"ts": "2026-09-24T21:22:25Z", "kind": "beat.begin", "seg": "debtengine"}
-{"ts": "2026-09-24T21:32:25Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T21:32:45Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 620.2, "ev_n": 1}
-{"ts": "2026-09-24T21:43:06Z", "kind": "beat.begin", "seg": "keyhealth"}
-{"ts": "2026-09-24T21:53:06Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T21:53:06Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-09-24T22:03:29Z", "kind": "beat.begin", "seg": "secrets-meta"}
-{"ts": "2026-09-24T22:13:29Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T22:13:29Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-09-24T22:24:50Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-09-24T22:34:50Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-09-24T22:35:44Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 654.7, "ev_n": 4}
+{"ts": "2026-09-24T18:29:54Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-09-24T18:39:54Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T18:39:54Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-09-24T18:50:17Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-09-24T19:00:17Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T19:00:17Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-09-24T19:10:42Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-09-24T19:20:42Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T19:21:47Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 665.0, "ev_n": 4}
+{"ts": "2026-09-24T19:33:13Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-09-24T19:43:21Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T19:43:31Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 618.2, "ev_n": 1}
+{"ts": "2026-09-24T19:54:16Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-09-24T20:04:16Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 0, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T20:04:17Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-09-24T20:14:45Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-09-24T20:24:49Z", "ev_n": 9, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T20:29:41Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 896.0, "ev_n": 9}
+{"ts": "2026-09-24T20:45:36Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-09-24T20:55:36Z", "ev_n": 8, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T20:59:46Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 850.5, "ev_n": 8}
+{"ts": "2026-09-24T21:11:56Z", "kind": "beat.begin", "seg": "debtengine"}
+{"ts": "2026-09-24T21:21:56Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T21:22:14Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 617.9, "ev_n": 1}
+{"ts": "2026-09-24T21:32:56Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-09-24T21:42:56Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T21:42:56Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-09-24T21:53:18Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-09-24T22:03:18Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T22:03:18Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-09-24T22:13:39Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-09-24T22:23:39Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T22:24:37Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 658.1, "ev_n": 4}
+{"ts": "2026-09-24T22:35:55Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-09-24T22:46:04Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-09-24T22:46:04Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 609.0, "ev_n": 0}

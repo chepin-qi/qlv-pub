@@ -35,13 +35,13 @@
       0,
       0,
       0,
-      4,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 35,
+  "seg_cursor": 36,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -129,19 +129,19 @@
       "n": 2
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790289290.0811253,
+      "t": 1790288619.3879633,
       "n": 2
     },
     "debt-20260912-orbit-cap02-lgt": {
-      "t": 1790289290.081131,
+      "t": 1790288619.3879688,
       "n": 2
     },
     "debt-20260912-orbit-cap03-ring": {
-      "t": 1790289290.0811336,
+      "t": 1790288619.3879714,
       "n": 2
     },
     "debt-20260912-tower-seg9-verify": {
-      "t": 1790289290.0811346,
+      "t": 1790288619.3879724,
       "n": 2
     },
     "debt-20260912-exp016-xchk": {
