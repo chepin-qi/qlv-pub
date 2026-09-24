@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:57:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫线侦得ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md| 性态:usrm类升级文档，当前仅获文件名与摘要，内容实体未展开，属「触发未响应」态| 建议处置:启细收拉取该.md全文→核验LEVELUP指令边界与AUTH-OTP-02合规性→裁决后执行落账或驳回| 锚:①lanesweep.task→ref本体锚|②void.clock→20260911T1930Z时戳锚",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1299,
+    "total_tokens": 1525,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1170
+    }
+  }
+}

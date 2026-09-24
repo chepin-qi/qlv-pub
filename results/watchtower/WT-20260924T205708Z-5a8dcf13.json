@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:56:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-COSIGN-FETCH-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task件到件，ref=ANS-QLV-COSIGN-FETCH-01.md，摘要仅报侦得，无进一步实测数据。| 性态:未触发具体异常，亦未触发响应缺失，属纯到件登记态。| 建议处置:按WAKE-PROTO裁决落账已毕，裸候下一件，不主动求应。| 锚:AUTH-OTP-02/投必有件；WAKE-PROTO/落账节点。",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1213,
+    "total_tokens": 1421,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1102
+    }
+  }
+}

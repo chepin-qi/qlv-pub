@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:58:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-SPECTRA-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，摘要仅标记ANS-QLV-SPECTRA-01.md，无实体内容| 性态:未触发细收，未实测不编数；单会话文本工位无工具解析，属\"侦得未展\"| 建议处置:裸候，不主动求应；转有工具工位细收或待真机钱面具全后按WAKE-PROTO裁决落账| 锚:ANS-QLV-SPECTRA系列可挂接至SYS-RADAR-LOG频谱任务线作他线锚",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 1232,
+    "total_tokens": 1436,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1103
+    }
+  }
+}

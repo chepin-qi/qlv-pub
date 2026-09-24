@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:58:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-STAMP-CLOSE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-QLV-STAMP-CLOSE-01.md，clock=VOID且无工具，内容未实测，属触发未响应| 性态:挂起裸候，未越真机钱面，守诚实边界| 建议处置:不主动寻求回应，维持裸候；移交有工具工位补细收与裁决| 锚:REF-VOID-MEASURE",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1043,
+    "total_tokens": 1249,
+    "completion_tokens_details": {
+      "reasoning_tokens": 948
+    }
+  }
+}

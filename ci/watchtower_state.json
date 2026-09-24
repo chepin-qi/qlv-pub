@@ -30,18 +30,18 @@
       0,
       0,
       0,
-      1,
       0,
       0,
-      6,
       2,
       0,
       0,
-      0
+      0,
+      0,
+      6
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-24",
-    "beacon_comments": 28
+    "beacon_comments": 36
   },
-  "qgl_head": "a24943c34947776f3f0b0ebc39643cc2abf22233",
+  "qgl_head": "6e4642800ecdcc7b247719a507f8ba23ec844ea5",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 30,
+  "seg_cursor": 31,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -182,7 +182,15 @@
     "ANS-OCTA-67-QLV-01-20260913T104013Z.md",
     "ANS-OCTA-67-QLV-01.md",
     "ANS-OTP64-QLV-01.md",
-    "ANS-PENTA-lgt-20260913T172139Z.md"
+    "ANS-PENTA-lgt-20260913T172139Z.md",
+    "ANS-PENTA-lvlu-20260913T170511Z.md",
+    "ANS-PENTA-qtlv-20260913T131611Z.md",
+    "ANS-QLV-COSIGN-FETCH-01.md",
+    "ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
+    "ANS-QLV-SPECTRA-01-R2.md",
+    "ANS-QLV-SPECTRA-01.md",
+    "ANS-QLV-STAMP-CLOSE-01.md",
+    "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
   ],
   "debt_queue": [
     {
@@ -288,6 +296,46 @@
     {
       "id": "lanesweep:ANS-PENTA-lgt-20260913T172139Z.md",
       "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-PENTA-lvlu-20260913T170511Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-QLV-COSIGN-FETCH-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-QLV-SPECTRA-01-R2.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-QLV-SPECTRA-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-QLV-STAMP-CLOSE-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+      "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
   ],

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:55:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-PENTA-lvlu-20260913T170511Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫(ref:ANS-PENTA-lvlu-20260913T170511Z.md)逾24h未结，系统触发自动升级(lanesweep.escalate)。|性态:超期裸候态。摘要仅示自动升己，无实测人工响应记录，按诚实边界视为「触发未响应」；不编处理进度与结果。|建议处置:①即刻检核该ref实际存活状态；②若确裸候，按AUTH-OTP-02次次落账或分件至负责线；③复核lane扫阈值及升己策略。|锚:升己工单转PENTA项目运维线待结。",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1006,
+    "total_tokens": 1225,
+    "completion_tokens_details": {
+      "reasoning_tokens": 857
+    }
+  }
+}

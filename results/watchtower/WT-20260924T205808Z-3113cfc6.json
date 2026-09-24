@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:57:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QLV-SPECTRA-01-R2.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 触发，侦得 ref=ANS-QLV-SPECTRA-01-R2.md | 性态: 单扫描事件，仅完成文件侦测，内容未展开/未实测，属「触发未响应」态，无操作面介入 | 建议处置: 按 WAKE-PROTO 进入细收阶段，若无需裁决则落账休眠；裸候，不主动外呼 | 锚: cross-line-ref://doc-pool/ANS-QLV-SPECTRA-01-R2.md",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 754,
+    "total_tokens": 962,
+    "completion_tokens_details": {
+      "reasoning_tokens": 632
+    }
+  }
+}

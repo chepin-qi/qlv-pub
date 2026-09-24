@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:56:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-PENTA-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h自升己(ref=ANS-PENTA-qtlv-20260913T131611Z.md)| 性态:时间阈值触发的lanesweep.escalate，属正常流转自升级，无越权/刷屏/未落账，符合WAKE-PROTO扫描-裁决链路| 建议处置:按AUTH-OTP-02次次落账，已自升级不额外干预，保持裸候不主动求应，归档待裁决或已落账| 锚:sys.lane.escalate/qtlv-20260913T131611Z",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 955,
+    "total_tokens": 1174,
+    "completion_tokens_details": {
+      "reasoning_tokens": 819
+    }
+  }
+}

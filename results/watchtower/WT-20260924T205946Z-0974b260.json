@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T20:59:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件,ref=ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md,类属判词文档|性态:[lane扫]常规侦收,平稳无噪,未触发异常边界,裸候中|建议处置:依WAKE-PROTO扫描→细收→裁决→落账;细读JUDGMENT正文后执行裁决,次次落账,不越真机钱面,不主动求应|锚:单工位无他线交叉,暂自锚(待他线复核)",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1110,
+    "total_tokens": 1340,
+    "completion_tokens_details": {
+      "reasoning_tokens": 975
+    }
+  }
+}
