@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T15:56:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: debt-20260912-lgt-kscan 促件升级，原候态因 binmap k∈[6,14]卡方扫描触发，现进第2级。| 性态: 系统内生性 escalator，属参数域扫描触发的常规跳级，未涉真机钱面异动。| 建议处置: 按 WAKE-PROTO 细收该 k 区间扫描残差，确认是否需落账或继续裸候；维持 AUTH-OTP-02 不主动回应原则。| 锚: 可并行 ref=audit-kernel-chi14 他线校验自由度边界。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 878,
+    "total_tokens": 1105,
+    "completion_tokens_details": {
+      "reasoning_tokens": 737
+    }
+  }
+}

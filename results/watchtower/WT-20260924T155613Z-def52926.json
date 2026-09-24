@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T15:55:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:促件升级|债务候debt-20260912-os3d-lvlu-dist于分布维实测替换骨架(XCHK)流程中触发第1级(nudge.escalate)| 性态:流程内催办;属技术性骨架校验阶段,未获实测回传前不做通过性裁决;需区分「骨架未触发」与「触发未响应」| 建议处置:维持裸候不刷屏;依AUTH-OTP-02次次落账原则,待XCHK实测数据回传后裁决;若触发未响应则挂起候录,未触发则保持原级| 锚:debt骨架/XCHK校验/第1级esc通道",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1062,
+    "total_tokens": 1284,
+    "completion_tokens_details": {
+      "reasoning_tokens": 908
+    }
+  }
+}

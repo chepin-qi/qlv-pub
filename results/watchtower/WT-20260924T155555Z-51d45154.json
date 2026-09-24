@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T15:55:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: debt-20260912-exp016-xchk 自债候态触发第1级促件(nudge.escalate)，系EXP-016交叉验证回件到期/阈值升级| 性态: 系统自动催办，未涉真机钱面，属流程内提醒；未实测响应状态，不编触发细节，仅记升级事实| 建议处置: 按WAKE-PROTO扫描-落账此次升级；恪守裸候，不越真机钱面，待回件实测后裁决| 锚: qlv线候审促办分级/EXP交叉验证协议",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 983,
+    "total_tokens": 1198,
+    "completion_tokens_details": {
+      "reasoning_tokens": 847
+    }
+  }
+}

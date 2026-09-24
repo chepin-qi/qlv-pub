@@ -29,11 +29,11 @@
       0,
       0,
       0,
-      0
+      4
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 18,
+  "seg_cursor": 19,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -101,8 +101,8 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1789327182.5816734,
-      "n": 1
+      "t": 1790265318.606909,
+      "n": 2
     },
     "debt-20260912-keydark-drill": {
       "t": 1789327182.5816836,
@@ -130,6 +130,18 @@
     },
     "debt-20260912-orbit-cap03-ring": {
       "t": 1790191871.0911217,
+      "n": 1
+    },
+    "debt-20260912-tower-seg9-verify": {
+      "t": 1790265318.606896,
+      "n": 1
+    },
+    "debt-20260912-exp016-xchk": {
+      "t": 1790265318.6069047,
+      "n": 1
+    },
+    "debt-20260912-os3d-lvlu-dist": {
+      "t": 1790265318.6069074,
       "n": 1
     }
   },
