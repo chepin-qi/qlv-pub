@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:26:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-EVAL-WAVE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫得ANS-EVAL-WAVE-01.md，件到未启| 性态:扫描触件，内容未实测，属「侦得未触发」态，无响应载荷| 建议处置:按WAKE-PROTO细收归档，若需eval则另起实测波次，候读取权后裁决| 锚:ANCHOR#ANS-EVAL-WAVE-01.md|lanesweep|VOID",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 865,
+    "total_tokens": 1065,
+    "completion_tokens_details": {
+      "reasoning_tokens": 764
+    }
+  }
+}

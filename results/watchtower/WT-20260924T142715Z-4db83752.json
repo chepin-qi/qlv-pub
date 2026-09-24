@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:26:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-FIELD-SEAT.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 ANS-FIELD-SEAT.md | 性态: lanesweep 已触发，文件落盘，内容未实测，无响应数据，待细收 | 建议处置: 细收 seat 字段映射，裁决与域定义冲突项，确定并入主档或回退，次次落账 | 锚: REF-SEAT-FIELD / DOMAIN-MAP",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 1243,
+    "total_tokens": 1441,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1148
+    }
+  }
+}

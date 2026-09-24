@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:27:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-FLOOR-SHA-SRC-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ANS-FLOOR-SHA-SRC-01.md|性态:扫描触达，文件显影；未启封、未实测内容，属「触发未响应」|建议处置:按WAKE-PROTO推进：①细收（读文并核SRC/SHA一致性）②裁决（判定入仓/回退）③落账（登记锁锚）；全程守AUTH-OTP-02诚实边界，不越真机钱面|锚:WAKE-PROTO扫描→细收→裁决→落账；AUTH-OTP-02诚实边界",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 949,
+    "total_tokens": 1153,
+    "completion_tokens_details": {
+      "reasoning_tokens": 816
+    }
+  }
+}

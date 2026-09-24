@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:26:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ANS-EXP016通道扫描件超24h触发自升级(lanesweep.escalate),ref文件滞留未结| 性态:流程内超时自动escalation,属扫描-细收阶段边界溢出,未触发人工干预,待裁决落账| 建议处置:①核验ref当前状态(未触发/触发未响应);②按lanesweep规程执行通道清理或人工接管;③确保次次落账,不裸候| 锚:AUTH-OTP-02投必有件/WAKE-PROTO扫描→细收→裁决→落账",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1049,
+    "total_tokens": 1272,
+    "completion_tokens_details": {
+      "reasoning_tokens": 918
+    }
+  }
+}

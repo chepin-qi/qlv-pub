@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:28:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫报ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md超24h升己（escalate）。| 性态:lane层超时提级机制触发；clock=VOID下不推实时余量，仅据摘要认超24h阈值，属已触发待响应态。| 建议处置:执lanesweep.escalate规程，核查该件在lane层阻塞根因（队列/依赖/权限），完成落账后裸候，不主动seek回应。| 锚:锚定该件原始时标20260912T051513Z及lane扫>24h escalation协议条款。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1283,
+    "total_tokens": 1510,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1134
+    }
+  }
+}

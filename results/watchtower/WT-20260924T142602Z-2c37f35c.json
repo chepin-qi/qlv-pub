@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:25:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫档超24h自升级(ref:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md),未实测闭环。| 性态:静默超时escalate,状态未明,未区分「未触发」与「触发未响应」,升己存在空转风险。| 建议处置:人工复核该verdict实际落账状态;若触发未响应则转人工lane即决;若未触发则补扫描钩子并重扫,次次落账。| 锚:cross-ref:TICKET-AUTO-SWEEP-20260912T000000Z(前序扫档基线)",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1115,
+    "total_tokens": 1348,
+    "completion_tokens_details": {
+      "reasoning_tokens": 965
+    }
+  }
+}

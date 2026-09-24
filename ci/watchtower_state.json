@@ -1,196 +1,244 @@
 {
-  "beacon_max": 5564921753,
-  "qfa_head": "c2cb204acfeffaa5ba870d88b4a9a098a35d6c9b",
-  "quafu": {
-    "8CA608102028586C": "0",
-    "8BB169201FA3F5D4": "0"
-  },
-  "faces": {
-    "lgt-line#1": 3,
-    "vci-cfts#1": 2,
-    "vci-inbox#3": 5,
-    "vci-usrm#21": 1,
-    "vci-ucif2#1": 1,
-    "vci-vinf#6": 1,
-    "vci-inbox#2": 0
-  },
-  "lane_inbox_count": 133,
-  "cadence": {
-    "v": "METER-CADENCE-01-cand",
-    "w12": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      1,
-      0
-    ],
-    "sigma": 1.0,
-    "lock": null,
-    "dominant_bin": 10,
-    "C_streak": 0,
-    "verdict": "进行式"
-  },
-  "autoresp": {
-    "date": "2026-09-23",
-    "calls": 1,
-    "seen_refs": [
-      "qfa.beat|ab72b5b6",
-      "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json"
-    ],
-    "last_fp": "1641c46c2dbc"
-  },
-  "lane_inbox_count_qlvlab": 3,
-  "loops_open": 18,
-  "post_budget": {
-    "date": "2026-09-23",
-    "beacon_comments": 12
-  },
-  "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
-  "_probe_err": {
-    "ci-inbox/commits": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(lgt-1)": {
-      "n": 2,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(cisvr-2)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(qfa-1)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(vinf-1)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(ucif2)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    }
-  },
-  "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 14,
-  "keydark": {
-    "fails": 0,
-    "dark": false
-  },
-  "keyhealth": {
-    "login": "chepin-qi",
-    "via": "QI_PAT",
-    "dead": false
-  },
-  "secrets_meta": {
-    "AI_FULL_PAT": "2026-09-11T20:18:51Z",
-    "FED_PAT": "2026-09-12T04:36:13Z",
-    "FORMAFLOW_CMD_AUTH": "2026-09-09T08:35:14Z",
-    "KIMI_API_KEY_VCI1": "2026-09-06T11:54:26Z",
-    "QI_PAT": "2026-09-12T04:36:11Z",
-    "QUAFU_TOKEN": "2026-09-06T11:54:27Z",
-    "TOWER_PAT": "2026-09-15T03:27:33Z"
-  },
-  "nudge_cd": {
-    "debt-20260912-lgt-kscan": {
-      "t": 1789327182.5816734,
-      "n": 1
-    },
-    "debt-20260912-keydark-drill": {
-      "t": 1789327182.5816836,
-      "n": 1
-    },
-    "debt-20260912-inbox-purge": {
-      "t": 1789327182.581686,
-      "n": 1
-    },
-    "debt-20260912-tower-verify": {
-      "t": 1789327182.5816872,
-      "n": 1
-    },
-    "debt-20260912-edge-throttle": {
-      "t": 1790191871.091112,
-      "n": 1
-    },
-    "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790191871.0911174,
-      "n": 1
-    },
-    "debt-20260912-orbit-cap02-lgt": {
-      "t": 1790191871.0911202,
-      "n": 1
-    },
-    "debt-20260912-orbit-cap03-ring": {
-      "t": 1790191871.0911217,
-      "n": 1
-    }
-  },
-  "nudge_backlog": 7,
-  "orbit_done": [
-    "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
-    "ORBIT-CAP-01-20260913T014500Z.md"
+ "beacon_max": 5564921753,
+ "qfa_head": "c2cb204acfeffaa5ba870d88b4a9a098a35d6c9b",
+ "quafu": {
+  "8CA608102028586C": "0",
+  "8BB169201FA3F5D4": "0"
+ },
+ "faces": {
+  "lgt-line#1": 3,
+  "vci-cfts#1": 2,
+  "vci-inbox#3": 5,
+  "vci-usrm#21": 1,
+  "vci-ucif2#1": 1,
+  "vci-vinf#6": 1,
+  "vci-inbox#2": 0
+ },
+ "lane_inbox_count": 133,
+ "cadence": {
+  "v": "METER-CADENCE-01-cand",
+  "w12": [
+   0,
+   0,
+   4,
+   0,
+   0,
+   0,
+   4,
+   0,
+   0,
+   0,
+   0,
+   0
   ],
-  "lanesweep_seen": [
-    "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
-    "ANS-CAULDRON-PULSE-QLV-01.md",
-    "ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
-    "ANS-CIRCLE-66-QLV-01.md",
-    "ANS-DEBT-72-QLV-01.md",
-    "ANS-DEBT-75-QLV-01.md",
-    "ANS-DEMAND-KEYFP-ESC-qlv.md",
-    "ANS-DRILL-0919-QLV-01.md"
+  "sigma": 1.0,
+  "lock": null,
+  "dominant_bin": 2,
+  "C_streak": 0,
+  "verdict": "进行式"
+ },
+ "autoresp": {
+  "date": "2026-09-24",
+  "calls": 1,
+  "seen_refs": [
+   "qfa.beat|ab72b5b6",
+   "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json"
   ],
-  "debt_queue": [
-    {
-      "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-CIRCLE-66-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-DEBT-72-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-DEBT-75-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    }
-  ],
-  "seat_pending": [
-    {
-      "id": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-23T18:28:48Z"
-    }
-  ],
-  "debt_backlog": 7
+  "last_fp": "1641c46c2dbc"
+ },
+ "lane_inbox_count_qlvlab": 3,
+ "loops_open": 18,
+ "post_budget": {
+  "date": "2026-09-24",
+  "beacon_comments": 8
+ },
+ "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
+ "_probe_err": {
+  "ci-inbox/commits": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(lgt-1)": {
+   "n": 2,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(cisvr-2)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(qfa-1)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(vinf-1)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(ucif2)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  }
+ },
+ "_probe_err_sig": "d0529ec96f",
+ "seg_cursor": 15,
+ "keydark": {
+  "fails": 0,
+  "dark": false
+ },
+ "keyhealth": {
+  "login": "chepin-qi",
+  "via": "QI_PAT",
+  "dead": false
+ },
+ "secrets_meta": {
+  "AI_FULL_PAT": "2026-09-11T20:18:51Z",
+  "FED_PAT": "2026-09-12T04:36:13Z",
+  "FORMAFLOW_CMD_AUTH": "2026-09-09T08:35:14Z",
+  "KIMI_API_KEY_VCI1": "2026-09-06T11:54:26Z",
+  "QI_PAT": "2026-09-12T04:36:11Z",
+  "QUAFU_TOKEN": "2026-09-06T11:54:27Z",
+  "TOWER_PAT": "2026-09-15T03:27:33Z"
+ },
+ "nudge_cd": {
+  "debt-20260912-lgt-kscan": {
+   "t": 1789327182.5816734,
+   "n": 1
+  },
+  "debt-20260912-keydark-drill": {
+   "t": 1789327182.5816836,
+   "n": 1
+  },
+  "debt-20260912-inbox-purge": {
+   "t": 1789327182.581686,
+   "n": 1
+  },
+  "debt-20260912-tower-verify": {
+   "t": 1789327182.5816872,
+   "n": 1
+  },
+  "debt-20260912-edge-throttle": {
+   "t": 1790191871.091112,
+   "n": 1
+  },
+  "debt-20260912-orbit-cap01-bypass": {
+   "t": 1790191871.0911174,
+   "n": 1
+  },
+  "debt-20260912-orbit-cap02-lgt": {
+   "t": 1790191871.0911202,
+   "n": 1
+  },
+  "debt-20260912-orbit-cap03-ring": {
+   "t": 1790191871.0911217,
+   "n": 1
+  }
+ },
+ "nudge_backlog": 7,
+ "orbit_done": [
+  "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+  "ORBIT-CAP-01-20260913T014500Z.md"
+ ],
+ "lanesweep_seen": [
+  "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+  "ANS-CAULDRON-PULSE-QLV-01.md",
+  "ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+  "ANS-CIRCLE-66-QLV-01.md",
+  "ANS-DEBT-72-QLV-01.md",
+  "ANS-DEBT-75-QLV-01.md",
+  "ANS-DEMAND-KEYFP-ESC-qlv.md",
+  "ANS-DRILL-0919-QLV-01.md",
+  "ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+  "ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+  "ANS-EVAL-WAVE-01.md",
+  "ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+  "ANS-FIELD-SEAT.md",
+  "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+  "ANS-FLOOR-SHA-SRC-01.md",
+  "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md"
+ ],
+ "debt_queue": [
+  {
+   "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-CIRCLE-66-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-DEBT-72-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-DEBT-75-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-EVAL-WAVE-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-FIELD-SEAT.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-FLOOR-SHA-SRC-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  }
+ ],
+ "seat_pending": [
+  {
+   "id": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-23T18:28:48Z"
+  }
+ ],
+ "debt_backlog": 7
 }
