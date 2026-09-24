@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T15:03:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat债自驱SI1专属覆写位到件，ref=lanetask:ANS-CAULDRON-PULSE-QLV-01.md，属配置层覆写触发。| 性态:单会话文本工位无工具，未实测裸数据；覆写位已落座，未触发外部响应，现处待裁决态。| 建议处置:遵WAKE-PROTO执行扫描→细收→裁决→落账；依AUTH-OTP-02裸候，不主动求应，次次落账。| 锚:crossline:DEBT-AUTO-ANCHOR-01",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1034,
+    "total_tokens": 1260,
+    "completion_tokens_details": {
+      "reasoning_tokens": 891
+    }
+  }
+}

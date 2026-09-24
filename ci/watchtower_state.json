@@ -28,12 +28,12 @@
       0,
       0,
       0,
-      0,
-      1
+      1,
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -237,7 +237,7 @@
     {
       "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-24T14:53:08Z"
+      "ts": "2026-09-24T15:03:50Z"
     }
   ],
   "debt_backlog": 14
