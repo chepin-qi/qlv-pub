@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T19:53:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "8ad22075",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主分支HEAD迁移，旧头c2cb204a切至新头8ad22075| 性态:常规代码版本推进/心跳同步，摘要未触发冲突告警，属正常落账| 建议处置:已确认迁移动作，无需回滚或额外干预，裸候下一beat| 锚:git:c2cb204a",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 721,
+    "total_tokens": 916,
+    "completion_tokens_details": {
+      "reasoning_tokens": 635
+    }
+  }
+}
