@@ -28,12 +28,12 @@
       0,
       0,
       0,
-      1,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 16,
+  "seg_cursor": 17,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -237,7 +237,7 @@
     {
       "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-24T15:03:50Z"
+      "ts": "2026-09-24T14:53:08Z"
     }
   ],
   "debt_backlog": 14
