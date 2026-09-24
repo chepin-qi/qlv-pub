@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:38:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md之lane扫任务>24h触发自升级(lanesweep.escalate) | 性态:clock=VOID，无实测响应，尚未区分「未触发vs触发未响应」，升己机制裸候未落账 | 建议处置:①细收该ref塔台实态;②若裸候属实则强制落账或转人工裁决;③严守诚实边界，不越真机钱面 | 锚:helios.pylon.obs/retention#24h-rule",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1628,
+    "total_tokens": 1857,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1492
+    }
+  }
+}

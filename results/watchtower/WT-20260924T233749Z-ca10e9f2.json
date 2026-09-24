@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:37:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得任务件ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md，摘要仅报侦得，无触发项与响应态详情。| 性态:处WAKE-PROTO扫描落点，细收未启，无法区分未触发或触发未响应，未实测不编数。| 建议处置:立即细收该MD全文，核查CISVR-ORDER-KEYFP-OVR-01是否产生实质任务触发；有则裁决落账，无则注销。| 锚:REF文件名签名（缺CISVR运行日志他线锚，待补）。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1273,
+    "total_tokens": 1489,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1134
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:38:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "CADERING-STAMP-01-cisvr-20260911T1740Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得CADERING-STAMP-01-cisvr-20260911T1740Z.md，件至标题级，未启封。| 性态:clock=VOID时戳悬空；缺实测，属「侦得未触发」，非响应失败。| 建议处置:细收全文，验cisvr源戳；空或模板则落账「零字节件」归档，含指令即转裁决。| 锚:qlv本线lanesweep.task/CADERING-STAMP-01；他线锚cisvr主机审计日志(待回读)。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1176,
+    "total_tokens": 1396,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1044
+    }
+  }
+}

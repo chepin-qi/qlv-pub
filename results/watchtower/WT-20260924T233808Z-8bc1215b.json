@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:37:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-TASK-PHI-CHAIN-02.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ANS-TASK-PHI-CHAIN-02.md，内容未实测展开，属「侦得未触发」。| 性态:单文件静默命中，无链式响应，未触发与未响应边界待核验。| 建议处置:启细收流程，勘验PHI-CHAIN-02链完整性，裸候裁决，次次落账。| 锚:AUTH-OTP-02投必有件原则/WAKE-PROTO扫描层。",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1111,
+    "total_tokens": 1317,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1000
+    }
+  }
+}

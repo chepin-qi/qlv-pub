@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:38:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-WAVE-68-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h触发升己(ref已投件)|性态:自动化超时升级态;属lanesweep模块预期内异常托举或长程扫描挂起|建议处置:裁决:升己有效;落账归档ref=ANS-WAVE-68-QLV-01-20260913T104013Z.md,裸候后续回波,不主动外呼|锚:qlv.lanesweep.escalate|WAKE-PROTO.落账",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1058,
+    "total_tokens": 1283,
+    "completion_tokens_details": {
+      "reasoning_tokens": 948
+    }
+  }
+}

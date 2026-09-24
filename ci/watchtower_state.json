@@ -29,8 +29,8 @@
       0,
       0,
       0,
-      0,
-      0,
+      3,
+      5,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-24",
-    "beacon_comments": 37
+    "beacon_comments": 45
   },
   "qgl_head": "7ff6560fd799f91dfbb008a00974860e32aa0be0",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 38,
+  "seg_cursor": 39,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -190,7 +190,15 @@
     "ANS-QLV-SPECTRA-01-R2.md",
     "ANS-QLV-SPECTRA-01.md",
     "ANS-QLV-STAMP-CLOSE-01.md",
-    "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md"
+    "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+    "ANS-SI70-QLV-01.md",
+    "ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+    "ANS-TASK-PHI-CHAIN-02.md",
+    "ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+    "ANS-WAVE-68-QLV-01-20260913T104013Z.md",
+    "ANS-WAVE-68-QLV-01.md",
+    "CADERING-STAMP-01-cisvr-20260911T1740Z.md",
+    "CAULDRON-PULSE-62-QLV-20260911T200235Z.md"
   ],
   "debt_queue": [
     {
@@ -331,6 +339,46 @@
     {
       "id": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
       "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-SI70-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-TASK-PHI-CHAIN-02.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-WAVE-68-QLV-01-20260913T104013Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-WAVE-68-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:CADERING-STAMP-01-cisvr-20260911T1740Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+      "note": "lane件>24h未理升己",
       "si0_solvable": false
     }
   ],

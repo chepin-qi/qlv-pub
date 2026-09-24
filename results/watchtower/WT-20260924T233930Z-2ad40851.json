@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:39:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：lane扫超24h自升escalate，ref CAULDRON-PULSE-62-QLV-20260911T200235Z.md到件| 性态：裸候未响应，触发lanesweep.escalate阈值，属扫线常态| 建议处置：循WAKE-PROTO细收裁决后落账签封；裸候不追呼| 锚：STOREROOM-B/RECYCLE-QCV双轨备查",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1044,
+    "total_tokens": 1271,
+    "completion_tokens_details": {
+      "reasoning_tokens": 937
+    }
+  }
+}

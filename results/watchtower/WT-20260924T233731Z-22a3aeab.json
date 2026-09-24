@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T23:37:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-SI70-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:线路扫描(lanesweep.task)侦得任务件 ANS-SI70-QLV-01.md，扫描落点已确认。| 性态:属扫描级触发，件已捕获但未进入细收-裁决流程，无实测响应数据，区分「侦得未启」。| 建议处置:按WAKE-PROTO推进至细收，核验该件内容并完成裁决落账；裸候，不主动外呼。| 锚:lanesweep.task/ANS-SI70-QLV-01.md/WAKE-PROTO扫描层。",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 894,
+    "total_tokens": 1098,
+    "completion_tokens_details": {
+      "reasoning_tokens": 768
+    }
+  }
+}
