@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T22:35:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap02-lgt第2级促件|性态:CAP-02下下站旁路权裸候升级,nudge.escalate,未触偿清条件,无真机钱面交互|建议处置:裸候落账,记级数2,不发起主动追索,待下下站自偿或法定触发|锚:escrow-timeout-2026/链式旁路备忘",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1237,
+    "total_tokens": 1459,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1132
+    }
+  }
+}

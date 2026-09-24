@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T22:35:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap03-ring自发环巡归促件升级第2级| 性态:CAP-03自债候环巡归触发escalate，未实测清偿响应，属触发未响应态| 建议处置:按裸候原则不主动寻求回应；落账第2级环巡标记；静默监视，不越真机钱面，不刷屏| 锚:同步至主账务线CAP-01归集索引备查",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 973,
+    "total_tokens": 1190,
+    "completion_tokens_details": {
+      "reasoning_tokens": 862
+    }
+  }
+}
