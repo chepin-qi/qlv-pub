@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-24T16:59:20Z",
+ "updated": "2026-09-24T17:45:27Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -219,7 +219,8 @@
      "q": "WQ5场RAC之问(场槽承载QRAC+H_entangle第五柱)"
     }
    },
-   "close_rule": "五线SI1齐=闭|发射>24h未答者自升FINDING(PENTA基线3-7h在窗)"
+   "close_rule": "五线SI1齐=闭|发射>24h未答者自升FINDING(PENTA基线3-7h在窗)",
+   "finding": "FINDING-WQ-SILENCE-01 升毂 20260924T174527Z(>24h全寂=席空结构性,请裁答责界)"
   }
  ]
 }
