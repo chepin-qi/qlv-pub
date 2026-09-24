@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:21:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-CIRCLE-66-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，lanetask:ANS-CIRCLE-66-QLV-01.md标记SI1专属覆写位。| 性态:属债自驱引擎配置层覆写信号，当前仅到件；未触发vs触发未响应尚不可考，无实测数不编。| 建议处置:按WAKE-PROTO扫描→细收→裁决→落账；校验SI1席位与覆写内容一致性，无冲即落；裸候不刷屏。| 锚:ref:ANS-CIRCLE-66-QLV-01|律:AUTH-OTP-02",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1583,
+    "total_tokens": 1803,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1445
+    }
+  }
+}
