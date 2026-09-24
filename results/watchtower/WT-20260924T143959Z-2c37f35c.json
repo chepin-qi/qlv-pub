@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:39:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线超24h阈触发自升级，件ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md到驿|性态:周期溢出类escalate；摘要示升己动作已触发，原裁决文件本体未实测，全程不涉真机钱面|建议处置:裸候原线回执，不主动外呼；按WAKE-PROTO次次落账，计入lanesweep积压台账|锚:cross-ref:INFRA-UPTIME/lane-deadline-alert-qtlv",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1475,
+    "total_tokens": 1708,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1344
+    }
+  }
+}

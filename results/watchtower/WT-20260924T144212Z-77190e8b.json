@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:41:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-FLOOR-SHA-SRC-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[lane扫]侦获 ANS-FLOOR-SHA-SRC-01.md，源端单件到件。| 性态:文件级路径触发，SHA/SRC标记命中；内容体未实测，属触发未响应态（裸候）。| 建议处置:细收校验元数据与完整性，无异常即归档落账；不越真机钱面，裸候不主动求应。| 锚:fs-meta.line（他线锚）",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 1128,
+    "total_tokens": 1332,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1021
+    }
+  }
+}

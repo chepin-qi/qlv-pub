@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:42:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫描发现ANS-IGNITE-BAIT-58超24h未结，自升己入列。| 性态:裸候超时，未触发人工响应，系统级escalation。| 建议处置:次次落账，标记逾期24h，维持裸候不追呼，留痕待提取。| 锚:sys.lane|ops.duty",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 916,
+    "total_tokens": 1143,
+    "completion_tokens_details": {
+      "reasoning_tokens": 828
+    }
+  }
+}

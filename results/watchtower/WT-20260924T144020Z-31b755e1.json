@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:40:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-EVAL-WAVE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task投件至，ref=ANS-EVAL-WAVE-01.md侦得，本座未触发细收，内容未明| 性态:投必有件，现处裸候态，未越真机钱面| 建议处置:遵AUTH-OTP-02裸候原则，不主动求应；待触发可读后再行细收裁决| 锚:LANE-SWEEP-PROTO（他线锚）",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 901,
+    "total_tokens": 1101,
+    "completion_tokens_details": {
+      "reasoning_tokens": 797
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:41:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫得ref=ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md，属协签验证类任务件，时标20260911T0302Z。| 性态:扫档触件，仅见壳名未实测内容，系「触发未响应」态，待细收裁决。| 建议处置:依WAKE-PROTO推进细收→裁决→落账，调阅md全文核验cosign与usrm一致性，诚实边界内次次落账，裸候不刷屏。| 锚:ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md|AUTH-OTP-02/扫节点",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1120,
+    "total_tokens": 1348,
+    "completion_tokens_details": {
+      "reasoning_tokens": 956
+    }
+  }
+}

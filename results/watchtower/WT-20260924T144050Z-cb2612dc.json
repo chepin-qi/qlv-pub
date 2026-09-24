@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:40:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ANS-EXP016 lane扫逾24h升己至escalate，ref=lvlu-20260912T153227Z.md待细收| 性态:扫→收阶段挂起，超时未裁决；未触发真机钱面，未落账，需区分「未触发vs触发未响应」| 建议处置:①细收ref内XCHK项；②根因裁决；③执行落账，次次落账，不编未测数| 锚:AUTH-OTP-02/米田边律/WAKE-PROTO扫描→细收→裁决→落账|",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1406,
+    "total_tokens": 1629,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1266
+    }
+  }
+}

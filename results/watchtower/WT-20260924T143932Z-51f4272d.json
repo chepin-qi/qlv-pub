@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T14:39:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫检出ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md滞留超24h，触发escalate升己。| 性态:件处未决态，超时未落账；摘要仅含ref与触发标记，未实测具体响应链路，故不臆测、不编数，暂无法区分「未触发」抑或「触发未响应」，仅记为超时待裁决。| 建议处置:依WAKE-PROTO细收全文，裁决优先级后强制落账；若属裸候，按clock=VOID复核时效边界，次次落账。| 锚:AUTH-OTP-02不刷屏/次次落账、lanesweep超时升己规则。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1047,
+    "total_tokens": 1274,
+    "completion_tokens_details": {
+      "reasoning_tokens": 884
+    }
+  }
+}
