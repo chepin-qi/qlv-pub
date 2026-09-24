@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T21:32:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-CIRCLE-66-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位，ref=lanetask:ANS-CIRCLE-66-QLV-01.md，[债自驱]SI1专属| 性态:席位级自驱覆写指令已触发，属引擎内部定向位操作。摘要未呈执行响应数据，依诚实边界不编数，区分「触发/响应」；clock=VOID下适用裸候| 建议处置:①WAKE-PROTO：扫描ref完整性→细收覆写域边界→裁决SI1专属权属→执行落账；②恪守AUTH-OTP-02，次次落账，不刷屏，不越真机钱面；③未获实测响应前维持裸候，不主动求应| 锚:cross-ref:debtengine.core/seat-overwrite#SI1",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1780,
+    "total_tokens": 2000,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1599
+    }
+  }
+}

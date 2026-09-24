@@ -28,11 +28,11 @@
     "w12": [
       0,
       0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-09-24",
     "beacon_comments": 37
   },
-  "qgl_head": "6e4642800ecdcc7b247719a507f8ba23ec844ea5",
+  "qgl_head": "a24943c34947776f3f0b0ebc39643cc2abf22233",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -353,7 +353,7 @@
     {
       "id": "lanetask:ANS-CIRCLE-66-QLV-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-24T21:21:56Z"
+      "ts": "2026-09-24T21:32:25Z"
     }
   ],
   "debt_backlog": 28,
