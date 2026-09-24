@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:18:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属覆写位触达，ref文件落位lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md，覆写位已激活| 性态:内部数据位操作，无真机钱面越界，属SI1授权域内文件级覆写，未涉外部资金响应| 建议处置:核验SI1授权链路完整性后执行覆写落账；保持裸候，不主动外询；次次落账| 锚:debtengine主控线/SI1授权域",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 787,
+    "total_tokens": 1021,
+    "completion_tokens_details": {
+      "reasoning_tokens": 654
+    }
+  }
+}
