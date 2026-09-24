@@ -27,13 +27,13 @@
       0,
       0,
       0,
+      1,
       0,
-      0,
-      1
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -297,7 +297,7 @@
     {
       "id": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-09-24T18:18:46Z"
+      "ts": "2026-09-24T18:29:12Z"
     }
   ],
   "debt_backlog": 21

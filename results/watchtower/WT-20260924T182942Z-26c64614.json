@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T18:29:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 收 SI1 专属覆写位件，ref=lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md，摘要标定覆写位| 性态: 债自驱内部流程，未越真机钱面，无实测响应数据，clock=VOID，属裸候态| 建议处置: 依 WAKE-PROTO 扫描→细收→裁决→覆写落账，次次落账，不主动寻求回应，裸候闭环| 锚: ans-circle-66 回执为 1 他线锚",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 1789,
+    "total_tokens": 2023,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1647
+    }
+  }
+}
