@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T22:24:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-orbit-cap03-ring(CAP-03自发环巡归)促级至第2级|性态:系统内生债务候选，环巡归位后触发未响应，候悬停；环巡参量与债务面值未实测，不编数|建议处置:裸候不主动外呼，若响应则次次落账；CAP-03维持轨巡待命，不越真机钱面|锚:orbit-maintenance-protocol通用环巡维保线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1225,
+    "total_tokens": 1442,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1107
+    }
+  }
+}

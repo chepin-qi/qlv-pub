@@ -31,7 +31,7 @@
       0,
       0,
       0,
-      0,
+      4,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 34,
+  "seg_cursor": 35,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -129,20 +129,20 @@
       "n": 2
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790191871.0911174,
-      "n": 1
+      "t": 1790288619.3879633,
+      "n": 2
     },
     "debt-20260912-orbit-cap02-lgt": {
-      "t": 1790191871.0911202,
-      "n": 1
+      "t": 1790288619.3879688,
+      "n": 2
     },
     "debt-20260912-orbit-cap03-ring": {
-      "t": 1790191871.0911217,
-      "n": 1
+      "t": 1790288619.3879714,
+      "n": 2
     },
     "debt-20260912-tower-seg9-verify": {
-      "t": 1790265318.606896,
-      "n": 1
+      "t": 1790288619.3879724,
+      "n": 2
     },
     "debt-20260912-exp016-xchk": {
       "t": 1790265318.6069047,
@@ -153,7 +153,7 @@
       "n": 1
     }
   },
-  "nudge_backlog": 6,
+  "nudge_backlog": 3,
   "orbit_done": [
     "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
     "ORBIT-CAP-01-20260913T014500Z.md"

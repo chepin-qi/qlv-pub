@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T22:23:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap02-lgt 自债候CAP-02下下站旁路权二级促件 | 性态: 旁路权已触发，首触未决升至第2级，属触发未响应；无实测数据不越真机钱面 | 建议处置: 冻结旁路行使，维持裸候不主动外呼，按次落账挂待决，不编造未测数值 | 锚: AUTH-OTP-02裸候条款/he:orbit-debt-lgt",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 982,
+    "total_tokens": 1204,
+    "completion_tokens_details": {
+      "reasoning_tokens": 860
+    }
+  }
+}

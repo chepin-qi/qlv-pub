@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T22:24:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-seg9-verify促件升至第2级| 性态:塔⑨段五件效验(runs直读)候件触发nudge.escalate，属流程内升级，未涉真机钱面，无实测逾期/阻塞数据| 建议处置:裸候，不主动求应，待runs直读效验结果次次落账| 锚:塔⑨段五件效验与runs直读子线程存在单向依赖锚定",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1287,
+    "total_tokens": 1511,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1169
+    }
+  }
+}

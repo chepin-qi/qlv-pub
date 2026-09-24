@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T22:23:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap01-bypass因CAP-01旁路补位自债候qfa滞留约19h，促件升至第2级。| 性态:队列内滞候态；未实测阻塞根因及是否触发失败，不编数，现属升级后未落账裸候。| 建议处置:依AUTH-OTP-02维持裸候、不刷屏寻应；请主控线实测cap01旁路通道负载与qfa真实尾长，据实测裁决落账或强制改道。| 锚:主债线/cap01路由快照/VOID时钟。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1304,
+    "total_tokens": 1531,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1162
+    }
+  }
+}
