@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:55:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-PENTA-lgt-20260913T172139Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫档超24h escalate，ref=ANS-PENTA-lgt-20260913T172139Z.md，摘要标\"升己\"。| 性态:属时限溢出自动归集；未实测 ref 档内响应态，诚实标定为\"未触发/触发未响应\"待区分。| 建议处置:按 WAKE-PROTO 细收，人工拉取原档核验时间戳与响应标记；裸候则落账，有他线回写即转交。| 锚:建议挂接 ANS-PENTA 他线回执或 Penta 组别响应日志≥1条。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 887,
+    "total_tokens": 1104,
+    "completion_tokens_details": {
+      "reasoning_tokens": 743
+    }
+  }
+}

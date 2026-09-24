@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:53:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-KEY-FINGERPRINT-BOOK.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得 ANS-KEY-FINGERPRINT-BOOK.md| 性态:静态文档命中，无执行流触发，无会话绑定，属密钥指纹参考册备案| 建议处置:按规程次次落账归档，不刷屏、不越真机钱面，裸候| 锚:密钥指纹簿/文档索引",
+  "usage": {
+    "prompt_tokens": 202,
+    "completion_tokens": 819,
+    "total_tokens": 1021,
+    "completion_tokens_details": {
+      "reasoning_tokens": 736
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:54:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep escalate,ref=ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md,lane扫>24h超时自升| 性态:内部自治,未越机钱面,属触发未响应(外部零触),裸候| 建议处置:裁决自升有效,按WAKE-PROTO次次落账,无需他线干预| 锚:WAKE-PROTO/AUTH-OTP-02/qlv线内务自治",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1750,
+    "total_tokens": 1973,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1639
+    }
+  }
+}

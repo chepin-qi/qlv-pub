@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:55:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-OCTA-67-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-OCTA-67-QLV-01.md|性态:文件级静默落盘，内容未展开，无实测数；属侦得后「触发未响应」空转态，未越真机钱面|建议处置:循WAKE-PROTO扫描→细收→裁决→落账，裸候不主动求应；待内容展开后补实测锚|锚:AUTH-OTP-02投必有件/次次落账；clock=VOID",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1027,
+    "total_tokens": 1235,
+    "completion_tokens_details": {
+      "reasoning_tokens": 911
+    }
+  }
+}

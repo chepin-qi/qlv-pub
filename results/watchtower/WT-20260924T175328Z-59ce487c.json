@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:53:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-KEY-AUDIT-69-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-KEY-AUDIT-69-QLV-01.md| 性态:扫描命中，仅获文件引用标识，实质内容未透出，属触发未响应（空壳到件）| 建议处置:维持裸候，不主动索应；建议执行细收读取负载后二次裁决，本次落账为\"侦得未展开\"| 锚:lanesweep.task/ANS-KEY-AUDIT-69-QLV-01.md/void",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 873,
+    "total_tokens": 1085,
+    "completion_tokens_details": {
+      "reasoning_tokens": 759
+    }
+  }
+}

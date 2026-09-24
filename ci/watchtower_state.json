@@ -23,17 +23,17 @@
       0,
       0,
       0,
+      5,
       0,
       0,
       0,
       0,
       0,
-      0,
-      0
+      3
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -50,7 +50,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-24",
-    "beacon_comments": 9
+    "beacon_comments": 17
   },
   "qgl_head": "575b2df9e9a95bdbe8483dec54430f58dd777bdc",
   "_probe_err": {
@@ -80,7 +80,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 22,
+  "seg_cursor": 23,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -166,7 +166,15 @@
     "ANS-FIELD-SEAT.md",
     "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
     "ANS-FLOOR-SHA-SRC-01.md",
-    "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md"
+    "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+    "ANS-KEY-AUDIT-69-QLV-01.md",
+    "ANS-KEY-FINGERPRINT-BOOK.md",
+    "ANS-KEYUNIFY-QLV-01.md",
+    "ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+    "ANS-OCTA-67-QLV-01-20260913T104013Z.md",
+    "ANS-OCTA-67-QLV-01.md",
+    "ANS-OTP64-QLV-01.md",
+    "ANS-PENTA-lgt-20260913T172139Z.md"
   ],
   "debt_queue": [
     {
@@ -236,6 +244,46 @@
     },
     {
       "id": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-KEY-FINGERPRINT-BOOK.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-KEYUNIFY-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-OCTA-67-QLV-01-20260913T104013Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-OCTA-67-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-OTP64-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-PENTA-lgt-20260913T172139Z.md",
       "note": "lane件>24h未理升己",
       "si0_solvable": false
     }

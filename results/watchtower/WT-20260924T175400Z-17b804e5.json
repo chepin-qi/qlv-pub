@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:53:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-KEYUNIFY-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得 ANS-KEYUNIFY-QLV-01.md，属扫描落位| 性态:单点索引侦得，未触发内容响应，无实测载荷| 建议处置:按WAKE-PROTO推进细收，启ANS-KEYUNIFY规范校验；若验空则裸候落账| 锚:ANS-KEYUNIFY-QLV-01.md系键统一规准件，受AUTH-OTP-02诚实边界约束",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 878,
+    "total_tokens": 1084,
+    "completion_tokens_details": {
+      "reasoning_tokens": 765
+    }
+  }
+}

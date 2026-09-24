@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:54:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-OCTA-67-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件ANS-OCTA-67-QLV-01超24h自升级| 性态:时阈触发型escalate，摘要仅见ref壳与元标签，实质内容未触发解析或触发未响应不可辨；源件实体未读，不编数| 建议处置:按AUTH-OTP-02裸候，不刷屏追应；补拉实体后二次裁决，或排查真机面漏落| 锚:同批OCTA-55-QLV锚线待交叉（67八进制↔55十进制邻位校验）",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1779,
+    "total_tokens": 2006,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1644
+    }
+  }
+}
