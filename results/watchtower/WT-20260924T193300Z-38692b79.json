@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T19:32:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-edge-throttle器课十二株边缘限流族立档 escalated 第2级，涉冷却突发律、git道绕行、HTTP/1.1方，clock=VOID。| 性态:方案悬置；未触发真机面实测，属触发未响应；HTTP/1.1与git道绕行架构耦合，不越真机钱面。| 建议处置:落账第2级裸候，候器课回执；限流阈值未实测不编数；冷却律与边缘节点对账。| 锚:infra-debt-ring/edge-qos-2026。",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1395,
+    "total_tokens": 1628,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1251
+    }
+  }
+}

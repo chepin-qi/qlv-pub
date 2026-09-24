@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T19:32:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-inbox-purge升至第2级促件，qlv巷152件机读排空| 性态:nudge.escalate类，积压候件主动升级，机读排空已落账，未越真机钱面，候态由悬置转执行| 建议处置:依AUTH-OTP-02核实152件排空实绩后归档；裸候不刷屏，不主动外寻回应| 锚:可挂debt-20260912-outbox-close同批债务闭环链路|",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1053,
+    "total_tokens": 1269,
+    "completion_tokens_details": {
+      "reasoning_tokens": 927
+    }
+  }
+}
