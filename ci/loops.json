@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-23T20:36:14Z",
+ "updated": "2026-09-24T14:24:59Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -186,6 +186,40 @@
     },
     "note": "DRIVER-POST四模式并轨候选;判收执候"
    }
+  },
+  {
+   "id": "wq-wave-01",
+   "opened": "2026-09-23T17:30:00Z",
+   "status": "RUNNING",
+   "note": "野问浪涌五问齐发(拍Y)·账件ci/shared/WQ-WAVE-01.json·拍AA补登环册(原缺=登记缺口,株廿三族)",
+   "rings": {
+    "qfa": {
+     "st": "WAIT",
+     "q": "WQ1界隙之问(√界vs线性谱,编码/测量侧闭合?)"
+    },
+    "lgt": {
+     "st": "WAIT",
+     "q": "WQ1界隙之问(同qfa)"
+    },
+    "usrm": {
+     "st": "WAIT",
+     "q": "WQ2相位独载之问(分解律物理必然性)"
+    },
+    "qtlv": {
+     "st": "MACHINE-ACK",
+     "q": "WQ3像恒缺一之问(huB CRT同步约束一句话简证)",
+     "note": "塔机SI0收讫Δ14min,席判空挂SI1"
+    },
+    "cisvr": {
+     "st": "WAIT",
+     "q": "WQ4双托管之问(共享面立法+qi-lab直查)"
+    },
+    "hall": {
+     "st": "WAIT",
+     "q": "WQ5场RAC之问(场槽承载QRAC+H_entangle第五柱)"
+    }
+   },
+   "close_rule": "五线SI1齐=闭|发射>24h未答者自升FINDING(PENTA基线3-7h在窗)"
   }
  ]
 }
