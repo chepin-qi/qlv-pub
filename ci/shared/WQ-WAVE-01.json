@@ -73,6 +73,11 @@
       "beat": "AA",
       "result": "Δ21h五线SI1全寂(qtlv塔机SI0除外); >24h线=20260924T1735Z, 次拍越线即升FINDING×5; 背景: 六线代席制(qlv已复席)",
       "board": "board-135"
+    },
+    {
+      "ts": "2026-09-24T17:45:27Z",
+      "beat": "AB",
+      "result": "越24h线: 五线SI1零答坐实(树扫全仓); FINDING-WQ-SILENCE-01已升毂(结构性席空判,请裁答责界/候席档)"
     }
   ]
 }
