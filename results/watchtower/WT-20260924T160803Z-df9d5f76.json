@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T16:07:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件：自债候 debt-20260912-lgt-kscan 因 binmap k∈[6,14] 卡方扫描级迁，现擢升至第2级促件。| 性态：纯文本级次迁移，属 nudge.escalate；摘要未附实测卡方值或响应码，未触发与触发未响应之界暂不可分，落账为\"级次变动已收\"。| 建议处置：依 WAKE-PROTO 续行细收，裸候，不主动寻求回应，候实测数据面后裁决。| 锚：统计检验线 k-扫描候池 / 债务追踪侧链。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 883,
+    "total_tokens": 1110,
+    "completion_tokens_details": {
+      "reasoning_tokens": 734
+    }
+  }
+}

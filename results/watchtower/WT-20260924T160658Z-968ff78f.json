@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T16:06:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: debt-20260912-tower-seg9-verify 促件自债候升至第1级，系塔⑨段五件效验(runs直读)候时临界。| 性态: nudge.escalate，属履约催告而非违约认定；当前未触发硬性拒绝，仅候期溢出。| 建议处置: 裸候，不主动追加唤起；维持原通道直读监控，待效验结果自然落账。| 锚: 参照 AUTH-OTP-02「不刷屏/次次落账」则，一级催件不越真机钱面。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 984,
+    "total_tokens": 1208,
+    "completion_tokens_details": {
+      "reasoning_tokens": 847
+    }
+  }
+}

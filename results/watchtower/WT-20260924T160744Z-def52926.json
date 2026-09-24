@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T16:07:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist分布维实测替换骨架(XCHK)，自债候升至第1级促件| 性态:结构性催促升级；替换动作经XCHK但未产生真机钱面数据，属触发未响应，非未触发，不越钱面| 建议处置:按WAKE-PROTO完成裁决落账，核验分布维全量映射；裸候待办，不主动寻求回应，次次落账| 锚:dist-xchk-20260912-os3d",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1397,
+    "total_tokens": 1619,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1273
+    }
+  }
+}

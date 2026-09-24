@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T16:06:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:促件升级|debt-20260912-exp016-xchk(EXP-016交叉验证回件)自债候触发第1级escalate| 性态:自债候收促动信号,升级路径已激活;clock=VOID时效冻结,未实测扣划/清偿动作,属「触发未响应」候场态,无钱面越界| 建议处置:遵AUTH-OTP-02裸候原则,不主动外寻回应;落账记录第1级促动戳,维持候场。待clock恢复或他线回执到件后再裁决是否晋级或执行交叉验证| 锚:AUTH-OTP-02(裸候/次次落账)",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1021,
+    "total_tokens": 1236,
+    "completion_tokens_details": {
+      "reasoning_tokens": 861
+    }
+  }
+}
