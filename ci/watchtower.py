@@ -288,11 +288,17 @@ def poll(pat, st, segs=None):
         st['qfa_head'] = head
         # ③ quafu 双 job 状态迁移(0→2=Completed)
         api_token = os.environ.get('QUAFU_TOKEN')
-        tokp = os.path.expanduser('~/.keys/origin_quafu.json')
-        if not api_token and os.path.exists(tokp):
-            tok = json.load(open(tokp)); api_token = tok.get('api_token') or tok.get('token') or tok.get('quafu')
+        # 拍AC 直驱修补: origin_quafu 钥已失效(400 not match db 实证)→双址回退 quafu_new(活钥);
+        # 监控集扩至 FRAC01 P5真机轨8任务(毂15:02Z射, 位717-724, 链入 ci-inbox quafu_sim_chain tip=5f1ba12c1ebed535)
+        for _cand in ['~/.keys/origin_quafu.json', '~/.keys/quantum/quafu_new.json', '/mnt/agents/output/.vault/quantum/quafu_new.json']:
+            if api_token: break
+            tokp = os.path.expanduser(_cand)
+            if os.path.exists(tokp):
+                try:
+                    tok = json.load(open(tokp)); api_token = tok.get('api_key') or tok.get('api_token') or tok.get('token') or tok.get('quafu')
+                except Exception: pass
         if api_token:
-            for tid in ['8CA608102028586C','8BB169201FA3F5D4']:
+            for tid in ['8CA608102028586C','8BB169201FA3F5D4','8E6127E015189AA6','8E61280013FE83E5','8E612810352A8CCD','8E61283018EF220E','8E612850089BCBEE','8E6128702B8455CA','8E6128902737D732','8E6128B00D6E33B1']:
                 try:
                     req = urllib.request.Request('https://quafu.baqis.ac.cn/qbackend/scq_task_recall/',
                         data=urllib.parse.urlencode({'task_id':tid}).encode(),
