@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:03:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "2fd1808a97ec",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fed.vci.commit到件(ref:2fd1808a97ec)，义眼pub-lint提交，记R1代号化0件及报告持久化，标[skip ci] | 性态: 投必有件，空转落账；skip ci为主动绕过CI，非触发未响应，无实机钱面 | 建议处置: 裸候不主动回执；校验持久化路径及0件根因 | 锚: AUTH-OTP-02/投必有件；WAKE-PROTO/落账",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 2162,
+    "total_tokens": 2372,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2038
+    }
+  }
+}

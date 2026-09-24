@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T16:59:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv-lab/inbox:qlv-first-20260910-qlvlab.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop落入lanes/qlv-lab/inbox，件名qlv-first-20260910-qlvlab.md；来源巷卡[chepin-ai/vci-inbox]积压3→7，系该通道第7件。| 性态:正常到件，未触发异常，本机仅确认到件事实与计数变化，未实测件内数据，属裸候态。| 建议处置:已按WAKE-PROTO扫描细收并落账；裸候，不主动寻求回应，候主栈调度。| 锚:chepin-ai/vci-inbox(via ref)。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 963,
+    "total_tokens": 1187,
+    "completion_tokens_details": {
+      "reasoning_tokens": 825
+    }
+  }
+}

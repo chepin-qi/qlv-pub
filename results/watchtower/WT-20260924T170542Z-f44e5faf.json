@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:05:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cd099ddce15",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼联邦视觉提交(ref 4cd099ddce15)，qgl 对 EXP-015 作出 same-beat 响应。| 性态:VCI commit 类件，呈同拍回显态，无额外遥测，属现象级记录。| 建议处置:按 fedeye 规程落账归档，不主动扰动 qgl，裸候下一拍。| 锚:fedeye.fed.vci 主线规约。",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 1191,
+    "total_tokens": 1389,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1087
+    }
+  }
+}

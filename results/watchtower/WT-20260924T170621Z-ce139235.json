@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:06:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7103be47d3fc",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye VCI提交(ref:7103be47d3fc) | 性态: 义眼pub-lint例行空转，R1代号化0件，报告持久化落盘，[skip ci]显式跳过CI，无实质变更与风险 | 建议处置: 已阅，按裸候处理，无需响应与回溯 | 锚: 锚定义眼报告持久化层与VCI提交规范",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 742,
+    "total_tokens": 952,
+    "completion_tokens_details": {
+      "reasoning_tokens": 641
+    }
+  }
+}

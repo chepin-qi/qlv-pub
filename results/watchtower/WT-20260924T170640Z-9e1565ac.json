@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:06:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "776a14708507",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼线联邦VCI提交，ref 776a14708507，qgl beat 3.106迭代，文档QGL-OTP-FIVELINE-106-qfa-20260911T1605Z.md入栈| 性态:标准commit件，标识完整，时戳20260911T1605Z，属裸候态，未触发异常响应| 建议处置:按106序列收档落账，裸候，不主动求应| 锚:fedeye.fed.vci.commit; QGL-OTP-FIVELINE-106",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 864,
+    "total_tokens": 1081,
+    "completion_tokens_details": {
+      "reasoning_tokens": 734
+    }
+  }
+}

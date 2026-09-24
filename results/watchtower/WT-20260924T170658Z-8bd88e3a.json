@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:06:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "7c9ab9ab6de9",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(7c9ab9ab6de9), 义眼qgl beat 3.106静默节拍指标文件提交(QGL-ANS-SILENCE-BEAT-METRIC-106-20260911T1605Z.md) | 性态:常规度量归档，未触发异常告警，属SILENCE BEAT类周期性数据落账，内容未实测不编数 | 建议处置:按VCI提交协议次次落账，归入qgl beat 3.106序列裸候，不主动寻求回应 | 锚:fedeye.fed.vci.commit→qgl.ans.silence.beat.metric/periodic",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1090,
+    "total_tokens": 1314,
+    "completion_tokens_details": {
+      "reasoning_tokens": 936
+    }
+  }
+}

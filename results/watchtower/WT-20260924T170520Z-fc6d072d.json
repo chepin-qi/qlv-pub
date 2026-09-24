@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:04:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4cba1ee37021",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:义眼pub-lint提交(ref:4cba1ee37021)，摘要载R1代号化0件+报告持久化，标记[skip ci]。| 性态:周期巡检型空结果落账，主动回避CI资源消耗，无源码侵入，状态自洽。| 建议处置:按义眼日志策略落库归档，无需回退；隔轮复核R1代号化规则是否阈值漂移。| 锚:义眼.SCM.skip-ci白名单策略; fedeye.pub-lint.报告持久化路径。",
+  "usage": {
+    "prompt_tokens": 209,
+    "completion_tokens": 1543,
+    "total_tokens": 1752,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1421
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:07:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "9bb8a9ebdf49",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit提交(ref:9bb8a9ebdf49)，义眼发起nudge EVALR2-ALL| 性态: 系统级调度触达，EVALR2-ALL被轻推，属联邦眼VCI常规commit，已落账| 建议处置: 裸候，不主动寻求回应，监控EVALR2-ALL后续状态| 锚: fedeye.evalr2#wake",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 942,
+    "total_tokens": 1141,
+    "completion_tokens_details": {
+      "reasoning_tokens": 838
+    }
+  }
+}

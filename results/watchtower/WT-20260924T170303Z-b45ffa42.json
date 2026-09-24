@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:02:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "0b295b5403e1",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit(ref:0b295b5403e1) | 性态:代码提交件，摘要报qgl voice beat 3.107，属联邦义眼语音节拍模块迭代；未触发运行时响应，仅版本控制落账 | 建议处置:归档备查，待下一beat实测触发链后补录性能锚 | 锚:fedeye/vci#commit-0b295b5",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 713,
+    "total_tokens": 912,
+    "completion_tokens_details": {
+      "reasoning_tokens": 611
+    }
+  }
+}

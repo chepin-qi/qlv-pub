@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:02:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "02a969e2c7ad",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref 02a969e2c7ad；摘要为义眼记录QGL beat 3.106，落库文件QGL-OTP-FIVELINE-106-usrm-20260911T1605Z.md。| 性态:审计归档类提交，文件名含OTP/五线/用户管理标识，属常规节拍日志，摘要未显异常，为已触发已到件。| 建议处置:依AUTH-OTP-02次次落账，本件到件即完成落账，不主动回拉或寻求响应，保持裸候；待他线触发validate或联动时再补裁决。| 锚:QGL-OTP-FIVELINE-106-usrm审计线。",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1180,
+    "total_tokens": 1401,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1009
+    }
+  }
+}

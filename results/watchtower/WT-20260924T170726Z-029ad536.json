@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:06:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "896c2a09e5f2",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:fedeye.fed.vci.commit到件，ref=896c2a09e5f2。qlv呈毂B56，载塔盲确诊器课第九株及TOWER-FIX-QLV-06/BRIDGE-01 v1.1账，四答俱投，126纠植联署，root域联邦只读PAT请裁。| 性态:件体要件齐备，联署完整，属合规VCI提报。未触发实测响应，无钱面越界。| 建议处置:依WAKE-PROTO扫描-细收-裁决-落账，本件准予收讫落账；无需回令则裸候。| 锚:FED-EYE-VCI-QLV/BRIDGE-01@cisvr联署锚 |",
+  "usage": {
+    "prompt_tokens": 250,
+    "completion_tokens": 1346,
+    "total_tokens": 1596,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1168
+    }
+  }
+}

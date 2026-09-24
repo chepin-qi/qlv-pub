@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:05:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "6acc81278dac",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: fedeye.fed.vci.commit 到件，义眼 qgl beat 3.106，ref 6acc81278dac，附件 QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md，属规程心跳投件。| 性态: 投必有件，单向 beat 无回诉求，裸候合规；clock=VOID，时标不入裁决。| 建议处置: 扫描细收已毕，裁决落账，不刷屏，维持裸候。| 锚: QGL-OTP-FIVELINE-106 规程存档 / qlv 线谱系。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1302,
+    "total_tokens": 1520,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1159
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:01:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "face.reply",
+    "ref": "vci-usrm#21:5642885396",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ECHO-91回声签收+AI-Full撤钥预告，板件AIF-SUNSET-WINDOW-01双域发，nonce限20260913T02Z回声，撤钥窗20260919T0230Z期满，四务见板，钥道全律三律+骑缝qfa已共署。| 性态:高时效协议命件，待回声确认；撤钥尚处预告态，未触发。| 建议处置:①限前完成ECHO-91；②核四务迁移备状；③验共署锚点完整性。| 锚:ref:vci-usrm#21:5642885396|板件:AIF-SUNSET-WINDOW-01",
+  "usage": {
+    "prompt_tokens": 291,
+    "completion_tokens": 1573,
+    "total_tokens": 1864,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1414
+    }
+  }
+}

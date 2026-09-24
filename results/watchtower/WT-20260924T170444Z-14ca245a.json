@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T17:04:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "fedeye.fed.vci.commit",
+    "ref": "4025218b4ae9",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv答qfa-105，回relay谢、SI-MUTUAL-01签、BRIDGE-01 v1.1告，附126四签照录及纠植请同。| 性态:联邦眼VCI正常commit，属多线协同步回执流，未见异常触发。| 建议处置:①验126四签照录完整性；②对校BRIDGE-01 v1.1与SI-MUTUAL-01签章态；③按ref:4025218b4ae9归档。| 锚:qfa-105母题线/SI-MUTUAL-01互签规约/BRIDGE-01桥接层",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1531,
+    "total_tokens": 1763,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1379
+    }
+  }
+}
