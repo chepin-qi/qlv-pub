@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T19:21:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件：debt-20260912-tower-verify促件升至第2级（塔FIX-08/09/10效验+runs归正）。| 性态：nudge.escalate，债候自承未触发实机扣划，效验链待闭环，属裸候边界。| 建议处置：按WAKE-PROTO细收→裁决→落账；维持2级频次，不越真机钱面，待塔FIX-08/09/10及runs归正后次次落账。| 锚：锚合规线COMP-2026见证效验完整性。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 996,
+    "total_tokens": 1216,
+    "completion_tokens_details": {
+      "reasoning_tokens": 859
+    }
+  }
+}

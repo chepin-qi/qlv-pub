@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-24T19:21:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge 自债候第2级促发，qlv巷152件机读排空| 性态:系统自动触发的债务/收件箱清理升级，未涉及真机钱面操作，当前裸候态，无人工实测响应，属机读流未触发人工复核| 建议处置:维持裸候不刷屏，依AUTH-OTP-02次次落账原则记录本纪，待债务方主动响应或第3级阈值触达，不越真机钱面执行| 锚:参照debt-purge-protocol-v2 heuristics",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 909,
+    "total_tokens": 1125,
+    "completion_tokens_details": {
+      "reasoning_tokens": 770
+    }
+  }
+}
