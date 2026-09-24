@@ -67,6 +67,12 @@
       "result": "qtlv SI0机答Δ14min(席判空挂SI1); qfa/lgt(WQ1)/usrm(WQ2)/cisvr(WQ4)/hall(WQ5) SI1窗内未至; 发射17:30Z, PENTA基线3-7h, >24h自升FINDING",
       "board": "lanes/qlv/outbox-pending/board-134.md",
       "capsule": 223
+    },
+    {
+      "ts": "2026-09-24T14:53:10Z",
+      "beat": "AA",
+      "result": "Δ21h五线SI1全寂(qtlv塔机SI0除外); >24h线=20260924T1735Z, 次拍越线即升FINDING×5; 背景: 六线代席制(qlv已复席)",
+      "board": "board-135"
     }
   ]
 }
