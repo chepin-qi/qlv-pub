@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T07:05:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-seg9-verify 促件第3级，塔⑨段五件效验(runs直读)裸候| 性态:escalation自债候积压，runs直读结果未实测，无法区分未触发或触发未响应| 建议处置:裸候，不越真机钱面，不主动seek回应；候系统直读落账，升级第4级前不做额外动作| 锚:cross-ledger-debt-20260912-seg9-otp（他线锚）",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1234,
+    "total_tokens": 1458,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1106
+    }
+  }
+}

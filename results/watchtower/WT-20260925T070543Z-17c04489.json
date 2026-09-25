@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T07:05:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap03-ring(CAP-03自发环巡归)促件升至第3级(nudge.escalate)| 性态:自发环巡债务的自动递进触达;前序响应状态未落账,属触发未响应或裸候推进,未实测具体还款行为| 建议处置:维持环巡监听,本件即落账;冻结进一步自动升级,避免越真机钱面与人肉刷屏;若持续裸候则转人工协议归档,不主动追加触达| 锚:CAP-03环巡归集队列/debt-20260912母件",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 898,
+    "total_tokens": 1115,
+    "completion_tokens_details": {
+      "reasoning_tokens": 754
+    }
+  }
+}
