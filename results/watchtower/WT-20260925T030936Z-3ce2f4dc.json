@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T03:09:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DEBT-75-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱覆写位(ref:lanetask:ANS-DEBT-75-QLV-01.md)| 性态:debtengine.seat配置层虚位覆写，未触发真机执行，无钱面越界| 建议处置:执行覆写位规程落账，裸候下一触发，不主动寻求回应| 锚:qlv-core:AUTH-OTP-02/诚实边界; debtengine.seat/overwrite-SI1",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1395,
+    "total_tokens": 1617,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1284
+    }
+  }
+}
