@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:21:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务超24h触发自我升级(lanesweep.escalate)，源文件DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md。| 性态:扫描工单滞留逾24h，系统依规则自动升单。未实测阻塞点，无法区分「未触发」或「触发未响应」，属裸候。| 建议处置:核查真机执行日志与回调；若已执行则补落账关单，若未触发则手动重扫并定位根因。| 锚:DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md(本件自锚)，挂 lanesweep 超时升己规则链为制度锚。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1653,
+    "total_tokens": 1882,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1486
+    }
+  }
+}

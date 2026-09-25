@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:19:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DISC-SI-OMNI-DRIVE-01-lgt-20260913T170724Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫出DISC-SI-OMNI-DRIVE-01-lgt-20260913T170724Z.md超24h未落账，触发自升(escalate)。| 性态:时间阈值驱动的自动升级，件处悬置裸候态，尚未触发人工响应。| 建议处置:依AUTH-OTP-02限时裁决并次次落账；若继续裸候则强制归档/拆线，并复核lane TTL。| 锚:WAKE-PROTO超时链扫描→细收→裁决→落账；AUTH-OTP-02不裸候/次次落账。",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1370,
+    "total_tokens": 1601,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1229
+    }
+  }
+}

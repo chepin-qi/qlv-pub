@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:19:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DISC-NEUMECH-01-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h触escalate，ref=DISC-NEUMECH-01-qtlv-20260913T131611Z.md，摘要示升己。|性态:条件触发类；无工具实测原卷，不编数，据摘要落账为触发已响应态，未与未触发混淆。|建议处置:按qlv扫货规备案落账；若需复核原卷，待获件权后细收，当前裸候，不越真机钱面。|锚:qlv线扫货规>24h escalate阈值条款。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1803,
+    "total_tokens": 2030,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1670
+    }
+  }
+}

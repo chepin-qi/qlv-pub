@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:18:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DIRECTFETCH-KSCAN-SRC-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得DIRECTFETCH-KSCAN-SRC-QLV-01.md到件| 性态:扫描触发，文件标识已显，内容体未细收（VOID钟下无实测读取）| 建议处置:执行WAKE-PROTO细收→裁决→落账；本件裸候，不主动求应| 锚:QLV-SRC-KSCAN-01线规",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 832,
+    "total_tokens": 1040,
+    "completion_tokens_details": {
+      "reasoning_tokens": 736
+    }
+  }
+}

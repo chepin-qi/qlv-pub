@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:20:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线>24h升己，ref=DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md已落件。| 性态:仅收摘要引用，未触实机面，属「未实测」待验升单；未触发与触发未响应待辨。| 建议处置:按WAKE-PROTO补扫细收该ref完整日志后裁决落账；若裸候超24h无应，依AUTH-OTP-02裸候归档，不越真机钱面。| 锚:引sys-audit/ops-watch线交叉锚定。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1295,
+    "total_tokens": 1522,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1154
+    }
+  }
+}

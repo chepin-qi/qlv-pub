@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:20:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫项超24h触escalate自升级，ref=DRIVE-qlv-20260916T003013Z-60aca76e931a.md| 性态:扫描滞留触发时效规则，属流程内自洽抬级，未见外部干扰或真机钱面越界；区分未触发与触发未响应：本次为已达阈值主动升己| 建议处置:复核该md扫件细收与落账状态；已结则归档，未结则补录裸候；按AUTH-OTP-02不刷屏、不主动外寻回应| 锚:lanesweep.sop/时效阈值/qlv-DRIVE日志线",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 970,
+    "total_tokens": 1197,
+    "completion_tokens_details": {
+      "reasoning_tokens": 819
+    }
+  }
+}

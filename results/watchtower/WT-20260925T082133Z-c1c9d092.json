@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:21:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260917T003456Z-9275cefa2228.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫项超24h自升级，ref=DRIVE-qlv-20260917T003456Z-9275cefa2228.md，摘要未显卡点位| 性态:属超时escalate；扫描线程或挂起、目标未响应、或正常长时任务误触阈值；未实测不编数，未触发与触发未响应待查| 建议处置:①人工下钻该ref原始日志②核对扫描目标状态③死锁则强制落账或重启工位④按需调整阈值| 锚:联动DRIVE线日志工位交叉确认，次次落账|",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1509,
+    "total_tokens": 1736,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1367
+    }
+  }
+}

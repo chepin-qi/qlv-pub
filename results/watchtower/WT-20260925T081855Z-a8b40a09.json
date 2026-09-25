@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:18:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫命中DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md超24h，触发升己。| 性态:扫描→细收→裁决中；该件裸候，未触发人工响应。| 建议处置:即刻落账，转CAP线复核真机钱面；裸候不主动寻求回应，不刷屏。| 锚:CAP-ESC-20260913T013604Z",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1771,
+    "total_tokens": 1998,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1667
+    }
+  }
+}
