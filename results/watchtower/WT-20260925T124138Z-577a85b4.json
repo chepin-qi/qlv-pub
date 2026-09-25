@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T12:41:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位债务候(debt-20260912),滞qfa~19h,促件升至第4级(nudge.escalate)| 性态:摘要级升级,前三级响应状态未明;未涉真机钱面越界,属债内滞候| 建议处置:依WAKE-PROTO落账,裸候不主动寻应,次次落账| 锚:orbit-cap01(旁路源线)",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1482,
+    "total_tokens": 1709,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1371
+    }
+  }
+}

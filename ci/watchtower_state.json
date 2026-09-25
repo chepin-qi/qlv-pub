@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      4,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-09-25",
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 51
+    "beacon_comments": 55
   },
   "qgl_head": "ab6bcbc0826ebe72e76aaf2321bf5043bc413903",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 74,
+  "seg_cursor": 75,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -117,20 +117,20 @@
       "n": 4
     },
     "debt-20260912-inbox-purge": {
-      "t": 1790308830.9003778,
-      "n": 3
+      "t": 1790340021.5537498,
+      "n": 4
     },
     "debt-20260912-tower-verify": {
-      "t": 1790308830.9003832,
-      "n": 3
+      "t": 1790340021.5537562,
+      "n": 4
     },
     "debt-20260912-edge-throttle": {
-      "t": 1790308830.9003894,
-      "n": 3
+      "t": 1790340021.5537622,
+      "n": 4
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790308830.9003906,
-      "n": 3
+      "t": 1790340021.5537639,
+      "n": 4
     },
     "debt-20260912-orbit-cap02-lgt": {
       "t": 1790319188.4928253,

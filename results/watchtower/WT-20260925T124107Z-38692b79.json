@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T12:40:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：债候 debt-20260912-edge-throttle 促件升至第4级，器课第十二株边缘限流族立档待决，含冷却突发律、git道绕行及HTTP/1.1方三系。| 性态：长候未落账，层级触顶，阻塞风险外溢，未触发实测响应。| 建议处置：按级裁决，择日卒件或拆件转档，裸候不刷屏。| 锚：HTTP/1.1持久连接队头阻塞与边缘限流策略互耦，需另线验压。",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 973,
+    "total_tokens": 1206,
+    "completion_tokens_details": {
+      "reasoning_tokens": 841
+    }
+  }
+}

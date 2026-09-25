@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T12:40:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-inbox-purge因qlv巷152件机读排空触发第4级促件| 性态:系统自动归档/清理动作导致批量候件状态变更，属流程内机械执行，现escalate至人工裁决层| 建议处置:①调阅机读排空日志，核验152件触发条件与期限规则；②正常到期则落账销号，异常清空则启动回收补录；③第4级不主动外呼，裸候下游签收| 锚:审记线-QLV-AUTO-PURGE-09/12",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 898,
+    "total_tokens": 1114,
+    "completion_tokens_details": {
+      "reasoning_tokens": 759
+    }
+  }
+}
