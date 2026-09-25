@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:24:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位异动| 性态:SI1专属债自驱，lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md 覆写位到件，未触发实测，覆写深度与资金穿透未知| 建议处置:暂停覆写权限，转真机对账 lane sweep/debt engine，裸候| 锚:crosslane:SI1-VOID-ledger",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1027,
+    "total_tokens": 1259,
+    "completion_tokens_details": {
+      "reasoning_tokens": 924
+    }
+  }
+}
