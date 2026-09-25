@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:33:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep通道扫描件超24h无下游响应，触发自升级(lanesweep.escalate)，ref已落DEMAND-CIRCLE-66-QLV-20260913T024210Z.md| 性态:单会话文本工位裸候态，属\"触发未响应\"型淤积；未实测具体阻塞深度，不编数| 建议处置:执行WAKE-PROTO落账，按AUTH-OTP-02裸候不主动寻求回应，次次落账；该件已升己，归档闭环，不越真机钱面| 锚:lanesweep自升级机制作为他线锚，对照DEMAND-CIRCLE-66同类件处置惯例|",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1028,
+    "total_tokens": 1251,
+    "completion_tokens_details": {
+      "reasoning_tokens": 869
+    }
+  }
+}

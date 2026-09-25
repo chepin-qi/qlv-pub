@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:32:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件投送，ref=COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md；摘要仅录文件名，内容未展开，属签名静默指标类。| 性态:已触发收信，未触发内容实测与响应；文件名示SILENCE-METRIC，现静默挂载，未越真机钱面。| 建议处置:裸候。本次已落账，不主动拉取刷屏；待COSIGN下周期触发或lane扫回环时补实测。| 锚:AUTH-OTP-02「次次落账/裸候」；qlv线扫规「投必有件」。",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1308,
+    "total_tokens": 1536,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1156
+    }
+  }
+}

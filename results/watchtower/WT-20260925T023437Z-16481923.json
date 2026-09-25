@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:34:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务侦得DEMAND-CLOSE-56B-QLV需求关闭文件，属常规扫描命中。| 性态:文件级静默件，无异常触发，无响应缺失，未越真机钱面。| 建议处置:按DEMAND-CLOSE协议直归档，无需回环，裸候终态。| 锚:归档线/需求关闭-56B。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 853,
+    "total_tokens": 1075,
+    "completion_tokens_details": {
+      "reasoning_tokens": 760
+    }
+  }
+}

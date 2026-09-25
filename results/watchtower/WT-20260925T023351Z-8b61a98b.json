@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:33:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane扫>24h升己，件DEMAND-CAULDRON-62-QLV-20260911T200847Z.md到件。| 性态: 队列滞留超阈触发escalate；摘要仅载扫描升己动作，未载下游回执或处理痕迹，属触发态，响应态未实测。| 建议处置: 依lanesweep.escalate规程次次落账，裸候下游，不刷屏追加呼叫，待下一扫描周期或自然回执后再裁决。| 锚: SPOOL-REAP-01（死信池再扫锚）",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 866,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "reasoning_tokens": 727
+    }
+  }
+}

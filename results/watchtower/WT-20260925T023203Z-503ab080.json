@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:31:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫CORR-QLV-NUDGE-01超24h自升级，ref文件到件| 性态:规则驱动升己，非外因；未实测阻塞点，不区分未触发/触发未响应，按诚实边界留白| 建议处置:执行WAKE-PROTO落账，裸候后续指令；可择期核查lane实例状态| 锚:ESC-24H-SWEEP-BASE（lane扫超时升级基线）",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1313,
+    "total_tokens": 1544,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1204
+    }
+  }
+}

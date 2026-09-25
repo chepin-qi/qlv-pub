@@ -30,18 +30,18 @@
       0,
       0,
       0,
-      1,
       0,
       0,
       0,
       0,
-      0,
+      3,
+      5,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 4
+    "beacon_comments": 12
   },
-  "qgl_head": "e7fe34268292a5be186c91c5fa5aa7ad919e8cb7",
+  "qgl_head": "a0a2e613ae654e8660aca4defe0af68cb9c6c0b5",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 46,
+  "seg_cursor": 47,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -198,7 +198,15 @@
     "ANS-WAVE-68-QLV-01-20260913T104013Z.md",
     "ANS-WAVE-68-QLV-01.md",
     "CADERING-STAMP-01-cisvr-20260911T1740Z.md",
-    "CAULDRON-PULSE-62-QLV-20260911T200235Z.md"
+    "CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+    "CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+    "COSIGN-FLOOR-QLV-01-2026-09-10.md",
+    "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+    "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+    "DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
+    "DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
+    "DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
+    "DEMAND-DIRECT-54-QLV-20260911T0705Z.md"
   ],
   "debt_queue": [
     {
@@ -374,6 +382,46 @@
     {
       "id": "lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
       "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+      "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
   ],

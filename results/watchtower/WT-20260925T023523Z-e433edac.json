@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:34:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task到件，ref=DEMAND-DIRECT-54-QLV-20260911T0705Z.md，[lane扫]已侦得。| 性态: 未拆包实测，内部触发/响应状态未明；clock=VOID，时序未对齐，属裸候件。| 建议处置: 按WAKE-PROTO细收→拆包→裁决；若不可读或无回显，依AUTH-OTP-02裸候，不刷屏，次次落账。| 锚: AUTH-OTP-02/投件通道; WAKE-PROTO/裁决栈。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1934,
+    "total_tokens": 2154,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1795
+    }
+  }
+}

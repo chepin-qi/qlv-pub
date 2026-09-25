@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:32:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "COSIGN-FLOOR-QLV-01-2026-09-10.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 COSIGN-FLOOR-QLV-01-2026-09-10.md，floor 协签文件落入 qlv 线。| 性态:扫描触发且已响应，件名合规；内容未实测不编数，属触发已响应但内容裸候，非未触发。| 建议处置:按 WAKE-PROTO 细收并落账，标记已扫未读；裁决待 floor 线回传或真机验面，不主动求回应。| 锚:COSIGN-FLOOR 跨线协签规范（他线锚）。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1212,
+    "total_tokens": 1430,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1076
+    }
+  }
+}

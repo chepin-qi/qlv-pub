@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:32:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务命中尾舱参考件COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md，到件信号完整，未触发异常。| 性态:常规扫掠落账，属投必有件；因无实测展开，不编内文数，裸候裁决。| 建议处置:按WAKE-PROTO归入细收队列，保持不刷屏、不越真机钱面，待下段指令。| 锚:qlv-20260911T0015Z时间戳可并线COSIGN主链尾舱索引，作他线锚。",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1072,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 932
+    }
+  }
+}
