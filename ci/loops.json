@@ -1,7 +1,7 @@
 {
  "v": "LOOPS-REGISTRY-01",
  "clock": "VOID",
- "updated": "2026-09-25T08:08:12Z",
+ "updated": "2026-09-25T10:51:10Z",
  "law": "SI3-until-closed:每醒巡环面|有应=闭环|三拍无应→SI5提级(断路在案者拍数冻结)|环开即pend自醒续拍",
  "loops": [
   {
@@ -101,7 +101,7 @@
    "rings": {
     "cisvr": {
      "st": "OPEN",
-     "beat": 37,
+     "beat": 38,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "lgt": {
@@ -124,22 +124,22 @@
     },
     "cfts": {
      "st": "OPEN",
-     "beat": 37,
+     "beat": 38,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "ucif2": {
      "st": "OPEN",
-     "beat": 37,
+     "beat": 38,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "qtlv": {
      "st": "OPEN",
-     "beat": 37,
+     "beat": 38,
      "escalated": "2026-09-11T09:12:37Z"
     },
     "vinf": {
      "st": "OPEN",
-     "beat": 37,
+     "beat": 38,
      "escalated": "2026-09-11T09:12:37Z"
     }
    }
@@ -161,7 +161,7 @@
     },
     "si5-intent": {
      "st": "OPEN",
-     "beat": 37,
+     "beat": 38,
      "escalated": "2026-09-11T09:12:38Z"
     }
    },
