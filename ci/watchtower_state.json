@@ -33,7 +33,7 @@
       0,
       0,
       0,
-      4,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 51,
+  "seg_cursor": 52,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -117,19 +117,19 @@
       "n": 3
     },
     "debt-20260912-inbox-purge": {
-      "t": 1790309532.92773,
+      "t": 1790308830.9003778,
       "n": 3
     },
     "debt-20260912-tower-verify": {
-      "t": 1790309532.927736,
+      "t": 1790308830.9003832,
       "n": 3
     },
     "debt-20260912-edge-throttle": {
-      "t": 1790309532.9277387,
+      "t": 1790308830.9003894,
       "n": 3
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790309532.9277399,
+      "t": 1790308830.9003906,
       "n": 3
     },
     "debt-20260912-orbit-cap02-lgt": {
