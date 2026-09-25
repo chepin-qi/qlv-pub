@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:58:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DEBT-75-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属任务文件lanetask:ANS-DEBT-75-QLV-01.md映射至覆写位|性态:配置层覆写操作，属工位级任务重定向，未涉及资金面实测数据，状态为已落账待激活|建议处置:覆写位生效即裸候，不主动寻求响应；次次落账确认，维持诚实边界|锚:crosslane:debtcore:SI0(他线锚)",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 829,
+    "total_tokens": 1051,
+    "completion_tokens_details": {
+      "reasoning_tokens": 717
+    }
+  }
+}

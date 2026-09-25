@@ -26,24 +26,24 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      1,
       0,
       0,
       0,
       0,
       0,
-      3,
       0,
       0,
       0,
-      5,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-09-25",
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 12
+    "beacon_comments": 13
   },
-  "qgl_head": "e7fe34268292a5be186c91c5fa5aa7ad919e8cb7",
+  "qgl_head": "a0a2e613ae654e8660aca4defe0af68cb9c6c0b5",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 47,
+  "seg_cursor": 48,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -209,11 +209,6 @@
     "DEMAND-DIRECT-54-QLV-20260911T0705Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-DEBT-75-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
       "note": "lane任务件候机答/转派",
@@ -450,9 +445,14 @@
       "id": "lanetask:ANS-DEBT-72-QLV-01.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-25T00:13:20Z"
+    },
+    {
+      "id": "lanetask:ANS-DEBT-75-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-25T02:58:37Z"
     }
   ],
-  "debt_backlog": 35,
+  "debt_backlog": 42,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [
