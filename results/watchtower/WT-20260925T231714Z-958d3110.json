@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T23:16:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-FIELD-SEAT.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 到件，SI1 专属 lanetask:ANS-FIELD-SEAT.md 覆写位请求裁决 | 性态: 属债自驱引擎配置覆写类事件。单会话文本工位无工具，未实测文件当前态与覆写后效，属“到件待落”，非触发未响应 | 建议处置: 1.细收 ANS-FIELD-SEAT.md 基线哈希；2.校验 SI1 覆写位差异；3.无冲突则落账覆写，有冲突裸候仲裁。不越真机钱面，次次落账 | 锚: qlv:debtledger/seat-conf",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1261,
+    "total_tokens": 1473,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1102
+    }
+  }
+}
