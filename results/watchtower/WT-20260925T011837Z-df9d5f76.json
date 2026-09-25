@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:18:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|自债候debt-20260912-lgt-kscan因观测选择自由度商像(binmap k∈[6,14]卡方扫描)升至第3级|性态:候账态;扫描细收中;升级已触发,真机实测响应未明|建议处置:遵WAKE-PROTO裸候;不主动求应;待细收裁决条件齐后次次落账;严守真机钱面|锚:卡方扫描自由度商像协议(k-约束二项映射层)",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1103,
+    "total_tokens": 1330,
+    "completion_tokens_details": {
+      "reasoning_tokens": 978
+    }
+  }
+}

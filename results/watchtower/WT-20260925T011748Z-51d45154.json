@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:17:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件：债候debt-20260912-exp016-xchk因EXP-016交叉验证回件促发第2级escalate。 | 性态：属候件二次升级，前序回件已完成交叉核验，本体仍处未结态，尚未触发真机钱面。 | 建议处置：将exp016交叉验证结果落账归档至本体卷宗；维持债候监听，若升至第3级则启动真机复核。 | 锚：AUTH-OTP-02\"次次落账\"/WAKE-PROTO裁决-落账节点。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1299,
+    "total_tokens": 1514,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1168
+    }
+  }
+}

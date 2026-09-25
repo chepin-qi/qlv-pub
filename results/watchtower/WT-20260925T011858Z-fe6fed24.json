@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:18:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-keydark-drill(断钥一日生存演练/0926)自债候促件升至第3级|性态:前级催促未触发真机钱面落账，属静默升级；未实测响应，不编响应数|建议处置:依裸候原则停刷屏，维持本级标记待自响应；若超期仍未落账则启下一裁决|锚:关联生存演练复盘线或同日系债务巡检线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 922,
+    "total_tokens": 1139,
+    "completion_tokens_details": {
+      "reasoning_tokens": 814
+    }
+  }
+}

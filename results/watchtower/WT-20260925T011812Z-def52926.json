@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:17:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist自债候经XCHK分布维实测替换骨架后 escalated 至第2级| 性态:裸候态，不主动求应；当前未触发真机钱面，属clock=VOID下的阶梯推进| 建议处置:落账escalate轨迹，保持静默裸候；若触发未响应则进入细收，严禁越钱面操作| 锚:同ref首级候件/debt-20260912-os3d-lvlu-dist-L1",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1077,
+    "total_tokens": 1299,
+    "completion_tokens_details": {
+      "reasoning_tokens": 951
+    }
+  }
+}
