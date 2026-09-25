@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T18:42:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b5f257f7",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 e401ac34→b5f257f7| 性态:常规beat推进，属正常代码库HEAD前移，未触发异常、告警或回退| 建议处置:落账归档，无需干预；如需审计可比对两次提交差异| 锚:qfa.beat/b5f257f7",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 482,
+    "total_tokens": 679,
+    "completion_tokens_details": {
+      "reasoning_tokens": 400
+    }
+  }
+}

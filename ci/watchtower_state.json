@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "e401ac34787c5ac9548294c3cd868b3c478389c8",
+  "qfa_head": "b5f257f74928533e9a967e70c4593a125fa34c98",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0",
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 79
+    "beacon_comments": 80
   },
   "qgl_head": "093b696e3d7a074fd0b8c0682c2dae891a38a1e6",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 91,
+  "seg_cursor": 92,
   "keydark": {
     "fails": 0,
     "dark": false
