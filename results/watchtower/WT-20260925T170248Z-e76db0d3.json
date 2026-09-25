@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:02:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫项超24h自升级,ref:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md| 性态:轻量环形互联提醒系统超时未闭单,触发自动escalate;实因待核,需区分未触发或触发未响应| 建议处置:按lanesweep.escalate流程核查原始扫描日志与落账状态;若裸候无应则VOID落账,需人工则转单且不刷屏| 锚:escalation.matrix.timeout-24h",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1291,
+    "total_tokens": 1518,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1164
+    }
+  }
+}

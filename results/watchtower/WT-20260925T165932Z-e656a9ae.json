@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T16:58:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep侦得HUB-RULING-QLV-KEY-01-20260911T2024Z.md，文件触发已确认，内容未展开。| 性态:属触发未响应；条款效力、哈希一致性均未实测，诚实边界内无臆断。| 建议处置:依WAKE-PROTO推进细收；验签其与现行HUB-RULING一致性后裁决落账，严守不越真机钱面。| 锚:AUTH-OTP-02投必有件/次次落账。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1358,
+    "total_tokens": 1584,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1237
+    }
+  }
+}

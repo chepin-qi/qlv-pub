@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T16:58:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:FRAC-01-QUERY(seq4)lane扫逾24h，系统升己至ref件，当前裸候。| 性态:己线巡检超时件，无外部投件，未涉真机钱面，属长耗或阻塞待定（未实测不编数）。| 建议处置:细收seq1-seq4全链上下文，判别根因；若长耗则更新预期并落账归档，若异常阻塞则人工修复或回退，次次落账。| 锚:锚定FRAC-01母线及当日值班巡检线。",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1066,
+    "total_tokens": 1291,
+    "completion_tokens_details": {
+      "reasoning_tokens": 934
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T16:59:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫获KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md滞留超24h，触发escalate升己| 性态:install receipt于qlv线悬置，本工位无真机接口，未实测不编数，无法区分未触发或触发未响应| 建议处置:收端真机复核receipt完整性，有效则install落账，无效/重复则退件销号；本工位裸候不干预| 锚:AUTH-OTP-02(次次落账/不越真机钱面)†ARCH-lanesweep.rule",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1372,
+    "total_tokens": 1603,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1225
+    }
+  }
+}

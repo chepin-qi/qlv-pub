@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:00:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h自升级，件号NOTICE-KEYRES-99-qlv-20260912T054743Z.md，属lanesweep.escalate类| 性态:单摘触发，未呈实测响应数据，无法区分「未触发/触发未响应」；超24h阈值升单，当前为裸候态| 建议处置:次次落账，不主动外寻回应；复核24h时钟边界，补全他线锚定后归档| 锚:ref:NOTICE-KEYRES-99-qlv-20260912T054743Z.md; 米田:扫 lane>24h 阈值锚定",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1005,
+    "total_tokens": 1228,
+    "completion_tokens_details": {
+      "reasoning_tokens": 853
+    }
+  }
+}

@@ -28,9 +28,9 @@
     "w12": [
       0,
       0,
+      5,
       0,
-      0,
-      0,
+      3,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 69
+    "beacon_comments": 77
   },
   "qgl_head": "093b696e3d7a074fd0b8c0682c2dae891a38a1e6",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 86,
+  "seg_cursor": 87,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -238,7 +238,15 @@
     "EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
     "FLOOR-TAIL-REF-01-usrm.md",
     "FRAC-01-QUERY-qfa-20260920T144316Z.md",
-    "FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md"
+    "FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+    "FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+    "HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+    "IGNITE-BAIT-58-QLV-20260911T1845Z.md",
+    "KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+    "NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+    "NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
+    "NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+    "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md"
   ],
   "debt_queue": [
     {
@@ -588,6 +596,46 @@
     },
     {
       "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:IGNITE-BAIT-58-QLV-20260911T1845Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
       "note": "lane件>24h未理升己",
       "si0_solvable": false
     }

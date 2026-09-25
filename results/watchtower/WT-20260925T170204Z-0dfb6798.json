@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:01:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫得NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md，扫描级命中，文件内容未实测。| 性态:裸候态，处WAKE-PROTO扫描节点，未触发细收亦无响应回包，钱面无涉。| 建议处置:挂待细收队列，裸候不主动拉取；俟实测或下游claim触发后，依裁决→落账闭环处置。| 锚:AUTH-OTP-02§诚实边界/未实测不编数; 米田边律他线锚。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1606,
+    "total_tokens": 1822,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1475
+    }
+  }
+}

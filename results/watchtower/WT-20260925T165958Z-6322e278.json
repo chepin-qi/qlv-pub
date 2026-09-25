@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T16:59:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "IGNITE-BAIT-58-QLV-20260911T1845Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task侦得IGNITE-BAIT-58-QLV件| 性态: 扫线任务件单会话落账，无工具未触发实测，属侦得未响应态，无风险数可编| 建议处置: 按WAKE-PROTO次次落账，归档移交ignite-bait链裸候，不主动寻应，待真机面实测后补数| 锚: ign线扫饵任务锚定/qlv-sweep交互点",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 921,
+    "total_tokens": 1141,
+    "completion_tokens_details": {
+      "reasoning_tokens": 808
+    }
+  }
+}

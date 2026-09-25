@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:02:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:NUDGE2环网互联光口lane扫超24h未闭环，触发自升级(lanesweep.escalate)，源件ref=NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md|性态:超时自升态。基础nudge未落账/未被拾取，系统按WAKE-PROTO扫描-细收-裁决链自动抬级，属被动触发|建议处置:裸候不刷屏。建议网络运维线细收环网光口物理链路状态，区分「未触发vs触发未响应」，按裁决矩阵定级，本件已落账|锚:网络运维线|WAKE-PROTO扫描-裁决链|AUTH-OTP-02诚实边界",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1154,
+    "total_tokens": 1383,
+    "completion_tokens_details": {
+      "reasoning_tokens": 987
+    }
+  }
+}
