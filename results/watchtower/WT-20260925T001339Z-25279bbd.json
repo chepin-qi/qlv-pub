@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T00:13:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DEBT-72-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，SI1专属债自驱覆写位lanetask:ANS-DEBT-72-QLV-01.md已锚定|性态:投件落座，属覆写类债务任务；真机层未实测，不编数，区分「到件」与「真机触发」为两态，现裸候|建议处置:维持覆写位占位，次次落账备查，不主动外寻回应，待真机校验后补录|锚:工单链lanetask:ANS-DEBT-72-QLV-01.md",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1428,
+    "total_tokens": 1650,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1288
+    }
+  }
+}
