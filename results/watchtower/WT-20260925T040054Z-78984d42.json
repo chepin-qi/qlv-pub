@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T04:00:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge自债候152件机读排空，kind=nudge.escalate升至第3级。| 性态:系统自动化队列清理，机读已动作但人工落账/复核状态未明，存在裸候风险。| 建议处置:即刻细收-裁决，逐件核对排空与钱面一致性，补全他线锚定并次次落账，勿以机读代终审。| 锚:qlv巷机读排空SOP第3级响应规范/米田边律-件件有锚。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1178,
+    "total_tokens": 1394,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1045
+    }
+  }
+}

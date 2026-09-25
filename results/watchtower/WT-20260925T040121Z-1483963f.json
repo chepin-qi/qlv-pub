@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T04:00:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:nudge.escalate|debt-20260912-tower-verify(塔FIX-08/09/10效验+runs归正)第3级促件| 性态:债务候件级升触发;技术性归正,未越真机钱面,未实测不编数,属触发未响应| 建议处置:落账第3级裸候,不主动寻求回应,待他线实测回传后裁决| 锚:塔工-runbook-2026-Q3-debt",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1339,
+    "total_tokens": 1559,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1220
+    }
+  }
+}

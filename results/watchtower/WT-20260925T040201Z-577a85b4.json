@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T04:01:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap01-bypass，CAP-01旁路补位候，滞qfa~19h，升至第3级促件 | 性态: 旁路补位类自债候，超滞未决，补位功能悬置，属被动escalation态 | 建议处置: 即刻裁决：若未触发则标记冻结释出资源；若触发未响应则强制路由补位责权，执行落账，终止候滞 | 锚: orbit-cap01-qfa-ledger",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1089,
+    "total_tokens": 1316,
+    "completion_tokens_details": {
+      "reasoning_tokens": 965
+    }
+  }
+}
