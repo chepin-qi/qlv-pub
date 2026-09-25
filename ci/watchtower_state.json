@@ -31,7 +31,7 @@
       0,
       0,
       0,
-      0,
+      8,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 42
+    "beacon_comments": 50
   },
   "qgl_head": "ab6bcbc0826ebe72e76aaf2321bf5043bc413903",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 70,
+  "seg_cursor": 71,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -222,7 +222,15 @@
     "DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
     "DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md",
     "DRIVE-qlv-20260917T003456Z-9275cefa2228.md",
-    "DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md"
+    "DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
+    "DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md",
+    "DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
+    "DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
+    "DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
+    "DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
+    "DRIVE-qlv-20260922T000128Z-494de714756c.md",
+    "DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
+    "DRIVE-qlv-20260922T004234Z-a9985e509f79.md"
   ],
   "debt_queue": [
     {
@@ -502,6 +510,46 @@
     },
     {
       "id": "lanesweep:DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260922T000128Z-494de714756c.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
       "note": "lane件>24h未理升己",
       "si0_solvable": false
     }

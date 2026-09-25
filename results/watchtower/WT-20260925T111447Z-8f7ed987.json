@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:14:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线任务超24h未闭环，系统自动升单至当前队列| 性态:流程性逾期escalation，属已触发未响应状态；无现场实测数据，不臆测根因| 建议处置:①按lanesweep逾期SOP落责到人；②补扫或确认lane状态并回填结果；③闭环后消单| 锚:参照qlv-运维线-RUNBOOK-lanesweep超时处置章节|",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 930,
+    "total_tokens": 1159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 823
+    }
+  }
+}

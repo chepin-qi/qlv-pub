@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:14:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.escalate,ref=DRIVE-qlv-20260922T004234Z-a9985e509f79.md,lane扫逾24h升己| 性态:规则引擎周期触发,内务自治,未涉真机钱面;响应未实测,不编数| 建议处置:裸候,不主动求应,待自洽或复核落账| 锚:可检DRIVE-qlv邻线同期lanesweep升己样本作他线比对",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1307,
+    "total_tokens": 1534,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1191
+    }
+  }
+}

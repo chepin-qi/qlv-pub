@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:13:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T000128Z-494de714756c.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.escalate,ref=DRIVE-qlv-20260922T000128Z-494de714756c.md;摘要:[lane扫]逾24h自升级| 性态:规则内超时escalate,属触发后机制自驱,非异常入侵;未实测进程资源占用故不编数| 建议处置:依WAKE-PROTO直裁决→落账,已越裸候阈,次次落账,不候应| 锚:cross=DRIVE主线/TIMEOUT-AUTO,rel=运维线/24h-lane-rule",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1192,
+    "total_tokens": 1417,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1058
+    }
+  }
+}

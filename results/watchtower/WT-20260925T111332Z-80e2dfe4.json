@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:13:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务超24h未闭环，触发升己(ref:DRIVE-qlv-20260921T000203Z-fa022ac62327.md)| 性态:扫描态挂起逾时阈，lanesweep.escalate条件满足；给定摘要未披露阻塞根因，属「触发未响应」或「待细收」态，不臆测| 建议处置:按WAKE-PROTO细收→裁决→落账：①拉取该md原始扫描日志复核；②若裸候则移交下一工位或人工介入；③件件落账，不主动求回应即保持裸候记录| 锚:DRIVE-qlv单件时标命名法(ISO-8601)作为跨线追踪锚",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1021,
+    "total_tokens": 1246,
+    "completion_tokens_details": {
+      "reasoning_tokens": 851
+    }
+  }
+}

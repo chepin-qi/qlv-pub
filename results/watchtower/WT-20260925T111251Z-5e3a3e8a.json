@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:12:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md滞留超24h触发escalate升己|性态:时效阈值突破致自动升级；本工位无真机接入，无法区分原lane未触发或触发未响应，属待决件|建议处置:按lanesweep.escalate规复扫ref确认件态，补扫或执行落账，裸候不主动外寻|锚:DRIVE线时效锚",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1949,
+    "total_tokens": 2180,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1831
+    }
+  }
+}

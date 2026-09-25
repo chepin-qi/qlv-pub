@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:13:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线报DRIVE-qlv文件超24h自升级(ref:20260922T000008Z)，摘要仅元数据，无实测载荷。| 性态:属裸候挂起或触发未响应；诚实边界内无法区分未触发/已触发，记为悬账。| 建议处置:按次次落账原则，即刻回溯该ref原始扫线日志，补扫±1s切片验证；悬账超阈则强制落账关闭。| 锚:DRIVE-qlv-20260922T000007Z(相邻秒线)作他线锚，交叉校验。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1202,
+    "total_tokens": 1429,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1063
+    }
+  }
+}

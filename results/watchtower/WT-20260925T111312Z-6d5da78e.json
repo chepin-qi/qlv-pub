@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:12:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep escalate(ref:DRIVE-qlv-20260921T000028Z-97eec25195bd.md)，lane扫任务超24h未落账触发己线升级| 性态:超时挂起，属lanesweep单未收敛；未触发实测扫描响应，仅据摘要判读| 建议处置:按lanesweep SOP执行二次扫线或手工对账，根因确认后落账| 锚:跨线锚lanesweep ops超时处置手册，详见同ref本体",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 951,
+    "total_tokens": 1176,
+    "completion_tokens_details": {
+      "reasoning_tokens": 834
+    }
+  }
+}
