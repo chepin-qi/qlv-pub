@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:06:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-lgt-kscan 因 binmap k∈[6,14] 卡方扫描自由度商像触发第3级促升(escalate)| 性态: 观测选择下的过程性异常收敛，属候态迁移，终裁硬阈值未触发，无实测终值可编，诚实边界内仅标记升级| 建议处置: 裸候维持，不主动寻求回应，待细收闭环或硬阈值触发后裁决落账，不越真机钱面| 锚: 锚定 hessian 曲率备线 / vol-surface 他线以合米田边律",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1037,
+    "total_tokens": 1264,
+    "completion_tokens_details": {
+      "reasoning_tokens": 889
+    }
+  }
+}

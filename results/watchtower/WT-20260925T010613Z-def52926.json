@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:05:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist分布维实测替换骨架(XCHK)促件升至第2级| 性态:nudge.escalate渐进候件，骨架替换已完成，升级动作到件；响应侧未给实测数，遵诚实边界不编触发态，裸候| 建议处置:持续XCHK分布维监控，不主动寻求回应，次次落账，候实质响应或下一级激活| 锚:ref=xchk-replace-os3d-lvlu-base",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1158,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1037
+    }
+  }
+}

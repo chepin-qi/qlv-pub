@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:05:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": false
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk(EXP-016交叉验证回件)由债候触发第2级促件升级| 性态:流程内nudge.escalate，属前序级次未消解或超时后的自动收紧，当前处于回件待裁决态，未实测其触发响应结果| 建议处置:执行细收→裁决→落账，核查本ref属「未触发」抑或「触发未响应」；按AUTH-OTP-02次次落账，不裸候；债务有效则继续收束，无效则核销| 锚:暂缺他线锚，需补≥1条旁证或交叉线记录以合米田边律。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 991,
+    "total_tokens": 1206,
+    "completion_tokens_details": {
+      "reasoning_tokens": 830
+    }
+  }
+}

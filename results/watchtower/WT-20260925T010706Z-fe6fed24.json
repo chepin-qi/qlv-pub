@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T01:06:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件 escalated 第3级(debt-20260912-keydark-drill,断钥一日生存演练0926)|性态:自债候内部施压，未触发真机钱面，本工位无实测数|建议处置:裸候，不主动寻求回应，维持演练台账|锚:ref已落账，他线锚应急演练ledger-drill-0926",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 869,
+    "total_tokens": 1086,
+    "completion_tokens_details": {
+      "reasoning_tokens": 777
+    }
+  }
+}
