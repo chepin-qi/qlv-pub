@@ -29,19 +29,19 @@
       0,
       0,
       0,
-      4,
-      0,
-      0,
-      4,
       0,
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      1,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 89
+    "beacon_comments": 90
   },
-  "qgl_head": "360630e5729346d0e566112ca29ce552af5de8fd",
+  "qgl_head": "8bb7ea41ae593b04c7c8be281afee0201f6bfca1",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 95,
+  "seg_cursor": 96,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -257,11 +257,6 @@
     "OTP-LGT-EXCITE-V2-qlv-lgt.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-FIELD-SEAT.md",
       "note": "lane任务件候机答/转派",
@@ -738,9 +733,14 @@
       "id": "lanetask:ANS-EVAL-WAVE-01.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-25T17:39:12Z"
+    },
+    {
+      "id": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-09-25T20:13:55Z"
     }
   ],
-  "debt_backlog": 77,
+  "debt_backlog": 84,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [

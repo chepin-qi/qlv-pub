@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:13:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat-SI1专属覆写位，ref指向lanesweep实验校验文件ANS-EXP016-XCHK-lvlu-20260912T153227Z.md，摘要标记覆写位|性态:债自驱流程自动化覆写锚定，属配置/状态位更新，当前未触发异常告警，区分于主动攻击或误覆写|建议处置:按WAKE-PROTO完成落账，校验该文件哈希/版本一致性，确认自驱预期后归档，裸候不刷屏|锚:lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1178,
+    "total_tokens": 1410,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1034
+    }
+  }
+}
