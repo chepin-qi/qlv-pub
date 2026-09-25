@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:38:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得需求件DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md，当前纯扫件态，未触发操作流，无实测响应数据。| 性态:孤件/待扫/未触发。| 建议处置:按DEMAND-DIRECT协议入待扫队列，裸候R2线回执，不主动外呼，次次落账。| 锚:DEMAND-DIRECT-54主链/REQ-R2-2026批次线。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1000,
+    "total_tokens": 1224,
+    "completion_tokens_details": {
+      "reasoning_tokens": 878
+    }
+  }
+}

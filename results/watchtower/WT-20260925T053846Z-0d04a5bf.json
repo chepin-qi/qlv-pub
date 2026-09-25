@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:38:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-DRILL-0919-SELF-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ref=DEMAND-DRILL-0919-SELF-QLV-01.md，件类自检演练需求。| 性态:仅扫描摘要，未触发细收与实测；单件孤扫，无并发，无越真机钱面。| 建议处置:按WAKE-PROTO落账为待细收；遵AUTH-OTP-02裸候，不主动外呼，置VOID钟，俟他线触发后裁决。| 锚:ANCHOR-DRILL-0919|CROSS-LANE-DEMAND-BASE",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 964,
+    "total_tokens": 1180,
+    "completion_tokens_details": {
+      "reasoning_tokens": 832
+    }
+  }
+}

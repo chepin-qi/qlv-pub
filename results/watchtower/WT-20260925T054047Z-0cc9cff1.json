@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:40:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-SI70-QLV-20260914T134936Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:DEMAND-SI70于lane扫阶段滞留逾24h触发escalate升己，ref已落账为DEMAND-SI70-QLV-20260914T134936Z.md。| 性态:lanesweep类超时未结件，属扫描→细收→裁决后自然落账，无异常响应缺失。| 建议处置:按lanesweep.escalate协议完成升己归档，md已落账，裸候下环节拉取，不主动寻求回应。| 锚:米田边律他线锚→DEMAND-SI70-QLV-20260914T134936Z.md本体。",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1625,
+    "total_tokens": 1846,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1478
+    }
+  }
+}

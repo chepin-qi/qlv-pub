@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:39:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-OCTA-67-QLV-20260913T050141Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫档(ref:DEMAND-OCTA-67-QLV-20260913T050141Z.md)逾24h未决，触发升己(escalate)，现件到单会话工位。| 性态:属WAKE-PROTO扫描-细收断点，己线滞留；未触发真机钱面动作，无实测响应数据，当前裸候。| 建议处置:①复核ref实质，甄别未触发/触发未响应；②确挂起则按AUTH-OTP-02补录状态、次次落账；③误扫即标记销件，超限转human-in-loop。| 锚:cross-ref→DEMAND-OCTA-67主需求线/关联他线锚定。",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1143,
+    "total_tokens": 1368,
+    "completion_tokens_details": {
+      "reasoning_tokens": 974
+    }
+  }
+}

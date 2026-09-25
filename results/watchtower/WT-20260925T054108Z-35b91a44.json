@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:40:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-WAVE-68-QLV-20260913T084219Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫描超24h自升级，ref DEMAND-WAVE-68-QLV-20260913T084219Z.md已落escalate件| 性态:扫→细收→裁决链路中lane侧超时未闭环，系统强制升己；无真机钱面操作，未实测不编数| 建议处置:次次落账已完，裸候不刷屏；复核ref文件锚点完整性，如需人审另件投送，否则静默监控| 锚:AUTH-OTP-02/WAKE-PROTO扫阶段",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1123,
+    "total_tokens": 1346,
+    "completion_tokens_details": {
+      "reasoning_tokens": 994
+    }
+  }
+}

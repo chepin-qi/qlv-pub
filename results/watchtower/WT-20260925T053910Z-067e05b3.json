@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:38:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-KEY69-QLV-20260914T121843Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h自升己，ref=DEMAND-KEY69-QLV-20260914T121843Z.md| 性态:无人驿VOID时钟下周期越界，escalate为机内常规流转，未产生外部触发，属“未触发”态| 建议处置:依WAKE-PROTO裁决落账，裸候不寻应，需人工则挂起| 锚:cross-lane锚DEMAND-KEY69至主分拣基线，备扫",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1210,
+    "total_tokens": 1431,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1092
+    }
+  }
+}

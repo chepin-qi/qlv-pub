@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:39:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-OTP64-QLV-20260911T2024Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得 DEMAND-OTP64-QLV-20260911T2024Z.md，仅获摘要，正文未触达。| 性态:件到未触发，无实测字段可细收，非「触发未响应」。| 建议处置:按 AUTH-OTP-02 裸候规，不主动求应，待该件内容自展开或下工序请求后再行细收与落账。| 锚:WAKE-PROTO§扫描态/他线锚:SYNC-MAIN-20260911T2024Z 主仓同步戳。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1637,
+    "total_tokens": 1855,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1504
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:39:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-KEYFP-ESC-qlv-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[lane扫]侦得静态任务件 DEMAND-KEYFP-ESC-qlv-01.md，实测仅到件，未触发执行流，无响应回显。| 性态:扫描态落账前置件，属单会话文本工位可收范围，未越真机钱面。| 建议处置:按 WAKE-PROTO 推进细收与裁决；因无执行指令，裸候不主动外呼，待明确 ESC/KEYFP 实测后再落账。| 锚: DOC-ANCHOR/qlv-demand-01 静态件待拆。",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1072,
+    "total_tokens": 1282,
+    "completion_tokens_details": {
+      "reasoning_tokens": 939
+    }
+  }
+}
