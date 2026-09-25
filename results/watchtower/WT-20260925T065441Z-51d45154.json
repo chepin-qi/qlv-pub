@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T06:54:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务交叉验证回件 debt-20260912-exp016-xchk 触发第3级促件升级。| 性态:前序两级促办未闭环，EXP-016交叉验证回件仍处于未决态，触达 escalade 阈值。属裸候超期后的系统被动升级，无新增实体内容。| 建议处置:按 AUTH-OTP-02「次次落账」要求，将本次升级动作本身落账归档并锁定位次；维持裸候，不主动追加追问，待实机回传后裁决。| 锚:原始债候线程 debt-20260912-exp016-xchk。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1200,
+    "total_tokens": 1415,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1057
+    }
+  }
+}

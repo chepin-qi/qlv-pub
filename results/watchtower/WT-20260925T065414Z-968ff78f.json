@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T06:53:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-tower-seg9-verify因塔⑨段五件效验(runs直读)自债候状态促级至第3级。| 性态:流程内nudge.escalate，前两级未决；runs直读已启动，具体五件效验值未实测不编。当前为裸候待响应态，已触发但未获终局响应，不涉越真机钱面。| 建议处置:执行WAKE-PROTO落账：扫描seg9直读回执→细收效验状态→裁决人工介入或续裸候→次次落账。依AUTH-OTP-02，本次投件已落账，不主动寻求回应即维持裸候。| 锚:debt-20260912-tower-seg9-verify|runs直读|seg9-L3",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1454,
+    "total_tokens": 1678,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1261
+    }
+  }
+}

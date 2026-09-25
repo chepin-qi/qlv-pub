@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T06:53:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-03自发环巡归(debt-20260912-orbit-cap03-ring)促件升至第3级| 性态:自体债务候压累积，属无外部触发的内环nudge escalate；clock=VOID，未实测故不编期数| 建议处置:次次落账，转裸候态，停止主动外拓，维持环巡监视至响应或自然到期| 锚:交叉锚定至void-ledger/orbit-null节点留痕备调",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1008,
+    "total_tokens": 1225,
+    "completion_tokens_details": {
+      "reasoning_tokens": 893
+    }
+  }
+}
