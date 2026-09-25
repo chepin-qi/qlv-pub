@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T09:47:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-lgt-kscan自债候第4级escalate，观测选择自由度商像binmap k∈[6,14]卡方扫描候偿| 性态:裸候；前序三级未落账，属未触发实机响应之自债悬置| 建议处置:严守诚实边界，无实测不编数；维持裸候，不越真机钱面，待他线触发后依WAKE-PROTO细收裁决次次落账| 锚:lgt-kscan/void-debt@OTP-02",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1421,
+    "total_tokens": 1648,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1288
+    }
+  }
+}

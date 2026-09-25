@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T09:47:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-os3d-lvlu-dist 自债候促件，分布维实测替换骨架(XCHK)差异未销，升至第3级| 性态: 自动escalating，候件悬停，骨架-实测差异待裁决| 建议处置: 按WAKE-PROTO落账，三级冻结算或转人工复核，裸候止| 锚: 同规debt骨架替换差异件三级强制落账惯例",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1083,
+    "total_tokens": 1305,
+    "completion_tokens_details": {
+      "reasoning_tokens": 974
+    }
+  }
+}

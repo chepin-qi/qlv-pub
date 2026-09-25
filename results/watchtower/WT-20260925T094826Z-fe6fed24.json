@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T09:47:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候debt-20260912-keydark-drill(断钥一日生存演练0926)升至第4级促件| 性态:演练类自债候发生催级跃迁，属密钥断离场景生存压力测试，当前escalate至第4级，未触发真实生产钱面越界| 建议处置:核验演练/生产域隔离态；冻结衍生非必要关联操作；依债务分级规程完成本次升级落账，裸候责任方确权或演练终止/降级指令| 锚:debt分级响应协议/密钥演练SOP/生产隔离审计线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1443,
+    "total_tokens": 1660,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1305
+    }
+  }
+}
