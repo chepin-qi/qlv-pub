@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T06:01:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属覆写件，ref=lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md，摘要标识[债自驱]→覆写位，属系统任务级配置覆写，未涉真机钱面。| 性态:单会话文本工位已扫描，件体完整，属授权内操作指令，无异常触发未响应记录，按正常落账件论。| 建议处置:执行覆写位确认并落账，维持裸候，不主动回呼，次次落账。| 锚:cross-ref:qlv.conf/seat-overlay-rules@debtengine:SI1",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1114,
+    "total_tokens": 1338,
+    "completion_tokens_details": {
+      "reasoning_tokens": 963
+    }
+  }
+}
