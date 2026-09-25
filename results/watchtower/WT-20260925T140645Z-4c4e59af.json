@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:06:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=DRIVE-qlv-20260925T000402Z-4b060513bdf4.md，扫描任务侦获。| 性态:常规巡检件，无异常告警，属静默类。| 建议处置:按WAKE-PROTO细收裁决，本件已扫未触发，直接落账归档，裸候。| 锚:DRIVE-qlv文件命名规约/lanesweep任务链。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1077,
+    "total_tokens": 1301,
+    "completion_tokens_details": {
+      "reasoning_tokens": 973
+    }
+  }
+}

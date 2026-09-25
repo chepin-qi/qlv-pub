@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:07:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:FRAC-01-QUERY seq3 lane扫超24h未闭环，触发升己。| 性态:时效escalation机制自触发，属内部流程警戒，无外部异常。| 建议处置:按FRAC-01预案复核seq3内容，确认待办状态；裸候，不主动求应。| 锚:FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 776,
+    "total_tokens": 1001,
+    "completion_tokens_details": {
+      "reasoning_tokens": 676
+    }
+  }
+}

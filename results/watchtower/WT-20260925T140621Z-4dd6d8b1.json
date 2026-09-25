@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:05:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane扫单DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md超24h升己| 性态: 升己已触发，本工位未实测（无工具/无他线回执）；摘要仅示超时标记，钱面未越真机| 建议处置: 裸候，不主动求应；待drive线或运维线补实测后落账| 锚: lanesweep.escalate/DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md←drive线锚",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1825,
+    "total_tokens": 2052,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1689
+    }
+  }
+}

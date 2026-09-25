@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:06:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep任务逾24h升己到件, ref文件(EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md)未到件, 未实测其verdict状态 | 性态: 时效异常/裸候; 触发已升级, 因缺ref无法裁决内部数据, 不编数 | 建议处置: 挂起待料, 同步ref原文后解析完整性, 再裁定归档或返扫, 并标记TTL逾限 | 锚: WAKE-PROTO/升己>24h节点, AUTH-OTP-02/诚实边界",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1332,
+    "total_tokens": 1565,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1188
+    }
+  }
+}

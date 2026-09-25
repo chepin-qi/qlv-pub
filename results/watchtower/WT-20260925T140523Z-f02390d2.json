@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:04:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫盘件超24h自升级(ref=DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md)| 性态:仅见引用标识与空摘要，未实测文件内容，属触发未响应的自动升单；疑似周期扫盘锁或空件漂移| 建议处置:遵AUTH-OTP-02次次落账，裸候不主动外呼；如无实质payload补入，本件归档闭单；需解析则分拨DRIVE线下工位| 锚:ANCHOR/sweep-ttl→DRIVE.md#24h-rule",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1314,
+    "total_tokens": 1545,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1172
+    }
+  }
+}

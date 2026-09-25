@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:07:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "FRAC-01-QUERY-qfa-20260920T144316Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h自升,ref=FRAC-01-QUERY-qfa-20260920T144316Z.md| 性态:lanesweep逾24h未决,触发escalate,原lane状态悬置,属超期未落账款| 建议处置:依WAKE-PROTO扫描→细收→裁决→落账;核查FRAC-01链路阻塞根因,次次落账;裸候态不主动唤应,待件自归| 锚:lanesweep超时escalation/FRAC-01查询链路/24h SLA红线",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 947,
+    "total_tokens": 1168,
+    "completion_tokens_details": {
+      "reasoning_tokens": 812
+    }
+  }
+}

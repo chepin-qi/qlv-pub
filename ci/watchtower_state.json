@@ -30,18 +30,18 @@
       0,
       0,
       0,
+      6,
       0,
       0,
       0,
       0,
       0,
       0,
-      0,
-      0
+      2
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 55
+    "beacon_comments": 63
   },
   "qgl_head": "cecafe5503023bd1585aceee01d2955c0d14cdea",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 78,
+  "seg_cursor": 79,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -230,7 +230,15 @@
     "DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
     "DRIVE-qlv-20260922T000128Z-494de714756c.md",
     "DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
-    "DRIVE-qlv-20260922T004234Z-a9985e509f79.md"
+    "DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
+    "DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
+    "DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
+    "DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
+    "DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+    "EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+    "FLOOR-TAIL-REF-01-usrm.md",
+    "FRAC-01-QUERY-qfa-20260920T144316Z.md",
+    "FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md"
   ],
   "debt_queue": [
     {
@@ -545,6 +553,46 @@
     },
     {
       "id": "lanesweep:DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:FLOOR-TAIL-REF-01-usrm.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:FRAC-01-QUERY-qfa-20260920T144316Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
       "note": "lane件>24h未理升己",
       "si0_solvable": false
     }

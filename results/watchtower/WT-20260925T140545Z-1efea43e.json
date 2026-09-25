@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:05:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep超24h自升级(ref:DRIVE-qlv-20260923T004218Z-bf44115c7f98.md)| 性态:lane扫任务逾24h未闭合，触发escalate升己；未实测具体阻塞点，属触发未响应态，非假触发| 建议处置:已落账，按qlv运维SOP挂裸候；不主动追呼，待下游回传或下次lane扫心跳；若续超48h则二次升单| 锚:lanesweep.SOP/qlv-ops-runbook",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1209,
+    "total_tokens": 1438,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1076
+    }
+  }
+}

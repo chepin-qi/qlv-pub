@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:07:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FLOOR-TAIL-REF-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得FLOOR-TAIL-REF-01-usrm.md| 性态:扫描到件，未触发内容解析，无实测响应数据，属裸候态| 建议处置:按WAKE-PROTO执行细收→裁决，解析usrm后落账，不主动求应| 锚:ref=FLOOR-TAIL-REF-01-usrm.md; AUTH-OTP-02投必有件",
+  "usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 829,
+    "total_tokens": 1036,
+    "completion_tokens_details": {
+      "reasoning_tokens": 727
+    }
+  }
+}
