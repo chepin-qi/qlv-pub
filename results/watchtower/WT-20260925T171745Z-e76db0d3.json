@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:17:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:NUDGE-RING-INTERCONN-LGT-01因lane扫超24h阈值自动escalate，系统ref已生成，未涉及人工实测响应。| 性态:流程性升级触发；属lanesweep命中>24h规则，非异常入侵。原件状态为「系统触发-待裁决」，未确认属未触发抑或触发未响应，依诚实边界不臆测。| 建议处置:保持裸候，不主动外呼；归入lanesweep待清队列，待下次扫描周期复检或人工拉取时裁决。| 锚:lanesweep.escalate>SOP-24h/LGT-interconn维护协议。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1114,
+    "total_tokens": 1341,
+    "completion_tokens_details": {
+      "reasoning_tokens": 968
+    }
+  }
+}

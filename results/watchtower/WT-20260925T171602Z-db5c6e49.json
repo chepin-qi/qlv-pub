@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:15:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线超24h触发自升级，件KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md未在窗口期内闭卷，系统按escalate策略升己| 性态:自动规则触发，属超时未落账导致的通道收敛，未涉真机钱面操作，为流程性升级| 建议处置:1.核对该安装收据的原始安装状态与签名链；2.按lanesweep降级规程归档或转人工复核；3.本次已落账，裸候下一节拍| 锚:REF-QLV-lvlu-20260915T044038Z|lanesweep.ttl>24h",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 916,
+    "total_tokens": 1147,
+    "completion_tokens_details": {
+      "reasoning_tokens": 758
+    }
+  }
+}

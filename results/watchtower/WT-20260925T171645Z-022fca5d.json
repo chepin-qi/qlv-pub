@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:16:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线逾24h自升级，ref NOTICE-KEYRES-99-qlv-20260912T054743Z.md| 性态:长时运行/疑似阻塞，触发lanesweep.escalate，未实测不编具体阻塞点| 建议处置:遵WAKE-PROTO裁决落账：调ref日志区分「未触发vs触发未响应」；若死锁则落账异常件归档，若仍推进则裸候改窗不刷屏| 锚:sys-esc/24h-timeout-rule",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1504,
+    "total_tokens": 1727,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1380
+    }
+  }
+}

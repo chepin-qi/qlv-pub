@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:13:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫获FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md超24h触发escalate，clock=VOID致绝对时效不可考，然相对阈值已破，属时间到件自升级。| 性态:扫描命中→细收待决，文件seq4未落账，触发非误报，须区分「阈值已触发」与「响应滞后」。| 建议处置:①核验seq4终态；②若完结则执行落账归档，若未完结则裸候不主动求应；③次次落账，不越真机钱面。| 锚:qfa-seq4线|lanesweep-24h阈|VOID-clock",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1533,
+    "total_tokens": 1758,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1372
+    }
+  }
+}

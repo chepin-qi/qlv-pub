@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:17:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[lane扫]NUDGE2-RING-INTERCONN-LGT-01扫阈逾24h自升| 性态:lanesweep escalate，阈期到件自然升档，无实测障面，未触发与触发未响应待细收区分| 建议处置:收齐ref全件核查根因；属周期正常逾界则落账归档，若扫响中断或异常未回则转人工线| 锚:ref=NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1178,
+    "total_tokens": 1407,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1051
+    }
+  }
+}

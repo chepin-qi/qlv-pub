@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:14:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ref件HUB-RULING-QLV-KEY-01-20260911T2024Z.md，仅头标触达，内容未解析。| 性态:触发未响应；空壳扫描件，无实测数，未落账。| 建议处置:裸候不追问；挂起待内容投件或二次细收，若周期内无补件则零内容归档。| 锚:HUB-RULING-ALL/枢纽裁决栈跨线锚定，QLV-KEY序列受HUB主键约束。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1531,
+    "total_tokens": 1757,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1400
+    }
+  }
+}

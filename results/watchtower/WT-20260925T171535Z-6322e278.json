@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:15:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "IGNITE-BAIT-58-QLV-20260911T1845Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得 IGNITE-BAIT-58-QLV-20260911T1845Z.md | 性态:件已侦得，内容未细收、未触发解析，属「侦得未触」态 | 建议处置:续行细收，确认 bait 属性后裁决落账；依 AUTH-OTP-02 裸候，不越界外呼 | 锚:QLV-IGNITE-OPS 他线待同步",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1184,
+    "total_tokens": 1404,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1076
+    }
+  }
+}

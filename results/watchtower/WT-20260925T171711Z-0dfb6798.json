@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:16:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task命中ref=NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md，系nudge索赔扫描件|性态:文件级侦得，未触发实质解析/未实测内文payload，属静态落账|建议处置:已次次落账，按AUTH-OTP-02裸候，不主动寻求回应；待claims实质payload到件再裁决|锚:qtlv-nudge母线/lanesweep源线",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 892,
+    "total_tokens": 1108,
+    "completion_tokens_details": {
+      "reasoning_tokens": 783
+    }
+  }
+}
