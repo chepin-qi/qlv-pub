@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T18:20:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-os3d-lvlu-dist 促件 escalated L4 | 性态: 分布维实测替换骨架(XCHK)升至第4级，属结构债务候高优催促。clock=VOID，未触发实测基线与触发未响应无法区分，裸候风险显著。 | 建议处置: 即刻挂起该候非关键并发，转有权限工位执行XCHK骨架落账验证；未实测不编数，待回执后裁决。 | 锚: XCHK骨架替换验收线/ debt-L4熔断规范",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1046,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "reasoning_tokens": 915
+    }
+  }
+}
