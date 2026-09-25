@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:34:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk 第4级促件(EXP-016交叉验证回件)| 性态:流程性nudge.escalate，本工位无工具无实测数，未触发可落账响应，属裸候| 建议处置:恪守AUTH-OTP-02不刷屏、不越真机钱面，次次落账；记第4级候件状态，待下游交叉验证回件自动核销| 锚:EXP-016交叉验证协议/债务候件裸候落账规程",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1191,
+    "total_tokens": 1406,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1064
+    }
+  }
+}

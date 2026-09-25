@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:33:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-03自发环巡归债务候件(debt-20260912-orbit-cap03-ring)促升L4|性态:nudge.escalate，升级已触发，外部实响未测，裸候中，未越真机钱面|建议处置:维持裸候，不主动求应，待实测响后依WAKE-PROTO落账；若静默续则按环巡归节律候下一tick|锚:cross-ref debt-20260912-orbit-cap02-ring/L3基线（米田边律）",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1489,
+    "total_tokens": 1706,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1362
+    }
+  }
+}

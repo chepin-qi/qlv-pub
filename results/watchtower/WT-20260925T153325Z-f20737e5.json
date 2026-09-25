@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:33:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-orbit-cap02-lgt因CAP-02下下站旁路权行使，触发第4级促件升级| 性态:旁路权已行使而债未结，现处escalate裸候态；clock=VOID，属未触发终裁而非触发未响应| 建议处置:维持L4监控，不越真机钱面，不主动求应，裸候落账| 锚:旁路权→qlv-routing-debt-protocol-void",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1005,
+    "total_tokens": 1227,
+    "completion_tokens_details": {
+      "reasoning_tokens": 882
+    }
+  }
+}

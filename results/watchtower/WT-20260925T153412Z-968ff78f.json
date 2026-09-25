@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:33:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:塔⑨段五件效验(runs直读)促至第4级，ref debt-20260912-tower-seg9-verify | 性态:nudge.escalate促件，债务候验队列升级，已触第四级阈值 | 建议处置:执行裸候，不主动寻求回应，待runs直读闭环后次次落账；严守诚实边界，未实测不编数 | 锚:本线ref自锚，他线锚暂缺待挂",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1414,
+    "total_tokens": 1638,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1300
+    }
+  }
+}
