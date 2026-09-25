@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T23:05:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-FIELD-SEAT.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位触发，SI1专属任务lanetask:ANS-FIELD-SEAT.md发生配置覆写，属债自驱引擎席位定义变更| 性态:配置级覆写事件，未涉及真机钱面交易，为内部席位定义层异动；需校验覆写源签权与SI1专属域边界| 建议处置:①校验覆写请求OTP签权 ②核对ANS-FIELD-SEAT.md基线差异 ③确认覆写后席位自驱链完整性 ④落账归档并标记SI1域版本戳| 锚:AUTH-OTP-02\"投必有件/次次落账\"原则，确保席位覆写有件可溯；WAKE-PROTO落账环节闭环",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1167,
+    "total_tokens": 1379,
+    "completion_tokens_details": {
+      "reasoning_tokens": 995
+    }
+  }
+}

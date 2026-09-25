@@ -29,10 +29,10 @@
       0,
       0,
       0,
-      6,
       0,
-      2,
       0,
+      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 99
+    "beacon_comments": 100
   },
-  "qgl_head": "3cfd3276a0d674ebbc6d8471c1263d49b06f6dec",
+  "qgl_head": "959a9547a9ae6e1e155c215b3642f52a0ce09f14",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 103,
+  "seg_cursor": 104,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -265,11 +265,6 @@
     "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-FIELD-SEAT.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
       "note": "lane任务件候机答/转派",
@@ -786,9 +781,14 @@
       "id": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-09-25T20:13:55Z"
+    },
+    {
+      "id": "lanetask:ANS-FIELD-SEAT.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-25T23:05:39Z"
     }
   ],
-  "debt_backlog": 84,
+  "debt_backlog": 91,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [
