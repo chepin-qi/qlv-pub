@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T18:31:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist自债候XCHK分布维骨架替换实测升至第4级促件| 性态:escalate触发，骨架交叉验证候办，实测替换偏差待裁决，未完结| 建议处置:循WAKE-PROTO扫描→细收→裁决→落账；核验XCHK替换一致性，诚实落账，裸候不主动求回应| 锚:同期骨架基准件debt-20260912-os3d-lvlu-base为分布维参照锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1291,
+    "total_tokens": 1513,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1167
+    }
+  }
+}
