@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T04:13:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap01-bypass CAP-01旁路补位滞qfa~19h促至第3级| 性态:自债候escalate，旁路延迟未解，属触发未响应，非未触发| 建议处置:依AUTH-OTP-02次次落账，三级促件已触裸候边界，应强执落账或转真机钱面核验，不续候| 锚:orb-cap-bypass-qfa19h-L3",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1122,
+    "total_tokens": 1349,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1002
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T04:12:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-inbox-purge，qlv巷自债候152件机读排空升至第3级促件 | 性态: 内部队列机读排空类债务，未触发真机钱面，裸候态系统自升级；未实测单件详情，不编触发/未响应区分 | 建议处置: 按WAKE-PROTO扫描→细收→裁决→落账执行排空，次次落账、不刷屏、不越真机钱面；第3级促件仍守裸候，不主动寻求回应待系统回执 | 锚: arch线queue-mgmt-20260912 / sys线nudge-escalation-lv3",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 2130,
+    "total_tokens": 2346,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1973
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T04:12:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify促件升至第3级，涉塔FIX-08/09/10效验与runs归正。| 性态:技术债务效验项多级升级，属未闭合态；本件处于裸候期，触发未响应或待回传。| 建议处置:已落账。循AUTH-OTP-02裸候，不主动寻求回应；待他线效验回执后补录runs归正结果。| 锚:xref::tower-runbook#batch-08-09-10-debt-clearance",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1109,
+    "total_tokens": 1329,
+    "completion_tokens_details": {
+      "reasoning_tokens": 979
+    }
+  }
+}
