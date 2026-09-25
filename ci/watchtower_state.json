@@ -30,18 +30,18 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 8,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -593,7 +593,7 @@
     {
       "id": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-09-25T11:38:24Z"
+      "ts": "2026-09-25T11:49:01Z"
     }
   ],
   "debt_backlog": 63,

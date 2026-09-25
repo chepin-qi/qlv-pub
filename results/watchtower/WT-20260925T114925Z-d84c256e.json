@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:49:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位，SI1专属文件lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md到件，属债自驱席位变更。| 性态:未实测覆写内容与执行结果，不编数；当前为信号收悉态，无法确认覆写已落盘或仅请求挂起。| 建议处置:裸候不主动寻应，不落真机钱面；待持票方补回执或差异哈希后核账。| 锚:WAKE-PROTO收/debtengine.seat队列， lanesweep:覆写位待实测回填。",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1425,
+    "total_tokens": 1661,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1278
+    }
+  }
+}
