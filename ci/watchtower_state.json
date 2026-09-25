@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
+      0,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": null,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-09-25",
@@ -60,7 +60,7 @@
     "date": "2026-09-25",
     "beacon_comments": 100
   },
-  "qgl_head": "3cfd3276a0d674ebbc6d8471c1263d49b06f6dec",
+  "qgl_head": "959a9547a9ae6e1e155c215b3642f52a0ce09f14",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 104,
+  "seg_cursor": 105,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -785,7 +785,7 @@
     {
       "id": "lanetask:ANS-FIELD-SEAT.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-25T23:16:53Z"
+      "ts": "2026-09-25T23:05:39Z"
     }
   ],
   "debt_backlog": 91,
