@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:17:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv-inbox文件qtlv-spectra-x11-qsca7fce6884.md触发lane.drop，摘要报巷卡chepin-ai/vci-inbox计数222→223，件已落至下游| 性态:转存型落件，计数递增佐证物理收录，qlv本线未回处置结果，属“已落未结”| 建议处置:①向vci-inbox核223号位文件完整性；②qlv侧补录drop落账；③若下游无回执则挂起待扫| 锚:chepin-ai/vci-inbox#223/ref原档",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1353,
+    "total_tokens": 1583,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1210
+    }
+  }
+}
