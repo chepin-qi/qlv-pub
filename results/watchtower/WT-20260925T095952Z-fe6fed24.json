@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T09:59:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候 debt-20260912-keydark-drill(断钥一日生存演练0926)升至第4级促件。| 性态:计划演练类负债项，呈nudge.escalate态。本席clock=VOID且无真机钱面，未实测筹备进度，不编数，无法区分未触发或触发未响应。| 建议处置:裸候不追呼；按WAKE-PROTO落账留档，维持第4级观察，待0926责任主体回线自然核销。不越真机代行。| 锚:resilience-pipe-keydark / drill-log-2026",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1115,
+    "total_tokens": 1332,
+    "completion_tokens_details": {
+      "reasoning_tokens": 972
+    }
+  }
+}

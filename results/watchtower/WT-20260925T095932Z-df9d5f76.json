@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T09:58:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-lgt-kscan自债候件，因k∈[6,14]卡方扫描自由度商像未决，促至第4级。| 性态: binmap多节点扫描候场，前三级裸候无响应；现处escalate链，未触发真机钱面扣划，仅属台账扫描预警，未实测越界值不编录。| 建议处置: 恪守裸候不主动求应，逐k节点次次落账观测；若卡方量未越临界域则维持候场，不越真机钱面。| 锚: 卡方分布df=6-14双尾临界值表(χ²₀.₀₅/χ²₀.₀₁)。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1962,
+    "total_tokens": 2189,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1790
+    }
+  }
+}
