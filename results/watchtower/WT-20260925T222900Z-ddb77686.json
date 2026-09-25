@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:28:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop投件入巷|性态:单件md落入chepin-ai/vci-inbox，序号222→223，件名qtlv-spectra-x11-qsca7fce6884.md，属常规落账，无并行冲突|建议处置:已收讫落账，裸候，不主动唤应|锚:ref=lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md;seq=222→223",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 906,
+    "total_tokens": 1136,
+    "completion_tokens_details": {
+      "reasoning_tokens": 791
+    }
+  }
+}
