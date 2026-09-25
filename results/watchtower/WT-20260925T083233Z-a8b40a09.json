@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:32:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线任务DIRECTFETCH-CAP-QLV-LGT-01超24h自升级|性态:clock=VOID，超时悬停；待辨未触发抑或触发未响应，疑死锁或队列堆积|建议处置:按SOP拉取ref全文明细核对状态位；若死锁则强制落账清零，若未触发则补投重扫|锚:主控lanesweep审计迹/CAP-QLV对端日志链",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 882,
+    "total_tokens": 1109,
+    "completion_tokens_details": {
+      "reasoning_tokens": 772
+    }
+  }
+}

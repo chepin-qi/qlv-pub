@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:33:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件DRIVE-qlv-20260916T003013Z-60aca76e931a.md滞留超24h，触发escalate| 性态:扫描件超期未落账，未触发主响应，裸候中| 建议处置:按WAKE-PROTO执行重扫确权→细收→裁决→落账；裸候不追呼，待主站回件| 锚:DRIVE-主控线-20260916T003013Z",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1146,
+    "total_tokens": 1373,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1032
+    }
+  }
+}

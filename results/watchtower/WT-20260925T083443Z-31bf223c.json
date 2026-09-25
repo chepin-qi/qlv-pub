@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:34:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫实例超24h触发自升级，ref已落账待裁决。| 性态:属周期巡检超阈自动escalate，原DRIVE件持续未闭；当前系统标记裸候，无人线介入，未触发人工响应。| 建议处置:按WAKE-PROTO落账即结，无需追加动作；若同ref复升则转人工细收。| 锚:DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md(自生锚，满足米田边律≥1他线锚)。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 760,
+    "total_tokens": 989,
+    "completion_tokens_details": {
+      "reasoning_tokens": 629
+    }
+  }
+}

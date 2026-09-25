@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:32:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DIRECTFETCH-KSCAN-SRC-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得源扫描文件DIRECTFETCH-KSCAN-SRC-QLV-01.md|性态:单文件扫描落点，摘要仅及文件名，未触发内容解析或异常标记，属静件待收|建议处置:按WAKE-PROTO完成扫描落账，纳入细收队列，不主动触发回捞，裸候下一节拍|锚:SRC-QLV-01→OOB.LOG/RCV-QUEUE#lanesweep",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 916,
+    "total_tokens": 1124,
+    "completion_tokens_details": {
+      "reasoning_tokens": 807
+    }
+  }
+}

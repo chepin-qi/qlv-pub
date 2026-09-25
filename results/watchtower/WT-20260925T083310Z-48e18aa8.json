@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:32:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DISC-NEUMECH-01-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫检出DISC-NEUMECH-01-qtlv-20260913T131611Z.md滞留>24h，触发升己(lanesweep.escalate)| 性态:流程自监控超时告警，属WAKE-PROTO扫描阶段异常；需区分原文档「未触发」或「触发未响应」| 建议处置:细收该md原始状态→裁决是否补落账或裸候；若属无人驿未收，按AUTH-OTP-02次次落账，不主动求应| 锚:参照QTLV-DISC-NEUMECH系列既往判例锚定同类升己处置范式|",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 938,
+    "total_tokens": 1165,
+    "completion_tokens_details": {
+      "reasoning_tokens": 788
+    }
+  }
+}

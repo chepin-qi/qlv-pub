@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:33:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DISC-SI-OMNI-DRIVE-01-lgt-20260913T170724Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep超24h自升单DISC-SI-OMNI-DRIVE-01-lgt| 性态:属lane扫长悬触发的标准escalate，无新增异常指标，未触发人工干预，系统按规则自旋落件| 建议处置:按lanesweep SLA复核该lane积压根因；若属正常backlog则归档，若存在阻塞则转incident并指派一线| 锚:《单会话持续扫描超期升单规则》/常规运维SLA",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 801,
+    "total_tokens": 1032,
+    "completion_tokens_details": {
+      "reasoning_tokens": 684
+    }
+  }
+}

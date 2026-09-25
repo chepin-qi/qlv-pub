@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:33:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务超24h未结，触发自升级| 性态:DRIVE线内单挂起，无跨线阻塞，未触发外部响应，属内部积压| 建议处置:按WAKE-PROTO落账，clock=VOID故裸候，不另设期限；同ref再投续扫并账| 锚:infra-ttl|lane老化阈值同参",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 946,
+    "total_tokens": 1173,
+    "completion_tokens_details": {
+      "reasoning_tokens": 854
+    }
+  }
+}

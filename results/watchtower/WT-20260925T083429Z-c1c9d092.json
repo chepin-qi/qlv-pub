@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:34:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260917T003456Z-9275cefa2228.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫件超24h，系统自升(ref:DRIVE-qlv-20260917T003456Z-9275cefa2228.md)| 性态:规则触发自助escalate，件滞留未结；无实测响应，非人工投件。| 建议处置:按lanesweep escalate协议裸候，不主动求应；须落账则依ref原文执行，未测数不编。| 锚:ANCHOR-lanekeep|PROTO-sweepbound",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1113,
+    "total_tokens": 1340,
+    "completion_tokens_details": {
+      "reasoning_tokens": 999
+    }
+  }
+}
