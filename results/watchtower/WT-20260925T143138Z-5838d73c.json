@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:31:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep评估波次裁决文件覆写位触发，SI1债自驱专属 | 性态: 单次覆写请求，未触发原态校验响应，无实测数值可编；属元数据位操作，非全量业务响应 | 建议处置: 执行覆写落账，留存原verdict摘要/哈希备审计；无下游ACK则裸候，不额外投件 | 锚: lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 924,
+    "total_tokens": 1166,
+    "completion_tokens_details": {
+      "reasoning_tokens": 799
+    }
+  }
+}
