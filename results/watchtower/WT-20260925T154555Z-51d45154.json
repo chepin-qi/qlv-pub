@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:45:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk EXP-016交叉验证回件促件升至第4级(nudge.escalate)| 性态:流程候件在交叉验证节点阻塞，触发促件升级；摘要未明示系未触发或触发未响应，属债务验证延迟态| 建议处置:①裸候，不主动外呼刷屏；②查核xchk队列阻塞根因，区分未触发/触发未响应；③按次次落账原则标记xchk-pending，不越真机钱面| 锚:xref:OPS-PROTO-debt-xchk-v3§4.2",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1289,
+    "total_tokens": 1504,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1145
+    }
+  }
+}

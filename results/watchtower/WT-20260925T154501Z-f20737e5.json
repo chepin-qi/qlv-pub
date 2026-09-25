@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:44:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-orbit-cap02-lgt escalation至第4级,CAP-02下下站旁路权行使| 性态:自债候流程推进,未触发真机钱面校验(无实测划付凭证),属程序性升级,裸候条件成立| 建议处置:次次落账,维持裸候不刷屏;旁路权时点入档,待下下站响应或他线资金锚到达后裁决是否扣划| 锚:CAP-02规程第4级阈值 | 米田边律:qlv-main线旁路权台账",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1129,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 990
+    }
+  }
+}

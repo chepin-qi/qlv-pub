@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:45:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap03-ring 自债候CAP-03自发环巡归升至第4级| 性态: 系统按序加码促件，属自发环机制运行；前3级状态未在本会话实测，不臆断为触发未响应或纯未触发，仅确认本环为轨道自主行为| 建议处置: 扫描前序三级落账记录，核实 escalation 条件；若裸候成立且不越真机钱面，维持第4级悬置观察，不主动外呼寻求回应，待件自归| 锚: 比照 sdc-09 线同类自债候环巡归处置，裸候不加码|",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1137,
+    "total_tokens": 1354,
+    "completion_tokens_details": {
+      "reasoning_tokens": 980
+    }
+  }
+}
