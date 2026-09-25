@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:55:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DRILL-0919-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收drill任务ANS-DRILL-0919-QLV-01.md，摘要为[债自驱]SI1专属覆写位。| 性态:未实测，仅摘要到件；属演练域自驱覆写指令，未越真机钱面，当前裸候。| 建议处置:维持裸候；若触发实测，按WAKE-PROTO补扫→细收→裁决→落账；SI1覆写须双人复核后生效。| 锚:debtengine.seat基线规程; drill域操作守则ANS-DRILL-0919。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 888,
+    "total_tokens": 1112,
+    "completion_tokens_details": {
+      "reasoning_tokens": 748
+    }
+  }
+}
