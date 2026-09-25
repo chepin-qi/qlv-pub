@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:25:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-DRILL-0919-SELF-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得DEMAND-DRILL-0919-SELF-QLV-01.md，仅获摘要标识，内文与实测均未展开。| 性态:扫描已触，细收未入；属「触发未响应」，未实测不编数。| 建议处置:循WAKE-PROTO推进细收→裁决，本件裸候，不主动求应，待次次落账。| 锚:qlv-01线/需求钻探层他线锚定。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 958,
+    "total_tokens": 1174,
+    "completion_tokens_details": {
+      "reasoning_tokens": 839
+    }
+  }
+}

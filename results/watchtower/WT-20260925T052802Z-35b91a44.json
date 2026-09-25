@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:27:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-WAVE-68-QLV-20260913T084219Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep escalate; ref DEMAND-WAVE-68-QLV-20260913T084219Z.md; lane扫描逾24h触发自升级 | 性态:时效触发,流程级升己,无人干预警报 | 建议处置:沿升己链路由下游队列承接,裸候,不主动召回 | 锚:WAKE-PROTO lanesweep时效升己条款/AUTH-OTP-02裸候则",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1311,
+    "total_tokens": 1534,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1210
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:26:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-KEYFP-ESC-qlv-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得DEMAND-KEYFP-ESC-qlv-01.md到件| 性态:需求到件，未展开细收与实测，属扫描态；无触发记录，无响应数据，不编数| 建议处置:按WAKE-PROTO推进细收→裁决→落账；裸候实测输入，不主动外寻| 锚:单会话文本工位无工具，未越真机钱面；以本线到件为锚，次次落账",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 1043,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "reasoning_tokens": 923
+    }
+  }
+}

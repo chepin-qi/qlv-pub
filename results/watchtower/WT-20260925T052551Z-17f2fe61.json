@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:25:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task投件，ref=DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md，摘要仅示文件名，未触发细收| 性态:件已落盘，内容未实测；属「投件至而实体未扫」，无法判明需求实体与扫描范围| 建议处置:按WAKE-PROTO落账为待扫件；如需裁决须补发md正文或开放细收通道；当前裸候，不主动外呼| 锚:DEMAND-线/运维-线交叉锚定，留档R2-0730Z时标备核",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1045,
+    "total_tokens": 1269,
+    "completion_tokens_details": {
+      "reasoning_tokens": 900
+    }
+  }
+}

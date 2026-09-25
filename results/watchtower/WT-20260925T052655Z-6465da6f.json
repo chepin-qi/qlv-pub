@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:26:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-OCTA-67-QLV-20260913T050141Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.escalate，ref DEMAND-OCTA-67-QLV-20260913T050141Z.md，lane扫任务超24h触发自升级| 性态:扫描周期逾界，属超时自动上报；未获lane完成确认，暂无法区分扫描未终结或响应未归账，clock=VOID，无实测耗时数据不编数| 建议处置:按WAKE-PROTO执行细收-裁决，核查该lane扫描进程状态及下游落账情况；若进程僵死则清障重启，若响应滞留则手推落账；裸候不主动外呼| 锚:OCTA-67-050141Z/24h_esc",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 989,
+    "total_tokens": 1214,
+    "completion_tokens_details": {
+      "reasoning_tokens": 830
+    }
+  }
+}

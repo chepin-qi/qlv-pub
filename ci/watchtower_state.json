@@ -27,21 +27,21 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
+      4,
       0,
       0,
       0,
       0,
       0,
       0,
-      0,
-      0,
+      4,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 17
+    "beacon_comments": 25
   },
   "qgl_head": "385cc35335cbcec58eac78d5682383dca3a3c005",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 54,
+  "seg_cursor": 55,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -206,7 +206,15 @@
     "DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
     "DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
     "DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
-    "DEMAND-DIRECT-54-QLV-20260911T0705Z.md"
+    "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+    "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+    "DEMAND-DRILL-0919-SELF-QLV-01.md",
+    "DEMAND-KEY69-QLV-20260914T121843Z.md",
+    "DEMAND-KEYFP-ESC-qlv-01.md",
+    "DEMAND-OCTA-67-QLV-20260913T050141Z.md",
+    "DEMAND-OTP64-QLV-20260911T2024Z.md",
+    "DEMAND-SI70-QLV-20260914T134936Z.md",
+    "DEMAND-WAVE-68-QLV-20260913T084219Z.md"
   ],
   "debt_queue": [
     {
@@ -417,6 +425,46 @@
     {
       "id": "lanetask:DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
       "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DEMAND-DRILL-0919-SELF-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DEMAND-KEY69-QLV-20260914T121843Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DEMAND-KEYFP-ESC-qlv-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DEMAND-OCTA-67-QLV-20260913T050141Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DEMAND-OTP64-QLV-20260911T2024Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DEMAND-SI70-QLV-20260914T134936Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:DEMAND-WAVE-68-QLV-20260913T084219Z.md",
+      "note": "lane件>24h未理升己",
       "si0_solvable": false
     }
   ],

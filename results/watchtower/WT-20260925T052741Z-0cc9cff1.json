@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:27:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-SI70-QLV-20260914T134936Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep检获DEMAND-SI70超24h未收裁，触escalate生成本件| 性态:触发未响应，裸候态，clock=VOID无实测数| 建议处置:依WAKE-PROTO细收→裁决→落账，无新件不主动外寻，维持裸候| 锚:AUTH-OTP-02裸候条/ lanesweep超时升己他线规",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1759,
+    "total_tokens": 1980,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1657
+    }
+  }
+}

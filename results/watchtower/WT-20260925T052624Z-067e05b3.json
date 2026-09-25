@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:26:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-KEY69-QLV-20260914T121843Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线超24h触发自我升级，件号DEMAND-KEY69| 性态:裸候超时后系统自举escalate，属内部时钟驱动，无外部投件且未触发人工响应| 建议处置:按WAKE-PROTO完成裁决落账，归档DEMAND-KEY69-QLV-20260914T121843Z.md，继续裸候不主动寻求回应| 锚:≈triage.coldstorage/timeout.loop",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1209,
+    "total_tokens": 1430,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1095
+    }
+  }
+}
