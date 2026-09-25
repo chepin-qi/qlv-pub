@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:21:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:chepin-ai/vci-inbox 巷卡计数 220→221，新件 qtlv-spectra-x11-qsca7fce6884.md 落入 qlv/inbox，lane.drop 触发。| 性态:常规到件，未见格式损坏或延迟告警，属正常增量。| 建议处置:按 WAKE-PROTO 执行扫描→细收→裁决→落账；裸候不主动外呼，待件内指令或超时仲裁。| 锚:chepin-ai/vci-inbox; lanes/qlv/inbox",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 737,
+    "total_tokens": 967,
+    "completion_tokens_details": {
+      "reasoning_tokens": 610
+    }
+  }
+}
