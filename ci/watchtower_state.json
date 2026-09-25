@@ -30,8 +30,8 @@
       0,
       0,
       0,
+      1,
       0,
-      8,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 50
+    "beacon_comments": 51
   },
   "qgl_head": "ab6bcbc0826ebe72e76aaf2321bf5043bc413903",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 71,
+  "seg_cursor": 72,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -233,11 +233,6 @@
     "DRIVE-qlv-20260922T004234Z-a9985e509f79.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
       "note": "lane件>24h未理升己",
@@ -594,9 +589,14 @@
       "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-25T08:44:55Z"
+    },
+    {
+      "id": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-09-25T11:38:24Z"
     }
   ],
-  "debt_backlog": 56,
+  "debt_backlog": 63,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [

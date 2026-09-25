@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:38:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md覆写至debtengine.seat覆写位，SI1债自驱专属| 性态:单点覆写位占用，未触发线冲突| 建议处置:核SI1覆写权限，执行位锁定并落账，裸候不唤| 锚:cross:ledger:seat/SI1-覆写-VOID",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1259,
+    "total_tokens": 1495,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1153
+    }
+  }
+}
