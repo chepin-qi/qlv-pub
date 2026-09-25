@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "8ad2207535456d757498c00251f5971ae24eae2d",
+  "qfa_head": "e401ac34787c5ac9548294c3cd868b3c478389c8",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0",
@@ -34,14 +34,14 @@
       0,
       0,
       0,
-      4,
       0,
       0,
-      0
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 68
+    "beacon_comments": 69
   },
   "qgl_head": "cecafe5503023bd1585aceee01d2955c0d14cdea",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 83,
+  "seg_cursor": 84,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -133,19 +133,19 @@
       "n": 4
     },
     "debt-20260912-orbit-cap02-lgt": {
-      "t": 1790351082.338112,
+      "t": 1790350387.9397933,
       "n": 4
     },
     "debt-20260912-orbit-cap03-ring": {
-      "t": 1790351082.3381171,
+      "t": 1790350387.939799,
       "n": 4
     },
     "debt-20260912-tower-seg9-verify": {
-      "t": 1790351082.3381193,
+      "t": 1790350387.939801,
       "n": 4
     },
     "debt-20260912-exp016-xchk": {
-      "t": 1790351082.3381221,
+      "t": 1790350387.9398515,
       "n": 4
     },
     "debt-20260912-os3d-lvlu-dist": {

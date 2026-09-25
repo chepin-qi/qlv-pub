@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T15:56:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "e401ac34",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 8ad22075→e401ac34| 性态:分支指针常规推进，单会话 beat 同步，未见冲突或触发异常| 建议处置:按 AUTH-OTP-02 落账，确认 e401ac34 收束稳定，裸候下件| 锚:旧头 8ad22075 失活，需双锚校验链连续性",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 847,
+    "total_tokens": 1041,
+    "completion_tokens_details": {
+      "reasoning_tokens": 751
+    }
+  }
+}
