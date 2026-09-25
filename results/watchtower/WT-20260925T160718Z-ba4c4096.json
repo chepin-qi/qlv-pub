@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T16:06:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "e401ac34",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：qfa main 头迁移 8ad22075→e401ac34，ref 命中到件。| 性态：代码节拍事件，单次头指针前进，无冲突/回滚标记；未触发本地实测，diff 规模与风险等级不作断言。| 建议处置：常轨落账。宜对 e401ac34 触发 CI 细收与回归扫描，确认无断裂后归档。| 锚：git-head-beat/版本控制常规迁移。",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 981,
+    "total_tokens": 1175,
+    "completion_tokens_details": {
+      "reasoning_tokens": 871
+    }
+  }
+}
