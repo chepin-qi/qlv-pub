@@ -26,6 +26,9 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      2,
+      0,
+      0,
       0,
       0,
       0,
@@ -34,14 +37,11 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      2
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 7,
     "C_streak": 0,
     "verdict": "进行式"
   },

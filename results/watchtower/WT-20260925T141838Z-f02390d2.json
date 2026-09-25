@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:18:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h触发escalate|性态:lanesweep升单规则已触发，原单DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md超期未收敛，为触发未响应；未实测阻塞根因，不编数|建议处置:按WAKE-PROTO扫描→细收→裁决→落账，裸候下回合步，次次落账|锚:ref=qlv-DRIVE-20260923T003614Z-13f9fc0a4535.md",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1715,
+    "total_tokens": 1946,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1585
+    }
+  }
+}

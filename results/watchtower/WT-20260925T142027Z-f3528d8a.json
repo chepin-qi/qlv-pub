@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:20:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FLOOR-TAIL-REF-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得尾引用文件FLOOR-TAIL-REF-01-usrm.md| 性态:扫描阶段触达，仅获引用标识，未触发内容实测，未响应内容边界，属悬置尾件| 建议处置:按WAKE-PROTO推进细收，裸候裁决，不主动唤响，待投件自动落账| 锚:FS-TAIL-IDX线/FLOOR-REF-锚点-01",
+  "usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 912,
+    "total_tokens": 1119,
+    "completion_tokens_details": {
+      "reasoning_tokens": 805
+    }
+  }
+}

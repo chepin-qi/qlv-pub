@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:19:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫文件EVAL-WAVE-01-VERDICT-FINAL超24h触发自升级| 性态:已触达升己阈值，属周期归档类，原件未实测仅凭摘要| 建议处置:按WAKE-PROTO完成细收与裁决落账，该件已裸候超期，不主动求回应，直接归档| 锚:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md; AUTH-OTP-02诚实边界",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 850,
+    "total_tokens": 1083,
+    "completion_tokens_details": {
+      "reasoning_tokens": 729
+    }
+  }
+}

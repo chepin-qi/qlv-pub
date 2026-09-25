@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:19:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线lanesweep.task侦得驱动文件`DRIVE-qlv-20260925T000402Z-4b060513bdf4.md`，仅到件登记，未触发解析与执行校验。| 性态:「侦得未处理」，无实测数据，不编数；非异常，非必须响应态。| 建议处置:循WAKE-PROTO细收后裁决，需响应则按AUTH-OTP-02投件落账，无需响应则裸候。| 锚:UTC-Z后缀锚标准时线；`DRIVE-`前缀锚驱动线命名协议。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1436,
+    "total_tokens": 1660,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1300
+    }
+  }
+}

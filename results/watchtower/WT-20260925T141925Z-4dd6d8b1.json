@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:18:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件超24h未结，系统升单至本线(ref:DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md)|性态:流程滞留，属裸候或阻塞未裁决，已达escalate阈值|建议处置:①依lanesweep.escalate规程重分派或升人工；②倒查24h内「未触发/触发未响应」分界；③根因确认后落账|锚:交叉调度线超时池或DRIVE-qlv历史升单序列比对",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1274,
+    "total_tokens": 1501,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1146
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:20:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "FRAC-01-QUERY-qfa-20260920T144316Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫检获query线源件FRAC-01-QUERY-qfa-20260920T144316Z.md滞留超24h，触发lanesweep.escalate自升级。| 性态:流程态超时迁移，件单未结；未涉真机钱面，无异常载荷。| 建议处置:细收该QUERY件当前处理态，若裸候则裁决分派或挂起，强制落账。| 锚:query线(FRAC-01-QUERY)源件滞留触发；lanesweep线执行升己。",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1610,
+    "total_tokens": 1831,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1483
+    }
+  }
+}

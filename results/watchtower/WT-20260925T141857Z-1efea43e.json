@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:18:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务DRIVE-qlv-20260923T004218Z-bf44115c7f98.md超24h触发自升级| 性态:扫描周期逾界，escalate钩子已触发；具体阻塞点未实测，属触发未响应态，无真机钱面涉险| 建议处置:按WAKE-PROTO落账，裸候上游DRIVE线回执，不刷屏；若72h仍无响应，二次升己| 锚:xref DRIVE-qlv-20260923T004218Z-bf44115c7f98.md; clock=VOID; AUTH-OTP-02「次次落账」",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1054,
+    "total_tokens": 1283,
+    "completion_tokens_details": {
+      "reasoning_tokens": 900
+    }
+  }
+}

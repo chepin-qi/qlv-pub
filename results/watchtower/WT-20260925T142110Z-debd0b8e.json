@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:20:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:FRAC-01-QUERY(seq3) lane扫线超24h裸候，触发升己(escalate)。| 性态:系统自检超时，件态未闭环，属静默悬置；未触发人工响应，无实测下件，诚实标记为悬。| 建议处置:复扫原ref确认件态，按lanesweep规程落账为\"悬件待决\"；若持续裸候则转归档或人工裁决，严禁臆造响应。| 锚:LOG-TRACE-escalate池/FRAC-01-QUERY-seq3-24h。",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 768,
+    "total_tokens": 993,
+    "completion_tokens_details": {
+      "reasoning_tokens": 634
+    }
+  }
+}
