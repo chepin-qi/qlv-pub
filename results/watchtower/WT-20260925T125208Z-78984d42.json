@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T12:51:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge促件升至第4级,qlv巷报152件机读排空| 性态:系统批量债候清理后触发的级联催促,属机读排空后的人工复核节点;152件为系统上报数,未实测回执,不作实清断言| 建议处置:①调机读排空回执核实际清件数 ②验第4级触发条件与候命时序 ③若回执验证无误即落账候命,若缺件/未响应则回退补扫| 锚:qlv巷机读台/债务队列批量处理规约",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 866,
+    "total_tokens": 1082,
+    "completion_tokens_details": {
+      "reasoning_tokens": 718
+    }
+  }
+}

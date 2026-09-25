@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T12:52:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候debt-20260912-tower-verify促件升至第4级，塔FIX-08/09/10效验+runs归正悬账| 性态:nudge.escalate，自债候久悬触发级跳，未提供实测归正结果，属触发未响应态| 建议处置:裸候不刷屏，落账第4级时间戳，待他线塔效验回执到件后裁决| 锚:FIX-08/09/10效验线;runs归正线",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1013,
+    "total_tokens": 1233,
+    "completion_tokens_details": {
+      "reasoning_tokens": 889
+    }
+  }
+}

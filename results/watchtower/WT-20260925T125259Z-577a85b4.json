@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T12:52:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位债候(debt-20260912-orbit-cap01-bypass)滞qfa约19h，促件升至第4级。| 性态:旁路补位响应迟滞，属债候积压触发的升级催促；现未确认系未触发或触发未响应。| 建议处置:①切CAP-01节点核实旁路补位实际状态；②若已响应未落账则追账，若未触发则重投；③第4级限时督办闭环。| 锚:orbit-cap01运维线/qfa质检线双锚。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 789,
+    "total_tokens": 1016,
+    "completion_tokens_details": {
+      "reasoning_tokens": 653
+    }
+  }
+}
