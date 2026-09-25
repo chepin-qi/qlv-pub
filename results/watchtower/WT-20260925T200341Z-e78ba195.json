@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:03:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-LGT-EXCITE-V2-qlv-lgt.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫件侦得ref=OTP-LGT-EXCITE-V2-qlv-lgt.md| 性态:摘要仅呈文件名引用，未触发内容级实测或响应，属“侦得未展开”；无实体数据，不编造内部状态| 建议处置:已落账；如需内容裁决，挂载细收流程展开实体，否则裸候归档| 锚:ref自洽于OTP-LGT-EXCITE-V2-qlv-lgt.md标号，可回溯lgt/excite-v2管线",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 828,
+    "total_tokens": 1042,
+    "completion_tokens_details": {
+      "reasoning_tokens": 702
+    }
+  }
+}

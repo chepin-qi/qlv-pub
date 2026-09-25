@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:00:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "O-S-2D-01-v0-20260911T123052Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane扫任务O-S-2D-01超24h未落账，触发escalate；ref文件v0-20260911T123052Z.md待细收 | 性态: 扫描节点僵死或调度漂移，未触发重扫；暂未见扩散，属单lane积压 | 建议处置: 拉取ref内执行日志，区分未触发/触发未响应；若节点失联则切备重扫，次次落账 | 锚: 锚定运维日报#lanesweep及值班交接单，待他线ACK",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1186,
+    "total_tokens": 1409,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1057
+    }
+  }
+}

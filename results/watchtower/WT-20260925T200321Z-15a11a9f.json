@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:02:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-LGT-EVAL-EXCITE-01-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 OTP-LGT-EVAL-EXCITE-01-qlv.md | 性态:文件名映射评估/激励存根，内容未触发细收，属未触发态，无实测数，不臆编 | 建议处置:待真机读权开放或再投件后补细收；本线裸候，不越钱面 | 锚:qlv线/WAKE-PROTO/OTP-02/米田边律",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1134,
+    "total_tokens": 1348,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024
+    }
+  }
+}

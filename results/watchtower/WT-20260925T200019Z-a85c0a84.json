@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:59:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 报件 ref=ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md，摘要仅报到件，文件本体未触发细收。| 性态:到件属实，内容未实测，属「触发未响应」，无数值可编。| 建议处置:依 WAKE-PROTO 完成扫描-落账，置裸候态；待后端细收裁决，不主动求应、不越真机钱面。| 锚:AUTH-OTP-02「投必有件/次次落账」",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1189,
+    "total_tokens": 1403,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1064
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:01:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "OMNI-INJECT-01-qlv-20260911T185404Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线超24h自升级，ref=OMNI-INJECT-01-qlv-20260911T185404Z.md，属超时escalate。| 性态:未触发人工干预，系自动升己；文件内容未实测，不编数，当前悬置待裁决。| 建议处置:按WAKE-PROTO落账，裸候不刷屏；若属重复升级则归档，clock=VOID。| 锚:qlv-他线锚-OMNI-INJECT-01-20260911。",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1020,
+    "total_tokens": 1245,
+    "completion_tokens_details": {
+      "reasoning_tokens": 894
+    }
+  }
+}

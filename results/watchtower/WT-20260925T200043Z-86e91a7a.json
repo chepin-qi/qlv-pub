@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:00:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "CAPSULE-REQ-TIANYAN-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得CAPSULE-REQ-TIANYAN-LVLU-01.md任务件|性态:文件仅被侦获，内容未展开/未实测，属静默待收态；未触发vs未响应尚不可辨|建议处置:执行细收，解析md内容后按WAKE-PROTO裁决落账；裸候，不主动外寻回应|锚:doc-track线.req-01/未启封",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 999,
+    "total_tokens": 1213,
+    "completion_tokens_details": {
+      "reasoning_tokens": 896
+    }
+  }
+}

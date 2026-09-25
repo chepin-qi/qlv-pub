@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:02:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线逾24h自升己,ref已投件落账|性态:裸候态,内源周期机制超时触escalate,非外源投件,未涉真机钱面|建议处置:依WAKE-PROTO裁决落账即结案;不主动寻求回应,裸候归档|锚:ORBIT-CAP-03",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1628,
+    "total_tokens": 1855,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1541
+    }
+  }
+}

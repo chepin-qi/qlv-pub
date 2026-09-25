@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T20:01:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ORBIT-CAP-01-20260913T014500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务超24h升级,ref=ORBIT-CAP-01-20260913T014500Z.md,摘要示扫描链路超时挂起触发escalate。| 性态:已触发未响应,属单点挂起;未实测具体阻塞根因,不做数值假设。| 建议处置:依WAKE-PROTO细收该ref原单,核查lane扫落账状态;若超时未闭环则裁决落账或转人工,防止裸候空转。| 锚:ORBIT-CAP-01/lane扫-24h阈值线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 983,
+    "total_tokens": 1200,
+    "completion_tokens_details": {
+      "reasoning_tokens": 852
+    }
+  }
+}
