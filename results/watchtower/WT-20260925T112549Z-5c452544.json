@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:25:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫检出ref=DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md滞留超24h，触发升己。| 性态:系统监控已触发，属超时未决件；非裸候，需人工介入裁决。| 建议处置:执行细收→裁决→落账：即刻复核该md文件内容，区分未触发/触发未响应，在时限内完成处置并落账。| 锚:lanesweep.escalate / qlv工位24h阈值 / AUTH-OTP-02落账义务",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 926,
+    "total_tokens": 1153,
+    "completion_tokens_details": {
+      "reasoning_tokens": 796
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:27:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务DRIVE-qlv-20260922T004234Z-a9985e509f79.md持续超24h触自动升级(lanesweep.escalate)| 性态:属预设阈值触发的自治升己，非异常入侵；扫描周期逾界后按WAKE-PROTO自转入裁决态，未现越真机钱面或刷屏特征| 建议处置:①核验该lane扫原始件是否已落账；②若属预期长周期任务，补记升己原因并归档；③若非预期，转人工细收。裸候即可，不主动求应| 锚:cross-ref DRIVE-qlv运维基线/timeout-escalation条款",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1126,
+    "total_tokens": 1353,
+    "completion_tokens_details": {
+      "reasoning_tokens": 965
+    }
+  }
+}

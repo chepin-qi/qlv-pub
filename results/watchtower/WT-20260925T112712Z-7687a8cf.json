@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:26:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h自升己(ref已摘)|性态:DRIVE-qlv线文件滞留逾1日，lanesweep规则自动escalate；本工位无工具，未实测该md实体，属摘要级到件，状态为“触发未下钻”|建议处置:先落账本次升己信号；如需收敛，应投DRIVE线真机或具备读取权限的工位复核该ref实体，区分未触发/触发未响应，再裁决降档或继续 escalate|锚:lanesweep.escalate/DRIVE-qlv线超时规则",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1050,
+    "total_tokens": 1277,
+    "completion_tokens_details": {
+      "reasoning_tokens": 915
+    }
+  }
+}

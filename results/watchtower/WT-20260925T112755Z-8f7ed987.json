@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:27:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件超24h自升级，ref=DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md已落单|性态:lanesweep.escalate类，超时未决触发自路由；本工位无实测阻塞数据，亦无人工响应记录，属触发后裸候态|建议处置:依WAKE-PROTO裁决落账即结，不主动外呼不刷屏；后线若追件则复核lane根因|锚:@DRIVE-qlv/AUTH-OTP-02",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 928,
+    "total_tokens": 1157,
+    "completion_tokens_details": {
+      "reasoning_tokens": 800
+    }
+  }
+}

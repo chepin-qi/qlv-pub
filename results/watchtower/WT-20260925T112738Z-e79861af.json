@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:27:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260922T000128Z-494de714756c.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫工单(ref:DRIVE-qlv-20260922T000128Z-494de714756c.md)超24h未闭环，触发escalate升己| 性态:内部裸候超时，生命周期自动升级；摘要无外部触发/阻塞响应，未实测队列深度与根因，不编数| 建议处置:①依WAKE-PROTO补扫描→细收→裁决→落账闭环；②排查阻塞点(依赖/权限/队列)；③裸候不主动外求，执行次次落账| 锚:AUTH-OTP-02诚实边界/不越真机钱面；WAKE-PROTO落账规范(本件无他线实测锚，锚定于流程纪律)",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1480,
+    "total_tokens": 1705,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1314
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:26:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线lane扫线>24h自升级，ref驱动件裸候未落账|性态:周期扫描触发escalate，属WAKE-PROTO扫描→细收阶段正常跃迁；该件已逾24h未触发人工响应|建议处置:即刻细收ref全文并裁决，若无需回启则直接落账，不空转|锚:单线入件，他线锚暂缺，待跨线补锚",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1295,
+    "total_tokens": 1520,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1188
+    }
+  }
+}

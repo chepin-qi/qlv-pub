@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:25:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md超24h触发自升级|性态:扫描件挂起逾日，已触发escalate但未落账；因clock=VOID且未接真机回包，无法区分原lane扫系未触发抑或触发未响应|建议处置:依WAKE-PROTO补细收裁决，若属未响应则重启lane扫线程，若属未触发则重投件；裸候不刷屏，次次落账后归档|锚:可交叉巡检DRIVE-log中线程qlv-20260920T003827Z之终态码，或比对同期其余lane扫批次完成率以定系因。",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 864,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "reasoning_tokens": 695
+    }
+  }
+}

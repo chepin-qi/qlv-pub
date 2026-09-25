@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T11:26:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫文件DRIVE-qlv-20260921T000203Z-fa022ac62327.md超24h未闭环，触发escalate自升级。| 性态:扫描任务悬停，符合lanesweep.escalate规则；未触发实测响应，属时效边界挂起。| 建议处置:按WAKE-PROTO细收文件状态，裁决人工归账或裸候落账；次次落账，不刷屏。| 锚:交叉SUPPORT-qlv同时间戳系列或OPS-qlv归档线核对。",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1173,
+    "total_tokens": 1398,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1045
+    }
+  }
+}
