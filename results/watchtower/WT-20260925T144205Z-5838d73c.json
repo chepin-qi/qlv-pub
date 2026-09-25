@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T14:41:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 收讫 lanesweep 评估波次裁决文件覆写位 | 性态: 债自驱 SI1 专属通道触发的内部位态覆写，非外部钱面交易，属裁决落账前系统自更新 | 建议处置: 执行只读校验，核对覆写指纹与源 VERDICT 一致，确认后落账，裸候归档，不主动外呼 | 锚: lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md#覆写位",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 825,
+    "total_tokens": 1067,
+    "completion_tokens_details": {
+      "reasoning_tokens": 691
+    }
+  }
+}

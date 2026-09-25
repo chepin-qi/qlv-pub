@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -641,7 +641,7 @@
     {
       "id": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-09-25T14:31:23Z"
+      "ts": "2026-09-25T14:41:50Z"
     }
   ],
   "debt_backlog": 70,
