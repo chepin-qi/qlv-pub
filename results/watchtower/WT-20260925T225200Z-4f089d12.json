@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:51:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-QTLV-QLV-X11-02.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得OTP-QTLV-QLV-X11-02.md任务件|性态:扫描触达，件属OTP-QTLV线任务纪要，当前仅侦得文件名与路径，内容未细收，未触发与触发未响应尚不可辨|建议处置:按WAKE-PROTO转入细收，读取全文，核对AUTH-OTP-02投必有件及诚实边界，若属有效任务则裁决落账；若为空件或越真机钱面则剔退，次次落账后裸候|锚:QTLV-X11-02",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1130,
+    "total_tokens": 1338,
+    "completion_tokens_details": {
+      "reasoning_tokens": 995
+    }
+  }
+}

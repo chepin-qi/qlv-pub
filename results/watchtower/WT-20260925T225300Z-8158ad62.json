@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:52:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-WAKE-QLV-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得OTP-WAKE-QLV-01-usrm.md。| 性态:摘要触发，文件实体未实测，无数据可编，属「侦得未落账」。| 建议处置:细收该件；若空或占位则裸候归档，若有实质usrm数据则按OTP-02投件并次次落账。| 锚:xref→SYS-BOUNDARY/VOID-clock; lane-sweep→QVL-MD-01。",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1014,
+    "total_tokens": 1222,
+    "completion_tokens_details": {
+      "reasoning_tokens": 902
+    }
+  }
+}

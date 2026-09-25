@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:51:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-LGT-SI5-VOTE-01-lgt.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，侦得ref=OTP-LGT-SI5-VOTE-01-lgt.md，属单文件lane扫任务| 性态:轻量扫描件，无冲突负载，待细收裁决| 建议处置:入细收队列，循WAKE-PROTO完成扫描→细收→裁决→落账；裸候，不主动外呼| 锚:git-lgt/si5-vote-line",
+  "usage": {
+    "prompt_tokens": 210,
+    "completion_tokens": 747,
+    "total_tokens": 957,
+    "completion_tokens_details": {
+      "reasoning_tokens": 644
+    }
+  }
+}

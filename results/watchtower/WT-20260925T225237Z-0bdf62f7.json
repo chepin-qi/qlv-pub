@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:52:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md|性态:文本工位无工具，未触发实机读取，文件内容未实测；据文件名推为USRM楼层直接共签权限件，态为「侦得未落地」|建议处置:按AUTH-OTP-02落账——若需执行转有工具工位实测后裁决，若仅归档扫描则标VOID裸候|锚:挂ML-ARCHIVE-LINE形式存证，待实测线补全哈希回账",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1123,
+    "total_tokens": 1349,
+    "completion_tokens_details": {
+      "reasoning_tokens": 990
+    }
+  }
+}

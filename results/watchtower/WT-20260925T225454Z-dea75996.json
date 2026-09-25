@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:54:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:R7-CLEAN-CAP02清理任务超24h未闭环，触发lanesweep.escalate自升级| 性态:扫描件裸候，细收/裁决/落账全缺；未触碰真机钱面| 建议处置:即刻补WAKE-PROTO闭环，核查CAP02阈值，限期内强制落账或转人工抛单| 锚:ref自锚(R7-CLEAN-CAP02-lvlu-20260913T182431Z.md)，他线锚缺",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1727,
+    "total_tokens": 1950,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1610
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:54:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:RE-SI5CLOUD-QLV-lvlu lane扫超24h自升(lanesweep.escalate)| 性态:该件于lane sweep中触发>24h超时熔断，属协议内自动升单；当前裸候，未触发人工响应，待裁决| 建议处置:回扫同ref前序细收记录，核是否空件；若涉资则限时落账，若空转即归档闭环| 锚:SI5CLOUD-QLV-prime/lanesweep.src",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1615,
+    "total_tokens": 1844,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1494
+    }
+  }
+}

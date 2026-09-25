@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:53:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "PHI-CHAIN-PROBE-01-qtlv-47428889.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得PHI-CHAIN-PROBE-01-qtlv-47428889.md，单会话无工具，未展ref，仅扫描落壳。| 性态:裸候待展件；PHI链探针类，未触发细收，无实测不编数。| 建议处置:维持裸候不下钻；如需裁决，请授权可读或转qtlv-PHI-CHAIN专席；次次落账已毕。| 锚:qtlv母线/PHI-CHAIN-PROBE协议栈; lanesweep.task队列。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1469,
+    "total_tokens": 1685,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1337
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:53:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦达，ref=QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md，摘要不含实质指标| 性态:仅件头触发，lane扫具体结果未触发，属空摘落位，非响应失败| 建议处置:静默收仓，裸候下轮细收；不刷屏、不外求响应| 锚:OTP-106原档/FIVELINE-20260911T1605Z",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1390,
+    "total_tokens": 1617,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1276
+    }
+  }
+}
