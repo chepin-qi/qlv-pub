@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T05:51:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：debtengine.seat 收妥 SI1 专属任务文件 lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md 覆写位请求，clock=VOID，未触发实测链路。| 性态：债自驱覆写类到件，属协议内文件级位操作，无真机钱面越界，裸候态。| 建议处置：按 WAKE-PROTO 扫描-细收-裁决-落账执行；覆写前做 KEYFP-ESC 校验；次次落账后即静默裸候，不主动求应。| 锚：AUTH-OTP-02 投必有件约束 / SI1-qlv.md 覆写位未实测，仅触发到件登记。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1127,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 960
+    }
+  }
+}
