@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T00:02:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DEBT-72-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat收SI1专属任务lanetask:ANS-DEBT-72-QLV-01.md债自驱覆写位到件| 性态: 文本工位无工具，未实测该md覆写状态，仅作ref签收与形式落账；未触发实测，不编覆写响应数| 建议处置: 按WAKE-PROTO落账，覆写执行待SI1主控或真机侧实测；裸候不刷屏| 锚: lanetask:ANS-DEBT-72-QLV-01.md ↔ qlv线无人驿收寄记录",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1221,
+    "total_tokens": 1443,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1079
+    }
+  }
+}
