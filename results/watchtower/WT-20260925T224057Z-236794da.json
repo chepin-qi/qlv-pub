@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:40:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:RE-SI5CLOUD-QLV-lvlu扫道任务超24h未闭环，lanesweep.escalate到件| 性态:扫道积压悬停，属超时升级；尚未区分「未触发」或「触发未响应」，真机钱面状态待核验| 建议处置:①立即抽取20260913T013901Z节点细收日志；②按WAKE-PROTO裁决落账，若属裸候则强制归档；③向qlv主控报备并次次落账| 锚:本件RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md + 他线锚:SI5CLOUD总线/qlv主控台日志交叉核验",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1073,
+    "total_tokens": 1302,
+    "completion_tokens_details": {
+      "reasoning_tokens": 904
+    }
+  }
+}

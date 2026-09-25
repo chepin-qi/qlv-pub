@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:39:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:线扫任务件侦得 OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md，属常规 lanesweep 到件落账。| 性态:文件名含 OTP-USRM 协议族、FLOOR-COSIGN-DIRECT 业务层及标准时间戳，命名合规；当前仅侦得到件，未触发内容解析，亦无响应异常，属静态归档。| 建议处置:按 WAKE-PROTO 完成扫描→细收→裁决→落账闭环；此件不越真机钱面，次次落账后裸候，不主动寻求回应。| 锚:USRM-FLOOR 权限基层/COSIGN-DIRECT 联合签署协议栈。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1139,
+    "total_tokens": 1365,
+    "completion_tokens_details": {
+      "reasoning_tokens": 977
+    }
+  }
+}

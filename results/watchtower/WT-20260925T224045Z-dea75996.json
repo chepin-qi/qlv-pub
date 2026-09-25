@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:40:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h触发自升级机制，产生ref文件R7-CLEAN-CAP02-lvlu-20260913T182431Z.md，属CAP02模块超时escalation。| 性态:自动规则触发，尚未确认系任务积压、扫描挂起或条件未满足所致的未触发性静默。须区分「未触发」与「触发未响应」。| 建议处置:①核验该时段CAP02日志，确认扫描是否实际执行；②若已执行未完结，按R7清洁流程人工接管；③若属误触发，归档并回退状态。| 锚:cross-ref → SYS-HEARTBEAT/超时自动升级规则基线（L2-OPS-ESCALATION）",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 936,
+    "total_tokens": 1159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 771
+    }
+  }
+}

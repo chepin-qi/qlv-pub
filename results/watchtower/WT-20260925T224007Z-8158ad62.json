@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:39:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-WAKE-QLV-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得OTP-WAKE-QLV-01-usrm.md，usrm域单件，处扫描后细收前|性态:已触捕获，未触发异常响应，无实测payload，属裸候静默态|建议处置:遵WAKE-PROTO细收→裁决→次次落账；不主动外呼；若usrm涉权变更则加签|锚:OTP-WAKE-ARCH-00（跨线归档锚）",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1139,
+    "total_tokens": 1347,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1028
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:39:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-QTLV-QLV-X11-02.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 OTP-QTLV-QLV-X11-02.md 到件，扫描落盘，内容未启封| 性态: 到件属实，内文未触发细收，无实测数据不编数，属\"触发前挂起\"态| 建议处置: 按 WAKE-PROTO 推进细收→裁决；若裸候则驻留，待投件方补内容载荷或启下阶段解析| 锚: OTP-AUTH-02 lanesweep.task / VOID-clock / 米田边律",
+  "usage": {
+    "prompt_tokens": 208,
+    "completion_tokens": 1045,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "reasoning_tokens": 916
+    }
+  }
+}

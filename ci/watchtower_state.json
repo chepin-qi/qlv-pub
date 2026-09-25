@@ -27,12 +27,12 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      1,
       0,
       0,
+      2,
       0,
       0,
-      0,
+      6,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 91
+    "beacon_comments": 99
   },
-  "qgl_head": "3cfd3276a0d674ebbc6d8471c1263d49b06f6dec",
+  "qgl_head": "959a9547a9ae6e1e155c215b3642f52a0ce09f14",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 102,
+  "seg_cursor": 103,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -254,7 +254,15 @@
     "ORBIT-CAP-01-20260913T014500Z.md",
     "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
     "OTP-LGT-EVAL-EXCITE-01-qlv.md",
-    "OTP-LGT-EXCITE-V2-qlv-lgt.md"
+    "OTP-LGT-EXCITE-V2-qlv-lgt.md",
+    "OTP-LGT-SI5-VOTE-01-lgt.md",
+    "OTP-QTLV-QLV-X11-02.md",
+    "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+    "OTP-WAKE-QLV-01-usrm.md",
+    "PHI-CHAIN-PROBE-01-qtlv-47428889.md",
+    "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+    "R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+    "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md"
   ],
   "debt_queue": [
     {
@@ -675,6 +683,46 @@
     {
       "id": "lanetask:OTP-LGT-EXCITE-V2-qlv-lgt.md",
       "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-LGT-SI5-VOTE-01-lgt.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-QTLV-QLV-X11-02.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-WAKE-QLV-01-usrm.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:PHI-CHAIN-PROBE-01-qtlv-47428889.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+      "note": "lane件>24h未理升己",
       "si0_solvable": false
     }
   ],

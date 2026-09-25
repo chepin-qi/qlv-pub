@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:40:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "PHI-CHAIN-PROBE-01-qtlv-47428889.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得探针文件PHI-CHAIN-PROBE-01-qtlv-47428889.md| 性态:单文件静默落点，未触发可测响应，属档案/探针类| 建议处置:按WAKE-PROTO落账归档，裸候链式异动，不主动外扫或回触| 锚:QTLV-47428889档号线/PHI-CHAIN探针锚定",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 814,
+    "total_tokens": 1030,
+    "completion_tokens_details": {
+      "reasoning_tokens": 709
+    }
+  }
+}

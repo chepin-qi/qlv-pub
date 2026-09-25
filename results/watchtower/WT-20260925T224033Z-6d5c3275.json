@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T22:40:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ref=QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md，仅录摘要壳，未触发实体内容展开。| 性态:孤件裸候态；摘要仅标识文件存在，未实测内部数据，不作数值编造，属「未触发」而非「触发未响应」。| 建议处置:按WAKE-PROTO落账为待拆件；裸候，不主动外呼求应，待细收轮次或他线回灌内容后补裁决。| 锚:QGL-OTP-FIVELINE-106主链(OTP线)/qlv-20260911T1605Z时标档。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 964,
+    "total_tokens": 1191,
+    "completion_tokens_details": {
+      "reasoning_tokens": 803
+    }
+  }
+}
