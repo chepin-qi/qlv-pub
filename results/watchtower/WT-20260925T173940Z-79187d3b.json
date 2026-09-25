@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:39:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-EVAL-WAVE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanetask:ANS-EVAL-WAVE-01.md 受 [债自驱]SI1 专属调度，落入 debtengine.seat 覆写位。| 性态:属评估波次文件的自驱覆写动作，座席级覆写未呈现授权链与 diff 实测，仅据摘要落账。| 建议处置:按 AUTH-OTP-02 诚实边界，不越真机钱面；若系授权迭代则完成覆写落账，若未授权则冻结该位并补录 OTP 签核。| 锚:clock=VOID / SI1-EVAL-WAVE-01 他线未同步，裸候差分回执。",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1007,
+    "total_tokens": 1221,
+    "completion_tokens_details": {
+      "reasoning_tokens": 853
+    }
+  }
+}
