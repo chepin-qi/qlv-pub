@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T18:52:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b5f257f7",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: qfa main 头迁移 e401ac34→b5f257f7 | 性态: beat 到件，HEAD 单步漂移，变更域可控，未触发异常阈值，无回呼必要 | 建议处置: 按 AUTH-OTP-02 次次落账，已入链，不主动寻求回应，保持裸候 | 锚: b5f257f7/qfa.beat→main#head-drift",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 880,
+    "total_tokens": 1077,
+    "completion_tokens_details": {
+      "reasoning_tokens": 775
+    }
+  }
+}
