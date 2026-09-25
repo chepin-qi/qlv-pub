@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T17:28:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-EVAL-WAVE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属任务ANS-EVAL-WAVE-01.md覆写位到件| 性态:仅摘要到件，无实测触发数据，无法判定覆写是否生效，未区分未触发/触发未响应| 建议处置:按次次落账收讫摘要；补测触发链路确认生效状态后归档| 锚:debtengine.seat(qlv线内他席锚); lanetask:ANS-EVAL-WAVE-01.md(原档锚)",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 935,
+    "total_tokens": 1149,
+    "completion_tokens_details": {
+      "reasoning_tokens": 817
+    }
+  }
+}

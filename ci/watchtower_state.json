@@ -27,12 +27,12 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
+      1,
       0,
       0,
       0,
-      3,
       0,
-      5,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 77
+    "beacon_comments": 78
   },
   "qgl_head": "093b696e3d7a074fd0b8c0682c2dae891a38a1e6",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 87,
+  "seg_cursor": 88,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -249,11 +249,6 @@
     "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-EVAL-WAVE-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
       "note": "lane件>24h未理升己",
@@ -690,9 +685,14 @@
       "id": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-09-25T14:31:23Z"
+    },
+    {
+      "id": "lanetask:ANS-EVAL-WAVE-01.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-25T17:28:33Z"
     }
   ],
-  "debt_backlog": 70,
+  "debt_backlog": 77,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [
