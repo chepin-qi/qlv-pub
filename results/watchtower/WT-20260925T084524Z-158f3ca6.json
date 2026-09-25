@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T08:44:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-DRILL-0919-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat席位覆写，SI1专属债自驱引擎引用lanetask:ANS-DRILL-0919-QLV-01.md向覆写位推送配置| 性态:纯配置层指令，无交易流水，不触真机钱面，属单向同步| 建议处置:核验源文件签名一致性后执行覆写，次次落账，覆写完成即裸候封存，不主动寻求回应| 锚:qlv::debtengine:SI1:seat-ovr",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1267,
+    "total_tokens": 1491,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1145
+    }
+  }
+}

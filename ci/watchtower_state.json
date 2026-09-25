@@ -27,7 +27,6 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      7,
       0,
       0,
       0,
@@ -37,11 +36,12 @@
       0,
       1,
       0,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 8,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 38
+    "beacon_comments": 39
   },
   "qgl_head": "ca6a992bfdee7bf74c324ba7f170b21b2a1f80ae",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 63,
+  "seg_cursor": 64,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -225,11 +225,6 @@
     "DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
       "note": "lane件>24h未理升己",
@@ -546,9 +541,14 @@
       "id": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-25T05:51:21Z"
+    },
+    {
+      "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-25T08:44:55Z"
     }
   ],
-  "debt_backlog": 49,
+  "debt_backlog": 56,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [
