@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:47:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线超24h未结，源件DEMAND-CAULDRON-62-QLV-20260911T200847Z.md触规则内自转升己。| 性态:静默超时escalate，非外力干预；当前仅摘要到件，未实测具体阻塞点，属触发未响应态。| 建议处置:依WAKE-PROTO细收后直裁决落账；若无他线联动需求，裸候不主动求应，完成OTP-02归档。| 锚:同系DEMAND-CAULDRON-63-XX线24h升己规则交叉校验。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1136,
+    "total_tokens": 1365,
+    "completion_tokens_details": {
+      "reasoning_tokens": 992
+    }
+  }
+}

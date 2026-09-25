@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:45:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h自升级，kind=lanesweep.escalate| 性态:WAKE-PROTO自动裁决流触发，系统级escalate；clock=VOID，时戳与响应态未实测| 建议处置:裸候不刷屏，依lanesweep规程复核活锁，次次落账，不越真机钱面| 锚:他线锚lanesweep.escalate为外源协议，锚定CORR-QLV-NUDGE-01源件；诚实边界：本件属触发已响应，非未触发",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1886,
+    "total_tokens": 2117,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1755
+    }
+  }
+}

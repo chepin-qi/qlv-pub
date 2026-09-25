@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:48:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫描触发，侦得任务件DEMAND-DIRECT-54-QLV-20260911T0705Z.md到件|性态:扫描阶段已毕，件体内容未展开，属触发待收态，非未触发；因单会话无工具且裸候，细收/裁决/落账均未推进|建议处置:维持裸候，待件体内容送达后按WAKE-PROTO续行细收→裁决→落账，不主动外求响应|锚:DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 873,
+    "total_tokens": 1093,
+    "completion_tokens_details": {
+      "reasoning_tokens": 735
+    }
+  }
+}

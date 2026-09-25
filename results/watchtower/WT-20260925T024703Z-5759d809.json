@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:46:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务侦得COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md| 性态:沉默指标件，属qlv线扫描落点；内容未展开，暂判静默态/未触发阈，与触发未响应待区分| 建议处置:按WAKE-PROTO细收裁决；确认无异常则落账归档，若属未响应则升单| 锚:COSIGN-METRIC他线/qlv扫规/20260911T0015Z",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 966,
+    "total_tokens": 1194,
+    "completion_tokens_details": {
+      "reasoning_tokens": 841
+    }
+  }
+}

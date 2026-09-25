@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:47:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane扫任务件侦得需求关闭文件DEMAND-CLOSE-56B-QLV-20260911T1805Z.md，时戳合规，属归档触发类。| 性态: 外周已触发，内部关闭条件及签章未实测，属「触发未响应」态，不臆测内容。| 建议处置: 按lanesweep规程裸候，不主动外呼；驻留扫线队列待自动归档，次次落账。| 锚: SYS-ARCHIVE-2026/QLV-LANE.",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 985,
+    "total_tokens": 1207,
+    "completion_tokens_details": {
+      "reasoning_tokens": 858
+    }
+  }
+}

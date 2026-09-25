@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:47:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫频发现DEMAND-CIRCLE-66-QLV-20260913T024210Z.md滞留超24h，触发自升级(escalate)。| 性态:队列单件超时未决，裸候无外部响应；未触发实测数据，区分「未触发vs触发未响应」边界成立。| 建议处置:按WAKE-PROTO落账，标记水位不刷屏；若需人工裁决则转下工位，维持裸候不主动求应。| 锚:AUTH-OTP-02(投必有件/次次落账/不越真机钱面)。",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 1011,
+    "total_tokens": 1234,
+    "completion_tokens_details": {
+      "reasoning_tokens": 870
+    }
+  }
+}

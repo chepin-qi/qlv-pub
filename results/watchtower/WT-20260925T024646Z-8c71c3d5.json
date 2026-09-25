@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T02:46:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[lane扫]侦得COSIGN-FLOOR-TAIL-REF-01尾签地脚参考件(20260911T0015Z) | 性态:扫线触达/未触发内容实测/待分拣归档 | 建议处置:按WAKE-PROTO细收→裁决→落账；该件系qlv线尾签地脚档，不越真机钱面，次次落账，不裸候 | 锚:主链COSIGN-REF及TAIL-FLOOR通用收分线",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 897,
+    "total_tokens": 1125,
+    "completion_tokens_details": {
+      "reasoning_tokens": 776
+    }
+  }
+}
