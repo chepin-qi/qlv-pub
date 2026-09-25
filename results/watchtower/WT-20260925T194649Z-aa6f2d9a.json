@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:46:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "O-S-2D-01-v0-20260911T123052Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h自升:O-S-2D-01-v0-20260911T123052Z.md| 性态:对象在lane扫中超阈值触发escalate，属超时挂起件，未触发人工裁决或他线响应，当前裸候，无遥测佐证内部活性| 建议处置:细收关联元数据，区分死件或需复核；若持续裸候，按PROTO执行冷落账| 锚:lanesweep.timeout.rule/void.clock/AUTH-OTP-02.honest-boundary",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 843,
+    "total_tokens": 1066,
+    "completion_tokens_details": {
+      "reasoning_tokens": 717
+    }
+  }
+}

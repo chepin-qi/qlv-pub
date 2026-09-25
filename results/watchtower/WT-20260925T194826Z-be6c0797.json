@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:47:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ORBIT-CAP-01-20260913T014500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep检出ORBIT-CAP-01-20260913T014500Z.md超24h未闭环，触发自升级(escalate)| 性态:超时自动升己；该件自0145Z滞留，状态待核验—属未触发、触发未响应或处理链断裂之一，clock=VOID| 建议处置:1)人工核查实际状态；2)按AUTH-OTP-02补录原因并次次落账，强制闭环；3)若lane漏扫则修正阈值| 锚:AUX-TIME-20260914T014500Z",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 2072,
+    "total_tokens": 2289,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1938
+    }
+  }
+}

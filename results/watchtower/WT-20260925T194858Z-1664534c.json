@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:48:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.escalate,ref ORBIT-CAP-03-QLV-01-20260913T001817Z.md,lane扫超24h自升级| 性态:扫描未闭环触发超时escalation,原始响应态未实测,判为触发未响应,待复核| 建议处置:执行WAKE-PROTO落账,裸候不追呼,原始工单挂起回扫| 锚:ORBIT-CAP-03线超24h自治规则触发,联动CAP-03主链复核",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 980,
+    "total_tokens": 1207,
+    "completion_tokens_details": {
+      "reasoning_tokens": 857
+    }
+  }
+}

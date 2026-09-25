@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:46:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "OMNI-INJECT-01-qlv-20260911T185404Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h触发自升级,ref OMNI-INJECT-01-qlv-20260911T185404Z.md| 性态:长时挂起escalate;未实测文件内状态,不辨预期长耗或异常死锁| 建议处置:①人工核查该注入点日志与进程心跳;②预期任务则调阈值或拆批;③非预期则清障回账| 锚:qlv线 lanesweep SOP-3.2\"逾24h未落账即升己\"|",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1177,
+    "total_tokens": 1402,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1051
+    }
+  }
+}

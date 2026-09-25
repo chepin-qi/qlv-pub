@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:46:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "CAPSULE-REQ-TIANYAN-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：lane扫任务件侦得CAPSULE-REQ-TIANYAN-LVLU-01.md到件。| 性态：文档型需求胶囊，当前仅触达ref层，未触发内容解析，属到件未拆封态；未实测其内部字段与依赖关系。| 建议处置：遵OTP-02裸候，不主动外求。待后续会话注入正文或拆封指令后再行细收裁决；若需即时处理，请切Capsule-Inspect工位拆封落账。| 锚：TI_ANY_ANCHOR_00（通用文档锚）",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 781,
+    "total_tokens": 995,
+    "completion_tokens_details": {
+      "reasoning_tokens": 646
+    }
+  }
+}

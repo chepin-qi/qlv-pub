@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:45:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md，属量子平台需求扫道触发件| 性态:已触发未细收；仅侦测到文件名与路径信号，内容未解析，无实测数据，属裸候态| 建议处置:按WAKE-PROTO推进至细收环节，解析该REQ文档内容边界与诚实边界，确认是否越真机钱面；次次落账后裸候，不主动求应| 锚:REQ-QUANTUM-LVLU-01",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1050,
+    "total_tokens": 1264,
+    "completion_tokens_details": {
+      "reasoning_tokens": 918
+    }
+  }
+}

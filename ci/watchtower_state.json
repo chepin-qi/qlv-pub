@@ -31,17 +31,17 @@
       0,
       0,
       0,
-      1,
       0,
       0,
-      0,
+      4,
+      4,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": 7,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-25",
-    "beacon_comments": 81
+    "beacon_comments": 89
   },
-  "qgl_head": "360630e5729346d0e566112ca29ce552af5de8fd",
+  "qgl_head": "8bb7ea41ae593b04c7c8be281afee0201f6bfca1",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 94,
+  "seg_cursor": 95,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -246,7 +246,15 @@
     "NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
     "NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
     "NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
-    "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md"
+    "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+    "ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+    "CAPSULE-REQ-TIANYAN-LVLU-01.md",
+    "O-S-2D-01-v0-20260911T123052Z.md",
+    "OMNI-INJECT-01-qlv-20260911T185404Z.md",
+    "ORBIT-CAP-01-20260913T014500Z.md",
+    "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+    "OTP-LGT-EVAL-EXCITE-01-qlv.md",
+    "OTP-LGT-EXCITE-V2-qlv-lgt.md"
   ],
   "debt_queue": [
     {
@@ -632,6 +640,46 @@
     {
       "id": "lanesweep:NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
       "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:CAPSULE-REQ-TIANYAN-LVLU-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:O-S-2D-01-v0-20260911T123052Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:OMNI-INJECT-01-qlv-20260911T185404Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-LGT-EVAL-EXCITE-01-qlv.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-LGT-EXCITE-V2-qlv-lgt.md",
+      "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
   ],

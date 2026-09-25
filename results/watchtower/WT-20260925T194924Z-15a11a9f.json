@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-25T19:48:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "OTP-LGT-EVAL-EXCITE-01-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ref=OTP-LGT-EVAL-EXCITE-01-qlv.md，扫描到件 | 性态:未实测，内容未触发细收，属 VOID-clock 下的裸候待决态 | 建议处置:依 WAKE-PROTO 推进细收；无进一步触发则保持裸候，不主动求应，候裁决后落账 | 锚:AUTH-OTP-02「投必有件/次次落账」; 米田边律他线锚",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1057,
+    "total_tokens": 1271,
+    "completion_tokens_details": {
+      "reasoning_tokens": 936
+    }
+  }
+}
