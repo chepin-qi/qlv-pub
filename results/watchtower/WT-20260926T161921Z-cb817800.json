@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T16:19:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-KEYUNIFY-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属覆写位触发，ref锚定lanetask:ANS-KEYUNIFY-QLV-01.md，debtengine.seat执行覆写。| 性态:单会话无工具工位，未触发外部响应，属自驱覆写类债件，诚实边界内无实测数值。| 建议处置:校验覆写位权限与目标文件锚完整性，确认后执行落账，静默值守不主动寻求回应。| 锚:debtengine.seat/SI1/ANS-KEYUNIFY-QLV-01.md",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 627,
+    "total_tokens": 847,
+    "completion_tokens_details": {
+      "reasoning_tokens": 496
+    }
+  }
+}
