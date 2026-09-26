@@ -29,8 +29,8 @@
       0,
       0,
       0,
+      1,
       0,
-      8,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 49
+    "beacon_comments": 50
   },
   "qgl_head": "22855754d4a9989e1ce2931bee6b537979f65dc3",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 135,
+  "seg_cursor": 136,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -297,11 +297,6 @@
     "auto-otp-20260906T143724-c5aa40e9.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-KEY-FINGERPRINT-BOOK.md",
       "note": "lane任务件候机答/转派",
@@ -978,9 +973,14 @@
       "id": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-09-26T07:39:18Z"
+    },
+    {
+      "id": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-26T10:30:39Z"
     }
   ],
-  "debt_backlog": 112,
+  "debt_backlog": 119,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [

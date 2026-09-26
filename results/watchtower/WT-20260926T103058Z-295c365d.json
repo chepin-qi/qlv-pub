@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:30:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: SI1债自驱指令将lanetask:ANS-KEY-AUDIT-69-QLV-01.md指向覆写位 | 性态: 审计键覆写待决，触发态已成立，执行态未实测，存在配置漂移与签名越界风险 | 建议处置: 暂停落账，核验SI1权限哈希与文件版本锚，双轨留痕后由AUTH-OTP-02裁决 | 锚: REF-QLV-WAKE-PROTO/覆写必审",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1013,
+    "total_tokens": 1239,
+    "completion_tokens_details": {
+      "reasoning_tokens": 895
+    }
+  }
+}
