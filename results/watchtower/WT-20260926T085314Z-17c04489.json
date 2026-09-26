@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T08:52:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-orbit-cap03-ring自CAP-03环巡归升至第5级| 性态:自发债候高阶堆叠,环巡归轨触发第5级,落账响应缺失,处细收向裁决临界| 建议处置:依AUTH-OTP-02次次落账,即行裸候裁决归档或转终裁,不得继续刷屏| 锚:ledger-core-主账簿/debt-ring-l5",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1251,
+    "total_tokens": 1468,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1140
+    }
+  }
+}

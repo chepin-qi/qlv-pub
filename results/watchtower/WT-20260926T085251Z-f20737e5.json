@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T08:52:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-orbit-cap02-lgt于CAP-02下下站行使旁路权，裸候无应，升至第5级促件| 性态:旁路权挂起，链路悬置，属裸候态级联escalation| 建议处置:依裸候原则不主动外呼，次次落账；维持第5级标记，候满或回环即结| 锚:CAP-02轨道调度母线/旁路授让协议线",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1477,
+    "total_tokens": 1699,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1356
+    }
+  }
+}

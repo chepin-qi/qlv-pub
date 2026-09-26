@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T08:53:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-seg9-verify 塔⑨段五件效验(runs直读)之债候促件升至第5级。| 性态:escalating nudge；前四级落账或裸候状态未明，本次仅为督催信号，无 runs 直读实测回流，属「未触发」抑或「触发未响应」待辨，不臆造数。| 建议处置:①回溯前四级是否次次落账；②无实测即标未触发/未响应，不编效验结果；③五级仍裸候则转死账备案或人工裁决，不越真机钱面。| 锚:runs直读效验规程线/塔段债务追索基线。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1257,
+    "total_tokens": 1481,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088
+    }
+  }
+}
