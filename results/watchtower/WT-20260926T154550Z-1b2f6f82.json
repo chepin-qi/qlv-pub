@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:45:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T035355-571fc3d6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260907T035355-571fc3d6.json，属自动化OTP轨道文件落位。| 性态:文件已落盘，呈待调度态；未实测触发执行，无运行态响应反馈，仅获件影。| 建议处置:细收文件哈希与大小，核验lanesweep调度队列；若属预期任务则落账归档，非预期则冻结待审。| 锚:lane扫任务件锚定otp-20260907T035355-571fc3d6文件级标识|需交叉锚定调度日志与任务下发源链。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 677,
+    "total_tokens": 894,
+    "completion_tokens_details": {
+      "reasoning_tokens": 534
+    }
+  }
+}

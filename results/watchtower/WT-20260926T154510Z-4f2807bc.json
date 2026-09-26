@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:44:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T033242-4230bd24.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp任务件(auto-otp-20260907T033242-4230bd24.json)| 性态:扫描触达，件体待细收，未实测其内文，属「侦得未启」态| 建议处置:执行细收→校验json完整性→裁决内容→落账登记；裸候，不主动外呼| 锚:lanesweep.task/auto-otp序列/VOID时钟",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 909,
+    "total_tokens": 1124,
+    "completion_tokens_details": {
+      "reasoning_tokens": 805
+    }
+  }
+}

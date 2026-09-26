@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:45:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T035040-d3e63533.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：lane扫任务件侦得JSON文件(ref:auto-otp-20260907T035040-d3e63533.json)，内部触发与解析状态未实测。| 性态：单文件落点，无并行碰撞；属「侦得未触」，不臆测有效载荷及响应链。| 建议处置：按AUTH-OTP-02落账备查，置裸候不主动求应；待他线锚回或细收实测后补裁决。| 锚：lane扫/OTP-02/米田边律。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 695,
+    "total_tokens": 910,
+    "completion_tokens_details": {
+      "reasoning_tokens": 572
+    }
+  }
+}

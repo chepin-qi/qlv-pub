@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:44:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T030238-d074d2ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫线侦得auto-otp JSON任务件(ref:d074d2ba.json)|性态:文件态未启封，未实测不编数；[lane扫]自动侦收，触发状态待核(未触发/触发未响应未明)|建议处置:遵WAKE-PROTO转细收，核查JSON内auto-otp指令与AUTH-OTP-02边界，无异常则落账|锚:抛锚auto-otp处理线或文件系统审计节点",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1043,
+    "total_tokens": 1258,
+    "completion_tokens_details": {
+      "reasoning_tokens": 929
+    }
+  }
+}

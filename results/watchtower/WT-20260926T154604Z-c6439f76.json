@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:45:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T042614-7072c2ec.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep侦得auto-otp文件(ref:auto-otp-20260907T042614-7072c2ec.json)| 性态:系统自收任务件，属自动触发器落盘，未涉真机钱面，无实测响应数据| 建议处置:执行WAKE-PROTO扫描→细收→裁决→落账；按AUTH-OTP-02裸候，不主动唤应，归档备查| 锚:qlv主栈/void-clock同步",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 928,
+    "total_tokens": 1145,
+    "completion_tokens_details": {
+      "reasoning_tokens": 815
+    }
+  }
+}

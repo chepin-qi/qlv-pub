@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:45:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T034627-57cc6427.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件到件，ref=auto-otp-20260907T034627-57cc6427.json，时标20260907T034627，仅侦获壳体，内文未展开，无实测数。| 性态:静默到件态；未触发执行/无清扫输出，无法区分「未触发」与「触发未响应」。| 建议处置:依裸候原则不主动拉取；待调度令牌下发后细收内文并补实测落账，逾期无调度则僵件归档。| 锚:lanesweep.task/auto-otp-20260907T034627-57cc6427.json/VOID",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1032,
+    "total_tokens": 1247,
+    "completion_tokens_details": {
+      "reasoning_tokens": 883
+    }
+  }
+}
