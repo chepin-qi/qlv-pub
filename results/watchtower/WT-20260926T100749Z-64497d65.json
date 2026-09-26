@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:07:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T140541-afad5c06.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp-20260906T140541-afad5c06.json|性态:仅侦得件，未触发执行流，无响应态可录；无实测数，属裸候|建议处置:按OTP-02裸候，不刷屏不唤响；次次落账，待下轮lane扫或外部裁决触发起账|锚:file/lane.otp/20260906/auto-otp-20260906T140541-afad5c06.json",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1184,
+    "total_tokens": 1399,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1066
+    }
+  }
+}

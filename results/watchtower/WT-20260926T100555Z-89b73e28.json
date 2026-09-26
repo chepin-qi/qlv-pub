@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:05:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T120206-7c5ccb30.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 auto-otp-20260906T120206-7c5ccb30.json，单文件落点，时标20260906T120206。| 性态:件已触发且响应「侦得」，未报异常；内容未展开实测，不臆测字段数。当前态待细收裁决，合AUTH-OTP-02「投必有件」之形，未落账。| 建议处置:①细收：校验JSON结构及诚实边界；②裁决：确认无越真机钱面后执行lane扫；③落账：次次落账，不裸候。| 锚:孪生线→otp-ledger/米田边律收边。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1087,
+    "total_tokens": 1304,
+    "completion_tokens_details": {
+      "reasoning_tokens": 926
+    }
+  }
+}

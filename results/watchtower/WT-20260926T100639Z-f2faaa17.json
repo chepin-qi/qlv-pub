@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:06:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T123352-97fafbe5.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-OTP任务件(ref:auto-otp-20260906T123352-97fafbe5.json)| 性态:扫描到件,未细收,未实测json内数据,不编触发/响应态,现裸候| 建议处置:按WAKE-PROTO细收→核查载荷完整性→依AUTH-OTP-02投件校验→次次落账| 锚:lanesweep.task标准线;AUTH-OTP-02投件律",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1205,
+    "total_tokens": 1420,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1092
+    }
+  }
+}
