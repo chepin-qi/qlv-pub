@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:47:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat接SI1自驱覆写件，ref指向ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md覆写位，属席位状态变更。| 性态:lanesweep扫描触发的自驱覆写，未实测原始文件与响应态，诚实边界内仅认定为待裁决指令，不编数。| 建议处置:核验lanesweep原稿与SI1指令一致性；覆写前做影子校验；确认权限后落账，不越真机钱面。| 锚:ref=lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md; 米田边律锚:Z线时间戳20260912T153227Z固位。",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1281,
+    "total_tokens": 1513,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1111
+    }
+  }
+}
