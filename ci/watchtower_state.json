@@ -1,1006 +1,1006 @@
 {
-  "beacon_max": 5564921753,
-  "qfa_head": "b5f257f74928533e9a967e70c4593a125fa34c98",
-  "quafu": {
-    "8CA608102028586C": "0",
-    "8BB169201FA3F5D4": "0",
-    "8E6127E015189AA6": "0",
-    "8E61280013FE83E5": "0",
-    "8E612810352A8CCD": "0",
-    "8E61283018EF220E": "0",
-    "8E612850089BCBEE": "0",
-    "8E6128702B8455CA": "0",
-    "8E6128902737D732": "0",
-    "8E6128B00D6E33B1": "0"
-  },
-  "faces": {
-    "lgt-line#1": 4,
-    "vci-cfts#1": 3,
-    "vci-inbox#3": 6,
-    "vci-usrm#21": 2,
-    "vci-ucif2#1": 2,
-    "vci-vinf#6": 2,
-    "vci-inbox#2": 0
-  },
-  "lane_inbox_count": 223,
-  "cadence": {
-    "v": "METER-CADENCE-01-cand",
-    "w12": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0
-    ],
-    "sigma": 1.0,
-    "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
-  },
-  "autoresp": {
-    "date": "2026-09-25",
-    "calls": 1,
-    "seen_refs": [
-      "qfa.beat|ab72b5b6",
-      "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json"
-    ],
-    "last_fp": "1641c46c2dbc"
-  },
-  "lane_inbox_count_qlvlab": 7,
-  "loops_open": 18,
-  "post_budget": {
-    "date": "2026-09-25",
-    "beacon_comments": 100
-  },
-  "qgl_head": "959a9547a9ae6e1e155c215b3642f52a0ce09f14",
-  "_probe_err": {
-    "ci-inbox/commits": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(lgt-1)": {
-      "n": 2,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(cisvr-2)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(qfa-1)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(vinf-1)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    },
-    "chepin-ai/ci-inbox/commits(ucif2)": {
-      "n": 1,
-      "last": "HTTP Error 404: Not Found"
-    }
-  },
-  "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 106,
-  "keydark": {
-    "fails": 0,
-    "dark": false
-  },
-  "keyhealth": {
-    "login": "chepin-qi",
-    "via": "QI_PAT",
-    "dead": false
-  },
-  "secrets_meta": {
-    "AI_FULL_PAT": "2026-09-11T20:18:51Z",
-    "FED_PAT": "2026-09-12T04:36:13Z",
-    "FORMAFLOW_CMD_AUTH": "2026-09-09T08:35:14Z",
-    "KIMI_API_KEY_VCI1": "2026-09-06T11:54:26Z",
-    "QI_PAT": "2026-09-12T04:36:11Z",
-    "QUAFU_TOKEN": "2026-09-06T11:54:27Z",
-    "TOWER_PAT": "2026-09-15T03:27:33Z"
-  },
-  "nudge_cd": {
-    "debt-20260912-lgt-kscan": {
-      "t": 1790329622.776161,
-      "n": 4
-    },
-    "debt-20260912-keydark-drill": {
-      "t": 1790329622.7761667,
-      "n": 4
-    },
-    "debt-20260912-inbox-purge": {
-      "t": 1790340021.5537498,
-      "n": 4
-    },
-    "debt-20260912-tower-verify": {
-      "t": 1790340021.5537562,
-      "n": 4
-    },
-    "debt-20260912-edge-throttle": {
-      "t": 1790340021.5537622,
-      "n": 4
-    },
-    "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790340021.5537639,
-      "n": 4
-    },
-    "debt-20260912-orbit-cap02-lgt": {
-      "t": 1790350387.9397933,
-      "n": 4
-    },
-    "debt-20260912-orbit-cap03-ring": {
-      "t": 1790350387.939799,
-      "n": 4
-    },
-    "debt-20260912-tower-seg9-verify": {
-      "t": 1790350387.939801,
-      "n": 4
-    },
-    "debt-20260912-exp016-xchk": {
-      "t": 1790350387.9398515,
-      "n": 4
-    },
-    "debt-20260912-os3d-lvlu-dist": {
-      "t": 1790361077.2324212,
-      "n": 4
-    }
-  },
-  "nudge_backlog": 0,
-  "orbit_done": [
-    "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
-    "ORBIT-CAP-01-20260913T014500Z.md"
+ "beacon_max": 5564921753,
+ "qfa_head": "b5f257f74928533e9a967e70c4593a125fa34c98",
+ "quafu": {
+  "8CA608102028586C": "0",
+  "8BB169201FA3F5D4": "0",
+  "8E6127E015189AA6": "0",
+  "8E61280013FE83E5": "0",
+  "8E612810352A8CCD": "0",
+  "8E61283018EF220E": "0",
+  "8E612850089BCBEE": "0",
+  "8E6128702B8455CA": "0",
+  "8E6128902737D732": "0",
+  "8E6128B00D6E33B1": "0"
+ },
+ "faces": {
+  "lgt-line#1": 4,
+  "vci-cfts#1": 3,
+  "vci-inbox#3": 6,
+  "vci-usrm#21": 2,
+  "vci-ucif2#1": 2,
+  "vci-vinf#6": 2,
+  "vci-inbox#2": 0
+ },
+ "lane_inbox_count": 223,
+ "cadence": {
+  "v": "METER-CADENCE-01-cand",
+  "w12": [
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0,
+   0
   ],
-  "lanesweep_seen": [
-    "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
-    "ANS-CAULDRON-PULSE-QLV-01.md",
-    "ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
-    "ANS-CIRCLE-66-QLV-01.md",
-    "ANS-DEBT-72-QLV-01.md",
-    "ANS-DEBT-75-QLV-01.md",
-    "ANS-DEMAND-KEYFP-ESC-qlv.md",
-    "ANS-DRILL-0919-QLV-01.md",
-    "ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
-    "ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
-    "ANS-EVAL-WAVE-01.md",
-    "ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
-    "ANS-FIELD-SEAT.md",
-    "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
-    "ANS-FLOOR-SHA-SRC-01.md",
-    "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
-    "ANS-KEY-AUDIT-69-QLV-01.md",
-    "ANS-KEY-FINGERPRINT-BOOK.md",
-    "ANS-KEYUNIFY-QLV-01.md",
-    "ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
-    "ANS-OCTA-67-QLV-01-20260913T104013Z.md",
-    "ANS-OCTA-67-QLV-01.md",
-    "ANS-OTP64-QLV-01.md",
-    "ANS-PENTA-lgt-20260913T172139Z.md",
-    "ANS-PENTA-lvlu-20260913T170511Z.md",
-    "ANS-PENTA-qtlv-20260913T131611Z.md",
-    "ANS-QLV-COSIGN-FETCH-01.md",
-    "ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
-    "ANS-QLV-SPECTRA-01-R2.md",
-    "ANS-QLV-SPECTRA-01.md",
-    "ANS-QLV-STAMP-CLOSE-01.md",
-    "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
-    "ANS-SI70-QLV-01.md",
-    "ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
-    "ANS-TASK-PHI-CHAIN-02.md",
-    "ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
-    "ANS-WAVE-68-QLV-01-20260913T104013Z.md",
-    "ANS-WAVE-68-QLV-01.md",
-    "CADERING-STAMP-01-cisvr-20260911T1740Z.md",
-    "CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
-    "CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
-    "COSIGN-FLOOR-QLV-01-2026-09-10.md",
-    "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
-    "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
-    "DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
-    "DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
-    "DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
-    "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
-    "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
-    "DEMAND-DRILL-0919-SELF-QLV-01.md",
-    "DEMAND-KEY69-QLV-20260914T121843Z.md",
-    "DEMAND-KEYFP-ESC-qlv-01.md",
-    "DEMAND-OCTA-67-QLV-20260913T050141Z.md",
-    "DEMAND-OTP64-QLV-20260911T2024Z.md",
-    "DEMAND-SI70-QLV-20260914T134936Z.md",
-    "DEMAND-WAVE-68-QLV-20260913T084219Z.md",
-    "DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
-    "DIRECTFETCH-KSCAN-SRC-QLV-01.md",
-    "DISC-NEUMECH-01-qtlv-20260913T131611Z.md",
-    "DISC-SI-OMNI-DRIVE-01-lgt-20260913T170724Z.md",
-    "DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
-    "DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md",
-    "DRIVE-qlv-20260917T003456Z-9275cefa2228.md",
-    "DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
-    "DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md",
-    "DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
-    "DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
-    "DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
-    "DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
-    "DRIVE-qlv-20260922T000128Z-494de714756c.md",
-    "DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
-    "DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
-    "DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
-    "DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
-    "DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
-    "DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
-    "EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
-    "FLOOR-TAIL-REF-01-usrm.md",
-    "FRAC-01-QUERY-qfa-20260920T144316Z.md",
-    "FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
-    "FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
-    "HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
-    "IGNITE-BAIT-58-QLV-20260911T1845Z.md",
-    "KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
-    "NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
-    "NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
-    "NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
-    "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
-    "ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
-    "CAPSULE-REQ-TIANYAN-LVLU-01.md",
-    "O-S-2D-01-v0-20260911T123052Z.md",
-    "OMNI-INJECT-01-qlv-20260911T185404Z.md",
-    "ORBIT-CAP-01-20260913T014500Z.md",
-    "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
-    "OTP-LGT-EVAL-EXCITE-01-qlv.md",
-    "OTP-LGT-EXCITE-V2-qlv-lgt.md",
-    "OTP-LGT-SI5-VOTE-01-lgt.md",
-    "OTP-QTLV-QLV-X11-02.md",
-    "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
-    "OTP-WAKE-QLV-01-usrm.md",
-    "PHI-CHAIN-PROBE-01-qtlv-47428889.md",
-    "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
-    "R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
-    "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md"
+  "sigma": 1.0,
+  "lock": null,
+  "dominant_bin": null,
+  "C_streak": 0,
+  "verdict": "进行式"
+ },
+ "autoresp": {
+  "date": "2026-09-26",
+  "calls": 1,
+  "seen_refs": [
+   "qfa.beat|ab72b5b6",
+   "lane.drop|lanes/qlv/inbox:cisvr-draft-beat37-20260909T1608Z-qlv.json"
   ],
-  "debt_queue": [
-    {
-      "id": "lanetask:ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-FLOOR-SHA-SRC-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-KEY-FINGERPRINT-BOOK.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-KEYUNIFY-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-OCTA-67-QLV-01-20260913T104013Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-OCTA-67-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-OTP64-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-PENTA-lgt-20260913T172139Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-PENTA-lvlu-20260913T170511Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-QLV-COSIGN-FETCH-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-QLV-SPECTRA-01-R2.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-QLV-SPECTRA-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-QLV-STAMP-CLOSE-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-SI70-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-TASK-PHI-CHAIN-02.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ANS-WAVE-68-QLV-01-20260913T104013Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-WAVE-68-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:CADERING-STAMP-01-cisvr-20260911T1740Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DEMAND-DRILL-0919-SELF-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DEMAND-KEY69-QLV-20260914T121843Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DEMAND-KEYFP-ESC-qlv-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DEMAND-OCTA-67-QLV-20260913T050141Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DEMAND-OTP64-QLV-20260911T2024Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DEMAND-SI70-QLV-20260914T134936Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DEMAND-WAVE-68-QLV-20260913T084219Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DIRECTFETCH-KSCAN-SRC-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DISC-NEUMECH-01-qtlv-20260913T131611Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DISC-SI-OMNI-DRIVE-01-lgt-20260913T170724Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260917T003456Z-9275cefa2228.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260922T000128Z-494de714756c.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:FLOOR-TAIL-REF-01-usrm.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:FRAC-01-QUERY-qfa-20260920T144316Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:IGNITE-BAIT-58-QLV-20260911T1845Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:CAPSULE-REQ-TIANYAN-LVLU-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:O-S-2D-01-v0-20260911T123052Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:OMNI-INJECT-01-qlv-20260911T185404Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:OTP-LGT-EVAL-EXCITE-01-qlv.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:OTP-LGT-EXCITE-V2-qlv-lgt.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:OTP-LGT-SI5-VOTE-01-lgt.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:OTP-QTLV-QLV-X11-02.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:OTP-WAKE-QLV-01-usrm.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:PHI-CHAIN-PROBE-01-qtlv-47428889.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    }
-  ],
-  "seat_pending": [
-    {
-      "id": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-23T18:28:48Z"
-    },
-    {
-      "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-24T14:53:08Z"
-    },
-    {
-      "id": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
-      "note": "lane件>24h未理升己",
-      "ts": "2026-09-24T18:29:12Z"
-    },
-    {
-      "id": "lanetask:ANS-CIRCLE-66-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-24T21:21:56Z"
-    },
-    {
-      "id": "lanetask:ANS-DEBT-72-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-25T00:13:20Z"
-    },
-    {
-      "id": "lanetask:ANS-DEBT-75-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-25T02:58:37Z"
-    },
-    {
-      "id": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-25T05:51:21Z"
-    },
-    {
-      "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-25T08:44:55Z"
-    },
-    {
-      "id": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
-      "note": "lane件>24h未理升己",
-      "ts": "2026-09-25T11:38:24Z"
-    },
-    {
-      "id": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
-      "note": "lane件>24h未理升己",
-      "ts": "2026-09-25T14:31:23Z"
-    },
-    {
-      "id": "lanetask:ANS-EVAL-WAVE-01.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-25T17:39:12Z"
-    },
-    {
-      "id": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
-      "note": "lane件>24h未理升己",
-      "ts": "2026-09-25T20:13:55Z"
-    },
-    {
-      "id": "lanetask:ANS-FIELD-SEAT.md",
-      "note": "lane任务件候机答/转派",
-      "ts": "2026-09-25T23:05:39Z"
-    }
-  ],
-  "debt_backlog": 91,
-  "lane_inbox_count_ci": 28,
-  "ucif2_seen": [],
-  "fedeye_seen": [
-    "02a969e2c7ad",
-    "0b295b5403e1",
-    "2fd1808a97ec",
-    "3880f599b706",
-    "4025218b4ae9",
-    "4cba1ee37021",
-    "4cd099ddce15",
-    "6acc81278dac",
-    "7103be47d3fc",
-    "776a14708507",
-    "7c9ab9ab6de9",
-    "896c2a09e5f2",
-    "9bb8a9ebdf49",
-    "a70d844d1b27",
-    "aaa0228f4e36",
-    "b18fbfea5eac",
-    "b1ee85826768",
-    "b911af7060f1",
-    "e46fd6b885ed",
-    "eb2e633c9171",
-    "0699f04f6066",
-    "078cd645b76a",
-    "1204fde4a8c1",
-    "3341f04ea4f8",
-    "3b882f682c9e",
-    "40364b9a01ad",
-    "4880d1f25203",
-    "7ef4463ec1ac",
-    "8a90571d34b9",
-    "a1eb19fe48cb",
-    "a6fdad28ef26",
-    "b25e57e3fa8e",
-    "b95bc9c51ffb",
-    "c13ed68d6163",
-    "c889778181eb",
-    "cd14242fae78",
-    "d766173674cd",
-    "dee84272b508",
-    "e37a29b82387",
-    "fcf67140a8ce",
-    "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
-    "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
-    "ANS-FLOOR-SHA-SRC-01.md",
-    "ANS-QLV-COSIGN-FETCH-01.md",
-    "ANS-QLV-SPECTRA-01-R2.md",
-    "ANS-QLV-SPECTRA-01.md",
-    "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
-    "COSIGN-FLOOR-QLV-01-2026-09-10.md",
-    "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
-    "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
-    "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
-    "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
-    "DRIVE-qlv-20260911T000027Z-540c32788231.md",
-    "DRIVE-qlv-20260911T000316Z-439a5458f72f.md",
-    "DRIVE-qlv-20260911T000449Z-f9f9d4655150.md",
-    "FLOOR-TAIL-REF-01-usrm.md",
-    "O-S-2D-01-v0-20260911T123052Z.md",
-    "OTP-LGT-EVAL-EXCITE-01-qlv.md",
-    "OTP-LGT-EXCITE-V2-qlv-lgt.md",
-    "OTP-LGT-SI5-VOTE-01-lgt.md",
-    "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
-    "OTP-WAKE-QLV-01-usrm.md",
-    "PARETO-R1-8389c7f61028.md",
-    "PARETO-R1-a7436295c9f9.md",
-    "PARETO-R1-eb20cefabf86.md",
-    "QGL-ASK-AGG-104.md",
-    "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
-    "RESP-LVLU-QLV-02-20260911T030404Z.md",
-    "RESP-LVLU-QLV-03-20260911T092950Z.md",
-    "RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
-    "SILENCE-METRIC-DRAFT-01-usrm.md",
-    "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
-    "SPEC-FLOOR-OBS-01-v11-usrm-20260911T0230Z.md",
-    "SPECTRA-OBS-01-seed-v2-cisvr-20260911T0240Z.md",
-    "SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
-    "TASK-QLV-SPECTRA-01-20260911T0155Z.md",
-    "TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
-    "TASK-USRM-QLV-SHA-ANCHOR-02.json",
-    "auto-otp-20260906T120-b99531eb.json",
-    "auto-otp-20260906T120206-7c5ccb30.json",
-    "auto-otp-20260906T120411-34cfa927.json",
-    "auto-otp-20260906T123352-97fafbe5.json",
-    "auto-otp-20260906T130552-2772744b.json",
-    "auto-otp-20260906T134248-de925e26.json",
-    "auto-otp-20260906T140133-7de41fd7.json",
-    "auto-otp-20260906T140541-afad5c06.json",
-    "auto-otp-20260906T143724-c5aa40e9.json",
-    "auto-otp-20260906T145243-379ca852.json",
-    "auto-otp-20260906T161540-aab562b3.json",
-    "auto-otp-20260907T013326-9aa7605a.json",
-    "auto-otp-20260907T014216-b0aee5fe.json",
-    "auto-otp-20260907T021520-c22a1096.json",
-    "auto-otp-20260907T023130-1322f5bf.json",
-    "auto-otp-20260907T025457-13daeb6d.json",
-    "auto-otp-20260907T025647-qlv.json",
-    "auto-otp-20260907T025859-7fab1642.json",
-    "auto-otp-20260907T030238-d074d2ba.json",
-    "auto-otp-20260907T033242-4230bd24.json",
-    "auto-otp-20260907T034627-57cc6427.json",
-    "auto-otp-20260907T035040-d3e63533.json",
-    "auto-otp-20260907T035355-571fc3d6.json",
-    "auto-otp-20260907T042614-7072c2ec.json",
-    "auto-otp-20260907T044346-4f93b720.json",
-    "auto-otp-20260907T044437-b6977db6.json",
-    "auto-otp-20260907T045954-dce9ce52.json",
-    "auto-otp-20260907T050202-d3c3f789.json",
-    "auto-otp-20260907T051058-04a90281.json",
-    "auto-otp-20260907T055438-a74076e3.json",
-    "auto-otp-20260907T061025-155887ac.json",
-    "auto-otp-20260907T061455-99f49516.json",
-    "auto-otp-20260907T062217-1c3bfea0.json",
-    "auto-otp-20260907T064442-651351fb.json",
-    "auto-otp-20260907T064936-ae976f0e.json",
-    "auto-otp-20260907T070638-f7fa21f7.json",
-    "auto-otp-20260907T074654-f3b91b1e.json",
-    "auto-otp-20260907T075648-e2b95c62.json",
-    "auto-otp-20260907T081959-e56843a4.json",
-    "auto-otp-20260907T090329-73a5795d.json",
-    "auto-otp-20260907T090510-705c2898.json",
-    "auto-otp-20260907T092514-339188d0.json",
-    "auto-otp-20260907T095814-423b8c95.json",
-    "auto-otp-20260907T103900-b25e4775.json",
-    "auto-otp-20260907T113541-a59024cc.json",
-    "auto-otp-20260907T121704-5ad2ad60.json",
-    "auto-otp-20260907T123306-f33a4f36.json",
-    "auto-otp-20260907T130330-0e7bf7d5.json",
-    "auto-otp-20260908T031917-42571d98.json",
-    "auto-otp-20260908T042654-a6794e84.json",
-    "auto-otp-20260908T052618-f161e9fe.json",
-    "auto-otp-20260908T065150-1af7865b.json",
-    "auto-otp-20260908T073745-3c79f836.json",
-    "auto-otp-20260908T083831-9e21ae09.json",
-    "auto-otp-20260908T091036-5848a1dc.json",
-    "auto-otp-20260908T093927-d3e2f2ce.json",
-    "auto-otp-20260908T101209-b89946f6.json",
-    "auto-otp-20260908T105119-b399ca48.json",
-    "auto-otp-20260908T112611-8253a535.json",
-    "auto-otp-20260908T120102-3313a701.json",
-    "auto-otp-20260908T123242-d3eeee01.json",
-    "auto-otp-20260908T130338-49d63f2a.json",
-    "auto-otp-20260908T140741-e283f5ba.json",
-    "auto-otp-20260908T150754-7e8ddcac.json",
-    "auto-otp-20260909T030300-d3a71751.json",
-    "auto-otp-20260909T040647-eeac0398.json",
-    "auto-otp-20260909T052134-6087b0be.json",
-    "auto-otp-20260909T064741-6a4cfb95.json",
-    "auto-otp-20260909T065948-e2bb5e8b.json",
-    "auto-otp-20260909T074317-fff9acca.json",
-    "auto-otp-20260909T080238-41f2b539.json",
-    "auto-otp-20260909T084134-d33e4fc3.json",
-    "auto-otp-20260909T085252-97d04b65.json",
-    "auto-otp-20260909T091440-29d878a2.json",
-    "auto-otp-20260909T093657-9cc26efa.json",
-    "auto-otp-20260909T105415-b00dbb4d.json",
-    "auto-otp-20260909T113937-526e0172.json",
-    "auto-otp-20260909T130417-8689e132.json",
-    "auto-otp-20260909T132308-740c32e7.json",
-    "auto-otp-20260909T135327-37d6d445.json",
-    "cisvr-degrade-mailman-20260909T154841-qlv.json",
-    "cisvr-direct-beat35-20260909T135238-qlv.json",
-    "cisvr-draft-beat37-20260909T1608Z-qlv.json",
-    "lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
-    "lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
-    "otp-20260910T232733Z-浪涌一号-lvlu.md",
-    "otp-20260911T022116Z-浪涌三号-lvlu.md",
-    "qfa-mech-call-01-20260910T223007Z.md",
-    "qfa-resp-eval2-20260910T225907Z.md",
-    "qfa-resp-govpair-20260910.md",
-    "qfa-resp-qlv-03-20260910T232910Z.md",
-    "qfa-resp-qlv-04-20260910T234412Z.md",
-    "qfa-resp-qlv-05-20260911T000033Z.md",
-    "qfa-ripple-ack-20260911T010213Z.md",
-    "qfa-si5ring-answer-20260910T231548Z.md",
-    "1789053462-WAKE-QLV-abaaebf8.md",
-    "OTP-VINF-RIPPLE-FWD-01-vinf.md",
-    "cisvr-nudge-silence-metric-01-20260911T0000Z.md",
-    "cisvr-qtfix01-pointer-20260911T0120Z.md",
-    "ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
-    "f54c34a5742a",
-    "e754dd52f70a",
-    "788906cf4e48",
-    "a16da31fe16d",
-    "c1bcbdcec5fe",
-    "4068aa7978ba",
-    "d96bc4057c27",
-    "47582fd3f84d",
-    "7b86a8ef6e0b",
-    "9772edd08073",
-    "12b1af9452e9",
-    "4340be70a7d9",
-    "605a203555f8",
-    "a8d20b0044f3",
-    "9db267f75313",
-    "472046d1af76",
-    "10e158bb6b8f",
-    "d727295ba253",
-    "31f5f7e3b9d5",
-    "1ca93483184c",
-    "10231c308cc2",
-    "bf1a60f9d6aa",
-    "fc99ff42d29e",
-    "a2342cc83227",
-    "3fb2d655cfb5",
-    "9700855b3e5f",
-    "7c29464c45eb",
-    "0a54a2b461bb",
-    "4e0519232d3a",
-    "b0b66be64088",
-    "415fbb2ca1ce"
-  ],
-  "fedeye_stale_mark": "2026-09-11T19:14:03Z"
+  "last_fp": "1641c46c2dbc"
+ },
+ "lane_inbox_count_qlvlab": 7,
+ "loops_open": 18,
+ "post_budget": {
+  "date": "2026-09-25",
+  "beacon_comments": 100
+ },
+ "qgl_head": "959a9547a9ae6e1e155c215b3642f52a0ce09f14",
+ "_probe_err": {
+  "ci-inbox/commits": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(lgt-1)": {
+   "n": 2,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(cisvr-2)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(qfa-1)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(vinf-1)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  },
+  "chepin-ai/ci-inbox/commits(ucif2)": {
+   "n": 1,
+   "last": "HTTP Error 404: Not Found"
+  }
+ },
+ "_probe_err_sig": "d0529ec96f",
+ "seg_cursor": 107,
+ "keydark": {
+  "fails": 0,
+  "dark": false
+ },
+ "keyhealth": {
+  "login": "chepin-qi",
+  "via": "QI_PAT",
+  "dead": false
+ },
+ "secrets_meta": {
+  "AI_FULL_PAT": "2026-09-11T20:18:51Z",
+  "FED_PAT": "2026-09-12T04:36:13Z",
+  "FORMAFLOW_CMD_AUTH": "2026-09-09T08:35:14Z",
+  "KIMI_API_KEY_VCI1": "2026-09-06T11:54:26Z",
+  "QI_PAT": "2026-09-12T04:36:11Z",
+  "QUAFU_TOKEN": "2026-09-06T11:54:27Z",
+  "TOWER_PAT": "2026-09-15T03:27:33Z"
+ },
+ "nudge_cd": {
+  "debt-20260912-lgt-kscan": {
+   "t": 1790329622.776161,
+   "n": 4
+  },
+  "debt-20260912-keydark-drill": {
+   "t": 1790329622.7761667,
+   "n": 4
+  },
+  "debt-20260912-inbox-purge": {
+   "t": 1790340021.5537498,
+   "n": 4
+  },
+  "debt-20260912-tower-verify": {
+   "t": 1790340021.5537562,
+   "n": 4
+  },
+  "debt-20260912-edge-throttle": {
+   "t": 1790340021.5537622,
+   "n": 4
+  },
+  "debt-20260912-orbit-cap01-bypass": {
+   "t": 1790340021.5537639,
+   "n": 4
+  },
+  "debt-20260912-orbit-cap02-lgt": {
+   "t": 1790350387.9397933,
+   "n": 4
+  },
+  "debt-20260912-orbit-cap03-ring": {
+   "t": 1790350387.939799,
+   "n": 4
+  },
+  "debt-20260912-tower-seg9-verify": {
+   "t": 1790350387.939801,
+   "n": 4
+  },
+  "debt-20260912-exp016-xchk": {
+   "t": 1790350387.9398515,
+   "n": 4
+  },
+  "debt-20260912-os3d-lvlu-dist": {
+   "t": 1790361077.2324212,
+   "n": 4
+  }
+ },
+ "nudge_backlog": 0,
+ "orbit_done": [
+  "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+  "ORBIT-CAP-01-20260913T014500Z.md"
+ ],
+ "lanesweep_seen": [
+  "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+  "ANS-CAULDRON-PULSE-QLV-01.md",
+  "ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+  "ANS-CIRCLE-66-QLV-01.md",
+  "ANS-DEBT-72-QLV-01.md",
+  "ANS-DEBT-75-QLV-01.md",
+  "ANS-DEMAND-KEYFP-ESC-qlv.md",
+  "ANS-DRILL-0919-QLV-01.md",
+  "ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+  "ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+  "ANS-EVAL-WAVE-01.md",
+  "ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+  "ANS-FIELD-SEAT.md",
+  "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+  "ANS-FLOOR-SHA-SRC-01.md",
+  "ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+  "ANS-KEY-AUDIT-69-QLV-01.md",
+  "ANS-KEY-FINGERPRINT-BOOK.md",
+  "ANS-KEYUNIFY-QLV-01.md",
+  "ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+  "ANS-OCTA-67-QLV-01-20260913T104013Z.md",
+  "ANS-OCTA-67-QLV-01.md",
+  "ANS-OTP64-QLV-01.md",
+  "ANS-PENTA-lgt-20260913T172139Z.md",
+  "ANS-PENTA-lvlu-20260913T170511Z.md",
+  "ANS-PENTA-qtlv-20260913T131611Z.md",
+  "ANS-QLV-COSIGN-FETCH-01.md",
+  "ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
+  "ANS-QLV-SPECTRA-01-R2.md",
+  "ANS-QLV-SPECTRA-01.md",
+  "ANS-QLV-STAMP-CLOSE-01.md",
+  "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+  "ANS-SI70-QLV-01.md",
+  "ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+  "ANS-TASK-PHI-CHAIN-02.md",
+  "ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+  "ANS-WAVE-68-QLV-01-20260913T104013Z.md",
+  "ANS-WAVE-68-QLV-01.md",
+  "CADERING-STAMP-01-cisvr-20260911T1740Z.md",
+  "CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+  "CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+  "COSIGN-FLOOR-QLV-01-2026-09-10.md",
+  "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+  "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+  "DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
+  "DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
+  "DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
+  "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+  "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+  "DEMAND-DRILL-0919-SELF-QLV-01.md",
+  "DEMAND-KEY69-QLV-20260914T121843Z.md",
+  "DEMAND-KEYFP-ESC-qlv-01.md",
+  "DEMAND-OCTA-67-QLV-20260913T050141Z.md",
+  "DEMAND-OTP64-QLV-20260911T2024Z.md",
+  "DEMAND-SI70-QLV-20260914T134936Z.md",
+  "DEMAND-WAVE-68-QLV-20260913T084219Z.md",
+  "DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
+  "DIRECTFETCH-KSCAN-SRC-QLV-01.md",
+  "DISC-NEUMECH-01-qtlv-20260913T131611Z.md",
+  "DISC-SI-OMNI-DRIVE-01-lgt-20260913T170724Z.md",
+  "DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
+  "DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md",
+  "DRIVE-qlv-20260917T003456Z-9275cefa2228.md",
+  "DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
+  "DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md",
+  "DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
+  "DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
+  "DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
+  "DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
+  "DRIVE-qlv-20260922T000128Z-494de714756c.md",
+  "DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
+  "DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
+  "DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
+  "DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
+  "DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
+  "DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+  "EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+  "FLOOR-TAIL-REF-01-usrm.md",
+  "FRAC-01-QUERY-qfa-20260920T144316Z.md",
+  "FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+  "FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+  "HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+  "IGNITE-BAIT-58-QLV-20260911T1845Z.md",
+  "KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+  "NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+  "NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
+  "NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+  "NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+  "ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+  "CAPSULE-REQ-TIANYAN-LVLU-01.md",
+  "O-S-2D-01-v0-20260911T123052Z.md",
+  "OMNI-INJECT-01-qlv-20260911T185404Z.md",
+  "ORBIT-CAP-01-20260913T014500Z.md",
+  "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+  "OTP-LGT-EVAL-EXCITE-01-qlv.md",
+  "OTP-LGT-EXCITE-V2-qlv-lgt.md",
+  "OTP-LGT-SI5-VOTE-01-lgt.md",
+  "OTP-QTLV-QLV-X11-02.md",
+  "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+  "OTP-WAKE-QLV-01-usrm.md",
+  "PHI-CHAIN-PROBE-01-qtlv-47428889.md",
+  "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+  "R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+  "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md"
+ ],
+ "debt_queue": [
+  {
+   "id": "lanetask:ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-FLOOR-SHA-SRC-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-KEY-FINGERPRINT-BOOK.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-KEYUNIFY-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-OCTA-67-QLV-01-20260913T104013Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-OCTA-67-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-OTP64-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-PENTA-lgt-20260913T172139Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-PENTA-lvlu-20260913T170511Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-QLV-COSIGN-FETCH-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-QLV-SPECTRA-01-R2.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-QLV-SPECTRA-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-QLV-STAMP-CLOSE-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-SI70-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-TASK-PHI-CHAIN-02.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ANS-WAVE-68-QLV-01-20260913T104013Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-WAVE-68-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:CADERING-STAMP-01-cisvr-20260911T1740Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DEMAND-CAULDRON-62-QLV-20260911T200847Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DEMAND-CIRCLE-66-QLV-20260913T024210Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DEMAND-DRILL-0919-SELF-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DEMAND-KEY69-QLV-20260914T121843Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DEMAND-KEYFP-ESC-qlv-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DEMAND-OCTA-67-QLV-20260913T050141Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DEMAND-OTP64-QLV-20260911T2024Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DEMAND-SI70-QLV-20260914T134936Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DEMAND-WAVE-68-QLV-20260913T084219Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DIRECTFETCH-KSCAN-SRC-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DISC-NEUMECH-01-qtlv-20260913T131611Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DISC-SI-OMNI-DRIVE-01-lgt-20260913T170724Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260916T003524Z-26f329ff5bdb.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260917T003456Z-9275cefa2228.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260918T003527Z-49f30aea7cf6.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260919T000125Z-ac17c5993ad6.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260920T003827Z-0c950ba7ff9e.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260921T000028Z-97eec25195bd.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260921T000203Z-fa022ac62327.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260922T000008Z-c921f9ad4405.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260922T000128Z-494de714756c.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260922T004101Z-4ac05e90fbc0.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:FLOOR-TAIL-REF-01-usrm.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:FRAC-01-QUERY-qfa-20260920T144316Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:IGNITE-BAIT-58-QLV-20260911T1845Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:CAPSULE-REQ-TIANYAN-LVLU-01.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:O-S-2D-01-v0-20260911T123052Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:OMNI-INJECT-01-qlv-20260911T185404Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:OTP-LGT-EVAL-EXCITE-01-qlv.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:OTP-LGT-EXCITE-V2-qlv-lgt.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:OTP-LGT-SI5-VOTE-01-lgt.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:OTP-QTLV-QLV-X11-02.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:OTP-WAKE-QLV-01-usrm.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:PHI-CHAIN-PROBE-01-qtlv-47428889.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanetask:QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  },
+  {
+   "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+   "note": "lane件>24h未理升己",
+   "si0_solvable": false
+  }
+ ],
+ "seat_pending": [
+  {
+   "id": "lanetask:2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-23T18:28:48Z"
+  },
+  {
+   "id": "lanetask:ANS-CAULDRON-PULSE-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-24T14:53:08Z"
+  },
+  {
+   "id": "lanesweep:ANS-CIRCLE-66-QLV-01-20260913T104013Z.md",
+   "note": "lane件>24h未理升己",
+   "ts": "2026-09-24T18:29:12Z"
+  },
+  {
+   "id": "lanetask:ANS-CIRCLE-66-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-24T21:21:56Z"
+  },
+  {
+   "id": "lanetask:ANS-DEBT-72-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-25T00:13:20Z"
+  },
+  {
+   "id": "lanetask:ANS-DEBT-75-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-25T02:58:37Z"
+  },
+  {
+   "id": "lanetask:ANS-DEMAND-KEYFP-ESC-qlv.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-25T05:51:21Z"
+  },
+  {
+   "id": "lanetask:ANS-DRILL-0919-QLV-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-25T08:44:55Z"
+  },
+  {
+   "id": "lanesweep:ANS-EVAL-EXCITE-01-QFA-20260914T195327Z.md",
+   "note": "lane件>24h未理升己",
+   "ts": "2026-09-25T11:38:24Z"
+  },
+  {
+   "id": "lanesweep:ANS-EVAL-WAVE-01-VERDICT-qtlv-20260913T084123Z.md",
+   "note": "lane件>24h未理升己",
+   "ts": "2026-09-25T14:31:23Z"
+  },
+  {
+   "id": "lanetask:ANS-EVAL-WAVE-01.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-25T17:39:12Z"
+  },
+  {
+   "id": "lanesweep:ANS-EXP016-XCHK-lvlu-20260912T153227Z.md",
+   "note": "lane件>24h未理升己",
+   "ts": "2026-09-25T20:13:55Z"
+  },
+  {
+   "id": "lanetask:ANS-FIELD-SEAT.md",
+   "note": "lane任务件候机答/转派",
+   "ts": "2026-09-25T23:05:39Z"
+  }
+ ],
+ "debt_backlog": 91,
+ "lane_inbox_count_ci": 28,
+ "ucif2_seen": [],
+ "fedeye_seen": [
+  "02a969e2c7ad",
+  "0b295b5403e1",
+  "2fd1808a97ec",
+  "3880f599b706",
+  "4025218b4ae9",
+  "4cba1ee37021",
+  "4cd099ddce15",
+  "6acc81278dac",
+  "7103be47d3fc",
+  "776a14708507",
+  "7c9ab9ab6de9",
+  "896c2a09e5f2",
+  "9bb8a9ebdf49",
+  "a70d844d1b27",
+  "aaa0228f4e36",
+  "b18fbfea5eac",
+  "b1ee85826768",
+  "b911af7060f1",
+  "e46fd6b885ed",
+  "eb2e633c9171",
+  "0699f04f6066",
+  "078cd645b76a",
+  "1204fde4a8c1",
+  "3341f04ea4f8",
+  "3b882f682c9e",
+  "40364b9a01ad",
+  "4880d1f25203",
+  "7ef4463ec1ac",
+  "8a90571d34b9",
+  "a1eb19fe48cb",
+  "a6fdad28ef26",
+  "b25e57e3fa8e",
+  "b95bc9c51ffb",
+  "c13ed68d6163",
+  "c889778181eb",
+  "cd14242fae78",
+  "d766173674cd",
+  "dee84272b508",
+  "e37a29b82387",
+  "fcf67140a8ce",
+  "2026-09-10-hub-verdict-qlv-lab-listener-01.md",
+  "ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+  "ANS-FLOOR-SHA-SRC-01.md",
+  "ANS-QLV-COSIGN-FETCH-01.md",
+  "ANS-QLV-SPECTRA-01-R2.md",
+  "ANS-QLV-SPECTRA-01.md",
+  "ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+  "COSIGN-FLOOR-QLV-01-2026-09-10.md",
+  "COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+  "COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+  "DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+  "DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
+  "DRIVE-qlv-20260911T000027Z-540c32788231.md",
+  "DRIVE-qlv-20260911T000316Z-439a5458f72f.md",
+  "DRIVE-qlv-20260911T000449Z-f9f9d4655150.md",
+  "FLOOR-TAIL-REF-01-usrm.md",
+  "O-S-2D-01-v0-20260911T123052Z.md",
+  "OTP-LGT-EVAL-EXCITE-01-qlv.md",
+  "OTP-LGT-EXCITE-V2-qlv-lgt.md",
+  "OTP-LGT-SI5-VOTE-01-lgt.md",
+  "OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+  "OTP-WAKE-QLV-01-usrm.md",
+  "PARETO-R1-8389c7f61028.md",
+  "PARETO-R1-a7436295c9f9.md",
+  "PARETO-R1-eb20cefabf86.md",
+  "QGL-ASK-AGG-104.md",
+  "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+  "RESP-LVLU-QLV-02-20260911T030404Z.md",
+  "RESP-LVLU-QLV-03-20260911T092950Z.md",
+  "RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
+  "SILENCE-METRIC-DRAFT-01-usrm.md",
+  "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+  "SPEC-FLOOR-OBS-01-v11-usrm-20260911T0230Z.md",
+  "SPECTRA-OBS-01-seed-v2-cisvr-20260911T0240Z.md",
+  "SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+  "TASK-QLV-SPECTRA-01-20260911T0155Z.md",
+  "TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+  "TASK-USRM-QLV-SHA-ANCHOR-02.json",
+  "auto-otp-20260906T120-b99531eb.json",
+  "auto-otp-20260906T120206-7c5ccb30.json",
+  "auto-otp-20260906T120411-34cfa927.json",
+  "auto-otp-20260906T123352-97fafbe5.json",
+  "auto-otp-20260906T130552-2772744b.json",
+  "auto-otp-20260906T134248-de925e26.json",
+  "auto-otp-20260906T140133-7de41fd7.json",
+  "auto-otp-20260906T140541-afad5c06.json",
+  "auto-otp-20260906T143724-c5aa40e9.json",
+  "auto-otp-20260906T145243-379ca852.json",
+  "auto-otp-20260906T161540-aab562b3.json",
+  "auto-otp-20260907T013326-9aa7605a.json",
+  "auto-otp-20260907T014216-b0aee5fe.json",
+  "auto-otp-20260907T021520-c22a1096.json",
+  "auto-otp-20260907T023130-1322f5bf.json",
+  "auto-otp-20260907T025457-13daeb6d.json",
+  "auto-otp-20260907T025647-qlv.json",
+  "auto-otp-20260907T025859-7fab1642.json",
+  "auto-otp-20260907T030238-d074d2ba.json",
+  "auto-otp-20260907T033242-4230bd24.json",
+  "auto-otp-20260907T034627-57cc6427.json",
+  "auto-otp-20260907T035040-d3e63533.json",
+  "auto-otp-20260907T035355-571fc3d6.json",
+  "auto-otp-20260907T042614-7072c2ec.json",
+  "auto-otp-20260907T044346-4f93b720.json",
+  "auto-otp-20260907T044437-b6977db6.json",
+  "auto-otp-20260907T045954-dce9ce52.json",
+  "auto-otp-20260907T050202-d3c3f789.json",
+  "auto-otp-20260907T051058-04a90281.json",
+  "auto-otp-20260907T055438-a74076e3.json",
+  "auto-otp-20260907T061025-155887ac.json",
+  "auto-otp-20260907T061455-99f49516.json",
+  "auto-otp-20260907T062217-1c3bfea0.json",
+  "auto-otp-20260907T064442-651351fb.json",
+  "auto-otp-20260907T064936-ae976f0e.json",
+  "auto-otp-20260907T070638-f7fa21f7.json",
+  "auto-otp-20260907T074654-f3b91b1e.json",
+  "auto-otp-20260907T075648-e2b95c62.json",
+  "auto-otp-20260907T081959-e56843a4.json",
+  "auto-otp-20260907T090329-73a5795d.json",
+  "auto-otp-20260907T090510-705c2898.json",
+  "auto-otp-20260907T092514-339188d0.json",
+  "auto-otp-20260907T095814-423b8c95.json",
+  "auto-otp-20260907T103900-b25e4775.json",
+  "auto-otp-20260907T113541-a59024cc.json",
+  "auto-otp-20260907T121704-5ad2ad60.json",
+  "auto-otp-20260907T123306-f33a4f36.json",
+  "auto-otp-20260907T130330-0e7bf7d5.json",
+  "auto-otp-20260908T031917-42571d98.json",
+  "auto-otp-20260908T042654-a6794e84.json",
+  "auto-otp-20260908T052618-f161e9fe.json",
+  "auto-otp-20260908T065150-1af7865b.json",
+  "auto-otp-20260908T073745-3c79f836.json",
+  "auto-otp-20260908T083831-9e21ae09.json",
+  "auto-otp-20260908T091036-5848a1dc.json",
+  "auto-otp-20260908T093927-d3e2f2ce.json",
+  "auto-otp-20260908T101209-b89946f6.json",
+  "auto-otp-20260908T105119-b399ca48.json",
+  "auto-otp-20260908T112611-8253a535.json",
+  "auto-otp-20260908T120102-3313a701.json",
+  "auto-otp-20260908T123242-d3eeee01.json",
+  "auto-otp-20260908T130338-49d63f2a.json",
+  "auto-otp-20260908T140741-e283f5ba.json",
+  "auto-otp-20260908T150754-7e8ddcac.json",
+  "auto-otp-20260909T030300-d3a71751.json",
+  "auto-otp-20260909T040647-eeac0398.json",
+  "auto-otp-20260909T052134-6087b0be.json",
+  "auto-otp-20260909T064741-6a4cfb95.json",
+  "auto-otp-20260909T065948-e2bb5e8b.json",
+  "auto-otp-20260909T074317-fff9acca.json",
+  "auto-otp-20260909T080238-41f2b539.json",
+  "auto-otp-20260909T084134-d33e4fc3.json",
+  "auto-otp-20260909T085252-97d04b65.json",
+  "auto-otp-20260909T091440-29d878a2.json",
+  "auto-otp-20260909T093657-9cc26efa.json",
+  "auto-otp-20260909T105415-b00dbb4d.json",
+  "auto-otp-20260909T113937-526e0172.json",
+  "auto-otp-20260909T130417-8689e132.json",
+  "auto-otp-20260909T132308-740c32e7.json",
+  "auto-otp-20260909T135327-37d6d445.json",
+  "cisvr-degrade-mailman-20260909T154841-qlv.json",
+  "cisvr-direct-beat35-20260909T135238-qlv.json",
+  "cisvr-draft-beat37-20260909T1608Z-qlv.json",
+  "lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
+  "lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+  "otp-20260910T232733Z-浪涌一号-lvlu.md",
+  "otp-20260911T022116Z-浪涌三号-lvlu.md",
+  "qfa-mech-call-01-20260910T223007Z.md",
+  "qfa-resp-eval2-20260910T225907Z.md",
+  "qfa-resp-govpair-20260910.md",
+  "qfa-resp-qlv-03-20260910T232910Z.md",
+  "qfa-resp-qlv-04-20260910T234412Z.md",
+  "qfa-resp-qlv-05-20260911T000033Z.md",
+  "qfa-ripple-ack-20260911T010213Z.md",
+  "qfa-si5ring-answer-20260910T231548Z.md",
+  "1789053462-WAKE-QLV-abaaebf8.md",
+  "OTP-VINF-RIPPLE-FWD-01-vinf.md",
+  "cisvr-nudge-silence-metric-01-20260911T0000Z.md",
+  "cisvr-qtfix01-pointer-20260911T0120Z.md",
+  "ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
+  "f54c34a5742a",
+  "e754dd52f70a",
+  "788906cf4e48",
+  "a16da31fe16d",
+  "c1bcbdcec5fe",
+  "4068aa7978ba",
+  "d96bc4057c27",
+  "47582fd3f84d",
+  "7b86a8ef6e0b",
+  "9772edd08073",
+  "12b1af9452e9",
+  "4340be70a7d9",
+  "605a203555f8",
+  "a8d20b0044f3",
+  "9db267f75313",
+  "472046d1af76",
+  "10e158bb6b8f",
+  "d727295ba253",
+  "31f5f7e3b9d5",
+  "1ca93483184c",
+  "10231c308cc2",
+  "bf1a60f9d6aa",
+  "fc99ff42d29e",
+  "a2342cc83227",
+  "3fb2d655cfb5",
+  "9700855b3e5f",
+  "7c29464c45eb",
+  "0a54a2b461bb",
+  "4e0519232d3a",
+  "b0b66be64088",
+  "415fbb2ca1ce"
+ ],
+ "fedeye_stale_mark": "2026-09-11T19:14:03Z"
 }
