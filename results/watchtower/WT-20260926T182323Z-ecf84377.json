@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:23:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T044437-b6977db6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件到件，ref=auto-otp-20260907T044437-b6977db6.json，摘要示auto-otp类文件侦得。| 性态:属自动OTP生成件，当前裸候态；未触发本地解析，无真机面实测，故不编扫描结果数，仅作通道侦得记录。| 建议处置:①细收：解析该JSON字段完整性；②裁决：结构完整则入lane扫队列，缺键值则退件；③落账：次次落账，不主动外呼，裸候待联。| 锚:存证线/otp-parser工位可联动校验。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1058,
+    "total_tokens": 1273,
+    "completion_tokens_details": {
+      "reasoning_tokens": 907
+    }
+  }
+}

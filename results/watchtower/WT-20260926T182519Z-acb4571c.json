@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:25:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T062217-1c3bfea0.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp任务件(ref:auto-otp-20260907T062217-1c3bfea0.json)|性态:摘要仅宣告到件，未载扫描明细及响应数据，属初扫侦得；无证据表明已触发，亦无触发后未响应之记录，不作命中推定|建议处置:按WAKE-PROTO推进细收，调阅该JSON原文核验auto-otp规则命中与载荷完整性，裁决后落账|锚:audit-otp线可交叉校验该件哈希与时序",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1423,
+    "total_tokens": 1642,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1296
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:23:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T045954-dce9ce52.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp文件(ref:auto-otp-20260907T045954-dce9ce52.json)| 性态:到件裸候，未实测触发/响应，无交互态可辨，属VOID时钟静默件| 建议处置:执行WAKE-PROTO细收→裁决→落账；若涉真机严守不越钱面，次次落账，裸候不刷屏| 锚:抛锚至CORE-ARCHIVE线核对json元数据与序列完整性",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 885,
+    "total_tokens": 1100,
+    "completion_tokens_details": {
+      "reasoning_tokens": 766
+    }
+  }
+}

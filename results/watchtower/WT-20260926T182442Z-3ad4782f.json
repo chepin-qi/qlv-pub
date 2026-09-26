@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:24:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T061025-155887ac.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件 auto-otp-20260907T061025-155887ac.json 到件，摘要报\"侦得\"。| 性态:自动OTP产出之 lanesweep 任务文件，带标准时间戳与哈希；本工位未实测其内文，属到件未触发解析，不编造字段与状态数。| 建议处置:依 lanesweep 队列落账，裸候下游拉取或移交解析工位；本工位仅次次落账，不主动寻求回应。| 锚:OTP-TS-20260907T061025/lanesweep.task 规约。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1390,
+    "total_tokens": 1603,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1249
+    }
+  }
+}
