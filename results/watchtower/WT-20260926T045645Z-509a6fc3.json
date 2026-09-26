@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:56:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-FLOOR-SHA-SRC-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收[债自驱]SI1专属覆写位到件，ref=lanetask:ANS-FLOOR-SHA-SRC-01.md，意图覆写| 性态:摘要仅呈目标路径与覆写意图，无diff载荷、无校验链；本工位为单会话文本位，无真机探针，未实测目标文件状态，不编数，无法区分未触发与触发未响应| 建议处置:裸候SI1真机侧完成覆写落账；若需裁决，补交diff摘要及OTP校验后再审| 锚:AUTH-OTP-02/落账确认",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1121,
+    "total_tokens": 1339,
+    "completion_tokens_details": {
+      "reasoning_tokens": 972
+    }
+  }
+}
