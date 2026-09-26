@@ -26,7 +26,8 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
+      0,
+      3,
       0,
       0,
       0,
@@ -35,15 +36,14 @@
       0,
       0,
       0,
-      0,
-      0,
+      5,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 10,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-09-26",
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 2
+    "beacon_comments": 10
   },
-  "qgl_head": "6d16dc187c6f138fccc2ab63b8cce6aca6f3655f",
+  "qgl_head": "a87e1ee5e44aaf514f7472f70fc0253a6f728556",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 110,
+  "seg_cursor": 111,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -262,7 +262,15 @@
     "PHI-CHAIN-PROBE-01-qtlv-47428889.md",
     "QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
     "R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
-    "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md"
+    "RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+    "DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
+    "DRIVE-qlv-20260926T000215Z-47e8b9f5e5e5.md",
+    "RESP-LVLU-QLV-02-20260911T030404Z.md",
+    "RESP-LVLU-QLV-03-20260911T092950Z.md",
+    "RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
+    "SI-PROBE-QGL-121-qlv.md",
+    "SILENCE-METRIC-DRAFT-01-usrm.md",
+    "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md"
   ],
   "debt_queue": [
     {
@@ -718,6 +726,46 @@
     {
       "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
       "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DRIVE-qlv-20260926T000215Z-47e8b9f5e5e5.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:RESP-LVLU-QLV-02-20260911T030404Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:RESP-LVLU-QLV-03-20260911T092950Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:SI-PROBE-QGL-121-qlv.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:SILENCE-METRIC-DRAFT-01-usrm.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+      "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
   ],

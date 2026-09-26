@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:34:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫超24h自升,RIPPLE-PROBE-LVLU-01件于20260911T030519Z落账,当前状态escalate,原扫面未在窗期内收束。| 性态:时效逾界触发升级,属lanesweep.escalate类;具体链路响应未触发/触发未响应待核(clock=VOID,无实测数,不编数)。| 建议处置:按WAKE-PROTO执行二次细收,确认probe物理链路或逻辑锚点是否裸候;若确认无响应,落账为死件或转人工裁决。| 锚:SYS.OTDR-BOUNCE-07件可资对照,同现LVLU节点24h escalate模式。",
+  "usage": {
+    "prompt_tokens": 223,
+    "completion_tokens": 945,
+    "total_tokens": 1168,
+    "completion_tokens_details": {
+      "reasoning_tokens": 780
+    }
+  }
+}

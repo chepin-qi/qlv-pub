@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:35:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task投送SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md，件已侦得，工位无工具解析，内容未实测。| 性态:触发未响应，裸候态，不越真机钱面。| 建议处置:请投喂md正文或开放文本接口以执行细收；若仅作到件确认，请指令落账归档。| 锚:lanesweep.task/SPEC-FLOOR-OBS-01/20260911T0155Z",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1047,
+    "total_tokens": 1269,
+    "completion_tokens_details": {
+      "reasoning_tokens": 927
+    }
+  }
+}

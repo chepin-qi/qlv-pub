@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:32:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260926T000215Z-47e8b9f5e5e5.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 入件，ref 已登记，摘要仅示侦得，未触发实测数据或执行响应。| 性态:扫描态，属空摘待收，无越真机钱面。| 建议处置:按 WAKE-PROTO 推进细收，补录 lane 扫实测项后裁决落账；当前裸候，不主动外寻。| 锚:DRIVE-qlv-标准车道巡检协议 §SWEEP-INTAKE-01，跨线锚定 qlv-MDC-运维基线。",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 870,
+    "total_tokens": 1104,
+    "completion_tokens_details": {
+      "reasoning_tokens": 744
+    }
+  }
+}

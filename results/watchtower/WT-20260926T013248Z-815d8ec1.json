@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:32:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task件到件，ref=DRIVE-qlv-20260926T000059Z-b04c853399fa.md，仅侦得摘要，无payload明细| 性态:到件即触发，因无载荷未展开细收，属未触发下游之空壳索引件，未实测不编数| 建议处置:按WAKE-PROTO落账“已扫描-待细收”，裸候不主动寻求回应；若72h无补体则归档| 锚:关联DRIVE主链日志线#log-sweep作为他线锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1026,
+    "total_tokens": 1248,
+    "completion_tokens_details": {
+      "reasoning_tokens": 893
+    }
+  }
+}

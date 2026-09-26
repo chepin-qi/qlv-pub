@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:34:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SI-PROBE-QGL-121-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task在qlv线无人驿扫描中侦得探针文件SI-PROBE-QGL-121-qlv.md| 性态:扫测触发初检件，文件实体已入视野，尚未展开内容细收，处于WAKE-PROTO扫描阶段，未触发深度响应| 建议处置:按规对该探针执行细收，解析其结构与载荷属性，判明有效/空探针后推进裁决落账| 锚:锚定同批次SI-PROBE-QGL系列探针文件组，与QGL集群校验任务做交叉验真",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1155,
+    "total_tokens": 1360,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1022
+    }
+  }
+}

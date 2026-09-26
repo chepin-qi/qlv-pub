@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:35:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SILENCE-METRIC-DRAFT-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得 ref=SILENCE-METRIC-DRAFT-01-usrm.md，为静默指标草稿| 性态:仅文件名被侦得，内容未触发解析，属草稿态；无活跃交互、无响应链路，未实测内部指标，属「未触发」而非「触发未响应」| 建议处置:按lanesweep.task规归档待审；当前裸候不主动拉取，若后续激活转WAKE-PROTO深度扫描并落账| 锚:usr-log/DRAFT线静默基线件，或对标SILENCE-METRIC-CURR已落账版做版本差异校验",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 971,
+    "total_tokens": 1185,
+    "completion_tokens_details": {
+      "reasoning_tokens": 821
+    }
+  }
+}
