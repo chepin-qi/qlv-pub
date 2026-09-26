@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "dd5d9693f0e3f8c32a2aa88c6fc02e5c09364521",
+  "qfa_head": "55218e9e2a383958e476ae33c053d60b8514200e",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0",
@@ -26,8 +26,8 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      1,
       0,
-      2,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-09-26",
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 13
+    "beacon_comments": 14
   },
   "qgl_head": "a87e1ee5e44aaf514f7472f70fc0253a6f728556",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 115,
+  "seg_cursor": 116,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -109,11 +109,11 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1790392420.2134857,
+      "t": 1790391738.2788272,
       "n": 5
     },
     "debt-20260912-keydark-drill": {
-      "t": 1790392420.213492,
+      "t": 1790391738.2788336,
       "n": 5
     },
     "debt-20260912-inbox-purge": {
