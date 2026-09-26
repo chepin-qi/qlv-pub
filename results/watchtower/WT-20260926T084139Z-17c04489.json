@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T08:41:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap03-ring 第5级促件| 性态:CAP-03自发环巡归，自债候裸候未结，escalation至第5级；无实测清偿响应，判为触发未响应/裸候存续| 建议处置:维持裸候，不主动叩击；依AUTH-OTP-02次次落账，严守诚实边界，不越真机钱面| 锚:qlv-cap03环轨与sol-09收单线存在耦合，可提他线锚验",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1118,
+    "total_tokens": 1335,
+    "completion_tokens_details": {
+      "reasoning_tokens": 988
+    }
+  }
+}
