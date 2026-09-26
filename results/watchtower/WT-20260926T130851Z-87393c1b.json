@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T13:08:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T013326-9aa7605a.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 ref=auto-otp-20260907T013326-9aa7605a.json，时标20260907T013326，件已入工位，内容未触发解析，无实测数。| 性态:裸候静态件，属 auto-otp JSON 载体，未触发未响应。| 建议处置:细收后按需解析 schema 并裁决，无需干预则直接落账归档。| 锚:ref=9aa7605a.json。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 892,
+    "total_tokens": 1109,
+    "completion_tokens_details": {
+      "reasoning_tokens": 777
+    }
+  }
+}

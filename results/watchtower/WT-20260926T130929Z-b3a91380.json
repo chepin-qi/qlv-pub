@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T13:09:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T021520-c22a1096.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp JSON(ref:c22a1096)，属自动化OTP配置或日志残留| 性态:未触发内容解析，仅边界侦得；性态待辨，可能为测试件、弃置配置或真凭证残留| 建议处置:按AUTH-OTP-02执行细收，核查文件内是否涉真机钱面、密钥或有效OTP种子；若涉真则立即落账并清除残留，若为纯测试/空配置则标注归档| 锚:lanesweep.task/auto-otp-20260907T021520-c22a1096.json/AUTH-OTP-02/诚实边界",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 830,
+    "total_tokens": 1045,
+    "completion_tokens_details": {
+      "reasoning_tokens": 682
+    }
+  }
+}
