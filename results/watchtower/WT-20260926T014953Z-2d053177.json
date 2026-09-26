@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:49:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task侦得SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md | 性态: 地面观测规范文件落点，clock=VOID下未触发实机读取，属待收冷件 | 建议处置: 按WAKE-PROTO归档至obs队列，裸候下一周期同步，不主动寻应 | 锚: SPEC-FLOOR-OBS系列通常关联usrm用户维护通道，可交叉索引至floormon线或SPEC-OBS-ARCH通廊",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 977,
+    "total_tokens": 1199,
+    "completion_tokens_details": {
+      "reasoning_tokens": 856
+    }
+  }
+}

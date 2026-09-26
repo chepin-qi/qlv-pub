@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:48:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SILENCE-METRIC-DRAFT-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得静默指标草案SILENCE-METRIC-DRAFT-01-usrm.md入线|性态:仅标识符触发，内容体未展开，属未实测草稿态，未触发细收|建议处置:依WAKE-PROTO推进细收，裸候内容体投送，不主动外寻回应，待实测后裁决落账|锚:usrm自线草案锚/lanesweep.task协议锚",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1064,
+    "total_tokens": 1278,
+    "completion_tokens_details": {
+      "reasoning_tokens": 960
+    }
+  }
+}

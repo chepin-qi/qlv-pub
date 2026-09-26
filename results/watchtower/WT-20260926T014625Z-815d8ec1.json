@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:46:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=DRIVE-qlv-20260926T000059Z-b04c853399fa.md已捕获| 性态:常规车道扫描任务触发，单件入线，无异常标记，未触发警报，属标准作业流| 建议处置:按lane扫SOP入队；核验md文件完整性与路径可读；若无异常则自动归档落账，如需复核则分配下一工位| 锚:时间戳20260926T000059Z跨时序锚；b04c853399fa跨件哈希锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 892,
+    "total_tokens": 1114,
+    "completion_tokens_details": {
+      "reasoning_tokens": 763
+    }
+  }
+}

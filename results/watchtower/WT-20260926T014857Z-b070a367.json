@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:48:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SI-PROBE-QGL-121-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 到件，ref=SI-PROBE-QGL-121-qlv.md，[lane扫]侦得探针任务件| 性态: 任务件刚落驿，处扫描→细收阶段，载荷未展开，属“触发未响应/待细收”态，无实测数可编| 建议处置: 按 WAKE-PROTO 推进细收，解析该 md 探针载荷后裁决落账；若裸候则挂起，不主动求回应| 锚: QGL-RUNWAY-EDGE / SI-HUB-PROBE-IN",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1141,
+    "total_tokens": 1346,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1003
+    }
+  }
+}
