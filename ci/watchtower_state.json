@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
+      1,
       0,
       0,
       0,
       0,
       0,
       0,
-      8,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 68
+    "beacon_comments": 69
   },
   "qgl_head": "ab3fc519efb1275aef030be53854f9eef6d06093",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 151,
+  "seg_cursor": 152,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -313,11 +313,6 @@
     "auto-otp-20260907T044346-4f93b720.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-KEYUNIFY-QLV-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
       "note": "lane件>24h未理升己",
@@ -1074,9 +1069,14 @@
       "id": "lanetask:ANS-KEY-FINGERPRINT-BOOK.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-26T13:20:43Z"
+    },
+    {
+      "id": "lanetask:ANS-KEYUNIFY-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-26T16:08:39Z"
     }
   ],
-  "debt_backlog": 126,
+  "debt_backlog": 133,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [

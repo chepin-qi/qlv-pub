@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T16:08:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-KEYUNIFY-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，SI1专属lanetask:ANS-KEYUNIFY-QLV-01.md覆写位登记| 性态:元数据裸候，未触发实测，无响应载荷，不越真机钱面| 建议处置:按AUTH-OTP-02落账存照，裸候不刷屏；待SI1侧实测数据回传后补录触发态| 锚:lanetask协议线",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 897,
+    "total_tokens": 1117,
+    "completion_tokens_details": {
+      "reasoning_tokens": 791
+    }
+  }
+}
