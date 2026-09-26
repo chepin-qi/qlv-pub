@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T17:31:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ed3308bd",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支HEAD迁移，b71ecd25→ed3308bd| 性态:常规版本迭代心跳，属正常仓库状态变更，提交链连续性待父节点校验| 建议处置:核验ed3308bd提交签名及CI关联后常规落账，持续观测下一beat| 锚:git-objects父指针回溯可锚定至前序头b71ecd25",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 753,
+    "total_tokens": 947,
+    "completion_tokens_details": {
+      "reasoning_tokens": 661
+    }
+  }
+}
