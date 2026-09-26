@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T03:13:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-lgt-kscan 第5级促件 | 性态: 自债候经binmap卡方扫描(k∈[6,14]) escalate 至第5级，系观测选择自由度商像的催办升级，候件待决 | 建议处置: 循WAKE-PROTO裁决落账；裸候不主动求应，锚定他线核验k-bin区间 | 锚: 本件为流程性催办，未触发实测数据；状态=候件中，待真机响应或人工裁决。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1046,
+    "total_tokens": 1273,
+    "completion_tokens_details": {
+      "reasoning_tokens": 915
+    }
+  }
+}
