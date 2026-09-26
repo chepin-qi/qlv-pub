@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T01:10:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv inbox lane.drop，巷卡[chepin-ai/vci-inbox]由223→225，新件 qtlv-spectra-x11-qsca7fce6884.md 到件。性态:入巷下件流，编号推进，无溢出/回退告警。建议处置:①落账确认 inbox 挂载；②补扫223-224间隙防漏件；③裸候，不主动外呼。锚:chepin-ai/vci-inbox 巷卡计数器（他线锚）。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1370,
+    "total_tokens": 1600,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1248
+    }
+  }
+}
