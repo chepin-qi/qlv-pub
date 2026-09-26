@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T11:42:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级至第5级，ref=debt-20260912-os3d-lvlu-dist，分布维实测替换骨架(XCHK)节点触发，前序候诊未获有效响应，债务候状态持续。| 性态:自动升级流(nudge.escalate)，属系统内生催告，非人工干预，当前未触发真机钱面操作，候诊边界完整。| 建议处置:裸候，不主动外寻回应；次次落账，标记第5级时间戳；维持骨架XCHK校验，待分布维实测完成或债务人侧主动触发后再行裁决。| 锚:同批debt骨架若存在并行ref，以XCHK交叉校验结果为统锚点，防重复催告。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 781,
+    "total_tokens": 1003,
+    "completion_tokens_details": {
+      "reasoning_tokens": 612
+    }
+  }
+}
