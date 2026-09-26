@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:12:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T070638-f7fa21f7.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref为auto-otp-20260907T070638-f7fa21f7.json；摘要仅标[lane扫]侦得，未展开内文。| 性态:形式到件，内容面未触发；属auto-otp类线扫任务容器。| 建议处置:按AUTH-OTP-02次次落账，转细收岗拆包验签；如无载荷则裸候归档。| 锚:lanesweep/otp-node/auto-otp-20260907T070638-f7fa21f7",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 977,
+    "total_tokens": 1194,
+    "completion_tokens_details": {
+      "reasoning_tokens": 849
+    }
+  }
+}

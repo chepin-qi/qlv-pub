@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:13:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T075648-e2b95c62.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260907T075648-e2b95c62.json，属lanesweep.task单文件触发。| 性态:仅侦得ref，未实测解析内容，无异常告警触发，属静默落账态。| 建议处置:裸候，按批次转下游解析工位归档，不主动回刷。| 锚:fs-node「/var/lane/otp/20260907」| sig:e2b95c62",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 995,
+    "total_tokens": 1212,
+    "completion_tokens_details": {
+      "reasoning_tokens": 883
+    }
+  }
+}

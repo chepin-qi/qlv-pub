@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:13:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T081959-e56843a4.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，ref=auto-otp-20260907T081959-e56843a4.json，系系统生成之OTP自动序列档案落盘。| 性态:lanesweep.task类，文件名含时戳与哈希，仅确认侦得；内容未实测展开，不编触发状态，诚实记为“待裁决”。| 建议处置:执行WAKE-PROTO落账，归入lane扫待处理队列；依AUTH-OTP-02不主动外呼，裸候调度或人工复核触发。| 锚:工控探针线(lane-probe/OT)。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 985,
+    "total_tokens": 1200,
+    "completion_tokens_details": {
+      "reasoning_tokens": 848
+    }
+  }
+}

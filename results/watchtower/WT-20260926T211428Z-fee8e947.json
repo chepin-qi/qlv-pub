@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:14:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T090329-73a5795d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260907T090329-73a5795d.json，时戳20260907T090329，属自动OTP序列化文件。| 性态:件到未拆，格式JSON，来源auto-otp通道，待校验包体完整性与字段合规性。| 建议处置:依WAKE-PROTO执行细收→裁决：校验JSON结构及OTP-02字段，合法即落账归档，异常则退件标记。| 锚:AUTH-OTP-02/投必有件；WAKE-PROTO扫描→细收。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 868,
+    "total_tokens": 1085,
+    "completion_tokens_details": {
+      "reasoning_tokens": 733
+    }
+  }
+}

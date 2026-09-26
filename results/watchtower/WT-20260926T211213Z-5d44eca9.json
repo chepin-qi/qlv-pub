@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:11:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T064936-ae976f0e.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp JSON任务件(ref:20260907T064936-ae976f0e)。clock=VOID，未触发实测，无响应数据| 性态:单件裸候，honest-boundary内无法区分未触发/触发未响应| 建议处置:按AUTH-OTP-02次次落账，不刷屏，不越真机钱面；裸候不主动求应，待补他线锚后归档| 锚:缺他线锚，待补链路/物理锚以满足米田边律",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1006,
+    "total_tokens": 1221,
+    "completion_tokens_details": {
+      "reasoning_tokens": 878
+    }
+  }
+}
