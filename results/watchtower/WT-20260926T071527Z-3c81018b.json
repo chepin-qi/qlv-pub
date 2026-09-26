@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:15:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-WILDQ-01-qlv-20260911T1843Z.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 任务件投件，ref TASK-WILDQ-01-qlv-20260911T1843Z.json 已落栈。| 性态: 常规扫件侦得，未触发异常阈值，无实测异常数据。| 建议处置: 按 WAKE-PROTO 扫→收→裁→账流程挂起；裸候后续投件，不主动求应。| 锚: TASK-WILDQ-01-wld-20260911T1843Z.json（wld 镜像件备查）",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 891,
+    "total_tokens": 1111,
+    "completion_tokens_details": {
+      "reasoning_tokens": 766
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:15:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TRG-USRM-PING-01-20260912T1255Z.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件投件，ref=TRG-USRM-PING-01-20260912T1255Z.json，件体已侦得，源为用户镜像ping触发。| 性态:裸候态。仅扫描侦得，未细收裁决，无实测负载，不编响应数，未触发与触发未响应边界待明。| 建议处置:循WAKE-PROTO入细收→裁决；未实测不落数值账，本次只落空件标记，裸候待回写，不越真机钱面。| 锚:SYS-LOG-QUEUE线同类USRM-PING历史态样。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1287,
+    "total_tokens": 1505,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1144
+    }
+  }
+}

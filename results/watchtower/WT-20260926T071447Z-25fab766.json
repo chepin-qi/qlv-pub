@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:14:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得QLV线共签FETCH任务件,ref=TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md| 性态:任务裸候,未触发执行链路,无实测载荷,待细收裁决| 建议处置:按WAKE-PROTO扫描后落账;若需真机FETCH操作,候USRM调度指令,不越钱面代操| 锚:USRM-TASK-SCHED/mw(任务调度锚)",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 713,
+    "total_tokens": 941,
+    "completion_tokens_details": {
+      "reasoning_tokens": 595
+    }
+  }
+}

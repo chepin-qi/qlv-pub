@@ -34,14 +34,14 @@
       0,
       0,
       0,
-      0,
+      8,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 8,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 28
+    "beacon_comments": 36
   },
   "qgl_head": "c1c2f5fb10ae8cfddfe232d06f4d3482a0559c98",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 126,
+  "seg_cursor": 127,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -278,7 +278,15 @@
     "TASK-DRILL-0919-APPLY-QLV-01.md",
     "TASK-DRILL-0919-SEAT-QLV-02.md",
     "TASK-EVAL-WAVE-01-qlv-qtlv-qtlv-t36-d01b67.md",
-    "TASK-FIELD-QLV-SOURCE-01.md"
+    "TASK-FIELD-QLV-SOURCE-01.md",
+    "TASK-KEYFP-QLV-01.md",
+    "TASK-PHI-CHAIN-02-qtlv-3e803d3e.md",
+    "TASK-QLV-SPECTRA-01-20260911T0155Z.md",
+    "TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+    "TASK-USRM-QLV-SHA-ANCHOR-02.json",
+    "TASK-WILDQ-01-qlv-20260911T1843Z.json",
+    "TRG-USRM-PING-01-20260912T1255Z.json",
+    "auto-otp-20260906T120-b99531eb.json"
   ],
   "debt_queue": [
     {
@@ -803,6 +811,46 @@
     },
     {
       "id": "lanetask:TASK-FIELD-QLV-SOURCE-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-KEYFP-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-PHI-CHAIN-02-qtlv-3e803d3e.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-QLV-SPECTRA-01-20260911T0155Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-USRM-QLV-SHA-ANCHOR-02.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-WILDQ-01-qlv-20260911T1843Z.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TRG-USRM-PING-01-20260912T1255Z.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260906T120-b99531eb.json",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }

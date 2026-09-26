@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:15:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T120-b99531eb.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:线路扫描侦得auto-otp-20260906T120-b99531eb.json任务件，属系统OTP自动投送类。扫描已捕获，细收待启。| 性态:扫描态；仅侦得文件存在，内容未细收，业务逻辑未触发，未响应状态未明。符合投必有件，暂无刷屏/越界迹象。| 建议处置:按WAKE-PROTO推进细收→裁决→落账；裸候期间不主动索应，待内容解析后严格区分未触发/触发未响应。| 锚:锚定扫描源lane-b99531eb-otp线，关联auto-otp-20260906T120流水号备核。",
+  "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 1038,
+    "total_tokens": 1249,
+    "completion_tokens_details": {
+      "reasoning_tokens": 880
+    }
+  }
+}

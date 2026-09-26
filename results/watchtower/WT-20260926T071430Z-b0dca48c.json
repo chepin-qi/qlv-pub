@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:14:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-QLV-SPECTRA-01-20260911T0155Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:TASK-QLV-SPECTRA-01-20260911T0155Z.md lanesweep.task到件，当前裸到| 性态:扫名已收，内容体未触发，无实测响应回包，属未触发态，不编未验数| 建议处置:细收体内链，执行WAKE裁决后落账；按AUTH-OTP-02裸候，不刷屏、不越真机钱面，待自体回传或下推| 锚:交叉REF-QLV-WAKE-CORE-VOID.md",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1344,
+    "total_tokens": 1564,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1217
+    }
+  }
+}

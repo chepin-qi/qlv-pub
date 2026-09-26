@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:13:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-PHI-CHAIN-02-qtlv-3e803d3e.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=TASK-PHI-CHAIN-02-qtlv-3e803d3e.md，摘要仅示侦得，未呈实质内容。| 性态:到件待收；属PHI-CHAIN-02序列qlv线任务，处于扫描后、细收前状态，内容未触发读取，非响应缺失。| 建议处置:执行细收：读取该md全文后裁决落账。本工位无工具，若细收不能，请转具线或裸候投件方补全。| 锚:PHI-CHAIN-02主调度锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1193,
+    "total_tokens": 1415,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1052
+    }
+  }
+}
