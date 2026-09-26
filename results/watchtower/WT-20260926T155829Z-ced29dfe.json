@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:58:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T044346-4f93b720.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp存档(ref:auto-otp-20260907T044346-4f93b720.json)|性态:自动OTP线路扫描产物，仅侦得落档，未触发实质协议交换/无实测响应，属静默件|建议处置:按WAKE-PROTO落账；裸候不刷屏，存底备查，待补全扫描报告后裁决|锚:主控OTP-AUTH校验线/归档审计线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 606,
+    "total_tokens": 823,
+    "completion_tokens_details": {
+      "reasoning_tokens": 497
+    }
+  }
+}

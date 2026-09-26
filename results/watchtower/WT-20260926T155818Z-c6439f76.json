@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:58:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T042614-7072c2ec.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫掠侦得auto-otp-20260907T042614-7072c2ec.json档| 性态:扫落件/裸候态; 该件仅达侦测面，未触发内容深检，属\"侦得未响应\"，无实测数不编数| 建议处置:按WAKE-PROTO执行细收→裁决→落账; 不主动求应，裸候待决; 若复扫仍落则强制开包验载荷| 锚:sys.audit/file-otp队列他线复核该档是否为有效token载荷或空壳投件",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 997,
+    "total_tokens": 1214,
+    "completion_tokens_details": {
+      "reasoning_tokens": 855
+    }
+  }
+}

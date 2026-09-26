@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:56:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T025859-7fab1642.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ref=auto-otp-20260907T025859-7fab1642.json，摘要到件，内容体未实测展开。| 性态:属扫描阶段触达，未触发细收裁决；状态为「侦得未触发」，无实测数据可编。| 建议处置:按WAKE-PROTO推进细收→裁决→落账；若无需即刻响应，则执行AUTH-OTP-02裸候，不主动寻求回应。| 锚:[运维线]同批次auto-otp文件归档待检。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 949,
+    "total_tokens": 1164,
+    "completion_tokens_details": {
+      "reasoning_tokens": 821
+    }
+  }
+}

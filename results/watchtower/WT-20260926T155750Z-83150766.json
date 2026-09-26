@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:57:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T035040-d3e63533.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp JSON(ref:auto-otp-20260907T035040-d3e63533.json)| 性态:扫描落账件，摘要未载触发或响应状态，依诚实边界记为未触发细收| 建议处置:保持裸候，执行WAKE细收核查JSON结构与OTP签名，无异常即次次落账归档| 锚:AUTH-OTP-02/lane扫裸候",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1495,
+    "total_tokens": 1710,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1390
+    }
+  }
+}

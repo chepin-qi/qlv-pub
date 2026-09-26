@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:56:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T030238-d074d2ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[lane扫]侦得JSON单件 auto-otp-20260907T030238-d074d2ba.json | 性态:冷盘落件，未拆包实测，无触发/未响应态可辨，属lanesweep常规扫档 | 建议处置:执行细收→落账，裸候不主动寻应，按AUTH-OTP-02归档静默 | 锚:可压sha-256指纹至冷验槽，或并线丢给mq死信巡检复核",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 904,
+    "total_tokens": 1119,
+    "completion_tokens_details": {
+      "reasoning_tokens": 789
+    }
+  }
+}

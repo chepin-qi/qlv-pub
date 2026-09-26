@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T15:57:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T034627-57cc6427.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 auto-otp-20260907T034627-57cc6427.json 任务件，仅到件登记，无实测触发响应。| 性态: 裸候态/未触发执行；属扫描期到件，缺状态码与回执，诚实边界内不编数。| 建议处置: 按AUTH-OTP-02裸候原则，不主动刷询；入细收队列自决周期，次次落账，待件自响。| 锚: lanesweep.task/裸候规范-OTP-02-候件不越面。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1037,
+    "total_tokens": 1252,
+    "completion_tokens_details": {
+      "reasoning_tokens": 900
+    }
+  }
+}
