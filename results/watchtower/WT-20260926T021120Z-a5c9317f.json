@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T02:10:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat接SI1专属lanetask覆写位投件,ref=ANS-FLOOR-COSIGN-VERIFY-01-usrm-20260911T0302Z.md| 性态:债自驱文件级覆写指令,VOID时钟下未触发实测响应,属裸候态| 建议处置:恪守AUTH-OTP-02不主动寻求回应,待真机钱面验证合规后执行裁决落账| 锚:WAKE-PROTO全链路/同域ref覆写位待验",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 1016,
+    "total_tokens": 1258,
+    "completion_tokens_details": {
+      "reasoning_tokens": 892
+    }
+  }
+}
