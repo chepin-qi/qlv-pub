@@ -1,0 +1,25 @@
+{
+  "ts": "2026-09-26T17:41:36Z",
+  "clock": "VOID",
+  "kind": "heartbeat",
+  "v": "FIX-05b-adopted",
+  "water": {
+    "lane_vci": 225,
+    "lane_ci": 28,
+    "lane_qlvlab": 7,
+    "loops_open": 18,
+    "faces": {
+      "lgt-line#1": 4,
+      "vci-cfts#1": 3,
+      "vci-inbox#3": 6,
+      "vci-usrm#21": 2,
+      "vci-ucif2#1": 2,
+      "vci-vinf#6": 2,
+      "vci-inbox#2": 0
+    },
+    "post_budget": {
+      "date": "2026-09-26",
+      "beacon_comments": 70
+    }
+  }
+}
