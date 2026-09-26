@@ -30,7 +30,7 @@
       0,
       0,
       0,
-      0,
+      4,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 23
+    "beacon_comments": 27
   },
   "qgl_head": "91791e5e42280476e2c98f2b6f46ab754f0200ed",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 122,
+  "seg_cursor": 123,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -117,20 +117,20 @@
       "n": 5
     },
     "debt-20260912-inbox-purge": {
-      "t": 1790340021.5537498,
-      "n": 4
+      "t": 1790401693.9261339,
+      "n": 5
     },
     "debt-20260912-tower-verify": {
-      "t": 1790340021.5537562,
-      "n": 4
+      "t": 1790401693.9261398,
+      "n": 5
     },
     "debt-20260912-edge-throttle": {
-      "t": 1790340021.5537622,
-      "n": 4
+      "t": 1790401693.926144,
+      "n": 5
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1790340021.5537639,
-      "n": 4
+      "t": 1790401693.9261448,
+      "n": 5
     },
     "debt-20260912-orbit-cap02-lgt": {
       "t": 1790350387.9397933,

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T05:48:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级 debt-20260912-edge-throttle 至第5级(边缘限流族立档:冷却突发律+git道绕行+HTTP/1.1方)| 性态:债候逾期未清，边缘限流技术债务高优先级催办；本工位无工具，未实测限流阈值与绕行链路，不编数，诚实边界内记录| 建议处置:按WAKE-PROTO执行扫描→细收→裁决→落账；第5级应强制裁决或升债委线，本线落账后裸候，不越真机钱面，不主动寻求回应| 锚:债治线 debt-throttle-registry",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1272,
+    "total_tokens": 1505,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1118
+    }
+  }
+}
