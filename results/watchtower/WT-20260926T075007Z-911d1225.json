@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:49:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收到lanesweep覆写位，SI1专属文件ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md触发席位覆写| 性态:债自驱型lane清扫落点，属系统内部锚定覆写，无外部资金交互，未越真机钱面，无刷屏| 建议处置:按WAKE-PROTO落账该覆写位，保持seat静默，不主动寻求回应，裸候下一触发| 锚:ref lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md / AUTH-OTP-02席位边界",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 976,
+    "total_tokens": 1212,
+    "completion_tokens_details": {
+      "reasoning_tokens": 825
+    }
+  }
+}
