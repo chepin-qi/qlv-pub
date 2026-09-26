@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:27:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SPEC-FLOOR-OBS-01-v11-usrm-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务侦得SPEC-FLOOR-OBS-01-v11-usrm文档件，时戳20260911T0230Z，属楼层观察规范用户手册分支。| 性态:单文档检出，无触发响应记录，版本迭代至v11，未见异常载荷，状态为未触发待归档。| 建议处置:归入文档控制队列，核对v10→v11变更集，确认usrm与主规一致性后落账存档。| 锚:CONFIG-线/DOC-CTL",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 965,
+    "total_tokens": 1191,
+    "completion_tokens_details": {
+      "reasoning_tokens": 848
+    }
+  }
+}

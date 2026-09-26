@@ -32,7 +32,7 @@
       0,
       0,
       0,
-      0,
+      8,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 14
+    "beacon_comments": 22
   },
   "qgl_head": "91791e5e42280476e2c98f2b6f46ab754f0200ed",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 118,
+  "seg_cursor": 119,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -270,7 +270,15 @@
     "RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
     "SI-PROBE-QGL-121-qlv.md",
     "SILENCE-METRIC-DRAFT-01-usrm.md",
-    "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md"
+    "SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+    "SPEC-FLOOR-OBS-01-v11-usrm-20260911T0230Z.md",
+    "SPECTRA-OBS-01-seed-v2-cisvr-20260911T0240Z.md",
+    "SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+    "TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+    "TASK-DRILL-0919-APPLY-QLV-01.md",
+    "TASK-DRILL-0919-SEAT-QLV-02.md",
+    "TASK-EVAL-WAVE-01-qlv-qtlv-qtlv-t36-d01b67.md",
+    "TASK-FIELD-QLV-SOURCE-01.md"
   ],
   "debt_queue": [
     {
@@ -760,6 +768,46 @@
     },
     {
       "id": "lanetask:SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:SPEC-FLOOR-OBS-01-v11-usrm-20260911T0230Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:SPECTRA-OBS-01-seed-v2-cisvr-20260911T0240Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-DRILL-0919-APPLY-QLV-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-DRILL-0919-SEAT-QLV-02.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-EVAL-WAVE-01-qlv-qtlv-qtlv-t36-d01b67.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:TASK-FIELD-QLV-SOURCE-01.md",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }

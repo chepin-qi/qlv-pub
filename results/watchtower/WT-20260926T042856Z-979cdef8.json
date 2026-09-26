@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:28:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得目标表SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md，属路径触达，未触发内容实测解析。| 性态:冷态文件落位，静态表，无动态响应，诚实标记为「侦得未解析」。| 建议处置:依WAKE-PROTO细收→裁决→落账；按AUTH-OTP-02投件即落账，裸候后续指令，不越真机钱面、不刷屏、不外探。| 锚:WAKE-PROTO扫测锚/cisvr-20260911T0240Z时戳锚/OTP-02边界锚。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 961,
+    "total_tokens": 1185,
+    "completion_tokens_details": {
+      "reasoning_tokens": 807
+    }
+  }
+}

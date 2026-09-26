@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:31:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-FIELD-QLV-SOURCE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 ref=TASK-FIELD-QLV-SOURCE-01.md，内容体未展开，属触发未响应态 | 性态: 单文件源点待扫，无实测数，未越真机钱面 | 建议处置: 按 WAKE-PROTO 细收该 md 文本体，校验 source 完整性后裁决落账；裸候不刷屏 | 锚: @SYS-ANCHOR-FIELD-01 源文件待扫队列",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 829,
+    "total_tokens": 1035,
+    "completion_tokens_details": {
+      "reasoning_tokens": 715
+    }
+  }
+}
