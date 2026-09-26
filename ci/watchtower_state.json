@@ -31,17 +31,17 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1025,7 +1025,7 @@
     {
       "id": "lanetask:ANS-KEY-FINGERPRINT-BOOK.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-26T13:20:43Z"
+      "ts": "2026-09-26T13:31:08Z"
     }
   ],
   "debt_backlog": 126,
