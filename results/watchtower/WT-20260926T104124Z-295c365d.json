@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:41:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat接收SI1专属任务ANS-KEY-AUDIT-69-QLV-01.md覆写位指令| 性态:债自驱覆写，属存量任务键值更新，未触发真机钱面流| 建议处置:执行次次落账确认，保持覆写位裸候状态，不主动寻求响应，待SI1自驱闭环| 锚:DEBT-PROTO/覆写位审计规范§4.2",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 819,
+    "total_tokens": 1045,
+    "completion_tokens_details": {
+      "reasoning_tokens": 708
+    }
+  }
+}
