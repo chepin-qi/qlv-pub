@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:36:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T051058-04a90281.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 auto-otp-20260907T051058-04a90281.json | 性态: 件到未拆，内容未实测，属 lane 自动归集件，裸候待授 | 建议处置: 按 OTP-02 次次落账，入待收队列，不主动外寻响应，待下工序拆包 | 锚: 他线可交叉核对 OTP 时间戳与 04a90281 哈希，验其是否已见于其他 lane 扫或入站日志，防重件/漂移件。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 977,
+    "total_tokens": 1192,
+    "completion_tokens_details": {
+      "reasoning_tokens": 843
+    }
+  }
+}

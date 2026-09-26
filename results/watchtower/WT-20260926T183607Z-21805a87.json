@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:35:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T045954-dce9ce52.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp任务件(ref=auto-otp-20260907T045954-dce9ce52.json)| 性态:件到裸候，无实测载荷，状态属未触发，无响应回显| 建议处置:按WAKE-PROTO入细收队列，补测边界与载荷后裁决落账| 锚:otp-20260907T045954/dce9ce52",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1264,
+    "total_tokens": 1479,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1163
+    }
+  }
+}

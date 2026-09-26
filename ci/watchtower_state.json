@@ -32,16 +32,16 @@
       0,
       0,
       0,
-      8,
       0,
       0,
       0,
       0,
-      0
+      0,
+      8
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },

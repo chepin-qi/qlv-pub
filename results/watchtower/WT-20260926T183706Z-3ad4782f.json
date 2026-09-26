@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:36:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T061025-155887ac.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp-20260907T061025-155887ac.json任务件| 性态:自动OTP文件级落账，未触发人工界面，无实测交互数据，属VOID态裸候| 建议处置:按WAKE-PROTO细收→裁决→落账，本会话完成文件自旋归档，不越真机钱面，不主动求应| 锚:AUTH-OTP-02(投必有件/次次落账)",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1158,
+    "total_tokens": 1371,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1045
+    }
+  }
+}

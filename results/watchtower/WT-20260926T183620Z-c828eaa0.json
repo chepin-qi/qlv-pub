@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:36:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T050202-d3c3f789.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦获auto-otp-20260907T050202-d3c3f789.json|性态:自动化通道产出/单件孤立/JSON未拆包/内容响应未触发|建议处置:依AUTH-OTP-02投必有件落账，不刷屏不越真机钱面，裸候不主动追呼，待下游核实后联动|锚:sys/archive/lanesweep-otp-log",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 893,
+    "total_tokens": 1110,
+    "completion_tokens_details": {
+      "reasoning_tokens": 792
+    }
+  }
+}
