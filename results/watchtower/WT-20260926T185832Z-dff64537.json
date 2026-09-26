@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T18:58:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1债自驱覆写lanesweep:ANS-LEVELUP-CARD-lvlu-20260912T153227Z.md席位文件| 性态:覆写位已扫描，属文件级单点覆盖；未实测验证，不落数，未触发/触发未响应待辨| 建议处置:细收来源合法性，核查与基线diff，裁决冻结盲落，补实测戳后落账，不越真机钱面| 锚:lanesweep:ANS-LEVELUP-CARD-base|debtengine:SI1-seat",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1237,
+    "total_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1111
+    }
+  }
+}
