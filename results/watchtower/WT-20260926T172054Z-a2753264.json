@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T17:20:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ed3308bd",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：qfa main 头迁移，b71ecd25→ed3308bd。 | 性态：常规 ref 更新，代码库头指针正常推进，未见冲突或保护规则触发记录。 | 建议处置：落账 ed3308bd；裸候后续 beat，不主动寻求响应。 | 锚：git commit-graph 链式校验为一他线锚；可将新头 hash 交 CI/CD 制品签名作二次锚定。",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 1007,
+    "total_tokens": 1201,
+    "completion_tokens_details": {
+      "reasoning_tokens": 902
+    }
+  }
+}
