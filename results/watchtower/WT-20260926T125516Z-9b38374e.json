@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T12:54:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T145243-379ca852.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫得auto-otp任务件(ref:…379ca852.json)，时戳20260906T145243，属OTP序列自动到件；当前仅侦得索引，内容未触发解析，处扫描节点裸候态。| 性态:单件静默，无刷屏，未越真机钱面，诚实边界内无实测数可编。| 建议处置:按WAKE-PROTO推进细收→裁决→落账；依AUTH-OTP-02裸候，不主动寻求回应，次次落账；若细收涉真机钱面则止并标。| 锚:他线auto-otp生成时戳20260906T145243（时线锚）/ lanesweep扫描线（扫线锚）。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1457,
+    "total_tokens": 1670,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1288
+    }
+  }
+}

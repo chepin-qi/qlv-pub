@@ -28,7 +28,7 @@
     "w12": [
       0,
       0,
-      0,
+      8,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 51
+    "beacon_comments": 59
   },
   "qgl_head": "ce40cb30ef5760c01839418883c5238843aae9b7",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 142,
+  "seg_cursor": 143,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -294,7 +294,15 @@
     "auto-otp-20260906T134248-de925e26.json",
     "auto-otp-20260906T140133-7de41fd7.json",
     "auto-otp-20260906T140541-afad5c06.json",
-    "auto-otp-20260906T143724-c5aa40e9.json"
+    "auto-otp-20260906T143724-c5aa40e9.json",
+    "auto-otp-20260906T145243-379ca852.json",
+    "auto-otp-20260906T161540-aab562b3.json",
+    "auto-otp-20260907T013326-9aa7605a.json",
+    "auto-otp-20260907T014216-b0aee5fe.json",
+    "auto-otp-20260907T021520-c22a1096.json",
+    "auto-otp-20260907T023130-1322f5bf.json",
+    "auto-otp-20260907T025457-13daeb6d.json",
+    "auto-otp-20260907T025647-qlv.json"
   ],
   "debt_queue": [
     {
@@ -889,6 +897,46 @@
     },
     {
       "id": "lanetask:auto-otp-20260906T143724-c5aa40e9.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260906T145243-379ca852.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260906T161540-aab562b3.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T013326-9aa7605a.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T014216-b0aee5fe.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T021520-c22a1096.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T023130-1322f5bf.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T025457-13daeb6d.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T025647-qlv.json",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }

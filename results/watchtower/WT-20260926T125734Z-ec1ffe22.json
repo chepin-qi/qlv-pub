@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T12:57:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T025647-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得 auto-otp-20260907T025647-qlv.json，属 qlv 线自动 otp 产出裸件。| 性态:仅文件名与格式头标已知，内容未触发细收，实测数据缺失，尚无法区分「未触发」或「触发未响应」。| 建议处置:依 WAKE-PROTO 推进细收，完成 json 结构解析与负载校验后裁决；若解析失败或无结构化负载，落账为「待补件」。| 锚:AUTH-OTP-02「投必有件」规约要求单件必含可验结构化负载，裸文件名不构成有效投件。",
+  "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 939,
+    "total_tokens": 1150,
+    "completion_tokens_details": {
+      "reasoning_tokens": 788
+    }
+  }
+}
