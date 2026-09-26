@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:42:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md，扫描触达完成，表内容未实测。| 性态:触发已响应，处WAKE-PROTO扫描→细收节点，无数据实测，不编数。| 建议处置:细收解析md表结构，完整则裁决落账，缺损或异常则裸候/退件。| 锚:跨线锚cisvr节点20260911T0240Z时标，对照PIPE-LOG-SPECTRA审计链路校验。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1379,
+    "total_tokens": 1603,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1249
+    }
+  }
+}

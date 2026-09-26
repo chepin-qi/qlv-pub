@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:43:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得任务单TASK-CISVR-ORDER-KEYFP-OVR-01.md，属CISVR订单KEYFP覆盖类；当前仅完成扫描侦得，未触发实测，无响应数据回传。| 性态:裸候悬置；未实测不编数，暂无法区分未触发/触发未响应。| 建议处置:维持裸候，不主动求应；待下游实测回传或触发响应后按WAKE-PROTO裁决落账；超时按lanesweep.task规则归档。| 锚:CISVR/KEYFP-OVR线",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1056,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "reasoning_tokens": 924
+    }
+  }
+}

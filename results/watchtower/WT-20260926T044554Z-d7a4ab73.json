@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:45:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-FIELD-QLV-SOURCE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[lane扫]侦得TASK-FIELD-QLV-SOURCE-01.md| 性态:触发已响应/源件暴露/内容未实测不编数| 建议处置:入细收队列审后依WAKE-PROTO裁决落账；裸候不越真机钱面不刷屏| 锚:ref:TASK-FIELD-QLV-SOURCE-01.md（本线锚），他线锚暂缺",
+  "usage": {
+    "prompt_tokens": 206,
+    "completion_tokens": 1376,
+    "total_tokens": 1582,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1275
+    }
+  }
+}

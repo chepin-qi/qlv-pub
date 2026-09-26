@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T04:44:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-DRILL-0919-SEAT-QLV-02.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=TASK-DRILL-0919-SEAT-QLV-02.md，摘要仅报\"[lane扫]任务件侦得\"，无实体载荷| 性态:到件信号已落账，实测内容未触发，处于裸候/未启态；未触发细收，不编数| 建议处置:维持裸候，待补入TASK-DRILL-0919-SEAT-QLV-02.md实体或lanesweep回执后，重启WAKE-PROTO细收→裁决| 锚:SCHED-DRILL线/STORE-SEAT线，备调",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1091,
+    "total_tokens": 1307,
+    "completion_tokens_details": {
+      "reasoning_tokens": 946
+    }
+  }
+}
