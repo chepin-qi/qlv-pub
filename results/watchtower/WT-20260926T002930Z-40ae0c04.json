@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T00:29:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "dd5d9693",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主仓main HEAD自b5f257f7迁移至dd5d9693，单节点ref滑动。| 性态:头指针线性前移，摘要未附构建/评审/冲突状态，属常规代码层位移；无额外触发标记，亦无阻断痕迹。| 建议处置:①比对两commit diff确认变更边界；②核实CI是否已纳入新HEAD执行；③若存在自动晋级链路，校验制品落仓结果。| 锚:git HEAD迁移须匹配分支保护规则，他线应同步校验工作区与远端ref一致性，避免detached状态误提交。",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 951,
+    "total_tokens": 1149,
+    "completion_tokens_details": {
+      "reasoning_tokens": 815
+    }
+  }
+}
