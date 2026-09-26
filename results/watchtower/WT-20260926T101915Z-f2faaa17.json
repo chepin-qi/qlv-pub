@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:18:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T123352-97fafbe5.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp任务件(ref=auto-otp-20260906T123352-97fafbe5.json)，仅摘要登记，无实测负载。| 性态:单件裸候；未触发或触发未响应状态未明，诚实边界内不编数。| 建议处置:依WAKE-PROTO细收→裁决→落账；先行unpack校验OTP-02投件边界与签名，确认payload后裁决落账或退回。| 锚:lanesweep.task|auto-otp-02|米田边律.",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1218,
+    "total_tokens": 1433,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1091
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:19:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T134248-de925e26.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ref=auto-otp-20260906T134248-de925e26.json，系自动OTP文件落盘。| 性态:仅扫描侦得，未触发内容解析及真机钱面操作；属流程自动化产出，当前无响应态。| 建议处置:依WAKE-PROTO续行细收→裁决→落账；校验JSON完整性后按auto-otp规范归档，本件裸候。| 锚:lanesweep.task#auto-otp投件规范线。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1234,
+    "total_tokens": 1447,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1114
+    }
+  }
+}

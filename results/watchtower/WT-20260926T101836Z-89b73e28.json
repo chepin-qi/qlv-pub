@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:18:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T120206-7c5ccb30.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp-20260906T120206-7c5ccb30.json任务件，仅获文件名及摘要，文件实体内容未触发解析或异常告警。| 性态:落点确认，未实测内容不编数；属静默任务件，无钱面越界，无响应诉求。| 建议处置:按lane扫标准落账归档；因内容未展开，不主动外呼，裸候后续触发或人工复核。| 锚:lanesweep.task↔auto-otp日志锚点，文件名时戳20260906T120206为单一会话唯一锚。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 920,
+    "total_tokens": 1137,
+    "completion_tokens_details": {
+      "reasoning_tokens": 779
+    }
+  }
+}

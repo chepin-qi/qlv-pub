@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:20:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T143724-c5aa40e9.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得单件，ref=auto-otp-20260906T143724-c5aa40e9.json，载荷未展开，无实测数。| 性态:触发未响应，裸候态；单点侦测未穿透内容边界，诚实边界内不编数。| 建议处置:依AUTH-OTP-02投必有件、次次落账；不主动唤应，裸候归档，待细收或真机实测后补裁决。| 锚:auto-otp序列规约; lanesweep.task裸候处置流。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 966,
+    "total_tokens": 1183,
+    "completion_tokens_details": {
+      "reasoning_tokens": 837
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:19:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T140133-7de41fd7.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260906T140133-7de41fd7.json| 性态:文件已落位，未触发内容实测，属lane扫自动产出件；状态为侦得，非已响应| 建议处置:按WAKE-PROTO细收→裁决→落账；裸候下环，不主动外呼，不越真机钱面| 锚:sys-log-20260906/文件系统边线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 956,
+    "total_tokens": 1173,
+    "completion_tokens_details": {
+      "reasoning_tokens": 845
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T10:18:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T120411-34cfa927.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp任务件，ref=auto-otp-20260906T120411-34cfa927.json，系统流水自动生成，当前无异常载荷表征。| 性态:中性自动落件，常规扫描产出，未触发越界/钱面风险。| 建议处置:按WAKE-PROTO落账归档；裸候不主动外联，若otp批次后续校验失败再转复核。| 锚:关联auto-otp-20260906T12 lane扫常规流，作静默归档锚。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1038,
+    "total_tokens": 1251,
+    "completion_tokens_details": {
+      "reasoning_tokens": 916
+    }
+  }
+}
