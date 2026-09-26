@@ -27,13 +27,13 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      8,
       0,
       0,
       0,
       0,
       0,
       0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 7,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-26",
-    "beacon_comments": 36
+    "beacon_comments": 37
   },
   "qgl_head": "c1c2f5fb10ae8cfddfe232d06f4d3482a0559c98",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 127,
+  "seg_cursor": 128,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -289,11 +289,6 @@
     "auto-otp-20260906T120-b99531eb.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-KEY-AUDIT-69-QLV-01.md",
       "note": "lane任务件候机答/转派",
@@ -930,9 +925,14 @@
       "id": "lanetask:ANS-FLOOR-SHA-SRC-01.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-26T04:56:06Z"
+    },
+    {
+      "id": "lanesweep:ANS-IGNITE-BAIT-58-qlv-20260912T051513Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-09-26T07:39:18Z"
     }
   ],
-  "debt_backlog": 105,
+  "debt_backlog": 112,
   "lane_inbox_count_ci": 28,
   "ucif2_seen": [],
   "fedeye_seen": [
