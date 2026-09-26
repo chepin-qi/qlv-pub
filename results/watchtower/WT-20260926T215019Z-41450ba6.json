@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:49:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-OCTA-67-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收lanesweep覆写位指令，SI1专属债自驱线程触发覆写，ref已落位。| 性态:属配置层覆写事件，未涉真机钱面；当前仅摘要到件，未触发执行体实测响应，处于待裁决态。| 建议处置:按AUTH-OTP-02裸候原则，不主动外呼；由SI1闭环确认覆写必要性后执行落账，次次留痕。| 锚:他线锚→可参阅ANS-OCTA-67-QLV-01-20260913T104013Z.md原始件或同步主账簿主线复核。",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1261,
+    "total_tokens": 1497,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1111
+    }
+  }
+}
