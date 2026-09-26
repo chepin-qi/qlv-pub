@@ -32,7 +32,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 116,
+  "seg_cursor": 117,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -109,11 +109,11 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1790392420.2134857,
+      "t": 1790391738.2788272,
       "n": 5
     },
     "debt-20260912-keydark-drill": {
-      "t": 1790392420.213492,
+      "t": 1790391738.2788336,
       "n": 5
     },
     "debt-20260912-inbox-purge": {
