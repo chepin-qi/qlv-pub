@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T06:00:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap01-bypass 第5级促件(CAP-01旁路补位滞qfa~19h)| 性态: 债候超QFA静默阈值，属旁路漂移未归集；触发后未响应≥19h，现为裸候硬升级，未实测具体阻塞点| 建议处置: 即刻截停旁路，强制落账核销；若CAP-01主链可用则切回并锁差；仍拒响即转真人钱面裁决，次次落账不候| 锚: debt-20260912主线/cap-01主控阈值线",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1196,
+    "total_tokens": 1423,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1050
+    }
+  }
+}

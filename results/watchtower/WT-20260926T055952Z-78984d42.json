@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T05:59:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-inbox-purge因qlv巷152件机读排空触发第5级促件| 性态:机读排空致债项状态异常或积压，已升至高危级，属被动债务催收| 建议处置:核验152件排空日志，区分误清与实耗；误清则回溯补录，实耗则落账核销；保持裸候，待下游裁决认领| 锚:debt-20260912-inbox-purge;nudge.escalate;第5级;qlv巷152件",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 985,
+    "total_tokens": 1201,
+    "completion_tokens_details": {
+      "reasoning_tokens": 853
+    }
+  }
+}

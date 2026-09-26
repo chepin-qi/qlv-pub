@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T06:00:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-edge-throttle，器课第十二株边缘限流族立档第5级促件。| 性态:冷却突发律、git道绕行、HTTP/1.1方三重耦合，限流与代码通道及旧协议栈存在结构张力；未实测触发阈值，升5级示债候已越缓冲带，属触发未响应的升级态。| 建议处置:依AUTH-OTP-02即刻落账或转裁决方，禁止继续git绕行，裸候真实机钱面验证。| 锚:debt-202606-ingress-backpressure（边缘背压族）、infra-http11-legacy-pipe（HTTP/1.1旧管族）。",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1504,
+    "total_tokens": 1737,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1345
+    }
+  }
+}
