@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:26:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T074654-f3b91b1e.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task件到件，ref=auto-otp-20260907T074654-f3b91b1e.json，摘要仅告侦得，未载执行态与响应体|性态:裸件待拆，未触发/触发未响应状态不明，未实测不编数，依AUTH-OTP-02须次次落账|建议处置:拆包验签→细收扫描→裁决落账；若为预生成占位件，暂置冷备区补全链路后销账|锚:lanesweep.task为auto-otp他线锚，ref路径(timestamp+uuid)可交叉索引",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1314,
+    "total_tokens": 1533,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1172
+    }
+  }
+}

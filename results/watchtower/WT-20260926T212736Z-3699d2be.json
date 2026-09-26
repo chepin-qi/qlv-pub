@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:27:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T075648-e2b95c62.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得(auto-otp-20260907T075648-e2b95c62.json)|性态:OTP任务扫描回执，单件孤证，时标有效，未触发业务响应|建议处置:按AUTH-OTP-02次次落账确认收悉，裸候待办，不入主动推送|锚:lanesweep.task标准扫描线/VOID时钟静默",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 786,
+    "total_tokens": 1003,
+    "completion_tokens_details": {
+      "reasoning_tokens": 692
+    }
+  }
+}

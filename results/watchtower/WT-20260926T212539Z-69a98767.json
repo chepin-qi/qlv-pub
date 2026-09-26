@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:25:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T064442-651351fb.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦获auto-otp-20260907T064442-651351fb.json，时戳20260907T064442，为auto-otp裸件。| 性态:扫描触达未细收，内容未展开，未触发vs触发未响应不可辨，属待收态。| 建议处置:落账备档；若属otp-02流水则挂起补细收或转真机面检；裸候。| 锚:otp-auto-gen流水线/时戳锚20260907T064442-651351fb。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1241,
+    "total_tokens": 1454,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1114
+    }
+  }
+}

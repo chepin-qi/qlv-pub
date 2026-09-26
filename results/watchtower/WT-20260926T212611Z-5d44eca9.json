@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:25:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T064936-ae976f0e.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，ref=auto-otp-20260907T064936-ae976f0e.json，属自动OTP流水到件。| 性态:仅扫描到件，未触发内容解析与下游响应，处“侦得待细收”，无钱面涉。| 建议处置:细收该JSON载荷→裁决优先级→落账入队；本回合裸候，不主动外呼。| 锚:他线锚定main-log.lane/VOID时钟，件戳20260907T064936已落账。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1080,
+    "total_tokens": 1295,
+    "completion_tokens_details": {
+      "reasoning_tokens": 953
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:28:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T090329-73a5795d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ref文件(auto-otp-20260907T090329-73a5795d.json)| 性态:空件/仅侦得壳体，未触发细收，内容未实测，无响应数据| 建议处置:按lane扫协议裸候，待载荷回传后补细收裁决，本次不落账| 锚:sys.lane/void.scan",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 843,
+    "total_tokens": 1060,
+    "completion_tokens_details": {
+      "reasoning_tokens": 748
+    }
+  }
+}

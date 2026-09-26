@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T21:27:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T081959-e56843a4.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp文件(ref:20260907...e56843a4.json)| 性态:仅获文件壳，未触发实质OTP校验流，内容未实测，属待细收态| 建议处置:按WAKE-PROTO细收；若空壳则落账废件，若含OTP载荷依AUTH-OTP-02验投必有件与诚实边界| 锚:otp-spec#4.2文件命名校验;lanesweep-sop#3空件识别",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1183,
+    "total_tokens": 1398,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1064
+    }
+  }
+}
