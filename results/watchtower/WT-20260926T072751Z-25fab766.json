@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:27:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md于lane扫中侦得|性态:纯扫档，仅件头识别，未触发fetch执行体，无回包/落账，属「未触发」态|建议处置:按WAKE-PROTO推进细收；若需拉取共签内容则投件启执行并次次落账，若仅归档则标lane-sweep-done落账裸候|锚:USRM主线/COSIGN联签线双锚",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1387,
+    "total_tokens": 1615,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1260
+    }
+  }
+}

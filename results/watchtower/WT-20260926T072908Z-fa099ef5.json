@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:28:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260906T120-b99531eb.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=auto-otp-20260906T120-b99531eb.json，仅文件名级侦得，无执行体、无实测数、无响应包。|性态:裸件空壳，未触发实测与响应，处扫描→细收完成、裁决悬置态。|建议处置:已按AUTH-OTP-02次次落账；无实测不越真机钱面，保持裸候，不刷屏求应。推进须补执行日志与响应体。|锚:otp-02-sweep.meta/真机钱面隔离桩。",
+  "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 1165,
+    "total_tokens": 1376,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1031
+    }
+  }
+}

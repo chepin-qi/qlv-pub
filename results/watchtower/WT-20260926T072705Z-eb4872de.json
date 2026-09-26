@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:26:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-PHI-CHAIN-02-qtlv-3e803d3e.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 ref=TASK-PHI-CHAIN-02-qtlv-3e803d3e.md，本工位无工具读包，实质内容未明。| 性态: 单会话文本裸收，未触发解析，属“到件未拆包”状态。| 建议处置: 转有工具工位拆包；或发件方补录实质摘要。本工位按“待拆包”落账，裸候。| 锚: PHI-CHAIN-02 任务队列/线扫待处理池。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 894,
+    "total_tokens": 1116,
+    "completion_tokens_details": {
+      "reasoning_tokens": 764
+    }
+  }
+}

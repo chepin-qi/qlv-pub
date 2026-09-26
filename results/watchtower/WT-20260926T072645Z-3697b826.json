@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:26:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-KEYFP-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 到件，侦得 ref=TASK-KEYFP-QLV-01.md，无读取工具，内容未实测。| 性态: 属待扫任务件，仅达扫描层；执行流未触发，内部键值及状态未知，诚实记为「未实测」。| 建议处置: 1)本次落账为\"待收待扫\"；2)转有人工位或启文件工具细收；3)裸候，不主动外呼。| 锚: QLV-MAIN#task-pool/KEYFP-QLV-ROOT",
+  "usage": {
+    "prompt_tokens": 204,
+    "completion_tokens": 1169,
+    "total_tokens": 1373,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1035
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T07:27:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "TASK-USRM-QLV-SHA-ANCHOR-02.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 TASK-USRM-QLV-SHA-ANCHOR-02.json | 性态: 文件态待收，未触发内容解析，属扫描到件阶段 | 建议处置: 细收该 JSON，校验 SHA-ANCHOR-02 锚点载荷及 USRM 签名，裁决后落账 | 锚: qlv-SHA-ANCHOR-02; he-line: usr-mgmt/task-routing",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 864,
+    "total_tokens": 1076,
+    "completion_tokens_details": {
+      "reasoning_tokens": 760
+    }
+  }
+}
