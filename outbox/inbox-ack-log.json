@@ -7844,6 +7844,282 @@
    "ts": "VOID",
    "ts_precision": "voided-by-root-order",
    "sha12": "0c20d05e02d9"
+  },
+  {
+   "ref": "board/PIVOT-01-DECLARATION-20260925.md",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "8d7b2574cdf5"
+  },
+  {
+   "ref": "results/watchtower/WT-20260925T230606Z-958d3110.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "42cf4a83cfaa"
+  },
+  {
+   "ref": "results/watchtower/WT-20260925T231714Z-958d3110.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "896b038b7b67"
+  },
+  {
+   "ref": "results/watchtower/WT-20260925T232725Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "f5fe7948d319"
+  },
+  {
+   "ref": "results/watchtower/WT-20260925T233735Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "b15de8648d0e"
+  },
+  {
+   "ref": "results/watchtower/WT-20260925T234744Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "98769b686502"
+  },
+  {
+   "ref": "results/watchtower/WT-20260925T235755Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "a60484cfa485"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T000806Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "cf2aeeed76fe"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T001837Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "ae13b6ba57c0"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T002930Z-40ae0c04.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "237a9bb1da35"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T004009Z-40ae0c04.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "1805eb13acd6"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T005020Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "30a4e9b9f44f"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T010029Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "94ecfaa1ddf7"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T011112Z-ddb77686.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "8fed5e5b81a0"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T012205Z-ddb77686.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "e5394a76487a"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013248Z-815d8ec1.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "564c1c7c90bd"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013309Z-39e8359c.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "34392ac6b5c3"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013346Z-b2e72566.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "0f801f77f695"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013413Z-c5902e1d.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "452102ea2891"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013435Z-fd50fa52.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "9f1318120fb8"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013501Z-b070a367.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "31e724582480"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013524Z-2c67c6db.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "90b88a8ee317"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T013548Z-2d053177.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "3c70c69bf417"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014625Z-815d8ec1.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "28a5810458d2"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014650Z-39e8359c.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "60c6f4907a4f"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014740Z-b2e72566.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "c1a3e72c3abf"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014757Z-c5902e1d.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "0194a4a0bbef"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014825Z-fd50fa52.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "0bdf5802538c"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014857Z-b070a367.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "933e78a5417b"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014927Z-2c67c6db.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "21dee93566b8"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T014953Z-2d053177.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "f85c0b7eba0a"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T020037Z-a5c9317f.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "bf85910a3a7e"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T021120Z-a5c9317f.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "8611646a9947"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T022132Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "a52da92ea7cd"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T023143Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "cd7858dadfd3"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T024156Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "ad60de92c8e9"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T025207Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "d96ef69ad51d"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T030250Z-df9d5f76.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "1033f95e5ed1"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T030328Z-fe6fed24.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "6088dfb841c3"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T031408Z-df9d5f76.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "ec3e62e6f155"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T031443Z-fe6fed24.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "a7e1b4d4900a"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T032529Z-c2622a40.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "41f7bdf96828"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T033614Z-c2622a40.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "a249248de92b"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T034626Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "aea41cda6ddc"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T035637Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "4ecfdc8f27b1"
+  },
+  {
+   "ref": "results/watchtower/WT-20260926T040655Z-heartbeat.json",
+   "ts": "VOID",
+   "ts_precision": "voided-by-root-order",
+   "sha12": "1cc0c641c992"
   }
  ]
 }
