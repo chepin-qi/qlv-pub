@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-26T00:39:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "dd5d9693",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa 主线 HEAD 自 b5f257f7 迁移至 dd5d9693| 性态:单点快照推进，无回滚或冲突表征，属常规 beat 心跳| 建议处置:落账收档；若 dd5d9693 未过 CI gate 则转 qfa.ci 线复核，非预期强推则启审计| 锚:ref=dd5d9693; he:commit-diff 待补",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 1026,
+    "total_tokens": 1224,
+    "completion_tokens_details": {
+      "reasoning_tokens": 917
+    }
+  }
+}
