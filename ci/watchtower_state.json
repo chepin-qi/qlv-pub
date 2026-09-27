@@ -29,6 +29,7 @@
       0,
       0,
       0,
+      1,
       0,
       0,
       0,
@@ -36,12 +37,11 @@
       0,
       0,
       0,
-      0,
-      1
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-09-27",
     "beacon_comments": 20
   },
-  "qgl_head": "22738487b6c64c54ac3bd591049f2380260239c6",
+  "qgl_head": "8eb1522005dcb6c8a5da624d710eefc907665e7d",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -1265,7 +1265,7 @@
     {
       "id": "lanetask:ANS-OTP64-QLV-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-27T03:21:19Z"
+      "ts": "2026-09-27T03:31:49Z"
     }
   ],
   "debt_backlog": 161,

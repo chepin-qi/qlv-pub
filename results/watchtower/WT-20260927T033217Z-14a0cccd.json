@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:31:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-OTP64-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位，ref=lanetask:ANS-OTP64-QLV-01.md，[债自驱]SI1专属覆写| 性态:摘要仅示覆写意图，无实测触发/响应日志，属未触发态；未越真机钱面| 建议处置:裸候，不主动寻应；待细收实测载荷后按WAKE-PROTO裁决落账，未实测不编数| 锚:otp64://ANS-OTP64-QLV-01.md#seat",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1370,
+    "total_tokens": 1588,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1243
+    }
+  }
+}
