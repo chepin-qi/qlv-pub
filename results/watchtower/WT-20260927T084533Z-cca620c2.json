@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:45:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T065948-e2bb5e8b.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp JSON落账件(ref=e2bb5e8b)|性态:自动OTP任务文件，时标20260909T065948，属例行扫段产出；未触发异常阈值，无实测响应数据，状态裸候|建议处置:按lane扫标准单件落账，归档不刷屏，无需回刷或真机面操作|锚:AUTH-OTP-02裸候条款/lanesweep.task章程",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 879,
+    "total_tokens": 1098,
+    "completion_tokens_details": {
+      "reasoning_tokens": 772
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:43:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T030300-d3a71751.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件到件(auto-otp-20260909T030300-d3a71751.json)| 性态:空载触发，摘要仅示侦得，无实质载荷可解析，诚实记为触发未响应| 建议处置:按OTP-02次次落账，入待清池裸候，不主动回捞，候主线下周期拉取| 锚:锚定VOID时钟域及auto-otp索引树，他线可溯",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1065,
+    "total_tokens": 1280,
+    "completion_tokens_details": {
+      "reasoning_tokens": 955
+    }
+  }
+}

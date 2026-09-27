@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:44:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T052134-6087b0be.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp-20260909T052134-6087b0be.json，clock=VOID，系自动产出通道清扫任务件。| 性态:已触发侦得，未实测、未响应，属\"触发未响应\"待落账态；诚实边界内不编数，不越真机钱面。| 建议处置:按WAKE-PROTO裸候挂起，不主动寻求回应，待上游真机回执或clock同步后执行细收裁决并次次落账，逾期无响应则按冷存周期归档。| 锚:archive.cycle/冷存审计线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1329,
+    "total_tokens": 1546,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1185
+    }
+  }
+}

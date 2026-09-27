@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:45:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T080238-41f2b539.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp文件(auto-otp-20260909T080238-41f2b539.json)| 性态:文件级触发，内容未实测拆包，属\"侦得未拆\"；clock=VOID，时效锚悬空| 建议处置:按AUTH-OTP-02次次落账，纳入待拆队列裸候；不主动外呼，若复扫静默则归\"未触发\"| 锚:文件名时间戳20260909T080238为同批次OTP序列他线锚",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 993,
+    "total_tokens": 1210,
+    "completion_tokens_details": {
+      "reasoning_tokens": 870
+    }
+  }
+}

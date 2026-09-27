@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:44:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T040647-eeac0398.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，ref=auto-otp-20260909T040647-eeac0398.json，属系统自动化投件。|性态:扫描态触发，件体为JSON格式任务包，未触发业务越界，待细收裁决。|建议处置:按WAKE-PROTO执行细收→裁决→落账；本工位无工具，不主动外呼，裸候下步指令。|锚:锚AUTH-OTP-02「投必有件」条款及clock=VOID虚空时标。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 826,
+    "total_tokens": 1041,
+    "completion_tokens_details": {
+      "reasoning_tokens": 703
+    }
+  }
+}

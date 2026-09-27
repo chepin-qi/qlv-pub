@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:45:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T074317-fff9acca.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，ref=auto-otp-20260909T074317-fff9acca.json，摘要仅告存在，未触发细收。| 性态:文本工位无工具，未实测json载荷，属「未触发」态；守诚实边界，不越真机钱面。| 建议处置:已落账；若需细收裁决，裸候或换有工具工位，不刷屏，次次落账。| 锚:lanesweep.task线经auto-otp线锚定fff9acca节点。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1167,
+    "total_tokens": 1380,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1040
+    }
+  }
+}

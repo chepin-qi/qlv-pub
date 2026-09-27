@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:43:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T150754-7e8ddcac.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp文件件|性态:仅外壳触发，未实测json内OTP种子/时间戳/签名校验；属「侦得未细收」，无响应数据，不编数|建议处置:按WAKE-PROTO进入细收，解析lane字段与OTP载荷；空壳则落账「空扫」，有件则转裁决|锚:命名规auto-otp-{ISO8601}-{hash}符合AUTH-OTP-02投件命名，可锚工位协议线作时序校验",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 863,
+    "total_tokens": 1080,
+    "completion_tokens_details": {
+      "reasoning_tokens": 739
+    }
+  }
+}
