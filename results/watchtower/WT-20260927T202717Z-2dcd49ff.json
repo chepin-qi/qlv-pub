@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T20:26:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-QLV-SPECTRA-01-R2.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat/SI1覆写位(ref:ANS-QLV-SPECTRA-01-R2.md) | 性态:配置层自驱覆写；未触真机执行，仅文档位变更。裁决基于摘要，未实测文件哈希/落盘。 | 建议处置:①预检R2.md原版本戳 ②覆写前diff留痕 ③落账SI1专属changelog ④覆写后只读锁防漂移 | 锚:git:ANS-QLV-SPECTRA-01-R2.md@HEAD~1差异锚定",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1172,
+    "total_tokens": 1394,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1037
+    }
+  }
+}
