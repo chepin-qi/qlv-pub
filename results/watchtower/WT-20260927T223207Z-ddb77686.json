@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:31:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，chepin-ai/vci-inbox巷卡227→231，最新件qtlv-spectra-x11-qsca7fce6884.md落入qlv/inbox。| 性态:序列正常递增，单到件通知，未触发异常阈值，属常规流入。| 建议处置:按规程落账收入inbox，标记待分拣；本件为纯到件信标，无额外处置需求，裸候。| 锚:锚chepin-ai/vci-inbox巷卡索引序列。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1492,
+    "total_tokens": 1722,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1370
+    }
+  }
+}
