@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:30:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-OCTA-67-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat 收覆写位指令，ref=lanetask:ANS-OCTA-67-QLV-01.md，摘要[债自驱]SI1专属| 性态:文本工位无工具，未触发真机覆写，属「未触发」而非「触发未响应」| 建议处置:转有具工位执行覆写落账；本席裸候，已收件不落空| 锚:debtengine.core/overwrite-slot",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1189,
+    "total_tokens": 1411,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1075
+    }
+  }
+}
