@@ -60,7 +60,7 @@
   "date": "2026-09-27",
   "beacon_comments": 8
  },
- "qgl_head": "5f44b3e7c32bf02be14bed8c0661d819e9496d26",
+ "qgl_head": "b8b3dfc45831e9ecfe6d4a7d0d0e5c711d2ad046",
  "_probe_err": {
   "ci-inbox/commits": {
    "n": 1,
@@ -328,13 +328,13 @@
   "auto-otp-20260907T090329-73a5795d.json",
   "auto-otp-20260907T090510-705c2898.json",
   "DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md",
+  "DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
   "auto-otp-20260907T092514-339188d0.json",
   "auto-otp-20260907T095814-423b8c95.json",
   "auto-otp-20260907T103900-b25e4775.json",
   "auto-otp-20260907T113541-a59024cc.json",
   "auto-otp-20260907T121704-5ad2ad60.json",
-  "auto-otp-20260907T123306-f33a4f36.json",
-  "auto-otp-20260907T130330-0e7bf7d5.json"
+  "auto-otp-20260907T123306-f33a4f36.json"
  ],
  "debt_queue": [
   {
@@ -1078,6 +1078,11 @@
    "si0_solvable": false
   },
   {
+   "id": "lanetask:DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+   "note": "lane任务件候机答/转派",
+   "si0_solvable": false
+  },
+  {
    "id": "lanetask:auto-otp-20260907T092514-339188d0.json",
    "note": "lane任务件候机答/转派",
    "si0_solvable": false
@@ -1104,11 +1109,6 @@
   },
   {
    "id": "lanetask:auto-otp-20260907T123306-f33a4f36.json",
-   "note": "lane任务件候机答/转派",
-   "si0_solvable": false
-  },
-  {
-   "id": "lanetask:auto-otp-20260907T130330-0e7bf7d5.json",
    "note": "lane任务件候机答/转派",
    "si0_solvable": false
   }

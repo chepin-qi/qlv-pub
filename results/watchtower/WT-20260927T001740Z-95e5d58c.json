@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:17:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=DRIVE-qlv-20260927T000310Z-d0d4f737b925.md，摘要为lane扫任务件侦得| 性态:单任务件投递，属例行通道扫描类，本体未附实测Payload，故不编异常数；当前状态为「到件未决」，尚未触发响应链| 建议处置:按WAKE-PROTO完成落账，裸候下阶段细收指令；不主动外呼，待件自证| 锚:cross-ref→SYS-INDEX/lanesweep.pending/20260927",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1030,
+    "total_tokens": 1256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 893
+    }
+  }
+}

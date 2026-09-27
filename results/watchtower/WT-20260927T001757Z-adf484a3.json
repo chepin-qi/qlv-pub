@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:17:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T092514-339188d0.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp-20260907T092514-339188d0.json| 性态:文件已落位，实测仅至扫描层；内容未解析、触发态未明（未触发/触发未响应待验），属裸候件| 建议处置:按WAKE-PROTO推进细收→裁决；依AUTH-OTP-02投必有件，裸候不刷屏，待真机回执后落账| 锚:lanesweep.task→auto-otp协议栈，旁挂OTP-02审计线留痕",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1168,
+    "total_tokens": 1383,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1039
+    }
+  }
+}

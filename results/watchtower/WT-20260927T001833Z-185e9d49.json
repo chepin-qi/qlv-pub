@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:18:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T103900-b25e4775.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，ref=auto-otp-20260907T103900-b25e4775.json，摘要仅报文件侦得，无实质负载|性态:裸候态；未触发实测响应，诚实边界内不编数，暂不区分未触发或触发未响应|建议处置:按AUTH-OTP-02裸候不刷屏，落\"侦得\"空壳账；置入待扫队列，待实测后补录|锚:WAKE-PROTO扫描落账/clock=VOID/米田边律",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1218,
+    "total_tokens": 1433,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1092
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:17:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T095814-423b8c95.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务件侦获auto-otp文件(ref:20260907T095814-423b8c95.json)，属通道扫描落件。| 性态:扫描落账态；文件仅被侦得，尚未触发OTP解析或校验流程，属未响应静置，无越真机钱面。| 建议处置:依WAKE-PROTO细收→裁决→落账：核验完整性后入暂存，按AUTH-OTP-02逐件投校、次次落账，不裸候不刷屏。| 锚:可锚定20260907日期批次审计线及原始lanesweep采集工位。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 841,
+    "total_tokens": 1058,
+    "completion_tokens_details": {
+      "reasoning_tokens": 698
+    }
+  }
+}

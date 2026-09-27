@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:18:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T121704-5ad2ad60.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task侦得任务件 ref=auto-otp-20260907T121704-5ad2ad60.json，[lane扫]完成单件捕获。| 性态: 常规触发，件已落账但未拆包，无异常告警或越权痕迹，属静默到件。| 建议处置: 按lanesweep.task标准流程校验该json完整性及签章，有效则归档待裁决，无效即焚。| 锚: lane-sweep@void-main / otp-docket@auto-2026",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 540,
+    "total_tokens": 757,
+    "completion_tokens_details": {
+      "reasoning_tokens": 419
+    }
+  }
+}

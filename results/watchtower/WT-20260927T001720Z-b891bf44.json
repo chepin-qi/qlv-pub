@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:17:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task扫件侦得ref=DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md，细收未竟，payload未实测。| 性态:未触发（仅摘要命中，内部业务态未展开，无响应可判）。| 建议处置:①启细收，读取md实质内容；②若空件或格式失效，按lane扫死信落账归档；③裸候，不主动求应。| 锚:meta.archive.qlv/deadletter.lanesweep",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1106,
+    "total_tokens": 1334,
+    "completion_tokens_details": {
+      "reasoning_tokens": 980
+    }
+  }
+}
