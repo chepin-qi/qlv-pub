@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:52:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T123242-d3eeee01.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp文件(ref=d3eeee01)，clock=VOID，未触发实质校验流，仅报存在。| 性态:单任务件挂起，无钱面响应数据，属「侦得未触发」态，诚实边界内不编数。| 建议处置:按AUTH-OTP-02裸候，不主动拉取回应；完成本次落账归档，待真机信号后细收裁决。| 锚:并行提audit线留痕，备交叉验证。",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 905,
+    "total_tokens": 1118,
+    "completion_tokens_details": {
+      "reasoning_tokens": 788
+    }
+  }
+}

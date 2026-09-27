@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:52:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T130338-49d63f2a.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=auto-otp-20260908T130338-49d63f2a.json，摘要侦得lane扫任务件。| 性态:单件裸候；未触发细收/裁决，无实测数，不编数；属扫描态到件，非响应失败。| 建议处置:依WAKE-PROTO完成落账归档；裸候不主动求应，待后续工序拉取或OTP唤醒。| 锚:AUTH-OTP-02/投必有件；clock=VOID/时标失锚；双他线锚定。",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1247,
+    "total_tokens": 1466,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1111
+    }
+  }
+}

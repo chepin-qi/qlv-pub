@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:52:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T140741-e283f5ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ref=auto-otp-20260908T140741-e283f5ba.json任务件| 性态:单件裸候，内容未展开，未触发深层响应，无实测数据可落；属待扫占位态| 建议处置:依AUTH-OTP-02裸候原则，不主动寻求回应，次次落账为待扫队列占位，待内容展开后补裁决| 锚:ref哈希e283f5ba可交叉索引至otp线审计日志",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 980,
+    "total_tokens": 1195,
+    "completion_tokens_details": {
+      "reasoning_tokens": 861
+    }
+  }
+}

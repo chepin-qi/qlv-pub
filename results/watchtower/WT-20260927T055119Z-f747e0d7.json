@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:51:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T101209-b89946f6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp文件(ref:auto-otp-20260908T101209-b89946f6.json)| 性态:常规通道扫描落账件，OTP格式合规，未触发异常，无响应缺失| 建议处置:依WAKE-PROTO执行细收→裁决→落账，次次落账后归档| 锚:AUTH-OTP-02/lane扫标准作业",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 771,
+    "total_tokens": 986,
+    "completion_tokens_details": {
+      "reasoning_tokens": 673
+    }
+  }
+}

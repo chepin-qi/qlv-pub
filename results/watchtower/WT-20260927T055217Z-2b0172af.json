@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:52:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T120102-3313a701.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp任务件(ref:20260908T120102-3313a701.json)| 性态:自动化OTP凭据容器，当前为躺件态；未实测内部结构与触发状态，诚实区分不可辨其未触发或触发未响应| 建议处置:依AUTH-OTP-02投必有件/次次落账，裸候不主动外呼；建议他线拉取实测校验，若涉真机钱面则隔离待审| 锚:lanesweep.task/auto-otp/20260908T120102",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 909,
+    "total_tokens": 1124,
+    "completion_tokens_details": {
+      "reasoning_tokens": 780
+    }
+  }
+}

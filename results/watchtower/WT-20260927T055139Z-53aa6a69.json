@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:51:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T105119-b399ca48.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:auto-otp任务件(lane扫侦得,ref已落位)| 性态:扫描触发,内容未实测,无工具解析JSON内构,属\"触发未响应\"态| 建议处置:细收录入待裁决队列,裸候转解析工位人工复核,次次落账| 锚:lanesweep.task规程/米田边律(每件≥1他线锚)",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 910,
+    "total_tokens": 1123,
+    "completion_tokens_details": {
+      "reasoning_tokens": 815
+    }
+  }
+}

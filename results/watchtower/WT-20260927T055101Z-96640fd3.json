@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:50:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T093927-d3e2f2ce.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=auto-otp-20260908T093927-d3e2f2ce.json | 性态:扫描侦得JSON任务件，clock=VOID，内容未实测，现处裸候态 | 建议处置:细收该件，按WAKE-PROTO完成裁决落账；裸候不主动求应，待触发 | 锚:lanesweep.task→auto-otp协议栈",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 798,
+    "total_tokens": 1017,
+    "completion_tokens_details": {
+      "reasoning_tokens": 696
+    }
+  }
+}

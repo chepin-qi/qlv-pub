@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:51:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T112611-8253a535.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp-20260908T112611-8253a535.json，ref已单次落账。| 性态:扫描入账，无触发标记且无响应回显，属「侦得未触发」静默态；未实测不编数。| 建议处置:裸候，不主动求应；入lane扫队列待细收或人工裁决。| 锚:sys-audit/log-otp-trace线（JSON来源审计锚）。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1238,
+    "total_tokens": 1453,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1129
+    }
+  }
+}
