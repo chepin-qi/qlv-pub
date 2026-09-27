@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:40:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-OCTA-67-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1覆写件，ref=ANS-OCTA-67-QLV-01.md，目标覆写位| 性态:配置级自驱指令，单会话文本工位无工具，未触发外部钱面，属内部席位到件| 建议处置:已完成扫描-细收-裁决；覆写位收讫，按AUTH-OTP-02裸候不刷屏，次次落账| 锚:cross-ref:QLV-SEAT-PROC/席位覆写规范",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1147,
+    "total_tokens": 1369,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1023
+    }
+  }
+}
