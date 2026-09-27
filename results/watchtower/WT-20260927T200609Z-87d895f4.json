@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T20:05:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ref=qtlv-spectra-x11-qsca7fce6884.md，扫描到件，内容未触发实测| 性态:单会话裸候态，仅元数据收悉，无载荷响应，属未触发| 建议处置:依WAKE-PROTO推进细收→裁决→落账；无需即时回应则维持裸候，次次落账| 锚:qtlv-spectra-x11属光谱扫描队列，qsca批次常关联X11图形协议审计链",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 883,
+    "total_tokens": 1098,
+    "completion_tokens_details": {
+      "reasoning_tokens": 759
+    }
+  }
+}

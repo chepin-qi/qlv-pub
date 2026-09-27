@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T20:05:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "qtlv-eval-wave-94e32ebb06b0.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，侦得ref为qtlv-eval-wave-94e32ebb06b0.md，当前仅收摘要，未触发文件内容实测。| 性态:到件裸候，属「未触发」状态，待细收裁决。| 建议处置:执行WAKE-PROTO下一步细收该md全文，完成lanesweep内容扫检与落账；若无响应则保持裸候，不主动求应。| 锚:xref:qtlv-eval-wave-94e32ebb06b0.md→lanesweep.task.std#收束",
+  "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 915,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 784
+    }
+  }
+}

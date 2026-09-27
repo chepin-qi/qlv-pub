@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T20:05:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务超时24h触发escalate，ref为qfa-si5ring-answer-20260910T231548Z.md，摘要仅标记升己，未呈现具体阻塞点或异常堆栈。| 性态:属自动化 lanesweep 提级信号，当前信息为摘要级触发态，未确认是否真实阻塞或误报。| 建议处置:按 lanesweep.escalate 流程落账，指派人工复核该 ref 文件实际状态；若确认阻塞则排障闭环，若误报则收紧超时阈值并归档。| 锚:lanesweep.SLO/timeout-policy-24h",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1010,
+    "total_tokens": 1230,
+    "completion_tokens_details": {
+      "reasoning_tokens": 867
+    }
+  }
+}
