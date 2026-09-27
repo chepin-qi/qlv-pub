@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:40:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T140741-e283f5ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp任务件(ref:auto-otp-20260908T140741-e283f5ba.json)|性态:文件名含auto-otp及时间戳哈希后缀，属自动化令牌类任务件；本件仅侦得，未启封实测，内部结构、载荷及响应状态未触发，属「未触发」态|建议处置:按AUTH-OTP-02次次落账，置裸候区待启封实测；复扫若触发则补录响应态|锚:cross-ref SYS-OTP-AUDIT线同轨令牌日志/米田边律",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1179,
+    "total_tokens": 1394,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1041
+    }
+  }
+}

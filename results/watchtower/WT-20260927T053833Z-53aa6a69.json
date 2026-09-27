@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:38:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T105119-b399ca48.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[lane扫]任务件侦得auto-otp-20260908T105119-b399ca48.json，例行扫描到件。| 性态:任务流正常，未触发异常，无响应缺失；诚实边界内无实测数不妄编。| 建议处置:依WAKE-PROTO完成裁决落账，裸候次周期扫描，不主动求应。| 锚:lanesweep.task/otp-ledger/auto-otp-series.",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1398,
+    "total_tokens": 1611,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1295
+    }
+  }
+}

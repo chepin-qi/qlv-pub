@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:38:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T112611-8253a535.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp JSON任务件|性态:仅到场登记，无实测数据，未触发/触发未响应均不可考，严守诚实边界不编数|建议处置:循WAKE-PROTO扫描→细收→裁决→落账，裸候不刷屏，次次落账，不越真机钱面|锚:ref=auto-otp-20260908T112611-8253a535.json,AUTH-OTP-02投必有件规约",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1101,
+    "total_tokens": 1316,
+    "completion_tokens_details": {
+      "reasoning_tokens": 986
+    }
+  }
+}

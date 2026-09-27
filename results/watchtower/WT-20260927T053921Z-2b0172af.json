@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:38:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T120102-3313a701.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务侦得auto-otp JSON投件(ref已落账)，实测载荷与响应体未回传，属侦得后裸候| 性态:投件已触发，细节未决；严守诚实边界不编解析数| 建议处置:依AUTH-OTP-02裸候原则，不主动寻求回应；次次落账后归档，待后续轮巡补裁决| 锚:lane-mainfest交叉索引|otp-gen-spec#裸候队列",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1482,
+    "total_tokens": 1697,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1371
+    }
+  }
+}

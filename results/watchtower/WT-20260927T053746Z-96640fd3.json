@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:37:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T093927-d3e2f2ce.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260908T093927-d3e2f2ce.json，仅标识落账，内容未展开，无触发亦无响应实测。| 性态:扫描态裸候件，未触发业务逻辑，属VOID时钟下无实测数据之空载侦得。| 建议处置:按WAKE-PROTO完成扫描落账，不主动寻应，俟细收环节触发后再裁决。| 锚:otp-inbox线/hash:d3e2f2ce。",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1005,
+    "total_tokens": 1224,
+    "completion_tokens_details": {
+      "reasoning_tokens": 884
+    }
+  }
+}

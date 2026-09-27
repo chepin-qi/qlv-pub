@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:37:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T101209-b89946f6.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦获，ref为auto-otp-20260908T101209-b89946f6.json，系自动OTP流水线产出之单任务文件，无人工投件动作，无资金面触碰。| 性态:自动化触发/孤立件/未越真机钱面/未刷屏/诚实边界内。| 建议处置:按lanesweep规程直接落账归档，标记已扫，无需回呼或人工复核。| 锚:lanesweep运维线/自动OTP审计链。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1015,
+    "total_tokens": 1230,
+    "completion_tokens_details": {
+      "reasoning_tokens": 898
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:39:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T130338-49d63f2a.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件到件(auto-otp-20260908T130338-49d63f2a.json)| 性态:JSON静默到件，未触发实测响应，无刷屏异常。AUTH-OTP-02合规：投必有件、裸候、不越真机钱面。| 建议处置:细收→裁决→落账；置裸候池待下游拉取。未编未测数。| 锚:本线锚(ref)，他线锚未捕获。",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 1736,
+    "total_tokens": 1955,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1622
+    }
+  }
+}

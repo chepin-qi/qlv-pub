@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:39:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T123242-d3eeee01.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务件到件，ref=auto-otp-20260908T123242-d3eeee01.json；扫描已侦得，未细收、未实测| 性态:裸件；无内容剖面、无触发/无响应回执；属扫描到位、裁决未决| 建议处置:细收JSON本体并验风险，续行WAKE-PROTO裁决→落账；裸候，不主动外寻| 锚:他线锚sweep-dump-index，同批静态件待析队列d3eeee01",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 1362,
+    "total_tokens": 1575,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1234
+    }
+  }
+}
