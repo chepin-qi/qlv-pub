@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:37:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T093657-9cc26efa.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 ref 件 auto-otp-20260909T093657-9cc26efa.json | 性态: 单会话文本工位无工具，文件内容未实测，仅据文件名见 auto-otp 标记；属任务件落账类，未触发内容解析与响应判定 | 建议处置: 依 AUTH-OTP-02 次次落账，移交有工具工位或真机面做内容核验及后续裁决，本线裸候不刷屏 | 锚: 文件名时标 20260909T093657 可作跨线索引，待他线回执。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 958,
+    "total_tokens": 1173,
+    "completion_tokens_details": {
+      "reasoning_tokens": 814
+    }
+  }
+}

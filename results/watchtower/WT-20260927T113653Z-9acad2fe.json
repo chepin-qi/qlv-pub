@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:36:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp文件(ref=d33e4fc3)|性态:仅扫描落标，未触发OTP业务流，无实测响应数据，属静默裸候态，区分为「侦得未触发」|建议处置:按WAKE-PROTO完成落账，依AUTH-OTP-02次次落账、不主动寻求回应，裸候待下游拉取或自旋超时|锚:lane/otp/auto-20260909-d33e4fc3",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 898,
+    "total_tokens": 1115,
+    "completion_tokens_details": {
+      "reasoning_tokens": 782
+    }
+  }
+}

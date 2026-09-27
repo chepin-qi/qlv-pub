@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:37:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件投件，ref为auto-otp时间戳json，系自动触发扫道任务单。| 性态:件已落桶，自动OTP生成，未触发人工干预；内文未实测，仅侦得外壳，无异常标记，属“触发未响应”态。| 建议处置:按WAKE-PROTO细收→裁决流程待办，本分身仅落账，不越真机钱面，裸候下步指令。| 锚:OTP-02机制锚定ref时间戳20260909T105415为时序锚点。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1083,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 950
+    }
+  }
+}

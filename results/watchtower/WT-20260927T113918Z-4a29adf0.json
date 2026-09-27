@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:38:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T132308-740c32e7.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp JSON件(ref:auto-otp-20260909T132308-740c32e7.json)| 性态:仅收壳信息，内文未拆且未实测，无法区分「未触发/触发未响应」，现属裸候| 建议处置:拆包细收该JSON，核验auto-otp状态字段后落账二次投件| 锚:ref时间戳20260909T132308为时序锚",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1236,
+    "total_tokens": 1453,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1126
+    }
+  }
+}

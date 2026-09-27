@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:38:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T130417-8689e132.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp JSON(ref:8689e132)，系自动触发落件。| 性态:已触发，payload未实测不编数；属待收殓状态，未验响应。| 建议处置:按WAKE-PROTO细收该件，核验auto-OTP字段完整性后裁决落账；裸候，不主动外呼。| 锚:sec-ops线同批次auto-otp落件横向比对。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 988,
+    "total_tokens": 1203,
+    "completion_tokens_details": {
+      "reasoning_tokens": 881
+    }
+  }
+}

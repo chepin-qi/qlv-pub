@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:36:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T085252-97d04b65.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp文件(ref:auto-otp-20260909T085252-97d04b65.json)|性态:扫描期捕获，文件态静态存在，未触发OTP验签/响应流程，属待细收任务件|建议处置:按WAKE-PROTO推进细收→裁决→落账；裸候，不主动外呼|锚:ref:self@auto-otp-20260909T085252-97d04b65.json,lane:lanesweep.task#inbox",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1293,
+    "total_tokens": 1510,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1172
+    }
+  }
+}
