@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T09:59:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap03-ring(CAP-03自发环巡归)促件升至第6级| 性态:系统内流程escalation，无外部响应触发，未实测资金异动；属候机状态自持升级| 建议处置:裸候，不主动外呼寻求回应；维持环巡归监测，待自发归位或下阶锚触发后落账| 锚:WAKE-PROTO落账环/AUTH-OTP-02裸候律",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1228,
+    "total_tokens": 1445,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1112
+    }
+  }
+}

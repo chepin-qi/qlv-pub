@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T09:58:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap02-lgt 自债候促件，CAP-02下下站旁路权行使后升至第6级| 性态:nudge.escalate流程触发的级迁；clock=VOID，属被动升级，未越真机钱面，界内裸候| 建议处置:按WAKE-PROTO扫描→细收→裁决→落账；遵OTP-02不主动外呼求应，次次落账，诚实边界内自候| 锚:orbit-cap02旁路审计线↔LGT下下站债权网关|",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1556,
+    "total_tokens": 1778,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1416
+    }
+  }
+}
