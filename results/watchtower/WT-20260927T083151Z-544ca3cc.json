@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:31:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T052134-6087b0be.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦获auto-otp文件(ref:auto-otp-20260909T052134-6087b0be.json)| 性态:扫描阶段触发，对象置为待细收；未涉及真机钱面操作，属中性侦测事件，未实测其内部响应状态| 建议处置:按WAKE-PROTO推进细收→裁决→落账，裸候不主动外呼；若细收无响应则记「触发未响应」，若未达逻辑门则记「未触发」| 锚:AUTH-OTP-02(投必有件/次次落账); clock=VOID时效冻结",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 773,
+    "total_tokens": 990,
+    "completion_tokens_details": {
+      "reasoning_tokens": 627
+    }
+  }
+}

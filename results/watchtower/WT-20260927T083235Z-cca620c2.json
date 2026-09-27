@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:32:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T065948-e2bb5e8b.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 扫得 auto-OTP 任务件 ref=auto-otp-20260909T065948-e2bb5e8b.json，clock=VOID，未触发实测| 性态: 自动化OTP配置/日志残留，属系统扫仓产物，当前无活跃响应| 建议处置: 按 lanesweep 规程归档或无害化清理，不主动拉取响应，裸候即可| 锚: lanesweep.sop / otp.cfg / auto-otp-20260909T065948-e2bb5e8b.json",
+  "usage": {
+    "prompt_tokens": 219,
+    "completion_tokens": 912,
+    "total_tokens": 1131,
+    "completion_tokens_details": {
+      "reasoning_tokens": 784
+    }
+  }
+}

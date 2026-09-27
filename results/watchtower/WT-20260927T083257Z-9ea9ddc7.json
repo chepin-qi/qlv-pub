@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:32:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T074317-fff9acca.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task 侦得 auto-otp-20260909T074317-fff9acca.json 任务件| 性态:扫件裸候，未触发执行，无响应 payload，属「不主动寻求回应」态| 建议处置:依 WAKE-PROTO 扫描→细收→裁决→落账，先入库落账，待 lane 复扫或真机面触发后补裁决| 锚:fff9acca 锚定 OTP-02 投件链路，次次落账已建档",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 961,
+    "total_tokens": 1174,
+    "completion_tokens_details": {
+      "reasoning_tokens": 839
+    }
+  }
+}

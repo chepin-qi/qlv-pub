@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:31:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T064741-6a4cfb95.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件auto-otp-20260909T064741-6a4cfb95.json已侦得入库| 性态:系统auto-otp生成，属lanesweep.task类任务触件；摘要仅示侦得，未呈清扫结果/响应码/执行体回执，处「已触发-待落账」态；无实测数可编，不臆造| 建议处置:裸候不主动求应，待执行体回执或次帧状态推送后补录落账；若逾时无响应，按OTP-02重扫或置触发未响应| 锚:可交叉锚定同批次auto-otp日志或lane扫执行节点流水",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 961,
+    "total_tokens": 1178,
+    "completion_tokens_details": {
+      "reasoning_tokens": 803
+    }
+  }
+}

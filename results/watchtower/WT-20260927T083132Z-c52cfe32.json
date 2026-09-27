@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:31:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T040647-eeac0398.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp文件(ref:auto-otp-20260909T040647-eeac0398.json)| 性态:单件自动任务流到达，文件名带ISO时间戳与随机后缀。当前仅扫描侦得，未细收未触发裁决流程。因无工具且无内容实测，不编载荷性质，不臆响应状态。| 建议处置:①细收该JSON并校验eeac0398段一致性；②解析lane扫任务指令与权限域；③按WAKE-PROTO裁决后次次落账，全程不越真机钱面。| 锚:OTP-02/lanesweep/20260909T040647",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1503,
+    "total_tokens": 1718,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1351
+    }
+  }
+}

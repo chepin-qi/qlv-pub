@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:30:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T030300-d3a71751.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp文件(ref:auto-otp-20260909T030300-d3a71751.json)，属自动化任务件到件。| 性态:纯侦得，未触发实测，无响应数据，裸候态，诚实边界内不编数。| 建议处置:按AUTH-OTP-02次次落账，仅备案不刷屏，待细收实测后补录触发/未响应区分。| 锚:lanesweep.task→auto-otp命名规约(T030300时戳+d3a71751哈希尾)。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1102,
+    "total_tokens": 1317,
+    "completion_tokens_details": {
+      "reasoning_tokens": 973
+    }
+  }
+}

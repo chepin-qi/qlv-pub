@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:30:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T150754-7e8ddcac.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得 ref=auto-otp-20260908T150754-7e8ddcac.json，单件裸候| 性态:未实测内部字段，不编数；仅文件级命中，业务逻辑未触发，无越真机钱面| 建议处置:按WAKE-PROTO扫描已毕，待细收；AUTH-OTP-02裸候，不主动求应，建议归档或入lanesweep落账队列| 锚:文件名hash 7e8ddcac / 时标20260908T150754",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1067,
+    "total_tokens": 1284,
+    "completion_tokens_details": {
+      "reasoning_tokens": 936
+    }
+  }
+}
