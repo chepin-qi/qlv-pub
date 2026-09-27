@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T06:03:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-PENTA-lgt-20260913T172139Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收lanesweep:ANS-PENTA-lgt-20260913T172139Z.md覆写指令，系SI1债自驱专属位到件。|性态:自动化单向覆写类自驱事件，属落账前置触发态，未实测文件体内容，不涉人工复核节点。|建议处置:校验覆写前快照一致性，核对ANS-PENTA-lgt时间戳与SI1账本对齐后静默落账，裸候不主动外呼。|锚:lanesweep:ANS-PENTA-lgt-20260913T172139Z.md|debtengine.seat|SI1",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 869,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "reasoning_tokens": 725
+    }
+  }
+}
