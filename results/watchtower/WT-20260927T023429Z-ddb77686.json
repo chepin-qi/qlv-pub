@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:34:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡[chepin-ai/vci-inbox] 225→227，新件 qtlv-spectra-x11-qsca7fce6884.md 落入 lanes/qlv/inbox。| 性态:lane.drop 已触发；件为 spectra-x11 序列末件，内容未实测，属裸候态。| 建议处置:执行细收→裁决→落账；按 AUTH-OTP-02 次次落账、不主动寻求回应。| 锚:chepin-ai/vci-inbox | qlv-spectra-x11 序列",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1064,
+    "total_tokens": 1294,
+    "completion_tokens_details": {
+      "reasoning_tokens": 933
+    }
+  }
+}
