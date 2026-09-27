@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T18:52:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "4d281d9b",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(3952397a→4d281d9b)|性态:主链路指针漂移，单beat无差量告警，属常规版本同步或CI落账信号|建议处置:按落账归档，裸候后续beat一致性；若连续漂移超阈则升单|锚:ref=4d281d9b可与远程origin/main SHA交叉校验",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 733,
+    "total_tokens": 932,
+    "completion_tokens_details": {
+      "reasoning_tokens": 641
+    }
+  }
+}
