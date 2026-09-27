@@ -31,8 +31,8 @@
       0,
       0,
       0,
+      1,
       0,
-      6,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 90
+    "beacon_comments": 89
   },
-  "qgl_head": "7e3db788fd8cfd5f64452724540844271720b821",
+  "qgl_head": "5bc9cfddea88b7679944fe67b7b28a60a20ef793",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 239,
+  "seg_cursor": 240,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -386,19 +386,12 @@
     "qfa-si5ring-answer-20260910T231548Z.md",
     "qtlv-eval-wave-94e32ebb06b0.md",
     "qtlv-spectra-x11-qsca7fce6884.md",
-    "ANS-NOTICE-QRAC-V2RC-LVLU-01.md",
     "FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
     "FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
     "FRAC-01-QUERY-qfa-20260927T205438Z-seq19.md",
-    "FRAC-01-QUERY-qfa-20260927T205438Z-seq23.md",
-    "SIMAX-EVALPACK-LVLU-01.json"
+    "FRAC-01-QUERY-qfa-20260927T205438Z-seq23.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-QLV-SPECTRA-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-QLV-STAMP-CLOSE-01.md",
       "note": "lane任务件候机答/转派",
@@ -1385,11 +1378,6 @@
       "si0_solvable": false
     },
     {
-      "id": "lanetask:ANS-NOTICE-QRAC-V2RC-LVLU-01.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
       "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
@@ -1406,11 +1394,6 @@
     },
     {
       "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq23.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
-    {
-      "id": "lanetask:SIMAX-EVALPACK-LVLU-01.json",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
@@ -1560,9 +1543,14 @@
       "id": "lanetask:ANS-QLV-SPECTRA-01-R2.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-27T20:26:50Z"
+    },
+    {
+      "id": "lanetask:ANS-QLV-SPECTRA-01.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-27T23:07:43Z"
     }
   ],
-  "debt_backlog": 198,
+  "debt_backlog": 201,
   "lane_inbox_count_ci": 29,
   "ucif2_seen": [],
   "fedeye_seen": [
