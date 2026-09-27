@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:55:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T031917-42571d98.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务侦获auto-otp JSON件(ref:auto-otp-20260908T031917-42571d98.json)| 性态:lanesweep.task常规产出，文件名带标准OTP时间戳，未触发异常载荷或越界标记，属正常到件| 建议处置:依AUTH-OTP-02次次落账，核验序列唯一性后入档清件，裸候不刷屏| 锚:lanesweep.task规范线/OTP-02落账律",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 810,
+    "total_tokens": 1025,
+    "completion_tokens_details": {
+      "reasoning_tokens": 697
+    }
+  }
+}

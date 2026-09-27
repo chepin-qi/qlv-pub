@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:57:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T083831-9e21ae09.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得任务件ref=auto-otp-20260908T083831-9e21ae09.json，内容未展开、未实测，裸候。| 性态:单件空载，无触发明细与响应载荷，属扫道静默态。| 建议处置:依WAKE-PROTO细收→裁决→落账；无实测不编数，次次落账，裸候不主动寻求回应。| 锚:ref串号锚主任务流auto-otp-20260908T083831-9e21ae09，lanesweep.task锚文件系统扫道节点。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1009,
+    "total_tokens": 1226,
+    "completion_tokens_details": {
+      "reasoning_tokens": 869
+    }
+  }
+}

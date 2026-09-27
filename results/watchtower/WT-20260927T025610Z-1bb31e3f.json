@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:55:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T042654-a6794e84.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep侦得auto-otp任务件ref=auto-otp-20260908T042654-a6794e84.json| 性态:扫描到件，未触发内容解析，无实测响应数据，属「未触发」态| 建议处置:按投必有件落账，裸候不主动求应；若有效则入任务队列，若冗余则标清待删| 锚:审计线留痕+归档线待验",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 854,
+    "total_tokens": 1069,
+    "completion_tokens_details": {
+      "reasoning_tokens": 747
+    }
+  }
+}

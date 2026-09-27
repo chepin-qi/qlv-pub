@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:56:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T065150-1af7865b.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260908T065150-1af7865b.json，属自动OTP序列化文件；摘要仅示侦得，未实测内容，未明「未触发 vs 触发未响应」。| 性态:文件态/待落账，缺内容哈希与实效戳，属裸候件。| 建议处置:依AUTH-OTP-02投必有件、次次落账，不主动寻应；入待验池，校验OTP时效与lane一致性后落账。| 锚:AUTH-OTP-02次次落账/裸候；lanesweep.task清道规范。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 930,
+    "total_tokens": 1147,
+    "completion_tokens_details": {
+      "reasoning_tokens": 783
+    }
+  }
+}

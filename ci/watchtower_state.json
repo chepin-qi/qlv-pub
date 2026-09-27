@@ -26,7 +26,6 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
       0,
       0,
       0,
@@ -35,15 +34,16 @@
       0,
       0,
       0,
+      8,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 8,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-09-27",
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 11
+    "beacon_comments": 19
   },
-  "qgl_head": "8eb1522005dcb6c8a5da624d710eefc907665e7d",
+  "qgl_head": "22738487b6c64c54ac3bd591049f2380260239c6",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 182,
+  "seg_cursor": 183,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -334,7 +334,15 @@
     "auto-otp-20260907T113541-a59024cc.json",
     "auto-otp-20260907T121704-5ad2ad60.json",
     "auto-otp-20260907T123306-f33a4f36.json",
-    "auto-otp-20260907T130330-0e7bf7d5.json"
+    "auto-otp-20260907T130330-0e7bf7d5.json",
+    "DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+    "auto-otp-20260908T031917-42571d98.json",
+    "auto-otp-20260908T042654-a6794e84.json",
+    "auto-otp-20260908T052618-f161e9fe.json",
+    "auto-otp-20260908T065150-1af7865b.json",
+    "auto-otp-20260908T073745-3c79f836.json",
+    "auto-otp-20260908T083831-9e21ae09.json",
+    "auto-otp-20260908T091036-5848a1dc.json"
   ],
   "debt_queue": [
     {
@@ -1104,6 +1112,46 @@
     },
     {
       "id": "lanetask:auto-otp-20260907T130330-0e7bf7d5.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T031917-42571d98.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T042654-a6794e84.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T052618-f161e9fe.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T065150-1af7865b.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T073745-3c79f836.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T083831-9e21ae09.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T091036-5848a1dc.json",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }

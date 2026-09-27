@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:56:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T052618-f161e9fe.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp JSON(ref=f161e9fe),当前仅触扫描节点,文件实体与内容未实测|性态:待收待核;属通道自动落件,无即时响应数据,未触发下游裁决|建议处置:按WAKE-PROTO推进细收(校验文件/哈希)→裁决(确认OTP有效性)→落账(归档或升单);裸候,不代触真机|锚:挂主仓lane-sweep流水f161e9fe待otp-线回校",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 911,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 788
+    }
+  }
+}

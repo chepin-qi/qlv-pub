@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:56:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T073745-3c79f836.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task侦得auto-otp件(ref:20260908T073745-3c79f836.json) | 性态: 扫描命中/内容未实测/单孤件待收 | 建议处置: 细收验json结构→按AUTH-OTP-02裁决落账；异常则弃件裸候 | 锚: VOID-clock断线态/otp线未联动/本件未触发真机钱面",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1483,
+    "total_tokens": 1700,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1380
+    }
+  }
+}

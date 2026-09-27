@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:55:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task常态侦得DRIVE-qlv-20260927T000310Z-d0d4f737b925.md| 性态:标准落件，时戳与哈希标识完整，未触发异常，未实测响应延迟| 建议处置:依WAKE-PROTO细收落账，裸候，不主动外联| 锚:DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1382,
+    "total_tokens": 1608,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1274
+    }
+  }
+}
