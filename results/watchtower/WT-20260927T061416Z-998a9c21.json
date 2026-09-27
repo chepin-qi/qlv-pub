@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T06:13:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-PENTA-lgt-20260913T172139Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：SI1专属lanesweep覆写位落账，ref=ANS-PENTA-lgt-20260913T172139Z.md，debtengine.seat发生债自驱覆写。| 性态：clock=VOID，时戳未锚；属元数据层位占，未触发实测数据流，无真实债务交割。| 建议处置：依AUTH-OTP-02裸候，不主动外呼，留痕待实测回填后二次裁决。| 锚：类Git裸仓库HEAD覆写，元数据位占不涉对象实存。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1144,
+    "total_tokens": 1370,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1015
+    }
+  }
+}
