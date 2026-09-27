@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:21:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-OTP64-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位变更，SI1专属文件lanetask:ANS-OTP64-QLV-01.md映射至覆写位，属债自驱系统内部配置迁移| 性态:已触发覆写指令，未涉真机钱面流转，响应待回，属裸候态| 建议处置:按AUTH-OTP-02落账留痕，维持裸候不主动外呼，待SI1自驱周期反馈或下次扫描校验覆写结果| 锚:WAKE-PROTO扫描条款/债自驱SI1位控规约",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1072,
+    "total_tokens": 1290,
+    "completion_tokens_details": {
+      "reasoning_tokens": 936
+    }
+  }
+}
