@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:04:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T113541-a59024cc.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp-20260907T113541-a59024cc.json|性态:OTP自动任务件，当前仅扫描落点，未触发业务响应，无实测数，处裸候态|建议处置:按AUTH-OTP-02落账归档，不刷屏、不主动求应，候下次链路唤醒|锚:WAKE-PROTO扫描节点/米田边律时标锚20260907T113541/他线 lanesweep 终态未决",
+  "usage": {
+    "prompt_tokens": 213,
+    "completion_tokens": 780,
+    "total_tokens": 993,
+    "completion_tokens_details": {
+      "reasoning_tokens": 664
+    }
+  }
+}

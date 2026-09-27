@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:05:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T130330-0e7bf7d5.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp件ref=auto-otp-20260907T130330-0e7bf7d5.json，属系统自动落盘任务。| 性态:文本工位裸候触件，未实测操作面/未触发业务响应，仅摘要级扫收，内容未展开。| 建议处置:恪守AUTH-OTP-02次次落账，不刷屏、不越真机钱面；保持裸候，移交有权限工位或待真机面复核清件。| 锚:ref=auto-otp-20260907T130330-0e7bf7d5.json; lanesweep裸候态。",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1238,
+    "total_tokens": 1459,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1086
+    }
+  }
+}

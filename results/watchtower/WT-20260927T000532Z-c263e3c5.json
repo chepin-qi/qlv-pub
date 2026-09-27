@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:05:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T121704-5ad2ad60.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp-20260907T121704-5ad2ad60.json，clock=VOID| 性态:仅文件名级触发，未拆包解析，属触发未响应| 建议处置:裸候下游拆包；按OTP-02次次落账，无响应则退shadow归档线| 锚:shadow-log/otp-audit-20260907",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1031,
+    "total_tokens": 1248,
+    "completion_tokens_details": {
+      "reasoning_tokens": 937
+    }
+  }
+}

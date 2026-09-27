@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:04:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T103900-b25e4775.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task任务件侦得，ref=auto-otp-20260907T103900-b25e4775.json，clock=VOID，当前仅完成扫描落单，JSON载荷内容未展开细收。| 性态:属「侦得未触发」态，文件内字段与响应面均未实测，尚无法区分「未触发 vs 触发未响应」。| 建议处置:依WAKE-PROTO推进细收，解析载荷完整性后进入裁决落账；若解析失败则按AUTH-OTP-02退件标记。| 锚:AUTO-OTP-02「投必有件/次次落账」; lanesweep.task标准流规约。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 770,
+    "total_tokens": 985,
+    "completion_tokens_details": {
+      "reasoning_tokens": 617
+    }
+  }
+}

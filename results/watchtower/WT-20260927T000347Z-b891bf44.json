@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:03:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务件到件，ref=DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md，摘要仅含侦得标识，无内容载荷与实测数。| 性态:裸候态，件到未拆，未触发内容解析，无响应可判。| 建议处置:按AUTH-OTP-02裸候，不刷屏、不越真机钱面，待真机触发或下游投件后依WAKE-PROTO裁决落账。| 锚:WAKE-PROTO-lanesweep|AUTH-OTP-02-barewait",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1298,
+    "total_tokens": 1526,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1160
+    }
+  }
+}

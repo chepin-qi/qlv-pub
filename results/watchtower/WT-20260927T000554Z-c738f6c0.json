@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:05:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T123306-f33a4f36.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260907T123306-f33a4f36.json单文件落位| 性态:扫描周期内常态任务件，无异常载荷表征，属细收阶段可处理对象| 建议处置:按WAKE-PROTO细收后裁决落账，依AUTH-OTP-02不刷屏、不越真机钱面，裸候不主动寻求回应| 锚:挂接auto-otp事件链/ lanesweep批处理索引作为他线锚点",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 948,
+    "total_tokens": 1165,
+    "completion_tokens_details": {
+      "reasoning_tokens": 827
+    }
+  }
+}

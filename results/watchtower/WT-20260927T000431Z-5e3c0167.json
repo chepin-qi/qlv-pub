@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T00:04:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260907T095814-423b8c95.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得任务件 auto-otp-20260907T095814-423b8c95.json，属 OTP 自动落单。| 性态:文件级触发已确认；内部载荷未实测，不编数，现态「触发未解析」。| 建议处置:裸候不刷屏，不越真机钱面，已落账，待裁决或下工序拾取。| 锚:main-ledger.otp-queue/auth-pipe.",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 947,
+    "total_tokens": 1164,
+    "completion_tokens_details": {
+      "reasoning_tokens": 839
+    }
+  }
+}
