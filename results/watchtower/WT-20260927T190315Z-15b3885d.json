@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T19:03:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "4d281d9b",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主头迁移，由3952397a变更至4d281d9b。| 性态:单头位移，无并显旧头，属控制面常态切换。| 建议处置:旁扫旧头3952397a存活态，若双头并显则判脑裂；单头平滑交接则落账，不主动回退。| 锚:qfa.beat控制面异动，锚定consensus状态机或他线主头审计日志。",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 796,
+    "total_tokens": 995,
+    "completion_tokens_details": {
+      "reasoning_tokens": 684
+    }
+  }
+}
