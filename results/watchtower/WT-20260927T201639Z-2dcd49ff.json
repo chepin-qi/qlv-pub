@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T20:16:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-QLV-SPECTRA-01-R2.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属谱系任务覆写位落账，债自驱触发文件覆写标记| 性态:无实测触发/响应数据，属编排层债务占位，未越真机钱面| 建议处置:裸候原文件校验，待实测覆写差分后补录触发态；次次落账| 锚:qlv线驿规/AUTH-OTP-02米田边律，可回查谱系锚池或debtengine.seat覆写日志",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1087,
+    "total_tokens": 1309,
+    "completion_tokens_details": {
+      "reasoning_tokens": 972
+    }
+  }
+}
