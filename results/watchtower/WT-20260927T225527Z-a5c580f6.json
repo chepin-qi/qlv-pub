@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:54:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md| 性态:lanesweep.task单件入站，内容未实测，属触发待响应态| 建议处置:按WAKE-PROTO落账收讫，裸候下工序，seq11置已扫锚点| 锚:qfa查询流主线FRAC-01-QUERY序列",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 991,
+    "total_tokens": 1213,
+    "completion_tokens_details": {
+      "reasoning_tokens": 891
+    }
+  }
+}

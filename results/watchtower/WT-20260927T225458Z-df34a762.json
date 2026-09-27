@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:54:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-NOTICE-QRAC-V2RC-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task任务件到件，侦得文件ANS-NOTICE-QRAC-V2RC-LVLU-01.md | 性态:lane扫常规巡检静态载荷，仅侦得文件名未触发内容解析，属待收态，无实测数值 | 建议处置:按WAKE-PROTO落账归档，待细收指令下发后执行内容解析；裸候，不主动外联，不越真机面 | 锚:lanesweep.task#ANS-NOTICE-QRAC-V2RC-LVLU-01.md",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 796,
+    "total_tokens": 1012,
+    "completion_tokens_details": {
+      "reasoning_tokens": 670
+    }
+  }
+}

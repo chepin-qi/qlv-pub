@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:57:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SIMAX-EVALPACK-LVLU-01.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得SIMAX-EVALPACK-LVLU-01.json到件|性态:文件级JSON任务件，属SIMAX-EVALPACK系列LVLU-01标识；本次仅完成文件名与格式侦测，未触发内容解析，未实测内部字段及响应边界|建议处置:按WAKE-PROTO落账，录扫队列；转下游EVALPACK解析工位开箱，未实测前不臆测结构|锚:SIMAX-EVALPACK-LVLU-01.json@lane扫待办队列",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 1050,
+    "total_tokens": 1255,
+    "completion_tokens_details": {
+      "reasoning_tokens": 928
+    }
+  }
+}

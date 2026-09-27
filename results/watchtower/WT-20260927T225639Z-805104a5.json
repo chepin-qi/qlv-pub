@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:56:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FRAC-01-QUERY-qfa-20260927T205438Z-seq19.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务件FRAC-01-QUERY-qfa-20260927T205438Z-seq19.md到件，摘要仅示[lane扫]侦得，无异常负载，未实测故不编数| 性态:例行通道扫描，状态未触发/无响应，未越真机钱面| 建议处置:裸候归档，次次落账，不主动寻求回应；若后续触发再出件| 锚:qfa-20260927T205438Z-seq19",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 971,
+    "total_tokens": 1193,
+    "completion_tokens_details": {
+      "reasoning_tokens": 853
+    }
+  }
+}

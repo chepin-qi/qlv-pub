@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:55:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 到件，ref=FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md，摘要仅示[lane扫]侦得，payload 未展开 | 性态: 扫描态，未细收，未触发实测，无响应，属裸候 | 建议处置: 细收 ref 全文，辨触发域与响应态，依规裁决落账 | 锚: 对锚 seq14/seq16 链式校验，或以 ref 本体自锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1350,
+    "total_tokens": 1572,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1229
+    }
+  }
+}
