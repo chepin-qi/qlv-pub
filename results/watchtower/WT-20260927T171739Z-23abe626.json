@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:17:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-eval2-20260910T225907Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件qfa-resp-eval2-20260910T225907Z.md逾24h未决，escalate升己到件| 性态:扫描态积压，裸候越界；无真机面未实测内数，据摘要判属「触发未响应」或裸候待收| 建议处置:按WAKE-PROTO补细收→裁决：确认触发态，若裸候则强制落账，不主动seek resp，次次落账闭环| 锚:AUTH-OTP-02诚实边界/米田边律/升己通道",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1372,
+    "total_tokens": 1588,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1237
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:18:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-qlv-05-20260911T000033Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ref文件lane扫描超24h触发自动升级(升己)| 性态:系超时escalate机制自触发，非人工提单/非外部故障，当前无阻塞| 建议处置:裸候已落账；如需拆单转人工，待真机面指令| 锚:qlv-lane-sweep-timeout规则",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 825,
+    "total_tokens": 1047,
+    "completion_tokens_details": {
+      "reasoning_tokens": 743
+    }
+  }
+}

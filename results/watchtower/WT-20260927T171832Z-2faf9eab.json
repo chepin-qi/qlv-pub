@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:18:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-qlv-04-20260910T234412Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线件超24h未闭环，触升己，卷qfa-resp-qlv-04-20260910T234412Z.md。| 性态:滞件escalate。原单裸候逾时，未次次落账；系lanesweep自愈链路超时告警，诚实边界内无额外实测数。| 建议处置:补落账；核原qfa单是否仍裸候或越真机钱面；已结则归档升己记录，未结则催办/降级。| 锚:qfa主单所在工单池/值班响应线（他线锚）。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 998,
+    "total_tokens": 1220,
+    "completion_tokens_details": {
+      "reasoning_tokens": 857
+    }
+  }
+}

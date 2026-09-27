@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:17:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-mech-call-01-20260910T223007Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫描发现qfa-mech-call-01-20260910T223007Z.md单件滞留超24h，触发escalate升己。| 性态:属lane扫自愈链路的超期自动升级，当前为裸候态（未主动求应），未见真机钱面越界，未实测具体响应延迟故不编数。| 建议处置:按WAKE-PROTO细收该ref，区分触发未响应或纯未触发；若持续裸候则落账归档，若涉真机异常切人工复核。| 锚:lane-sweep主规/escalate队列。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 932,
+    "total_tokens": 1150,
+    "completion_tokens_details": {
+      "reasoning_tokens": 790
+    }
+  }
+}

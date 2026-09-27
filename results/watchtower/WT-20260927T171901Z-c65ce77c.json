@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:18:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-ripple-ack-20260911T010213Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h升己|ref=qfa-ripple-ack-20260911T010213Z.md| 性态:lanesweep.escalate触发，属超时自动升级；未实测该件当前状态，不做「已触发未响应」或「根本未触发」的数值假设| 建议处置:①查该件在qfa-ripple链中的实际挂起节点 ②若已处理未落账则补销 ③若确未处理则按lanesweep SLA执行下一级路由或人工介入| 锚:lanesweep-SLA-24h|qfa-ripple-ack-handler",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 908,
+    "total_tokens": 1124,
+    "completion_tokens_details": {
+      "reasoning_tokens": 766
+    }
+  }
+}

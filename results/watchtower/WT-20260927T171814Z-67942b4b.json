@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:17:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-qlv-03-20260910T232910Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件(ref:qfa-resp-qlv-03-20260910T232910Z.md)逾24h触发自升级(lanesweep.escalate)|性态:触发未响应，扫流单线挂起，无外部回执，属长线裸候|建议处置:不主动追呼，按WAKE-PROTO次次落账本件；待真机面现或下周期tick再裁决|锚:qfa-resp-qlv-03-20260910T232910Z.md;otp-02-裸候律",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1102,
+    "total_tokens": 1324,
+    "completion_tokens_details": {
+      "reasoning_tokens": 971
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:16:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "otp-20260911T022116Z-浪涌三号-lvlu.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件otp-20260911T022116Z-浪涌三号-lvlu.md逾24h触发升己| 性态:机制性升档,原扫描件在控未闭环,触发自升级规则,无异常阻断,未越诚实边界| 建议处置:已细收裁决,次次落账;裸候,不主动寻应,待主线下发或自然闭环| 锚:浪涌三号/lvlu.md内务扫描链/qlv线扫仓规约",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1096,
+    "total_tokens": 1317,
+    "completion_tokens_details": {
+      "reasoning_tokens": 979
+    }
+  }
+}

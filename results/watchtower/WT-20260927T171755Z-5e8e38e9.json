@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:17:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务侦得ref=qfa-resp-govpair-20260910.md，到件报竣，内容体未启封| 性态:元数据触达，实质响应未触发；属WAKE扫阶段到件，未进入细收与裁决| 建议处置:推进至细收，启封md提取govpair实质诉求；若无需即时裁决则按AUTH-OTP裸候| 锚:qfa-resp-govpair命名惯例指向政响对位件，需交叉校验lane扫日志与文件系统落地签名",
+  "usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 1167,
+    "total_tokens": 1374,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1039
+    }
+  }
+}
