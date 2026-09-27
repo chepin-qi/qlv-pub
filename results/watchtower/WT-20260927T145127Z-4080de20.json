@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:51:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-QLV-COSIGN-FETCH-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收到SI1专属lanetask:ANS-QLV-COSIGN-FETCH-01.md覆写位请求，属债自驱流程的席位覆写。| 性态:覆写位具幂等风险，当前未触发与既有cosign冲突，因clock=VOID时序锚失效，属裸候边界。| 建议处置:1.冻结执行，先校验原文件哈希；2.维持裸候，不主动拉取响应；3.落账前留差异快照，确保不越真机钱面。| 锚:WAKE-PROTO细收冻结约束 / AUTH-OTP-02诚实边界与次次落账 / 幂等覆写VOID时钟规范。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1086,
+    "total_tokens": 1308,
+    "completion_tokens_details": {
+      "reasoning_tokens": 924
+    }
+  }
+}
