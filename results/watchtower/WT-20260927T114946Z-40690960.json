@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:49:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat SI1专属覆写位触发，ref=lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md | 性态:债自驱流覆写态就绪，未涉真机钱面，属纯位态变更 | 建议处置:校验覆写权限链，执行落账标记，裸候下件 | 锚:需回挂 lanesweep 主线 ANS-PENTA 校验位作他线锚",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 948,
+    "total_tokens": 1176,
+    "completion_tokens_details": {
+      "reasoning_tokens": 836
+    }
+  }
+}

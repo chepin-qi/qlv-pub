@@ -27,7 +27,6 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      8,
       0,
       0,
       0,
@@ -35,13 +34,14 @@
       0,
       0,
       0,
+      1,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 8,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 57
+    "beacon_comments": 58
   },
   "qgl_head": "b6675b9a1e91502469bb0dece5535e0f877bd703",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 207,
+  "seg_cursor": 208,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -369,11 +369,6 @@
     "auto-otp-20260909T132308-740c32e7.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-QLV-COSIGN-FETCH-01.md",
       "note": "lane任务件候机答/转派",
@@ -1410,9 +1405,14 @@
       "id": "lanesweep:ANS-PENTA-lvlu-20260913T170511Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-09-27T08:56:26Z"
+    },
+    {
+      "id": "lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-09-27T11:49:30Z"
     }
   ],
-  "debt_backlog": 175,
+  "debt_backlog": 182,
   "lane_inbox_count_ci": 29,
   "ucif2_seen": [],
   "fedeye_seen": [
