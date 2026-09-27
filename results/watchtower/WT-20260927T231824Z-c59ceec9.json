@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T23:18:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-QLV-SPECTRA-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位,SI1专属任务lanetask:ANS-QLV-SPECTRA-01.md触发债自驱结构重映射| 性态:配置层位域覆写,未涉真机钱面资金流动,属扫描后细收阶段的席位落账| 建议处置:按AUTH-OTP-02次次落账已落账;裸候不主动回应;持续扫描SI1链后续件| 锚:debtengine.master/spectra-ledger",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 846,
+    "total_tokens": 1064,
+    "completion_tokens_details": {
+      "reasoning_tokens": 728
+    }
+  }
+}
