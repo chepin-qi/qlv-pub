@@ -35,13 +35,13 @@
       0,
       0,
       0,
-      0,
-      0,
+      1,
+      2,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 78
+    "beacon_comments": 81
   },
   "qgl_head": "fc6342d0e55102ead1f2e8477e24f738f33ac66a",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 230,
+  "seg_cursor": 231,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -382,7 +382,10 @@
     "qfa-resp-qlv-03-20260910T232910Z.md",
     "qfa-resp-qlv-04-20260910T234412Z.md",
     "qfa-resp-qlv-05-20260911T000033Z.md",
-    "qfa-ripple-ack-20260911T010213Z.md"
+    "qfa-ripple-ack-20260911T010213Z.md",
+    "qfa-si5ring-answer-20260910T231548Z.md",
+    "qtlv-eval-wave-94e32ebb06b0.md",
+    "qtlv-spectra-x11-qsca7fce6884.md"
   ],
   "debt_queue": [
     {
@@ -1363,6 +1366,21 @@
     {
       "id": "lanesweep:qfa-ripple-ack-20260911T010213Z.md",
       "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:qfa-si5ring-answer-20260910T231548Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:qtlv-eval-wave-94e32ebb06b0.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:qtlv-spectra-x11-qsca7fce6884.md",
+      "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
   ],

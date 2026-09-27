@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T19:54:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "qtlv-eval-wave-94e32ebb06b0.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件到件，ref=qtlv-eval-wave-94e32ebb06b0.md，仅完成外壳侦得，内容未展开。| 性态:未触发实测，处于初扫裸候态，无响应数据，无法判定实质风险或价值。| 建议处置:依WAKE-PROTO推进：细收（读取并解析该md全文）→裁决（按lanesweep规则判定去留或分级）→落账（固化处置痕迹并归档）。| 锚:qtlv线/lanesweep.task/qtlv-eval-wave-94e32ebb06b0.md",
+  "usage": {
+    "prompt_tokens": 211,
+    "completion_tokens": 849,
+    "total_tokens": 1060,
+    "completion_tokens_details": {
+      "reasoning_tokens": 711
+    }
+  }
+}

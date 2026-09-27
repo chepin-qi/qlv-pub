@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T19:54:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-si5ring-answer-20260910T231548Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫件qfa-si5ring-answer-20260910T231548Z.md滞线超24h触发自升级| 性态:超时触发，系lanesweep.escalate内禀机制，件体未拆，内容态未实测| 建议处置:即刻细收该answer件，按WAKE-PROTO裁决；若件空/过期则落账注销，含活信则转入人工lane待处| 锚:cross:qfa-si5ring-pending#20260910",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1568,
+    "total_tokens": 1788,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1447
+    }
+  }
+}

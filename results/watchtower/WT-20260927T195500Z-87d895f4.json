@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T19:54:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ref「qtlv-spectra-x11-qsca7fce6884.md」|性态:到件即备；仅文件落位，未触发内容扫描及响应流程，无实测数，不编状态|建议处置:启WAKE细收，读取后裁决；若空件或暂无响应需求则裸候，次次落账|锚:spectra-x11线锚qtlv-md-repo，他线引qtlv-core-base",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 999,
+    "total_tokens": 1214,
+    "completion_tokens_details": {
+      "reasoning_tokens": 884
+    }
+  }
+}
