@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T02:03:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "3952397a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 ed3308bd→3952397a| 性态:细收为单提交指针滑动，非合并非冲突，历史线性推进；CI触发态未实测| 建议处置:裁决落账，同步下游工作基线；若挂链CI裸候其终态，不主动求应| 锚:3952397a为当前他线锚，ed3308bd为回溯锚",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 1129,
+    "total_tokens": 1323,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1028
+    }
+  }
+}
