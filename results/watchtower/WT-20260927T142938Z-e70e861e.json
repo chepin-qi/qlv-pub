@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:29:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h自升，ref=lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md，TH-SI-COUPLING-01耦合项巡检滞留| 性态:lanesweep超时escalate，未触发人工响应，当前裸候，未实测具体阻塞点| 建议处置:按WAKE-PROTO扫描-落账归档，维持裸候不主动寻应；若后续触发响应则补录裁决| 锚:ops-ledger#lanesweep-timeout",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 937,
+    "total_tokens": 1170,
+    "completion_tokens_details": {
+      "reasoning_tokens": 812
+    }
+  }
+}

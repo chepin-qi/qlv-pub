@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:29:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线>24h自升件,ref=nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md,仅见摘要引用,未实测触发态与响应态| 性态:单件nudge滞留,属lanesweep.escalate类,触发/响应边界未明,不作数值假设| 建议处置:裸候不刷屏,次次落账;若后续有响应则补录,无响应则按VOID时钟继续裸候| 锚:SI5CLOUD(云线外储)",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 939,
+    "total_tokens": 1168,
+    "completion_tokens_details": {
+      "reasoning_tokens": 809
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:28:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "cisvr-direct-beat35-20260909T135238-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件,ref=cisvr-direct-beat35-20260909T135238-qlv.json,摘要仅标识侦得,无负载详情|性态:初扫到件,未触发细收,内容/状态/响应均未实测,属裸候待裁决|建议处置:按WAKE-PROTO推进细收,补全beat35通道上下文与任务负载;裸候超时则落账静默件|锚:[QLV-LANE]同ref节拍35通道任务流待交叉验证",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 900,
+    "total_tokens": 1118,
+    "completion_tokens_details": {
+      "reasoning_tokens": 780
+    }
+  }
+}

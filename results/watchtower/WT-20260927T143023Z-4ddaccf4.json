@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:29:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "otp-20260910T232733Z-浪涌一号-lvlu.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h自升(lanesweep.escalate),ref浪涌一号,触发未响应,件处裸候态| 性态:时间阈值型escalate,clock=VOID,无实测响应数据故不编数,按AUTH-OTP-02次次落账| 建议处置:细收该件挂账,裸候裁决,维持升己状态不主动唤回应,待补他线签收方可下转| 锚:lanesweep.T+24h规则锚/浪涌一号线程裸候锚/米田边律双锚",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 1581,
+    "total_tokens": 1802,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1448
+    }
+  }
+}

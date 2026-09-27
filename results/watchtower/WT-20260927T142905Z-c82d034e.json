@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:28:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task侦得cisvr-draft-beat37-20260909T1608Z-qlv.json | 性态: 草稿文件静态落位，扫描侧未触发解析协议，无响应链；实测数据未产生，边界诚实未越 | 建议处置: 按lanesweep流程归档，或裸候移交draft-cisvr审校线，不主动回刷 | 锚: cisvr-draft-beat37节拍标/cisvr审校线",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1104,
+    "total_tokens": 1324,
+    "completion_tokens_details": {
+      "reasoning_tokens": 994
+    }
+  }
+}

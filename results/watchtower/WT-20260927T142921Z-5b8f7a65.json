@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:29:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫档超24h自升，ref要约-谱重合基线关键请求文件，属时限触发的流程跃迁。| 性态:时间阈值被动escalate，无实测响应数据，不编触发状态，记为待落账裸候。| 建议处置:执行细收补录基线文件；若裸候期满则次次落账归档，不主动外求回应。| 锚:lanesweep.escalate规/AUTH-OTP-02裸候/要约-谱重合基线(lvlu-excite-20260911T014411Z)",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 859,
+    "total_tokens": 1088,
+    "completion_tokens_details": {
+      "reasoning_tokens": 724
+    }
+  }
+}

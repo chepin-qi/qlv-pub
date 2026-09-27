@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:27:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T135327-37d6d445.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp-20260909T135327-37d6d445.json，仅获外壳摘要，内部载荷未展开|性态:扫描触件，未触发实质响应，属空壳任务件|建议处置:按裸候留档，不主动寻求响应，待下周期细收或自动清理|锚:sys.void.otp-hold",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 733,
+    "total_tokens": 950,
+    "completion_tokens_details": {
+      "reasoning_tokens": 641
+    }
+  }
+}

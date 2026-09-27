@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:28:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "cisvr-degrade-mailman-20260909T154841-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:cisvr-degrade-mailman-20260909T154841-qlv.json 通道扫描任务件到件，类 lanesweep.task；摘要仅标示侦得，未附触发详情与响应载荷，暂无法区分未触发或触发未响应。| 性态:原始扫描件，信息待补，处 WAKE-PROTO 扫描节点，未达裁决条件。| 建议处置:执行细收，补录触发日志与边界响应；若裸候无应，依 AUTH-OTP-02 次次落账原则落账归档。| 锚:ref=cisvr-degrade-mailman-20260909T154841-qlv.json | cisvr-degrade-mailman 命名空间锚定降级链路。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 714,
+    "total_tokens": 932,
+    "completion_tokens_details": {
+      "reasoning_tokens": 550
+    }
+  }
+}
