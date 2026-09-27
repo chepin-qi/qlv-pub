@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T13:01:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist促件 escalated 至第6级，分布维实测替换骨架(XCHK)未结|性态:债候在分布替换骨架验证环节升至Lv.6，属高优阻塞；当前无真机钱面响应记录，裸候态，未实测不编数|建议处置:冻结该ref下游分发，挂起XCHK替换队列，强制候结清落账；不越真机钱面，不主动寻应，裸候至账清|锚:qlv-main线/debt-core结清锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1206,
+    "total_tokens": 1428,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1070
+    }
+  }
+}
