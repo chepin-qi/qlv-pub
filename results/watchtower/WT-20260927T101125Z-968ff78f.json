@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T10:10:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-seg9-verify促至第6级|性态:自债候裸候链路内升级，系塔⑨段五件效验(runs直读)的候场计数器被动进位，未见外部响应载荷，属「未触发→触发未响应」区间内的纯状态迁移，无实测拦截点|建议处置:①裸候，禁止主动外呼②落账该级数与时刻③检视runs直读是否误报升级，无异常则维持静默④达机构级数上限时自动归档，不越真机钱面|锚:AUTH-OTP-02裸候条款/米田边律候场级数封顶惯例",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1211,
+    "total_tokens": 1435,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1053
+    }
+  }
+}

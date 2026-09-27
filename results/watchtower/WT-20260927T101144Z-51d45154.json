@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T10:11:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk自债候促件升至第6级(EXP-016交叉验证回件)| 性态:nudge.escalate触发,属自动升级流,未涉真机钱面操作,当前裸候态| 建议处置:已落账;维持裸候,不主动求应;待交叉验证线回件后按EXP-016协议降级或结单;不刷屏| 锚:debt-track-2026/CHK-PROTO第4.2条(催办升级与回件挂接线)",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 799,
+    "total_tokens": 1014,
+    "completion_tokens_details": {
+      "reasoning_tokens": 668
+    }
+  }
+}

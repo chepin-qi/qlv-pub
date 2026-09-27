@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T10:10:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap03-ring促件由CAP-03自发环巡归升至第6级| 性态:系统自驱escalating nudge，clock=VOID致时标悬空，本轮未触发人工响应及真机钱面变动，属裸候环巡| 建议处置:次次落账，本件仅记级数跃迁，不越真机钱面，保持裸候不主动寻应，待实收或资方线触发后交叉核销| 锚:主账簿/验资线未同步实收",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1171,
+    "total_tokens": 1388,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1038
+    }
+  }
+}

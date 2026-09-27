@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T10:10:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-02轨债候旁路权促件(debt-20260912-orbit-cap02-lgt)升至第6级| 性态:nudge.escalate类越站催办，属下下站旁路权行使之极端形态| 建议处置:依AUTH-OTP-02复核裸候条件，核查是否已触发真机钱面越界；若旁路权要件不足，应驳回第6级促请，维持原候账期；若要件齐备，落账旁路并冻结后续级跳| 锚:AUTH-OTP-02诚实边界/不越真机钱面",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1047,
+    "total_tokens": 1269,
+    "completion_tokens_details": {
+      "reasoning_tokens": 904
+    }
+  }
+}
