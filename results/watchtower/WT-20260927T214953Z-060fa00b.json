@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T21:49:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "5dd9b058",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa仓库main头迁移(4d281d9b→5dd9b058)| 性态:常规beat提交,头指针正常前移,未示异常冲突或回滚特征,属版本迭代常规生命周期| 建议处置:按qfa流水线常规观测,确认新头CI状态及diff范围,无需拦截| 锚:git-ref语义场(版本控制图谱节点前进/头指针迁移属常规ref-update事件)",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 828,
+    "total_tokens": 1027,
+    "completion_tokens_details": {
+      "reasoning_tokens": 725
+    }
+  }
+}
