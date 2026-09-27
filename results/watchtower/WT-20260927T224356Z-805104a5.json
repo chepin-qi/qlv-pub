@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:43:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FRAC-01-QUERY-qfa-20260927T205438Z-seq19.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得FRAC-01-QUERY-qfa-20260927T205438Z-seq19.md，摘要仅示文件名，无内容展开| 性态:空包到件，未触发扫描响应，待细收| 建议处置:裸候，不主动拉取；后续若触发，补实测数据后落账| 锚:主序-ARCH-01-RAWBUCKET",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1200,
+    "total_tokens": 1422,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1103
+    }
+  }
+}

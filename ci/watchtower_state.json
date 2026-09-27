@@ -29,8 +29,8 @@
       0,
       0,
       0,
-      1,
       0,
+      4,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 84
+    "beacon_comments": 88
   },
-  "qgl_head": "7e3db788fd8cfd5f64452724540844271720b821",
+  "qgl_head": "5bc9cfddea88b7679944fe67b7b28a60a20ef793",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 238,
+  "seg_cursor": 239,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -385,7 +385,11 @@
     "qfa-ripple-ack-20260911T010213Z.md",
     "qfa-si5ring-answer-20260910T231548Z.md",
     "qtlv-eval-wave-94e32ebb06b0.md",
-    "qtlv-spectra-x11-qsca7fce6884.md"
+    "qtlv-spectra-x11-qsca7fce6884.md",
+    "FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
+    "FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
+    "FRAC-01-QUERY-qfa-20260927T205438Z-seq19.md",
+    "FRAC-01-QUERY-qfa-20260927T205438Z-seq23.md"
   ],
   "debt_queue": [
     {
@@ -1375,6 +1379,26 @@
     },
     {
       "id": "lanetask:qtlv-spectra-x11-qsca7fce6884.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq19.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq23.md",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }

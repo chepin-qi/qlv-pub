@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:42:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md|性态:单文件到件，仅摘要级报出，无内容切片与异常旗标；依现有输入判为常规扫描落账，未触发异常|建议处置:按WAKE-PROTO归档，如需内容裁决则补切片，当前无处置项，裸候|锚:FRAC-01-QUERY/lane扫/seq11",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1233,
+    "total_tokens": 1455,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1124
+    }
+  }
+}

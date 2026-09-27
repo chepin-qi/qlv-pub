@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:42:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件到件，ref=FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md，摘要仅录文件名，内容体未展开实测。| 性态:已触发到件，未解析响应；属扫描阶段裸文件引用，无内容面反馈，状态为「触发未响应」。| 建议处置:按WAKE-PROTO推进至细收，下钻seq15.md正文提取Q/a项后裁决落账；当前裸候，不主动外求。| 锚:交叉锚定同批次FRAC-01异seq件，或锚回qfa主线查询池索引。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1070,
+    "total_tokens": 1292,
+    "completion_tokens_details": {
+      "reasoning_tokens": 924
+    }
+  }
+}

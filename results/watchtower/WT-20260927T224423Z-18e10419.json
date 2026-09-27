@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T22:43:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "FRAC-01-QUERY-qfa-20260927T205438Z-seq23.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得静态文件FRAC-01-QUERY-qfa-20260927T205438Z-seq23.md，属扫描落盘任务件，无附加异常告警。| 性态:冷数据单件未触发，内容未实测解析，仅完成存在性确认。| 建议处置:按lanesweep标准流程归档，或转query队列裸候下游拉取；不主动外抛，次次落账。| 锚:WAKE-PROTO/lanesweep",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 873,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "reasoning_tokens": 762
+    }
+  }
+}
