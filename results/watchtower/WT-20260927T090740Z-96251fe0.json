@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T09:07:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-PENTA-lvlu-20260913T170511Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收到SI1专属债自驱覆写请求，ref指向lanesweep:ANS-PENTA-lvlu-20260913T170511Z.md，请求覆写对应席位状态。| 性态:属系统内预期的自驱覆写动作，当前会话无工具实测该文件内容哈希，按摘要视为已触发待落账。| 建议处置:校验ref文件签名与SI1覆写权限后执行覆写，同步写审计日志并回写落账标记；若校验失败则退件。| 锚:audit.void/SI1-ow-log",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1593,
+    "total_tokens": 1821,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1457
+    }
+  }
+}
