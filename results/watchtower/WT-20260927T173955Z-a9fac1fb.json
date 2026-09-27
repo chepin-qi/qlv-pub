@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:39:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat触发SI1专属覆写，ref=ANS-QLV-LEVELUP-01-usrm-20260911T1930Z.md覆写位，属债自驱存量任务状态更新。| 性态:无外部资金面触及，未越真机钱面；覆写动作未产生可实测响应回流，属静默位操作，需区分「已覆写」与「下游未响应」。| 建议处置:覆写既成即次次落账，转入裸候；不主动拉取下游回执，待SI1周期对账或回链触发时复核一致性。| 锚:lanetask系统级taskref持久化位与debtengine覆写日志可交叉哈希校验，形成他线锚固。",
+  "usage": {
+    "prompt_tokens": 240,
+    "completion_tokens": 970,
+    "total_tokens": 1210,
+    "completion_tokens_details": {
+      "reasoning_tokens": 796
+    }
+  }
+}
