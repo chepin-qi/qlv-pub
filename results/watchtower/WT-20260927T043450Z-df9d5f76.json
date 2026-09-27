@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T04:34:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-lgt-kscan自债候，binmap k∈[6,14]卡方扫描促件升至第6级| 性态: 扫描窗已触发升级条件，债方未响应，属触发未响应，无越真机钱面| 建议处置: 裸候维持，待下次扫描细收后裁决落账，不主动外呼| 锚: 统计假设检验中自由度k选取的惯例阈值可作旁证",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1518,
+    "total_tokens": 1745,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1406
+    }
+  }
+}
