@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:40:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-QLV-COSIGN-FETCH-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱任务ANS-QLV-COSIGN-FETCH-01.md投件至覆写位| 性态:指令单已送达，覆写指向明确，未触发实测数据，无法确认覆写结果是否已落盘，属触发未响应| 建议处置:依AUTH-OTP-02执行次次落账，完成覆写后静默落账，不主动寻求回应，保持裸候；若已覆写则归档座位状态| 锚:lanetask:ANS-QLV-COSIGN-FETCH-01.md覆写位未产生回执，待后链验证",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 820,
+    "total_tokens": 1042,
+    "completion_tokens_details": {
+      "reasoning_tokens": 679
+    }
+  }
+}
