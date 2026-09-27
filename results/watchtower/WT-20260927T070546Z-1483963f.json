@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T07:05:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify促件升至第6级，系塔FIX-08/09/10效验与runs归正候闭环。| 性态:nudge.escalate，自债候受外部高阶促压，阻塞根因未明，不编实测数。| 建议处置:即刻排查塔效验阻塞点，具备条件则速结落账；若缺件或无力归正，须诚实标记阻塞原因并回传，禁空转。| 锚:#debt-20260912-tower-verify原债线、#tower-FIX-效验日志。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1091,
+    "total_tokens": 1311,
+    "completion_tokens_details": {
+      "reasoning_tokens": 951
+    }
+  }
+}

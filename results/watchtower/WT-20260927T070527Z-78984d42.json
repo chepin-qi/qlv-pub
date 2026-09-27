@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T07:05:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge(qlv巷152件机读排空)→第6级促件升级| 性态:机读批量排空触发的自动 escalating nudge，属无验真人触点的纯算法催收；未实测债务人端属「未触发」抑或「触发未响应」，边界存疑| 建议处置:裸候，不主动外呼；落账为“候验”态，冻结第7级升级，待他线人工确认真机钱面后裁决| 锚:qlv巷152件机读排空同批若涉真机钱面须对账，参照debt-purge-queue例，跨线锚至财务风控线",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1063,
+    "total_tokens": 1279,
+    "completion_tokens_details": {
+      "reasoning_tokens": 906
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T07:05:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-edge-throttle促件升至第6级，属器课第十二株边缘限流族立档| 性态:含冷却突发律、git道绕行、HTTP/1.1方，escalated态；各子项实测未回，未触发或触发未响应待辨，不编数| 建议处置:落账冻结，扫描git绕行链路；边缘限流阈值及HTTP/1.1方待实测细收，区分未触发/触发未响应后裁决| 锚:器课第十二株|边缘限流族 他线锚",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1704,
+    "total_tokens": 1937,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1567
+    }
+  }
+}
