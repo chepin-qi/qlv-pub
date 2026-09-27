@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T07:16:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge 自债候机读排空 escalate 至第6级(qlv巷152件)| 性态:系统规则触发的促件升级，因无实测数据不编拦截率；属自动排空阈值穿透后的「触发未响应」累积，非人工错置| 建议处置:①冻结自动排空 ②扫描152件原始债权快照 ③细收分层：确件落账封存，存疑件裸候不唤醒 ④裁决是否降级，次次落账| 锚:qlv巷机读排空策略/债权候结协议escalation阈值",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1076,
+    "total_tokens": 1292,
+    "completion_tokens_details": {
+      "reasoning_tokens": 933
+    }
+  }
+}

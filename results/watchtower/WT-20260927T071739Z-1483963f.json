@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T07:17:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：debt-20260912-tower-verify候件遭促级，FIX-08/09/10效验及runs归正事项升至第6级。| 性态：属债务类候件被动escalate，本工位无塔效验工具、未实测，无法区分未触发或触发未响应，仅收级不裁果。| 建议处置：①按WAKE-PROTO扫描候件栈；②转具备塔效验权之工位实测三版FIX状态与runs偏差；③本级留痕落账，裸候不追问。| 锚：AUTH-OTP-02\"投必有件/次次落账\"律—凡第6级促件必入栈留痕，不越真机钱面。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1136,
+    "total_tokens": 1356,
+    "completion_tokens_details": {
+      "reasoning_tokens": 966
+    }
+  }
+}

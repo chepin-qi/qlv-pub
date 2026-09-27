@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T07:18:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位债务候(debt-20260912-orbit-cap01-bypass)滞qfa约19h，促件升至第6级。| 性态:旁路补位类自债，处裸候区间；未实测响应状态，须区分「未触发vs触发未响应」，不越真机钱面。| 建议处置:维持裸候不刷屏，若触发未响应则次次落账；达转线阈值即他迁。| 锚:CAP-01主轨debt-20260912-orbit-cap01链上日志为交叉锚。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 940,
+    "total_tokens": 1167,
+    "completion_tokens_details": {
+      "reasoning_tokens": 803
+    }
+  }
+}
