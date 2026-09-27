@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T08:56:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-PENTA-lvlu-20260913T170511Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat债自驱触发lanesweep文件覆写位，ref:ANS-PENTA-lvlu-20260913T170511Z.md，属SI1专属。| 性态:文件级覆写，无差异校验及冲突实测日志；未触发与触发未响应不可辨，诚实边界不落数。| 建议处置:裸候，次次落账；建议补差异快照或校验锚，确认覆写前态。| 锚:AUTH-OTP-02裸候条款;cross:SI1-cycle/debtengine.core",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1684,
+    "total_tokens": 1912,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1558
+    }
+  }
+}
