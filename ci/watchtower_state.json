@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 8,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-09-27",
     "beacon_comments": 23
   },
-  "qgl_head": "a07a7744ce04adcbc80120010971d80d9dc18f79",
+  "qgl_head": "808a11e0b6a292186567efb693cdef4f0b97c0b9",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,

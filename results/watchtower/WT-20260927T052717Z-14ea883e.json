@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T05:26:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv/inbox新件，ref=ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md，chepin-ai/ci-inbox巷卡28→29。| 性态:lane.drop触发，投递已完成；文件内容未实测，不编数，属裸候。| 建议处置:落账待办，候下游启封或自动处理，无人驿不主动外询。| 锚:chepin-ai/ci-inbox#29",
+  "usage": {
+    "prompt_tokens": 243,
+    "completion_tokens": 1422,
+    "total_tokens": 1665,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1309
+    }
+  }
+}
