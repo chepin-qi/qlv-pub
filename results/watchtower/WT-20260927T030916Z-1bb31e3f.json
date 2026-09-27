@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:08:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T042654-a6794e84.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，载荷auto-otp-20260908T042654-a6794e84.json，时戳20260908T042654，仅完成扫描落位，内部未触发细收|性态:自动OTP序列化文件，属lanesweep.task类；当前裸候，未实测内部数据，不编数|建议处置:启WAKE-PROTO细收，解析json结构后裁决；若涉钱面/权限，按AUTH-OTP-02投件校验，次次落账|锚:文件名hash-a6794e84跨线索引，时戳20260908T042654可作他线锚",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1565,
+    "total_tokens": 1780,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1418
+    }
+  }
+}

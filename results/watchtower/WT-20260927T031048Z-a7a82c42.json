@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:10:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T083831-9e21ae09.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得auto-otp-20260908T083831-9e21ae09.json| 性态:自动OTP任务件，扫线流水产出，格式合规；未触发内容解析，实测状态待收| 建议处置:按WAKE-PROTO落账，入lanesweep待裁决队列；裸候，不主动外呼，待下游OTP单元拉取| 锚:lanesweep.task#auto-otp队列#AUTH-OTP-02收讫",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1207,
+    "total_tokens": 1424,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1094
+    }
+  }
+}

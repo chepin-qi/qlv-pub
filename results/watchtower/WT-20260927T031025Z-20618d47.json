@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:10:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T073745-3c79f836.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp-20260908T073745-3c79f836.json，系自动化巡检产出；摘要未载异常触发或响应失败，属未触发明确告警之档案件。| 性态:常规扫描归档，无实测异常数据，诚实边界内不做触发态推定。| 建议处置:按lanesweep.task规范落账归档；如需复核则提取json载荷核验otp时效与签名链，裸候调度。| 锚:cross-ref→otp-line日检流水/存档索引auto-otp-20260908T073745-3c79f836",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1070,
+    "total_tokens": 1287,
+    "completion_tokens_details": {
+      "reasoning_tokens": 932
+    }
+  }
+}

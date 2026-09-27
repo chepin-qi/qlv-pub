@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:09:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T052618-f161e9fe.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=auto-otp-20260908T052618-f161e9fe.json| 性态:摘要层侦得，未实测细收；属auto-otp类任务件，已触发未本地响应| 建议处置:依WAKE-PROTO推进细收→裁决→落账；本工位无工具，不越真机钱面，裸候待办| 锚:时序锚20260908T052618+调度线lanesweep.batch/otp-autoqueue",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1643,
+    "total_tokens": 1858,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1523
+    }
+  }
+}

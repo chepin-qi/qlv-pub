@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:09:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T065150-1af7865b.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得(auto-otp-20260908T065150-1af7865b.json)|性态:件已落格，载荷未拆，属未触发态；无实测数据不编数，暂无法区分触发未响应或纯未触发|建议处置:按WAKE-PROTO细收载荷，校验AUTH-OTP-02合规(投必有件/不刷屏)，次次落账，裸候不主动外呼|锚:同序列auto-otp前序件或lanesweep上游日志节点",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 911,
+    "total_tokens": 1128,
+    "completion_tokens_details": {
+      "reasoning_tokens": 788
+    }
+  }
+}

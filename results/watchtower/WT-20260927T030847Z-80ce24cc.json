@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T03:08:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260908T031917-42571d98.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp-20260908T031917-42571d98.json，OTP任务件到件。| 性态:文件级触达，内容未实测展开，无真机钱面数据；诚实标定为「未触发/触发未响应」待区分态。| 建议处置:遵AUTH-OTP-02投必有件、次次落账，不刷屏、不越真机钱面；裸候不主动外求回应，待细收后裁决。| 锚:需跨线锚至otp验证线或风控线，补全该JSON触发链与响应态，方得最终落账。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1072,
+    "total_tokens": 1287,
+    "completion_tokens_details": {
+      "reasoning_tokens": 926
+    }
+  }
+}
