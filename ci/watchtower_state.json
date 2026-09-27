@@ -32,7 +32,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 58
+    "beacon_comments": 59
   },
   "qgl_head": "b6675b9a1e91502469bb0dece5535e0f877bd703",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 210,
+  "seg_cursor": 211,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -149,8 +149,8 @@
       "n": 6
     },
     "debt-20260912-os3d-lvlu-dist": {
-      "t": 1790422338.796754,
-      "n": 5
+      "t": 1790513480.293204,
+      "n": 6
     }
   },
   "nudge_backlog": 0,
