@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1409,7 +1409,7 @@
     {
       "id": "lanesweep:ANS-PENTA-qtlv-20260913T131611Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-09-27T11:49:30Z"
+      "ts": "2026-09-27T11:59:58Z"
     }
   ],
   "debt_backlog": 182,
