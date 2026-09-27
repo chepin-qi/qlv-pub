@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:14:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T135327-37d6d445.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得auto-otp任务件，ref=auto-otp-20260909T135327-37d6d445.json| 性态:通道巡检单文件命中，属自动OTP序列报文，摘要未载触发/响应态，无实测数，诚标「未触发 vs 触发未响应」不可区分| 建议处置:按AUTH-OTP-02投必有件、次次落账，裸候不主动求应，归档待复扫或人工申领| 锚:otp-37d6d445/lanesweep-20260909",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1095,
+    "total_tokens": 1312,
+    "completion_tokens_details": {
+      "reasoning_tokens": 962
+    }
+  }
+}

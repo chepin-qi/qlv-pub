@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:15:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线超24h自升级，ref=lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md，属keyreq谱面收敛触发的escalate落件。| 性态:超时静默后的自动升档，摘要未现阻断或异常响应，判为常规谱重合推进。| 建议处置:按lanesweep.escalate SOP执行落账，复核要约基线与当前谱面重合度，裸候下一节拍。| 锚:lanesweep.escalate超时升档惯例/单会话工位无越真机操作。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 835,
+    "total_tokens": 1064,
+    "completion_tokens_details": {
+      "reasoning_tokens": 696
+    }
+  }
+}

@@ -27,9 +27,9 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
+      4,
       0,
-      0,
-      0,
+      4,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 59
+    "beacon_comments": 67
   },
   "qgl_head": "2c3c1a088941efa76eb545d2e428fd444ecd5c81",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 214,
+  "seg_cursor": 215,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -366,7 +366,15 @@
     "auto-otp-20260909T105415-b00dbb4d.json",
     "auto-otp-20260909T113937-526e0172.json",
     "auto-otp-20260909T130417-8689e132.json",
-    "auto-otp-20260909T132308-740c32e7.json"
+    "auto-otp-20260909T132308-740c32e7.json",
+    "auto-otp-20260909T135327-37d6d445.json",
+    "cisvr-degrade-mailman-20260909T154841-qlv.json",
+    "cisvr-direct-beat35-20260909T135238-qlv.json",
+    "cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
+    "lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+    "nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md",
+    "otp-20260910T232733Z-浪涌一号-lvlu.md"
   ],
   "debt_queue": [
     {
@@ -1277,6 +1285,46 @@
     {
       "id": "lanetask:auto-otp-20260909T132308-740c32e7.json",
       "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:auto-otp-20260909T135327-37d6d445.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:cisvr-degrade-mailman-20260909T154841-qlv.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:cisvr-direct-beat35-20260909T135238-qlv.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:cisvr-draft-beat37-20260909T1608Z-qlv.json",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:otp-20260910T232733Z-浪涌一号-lvlu.md",
+      "note": "lane件>24h未理升己",
       "si0_solvable": false
     }
   ],

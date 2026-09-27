@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:14:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "cisvr-degrade-mailman-20260909T154841-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得cisvr-degrade-mailman-20260909T154841-qlv.json，属mailman服务降级类巡检。| 性态:仅文件名与摘要，未实测编数，处于「侦得未收」状态；无法区分未触发/触发未响应，细收缺位，尚不满足裁决条件。| 建议处置:按WAKE-PROTO补细收，解析JSON提取降级维度（服务/队列/节点）及影响面，确认状态后再裁决；本工位裸候，不主动外呼。| 锚:ops-heal线|mailman-lane|degrade-playbook",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1082,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 937
+    }
+  }
+}

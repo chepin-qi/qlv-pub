@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:16:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫文件lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md滞留逾24h，触发escalate自升| 性态:裸候态，规程内超时未清，未触发人工干预，无实测异常数| 建议处置:依lanesweep escalate流程次次落账，归档并维持裸候，需介入则转人工复核| 锚:TH-SI-COUPLING-01.md",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1590,
+    "total_tokens": 1823,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1479
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:15:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "cisvr-draft-beat37-20260909T1608Z-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得cisvr-draft-beat37-20260909T1608Z-qlv.json草稿件| 性态:扫描态裸候，内容体未展开，未触发细收/裁决条件，属单件静默侦得| 建议处置:按WAKE-PROTO推进细收解锁→裁决→落账；遵守AUTH-OTP-02裸候原则，不主动外呼刷屏，待时限或下游触发后归档| 锚:cisvr-draft-beat序列时间锚20260909T1608Z",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 721,
+    "total_tokens": 941,
+    "completion_tokens_details": {
+      "reasoning_tokens": 596
+    }
+  }
+}

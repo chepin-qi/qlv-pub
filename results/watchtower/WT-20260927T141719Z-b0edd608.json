@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T14:16:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep裸候逾24h自升级，件nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md，clock=VOID，无外部投件。| 性态:escalate类；属通道扫线超期自动抬级，非人投，无响应诉求，裸候态。| 建议处置:遵WAKE-PROTO裁决落账；不刷屏、不越真机钱面；clock=VOID故不压时效，维持扫描。| 锚:AUTH-OTP-02裸候条款。",
+  "usage": {
+    "prompt_tokens": 229,
+    "completion_tokens": 1440,
+    "total_tokens": 1669,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1311
+    }
+  }
+}
