@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:25:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T113937-526e0172.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得 auto-otp-20260909T113937-526e0172.json| 性态:OTP自动化 lanesweep 产出件，未触发业务响应，属系统自检裸候态| 建议处置:细收归档，落账为\"已扫未应\"，按裸候原则不主动拉取回执，待调度队列自旋| 锚:hex-7f/主站镜像已同步",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 918,
+    "total_tokens": 1133,
+    "completion_tokens_details": {
+      "reasoning_tokens": 815
+    }
+  }
+}

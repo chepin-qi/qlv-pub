@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:25:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T130417-8689e132.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得 ref=auto-otp-20260909T130417-8689e132.json，系auto-otp自动产出，当前无人工侧响应数据，内文未实测不编数| 性态:自动单件/裸候态/诚实边界内| 建议处置:扫描已毕，按WAKE-PROTO入细收→裁决后落账；若属无人干预流则裸候归档，不主动寻求回应| 锚:该件系09日13:04车道产出，投必有件已满足，可归因至auto-otp流水线节点",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1398,
+    "total_tokens": 1613,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1261
+    }
+  }
+}

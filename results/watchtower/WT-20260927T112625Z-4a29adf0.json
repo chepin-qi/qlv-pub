@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:26:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T132308-740c32e7.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp序列档(ref:740c32e7)。| 性态:系统自动化巡检产出，时标20260909T132308，属常规通道扫描落账件，无异常触发表征。| 建议处置:已完成细收落账，依AUTH-OTP-02裸候，不主动求应；若后续需裁决响应，待调度触发。| 锚:米田边律(每件≥1他线锚)/AUTH-OTP-02(投必有件·次次落账)。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 923,
+    "total_tokens": 1140,
+    "completion_tokens_details": {
+      "reasoning_tokens": 799
+    }
+  }
+}

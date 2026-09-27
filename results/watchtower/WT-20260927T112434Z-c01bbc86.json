@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:24:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T091440-29d878a2.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得auto-otp文件(ref:20260909T091440-29d878a2.json)|性态:通道级侦获完成，文件本体未解析、签章校验未触发，属“侦得未实测”|建议处置:细收该JSON→按OTP-02校验签章与clock=VOID时戳一致性→若静默无响应则裸候落账，不主动外呼|锚:auth-otp-02签章校验线/qlv-core时序审计线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1152,
+    "total_tokens": 1369,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1032
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:24:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T093657-9cc26efa.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得 auto-otp-20260909T093657-9cc26efa.json，系自动OTP生成之任务件，clock=VOID，未实测。| 性态:自动化抛件，待扫队列冷启动，无即时响应需求，属裸候态。| 建议处置:循WAKE-PROTO扫描→细收→裁决→落账；细收json内lane数据后裁决，次次落账。| 锚:同批auto-otp触发基线/lane扫历史队列。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1076,
+    "total_tokens": 1291,
+    "completion_tokens_details": {
+      "reasoning_tokens": 956
+    }
+  }
+}

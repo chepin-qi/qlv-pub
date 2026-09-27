@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:23:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T084134-d33e4fc3.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 auto-otp-20260909T084134-d33e4fc3.json，摘要仅标[lane扫]任务件，扫描范围、目标载荷及响应状态均未实测。| 性态: 裸候态。缺触发详情与响应数据，未触发/触发未响应待细收区分；符 AUTH-OTP-02 投必有件，内容待验。| 建议处置: 依 WAKE-PROTO 细收 JSON 载荷，核验扫描结果与响应标记；若空包或无响应则落账归档，不越真机钱面、不主动外呼。| 锚: 文件系统入站线 /var/lanesweep/incoming/auto-otp-20260909T084134-d33e4fc3.json。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1240,
+    "total_tokens": 1457,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1064
+    }
+  }
+}

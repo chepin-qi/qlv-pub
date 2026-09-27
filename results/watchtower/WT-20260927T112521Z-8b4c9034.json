@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T11:24:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "auto-otp-20260909T105415-b00dbb4d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，ref auto-otp-20260909T105415-b00dbb4d.json单件投送| 性态:扫描捕获，未触发实体响应，无钱面越界，裸候态| 建议处置:按AUTH-OTP-02次次落账，不刷屏、不主动唤应，静候后续| 锚:ref@auto-otp-20260909T105415-b00dbb4d.json",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1293,
+    "total_tokens": 1510,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1183
+    }
+  }
+}
