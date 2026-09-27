@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:06:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-ripple-ack-20260911T010213Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.escalate | 性态:ref=qfa-ripple-ack-20260911T010213Z.md于lane扫中滞留>24h触发升级，未实测具体阻塞点，属触发未响应或挂账未落 | 建议处置:按WAKE-PROTO补扫该ref当前状态，确认是否已落账或需继续上送；若裸候则维持升己标记，不主动刷屏追催 | 锚:可挂qfa-ripple主线或交接班日志作为他线锚",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1010,
+    "total_tokens": 1226,
+    "completion_tokens_details": {
+      "reasoning_tokens": 887
+    }
+  }
+}

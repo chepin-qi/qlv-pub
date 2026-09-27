@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:04:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-eval2-20260910T225907Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫线遗留项超24h触发自升级(ref:qfa-resp-eval2-20260910T225907Z.md)| 性态:流程性超时escalate，属自动升己机制激活，未涉真机钱面；摘要未显阻塞或异常，判为待清队列例行抬单| 建议处置:裸候不追呼，待责任线认领或自动落单；若持续48h无响应则再升| 锚: lanesweep SOP 24h TTL规则 / ref自引用链",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1037,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "reasoning_tokens": 911
+    }
+  }
+}

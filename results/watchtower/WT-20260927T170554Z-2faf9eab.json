@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:05:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-qlv-04-20260910T234412Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep escalate，qlv线lane扫超24h自升级，源件qfa-resp-qlv-04-20260910T234412Z.md|性态:本工位单会话文本无工具，未触发真机实测，无法区分lane阻塞或误报；据摘要属超时静默抬升，无响应侧记录|建议处置:按AUTH-OTP-02裸候，不主动求应，次次落账。建议移交qfa/qlv有工具工位复核该md，裁决是否清障或归档|锚:qfa-resp-qlv-04-20260910T234412Z.md;AOTP-02",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1651,
+    "total_tokens": 1873,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1499
+    }
+  }
+}

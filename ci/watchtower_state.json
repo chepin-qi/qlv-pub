@@ -32,16 +32,16 @@
       0,
       0,
       0,
+      7,
       0,
       0,
-      0,
-      0,
+      1,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 68
+    "beacon_comments": 76
   },
   "qgl_head": "871f3d7246bd22e1a4a49bcb5028cf7bbf66eaff",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 222,
+  "seg_cursor": 223,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -374,7 +374,15 @@
     "lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
     "lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
     "nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md",
-    "otp-20260910T232733Z-浪涌一号-lvlu.md"
+    "otp-20260910T232733Z-浪涌一号-lvlu.md",
+    "otp-20260911T022116Z-浪涌三号-lvlu.md",
+    "qfa-mech-call-01-20260910T223007Z.md",
+    "qfa-resp-eval2-20260910T225907Z.md",
+    "qfa-resp-govpair-20260910.md",
+    "qfa-resp-qlv-03-20260910T232910Z.md",
+    "qfa-resp-qlv-04-20260910T234412Z.md",
+    "qfa-resp-qlv-05-20260911T000033Z.md",
+    "qfa-ripple-ack-20260911T010213Z.md"
   ],
   "debt_queue": [
     {
@@ -1319,6 +1327,46 @@
     },
     {
       "id": "lanesweep:otp-20260910T232733Z-浪涌一号-lvlu.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:otp-20260911T022116Z-浪涌三号-lvlu.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:qfa-mech-call-01-20260910T223007Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:qfa-resp-eval2-20260910T225907Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:qfa-resp-govpair-20260910.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:qfa-resp-qlv-03-20260910T232910Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:qfa-resp-qlv-04-20260910T234412Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:qfa-resp-qlv-05-20260911T000033Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:qfa-ripple-ack-20260911T010213Z.md",
       "note": "lane件>24h未理升己",
       "si0_solvable": false
     }

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:04:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "qfa-resp-govpair-20260910.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ref文件qfa-resp-govpair-20260910.md| 性态:单点文件触检，内容未实测，未触发/触发未响应不可辨，呈裸候待收态| 建议处置:遵AUTH-OTP-02裸候原则，不主动求应；待细收内容后裁决落账| 锚:交叉锚定govpair协议响应栈及同批次qfa工单链",
+  "usage": {
+    "prompt_tokens": 207,
+    "completion_tokens": 790,
+    "total_tokens": 997,
+    "completion_tokens_details": {
+      "reasoning_tokens": 685
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:04:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "otp-20260911T022116Z-浪涌三号-lvlu.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep扫描超24h自升|性态:元数据告警,ref为浪涌三号-lvlu.md,无实测载荷,未触发业务响应|建议处置:按otp-20260911T022116Z落账,复核lane扫阈值与lvlu规则,裸候不主动外呼|锚:cross-ref otp-20260911T022116Z浪涌三号主链/lanesweep.base",
+  "usage": {
+    "prompt_tokens": 221,
+    "completion_tokens": 658,
+    "total_tokens": 879,
+    "completion_tokens_details": {
+      "reasoning_tokens": 560
+    }
+  }
+}

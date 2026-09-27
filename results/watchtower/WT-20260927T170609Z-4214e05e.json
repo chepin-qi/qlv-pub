@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:05:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-qlv-05-20260911T000033Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务超时24h触发自我升级(ref:qfa-resp-qlv-05-20260911T000033Z.md)| 性态:lanesweep.escalate类自动告警，属单点超时未收敛| 建议处置:核查lane扫任务qfa-resp-qlv-05执行态及阻塞根因，按SLA判定是否转人工排障或降级重扫| 锚:他线锚至qfa工单池resp-qlv-05原单",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 819,
+    "total_tokens": 1041,
+    "completion_tokens_details": {
+      "reasoning_tokens": 702
+    }
+  }
+}

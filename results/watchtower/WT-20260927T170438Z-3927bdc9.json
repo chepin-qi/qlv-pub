@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:04:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-mech-call-01-20260910T223007Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa-mech-call-01-20260910T223007Z.md lane扫滞留超24h触发escalate，机械呼叫类工单升级。| 性态:仅凭摘要，未实测原文件，无法区分「未触发vs触发未响应」；符合lanesweep升己条件，流程卡点待核。| 建议处置:①拉取ref原文确认现状；②若挂起则按AUTH-OTP-02转责任人并补记录，若已闭环则补落账；③设熔断防复现。| 锚:#mech-call线/扫盘超时",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 902,
+    "total_tokens": 1120,
+    "completion_tokens_details": {
+      "reasoning_tokens": 770
+    }
+  }
+}

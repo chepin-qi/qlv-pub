@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T17:05:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "qfa-resp-qlv-03-20260910T232910Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep通道扫描逾24h阈值自升级，到件ref=qfa-resp-qlv-03-20260910T232910Z.md | 性态: 周期运维触发的自动escalate归档，属常例；文件已生成，判为「触发已响应」，未实测内部详情不编数 | 建议处置: 按WAKE-PROTO细收并落账；若md仅周期日志则闭环，若含异常则转裁决；保持裸候，不主动外呼 | 锚: qfa-resp链时戳锚/qlv-03工位锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1248,
+    "total_tokens": 1470,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1109
+    }
+  }
+}
