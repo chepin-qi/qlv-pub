@@ -35,13 +35,13 @@
       0,
       0,
       0,
-      0,
+      2,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-27",
-    "beacon_comments": 20
+    "beacon_comments": 22
   },
   "qgl_head": "22738487b6c64c54ac3bd591049f2380260239c6",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 186,
+  "seg_cursor": 187,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -109,12 +109,12 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1790391738.2788272,
-      "n": 5
+      "t": 1790482989.1297927,
+      "n": 6
     },
     "debt-20260912-keydark-drill": {
-      "t": 1790391738.2788336,
-      "n": 5
+      "t": 1790482989.1297987,
+      "n": 6
     },
     "debt-20260912-inbox-purge": {
       "t": 1790401693.9261339,

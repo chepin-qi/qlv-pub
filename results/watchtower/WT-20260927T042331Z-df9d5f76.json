@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T04:23:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-lgt-kscan促件升至第6级，卡方扫描域k∈[6,14]binmap观测选择自由度商像候判|性态:escalate类债候自旋，裸候态。区分触发未响应与未触发，无实测不编数|建议处置:循WAKE-PROTO细收→裁决→落账。不越真机钱面，不刷屏，裸候不主动求应。触发未响应则重锚k值细扫；未触发则归候池|锚:卡方扫描域k∈[6,14]binmap自由度商像",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1315,
+    "total_tokens": 1542,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1167
+    }
+  }
+}

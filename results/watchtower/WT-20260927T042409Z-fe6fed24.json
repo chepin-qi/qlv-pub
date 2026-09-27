@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-27T04:23:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-keydark-drill因断钥一日生存演练(0926)促至第6级，当前未到演练日，属未触发裸候| 性态:自债内驱，escalate为候压自增，无外投件，无实测数不编，不越真机钱面| 建议处置:裸候落账，以0926为硬闸，不主动外求响应，第6级仅自察准备度，待闸日自然触发| 锚:0926外部硬闸为界，促压止于自线，不穿透真机钱面取他线响应",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1734,
+    "total_tokens": 1951,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1586
+    }
+  }
+}
