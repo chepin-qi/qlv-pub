@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T11:20:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件nudge.escalate，debt-20260912-exp016-xchk(EXP-016交叉验证回件)升至第7级| 性态:债候队列中该回件未触发有效响应，机制自动escalate；clock=VOID，未实测响应数据，属未触达真机钱面之高阶促件| 建议处置:按AUTH-OTP-02裸候原则，不主动寻求回应；执行次次落账，将第7级升级状态归档，持续监测债候直至触发或结清| 锚:LINEX-nudge.escalate/T7",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1108,
+    "total_tokens": 1323,
+    "completion_tokens_details": {
+      "reasoning_tokens": 966
+    }
+  }
+}

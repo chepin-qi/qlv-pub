@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T11:19:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件 debt-20260912-orbit-cap03-ring，CAP-03自发环巡归，kind=nudge.escalate 升至第7级，当前裸候。| 性态:自发环巡型债务，非外源投喂；升级路径已触发，但未触发外部响应，属触发未应答态，无实测钱面数据。| 建议处置:遵AUTH-OTP-02次次落账；第7级后仍裸候，不主动寻求回应，可落账归档或维持环巡，严守诚实边界不越真机钱面。| 锚:CAP-03轨/20260912-TIME锚/环巡裸候线。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1029,
+    "total_tokens": 1246,
+    "completion_tokens_details": {
+      "reasoning_tokens": 876
+    }
+  }
+}

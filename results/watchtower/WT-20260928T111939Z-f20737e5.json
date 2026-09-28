@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T11:19:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|ref=debt-20260912-orbit-cap02-lgt;CAP-02下下站旁路权→第7级,级数客观,无响应实测|性态:Escalate裸候;属未触发(非触发未响应)|建议处置:次次落账,维持裸候,冻结第7级后旁路跃迁|锚:AUTH-OTP-02裸候规制,米田边律他线锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1332,
+    "total_tokens": 1554,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1223
+    }
+  }
+}

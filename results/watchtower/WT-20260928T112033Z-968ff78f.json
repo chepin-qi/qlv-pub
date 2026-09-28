@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T11:20:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|debt-20260912-tower-seg9-verify(塔⑨段五件效验/runs直读)升至第7级| 性态:自债候件内推,属效验节点escalation,非外触未响应,无越真机钱面| 建议处置:级次落账,裸候不追投,待下段自动释放或实测补录| 锚:runs直读协议@tower-seg9,债务候件链@debt-2026Q3",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 995,
+    "total_tokens": 1219,
+    "completion_tokens_details": {
+      "reasoning_tokens": 870
+    }
+  }
+}
