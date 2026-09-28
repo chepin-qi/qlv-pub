@@ -29,8 +29,8 @@
       0,
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-28T04:40:57Z"
+      "ts": "2026-09-28T04:51:35Z"
     }
   ],
   "debt_backlog": 201,

@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T04:51:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat自驱覆写请求,ref为SI5-RING01-JUDGMENT-usrm覆写位,摘要示SI1专属债自驱任务对既定判档的位覆写。| 性态: 属指令级自驱覆写,未触发实体校验; 因无工具接入,文档当前态与覆写差分未实测,无法确认增量覆写或全量替换,亦未感知触发响应或静默失败。| 建议处置: 1)挂起覆写落账,待真机验证ref完整性; 2)若需生效,应走AUTH-OTP-02复核并留审计尾; 3)覆写前锁定原档快照。| 锚: qlv-taskledger/VOID-20260911T0230Z-SI5R01-dummyhold(占位待核)",
+  "usage": {
+    "prompt_tokens": 244,
+    "completion_tokens": 860,
+    "total_tokens": 1104,
+    "completion_tokens_details": {
+      "reasoning_tokens": 669
+    }
+  }
+}
