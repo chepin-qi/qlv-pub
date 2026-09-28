@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T01:33:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-NOTICE-QRAC-V2RC-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep.task 侦得 ref 件 ANS-NOTICE-QRAC-V2RC-LVLU-01.md | 性态: 单摘要到件，细收未触发（无文件读取工具，未实测不编数），暂为裸候态 | 建议处置: 启细收链路读取 md 全文，核验 QRAC-V2RC-LVLU 域后裁决落账；严守诚实边界，不越真机钱面 | 锚: qlv 线 lanesweep 收束 ANS-NOTICE 类件，交叉锚定 sys-notice/qrac 他线备查",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1110,
+    "total_tokens": 1326,
+    "completion_tokens_details": {
+      "reasoning_tokens": 966
+    }
+  }
+}

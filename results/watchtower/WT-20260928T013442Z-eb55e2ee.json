@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T01:34:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SIMAX-EVALPACK-LVLU-01.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得SIMAX-EVALPACK-LVLU-01.json，摘要仅告\"侦得\"，未呈内容摘要、校验和及响应状态。| 性态:单文件到件通知；未实测包内LVLU级逻辑，无法区分「未触发」或「触发未响应」；当前属到件未展开态，非终态。| 建议处置:按WAKE-PROTO落账，转细收岗解压/校验；若扫描即终了则裸候，待下游EVAL-LVLU回执后补裁决，不越真机钱面。| 锚:lanesweep.task锚向仓库存储线/EVAL流水线他线锚。",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 907,
+    "total_tokens": 1112,
+    "completion_tokens_details": {
+      "reasoning_tokens": 752
+    }
+  }
+}
