@@ -28,7 +28,7 @@
     "w12": [
       0,
       0,
-      0,
+      2,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-28",
-    "beacon_comments": 6
+    "beacon_comments": 8
   },
   "qgl_head": "3cd8e4fe85de7b3765773030143caa8fa21d2289",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 258,
+  "seg_cursor": 259,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -109,12 +109,12 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1790482989.1297927,
-      "n": 6
+      "t": 1790574176.0335016,
+      "n": 7
     },
     "debt-20260912-keydark-drill": {
-      "t": 1790482989.1297987,
-      "n": 6
+      "t": 1790574176.0335114,
+      "n": 7
     },
     "debt-20260912-inbox-purge": {
       "t": 1790492708.789762,

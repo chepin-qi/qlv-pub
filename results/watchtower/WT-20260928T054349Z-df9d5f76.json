@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T05:42:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候ref=debt-20260912-lgt-kscan之binmap自由度商像k∈[6,14]卡方扫描触发阈值穿越，促件升至第7级| 性态:自动化统计级跳，属触发态；实测原始卡方值未附，不臆断p值或分位，仅确认级跳事件成立| 建议处置:本级流表挂起标位，不越真机钱面交割，裸候待他线复核| 锚:χ²右尾临界表(df=6..14)/NIST工程统计手册Sec 1.3.6.6",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1904,
+    "total_tokens": 2131,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1759
+    }
+  }
+}
