@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T21:23:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-WAVE-68-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanetask:ANS-WAVE-68-QLV-01.md 于 debtengine.seat 触发 SI1 专属覆写位| 性态:债自驱配置层席位映射变更意图；本工位无工具未实测，不编数，未触发抑或触发未响应尚不可辨| 建议处置:按 OTP-02 落账此件，裸候不刷屏；真机钱面须另线实测核验| 锚:ANS-WAVE-68-QLV-01.md↔debtengine.seat/SI1",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1206,
+    "total_tokens": 1426,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1077
+    }
+  }
+}
