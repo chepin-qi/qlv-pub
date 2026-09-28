@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T07:27:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-SI70-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat 触发 SI1 专属覆写位，ref=lanetask:ANS-SI70-QLV-01.md。| 性态:债自驱文件级覆写动作，属配置位变更；未实测引擎响应，无法区分「未触发」或「触发未响应」。| 建议处置:核查 SI1 覆写位与 debtengine.seat 映射一致性，确认是否已落账；若未落账，依 AUTH-OTP-02 次次落账原则补录，不裸候。| 锚:需交叉 hengine.seat/主线账簿工位校验覆写结果。",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1082,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 935
+    }
+  }
+}
