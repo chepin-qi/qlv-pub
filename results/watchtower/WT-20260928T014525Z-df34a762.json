@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T01:44:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-NOTICE-QRAC-V2RC-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-NOTICE-QRAC-V2RC-LVLU-01.md到件，摘要仅示文件名，未触发内容解析。| 性态:待收挂起，扫描命中但细收未完成；未实测文件载荷，不臆测QRAC/V2RC/LVLU语义及版本号。| 建议处置:按WAKE-PROTO执行细收→裁决→落账；回线请求完整载荷或哈希校验后裁决，裸候不主动求应。| 锚:lanesweep动作锚定AUTH-OTP-02「投必有件」原则，本次单文件命中，未越真机钱面。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1280,
+    "total_tokens": 1496,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1132
+    }
+  }
+}

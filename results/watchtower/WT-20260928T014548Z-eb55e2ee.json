@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T01:45:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "SIMAX-EVALPACK-LVLU-01.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task件侦得,ref=SIMAX-EVALPACK-LVLU-01.json|性态:文件级触发,内容未展开,无实测数,属「触发未响应」空壳态|建议处置:按WAKE-PROTO入细收,待evalpack解析后裁决,裸候,不越真机钱面|锚:cross-ref→SIMAX-MAIN-PIPE/LVLU-BENCH线",
+  "usage": {
+    "prompt_tokens": 205,
+    "completion_tokens": 798,
+    "total_tokens": 1003,
+    "completion_tokens_details": {
+      "reasoning_tokens": 697
+    }
+  }
+}
