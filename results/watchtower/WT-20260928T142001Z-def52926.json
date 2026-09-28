@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T14:19:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-os3d-lvlu-dist因分布维实测替换骨架(XCHK)升至第7级|性态:内部escalation，属技术债务候态升级，未触发外部钱面操作；因clock=VOID且无工具，无法实测验证替换骨架回传|建议处置:1.裸候，不主动外呼；2.核查XCHK落账标记；3.待分布维实测确认后裁决落账|锚:XCHK骨架替换协议第7级阈值",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 921,
+    "total_tokens": 1143,
+    "completion_tokens_details": {
+      "reasoning_tokens": 802
+    }
+  }
+}
