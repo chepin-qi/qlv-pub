@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T13:17:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-TASK-PHI-CHAIN-02.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanetask:ANS-TASK-PHI-CHAIN-02.md的SI1专属覆写位到件，摘要仅示[债自驱]占位，无触发日志、无实测数值、无响应切片。| 性态:到件未展开，属虚空占席；依诚实边界，无法判定「未触发」或「触发未响应」，当前不具裁决条件。| 建议处置:维持裸候，不主动求应；待该lanetask下发实测链或引擎触发信号后，再按WAKE-PROTO细收→裁决→落账。| 锚:AUTH-OTP-02「不主动寻求回应即裸候」/ 米田边律他线占位。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1033,
+    "total_tokens": 1253,
+    "completion_tokens_details": {
+      "reasoning_tokens": 873
+    }
+  }
+}

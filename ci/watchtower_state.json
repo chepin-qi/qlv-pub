@@ -31,9 +31,9 @@
       0,
       0,
       0,
-      0,
-      0,
       1,
+      0,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:ANS-TASK-PHI-CHAIN-02.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-28T13:06:32Z"
+      "ts": "2026-09-28T13:17:09Z"
     }
   ],
   "debt_backlog": 198,
