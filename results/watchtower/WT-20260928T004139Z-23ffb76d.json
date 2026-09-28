@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T00:41:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "113e3d02",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线HEAD迁移，5dd9b058→113e3d02| 性态:常规节拍提交，未见冲突/回滚标识，属正常前向迭代| 建议处置:落账确认，裸候后续qfa.beat或异常投件| 锚:git-obj:113e3d02",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 446,
+    "total_tokens": 644,
+    "completion_tokens_details": {
+      "reasoning_tokens": 366
+    }
+  }
+}
