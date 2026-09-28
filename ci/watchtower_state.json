@@ -22,13 +22,13 @@
     "vci-vinf#6": 2,
     "vci-inbox#2": 0
   },
-  "lane_inbox_count": 231,
+  "lane_inbox_count": 233,
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,9 +58,9 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-28",
-    "beacon_comments": 1
+    "beacon_comments": 2
   },
-  "qgl_head": "5bc9cfddea88b7679944fe67b7b28a60a20ef793",
+  "qgl_head": "d5c111a795b9f1e2155f60e1d418d388b355f1e2",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 245,
+  "seg_cursor": 246,
   "keydark": {
     "fails": 0,
     "dark": false

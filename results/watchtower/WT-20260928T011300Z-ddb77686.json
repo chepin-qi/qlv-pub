@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T01:12:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv线inbox单件drop，ref为qtlv-spectra-x11-qsca7fce6884.md，源巷卡chepin-ai/vci-inbox序列231→233更新。| 性态:常规跨巷投递，路径明确，件号递增，未见异常拦截或触发失败。| 建议处置:执行细收：校验文件完整性及命名规范，确认233为批次末件后落账归档。| 锚:chepin-ai/vci-inbox(源巷卡增量锚)",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1336,
+    "total_tokens": 1566,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1217
+    }
+  }
+}
