@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T15:52:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1债自驱覆写位，ref指向ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md，属lanesweep塔修后席位状态覆写指令。| 性态:到件已触发，无冲突告警，实测性能数据未上报，不编数，区分裸候态。| 建议处置:执行落账，覆写位限席位内不越真机钱面，不主动寻应，裸候归档。| 锚:lanesweep:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md|QLV-03塔修线|debtengine.seat",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 1262,
+    "total_tokens": 1500,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1103
+    }
+  }
+}
