@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T13:06:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-TASK-PHI-CHAIN-02.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1债自驱覆写件，ref锁定ANS-TASK-PHI-CHAIN-02.md覆写位，属内部账页偏移。| 性态:单点覆写指令，未触发外部响应，无实测数可录。| 建议处置:校验SI1覆写权限后执行落账，clock=VOID裸候，不主动寻应。| 锚:tasklog:debtengine/si1/overwrite_VOID.seq",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 823,
+    "total_tokens": 1043,
+    "completion_tokens_details": {
+      "reasoning_tokens": 713
+    }
+  }
+}
