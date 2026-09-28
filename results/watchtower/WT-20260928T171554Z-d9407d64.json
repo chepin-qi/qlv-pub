@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T17:15:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "7715f45d",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移(113e3d02→7715f45d)| 性态:代码主线版本迭代/常规beat心跳，属受控头指针漂移| 建议处置:核验7715f45d提交签名与变更集，确认无越权合入；若通过则标记落账，并同步下游构建节点| 锚:ref-7715f45d/主线节拍/qfa版本链",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 494,
+    "total_tokens": 692,
+    "completion_tokens_details": {
+      "reasoning_tokens": 394
+    }
+  }
+}
