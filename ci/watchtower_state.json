@@ -37,11 +37,11 @@
       0,
       0,
       0,
-      1
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-09-28",
     "beacon_comments": 5
   },
-  "qgl_head": "6dbb38b675a5049cbcd56d3c4f6fb7be0240d316",
+  "qgl_head": "d5c111a795b9f1e2155f60e1d418d388b355f1e2",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 248,
+  "seg_cursor": 249,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:ANS-QLV-STAMP-CLOSE-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-28T02:06:43Z"
+      "ts": "2026-09-28T01:56:00Z"
     }
   ],
   "debt_backlog": 202,
