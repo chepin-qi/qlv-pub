@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T18:48:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-WAVE-68-QLV-01-20260913T104013Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:[债自驱]SI1专属覆写位触达，ref lanesweep:ANS-WAVE-68-QLV-01-20260913T104013Z.md 入 debtengine.seat | 性态:自驱覆写指令命中，覆写位就绪，未触发交互冲突，属静默落账型事件 | 建议处置:核验覆写位与SI1绑定权限，执行落账，裸候回执 | 锚:lanesweep协议栈/WAKE-PROTO扫描落账",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 829,
+    "total_tokens": 1063,
+    "completion_tokens_details": {
+      "reasoning_tokens": 712
+    }
+  }
+}
