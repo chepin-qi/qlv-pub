@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T00:30:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "113e3d02",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa.beat main头迁移(5dd9b058→113e3d02)| 性态:常; HEAD单步前向漂移,无回退/分叉标记,未触发分支保护拦截| 建议处置:次次落账; 远端核对113e3d02提交签名与CI流水线ref一致性,裸候下一beat| 锚:git log 113e3d02 -1 --pretty=format:'%H %GK' 或CI build#关联",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 1028,
+    "total_tokens": 1226,
+    "completion_tokens_details": {
+      "reasoning_tokens": 914
+    }
+  }
+}
