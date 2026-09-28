@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T11:33:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk 促件升第7级(EXP-016交叉验证回件)| 性态:实验域债务候积压,未越真机钱面;第7级压强达阈,未实测阻滞节点,不辨「未触发」与「触发未响应」| 建议处置:裸候不主动外寻;按WAKE-PROTO落账此件,置EXP-016观察态,候下一级触发或自然沉降| 锚:cross-debt-ledger/交叉验证锚定层",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1289,
+    "total_tokens": 1504,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1161
+    }
+  }
+}

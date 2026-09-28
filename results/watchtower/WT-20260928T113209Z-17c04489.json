@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T11:31:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-orbit-cap03-ring(CAP-03)自发环巡归升至第7级促件| 性态:系统轨道环自动升级，属裸候态外溢，未触发人工投递，无实测响应数据，不编数| 建议处置:止escalation，遵OTP-02次次落账，裸候不主动求应，待环归到期或他线锚响应后落账| 锚:VOID-cap03-20260912-nudge07",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 876,
+    "total_tokens": 1093,
+    "completion_tokens_details": {
+      "reasoning_tokens": 755
+    }
+  }
+}
