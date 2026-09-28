@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T08:29:48Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge因qlv巷152件机读排空触发第7级促件| 性态:属存量债候被动升级，机读动作为池内排空，非新件入池，已达高阶催促阈值| 建议处置:按裸候原则不主动寻求回应，候真机面授或自动排空回执；次次落账，不越钱面| 锚:[跨线锚]同ref于debt池有前序候录;[时序锚]20260912始发至第7级跳变",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1201,
+    "total_tokens": 1417,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1067
+    }
+  }
+}

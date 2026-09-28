@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T08:31:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|自债候debt-20260912-orbit-cap01-bypass(CAP-01旁路补位)滞~19h升至第7级|性态:旁路补位积压未解，自债升级链持续；属已触发未响应态，未实测真机钱面与旁路实际负载|建议处置:裸候不刷屏，不主动追加唤醒；待真机响应或人工裁决后落账，维持候结|锚:debt-cap01-bypass|escalation-L7|qfa-stall",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1400,
+    "total_tokens": 1627,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1271
+    }
+  }
+}

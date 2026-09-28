@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T08:30:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：债候debt-20260912-edge-throttle促件升至第7级，器课十二株边缘限流族立档（冷却突发律+git道绕行+HTTP/1.1方）候结| 性态：nudge.escalate高压态，属未结立档跨线催办，本级已触阈值，真机钱面未明，未实测不编数| 建议处置：次次落账标记第7级escalate；不越真机钱面，裸候不主动求应；待原线器课回传实测结或原贷方触发落解| 锚：器课限流族立档规约（跨线锚：git道绕行属源码层，HTTP/1.1方属协议层，二锚互验）",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1072,
+    "total_tokens": 1305,
+    "completion_tokens_details": {
+      "reasoning_tokens": 889
+    }
+  }
+}

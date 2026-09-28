@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T08:30:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-tower-verify升至第7级促件，涉塔FIX-08/09/10效验及runs归正。| 性态:催办升级态；本工位未实测效验回执，属裸候高压滞留件。| 建议处置:次次落账，冻结升级通道，不刷屏/不越真机钱面；裸候他线锚定回执或转人工裁决。| 锚:ref=debt-20260912-tower-verify; 级=7; 关联塔FIX三批次runs。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1013,
+    "total_tokens": 1233,
+    "completion_tokens_details": {
+      "reasoning_tokens": 879
+    }
+  }
+}
