@@ -60,7 +60,7 @@
     "date": "2026-09-28",
     "beacon_comments": 22
   },
-  "qgl_head": "13e016f144b54c7e700729f51ceb5dfefdb2ee0c",
+  "qgl_head": "a319a1fb971831ebf7f76104f67e5a294128580e",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 293,
+  "seg_cursor": 294,
   "keydark": {
     "fails": 0,
     "dark": false
