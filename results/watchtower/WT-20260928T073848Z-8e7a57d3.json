@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T07:38:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-SI70-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:ANS-SI70-QLV-01.md覆写位触达，债自驱SI1座席配置| 性态:系统内自驱覆写，未涉真机钱面，属元数据层落账| 建议处置:按AUTH-OTP-02裸候，不主动外呼，次次落账已扫描| 锚:debtengine.seat→qlv线/工单:SI70-QLV-01",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 827,
+    "total_tokens": 1045,
+    "completion_tokens_details": {
+      "reasoning_tokens": 722
+    }
+  }
+}
