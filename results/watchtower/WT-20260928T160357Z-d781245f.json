@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T16:03:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱覆写位,ref=ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md触达debtengine.seat| 性态:计划内配置覆写,无异常告警,符合lanesweep预期路径| 建议处置:覆写一致性校验并哈希落账;次次落账,不裸候;无需人工拦截| 锚:ans-tower-ledger线/qlv-03基线位",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 908,
+    "total_tokens": 1146,
+    "completion_tokens_details": {
+      "reasoning_tokens": 796
+    }
+  }
+}

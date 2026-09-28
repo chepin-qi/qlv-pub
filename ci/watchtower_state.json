@@ -32,16 +32,16 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:ANS-TOWER-FIX-QLV-03-qfa-20260913T190401Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-09-28T15:52:41Z"
+      "ts": "2026-09-28T16:03:31Z"
     }
   ],
   "debt_backlog": 197,
