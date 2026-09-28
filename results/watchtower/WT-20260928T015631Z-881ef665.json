@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T01:56:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-QLV-STAMP-CLOSE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱任务lanetask:ANS-QLV-STAMP-CLOSE-01.md覆写位到件，debtengine.seat承接| 性态:覆写位已扫描，处于裁决前状态；本工位无工具，未触发真机钱面，无实测数据可编| 建议处置:依WAKE-PROTO完成细收→裁决→落账，确认覆写边界后次次落账；若无续投，裸候不刷屏| 锚:AUTH-OTP-02/米田边律(他线锚)",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1093,
+    "total_tokens": 1313,
+    "completion_tokens_details": {
+      "reasoning_tokens": 961
+    }
+  }
+}
