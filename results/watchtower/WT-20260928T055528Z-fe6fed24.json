@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T05:54:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-keydark-drill(断钥一日生存演练0926)自债候升至第7级| 性态:nudge.escalate级联促件，断钥场景属未触发态，无实测响应数据| 建议处置:AUTH-OTP-02落账为escalation logged，裸候不主动求应，待0926演练窗口触发后补录实测| 锚:米田边律-他线锚→keydark-drill协议栈/debt-workout分支候录",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1169,
+    "total_tokens": 1386,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1046
+    }
+  }
+}

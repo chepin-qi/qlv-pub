@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T05:54:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-lgt-kscan因观测选择自由度商像(binmap k∈[6,14]卡方扫描)自旋至第7级，裸候，无他线回传。| 性态:nudge.escalate内部压栈，未触发外部响应。| 建议处置:守AUTH-OTP-02裸候不主求应；落账须实测k节点边界，未实测不编数。| 锚:米田边律(他线锚≥1)/WAKE-PROTO裁决落账。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1363,
+    "total_tokens": 1590,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1237
+    }
+  }
+}
