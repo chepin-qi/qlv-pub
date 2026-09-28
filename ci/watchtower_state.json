@@ -27,9 +27,9 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
+      0,
+      0,
       1,
-      0,
-      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:ANS-WAVE-68-QLV-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-28T21:23:17Z"
+      "ts": "2026-09-28T21:34:06Z"
     }
   ],
   "debt_backlog": 195,

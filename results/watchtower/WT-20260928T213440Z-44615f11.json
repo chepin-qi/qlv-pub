@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T21:34:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-WAVE-68-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，ref=lanetask:ANS-WAVE-68-QLV-01.md，摘要[债自驱]SI1专属覆写位| 性态:到件已扫，覆写位未实测，内容不可见，属未触发态，不越真机钱面| 建议处置:依WAKE-PROTO行扫描→细收→裁决→落账；按AUTH-OTP-02投必有件，次次落账，裸候不主动求应| 锚:crossline.ledger/OTP-02",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1338,
+    "total_tokens": 1558,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1206
+    }
+  }
+}
