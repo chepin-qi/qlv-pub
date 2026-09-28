@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T10:27:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收到SI1专属覆写位指令，ref=ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md，属[债自驱]任务覆写| 性态:配置变更/席位维护动作，未触发资金交割；因clock=VOID且无实测响应数据，无法区分未触发或触发未响应，不作状态断言| 建议处置:核对SI1覆写权限与md5/版本锁，按AUTH-OTP-02落账后裸候，不越真机钱面| 锚:lanetask:ANS-TASK-CISVR-ORDER-KEYFP-OVR-01.md/SI1债自驱覆写规范",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1106,
+    "total_tokens": 1336,
+    "completion_tokens_details": {
+      "reasoning_tokens": 948
+    }
+  }
+}
