@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T04:40:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI5-RING01-JUDGMENT专属债自驱文件进入SI1覆写位，触发席位占位变更。| 性态:元数据层覆写，非金额交易；属席位状态迁移（待填充→覆写锁定），未触发实际债务计算，无响应数据回传。| 建议处置:核准覆写位占用，维持seat状态至下一条指令到达；禁止预填充未经OTP校验的内容；次次落账待实际payload到件后执行。| 锚:debtengine.seat/SI1|lanetask协议命名空间|时戳20260911T0230Z",
+  "usage": {
+    "prompt_tokens": 244,
+    "completion_tokens": 982,
+    "total_tokens": 1226,
+    "completion_tokens_details": {
+      "reasoning_tokens": 843
+    }
+  }
+}

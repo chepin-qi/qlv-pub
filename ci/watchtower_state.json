@@ -30,7 +30,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -58,7 +58,7 @@
   "loops_open": 18,
   "post_budget": {
     "date": "2026-09-28",
-    "beacon_comments": 5
+    "beacon_comments": 6
   },
   "qgl_head": "3cd8e4fe85de7b3765773030143caa8fa21d2289",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 255,
+  "seg_cursor": 256,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -394,11 +394,6 @@
     "SIMAX-EVALPACK-LVLU-01.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:ANS-SI70-QLV-01.md",
       "note": "lane任务件候机答/转派",
@@ -1560,9 +1555,14 @@
       "id": "lanetask:ANS-QLV-STAMP-CLOSE-01.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-28T01:56:00Z"
+    },
+    {
+      "id": "lanetask:ANS-SI5-RING01-JUDGMENT-usrm-20260911T0230Z.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-28T04:40:57Z"
     }
   ],
-  "debt_backlog": 202,
+  "debt_backlog": 201,
   "lane_inbox_count_ci": 29,
   "ucif2_seen": [],
   "fedeye_seen": [
