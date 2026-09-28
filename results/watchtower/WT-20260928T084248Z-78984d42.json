@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T08:42:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-inbox-purge机读排空催级升至第7级(qlv巷152件待清)|性态:属nudge.escalate，机读件堆积触发阈级跳升，尚未完成排空；第7级为高压线但仍在自债域内，未越真机钱面|建议处置:裸候不主求应，维持当前排空速率，若件为可机读自动消解类则启自动清分；若含人判节点则须降速至人工槽，避免为凑数而误清。次次落账，待下一scan周期复验件数|锚:cross-ref:mail-queue-debt-void@qlv",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1253,
+    "total_tokens": 1469,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1089
+    }
+  }
+}

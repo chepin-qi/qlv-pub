@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-28T08:42:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-tower-verify升至第7级，指向塔FIX-08/09/10效验与runs归正未闭环。| 性态:属内部nudge.escalate，级数攀7表明前置处置窗口已逾，存在裸候或落账延迟，需区分「未触发」与「触发未响应」。| 建议处置:冻结新增增量，回溯三塔效验日志；若未触发则补触发，若触发未响应则上穿一线并一次性归正runs留痕，次次落账。| 锚:可锚运维线tower-log底账或FIX版本发布单交叉验证。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 848,
+    "total_tokens": 1068,
+    "completion_tokens_details": {
+      "reasoning_tokens": 698
+    }
+  }
+}
