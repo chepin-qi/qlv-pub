@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T05:50:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lanesweep 债自驱覆写位到件，ref=CORR-QLV-NUDGE-01，系 debtengine.seat 工位覆写，无实测数| 性态: 元数据覆写位，未触发钱面交割，属系统内登记| 建议处置: 已落账，按裸候不主动求应，待 lanesweep 回传实测后补锚| 锚: qlv主栈/nudge覆写协议",
+  "usage": {
+    "prompt_tokens": 240,
+    "completion_tokens": 1307,
+    "total_tokens": 1547,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1196
+    }
+  }
+}
