@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T08:38:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1债自驱专属任务`COSIGN-FLOOR-QLV-01-2026-09-10.md`触发覆写位，debtengine.seat收件。| 性态:属债引擎自治层对floor共识的席位内覆写，未越真机钱面；未触发外部实测响应，系内循环覆写。| 建议处置:落账确认覆写位收讫，裸候不主动寻求回应；次次落账，SI1版本偏移已记。| 锚:他线锚`lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md`为任务源件，无他线实测锚。",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1075,
+    "total_tokens": 1307,
+    "completion_tokens_details": {
+      "reasoning_tokens": 918
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
