@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T12:33:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件 debt-20260912-exp016-xchk 促件升级至第8级，属EXP-016交叉验证回件外催| 性态:escalation裸候态，级数高悬；本席未触真机内核，严守诚实边界，不编数，无法界分原始未触发抑或触发未响应| 建议处置:本次扫描即裁决落账，不主动求应；建议持件方复核交叉验证链路，满8级仍无回件可转人工仲裁或核销| 锚:debt-hold-queue/EXP-016-xchk-protocol",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1136,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 998
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

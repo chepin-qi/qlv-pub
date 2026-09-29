@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T12:32:29Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-orbit-cap03-ring自CAP-03自发环巡归升级至第8级(nudge.escalate)|性态:纯自动流程节点，机械环巡催促；未触发人工强执，无实机偿兑或响应数据可录|建议处置:按AUTH-OTP-02次次落账，记为第8级环巡催候；维持裸候，不主动扩音寻应，候实机钱面变动或他线触达再决|锚:CAP-03自发环巡归第8级阈值，未越真机钱面",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1083,
+    "total_tokens": 1300,
+    "completion_tokens_details": {
+      "reasoning_tokens": 942
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T12:31:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候促件升级(ref:debt-20260912-orbit-cap02-lgt)，CAP-02下下站旁路权行使达第8级。|性态:属nudge.escalate，旁路权框架内压力递增，未越真机钱面，系单方候承待应。|建议处置:遵AUTH-OTP-02裸候原则，不主动续求回应；已级次落账第8级，维持最小必要旁路候承，未实测不编数。|锚:orbital-cap-debt#02级数表(Line-Alpha)/WAKE-PROTO扫描锚|",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1458,
+    "total_tokens": 1680,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1315
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

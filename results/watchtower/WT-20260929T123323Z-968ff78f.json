@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T12:32:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|debt-20260912-tower-seg9-verify自债候推至第8级，系塔⑨段五件效验(runs直读)链| 性态:催级跃迁，未结待验，属被动escalating；未触发终裁，仅级次推进| 建议处置:裸候，不主动寻求回应；按AUTH-OTP-02次次落账，候验方回执或自动晋级| 锚:WAKE-PROTO扫描态/塔段效验未闭环|",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 917,
+    "total_tokens": 1141,
+    "completion_tokens_details": {
+      "reasoning_tokens": 789
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
