@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T12:20:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap03-ring 自债候 CAP-03自发环巡归→第8级促件| 性态:环巡归债务escalate至8级，属触发未响应态，未实测偿付流，无真机钱面越权| 建议处置:已落账，记第8级环巡归线，裸候不主动寻求回应；待对端投件或偿清后次次落账| 锚:CAP-03/ring-ledger; qlv::debt-core",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1241,
+    "total_tokens": 1458,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1114
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

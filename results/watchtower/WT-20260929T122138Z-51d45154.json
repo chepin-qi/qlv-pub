@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T12:21:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-exp016-xchk(EXP-016交叉验证回件)促件升至第8级。| 性态:nudge.escalate；属高级别催办，原候件触发/响应态未实测，不编数，诚标状态未明。| 建议处置:按WAKE-PROTO落账；裸候不主动外寻回应；待实测厘清未触发或触发未响应后，决闭环或再升级。| 锚:AUTH-OTP-02级数阈值/qlv-debt-lv8@xchk-heur。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1357,
+    "total_tokens": 1572,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1221
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T12:19:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|debt-20260912-orbit-cap02-lgt凭CAP-02下下站旁路权行使递达第8级|性态:轨道债权程序性施压，属nudge escalate梯度，实体侧响应未回显，未触发与触发未响应待分|建议处置:恪守裸候，已落账第8级即次次落账完成，不越真机钱面主动追加扰动；留痕候偿，期满若仍无触发则转轨|锚:CAP-02旁路站务日志/主轨债权登记册",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1585,
+    "total_tokens": 1807,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1452
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
