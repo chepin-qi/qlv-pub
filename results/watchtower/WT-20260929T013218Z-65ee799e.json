@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T01:31:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "a11a3dcf",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 7715f45d→a11a3dcf| 性态:分支指针前移，基线常规演进；摘要未附告警与构建实测，不做态断言| 建议处置:按 beat 落账，挂下游验证；旧头 7715f45d 留作回滚锚| 锚:commit-a11a3dcf, commit-7715f45d",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 939,
+    "total_tokens": 1136,
+    "completion_tokens_details": {
+      "reasoning_tokens": 840
+    }
+  }
+}
