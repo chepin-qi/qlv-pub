@@ -1,0 +1,10 @@
+{
+  "ts": "2026-09-29T14:16:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
