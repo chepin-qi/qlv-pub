@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T00:08:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:CADERING-STAMP-01-cisvr-20260911T1740Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat工位占座，SI1专属任务lanetask:CADERING-STAMP-01-cisvr-20260911T1740Z.md覆写位到件| 性态:常规自驱债引擎覆写指令，无冲突、无异常流量，属单工位状态覆写| 建议处置:锁定覆写位，执行SI1专属覆写校验；次次落账，不主动求应，裸候下游回执| 锚:qlv主控_stamp系跨线校验位",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 924,
+    "total_tokens": 1158,
+    "completion_tokens_details": {
+      "reasoning_tokens": 799
+    }
+  }
+}
