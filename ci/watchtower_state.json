@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-09-29T02:56:02Z"
+      "ts": "2026-09-29T03:06:47Z"
     }
   ],
   "debt_backlog": 193,

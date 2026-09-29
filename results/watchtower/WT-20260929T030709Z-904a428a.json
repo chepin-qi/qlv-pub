@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T03:06:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat收 lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md [债自驱]SI1专属覆写位到件 | 性态: 债座自驱覆写动作，属系统内位覆盖，未涉真机钱面，clock=VOID无实测时标，未触发异常响应 | 建议处置: 按落账确认，裸候后续脉动，不主动外呼，若触发未响应则回切细收 | 锚: qlv-core:debtseat/wake-chain",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 732,
+    "total_tokens": 968,
+    "completion_tokens_details": {
+      "reasoning_tokens": 598
+    }
+  }
+}
