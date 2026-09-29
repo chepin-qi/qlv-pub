@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T05:40:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属lanesweep文件覆写位到件|性态:debtengine.seat触发CORR-QLV-NUDGE-01文件覆写标记，属债自驱系统内部席位变动|建议处置:核验该覆写位与既有落账一致性，确认覆写内容边界后执行次次落账，不主动外发裸候|锚:lanesweep:CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
+  "usage": {
+    "prompt_tokens": 240,
+    "completion_tokens": 761,
+    "total_tokens": 1001,
+    "completion_tokens_details": {
+      "reasoning_tokens": 644
+    }
+  }
+}
