@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T06:42:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-lgt-kscan因观测选择自由度商像binmap k∈[6,14]卡方扫描，促件escalate至第8级| 性态:系统自动推进，扫描已触发，人工响应未介入，属裸候状态| 建议处置:依WAKE-PROTO速行细收→裁决→落账；核验k区间映射有效性，次次落账；不越真机钱面，不主动外求回应| 锚:可锚定同谱系历史level-8触发记录或ref镜像日志为他线校验|",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1707,
+    "total_tokens": 1934,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1568
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

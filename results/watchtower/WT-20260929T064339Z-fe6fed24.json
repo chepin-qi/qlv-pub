@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T06:43:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-keydark-drill\"断钥一日生存演练(0926)\"促件升至第8级| 性态: 演练域escalation，非真机钱面，未触发实偿流，属断钥压力测试序列| 建议处置: 依AUTH-OTP-02裸候，不越真机钱面，次次落账；维持drill边界，不主动求应| 锚: canary-line.key-rotation/void-clock",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1127,
+    "total_tokens": 1344,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1014
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
