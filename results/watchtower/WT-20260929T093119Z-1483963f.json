@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T09:30:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-tower-verify促件升至第8级，标的塔FIX-08/09/10效验+runs归正。| 性态:nudge.escalate级联，属内债自催。本线未实测塔效验数据，未触发与触发未响应边界待清；8级堆叠已触刷屏阈，需防越真机钱面。| 建议处置:遵AUTH-OTP-02裸候原则，冻结再投；锚定runs归正底账逐项核销，待他线实测落账后释放。| 锚:塔FIX-08/09/10实测台/runs归正底账。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1280,
+    "total_tokens": 1500,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1125
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

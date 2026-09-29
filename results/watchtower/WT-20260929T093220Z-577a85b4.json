@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T09:31:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位债务候件(debt-20260912-orbit-cap01-bypass)滞qfa约19h，触发第8级促件升级。| 性态:旁路通道挂账未落，属滞债硬锚；未触发自动清算或触发未响应，风险淤积于qlv线候池。| 建议处置:依WAKE-PROTO细收裁决，裸候真机响应；若满级无应，强制落账或转法务锚，严守不越真机钱面。| 锚:qlv候池→CAP-01旁路协议→debt-20260912硬锚点/第8级escalation。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1053,
+    "total_tokens": 1280,
+    "completion_tokens_details": {
+      "reasoning_tokens": 897
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
