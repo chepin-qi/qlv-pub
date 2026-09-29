@@ -37,11 +37,11 @@
       0,
       0,
       0,
-      0
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 335,
+  "seg_cursor": 336,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -394,11 +394,6 @@
     "SIMAX-EVALPACK-LVLU-01.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
       "note": "lane任务件候机答/转派",
@@ -1560,9 +1555,14 @@
       "id": "lanesweep:CORR-QLV-NUDGE-01-qtlv-20260913T131611Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-09-29T05:40:31Z"
+    },
+    {
+      "id": "lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-29T08:27:14Z"
     }
   ],
-  "debt_backlog": 192,
+  "debt_backlog": 191,
   "lane_inbox_count_ci": 29,
   "ucif2_seen": [],
   "fedeye_seen": [

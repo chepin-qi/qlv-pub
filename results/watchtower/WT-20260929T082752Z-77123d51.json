@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T08:27:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1债自驱覆写位到件，ref=lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md，kind=debtengine.seat，摘要覆写位。| 性态:文件级覆写指令，本工位无工具、单会话文本限，未触发实测执行流；无资金越界。| 建议处置:WAKE-PROTO落账备案，标记SI1专属待办；裸候，不主动外呼，不代真机覆写。| 锚:lanetask:COSIGN-FLOOR-QLV-01-2026-09-10.md | debtengine.seat | SI1覆写位",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1387,
+    "total_tokens": 1619,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1230
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
