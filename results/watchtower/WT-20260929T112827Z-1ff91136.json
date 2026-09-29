@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T11:27:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属覆写位，ref=COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md，tail-ref本地锚定更新。| 性态:纯配置层覆写，未涉资金接口，无实测数值，属已触发且无外部响应。| 建议处置:校验文件完整性后落账，裸候下一周期，不主动外呼。| 锚:coreline:DEBT-ROOT/SI1-tail。",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 1709,
+    "total_tokens": 1951,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1593
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

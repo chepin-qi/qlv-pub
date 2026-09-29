@@ -30,18 +30,18 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:COSIGN-FLOOR-TAIL-REF-01-qlv-20260911T0015Z.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-29T11:16:59Z"
+      "ts": "2026-09-29T11:27:40Z"
     }
   ],
   "debt_backlog": 190,
