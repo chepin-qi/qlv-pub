@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T02:24:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:chepin-ai/vci-inbox巷卡233→206，差值27件；同刻qlv inbox落账qtlv-spectra-x11-qsca7fce6884.md，疑为跨巷归集或批量同步清理。| 性态:lane.drop型迁移，上游vci域减量映射至qlv域增量；摘要未提供内容实测，仅结构信号可用，不编具体响据。| 建议处置:确认该件已入qlv-inbox即视为本线落账；若属批量归集代表，须补录余26件索引或确认另账已处理，次次落账。| 锚:巷卡vci-inbox计数变动(233→206)为触发源，qlv inbox新增文件为落账锚点。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1201,
+    "total_tokens": 1431,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024
+    }
+  }
+}
