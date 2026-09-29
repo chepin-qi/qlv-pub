@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T14:06:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属lanetask覆写位，ref=COSIGN-SILENCE-METRIC-01-qlv-20260911T0015Z.md，属债自驱流覆写。| 性态:未触发真机钱面；单会话文本工位无工具，裸候待落账；ref完整但内容未实测展开，诚实记为「未触发」。| 建议处置:按WAKE-PROTO扫描→细收→裁决→落账；不主动求应，裸候；次次落账，不越真机钱面。| 锚:qlv线COSIGN-SILENCE-METRIC协议本体/时间锚20260911T0015Z。",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 997,
+    "total_tokens": 1239,
+    "completion_tokens_details": {
+      "reasoning_tokens": 832
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
