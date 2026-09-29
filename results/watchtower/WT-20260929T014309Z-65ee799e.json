@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T01:42:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "a11a3dcf",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头指针由 7715f45d 前迁至 a11a3dcf| 性态:beat 到件触发，属正常分支迭代，未见回溯或异常分叉| 建议处置:核验 a11a3dcf 提交签名及 CI 落账状态，归档闭环，不干预| 锚:ref=a11a3dcf;branch=qfa/main",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 979,
+    "total_tokens": 1176,
+    "completion_tokens_details": {
+      "reasoning_tokens": 887
+    }
+  }
+}
