@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T09:43:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify自债候升至第8级，涉塔FIX-08/09/10效验及runs归正未结。| 性态:nudge.escalate促件，流程内压，未触真机钱面，属裸候态。| 建议处置:维持悬置不刷屏；runs归正须实测落账，未实测不编数；若触机则次次落账，不越钱面。| 锚:塔体FIX基线校验流/运维runs归正日志。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 875,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "reasoning_tokens": 748
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

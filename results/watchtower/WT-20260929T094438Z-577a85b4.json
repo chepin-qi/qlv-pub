@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T09:44:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap01-bypass 自债候促件,CAP-01旁路补位滞留qfa约19h,升至第8级 | 性态: 触发已响应但落地阻塞,属旁路承压过载;未实测主通道回填时序,不编精确SLA | 建议处置: 裸候主控回执,不追加同线刷屏;若第9级触发则强制熔断并落账异常 | 锚: 关联CAP-01主通道20260911熔断日志,旁路补位无独立清偿额度",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1294,
+    "total_tokens": 1521,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1161
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T09:42:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-inbox-purge促件升至第8级，qlv巷152件机读排空，自债候链路激活。| 性态: nudge.escalate自动催压；机读排空未实测，不编数，待核是否真机钱面操作。| 建议处置: 遵AUTH-OTP-02裸候，不主动求应；次次落账记第8级触达；核查152件日志，区分未触发与触发未响应。| 锚: 交叉qlv巷同批次机读审计线或债务清偿对账线。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1297,
+    "total_tokens": 1513,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1160
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
