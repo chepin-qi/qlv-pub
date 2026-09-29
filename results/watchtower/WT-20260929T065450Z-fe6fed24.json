@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T06:54:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件 debt-20260912-keydark-drill（断钥一日生存演练/0926窗口）升至第8级| 性态:演练债候自 escalation，已触发未响应；无实测钱面数据，仅记录级数跳变，不越真机钱面| 建议处置:按 WAKE-PROTO 落账封存，维持裸候不追加频次；待 0926 演练窗口或自债方回线完成细收| 锚:债务演练线/0926 日期锚",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 990,
+    "total_tokens": 1207,
+    "completion_tokens_details": {
+      "reasoning_tokens": 869
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-09-29T06:53:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候 debt-20260912-lgt-kscan 促件升级，binmap k∈[6,14]卡方扫描升至第8级。| 性态:观测选择自由度商像在 k 区间堆叠触发 escalate 阈值，属触发后未结清态。| 建议处置:循 WAKE-PROTO 细收→裁决→落账；裸候不主动求回应，不越真机钱面，次次落账。| 锚: debt-20260912-lgt-kscan 与 k-8 扫描线交叉锚定。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1111,
+    "total_tokens": 1338,
+    "completion_tokens_details": {
+      "reasoning_tokens": 979
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
