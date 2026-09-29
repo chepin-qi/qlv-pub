@@ -1,0 +1,18 @@
+{
+  "ts": "2026-09-29T02:56:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:CAULDRON-PULSE-62-QLV-20260911T200235Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 自驱覆写，SI1 专属 lanesweep 文件 CAULDRON-PULSE-62-QLV-20260911T200235Z.md 触发覆写位，属座席级配置变更。| 性态: 未触发实测（无工具读源文件），摘要呈「债自驱」覆写意图，区分于空响应；视为待落账的配置脉冲。| 建议处置: 按 AUTH-OTP-02 次次落账，不越真机钱面；置裸候态，不主动寻求回应，覆写位留待 SI1 主驿裁决。| 锚: lanesync:DEBT-ANCHOR-VOID-20260911T200235Z",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1108,
+    "total_tokens": 1344,
+    "completion_tokens_details": {
+      "reasoning_tokens": 943
+    }
+  }
+}
