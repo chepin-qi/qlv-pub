@@ -26,24 +26,24 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 10,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-09-29",
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:DEMAND-KEYFP-ESC-qlv-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-30T11:10:22Z"
+      "ts": "2026-09-30T11:20:34Z"
     }
   ],
   "debt_backlog": 181,
