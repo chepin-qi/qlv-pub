@@ -27,7 +27,7 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,8 +57,8 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-09-29",
-    "beacon_comments": 5
+    "date": "2026-09-30",
+    "beacon_comments": 0
   },
   "qgl_head": "bfd2a50983aaa11a9c28ff617bdcce9f66245f2b",
   "_probe_err": {
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 383,
+  "seg_cursor": 384,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -394,11 +394,6 @@
     "SIMAX-EVALPACK-LVLU-01.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:DEMAND-DIRECT-54-QLV-R2-20260911T0730Z.md",
       "note": "lane任务件候机答/转派",
@@ -1560,9 +1555,14 @@
       "id": "lanetask:DEMAND-CLOSE-56B-QLV-20260911T1805Z.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-09-29T21:39:45Z"
+    },
+    {
+      "id": "lanetask:DEMAND-DIRECT-54-QLV-20260911T0705Z.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-09-30T00:23:19Z"
     }
   ],
-  "debt_backlog": 186,
+  "debt_backlog": 185,
   "lane_inbox_count_ci": 29,
   "ucif2_seen": [],
   "fedeye_seen": [
