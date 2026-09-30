@@ -31,7 +31,7 @@
       0,
       0,
       0,
-      4,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
