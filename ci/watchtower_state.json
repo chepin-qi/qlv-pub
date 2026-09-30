@@ -29,10 +29,10 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:DEMAND-OTP64-QLV-20260911T2024Z.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-09-30T16:40:21Z"
+      "ts": "2026-09-30T16:50:38Z"
     }
   ],
   "debt_backlog": 179,
