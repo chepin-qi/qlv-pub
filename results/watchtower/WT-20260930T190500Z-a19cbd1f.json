@@ -1,0 +1,10 @@
+{
+  "ts": "2026-09-30T19:04:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:DEMAND-SI70-QLV-20260914T134936Z.md",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
