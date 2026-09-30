@@ -29,7 +29,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -149,8 +149,8 @@
       "n": 9
     },
     "debt-20260912-os3d-lvlu-dist": {
-      "t": 1790693885.1471884,
-      "n": 8
+      "t": 1790780831.7761893,
+      "n": 9
     }
   },
   "nudge_backlog": 0,
