@@ -34,14 +34,14 @@
       0,
       0,
       0,
-      0,
-      0,
       1,
+      0,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": 8,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DEMAND-WAVE-68-QLV-20260913T084219Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-09-30T21:49:12Z"
+      "ts": "2026-09-30T21:59:35Z"
     }
   ],
   "debt_backlog": 177,
