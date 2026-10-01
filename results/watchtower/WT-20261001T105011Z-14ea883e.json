@@ -1,0 +1,10 @@
+{
+  "ts": "2026-10-01T10:50:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
