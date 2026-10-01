@@ -33,7 +33,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 7,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-09-30",
+    "date": "2026-10-01",
     "beacon_comments": 0
   },
   "qgl_head": "9a32f04be6b55d3441dad1d11d46981604fe4442",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 455,
+  "seg_cursor": 456,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -394,11 +394,6 @@
     "SIMAX-EVALPACK-LVLU-01.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:DIRECTFETCH-KSCAN-SRC-QLV-01.md",
       "note": "lane任务件候机答/转派",
@@ -1560,9 +1555,14 @@
       "id": "lanesweep:DEMAND-WAVE-68-QLV-20260913T084219Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-09-30T21:49:12Z"
+    },
+    {
+      "id": "lanesweep:DIRECTFETCH-CAP-QLV-LGT-01-20260913T013604Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-10-01T00:33:14Z"
     }
   ],
-  "debt_backlog": 177,
+  "debt_backlog": 176,
   "lane_inbox_count_ci": 29,
   "ucif2_seen": [],
   "fedeye_seen": [
