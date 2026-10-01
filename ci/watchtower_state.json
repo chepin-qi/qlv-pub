@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DISC-NEUMECH-01-qtlv-20260913T131611Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-01T05:51:55Z"
+      "ts": "2026-10-01T06:02:10Z"
     }
   ],
   "debt_backlog": 174,
