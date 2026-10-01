@@ -30,7 +30,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-10-01",
     "beacon_comments": 0
   },
-  "qgl_head": "a8c1518dfdf6ad765257fc5f5ad70267fd5c7523",
+  "qgl_head": "862c3d484a06f229cc4cb7036860b9ac4cfed15a",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 486,
+  "seg_cursor": 487,
   "keydark": {
     "fails": 0,
     "dark": false
