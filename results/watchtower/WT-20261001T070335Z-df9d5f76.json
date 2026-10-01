@@ -1,0 +1,10 @@
+{
+  "ts": "2026-10-01T07:03:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
