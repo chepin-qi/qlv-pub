@@ -34,14 +34,14 @@
       0,
       0,
       0,
-      0,
-      0,
       1,
+      0,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": 8,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DRIVE-qlv-20260916T003013Z-60aca76e931a.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-01T11:20:48Z"
+      "ts": "2026-10-01T11:31:01Z"
     }
   ],
   "debt_backlog": 172,
