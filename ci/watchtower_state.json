@@ -29,7 +29,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 576,
+  "seg_cursor": 577,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DRIVE-qlv-20260922T004234Z-a9985e509f79.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-02T17:00:00Z"
+      "ts": "2026-10-02T16:49:44Z"
     }
   ],
   "debt_backlog": 161,
