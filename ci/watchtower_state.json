@@ -28,7 +28,7 @@
     "w12": [
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 592,
+  "seg_cursor": 593,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-02T22:28:59Z"
+      "ts": "2026-10-02T22:18:09Z"
     }
   ],
   "debt_backlog": 159,
