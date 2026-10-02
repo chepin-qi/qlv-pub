@@ -28,8 +28,8 @@
     "w12": [
       0,
       0,
-      1,
       0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DRIVE-qlv-20260923T003614Z-13f9fc0a4535.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-02T19:34:12Z"
+      "ts": "2026-10-02T19:44:26Z"
     }
   ],
   "debt_backlog": 160,
