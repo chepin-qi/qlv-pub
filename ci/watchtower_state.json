@@ -32,8 +32,8 @@
       0,
       0,
       0,
-      1,
       0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 7,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-10-02",
     "beacon_comments": 0
   },
-  "qgl_head": "155484d4731d5cc5da65e03a708aad9ea44ff47a",
+  "qgl_head": "b2d406657b525a3e92b48f91e6b903c7251beccb",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
