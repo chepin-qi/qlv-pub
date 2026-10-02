@@ -27,7 +27,7 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 560,
+  "seg_cursor": 561,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DRIVE-qlv-20260922T000128Z-494de714756c.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-02T11:31:25Z"
+      "ts": "2026-10-02T11:21:11Z"
     }
   ],
   "debt_backlog": 163,
