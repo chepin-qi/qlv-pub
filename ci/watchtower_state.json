@@ -27,13 +27,13 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:DRIVE-qlv-20260922T000128Z-494de714756c.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-02T11:21:11Z"
+      "ts": "2026-10-02T11:31:25Z"
     }
   ],
   "debt_backlog": 163,
