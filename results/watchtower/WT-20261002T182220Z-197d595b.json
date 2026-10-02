@@ -1,0 +1,10 @@
+{
+  "ts": "2026-10-02T18:22:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "a366f2db",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
