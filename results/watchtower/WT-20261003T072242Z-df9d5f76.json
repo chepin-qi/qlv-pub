@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T07:22:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-lgt-kscan因binmap k∈[6,14]卡方扫描阈值突破，自低阶候升至第12级促件。| 性态:观测选择自由度商像异常，属被动触发的统计升级；当前处于WAKE-PROTO扫描后细收阶段，裁决与落账均未完成，不涉真机钱面交割。| 建议处置:裸候不主动寻求回应；续行细收→裁决→落账；若卡方偏离持续则备妥债务确认或核销要件，次次落账。| 锚:ref=debt-20260912-lgt-kscan/k-bin=[6,14]/esc-lv12。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 971,
+    "total_tokens": 1198,
+    "completion_tokens_details": {
+      "reasoning_tokens": 809
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

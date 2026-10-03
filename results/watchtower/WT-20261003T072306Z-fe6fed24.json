@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T07:22:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候促件升级(debt-20260912-keydark-drill)|性态:断钥一日生存演练(0926)第12级escalate,演习型候期,clock=VOID,未触发实质清偿链|建议处置:裸候不追应,完成落账;严守演练边界,不越真机钱面|锚:备钥封存线(key-backup-seal)",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1125,
+    "total_tokens": 1342,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1029
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
