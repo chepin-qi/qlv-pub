@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T09:57:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge促件升至第12级，qlv巷152件机读已排空| 性态:队列沉债务高阶escalation触发，机读purge完成而实体回执未决。本工位无工具、clock=VOID，未实测仓内实况，不编数| 建议处置:遵裸候原则不主动外求回应；将第12级促点挂账待复，移交有权限工位于下一节拍细收152件去向（归档/回弹/悬置）并裁决落账| 锚:cross-line://ops/debt-esc12-20260912-purge",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1706,
+    "total_tokens": 1922,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1556
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

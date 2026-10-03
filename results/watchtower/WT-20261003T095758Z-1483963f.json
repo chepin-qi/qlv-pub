@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T09:57:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：促件debt-20260912-tower-verify escalation至L12，涉及塔FIX-08/09/10效验及runs归正。| 性态：nudge.escalate，属债候深度追踪，层级已高，前置批次闭环待核。| 建议处置：裸候不主动求回应；核查该件既往落账与实测记录，区分未触发/触发未响应；无实测不编数，严守诚实边界。| 锚：塔运维线批次效验/债务工单L12节点。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 960,
+    "total_tokens": 1180,
+    "completion_tokens_details": {
+      "reasoning_tokens": 837
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T09:57:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：促件到件，debt-20260912-edge-throttle升至第12级，器课第十二株边缘限流族立档，含冷却突发律、git道绕行及HTTP/1.1方。| 性态：技术债边缘限流类复合方案，已escalate至L12促办，待裁决落账。| 建议处置：按AUTH-OTP-02裸候不刷屏，严守诚实边界，次次落账；建议即归档限流族立档或明确熔断关闭。| 锚：器课边缘限流族与git道绕行属基础设施债，应归口SRE-债册统管。",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1329,
+    "total_tokens": 1562,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1181
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
