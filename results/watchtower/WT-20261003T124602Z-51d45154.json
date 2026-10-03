@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T12:45:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件第12级促发| 性态:ref=debt-20260912-exp016-xchk，属EXP-016交叉验证回件路径的escalation节点；未触发实转，纯流程升级| 建议处置:维持裸候，不越真机钱面，待xchk闭环后次次落账；不主动外呼| 锚:debt-20260912候账未清/EXP-016流程第12级阈值/xchk回件待验",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1182,
+    "total_tokens": 1397,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1065
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
