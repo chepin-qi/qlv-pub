@@ -1973,9 +1973,12 @@
 {"ts": "2026-10-03T20:40:29Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-10-03T20:50:29Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-10-03T20:50:29Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-10-03T20:50:47Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-10-03T21:00:47Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T21:00:47Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
-{"ts": "2026-10-03T21:11:17Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-10-03T21:21:28Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T21:21:28Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 610.2, "ev_n": 0}
+{"ts": "2026-10-03T20:50:40Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-10-03T20:50:40Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T20:50:40Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 0.0, "ev_n": 0}
+{"ts": "2026-10-03T21:00:57Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-10-03T21:11:07Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T21:11:07Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 609.9, "ev_n": 0}
+{"ts": "2026-10-03T21:21:37Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-10-03T21:31:37Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T21:31:37Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.4, "ev_n": 0}
