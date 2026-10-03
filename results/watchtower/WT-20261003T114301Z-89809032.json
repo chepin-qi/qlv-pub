@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T11:42:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:FRAC-01-QUERY-qfa-20260920T144316Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，SI1专属通道对lanesweep:FRAC-01-QUERY-qfa-20260920T144316Z.md执行覆写位。| 性态:债自驱内部覆写触发，摘要不显校验值与回执，属「触发-响应待验」；未实测不编数。| 建议处置:按AUTH-OTP-02次次落账，即刻拉回该ref做一致性校验，通过则落账并锁位，失败则回退并告警。| 锚:lanesweep文件系统审计线完整性校验节点。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1280,
+    "total_tokens": 1510,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1146
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
