@@ -27,7 +27,7 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 615,
+  "seg_cursor": 616,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -394,11 +394,6 @@
     "SIMAX-EVALPACK-LVLU-01.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:FLOOR-TAIL-REF-01-usrm.md",
       "note": "lane任务件候机答/转派",
@@ -1560,9 +1555,14 @@
       "id": "lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-10-03T03:56:49Z"
+    },
+    {
+      "id": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-10-03T06:20:09Z"
     }
   ],
-  "debt_backlog": 157,
+  "debt_backlog": 156,
   "lane_inbox_count_ci": 31,
   "ucif2_seen": [],
   "fedeye_seen": [

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T06:20:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1覆写位，源文件EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md，终局裁决后位态覆写。| 性态:系统内自驱指令，属裁决落地动作；内部已触发，无外部响应需求，静默落账级。| 建议处置:核验源文件权限签名与SI1覆写域，确认版本一致性后执行落账，裸候不主动外呼。| 锚:qlv-debtengine-seat@EVAL-WAVE-01-VERDICT覆写",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 1217,
+    "total_tokens": 1459,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1083
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
