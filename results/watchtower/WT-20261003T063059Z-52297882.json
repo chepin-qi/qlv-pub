@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T06:30:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属lanesweep评估波次01终局裁决文件(ref)抵达debtengine.seat，触发覆写位| 性态:终局裁决落账前的席位状态覆写，属被动接收已裁定终件，无新争议点| 建议处置:核验ref摘要一致性，执行覆写位落账，封存EVAL-WAVE-01终局判词，次次落账后裸候，不主动寻求回应| 锚:lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 1010,
+    "total_tokens": 1252,
+    "completion_tokens_details": {
+      "reasoning_tokens": 874
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
