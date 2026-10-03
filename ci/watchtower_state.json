@@ -31,9 +31,9 @@
       0,
       0,
       0,
+      0,
+      0,
       1,
-      0,
-      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": 7,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-03T14:30:00Z"
+      "ts": "2026-10-03T14:40:39Z"
     }
   ],
   "debt_backlog": 153,

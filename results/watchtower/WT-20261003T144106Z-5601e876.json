@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T14:40:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱席位lanesweep文件FRAC-01-QUERY-qfa-20260923T184824Z-seq3.md触发覆写位置位| 性态:属债务引擎自主覆写流，为seq3序列的数据层自修正，未越真机钱面，系元数据覆写而非资金交割| 建议处置:执行版本差异校验，确认覆写前后一致性后落账封存；保留seq3历史切片备查；裸候，不主动寻求回应| 锚:lanesweep协议栈FRAC-01批次锚定",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 1217,
+    "total_tokens": 1451,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1088
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
