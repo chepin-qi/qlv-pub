@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T22:33:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:IGNITE-BAIT-58-QLV-20260911T1845Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属任务IGNITE-BAIT-58-QLV-20260911T1845Z.md覆写位到达|性态:债自驱引擎座席文件系统覆写事件；未实测触发/响应数据，无法区分覆写后是否生效，属待确认态|建议处置:按WAKE-PROTO执行落账归档，裸候下次扫描周期，不主动外呼|锚:debtengine.seat覆写位在冷备态时归入未触发响应队列",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 920,
+    "total_tokens": 1154,
+    "completion_tokens_details": {
+      "reasoning_tokens": 806
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
