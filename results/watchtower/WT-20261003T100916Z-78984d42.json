@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T10:08:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge 自债候经qlv巷152件机读排空后，促件 escalate 至第12级。| 性态:空转催级。机读既标排空，复累十二级，属无应干预警戒；裸候边界迫近，未触发与触发未响应需勘界。| 建议处置:截 escalate 流，停催；就地落账锁 VOID 或转人工确权核销；防空转。| 锚:需它线对账 qlv 巷 152 件排空实况。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1096,
+    "total_tokens": 1312,
+    "completion_tokens_details": {
+      "reasoning_tokens": 963
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T10:09:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-tower-verify自债候升至第12级，涉塔FIX-08/09/10效验及runs归正| 性态:升级态；原候件未结，效验项待实测，runs归正结果未触发/未回报，属高阶候办| 建议处置:按级落账，裸候不主动增扰；待效验方补录runs实测态后裁决归正| 锚:塔债候级链与FIX批次效验线交叉锚定",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 989,
+    "total_tokens": 1209,
+    "completion_tokens_details": {
+      "reasoning_tokens": 864
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
