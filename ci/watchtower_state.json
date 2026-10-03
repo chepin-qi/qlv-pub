@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "a366f2db23c3ab2cfaa10804313012ffa8d99b7c",
+  "qfa_head": "80f7040696ce1732e65fe0077c85c2bf7ce26455",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0",
@@ -26,8 +26,8 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
       0,
+      1,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 1,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-10-03",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 651,
+  "seg_cursor": 652,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -149,7 +149,7 @@
       "n": 12
     },
     "debt-20260912-os3d-lvlu-dist": {
-      "t": 1791051982.250337,
+      "t": 1791051357.81567,
       "n": 12
     }
   },

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T18:36:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "80f70406",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头迁移(a366f2db→80f70406)| 性态:常规代码迭代/HEAD指针正向迁移，属qfa.beat正常心跳到件，未见回滚或强制覆盖迹象| 建议处置:拉取diff扫变更高风险文件，无异常即次次落账归档，裸候下游同步| 锚:HEAD新旧双锚(a366f2db/80f70406)互校，对应主线版本推进节点",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 712,
+    "total_tokens": 907,
+    "completion_tokens_details": {
+      "reasoning_tokens": 602
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
