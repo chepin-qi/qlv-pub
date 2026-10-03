@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T08:55:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:FLOOR-TAIL-REF-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位到件，ref=lanetask:FLOOR-TAIL-REF-01-usrm.md，[债自驱]SI1专属配置覆写| 性态:文件级覆写标记，未触发真机交易面及资金流；属SI1层自驱指令，当前待激活，无实测执行数据| 建议处置:按WAKE-PROTO落账：扫描覆写域→细收差异→裁决兼容性→落账为待决；建议人工复核usrm.md尾部引用完整性后生效| 锚:crossref:auth-ledger:OTP-02/覆写位裸候（clock=VOID，未实测）",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1229,
+    "total_tokens": 1451,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1073
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
