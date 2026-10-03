@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T09:05:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:FLOOR-TAIL-REF-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱任务lanetask:FLOOR-TAIL-REF-01-usrm.md触发覆写位标记| 性态:配置层覆写请求，非资金操作，未触发资金响应，属元数据位占用| 建议处置:核验SI1覆写权限→执行配置同步→次次落账归档，裸候不刷屏| 锚:ref:lanetask:FLOOR-TAIL-REF-01-usrm.md|sys:debtengine.seat",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 834,
+    "total_tokens": 1056,
+    "completion_tokens_details": {
+      "reasoning_tokens": 717
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
