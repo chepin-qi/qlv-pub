@@ -1973,3 +1973,6 @@
 {"ts": "2026-10-03T20:40:29Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-10-03T20:50:29Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-10-03T20:50:29Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-10-03T20:50:40Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-10-03T20:50:40Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T20:50:40Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 0.0, "ev_n": 0}
