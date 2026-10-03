@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T18:15:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债候debt-20260912-os3d-lvlu-dist第12级促件，XCHK分布维骨架替换触发。|性态:nudge.escalate高阶候；未实测钱面数额，不编数，严守触发与未响应之界。|建议处置:裸候不刷屏，不越真机钱面，停扫转人工复核后裁决落账。|锚:WAKE-PROTO裁决环。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 910,
+    "total_tokens": 1132,
+    "completion_tokens_details": {
+      "reasoning_tokens": 808
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

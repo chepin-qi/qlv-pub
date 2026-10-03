@@ -28,7 +28,7 @@
     "w12": [
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 650,
+  "seg_cursor": 651,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -149,8 +149,8 @@
       "n": 12
     },
     "debt-20260912-os3d-lvlu-dist": {
-      "t": 1790963473.3368564,
-      "n": 11
+      "t": 1791051357.81567,
+      "n": 12
     }
   },
   "nudge_backlog": 0,
