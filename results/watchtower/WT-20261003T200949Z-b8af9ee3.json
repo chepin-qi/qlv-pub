@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T20:09:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写,SI1任务HUB-RULING-QLV-KEY-01-20260911T2024Z.md席位更新| 性态:债自驱结构调位,无涉真机钱面,未触发资金响应| 建议处置:准覆写落账,席位归档,裸候不主动求应| 锚:ref:lanetask:HUB-RULING-QLV-KEY-01-20260911T2024Z.md",
+  "usage": {
+    "prompt_tokens": 240,
+    "completion_tokens": 1573,
+    "total_tokens": 1813,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1456
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
