@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T03:56:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱任务覆写位到件(ref=lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md)| 性态:元数据级席位占位，覆写锚定已落位，执行流未触发，无实测响应数据| 建议处置:核验覆写位独占性，按OTP-02次次落账挂账，裸候后续驱动信号，不主动拉取| 锚:debtengine.seat/si1-overlay/lanetask",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 743,
+    "total_tokens": 981,
+    "completion_tokens_details": {
+      "reasoning_tokens": 620
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
