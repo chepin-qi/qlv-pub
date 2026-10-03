@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
+      0,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": null,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-10-03",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 616,
+  "seg_cursor": 617,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:EVAL-WAVE-01-VERDICT-FINAL-qlv-20260913T175536Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-03T06:30:41Z"
+      "ts": "2026-10-03T06:20:09Z"
     }
   ],
   "debt_backlog": 156,
