@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T17:14:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat投件，SI1专属lanesweep序列文件FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md标记覆写位，clock=VOID，未触发实测数据| 性态: 债自驱静默配置覆写，无载荷响应，属工位位图变更，呈裸候态| 建议处置: 次次落账，不越真机钱面编数，裸候不刷屏，待真机触达后补录实测| 锚: xref:qlv-core://sweep/frac01/si1-overwrite#VOID-20260923",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 1449,
+    "total_tokens": 1683,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1305
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
