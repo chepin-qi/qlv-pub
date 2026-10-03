@@ -35,13 +35,13 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-10-02",
+    "date": "2026-10-03",
     "beacon_comments": 0
   },
   "qgl_head": "e557f6a8d1aec7db7f8a8845d3c5d25700eacd7f",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 599,
+  "seg_cursor": 600,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -394,11 +394,6 @@
     "SIMAX-EVALPACK-LVLU-01.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
       "note": "lane任务件候机答/转派",
@@ -1560,9 +1555,14 @@
       "id": "lanesweep:DRIVE-qlv-20260923T004218Z-bf44115c7f98.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-10-02T22:18:09Z"
+    },
+    {
+      "id": "lanesweep:DRIVE-qlv-20260924T000030Z-ad844ddf1f2d.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-10-03T01:02:30Z"
     }
   ],
-  "debt_backlog": 159,
+  "debt_backlog": 158,
   "lane_inbox_count_ci": 31,
   "ucif2_seen": [],
   "fedeye_seen": [
