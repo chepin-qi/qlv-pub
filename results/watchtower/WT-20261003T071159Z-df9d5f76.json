@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T07:11:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-lgt-kscan促级，观测选择自由度商像binmap于k∈[6,14]卡方扫描，现升至第12级| 性态:渐进验证序列晚期，自由度扫描逼近区间上沿，压力测试处于高敏收敛段，未触顶但边际递减显著| 建议处置:裸候不刷屏，核查k=12节点落账完整性，严守不越真机钱面之界；继续细收至k=14裁决域或自然断点，不主动外求回应| 锚:OTP-02诚实边界/WAKE-PROTO扫描-细收-裁决-落账",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1013,
+    "total_tokens": 1240,
+    "completion_tokens_details": {
+      "reasoning_tokens": 861
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

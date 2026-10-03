@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T07:11:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债候 debt-20260912-keydark-drill（断钥一日生存演练/0926）促件升至第12级| 性态:nudge.escalate，属断钥演练债候的级催裸候态，未触发实机响应| 建议处置:循AUTH-OTP-02投必有件/不刷屏/裸候原则，次次落账，不越真机钱面；维持单会话工位，不主动求应，待实触或自然消纳| 锚:WAKE-PROTO落账链/WK-DRILL-OPS他线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 816,
+    "total_tokens": 1033,
+    "completion_tokens_details": {
+      "reasoning_tokens": 679
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
