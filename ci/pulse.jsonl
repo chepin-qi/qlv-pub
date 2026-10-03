@@ -1865,21 +1865,24 @@
 {"ts": "2026-10-03T08:14:34Z", "kind": "beat.begin", "seg": "faces8"}
 {"ts": "2026-10-03T08:24:39Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-10-03T08:24:39Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.1, "ev_n": 0}
-{"ts": "2026-10-03T08:35:03Z", "kind": "beat.begin", "seg": "lanesweep"}
-{"ts": "2026-10-03T08:45:04Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T08:45:04Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.5, "ev_n": 0}
-{"ts": "2026-10-03T08:55:57Z", "kind": "beat.begin", "seg": "debtengine"}
-{"ts": "2026-10-03T09:05:57Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T09:06:16Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 618.9, "ev_n": 1}
-{"ts": "2026-10-03T09:16:37Z", "kind": "beat.begin", "seg": "keyhealth"}
-{"ts": "2026-10-03T09:26:37Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T09:26:37Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
-{"ts": "2026-10-03T09:37:01Z", "kind": "beat.begin", "seg": "secrets-meta"}
-{"ts": "2026-10-03T09:47:01Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T09:47:01Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-10-03T09:58:52Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-10-03T10:08:52Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T10:10:28Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 696.9, "ev_n": 4}
-{"ts": "2026-10-03T10:21:02Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-10-03T10:31:12Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-10-03T10:31:12Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 609.8, "ev_n": 0}
+{"ts": "2026-10-03T08:24:52Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-10-03T08:34:53Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T08:34:53Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-10-03T08:45:15Z", "kind": "beat.begin", "seg": "debtengine"}
+{"ts": "2026-10-03T08:55:15Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T08:55:45Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 630.1, "ev_n": 1}
+{"ts": "2026-10-03T09:06:26Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-10-03T09:16:26Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T09:16:26Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-10-03T09:26:49Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-10-03T09:36:50Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T09:36:50Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-10-03T09:47:11Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-10-03T09:57:11Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T09:58:41Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 690.0, "ev_n": 4}
+{"ts": "2026-10-03T10:10:41Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-10-03T10:20:52Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T10:20:52Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.0, "ev_n": 0}
+{"ts": "2026-10-03T10:31:23Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-10-03T10:41:23Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-10-03T10:41:23Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.5, "ev_n": 0}
