@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T17:24:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat SI1专属覆写位触发，ref指向FRAC-01-QUERY序列4文件覆写 | 性态: 债自驱覆写操作，属 lanesweep 单件覆写位更新，未涉及跨线资金真面 | 建议处置: 核验SI1覆写权限与源文件一致性，执行落账确认，保持裸候不主动外寻 | 锚: lanesweep:FRAC-01-QUERY-qfa-20260923T184824Z-seq4.md",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 562,
+    "total_tokens": 796,
+    "completion_tokens_details": {
+      "reasoning_tokens": 442
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
