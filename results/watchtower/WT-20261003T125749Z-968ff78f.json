@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T12:57:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件escalate|ref=debt-20260912-tower-seg9-verify，塔⑨段五件效验(runs直读)升至第12级| 性态: escalate级长期候件；摘要未载实测响应，候应状态「未触发/触发未响应」未明，诚实记待收| 建议处置: 裸候不刷屏，次次落账续押第12级促档；达熔断阈值则转截停，现维持候| 锚:runs直读为跨段效验锚; 第12级升级为时序锚",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1869,
+    "total_tokens": 2093,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1732
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

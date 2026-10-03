@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T12:56:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-orbit-cap03-ring(CAP-03自发环巡归)升至第12级促件| 性态:系统自发escalation路径，未附真机钱面偿清实测，属触发未响应态，无他线偿清锚| 建议处置:依WAKE-PROTO扫描-细收-裁决-落账；按AUTH-OTP-02裸候不主动求应，候真机确权后次次落账；若级数封顶仍无响应，归入坏账候裁| 锚:qlv-债巡-VOID时钟/不越真机钱面协议线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1132,
+    "total_tokens": 1349,
+    "completion_tokens_details": {
+      "reasoning_tokens": 984
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

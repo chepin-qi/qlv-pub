@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T12:57:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk回件触促，级数升至12| 性态:EXP-016交叉验证流程内自债候升级，属规程内nudge.escalate，未触发异常响应| 建议处置:依WAKE-PROTO完成细收后裁决落账；本件保持裸候，不主动外呼| 锚:EXP-016交叉验证线/debt-20260912主线",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 850,
+    "total_tokens": 1065,
+    "completion_tokens_details": {
+      "reasoning_tokens": 746
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
