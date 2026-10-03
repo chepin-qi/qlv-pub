@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T03:46:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位到件，ref=lanetask:DRIVE-qlv-20260925T000402Z-4b060513bdf4.md，系SI1专属债自驱任务文件覆写| 性态:单次内部工位覆写，未触发外部资金链路，无越真机钱面；属系统自驱覆写，未实测文件当前态，按到件即落账处理| 建议处置:执行覆写位操作，校验ref一致性，次次落账；裸候，不主动求应| 锚:qlv/DRIVE-qlv协议栈",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 1000,
+    "total_tokens": 1238,
+    "completion_tokens_details": {
+      "reasoning_tokens": 857
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
