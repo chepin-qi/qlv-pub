@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-03T18:26:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist促件，分布维实测替换骨架(XCHK)后候级升至第12级。| 性态:被动escalation，骨架已完成跨分布交叉校验替换，当前未触发响应，属裸候态。| 建议处置:落账第12级候位，保持XCHK替换标记，不主动寻求回应，待下游触发或下一周期扫描。| 锚:cross-wire/os3d-lvlu-dist骨架替换已同步至qlv线。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1052,
+    "total_tokens": 1274,
+    "completion_tokens_details": {
+      "reasoning_tokens": 932
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
