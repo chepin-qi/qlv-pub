@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T15:15:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱覆写位请求，ref=lanetask:ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md| 性态:覆写位指令预占位，量子平台LVLU-01实测数据未入件，属触发待响应态| 建议处置:维持裸候监听，实测数据到件前不落账，禁止预支真机钱面| 锚:DEBTENG:SI1-OVERWRITE-VOID",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 965,
+    "total_tokens": 1193,
+    "completion_tokens_details": {
+      "reasoning_tokens": 857
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

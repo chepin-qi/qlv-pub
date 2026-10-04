@@ -32,16 +32,16 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-10-04T15:04:38Z"
+      "ts": "2026-10-04T15:15:08Z"
     }
   ],
   "debt_backlog": 144,
