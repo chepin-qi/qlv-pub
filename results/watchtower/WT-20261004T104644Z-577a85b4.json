@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T10:46:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap01-bypass 促件升至第13级，CAP-01旁路补位滞qfa约19h。| 性态: 单向流程性催促，无新增有效载荷，属滞账空转，未触发实质响应。| 建议处置: 裸候不追，不主动寻求回应；本轮仍无回资则建议归档或冻结，次次落账。| 锚: CAP-01主链路债务线 / qfa-19h计时锚。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 846,
+    "total_tokens": 1073,
+    "completion_tokens_details": {
+      "reasoning_tokens": 728
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

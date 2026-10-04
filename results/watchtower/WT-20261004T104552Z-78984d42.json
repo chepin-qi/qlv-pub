@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T10:45:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge促件升至第13级，qlv巷152件机读排空未落账|性态:escalated nudge，自债候积压触发阈值跨越，机读层已扫但人工响应未明|建议处置:裸候不刷屏，逐件核验机读标记是否触发人工落账；未触发则维持候场，已触发未响应则转仲裁，不越真机钱面|锚:米田边律-参照qlv巷机读排空SOP/debt清偿队列次次落账标准",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 947,
+    "total_tokens": 1163,
+    "completion_tokens_details": {
+      "reasoning_tokens": 814
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

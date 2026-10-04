@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T10:45:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify第13级促件，塔FIX-08/09/10效验+runs归正，机线未实测不编数| 性态:nudge.escalate高阶积压，触发未响应或前置未触发待辨，严守诚实边界| 建议处置:裸候归档，次次落账；待真机钱面实测塔FIX-08/09/10及runs真值后归正，不主动求应| 锚:AUTH-OTP-02裸候/次次落账，WAKE-PROTO裁决落账",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1745,
+    "total_tokens": 1965,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1608
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
