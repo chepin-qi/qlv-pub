@@ -29,19 +29,19 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-04T01:17:38Z"
+      "ts": "2026-10-04T01:28:07Z"
     }
   ],
   "debt_backlog": 149,

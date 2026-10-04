@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T01:28:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属安装回执KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md入覆写位| 性态:债自驱覆写,同KEY待迭代,属席位正常路由,未触发异常| 建议处置:执行覆写位落账,更新SI1回执索引,裸候| 锚:lanesweep:INDEX-QLV-lvlu-20260915T044038Z",
+  "usage": {
+    "prompt_tokens": 240,
+    "completion_tokens": 1334,
+    "total_tokens": 1574,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1227
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
