@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T06:46:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收lanetask:NUDGE-CLAIMS-qtlv-nudge-qlv-x11.md覆写请求，SI1专属覆写位。|性态:配置层变更，无运行时钱面交易；本工位无工具未实测，仅文本落账，状态为已收件待裁决。|建议处置:按WAKE-PROTO完成落账，覆写位纳入SI1配置树；无触发响应需求，裸候下轮扫描。|锚:debtengine.seat↔qlv-x11.md覆写链路/AUTH-OTP-02投件已落账。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 953,
+    "total_tokens": 1183,
+    "completion_tokens_details": {
+      "reasoning_tokens": 812
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
