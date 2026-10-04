@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T04:02:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位到件，ref=lanesweep:NOTICE-KEYRES-99-qlv-20260912T054743Z.md，为SI1债自驱专属流程覆写标记。| 性态:系统通知类，覆写位未触发实测校验，无钱面越界，属裸候态。| 建议处置:依AUTH-OTP-02不主动寻求回应，已落账；若触发实测则补录。| 锚:qlv-20260912T054743Z已入席，需lanesweep.seat或cross-chain.desk他线锚定复核。",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1255,
+    "total_tokens": 1487,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1113
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
