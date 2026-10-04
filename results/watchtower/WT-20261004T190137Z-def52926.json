@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T19:01:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist自债候因分布维实测替换骨架(XCHK)，促级至第13级| 性态:nudge.escalate，系统内自动升级，未触发外部偿付响应，无越真机钱面| 建议处置:裸候，不主动回应；落账第13级促件标记，监视骨架替换后分布维一致性；候机超界则次次落账，未实测不编数| 锚:debt-XCHK骨架/自债候分布维",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1200,
+    "total_tokens": 1422,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1073
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
