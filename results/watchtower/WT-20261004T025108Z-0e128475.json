@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T02:50:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "f0991ed0",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移80f70406→f0991ed0| 性态:常规HEAD推移，未附实测/告警，属静默迁移| 建议处置:裸候，不主动干预，待下游流水线或监测反馈后补录实测| 锚:80f70406（前序基线锚）",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 2131,
+    "total_tokens": 2327,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2052
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
