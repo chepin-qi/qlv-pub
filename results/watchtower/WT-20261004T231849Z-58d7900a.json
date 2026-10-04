@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T23:18:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:OMNI-INJECT-01-qlv-20260911T185404Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat收到lanesweep覆写注入，SI1专属文件OMNI-INJECT-01-qlv-20260911T185404Z.md命中覆写位，属配置层自驱覆写。| 性态: 单点覆写注入，未触发跨座扩散；文件级覆写位激活，原态待裁决。| 建议处置: 执行WAKE细收→冻结该覆写位差异→核验ref完整性→落账为SI1只读快照，禁止无锚回写。| 锚: crosslane:debtcore.snapshot-20260911T185404Z",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 1026,
+    "total_tokens": 1260,
+    "completion_tokens_details": {
+      "reasoning_tokens": 886
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
