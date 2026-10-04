@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T07:59:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候催(debt-20260912-keydark-drill)之\"断钥一日生存演练(0926)\"升至第13级促件| 性态:nudge.escalate，处裸候高压区，无回执，不可辨未触发或触发未响应| 建议处置:即落账\"阅-候决\"，止escalate，裸候不再主动触达；若演练窗口已过，则转归档为失约候结| 锚:0926演练窗/级数13阶",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 851,
+    "total_tokens": 1068,
+    "completion_tokens_details": {
+      "reasoning_tokens": 730
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
