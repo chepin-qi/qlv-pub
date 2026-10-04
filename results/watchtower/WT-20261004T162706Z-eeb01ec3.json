@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T16:26:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "d8d6b89a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD 迁移 f0991ed0→d8d6b89a| 性态:主分支指针常规 beat 迁移；未实测异常，无触发/响应数据可判| 建议处置:常规落账；复核是否为预期合并或强制推送，校验下游 CI 状态；非预期则升格溯源| 锚:ref=d8d6b89a 为本线锚；可交叉验证远程仓库该 commit 原始签名与 CI 产物",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 1096,
+    "total_tokens": 1296,
+    "completion_tokens_details": {
+      "reasoning_tokens": 985
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
