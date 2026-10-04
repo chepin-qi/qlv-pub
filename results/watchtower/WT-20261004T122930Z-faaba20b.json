@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T12:29:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 债自驱覆写位，lanesweep NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md 遭 SI1 专属覆写。| 性态: 席位配置被覆写，属主动自驱覆写，未见冲突告警，视为常规引擎维护或状态刷新。| 建议处置: 落账本次覆写哈希；留存覆写前快照；校验席位可用性；无异常则裸候下一周期。| 锚: 交叉 lanesweep:LOG-AUDIT-TRACE 链，确认该覆写是否伴随 COMPACT 或 GC 触发。",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 1088,
+    "total_tokens": 1326,
+    "completion_tokens_details": {
+      "reasoning_tokens": 942
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
