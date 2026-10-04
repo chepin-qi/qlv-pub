@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T20:33:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:O-S-2D-01-v0-20260911T123052Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 收 SI1 专属 lanesweep 文件覆写位请求，ref 为 O-S-2D-01-v0-20260911T123052Z.md| 性态: 债自驱通道发起的单席覆写动作；未实测触发结果，诚实区分为「裸候未触发」或「触发未响应」待定，v0 版本需防脏写| 建议处置: 扫描该 ref 前置链→细收 diff 定界→裁决合规后落账并锁定席位状态；若不触发则维持裸候，不越真机钱面| 锚: lanesweep:O-S-2D-01 版本根 / debtengine.audit:seat-write 他线镜像",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1226,
+    "total_tokens": 1458,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1058
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
