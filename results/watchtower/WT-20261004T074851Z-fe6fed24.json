@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T07:48:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-keydark-drill，断钥一日生存演练(0926)促至第13级| 性态:演练债候，clock=VOID，未触发实机钱面，属裸候压力测试；未实测不编数| 建议处置:冻结实机落账，维持裸候不主动回应；次次落账仅限演练标记，待实钟恢复后裁决| 锚:drill-0912-dayzero工位自检线",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1041,
+    "total_tokens": 1258,
+    "completion_tokens_details": {
+      "reasoning_tokens": 929
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

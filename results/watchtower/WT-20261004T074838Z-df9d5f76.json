@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T07:48:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-lgt-kscan于binmap k∈[6,14]卡方扫描域内触发促件升级，现达第13级| 性态:nudge.escalate，属观测选择自由度商像之候件态跃迁；未触发实测响应，仅系统级escalated| 建议处置:依WAKE-PROTO执行细收→裁决，维持裸候不越真机钱面，待件成熟后次次落账| 锚:ref=VOID-ledger/kscan超域候件",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1041,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "reasoning_tokens": 909
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
