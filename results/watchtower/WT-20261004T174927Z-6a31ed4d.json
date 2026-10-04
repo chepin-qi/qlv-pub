@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T17:49:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:CAPSULE-REQ-TIANYAN-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat到件，SI1专属覆写请求(ref:CAPSULE-REQ-TIANYAN-LVLU-01.md)| 性态: 配置型债自驱，未涉真机钱面；本座无工具，未实测触发与否，按到件先落账| 建议处置: 遵AUTH-OTP-02次次落账，文本确收；覆写位裸候真机执行，不越面| 锚: debtledger.qlv/SI1-capsule-VOID",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1862,
+    "total_tokens": 2090,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1739
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
