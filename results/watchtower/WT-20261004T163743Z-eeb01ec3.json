@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T16:37:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "d8d6b89a",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 f0991ed0→d8d6b89a| 性态:beat 心跳到件，main 头指针线性迁移，未触发非快进或签名断裂告警；因未实测，不编具体 diff 域，属常规推进| 建议处置:① 校验 d8d6b89a 父链与 fast-forward 属性；② 确认 CI/签名态无断裂即裸候落账，不主动回拉| 锚:qlv-线束-main-头指针治理规则/单迁单件",
+  "usage": {
+    "prompt_tokens": 200,
+    "completion_tokens": 958,
+    "total_tokens": 1158,
+    "completion_tokens_details": {
+      "reasoning_tokens": 826
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
