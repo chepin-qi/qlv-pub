@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T10:34:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qlv巷152件机读排空，债候debt-20260912-inbox-purge升至第13级促件。| 性态:批量机读处置，escalation临界，高阶积压濒裸候；未触发人工复核，守诚实边界。| 建议处置:依AUTH-OTP-02逐件落账核查，13级不主动追加响应，维持裸候；涉真机钱面越界者转裁决。| 锚:WAKE-PROTO扫描节点/VOID/qlv线外他线锚定。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1496,
+    "total_tokens": 1712,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1370
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

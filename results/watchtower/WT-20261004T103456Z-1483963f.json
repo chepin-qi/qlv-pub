@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T10:34:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify自债候促件，塔FIX-08/09/10效验兼runs归正 escalated第13级| 性态:nudge.escalate，未决债务梯级升温；摘要未具实测响应，不辨触发/未触发，严守诚实边界| 建议处置:细收后裸候落账，不主动追答；runs归正若属本线权域则行权落账，越权则止文，不涉真机钱面| 锚:运维fix线runs归正锚",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1057,
+    "total_tokens": 1277,
+    "completion_tokens_details": {
+      "reasoning_tokens": 924
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

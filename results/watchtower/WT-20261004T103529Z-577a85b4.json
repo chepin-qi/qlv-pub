@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T10:35:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|自债候 debt-20260912-orbit-cap01-bypass，CAP-01旁路补位，滞qfa约19h，升至第13级| 性态:主路bypass后的债务滞留，级数高，属裸候边界；未触发主位回切，旁路承压超时| 建议处置:①核CAP-01主位可用性，评估回切或强制落账；②该级不刷屏，单次落账归档；③若真机面未响应，保持裸候不越钱面| 锚:锚qfa-19h滞线/CAP主备切换规约",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1172,
+    "total_tokens": 1399,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
