@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T09:42:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位请求，ref指向NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md，摘要标记[债自驱]SI1专属覆写。| 性态:单方覆写请求，未触发链上校验，属lanesweep债自驱SI1的本地座位覆写动作；真机钱面未越，待落账。| 建议处置:按AUTH-OTP-02次次落账，若覆写触及他线锚点须先同步交叉校验；当前裸候，不主动寻求回应。| 锚:lanesweep:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 835,
+    "total_tokens": 1071,
+    "completion_tokens_details": {
+      "reasoning_tokens": 674
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

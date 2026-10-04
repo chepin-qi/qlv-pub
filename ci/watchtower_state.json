@@ -29,10 +29,10 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1559,7 +1559,7 @@
     {
       "id": "lanesweep:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-04T09:32:09Z"
+      "ts": "2026-10-04T09:42:42Z"
     }
   ],
   "debt_backlog": 146,
