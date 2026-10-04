@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T20:44:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:O-S-2D-01-v0-20260911T123052Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 收编 lanesweep:O-S-2D-01-v0-20260911T123052Z.md 覆写位，摘要标记[债自驱]SI1专属，属自驱债务覆写到件。| 性态: 本席无工具实测，未触发文件内容校验；当前为「到件待裁决」态，未发生实际覆写，不确认触发条件是否已满足。| 建议处置: ①核验 v0 文件校验和与目标位一致性；②查验 SI1 自驱授权签章；③条件具足则执行落账覆写，不符则挂起并标未触发。| 锚: lanesweep:O-S-2D-01-v0-20260911T123052Z.md",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1008,
+    "total_tokens": 1240,
+    "completion_tokens_details": {
+      "reasoning_tokens": 833
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
