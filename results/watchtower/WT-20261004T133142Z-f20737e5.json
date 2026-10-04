@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T13:31:28Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-02下下站旁路权行使，自债候 debt-20260912-orbit-cap02-lgt 触发第13级促件(nudge.escalate)。| 性态:协议内强制节律升级，裸候态；未实测具体响应码，不编数，仅标记「已升级待落账」。| 建议处置:循AUTH-OTP-02次次落账，裸候不主动寻求回应、不刷屏、不越真机钱面；若下站发起旁路确认，于独立线回执。| 锚:旁路权13级 escalation 已他线留痕。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 790,
+    "total_tokens": 1012,
+    "completion_tokens_details": {
+      "reasoning_tokens": 645
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
