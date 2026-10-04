@@ -35,13 +35,13 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-10-03",
+    "date": "2026-10-04",
     "beacon_comments": 0
   },
   "qgl_head": "2b2fc2b6b4d8be74738666759ca32ac24dd94578",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 671,
+  "seg_cursor": 672,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -394,11 +394,6 @@
     "SIMAX-EVALPACK-LVLU-01.json"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
       "note": "lane件>24h未理升己",
@@ -1560,9 +1555,14 @@
       "id": "lanetask:IGNITE-BAIT-58-QLV-20260911T1845Z.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-10-03T22:33:03Z"
+    },
+    {
+      "id": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-10-04T01:17:38Z"
     }
   ],
-  "debt_backlog": 150,
+  "debt_backlog": 149,
   "lane_inbox_count_ci": 31,
   "ucif2_seen": [],
   "fedeye_seen": [

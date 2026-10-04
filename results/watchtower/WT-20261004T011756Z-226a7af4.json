@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T01:17:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat SI1专属安装回执覆写(lanesweep:KEY-INSTALL-RECEIPT-QLV-lvlu-20260915T044038Z.md)| 性态:债自驱触发的覆写位操作，未提供前置哈希/差异校验，暂无法区分预期更新与非授权篡改；属「触发未响应」待核验态| 建议处置:冻结该回执的下游依赖，拉取该 lanesweep 对象前版本快照比对哈希，确认触发进程身份与SI1自驱策略一致性| 锚:lanesweep审计日志20260915T044038Z时段写操作记录、SI1债自驱任务编排表",
+  "usage": {
+    "prompt_tokens": 240,
+    "completion_tokens": 1091,
+    "total_tokens": 1331,
+    "completion_tokens_details": {
+      "reasoning_tokens": 937
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
