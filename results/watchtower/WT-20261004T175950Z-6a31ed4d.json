@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T17:59:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:CAPSULE-REQ-TIANYAN-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat到件，ref=lanetask:CAPSULE-REQ-TIANYAN-LVLU-01.md，SI1专属债自驱任务指向覆写位；clock=VOID，无实测回传数据，当前属到件未决，未触发与触发未响应暂不可区分。| 性态: 覆写指令已接收，目标位完整性待校验，属待决挂起态。| 建议处置: 按WAKE-PROTO扫描覆写位→细收SI1签名→裁决冲突→无抵则落账；此后裸候回执，不主动二询。| 锚: lanetask主链/TIANYAN-LVLU系列工单池。",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 955,
+    "total_tokens": 1183,
+    "completion_tokens_details": {
+      "reasoning_tokens": 794
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

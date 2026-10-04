@@ -26,7 +26,6 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
       0,
       0,
       0,
@@ -37,13 +36,14 @@
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 11,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-10-04",
@@ -1559,7 +1559,7 @@
     {
       "id": "lanetask:CAPSULE-REQ-TIANYAN-LVLU-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-10-04T17:49:08Z"
+      "ts": "2026-10-04T17:59:38Z"
     }
   ],
   "debt_backlog": 143,
