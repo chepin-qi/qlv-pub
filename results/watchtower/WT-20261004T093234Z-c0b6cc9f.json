@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T09:32:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat lanesweep覆写位(ref:NUDGE-RING-INTERCONN-LGT-01-20260914T215500Z.md)| 性态:SI1专属覆写到件，属债自驱引擎lanesweep模块配置更新，未触发异常响应，无钱面越界迹象| 建议处置:按WAKE-PROTO落账归档，覆写边界留痕，裸候不主动干预| 锚:qlv.clock=VOID|qlv.core.WAKE-PROTO",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1405,
+    "total_tokens": 1641,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1289
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
