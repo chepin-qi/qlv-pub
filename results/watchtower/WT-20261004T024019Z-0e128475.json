@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T02:40:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "f0991ed0",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa仓库main分支HEAD迁移(80f70406→f0991ed0)| 性态:代码基线位点移动,无构建/测试/部署状态附随,属纯ref变更| 建议处置:核对f0991ed0提交签名与变更范围;按需拉取新基线验证本地一致性;若挂接流水线,确认下游是否自动感知| 锚:git-ref语义锚定,行为验证须另附ci-artifact或test-report件",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 1081,
+    "total_tokens": 1277,
+    "completion_tokens_details": {
+      "reasoning_tokens": 969
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
