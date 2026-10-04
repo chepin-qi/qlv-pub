@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T12:18:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep:NUDGE2-RING-INTERCONN-LGT-01-20260923T164500Z.md受SI1[债自驱]覆写位| 性态:debtengine.seat例行自驱覆写，摘要级未见越权或异常响应| 建议处置:执行WAKE-PROTO落账，覆写结果就地留痕，裸候不主动外呼| 锚:米田边律/lanesweep主控环-NUDGE2-RING.md",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 1048,
+    "total_tokens": 1286,
+    "completion_tokens_details": {
+      "reasoning_tokens": 933
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
