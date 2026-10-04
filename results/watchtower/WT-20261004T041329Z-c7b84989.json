@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T04:13:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:NOTICE-KEYRES-99-qlv-20260912T054743Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱覆写lanesweep关键资源通知文件|性态:debtengine.seat摘要到件，仅见覆写位操作，未触发实测/无响应回执，属VOID clock静默落账态|建议处置:执行WAKE-PROTO落账，裸候后续回传，不越真机钱面，不主动寻求响应|锚:debtengine.seat",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1228,
+    "total_tokens": 1460,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1133
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
