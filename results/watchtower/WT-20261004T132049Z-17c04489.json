@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T13:20:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-03自发环巡归债候升至13级促件| 性态:环巡触顶溢出，自发归集未消，候压累计| 建议处置:裸候响应，仅落账不越真机钱面，不主动追索| 锚:CAP-03环巡节点/13级/20260912",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 931,
+    "total_tokens": 1148,
+    "completion_tokens_details": {
+      "reasoning_tokens": 848
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

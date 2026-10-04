@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T13:20:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap02-lgt(CAP-02下下站旁路权行使)第13级促件升级| 性态:nudge.escalate，属旁路权债务催促持续升级，未触发实测响应，仅级数堆叠| 建议处置:按AUTH-OTP-02停止继续升级，不刷屏、不越真机钱面，转裸候状态，次次落账但不主动寻求回应| 锚:旁路权在CAP-02协议中通常受第7条静默期约束(参照rail-protocol-7.3)",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 852,
+    "total_tokens": 1074,
+    "completion_tokens_details": {
+      "reasoning_tokens": 715
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
