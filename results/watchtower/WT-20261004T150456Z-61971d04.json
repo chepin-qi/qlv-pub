@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-04T15:04:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 收 SI1 覆写位，ref=ANS-REQ-QUANTUM-PLATFORM-LVLU-01.md | 性态: 债自驱覆写，seat 级状态迁移，未实测量子平台侧交互，仅文本工位落账 | 建议处置: 核 SI1 覆写权限与 LV LU-01 存量债务对冲关系，差异裸候，不主动外询 | 锚: [米田边律] 锚定 ref 本体及 debtengine.seat 规则线",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1123,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 997
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
