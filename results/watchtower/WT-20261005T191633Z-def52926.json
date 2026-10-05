@@ -1,0 +1,10 @@
+{
+  "ts": "2026-10-05T19:16:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
