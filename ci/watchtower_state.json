@@ -30,18 +30,18 @@
       0,
       0,
       0,
-      1,
       0,
       0,
       0,
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1583,7 +1583,7 @@
     {
       "id": "lanetask:OTP-LGT-EVAL-EXCITE-01-qlv.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-10-05T07:37:00Z"
+      "ts": "2026-10-05T07:47:13Z"
     }
   ],
   "debt_backlog": 142,
