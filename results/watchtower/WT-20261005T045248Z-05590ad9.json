@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T04:52:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位，SI1专属lanesweep文件ORBIT-CAP-03-QLV-01-20260913T001817Z.md覆写位到件| 性态:债自驱配置覆写事件，位态迁移；未触发实测数据流变更，诚实边界无编数，区分未触发vs触发未响应| 建议处置:WAKE-PROTO扫描细收裁决后落账，AUTH-OTP-02投必有件，次次落账，裸候不刷屏，不越真机钱面| 锚:lanesweep:DEBT-ORBIT-CAP03-ANCHOR-QLV",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1226,
+    "total_tokens": 1462,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1077
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
