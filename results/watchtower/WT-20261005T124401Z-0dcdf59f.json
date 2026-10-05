@@ -1,0 +1,10 @@
+{
+  "ts": "2026-10-05T12:44:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
