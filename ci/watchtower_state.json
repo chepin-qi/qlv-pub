@@ -32,7 +32,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 744,
+  "seg_cursor": 745,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1583,7 +1583,7 @@
     {
       "id": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-05T02:18:37Z"
+      "ts": "2026-10-05T02:07:56Z"
     }
   ],
   "debt_backlog": 144,
