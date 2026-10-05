@@ -26,7 +26,6 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      1,
       0,
       0,
       0,
@@ -37,13 +36,14 @@
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 11,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-10-05",
@@ -1589,7 +1589,7 @@
     {
       "id": "lanetask:OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-10-05T18:13:18Z"
+      "ts": "2026-10-05T18:24:06Z"
     }
   ],
   "debt_backlog": 139,
