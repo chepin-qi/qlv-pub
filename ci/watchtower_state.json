@@ -30,8 +30,8 @@
       0,
       0,
       0,
-      1,
       0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1589,7 +1589,7 @@
     {
       "id": "lanetask:OTP-LGT-SI5-VOTE-01-lgt.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-10-05T13:05:07Z"
+      "ts": "2026-10-05T13:15:21Z"
     }
   ],
   "debt_backlog": 141,
