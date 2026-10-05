@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1583,7 +1583,7 @@
     {
       "id": "lanesweep:ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-05T04:52:23Z"
+      "ts": "2026-10-05T05:02:58Z"
     }
   ],
   "debt_backlog": 143,
