@@ -32,16 +32,16 @@
       0,
       0,
       0,
-      4,
       0,
       0,
       0,
+      1,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 743,
+  "seg_cursor": 744,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -398,11 +398,6 @@
     "ANS-SIGATE-SIALIGN-LVLU-01.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
       "note": "lane件>24h未理升己",
@@ -1584,9 +1579,14 @@
       "id": "lanesweep:OMNI-INJECT-01-qlv-20260911T185404Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-10-04T23:18:21Z"
+    },
+    {
+      "id": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-10-05T02:07:56Z"
     }
   ],
-  "debt_backlog": 141,
+  "debt_backlog": 144,
   "lane_inbox_count_ci": 31,
   "ucif2_seen": [],
   "fedeye_seen": [
