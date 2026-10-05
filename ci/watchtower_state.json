@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      1,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-10-05",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 791,
+  "seg_cursor": 792,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -399,11 +399,6 @@
     "NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:OTP-WAKE-QLV-01-usrm.md",
       "note": "lane任务件候机答/转派",
@@ -1590,9 +1585,14 @@
       "id": "lanetask:OTP-QTLV-QLV-X11-02.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-10-05T15:39:19Z"
+    },
+    {
+      "id": "lanetask:OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-10-05T18:13:18Z"
     }
   ],
-  "debt_backlog": 140,
+  "debt_backlog": 139,
   "lane_inbox_count_ci": 31,
   "ucif2_seen": [],
   "fedeye_seen": [
