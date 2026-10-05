@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T00:51:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ea6ddc95",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头指针迁移，提交d8d6b89a→ea6ddc95。| 性态:主干基线迭代，属常规beat同步；摘要仅含ref更新，无异常冲突或回滚标记，未触发告警。| 建议处置:次次落账，备查diff；裸候下游构建/部署联动，若涉及发版则确认tag与回滚锚点。| 锚:git-ops/mainline-ref",
+  "usage": {
+    "prompt_tokens": 199,
+    "completion_tokens": 1175,
+    "total_tokens": 1374,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1069
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
