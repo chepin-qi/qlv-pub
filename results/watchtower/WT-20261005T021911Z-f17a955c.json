@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T02:18:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat接SI1专属指令，对lanesweep:ORBIT-CAP-01-20260913T014500Z.md执行覆写位，属债自驱单件投件。| 性态:终端覆写，无回滚预设；clock=VOID无时序锚定，裸候态投件，未触发外部响应。| 建议处置:校验ref锁态与SI1写权限，执行单次落账，落账后静默裸候，严守诚实边界不越真机钱面。| 锚:WAKE-PROTO扫描→细收→裁决→落账闭环已完结，米田边律他线锚定生效。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1160,
+    "total_tokens": 1386,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1009
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

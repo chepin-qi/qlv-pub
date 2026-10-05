@@ -32,16 +32,16 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1583,7 +1583,7 @@
     {
       "id": "lanesweep:ORBIT-CAP-01-20260913T014500Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-10-05T02:07:56Z"
+      "ts": "2026-10-05T02:18:37Z"
     }
   ],
   "debt_backlog": 144,
