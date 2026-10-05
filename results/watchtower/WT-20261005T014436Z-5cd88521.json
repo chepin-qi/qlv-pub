@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:44:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QRAC-D8-JOB8-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ref=ANS-QRAC-D8-JOB8-LVLU-01.md，扫描已触发，文件实体存在。| 性态:属自动扫件报件，内容未实测，不区分「未触发vs触发未响应」之实态，当前无载荷数据，诚实边界内不编数。| 建议处置:按WAKE-PROTO推进细收→裁决；投必有件，若投件人无补则依裸候原则次次落账，不越真机钱面。| 锚:[AUTH-OTP-02/米田边律]扫描件须挂≥1他线锚，本件暂落账待续。",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 822,
+    "total_tokens": 1036,
+    "completion_tokens_details": {
+      "reasoning_tokens": 668
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

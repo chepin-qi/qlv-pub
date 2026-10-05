@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:43:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QRAC-D8-JOB7-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep任务件侦得，ref=ANS-QRAC-D8-JOB7-LVLU-01.md| 性态:扫描命中，文件已落位；属未触发态，内容未实测，无执行响应数据| 建议处置:次次落账，入裸候队列，待真机调度执行，不主动外呼寻求回应| 锚:lanesweep.task/ANS-QRAC-D8/WAKE-PROTO扫描层",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1199,
+    "total_tokens": 1413,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1093
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

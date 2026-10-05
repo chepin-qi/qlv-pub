@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:44:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QRAC-SWAPLESS-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得ANS-QRAC-SWAPLESS-LVLU-01.md|性态:扫描已触达，单会话文本工位无工具，未展开细收与内容实测，属触发未全响应，按AUTH-OTP-02裸候，不越真机钱面|建议处置:转有细收能力工位或留待次周期裁决，次次落账|锚:WAKE-PROTO细收待决池/OTP-02扫而不越",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1141,
+    "total_tokens": 1353,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1025
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
