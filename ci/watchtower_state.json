@@ -30,18 +30,18 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 775,
+  "seg_cursor": 776,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -399,11 +399,6 @@
     "NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:OTP-LGT-SI5-VOTE-01-lgt.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:OTP-QTLV-QLV-X11-02.md",
       "note": "lane任务件候机答/转派",
@@ -1590,6 +1585,11 @@
       "id": "lanetask:OTP-LGT-EXCITE-V2-qlv-lgt.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-10-05T10:20:43Z"
+    },
+    {
+      "id": "lanetask:OTP-LGT-SI5-VOTE-01-lgt.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-10-05T13:05:07Z"
     }
   ],
   "debt_backlog": 141,
