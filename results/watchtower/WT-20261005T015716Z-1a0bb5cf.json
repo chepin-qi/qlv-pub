@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:56:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QRAC-SWAPLESS-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得ANS-QRAC-SWAPLESS-LVLU-01.md，线扫到件，仅目录级命中，内容未展开，无实测数。| 性态:静件/未触发。属扫档发现，非执行态；swapless/lvlu参数未读，未触发vs触发未响应边界清，不编数。| 建议处置:落账即冻，转专席拆封或阅后归档；若需实测另启工位，本件不越真机钱面，裸候。| 锚:lanesweep.task|WAKE-PROTO扫档|米田边律-他线冻件。",
+  "usage": {
+    "prompt_tokens": 212,
+    "completion_tokens": 1463,
+    "total_tokens": 1675,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1312
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

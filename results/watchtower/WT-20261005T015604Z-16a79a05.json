@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:55:36Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QRAC-D8-JOB7-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，ref=ANS-QRAC-D8-JOB7-LVLU-01.md，摘要示任务件已侦得；本工位无工具，未触发文件内容拉取，属裸候态。| 性态:流程触发件，待细收裁决；当前仅获meta，未实测文件内状态，不编数。| 建议处置:按WAKE-PROTO流转至有读取权工位完成细收与落账；或裸候不刷屏，待下件自动触发。| 锚:qrc-线/ANS-QRAC-D8工单池已收。",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 1104,
+    "total_tokens": 1318,
+    "completion_tokens_details": {
+      "reasoning_tokens": 963
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:56:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "ANS-QRAC-D8-JOB8-LVLU-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫任务件侦得，ref=ANS-QRAC-D8-JOB8-LVLU-01.md| 性态:单侦未触发，属待阅档；未实测执行面，无响应数据| 建议处置:执行WAKE-PROTO细收该ref，完成裁决后落账；若无余量则裸候，不主动求应| 锚:📎TASK-SCHED/派件路由待确认; 📎DOC-INBOUND/ANS-QRAC-D8-JOB8-LVLU-01.md已登记|",
+  "usage": {
+    "prompt_tokens": 214,
+    "completion_tokens": 981,
+    "total_tokens": 1195,
+    "completion_tokens_details": {
+      "reasoning_tokens": 852
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
