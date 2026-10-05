@@ -35,13 +35,13 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -395,7 +395,8 @@
     "ANS-QRAC-D8-JOB7-LVLU-01.md",
     "ANS-QRAC-D8-JOB8-LVLU-01.md",
     "ANS-QRAC-SWAPLESS-LVLU-01.md",
-    "ANS-SIGATE-SIALIGN-LVLU-01.md"
+    "ANS-SIGATE-SIALIGN-LVLU-01.md",
+    "NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md"
   ],
   "debt_queue": [
     {
@@ -1105,6 +1106,11 @@
     },
     {
       "id": "lanetask:ANS-SIGATE-SIALIGN-LVLU-01.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
