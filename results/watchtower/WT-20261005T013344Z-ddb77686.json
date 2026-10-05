@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:33:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，ref qtlv-spectra-x11-qsca7fce6884.md由巷卡chepin-ai/vci-inbox状态206迁210落入qlv inbox| 性态:触发已到位，属标准下件，状态跳变链路清晰；未实测文件体完整性及元数据有效性| 建议处置:按WAKE-PROTO启动细收，扫描md头部签名与负载边界，校验通过则入裁决队列等候落账| 锚:chepin-ai/vci-inbox#210",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 691,
+    "total_tokens": 921,
+    "completion_tokens_details": {
+      "reasoning_tokens": 571
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
