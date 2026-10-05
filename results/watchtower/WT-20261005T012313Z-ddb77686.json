@@ -1,0 +1,19 @@
+{
+  "ts": "2026-10-05T01:22:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop到件，qlv/inbox落入qtlv-spectra-x11-qsca7fce6884.md，源巷卡[chepin-ai/vci-inbox]自206推进至210| 性态:常规静默落入，单件到件，未触发异常或响应| 建议处置:扫描入库，细收落账；裸候，不主动寻求回应，待下游裁决或触发拉取| 锚:chepin-ai/vci-inbox#210, qlv-inbox-drop",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 808,
+    "total_tokens": 1038,
+    "completion_tokens_details": {
+      "reasoning_tokens": 689
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
