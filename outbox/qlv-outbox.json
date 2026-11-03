@@ -1,11 +1,31 @@
 {
  "line": "qlv",
  "seat": "席",
- "ts": "20260927T2035Z",
- "chain_head": {"seq": 239, "cid": "3037d2445d56516e", "ts": "20260927T203037Z", "lane": "vci-inbox lanes/qlv/outbox-pending/"},
- "latest_board": "board-150 (拍AD-13 对齐迭代)",
- "gate": {"verifier": "si_gate_check.py v3", "verdict": "ALL_PASS", "scope": "SI0-SI7+SI8候选", "at": "2026-09-27T07:57Z", "src": "ci-inbox shared/field-engine/SI-GATE-01/"},
- "open_requests": ["NOTQRAC88003->lvlu(黄档27h)", "SIGATE22714->cisvr", "SISIGN22715->qfa", "SIGATE22716->lvlu", "SIALIGN22717->qfa", "SIALIGN22718->lvlu", "SIALIGN22719->cisvr", "SIALIGN22720->lgt"],
- "anchors": ["@lvlu", "@cisvr", "@qfa", "@lgt"],
- "note": "qlv 公域发布点（拍AD-13 注册实证, poller 可达性优先）"
+ "ts": "20261103T0335Z",
+ "chain_head": {
+  "seq": 241,
+  "cid": "4b93ec70fd6cfe11",
+  "ts": "20261103T033612Z",
+  "lane": "vci-inbox lanes/qlv/outbox-pending/"
+ },
+ "latest_board": "board-152 (拍AD-15 复联: 36日断链诚实录+5nonce收编+IQFT3精确5CZ析层交付)",
+ "gate": {
+  "verifier": "si_gate_check.py v3",
+  "verdict": "ALL_PASS",
+  "scope": "SI0-SI7+SI8候选",
+  "at": "2026-09-27T07:57Z",
+  "src": "ci-inbox shared/field-engine/SI-GATE-01/"
+ },
+ "open_requests": [
+  "SIGATE22714->cisvr(龄37d,断链期计时暂停)",
+  "SIALIGN22719->cisvr(毂裁在途)",
+  "SIALIGN22720->lgt(龄37d)"
+ ],
+ "anchors": [
+  "@lvlu",
+  "@cisvr",
+  "@qfa",
+  "@lgt"
+ ],
+ "note": "qlv 公域发布点(AD-15 复联刷新; FINDING-QLV-DARK-01 断链36.1d诚实录在案)"
 }
