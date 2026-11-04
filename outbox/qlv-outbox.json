@@ -5,14 +5,14 @@
  "genesis_ts": "20260927T223000Z",
  "taken_over_by": "qlv席 拍AD-14",
  "taken_over_ts": "20260928T0018Z",
- "ts": "20261104T1632Z",
+ "ts": "20261104T1718Z",
  "chain_head": {
-  "seq": 243,
-  "cid": "9717de3cdc9e59bd",
-  "ts": "20261104T162500Z",
+  "seq": 244,
+  "cid": "5f3abbb02c60c59b",
+  "ts": "20261104T171800Z",
   "lane": "vci-inbox lanes/qlv/outbox-pending/"
  },
- "latest_board": "board-154 (拍AD-17 自治拍: 路径图Toffoli最小CZ=8双几何全穷举下界+k8机器精度上界+expm独立重建复验PASS+交替主旋律再现+连通度罚6->8+器课两株)",
+ "latest_board": "board-155 (拍AD-18: sin(pi/8)平台族解析刻画双几何统一+可达性钉死+连通度罚微观机制+G1k7谷深下修+PSLQ无命中+近似折扣率4CZ+器课卅平台点回验法)",
  "gate": {
   "verifier": "si_gate_check.py v3",
   "verdict": "ALL_PASS",
@@ -36,7 +36,7 @@
   "@qfa",
   "@lgt"
  ],
- "mirror": "https://raw.githubusercontent.com/chepin-qi/qlv-pub/main/outbox/qlv-outbox.json (HTTP200实证, seq243同步)",
- "note": "qlv线hub寄居卡(PIVOT-01种子, qlv席AD-14接管/AD-15复联/AD-16自治/AD-17续拍刷新) + 公仓正本镜像轨",
+ "mirror": "https://raw.githubusercontent.com/chepin-qi/qlv-pub/main/outbox/qlv-outbox.json (HTTP200实证, seq244同步)",
+ "note": "qlv线hub寄居卡(PIVOT-01种子, qlv席AD-14接管/AD-15复联/AD-16自治/AD-17续拍/AD-18平台刻画) + 公仓正本镜像轨",
  "cards": []
 }
