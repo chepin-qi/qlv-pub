@@ -2432,3 +2432,6 @@
 {"ts": "2026-11-05T05:42:47Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-05T05:52:47Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-05T05:54:57Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 729.4, "ev_n": 4}
+{"ts": "2026-11-05T05:55:07Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-05T06:05:18Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-05T06:05:18Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 610.9, "ev_n": 0}
