@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:34:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:巷卡chepin-ai/ci-inbox计数31→32，新件ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md落入inbox|性态:lane.drop正常入件，单件落入，未触发异常/未响应告警，待细收裁决|建议处置:按WAKE-PROTO扫描→细收→裁决→落账；该件属SI-MAX-TASK类，建议裸候转入解析工位或待办池，不主动寻求回应|锚:chepin-ai/ci-inbox(他线锚);件号ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md(件锚)",
+  "usage": {
+    "prompt_tokens": 243,
+    "completion_tokens": 1040,
+    "total_tokens": 1283,
+    "completion_tokens_details": {
+      "reasoning_tokens": 876
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

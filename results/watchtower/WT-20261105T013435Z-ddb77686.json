@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:34:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，巷卡chepin-ai/vci-inbox项211→214跃迁，触件qtlv-spectra-x11-qsca7fce6884.md落入qlv/inbox；属槽位漂移类到件。| 性态:编号跨3位跳变，原211脱锚/214新驻，未实测211是否触发未响应或214是否空载，属静默迁移态。| 建议处置:WAKE-PROTO扫描214实槽→细收该md→裁决落账；按AUTH-OTP-02次次落账，诚实边界内处置，不越真机钱面。| 锚:chepin-ai/vci-inbox巷卡214槽位实锚。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1117,
+    "total_tokens": 1347,
+    "completion_tokens_details": {
+      "reasoning_tokens": 956
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
