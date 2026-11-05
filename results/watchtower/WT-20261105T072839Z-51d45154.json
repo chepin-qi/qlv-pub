@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T07:28:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk 第15级促件(EXP-016交叉验证回件)| 性态:escalation nudge，无实测载荷，属空转；未触发/触发未响应状态未明，不编数| 建议处置:按裸候原则，不越真机钱面，不落催促；若必须落账则记第15级挂起，候主线回面| 锚:debt-20260912-exp016-main(主线候件)",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 985,
+    "total_tokens": 1200,
+    "completion_tokens_details": {
+      "reasoning_tokens": 866
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T07:28:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist 分布维实测替换骨架(XCHK)促件升至第15级|性态:escalate已投，真机钱面未越，触发未响应，裸候中|建议处置:维持裸候，不主动寻求回应，待XCHK实测落账，次次落账前不越界|锚:AUTH-OTP-02裸候律/WAKE-PROTO裁决-落账节",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1040,
+    "total_tokens": 1262,
+    "completion_tokens_details": {
+      "reasoning_tokens": 931
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
