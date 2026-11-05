@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T09:13:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat债自驱SI1专属覆写位，ref lanesweep R7-CLEAN-CAP02-lvlu-20260913T182431Z。性态:常规自驱清理流程，单实例隔离执行，无越界，未触发异常响应。建议处置:核准覆写位一致性，次次落账，裸候不主动唤应，维持VOID时钟。锚:lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md|sweep-debt-boundary",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1274,
+    "total_tokens": 1506,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1150
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

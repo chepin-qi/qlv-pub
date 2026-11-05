@@ -30,7 +30,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 823,
+  "seg_cursor": 824,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -403,11 +403,6 @@
     "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
       "note": "lane件>24h未理升己",
@@ -1614,9 +1609,14 @@
       "id": "lanetask:QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-11-05T06:56:17Z"
+    },
+    {
+      "id": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-11-05T09:13:14Z"
     }
   ],
-  "debt_backlog": 140,
+  "debt_backlog": 139,
   "lane_inbox_count_ci": 32,
   "ucif2_seen": [],
   "fedeye_seen": [
