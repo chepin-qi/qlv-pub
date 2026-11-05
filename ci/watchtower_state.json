@@ -28,8 +28,8 @@
     "w12": [
       0,
       0,
-      2,
-      2,
+      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-11-05",
     "beacon_comments": 0
   },
-  "qgl_head": "5c5377d97ad48f220d1dcbc5ca1e877dfadf9bc9",
+  "qgl_head": "d2f50ca63c9c7ecaa34dab6bf13b88f235d0aa7d",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 799,
+  "seg_cursor": 800,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -403,11 +403,6 @@
     "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:OTP-WAKE-QLV-01-usrm.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:PHI-CHAIN-PROBE-01-qtlv-47428889.md",
       "note": "lane任务件候机答/转派",
@@ -1614,9 +1609,14 @@
       "id": "lanetask:OTP-USRM-FLOOR-COSIGN-DIRECT-02-20260910T2322Z.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-10-05T18:13:18Z"
+    },
+    {
+      "id": "lanetask:OTP-WAKE-QLV-01-usrm.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-11-05T02:20:49Z"
     }
   ],
-  "debt_backlog": 139,
+  "debt_backlog": 142,
   "lane_inbox_count_ci": 32,
   "ucif2_seen": [],
   "fedeye_seen": [
