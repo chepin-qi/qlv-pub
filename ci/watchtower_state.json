@@ -36,12 +36,12 @@
       0,
       0,
       0,
-      3,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 819,
+  "seg_cursor": 820,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -141,15 +141,15 @@
       "n": 15
     },
     "debt-20260912-tower-seg9-verify": {
-      "t": 1793864365.2504492,
+      "t": 1793863660.790876,
       "n": 15
     },
     "debt-20260912-exp016-xchk": {
-      "t": 1793864365.2504551,
+      "t": 1793863660.7908826,
       "n": 15
     },
     "debt-20260912-os3d-lvlu-dist": {
-      "t": 1793864365.2504573,
+      "t": 1793863660.7908845,
       "n": 15
     }
   },
