@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T07:39:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk自债候促件升至15级，EXP-016交叉验证回件未结。| 性态:nudge.escalate；未触发有效响应/无实测落账数据，属裸候态，不编数。| 建议处置:按WAKE-PROTO细收→裁决→落账；依AUTH-OTP-02冻结15级后刷屏，转静默裸候，不越真机钱面，待自证。| 锚:米田边律|他线锚AUTH-OTP-02不刷屏原则；WAKE-PROTO落账节点。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1126,
+    "total_tokens": 1341,
+    "completion_tokens_details": {
+      "reasoning_tokens": 985
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T07:39:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件自债候debt-20260912-tower-seg9-verify塔⑨段五件效验(runs直读)升至第15级| 性态:级联escalate已触发，属高阶裸候态；无实测回执，无法确认五件已触发未响应抑或尚未触发| 建议处置:恪守不刷屏/不越真机钱面，不主动追加nudge；落账为\"第15级促件已登记\"，待runs直读实测回执后再裁决效验| 锚:援引同ref下Seg1-Seg8历史校验落账记录为he-line anchor",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 939,
+    "total_tokens": 1163,
+    "completion_tokens_details": {
+      "reasoning_tokens": 794
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
