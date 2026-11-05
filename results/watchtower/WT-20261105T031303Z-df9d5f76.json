@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T03:12:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件escalate|debt-20260912-lgt-kscan自债候因binmap k∈[6,14]卡方扫描裸候升级至第15级，前序未落账。| 性态:nudge escalated，观测选择自由度商像检索空转，候面超时。| 建议处置:即刻WAKE裁决；无实测触发则标「未触发」或「触发未响应」，强制落账止escalade。| 锚:卡方扫描k区间映射债务候件跨线锚。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1120,
+    "total_tokens": 1347,
+    "completion_tokens_details": {
+      "reasoning_tokens": 996
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

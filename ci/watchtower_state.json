@@ -36,12 +36,12 @@
       0,
       0,
       0,
-      0,
+      4,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 802,
+  "seg_cursor": 803,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -109,20 +109,20 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1791189490.0342932,
-      "n": 14
+      "t": 1793848350.5067048,
+      "n": 15
     },
     "debt-20260912-keydark-drill": {
-      "t": 1791189490.0343018,
-      "n": 14
+      "t": 1793848350.506711,
+      "n": 15
     },
     "debt-20260912-inbox-purge": {
-      "t": 1791199307.3267117,
-      "n": 14
+      "t": 1793848350.5067127,
+      "n": 15
     },
     "debt-20260912-tower-verify": {
-      "t": 1791199307.3267176,
-      "n": 14
+      "t": 1793848350.5067134,
+      "n": 15
     },
     "debt-20260912-edge-throttle": {
       "t": 1791199307.3267205,
@@ -153,7 +153,7 @@
       "n": 14
     }
   },
-  "nudge_backlog": 0,
+  "nudge_backlog": 7,
   "orbit_done": [
     "ORBIT-CAP-03-QLV-01-20260913T001817Z.md",
     "ORBIT-CAP-01-20260913T014500Z.md"

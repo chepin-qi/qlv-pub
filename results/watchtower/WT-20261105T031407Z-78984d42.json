@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T03:13:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-inbox-purge 自债候机读排空152件，第15级促件升级。| 性态: 机读已执行排空动作，但债项仍滞留候区，属「动作完成-状态未结」幽灵件；升级系自动阈值触发，非人工越界。| 建议处置: 核验机读日志与实际件差，若152件确已物理删除/归档，则直接落账关债；若存在未响应残留，裸候不追加催促，挂起待下次扫描。| 锚: qlv巷机读日志/20260912/第15级阈值线。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1016,
+    "total_tokens": 1232,
+    "completion_tokens_details": {
+      "reasoning_tokens": 870
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

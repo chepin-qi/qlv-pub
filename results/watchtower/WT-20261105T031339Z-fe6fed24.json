@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T03:13:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-keydark-drill促件升至第15级，标定为断钥一日生存演练(0926)债务候。| 性态:nudge.escalate连续升级态，级数触顶趋紧；本件仅收升级信号，未实测执行面响应，属触发待判。| 建议处置:落账escalate-noted，裸候不主动求应；维持债线追踪，不越真机钱面，待0926演练节点到期复扫。| 锚:DRP-BCP他线锚，断钥演练对标ISO 22301业务连续性一日中断恢复基线，第15级对应高阈值告警层。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1051,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "reasoning_tokens": 897
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
