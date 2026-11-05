@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T22:14:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:SI-PROBE-QGL-121-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI-PROBE-QGL-121-qlv.md覆写位触发，SI1专属债自驱任务进入席位覆写态| 性态:覆写位激活，原任务锚点待替换；未触发实测响应，属静默位变更，无越真机钱面| 建议处置:执行覆写位校验，确认debtengine.seat授权后落账替换，裸候下一周期触发| 锚:debtengine.seat/QGL-121-qlv/SI1覆写位",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 851,
+    "total_tokens": 1069,
+    "completion_tokens_details": {
+      "reasoning_tokens": 732
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
