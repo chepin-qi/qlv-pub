@@ -34,14 +34,14 @@
       0,
       0,
       0,
-      1,
       0,
       0,
-      0
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1613,7 +1613,7 @@
     {
       "id": "lanetask:DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-05T13:42:07Z"
+      "ts": "2026-11-05T13:52:56Z"
     }
   ],
   "debt_backlog": 137,

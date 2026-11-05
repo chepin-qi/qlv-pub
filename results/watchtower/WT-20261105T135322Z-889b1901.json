@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T13:52:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位登记|性态:SI1专属债自驱任务覆写位，ref指向lanetask:DRIVE-qlv-20260926T000059Z-b04c853399fa.md，属槽位占位/元数据更新；未触发执行流，无实测响应数据，仅形式到件|建议处置:裸候不刷，已落账；待引擎唤醒时按SI1策略加载该覆写位，不主动外求响应|锚:lanetask时戳20260926T000059Z/b04c853399fa",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1077,
+    "total_tokens": 1313,
+    "completion_tokens_details": {
+      "reasoning_tokens": 943
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
