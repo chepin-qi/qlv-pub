@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T03:38:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "ec29462d",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main HEAD 由 c149bb60 迁移至 ec29462d，属仓库指针漂移。| 性态:仅收头迁移通知，无触发源、CI 结果或部署响应；未实测不编数，判定为「触发未响应」裸指针。| 建议处置:补录触发原因（merge/push/tag）及 CI 落账；如涉及部署需追加验收回执；无新指令则裸候。| 锚:ec29462d←c149bb60 变更集，待挂接工单/PR 号以满足他线锚。",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 1329,
+    "total_tokens": 1523,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1196
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
