@@ -2630,3 +2630,6 @@
 {"ts": "2026-11-05T21:24:00Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-05T21:34:00Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-05T21:34:00Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-05T21:34:11Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-05T21:44:19Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-05T21:44:19Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 607.5, "ev_n": 0}
