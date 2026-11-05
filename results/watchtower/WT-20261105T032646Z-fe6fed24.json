@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T03:26:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候 debt-20260912-keydark-drill（断钥一日生存演练）促件升至第15级。| 性态:属 nudge.escalate，为债务提醒阈值递进，未涉真机钱面，仅系统状态迁移。| 建议处置:遵 AUTH-OTP-02 裸候原则，不主动外呼寻求回应；次次落账，记录本级 escalate 时戳，静候后续。| 锚:类比消防火警分级，升至最高级后只作备案与通道预留，不自动触发现场处置。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1128,
+    "total_tokens": 1345,
+    "completion_tokens_details": {
+      "reasoning_tokens": 999
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

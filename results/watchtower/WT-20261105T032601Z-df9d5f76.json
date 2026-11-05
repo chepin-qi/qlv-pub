@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T03:25:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-lgt-kscan因binmap k∈[6,14]卡方扫描自由度商像观测选择促件升至15级| 性态:内部链路高阶积压，属未落账空转；k域覆扫完成但clock=VOID无锚，须诚实区分未触发与触发未响应| 建议处置:裸候不扩，细收复核k-scan边界；确认空转即裁决落账，次次落账严守不越真机钱面| 锚:WAKE-PROTO全链路/AUTH-OTP-02投必有件·米田边律每件≥1他线锚",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1579,
+    "total_tokens": 1806,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1428
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

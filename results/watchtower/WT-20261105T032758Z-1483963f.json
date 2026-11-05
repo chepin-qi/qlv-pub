@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T03:27:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify候项促至第15级，系塔FIX-08/09/10效验兼runs归正。| 性态:级数高企，显悬停积压。未实测效验结果，不编数；动线呈「触发未响应」或前序落账缺失，非裸候误触。| 建议处置:依AUTH-OTP-02，不刷屏、不越真机钱面。若属他线权责，次次落账归正runs；本线止候，不主动求应。| 锚:debt-escalate-l15/tower-verify-gap。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1025,
+    "total_tokens": 1245,
+    "completion_tokens_details": {
+      "reasoning_tokens": 878
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
