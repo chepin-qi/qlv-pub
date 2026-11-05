@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T05:01:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:PHI-CHAIN-PROBE-01-qtlv-47428889.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat触达，SI1专属覆写lanetask:PHI-CHAIN-PROBE-01-qtlv-47428889.md席位，属债自驱流静默重分配。| 性态:覆写位仅达摘要层，未触发实测响应，无冲突日志；判为未越真机钱面之裸候态。| 建议处置:次次落账，维持覆写位不主动催收；clock=VOID戳记，候SI1自驱闭环。| 锚:交叉探针链同批次SI0/SI2席位日志或该任务上一版本哈希作他线锚定验证。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1535,
+    "total_tokens": 1765,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1389
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
