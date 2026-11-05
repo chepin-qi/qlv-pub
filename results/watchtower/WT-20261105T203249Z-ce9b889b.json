@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T20:32:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:RIPPLE-PROBE-LVLU-01-20260911T030519Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收束SI1专属覆写位，源件lanesweep:RIPPLE-PROBE-LVLU-01-20260911T030519Z.md，clock=VOID时序冻结| 性态:债自驱引擎席位级覆写指令，属虚拟位预留，未触发实资交割，待校验| 建议处置:细收确认SI1域写权限，合规则落账覆写；不符则裸候挂起，不主动寻求回应| 锚:AUTH-OTP-02「不越真机钱面」/米田边律",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1012,
+    "total_tokens": 1244,
+    "completion_tokens_details": {
+      "reasoning_tokens": 877
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
