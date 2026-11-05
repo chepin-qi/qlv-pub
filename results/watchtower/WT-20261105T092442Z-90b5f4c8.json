@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T09:24:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat 收 lanesweep 引用件 R7-CLEAN-CAP02-lvlu-20260913T182431Z.md，摘要为 SI1 专属覆写位。| 性态:元数据到件，覆写指令已登记；未见触发载荷及响应回执，属到件待验态，未实测不编数。| 建议处置:细收核验 CAP02 覆写权限与 lvlu 版本一致性；落账前校验目标位完整性；无回执则裸候，不越真机钱面。| 锚:lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1015,
+    "total_tokens": 1247,
+    "completion_tokens_details": {
+      "reasoning_tokens": 862
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
