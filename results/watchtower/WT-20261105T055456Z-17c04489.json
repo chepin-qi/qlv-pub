@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T05:54:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级(debt-20260912-orbit-cap03-ring)，CAP-03自发环巡归候件达第15级| 性态:自债环巡，裸候未触发外部响应；依诚实边界，未实测金额与归账结果，属系统内escalated nudge| 建议处置:维持裸候，不主动寻求回应；按WAKE-PROTO次次落账，待CAP-03环巡自归或触发自愈，勿越真机钱面| 锚:qlv线无人驿→可向审计线或债权备档线抛锚待交叉校验",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1094,
+    "total_tokens": 1311,
+    "completion_tokens_details": {
+      "reasoning_tokens": 954
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

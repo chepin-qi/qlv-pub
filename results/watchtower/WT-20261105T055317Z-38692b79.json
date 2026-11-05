@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T05:52:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-edge-throttle 促件升至第15级，边缘限流族立档（冷却突发律+git道绕行+HTTP/1.1方）| 性态:器课第十二株自债候 escalated nudge，属边缘限流族立档推进；具体冷却阈值及绕行通路未实测，诚标「未触发/触发未响应」待勘 | 建议处置:细收冷却参数与git道绕行实证，次次落账；裸候则不主动寻求回应，维持债候登记 | 锚:器课限流族/git道/HTTP1.1方",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1176,
+    "total_tokens": 1409,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1033
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

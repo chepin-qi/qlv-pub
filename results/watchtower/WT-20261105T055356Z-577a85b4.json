@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T05:53:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位债务候(ref滞qfa~19h)触第15级促件升级。| 性态:nudge.escalate触发态明确，属响应滞后型积压；未越真机钱面，然已超债候常模，应即刻落账。| 建议处置:按WAKE-PROTO细收后直送裁决席，冻结ref后续自动escalation；并行qfa根因扫描，若主路恢复则并账核销。| 锚:debt-20260912系列/15级escalate阈值线/旁路补位工单。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1175,
+    "total_tokens": 1402,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1036
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
