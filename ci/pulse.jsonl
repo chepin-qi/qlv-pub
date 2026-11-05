@@ -2621,3 +2621,6 @@
 {"ts": "2026-11-05T20:53:20Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-11-05T21:03:20Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-05T21:03:20Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.1, "ev_n": 0}
+{"ts": "2026-11-05T21:03:30Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-05T21:13:30Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-05T21:13:30Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
