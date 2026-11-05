@@ -31,7 +31,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-11-05",
     "beacon_comments": 0
   },
-  "qgl_head": "5c5377d97ad48f220d1dcbc5ca1e877dfadf9bc9",
+  "qgl_head": "d2f50ca63c9c7ecaa34dab6bf13b88f235d0aa7d",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 800,
+  "seg_cursor": 801,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1613,7 +1613,7 @@
     {
       "id": "lanetask:OTP-WAKE-QLV-01-usrm.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-05T02:31:23Z"
+      "ts": "2026-11-05T02:20:49Z"
     }
   ],
   "debt_backlog": 142,
