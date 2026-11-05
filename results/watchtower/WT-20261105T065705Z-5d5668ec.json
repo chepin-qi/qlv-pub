@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T06:56:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1债自驱席位覆写到件，ref=QGL-OTP-FIVELINE-106-qlv-20260911T1605Z.md，覆写位激活| 性态:debtengine.seat类，clock=VOID，未越真机钱面，属虚位预占| 建议处置:WAKE落账已毕，覆写位收妥；本件裸候，不主动外呼，待下游拉取或时标恢复后释放| 锚:@lanetask/QGL-OTP-FIVELINE-106→qlv.debtengine.seat覆写",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 1697,
+    "total_tokens": 1939,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1557
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
