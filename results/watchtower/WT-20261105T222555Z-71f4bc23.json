@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T22:25:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:SI-PROBE-QGL-121-qlv.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat自驱触发，ref指向SI-PROBE-QGL-121-qlv.md覆写位，属SI1专属lanetask覆写前置| 性态:系统内债自驱调度，未触发外部钱面，为任务链自动落账的中间态；诚实边界内，未实测具体覆写响应，属「触发未响应」待裁决| 建议处置:①核验ref链与覆写位一致性 ②确认SI1探针映射无越界 ③裸候次次落账，不主动寻求外应| 锚:WAKE-PROTO裁决-落账流程、AUTH-OTP-02诚实边界/不越真机钱面",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 830,
+    "total_tokens": 1048,
+    "completion_tokens_details": {
+      "reasoning_tokens": 672
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
