@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T11:28:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，ref:lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md归入SI1专属覆写位| 性态:到件已扫收，覆写位状态未实测，无法区分已覆写/待覆写/触发未响应，无钱面数据| 建议处置:按AUTH-OTP-02次次落账，裸候下周期，不越真机钱面| 锚:SI5CLOUD-lanesweep主线",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 1534,
+    "total_tokens": 1772,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1410
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

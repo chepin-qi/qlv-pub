@@ -26,12 +26,12 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 5,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-11-05",
@@ -1613,7 +1613,7 @@
     {
       "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-11-05T11:17:31Z"
+      "ts": "2026-11-05T11:28:22Z"
     }
   ],
   "debt_backlog": 138,
