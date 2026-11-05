@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T02:08:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-SISIGN22715-SIALIGN22717-qfa-20261009T091446Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫线文件ANS-SISIGN22715-SIALIGN22717-qfa-20261009T091446Z.md滞留超24h触发升己| 性态:单件淤积，lanesweep.escalate节点超时未决，属被动升级，未触发人工响应| 建议处置:按lanesweep协议执行次次落账，归档ref与时戳，标记VOID时钟下裸候状态，不主动寻求回应，待下游节点拉取| 锚:lanesweep.escalate标准线/qfa-20261009T091446Z.md",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 925,
+    "total_tokens": 1156,
+    "completion_tokens_details": {
+      "reasoning_tokens": 794
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

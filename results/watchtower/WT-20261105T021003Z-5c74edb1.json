@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T02:09:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NOTICE-NORTHSTAR-QFA-02-qfa-20261010T200627Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫>24h自升，NOTICE-NORTHSTAR-QFA-02-qfa-20261010T200627Z.md到件。| 性态:northstar QFA-02线NOTICE文件，20261010T200627Z，超24h触发lanesweep.escalate，状态为超时未清自动升级；未实测不编数，待复核是否漏扫或裸候。| 建议处置:执行WAKE-PROTO细收→裁决→落账；核验该件是否已触发未响应，如属实则静默落账，不主动求应。| 锚:NOTICE-NORTHSTAR-QFA-01同日线基线处置纪要。",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1215,
+    "total_tokens": 1440,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1064
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

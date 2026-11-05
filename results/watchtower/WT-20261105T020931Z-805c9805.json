@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T02:09:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "NOTICE-MBCLOUD-LVLU-01-20261031T0118Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: lane扫任务件侦得 ref=NOTICE-MBCLOUD-LVLU-01-20261031T0118Z.md，文件名级到件，内容未实测。| 性态: 单文件裸候态，未触发内容解析，无响应数据，属「侦得未展开」。| 建议处置: 执行细收：启文件内容检视；若有效载荷缺失或重复则直落账归档，不刷屏。| 锚: WAKE-PROTO(扫描→细收→裁决→落账); AUTH-OTP-02(不越真机钱面/次次落账); 本件ref。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 817,
+    "total_tokens": 1039,
+    "completion_tokens_details": {
+      "reasoning_tokens": 673
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

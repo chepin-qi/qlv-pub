@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T02:10:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane扫侦得md通知件，标题示天眼免费层/绿芦线DEAD状态，时间戳20261007T0416Z，正文未收。| 性态:静态通知件，时标为未来，内容完整性未验，属未触发待归档。| 建议处置:裸候不主动外呼；按NOTICE类挂账\"待正文解码\"，若涉服务下线或付费迁移，转人工复核影响面；次次落账。| 锚:AUTH-OTP-02诚实边界/不越真机钱面；WAKE-PROTO扫描→细收未完成。",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1178,
+    "total_tokens": 1414,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1043
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
