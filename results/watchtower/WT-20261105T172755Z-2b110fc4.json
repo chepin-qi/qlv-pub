@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T17:27:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:RESP-LVLU-QLV-02-20260911T030404Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收lanesweep覆写件，SI1专属位更新| 性态:债自驱覆写，非人工触件，系统静默占位，未见异常告警| 建议处置:核验源文件RESP-LVLU-QLV-02-20260911T030404Z.md签权与版本锚，裸候下一校验周期，无告警不介入| 锚:cross-lane:AUDIT-QLV/deep:hash-pending",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1430,
+    "total_tokens": 1662,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1320
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
