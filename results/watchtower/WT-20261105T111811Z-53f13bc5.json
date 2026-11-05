@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T11:17:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱覆写位触发,ref lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md,debtengine.seat单座覆写.| 性态:自动化债务引擎隔离域覆写,属预期内自驱清算;未实测文件差异与响应码,无法确认覆写前后变更,判为「触发未响应」裸候态.| 建议处置:①核验覆写位边界与SI1隔离域一致性;②比对覆写前后摘要值;③座席次次落账,不越真机钱面.| 锚:lane标记RE-SI5CLOUD-QLV-lvlu/时间戳20260913T013901Z",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 1407,
+    "total_tokens": 1645,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1240
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

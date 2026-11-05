@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      1,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-05",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 831,
+  "seg_cursor": 832,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -403,11 +403,6 @@
     "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
       "note": "lane任务件候机答/转派",
@@ -1614,9 +1609,14 @@
       "id": "lanesweep:R7-CLEAN-CAP02-lvlu-20260913T182431Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-11-05T09:13:14Z"
+    },
+    {
+      "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-11-05T11:17:31Z"
     }
   ],
-  "debt_backlog": 139,
+  "debt_backlog": 138,
   "lane_inbox_count_ci": 32,
   "ucif2_seen": [],
   "fedeye_seen": [
