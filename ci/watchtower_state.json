@@ -31,7 +31,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 832,
+  "seg_cursor": 833,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1613,7 +1613,7 @@
     {
       "id": "lanesweep:RE-SI5CLOUD-QLV-lvlu-20260913T013901Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-11-05T11:28:22Z"
+      "ts": "2026-11-05T11:17:31Z"
     }
   ],
   "debt_backlog": 138,
