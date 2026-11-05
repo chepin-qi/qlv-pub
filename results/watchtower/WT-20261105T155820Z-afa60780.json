@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T15:57:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:DRIVE-qlv-20260926T000215Z-47e8b9f5e5e5.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱覆写位，靶件lanetask:DRIVE-qlv-20260926T000215Z-47e8b9f5e5e5.md。| 性态:座席级元数据覆写，属债务引擎记账态调整，非资金越界，单文件靶向。| 建议处置:核验覆写范围（全覆/差量）与前置依赖落账状态；正常流则执行落账标记，冲突则冻结上抛。| 锚:debtengine.seat与lanetask命名空间交叉校验，时戳序列20260926T000215Z有效。",
+  "usage": {
+    "prompt_tokens": 248,
+    "completion_tokens": 1598,
+    "total_tokens": 1846,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1455
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
