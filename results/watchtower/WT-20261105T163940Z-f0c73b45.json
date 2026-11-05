@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T16:39:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "de949f53",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主支头指针迁移(ec29462d→de949f53)| 性态:版本库常规心跳提交,属qfa.beat标准同步事件,无异常负载| 建议处置:已落账,无需干预,裸候下一拍| 锚:git-objects:de949f53,qfa-repo:main",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 728,
+    "total_tokens": 922,
+    "completion_tokens_details": {
+      "reasoning_tokens": 648
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

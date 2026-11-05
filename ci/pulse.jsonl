@@ -2552,3 +2552,6 @@
 {"ts": "2026-11-05T16:18:53Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-05T16:28:53Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-05T16:28:53Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
+{"ts": "2026-11-05T16:29:03Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-05T16:39:14Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-05T16:39:41Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 637.5, "ev_n": 1}
