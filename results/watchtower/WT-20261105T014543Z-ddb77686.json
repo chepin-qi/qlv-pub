@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:45:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:qtlv-spectra-x11-qsca7fce6884.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop，chepin-ai/vci-inbox 巷卡 211→214，qtlv-spectra-x11-qsca7fce6884.md 入 qlv/inbox| 性态:远端仓版本跳变同步，属无触发裸候态；未实测内容载荷，不编数| 建议处置:裸候，次次落账，归档待细收触发后裁决| 锚:chepin-ai/vci-inbox@214",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1121,
+    "total_tokens": 1351,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1012
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

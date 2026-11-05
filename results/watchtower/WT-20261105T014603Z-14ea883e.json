@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:45:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lane.drop",
+    "ref": "lanes/qlv/inbox:ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lane.drop落件，巷卡[chepin-ai/ci-inbox]计数31→32，新增ucif2-SI-MAX-TASK-QLV-01-20260911T1550Z.md到件| 性态:正常单次投递，时标20260911T1550Z，无冲突、无重件| 建议处置:已落账，按WAKE-PROTO入下一工序处理| 锚:chepin-ai/ci-inbox计数变更及UTC时间戳20260911T1550Z",
+  "usage": {
+    "prompt_tokens": 243,
+    "completion_tokens": 697,
+    "total_tokens": 940,
+    "completion_tokens_details": {
+      "reasoning_tokens": 576
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
