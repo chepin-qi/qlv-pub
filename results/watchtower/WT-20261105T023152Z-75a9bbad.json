@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T02:31:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:OTP-WAKE-QLV-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，SI1专属任务OTP-WAKE-QLV-01-usrm.md触发覆写位，单会话文本工位无工具受理| 性态:债自驱覆写态，clock=VOID，属未触发裸候，无实测数据不编数| 建议处置:按WAKE-PROTO扫描→细收→裁决→落账；遵AUTH-OTP-02投必有件、次次落账、裸候不刷屏；覆写位待裁决后执行| 锚:AUTH-OTP-02裸候条款/米田边律他线锚定",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1067,
+    "total_tokens": 1289,
+    "completion_tokens_details": {
+      "reasoning_tokens": 925
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
