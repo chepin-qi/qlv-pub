@@ -28,20 +28,20 @@
     "w12": [
       0,
       0,
+      0,
+      0,
+      0,
+      0,
       2,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      2,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-11-05",
     "beacon_comments": 0
   },
-  "qgl_head": "5c5377d97ad48f220d1dcbc5ca1e877dfadf9bc9",
+  "qgl_head": "d2f50ca63c9c7ecaa34dab6bf13b88f235d0aa7d",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 798,
+  "seg_cursor": 799,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -396,7 +396,11 @@
     "ANS-QRAC-D8-JOB8-LVLU-01.md",
     "ANS-QRAC-SWAPLESS-LVLU-01.md",
     "ANS-SIGATE-SIALIGN-LVLU-01.md",
-    "NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md"
+    "NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md",
+    "ANS-SISIGN22715-SIALIGN22717-qfa-20261009T091446Z.md",
+    "NOTICE-MBCLOUD-LVLU-01-20261031T0118Z.md",
+    "NOTICE-NORTHSTAR-QFA-02-qfa-20261010T200627Z.md",
+    "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
     {
@@ -1091,6 +1095,26 @@
     },
     {
       "id": "lanetask:NOTICE-TIANYAN-MESH2-LOST-LVLU-01-20261005T1020Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:ANS-SISIGN22715-SIALIGN22717-qfa-20261009T091446Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:NOTICE-MBCLOUD-LVLU-01-20261031T0118Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanesweep:NOTICE-NORTHSTAR-QFA-02-qfa-20261010T200627Z.md",
+      "note": "lane件>24h未理升己",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }

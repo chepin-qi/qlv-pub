@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:57:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task侦得NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md，标识表天眼免费层级额度失效通知；未实测余额及接口响应，属档案件。| 性态:未触发实测，仅标识符扫线落盘，无活跃业务流，无钱面越界。| 建议处置:落账归档；如需恢复另启续命/切线工单，本件裸候不主动外呼。| 锚:CN-BILLING-RECHARGE-01他线充值通道锚。",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1128,
+    "total_tokens": 1364,
+    "completion_tokens_details": {
+      "reasoning_tokens": 993
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

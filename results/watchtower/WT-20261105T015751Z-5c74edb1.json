@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:57:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "NOTICE-NORTHSTAR-QFA-02-qfa-20261010T200627Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:北星(QFA)线NOTICE-NORTHSTAR-QFA-02于20261010T200627Z经lane扫滞留超24h触发升己| 性态:系统自动化超时熔断，属队列被动升级；当前为触发未裁决态| 建议处置:按WAKE-PROTO扫描原件上下文与优先级，细收影响面后裁决：需人工介入则转派，已闭环即落账防重触| 锚:北星(QFA)通知栈/lane扫熔断锚",
+  "usage": {
+    "prompt_tokens": 225,
+    "completion_tokens": 1118,
+    "total_tokens": 1343,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1001
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

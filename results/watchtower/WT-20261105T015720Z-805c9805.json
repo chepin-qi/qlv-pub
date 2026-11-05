@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:56:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.task",
+    "ref": "NOTICE-MBCLOUD-LVLU-01-20261031T0118Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep.task到件，[lane扫]侦得ref=NOTICE-MBCLOUD-LVLU-01-20261031T0118Z.md| 性态:投必有件已落账，件体内容未实测展开，属到件待办态，诚实区分未触发解析| 建议处置:保持裸候，不主动寻求回应；该件入lane扫队列，待WAKE-PROTO二次唤醒后细收裁决| 锚:MBCLOUD-LVLU云线通知体作他线锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1312,
+    "total_tokens": 1534,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1189
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

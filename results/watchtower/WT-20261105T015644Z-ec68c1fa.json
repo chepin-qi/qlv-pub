@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T01:56:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "lanesweep.escalate",
+    "ref": "ANS-SISIGN22715-SIALIGN22717-qfa-20261009T091446Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanesweep escalate件，ref ANS-SISIGN22715-SIALIGN22717-qfa-20261009T091446Z.md，lane扫超24h未闭环触发自升。| 性态:扫描链路悬停，属超时自动升级；未实测人工干预记录，状态为未触发响应或裸候。| 建议处置:沿 lanesweep-escalate 路径回溯原.md，核查扫描件是否已自然落账；若裸候则强制闭环，依AUTH-OTP-02次次落账。| 锚:[他线-qfa]同批次ANS-SISIGN/SIALIGN于20261009时段已有超时自升先例。",
+  "usage": {
+    "prompt_tokens": 231,
+    "completion_tokens": 1064,
+    "total_tokens": 1295,
+    "completion_tokens_details": {
+      "reasoning_tokens": 913
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
