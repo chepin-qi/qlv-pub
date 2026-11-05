@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-05T13:42:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:DRIVE-qlv-20260926T000059Z-b04c853399fa.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱引擎席位，SI1专属覆写位请求，目标lanetask:DRIVE-qlv-20260926T000059Z-b04c853399fa.md。| 性态:覆写位指令已触发，终端响应未实测；依AUTH-OTP-02不编数，判为触发未响应态。| 建议处置:核验SI1覆写权限，执行覆写，强制次次落账，不主动外发，裸候回执。| 锚:WAKE-PROTO裁决→落账闭环/AUTH-OTP-02诚实边界与次次落账。",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1141,
+    "total_tokens": 1377,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1003
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
