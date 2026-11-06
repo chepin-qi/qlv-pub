@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T03:26:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify促件升至第16级，标的为塔FIX-08/09/10效验+runs归正。| 性态:自债候长期悬置，三连校验链未落账，升级路径已触高敏区；未实测具体阻塞点，无法区分未触发或触发未响应。| 建议处置:依不越真机钱面/次次落账律，裸候不追呼；建议拆分为三件分线落账，或由一线确认当前runs实况后裁决是否降级。| 锚:-ops线runs实况锚定 / -fix线塔效验基线锚定。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1009,
+    "total_tokens": 1229,
+    "completion_tokens_details": {
+      "reasoning_tokens": 861
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

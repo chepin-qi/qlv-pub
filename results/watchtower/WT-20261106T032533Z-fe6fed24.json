@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T03:25:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|债务候debt-20260912-keydark-drill\"断钥一日生存演练(0926)\"升至第16级|性态:nudge.escalate;演练类债务候,本工位无真机钱面,未实测触发与响应态,仅收级数变更信令|建议处置:据AUTH-OTP-02次次落账,记第16级;转责任工位核0926演练回显与排期,止裸候|锚:debt-line/keydark-drill/演练域",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 909,
+    "total_tokens": 1126,
+    "completion_tokens_details": {
+      "reasoning_tokens": 782
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

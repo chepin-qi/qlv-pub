@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T03:24:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级-debt-20260912-lgt-kscan| 性态:自债候在k∈[6,14]卡方扫描域滞留，第16级催促触发。属扫描已毕、裁决未落之半悬态，未触发与触发未响应的边界需复核。binmap商像区间无实测回传，不得虚填卡方值。| 建议处置:执行WAKE-PROTO裁决→落账：若k扫描无显著峰则批否，有显著峰则转人工细收；同时冻结候件阻断重复升级。| 锚:卡方分布df=6~14临界值族（p=0.05: 12.592~23.685），供跨线比对显著性阈值。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1380,
+    "total_tokens": 1607,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1209
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
