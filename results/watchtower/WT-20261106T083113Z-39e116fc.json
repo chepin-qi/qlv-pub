@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T08:30:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位，SI1专属任务表lanetask:SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md进入覆写态，属债自驱内部分配，无越真机钱面| 性态:系统自驱覆写，未触发交易结算，无实测数变更，状态为「覆写待落账」| 建议处置:核验SI1覆写权限，本件落账登记，维持裸候不主动寻应，待下次扫描裁决| 锚:ref:lanetask:SPECTRA-TARGET-TABLE-01-cisvr-20260911T0240Z.md↔debtengine:SI1-seat-log/VOID",
+  "usage": {
+    "prompt_tokens": 238,
+    "completion_tokens": 1221,
+    "total_tokens": 1459,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1054
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
