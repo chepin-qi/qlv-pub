@@ -2888,3 +2888,6 @@
 {"ts": "2026-11-06T18:21:27Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-06T18:31:27Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-06T18:31:27Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
+{"ts": "2026-11-06T18:31:37Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-06T18:41:46Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T18:41:46Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 609.6, "ev_n": 0}
