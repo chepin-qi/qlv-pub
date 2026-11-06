@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T06:56:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap03-ring 自债候CAP-03环巡归，促件 escalated to lv.16 | 性态: nudge.escalate，自发环巡机制复归后的系统级升级；未触发债务方实测响应，属状态机自动迁移 | 建议处置: 遵AUTH-OTP-02裸候不刷屏，不越真机钱面；次次落账，记环巡次数入档；待满阈转人工裁定 | 锚: 可横比CAP-03历史环巡落账率，或挂接风控线debt-escalation-matrix同ref复核",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 880,
+    "total_tokens": 1097,
+    "completion_tokens_details": {
+      "reasoning_tokens": 732
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

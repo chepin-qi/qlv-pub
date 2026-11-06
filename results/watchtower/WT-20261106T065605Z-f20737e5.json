@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T06:55:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap02-lgt自债候催告升级，CAP-02下下站旁路权行使抵第16级，裸候未触发| 性态:单向权能层级堆叠，对端无响应，未越真机钱面| 建议处置:依AUTH-OTP-02维持裸候，不主动求应；落账第16级快照入旁路权登记栈，候他线触发或转线下裁决| 锚:他线-CAP-02旁路权裸候栈/AUTH-OTP-02诚实边界",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1774,
+    "total_tokens": 1996,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1639
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
