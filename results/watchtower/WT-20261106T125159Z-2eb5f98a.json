@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T12:51:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-DRILL-0919-APPLY-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 受理 SI1 专属 lanetask 覆写位，ref=TASK-DRILL-0919-APPLY-QLV-01.md，目标 seat 位被覆写。| 性态: 债自驱静默更新，未见冲突告警；当前实测未触发显性响应，属 VOID 时钟下无感落账。| 建议处置: 核查 diff 与 QLV-01 参数一致性，留痕归档，维持当前 seat 态。| 锚: lanetask:baseline-0919/git-log",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1234,
+    "total_tokens": 1464,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1108
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
