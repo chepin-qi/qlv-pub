@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T17:50:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-FIELD-QLV-SOURCE-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 收 SI1 专属源文件覆写件，ref 指向 lanetask:TASK-FIELD-QLV-SOURCE-01.md，摘要标记 [债自驱] 与覆写位。| 性态: 属配置层自驱更新，未见交易或资金面触发，当前为静默席位变更，未实测运行态响应。| 建议处置: 1) 校验 TASK-FIELD-QLV-SOURCE-01.md 哈希与 SI1 基线一致性；2) 覆写位落账为 VOID-CLOCK 配置快照；3) 裸候引擎自检回执，不主动外呼。| 锚: lanetask:TASK-FIELD-QLV-SOURCE-01.md|debtengine.seat",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 892,
+    "total_tokens": 1112,
+    "completion_tokens_details": {
+      "reasoning_tokens": 719
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
