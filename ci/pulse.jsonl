@@ -2786,3 +2786,6 @@
 {"ts": "2026-11-06T11:29:58Z", "kind": "beat.begin", "seg": "keyhealth"}
 {"ts": "2026-11-06T11:39:58Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-06T11:39:58Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-06T11:40:08Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-11-06T11:50:08Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T11:50:08Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
