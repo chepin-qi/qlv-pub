@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T09:45:24Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk(EXP-016交叉验证回件)第16级促件升级| 性态:裸候级跃，未附实测响应，属触发未响应，严守诚实边界| 建议处置:维持16级线位裸候，不刷屏/不越真机钱面，待自证回件并落账| 锚:AUTH-OTP-02裸候条款·次次落账; WAKE-PROTO裁决节点",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 828,
+    "total_tokens": 1043,
+    "completion_tokens_details": {
+      "reasoning_tokens": 716
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

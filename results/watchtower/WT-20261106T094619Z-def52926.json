@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T09:45:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist 促件升至第16级(分布维实测替换骨架XCHK)| 性态:系统内债候裸候态，文本工位无实测触达数据，属「投必有件」后的被动升级；未触发真机钱面，clock=VOID| 建议处置:按AUTH-OTP-02裸候，不刷屏、不越真机钱面，本次落账为文本纪要，待实测线回传XCHK结果后再裁决| 锚:qlv-os3d骨架替换规程-v16",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1046,
+    "total_tokens": 1268,
+    "completion_tokens_details": {
+      "reasoning_tokens": 912
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
