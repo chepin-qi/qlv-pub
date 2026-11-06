@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T16:38:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "0959b574",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main 头迁移 de949f53→0959b574 | 性态:HEAD常规前移，属正常版本迭代，未见回滚或冲突告警 | 建议处置:常规落账；如非预期推送，补审两锚点间变更与签名链 | 锚:ref=0959b574; 前锚de949f53",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 891,
+    "total_tokens": 1085,
+    "completion_tokens_details": {
+      "reasoning_tokens": 805
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
