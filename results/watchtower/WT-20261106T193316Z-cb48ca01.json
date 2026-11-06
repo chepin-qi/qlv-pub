@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T19:32:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-KEYFP-QLV-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱任务TASK-KEYFP-QLV-01.md覆写位到达debtengine.seat| 性态:本地文件级静默覆写，未涉资金面与外部接口，属席位内部位操作；状态为已触发待落账| 建议处置:执行WAKE-PROTO落账，确认覆写收讫；无outward响应必要，保持裸候。抽查席位间一致性| 锚:锚定任务分派源线或配置基线作他线锚，保证覆写链可追溯",
+  "usage": {
+    "prompt_tokens": 218,
+    "completion_tokens": 1030,
+    "total_tokens": 1248,
+    "completion_tokens_details": {
+      "reasoning_tokens": 904
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
