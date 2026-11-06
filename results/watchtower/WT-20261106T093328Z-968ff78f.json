@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T09:32:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-tower-seg9-verify(塔⑨段五件效验/runs直读)裸候未应,升至16级。| 性态:nudge.escalate,催促升级;候件悬置属触发未响应,未越真机钱面。| 建议处置:维持裸候,次次落账;不主动外求回应,待自回或终了。| 锚:WAKE-PROTO裁决落账/AUTH-OTP-02裸候律。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1143,
+    "total_tokens": 1367,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1023
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
