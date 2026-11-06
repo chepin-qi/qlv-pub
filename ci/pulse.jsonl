@@ -2840,3 +2840,6 @@
 {"ts": "2026-11-06T14:45:08Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-06T14:55:08Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-06T14:55:08Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
+{"ts": "2026-11-06T14:55:18Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-06T15:05:30Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T15:05:30Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.7, "ev_n": 0}
