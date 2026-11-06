@@ -27,8 +27,8 @@
   "v": "METER-CADENCE-01-cand",
   "w12": [
    0,
-   1,
    0,
+   1,
    0,
    0,
    0,
@@ -41,7 +41,7 @@
   ],
   "sigma": 1.0,
   "lock": null,
-  "dominant_bin": 1,
+  "dominant_bin": 2,
   "C_streak": 0,
   "verdict": "进行式"
  },
@@ -1613,7 +1613,7 @@
   {
    "id": "lanetask:SILENCE-METRIC-DRAFT-01-usrm.md",
    "note": "lane任务件候机答/转派",
-   "ts": "2026-11-06T00:08:13Z"
+   "ts": "2026-11-06T00:19:06Z"
   }
  ],
  "debt_backlog": 131,

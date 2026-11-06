@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T00:19:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:SILENCE-METRIC-DRAFT-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属沉默指标草稿覆写位投件,ref=usrm.md,无实测触发数据| 性态:覆写位待命,属债自驱元数据层操作,未触发实际响应,裸候| 建议处置:按WAKE-PROTO落账封存,覆写待SI1授权生效,不越真机钱面| 锚:lanetask:SILENCE-METRIC-DRAFT-01-usrm.md",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1002,
+    "total_tokens": 1230,
+    "completion_tokens_details": {
+      "reasoning_tokens": 889
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
