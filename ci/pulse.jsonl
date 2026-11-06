@@ -2813,3 +2813,6 @@
 {"ts": "2026-11-06T13:12:31Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-11-06T13:22:32Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-06T13:22:32Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-06T13:22:42Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-06T13:32:42Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T13:32:42Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
