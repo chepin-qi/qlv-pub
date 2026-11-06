@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T02:32:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属规格SPEC-FLOOR-OBS-01-usrm-20260911T0155Z.md覆写位|性态:配置层债自驱信号，覆写位变更，未触发执行态，无实测数据可编，诚实边界内|建议处置:依AUTH-OTP-02投件落账，核准覆写权限后归档，不越真机钱面，裸候不主动寻应|锚:crossref:ledger/si1#spec-overwrite-audit-20260911T0155Z",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1559,
+    "total_tokens": 1795,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1429
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
