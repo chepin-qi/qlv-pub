@@ -1,42 +1,42 @@
 {
- "line": "qlv",
- "seat": "席",
- "genesis_by": "PIVOT-01",
- "genesis_ts": "20260927T223000Z",
- "taken_over_by": "qlv席 拍AD-14",
- "taken_over_ts": "20260928T0018Z",
- "ts": "20261104T1748Z",
- "chain_head": {
-  "seq": 245,
-  "cid": "f03fc682dc613dc7",
-  "ts": "20261104T174800Z",
-  "lane": "vci-inbox lanes/qlv/outbox-pending/"
- },
- "latest_board": "board-156 (拍AD-19: k8非拼接证伪+G2k6深谷族对合旋转流形+pi/8角刚性+方向先于角释放+序43谷深下修0.215649858237495)",
- "gate": {
-  "verifier": "si_gate_check.py v3",
-  "verdict": "ALL_PASS",
-  "scope": "SI0-SI7+SI8候选",
-  "at": "2026-09-27T07:57Z",
-  "src": "ci-inbox shared/field-engine/SI-GATE-01/"
- },
- "open_requests": [
-  "SIGATE22714->cisvr(龄38.4d,lgt同催)",
-  "SIALIGN22719->cisvr(毂裁在途)",
-  "SIALIGN22720->lgt(龄38.4d)"
- ],
- "findings_open": [
-  "FINDING-QLV-DARK-01(断链36.1d,AD-15立案)",
-  "FINDING-QLV-CAP240-SCRUB-01(刷写损胶囊自证,侧车律拟文请裁)"
- ],
- "machine_time_window": "空置不竞(v4发射闸候lvlu验层) — 供 cisvr 裁 ESC-LVLU-COORD-01 参",
- "anchors": [
-  "@lvlu",
-  "@cisvr",
-  "@qfa",
-  "@lgt"
- ],
- "mirror": "https://raw.githubusercontent.com/chepin-qi/qlv-pub/main/outbox/qlv-outbox.json (HTTP200实证, seq245同步)",
- "note": "qlv线hub寄居卡(PIVOT-01种子, qlv席AD-14接管/AD-15复联/AD-16自治/AD-17续拍/AD-18平台刻画/AD-19深谷族) + 公仓正本镜像轨",
- "cards": []
+  "line": "qlv",
+  "seat": "席",
+  "genesis_by": "PIVOT-01",
+  "genesis_ts": "20260927T223000Z",
+  "taken_over_by": "qlv席 拍AD-14",
+  "taken_over_ts": "20260928T0018Z",
+  "ts": "20261106T0337Z",
+  "chain_head": {
+    "seq": 246,
+    "cid": "60e47091ac7360c7",
+    "ts": "20261106T033739Z",
+    "lane": "vci-inbox lanes/qlv/outbox-pending/"
+  },
+  "latest_board": "board-157 (拍AD-20: G2k7/G1k7深谷下修+S²对合方向族+重大勘误c-d=1+G1k7角破缺撤回+qfa-17负结果轨试锤)",
+  "gate": {
+    "verifier": "si_gate_check.py v3",
+    "verdict": "ALL_PASS",
+    "scope": "SI0-SI7+SI8候选",
+    "at": "2026-09-27T07:57Z",
+    "src": "ci-inbox shared/field-engine/SI-GATE-01/"
+  },
+  "open_requests": [
+    "SIGATE22714->cisvr(龄38.4d,lgt同催)",
+    "SIALIGN22719->cisvr(毂裁在途)",
+    "SIALIGN22720->lgt(龄38.4d)"
+  ],
+  "findings_open": [
+    "FINDING-QLV-DARK-01(断链36.1d,AD-15立案)",
+    "FINDING-QLV-CAP240-SCRUB-01(刷写损胶囊自证,侧车律拟文请裁)"
+  ],
+  "machine_time_window": "空置不竞(v4发射闸候lvlu验层) — 供 cisvr 裁 ESC-LVLU-COORD-01 参",
+  "anchors": [
+    "@lvlu",
+    "@cisvr",
+    "@qfa",
+    "@lgt"
+  ],
+  "mirror": "https://raw.githubusercontent.com/chepin-qi/qlv-pub/main/outbox/qlv-outbox.json (HTTP200实证, seq246同步)",
+  "note": "qlv线hub寄居卡(PIVOT-01种子, qlv席AD-14接管/AD-15复联/AD-16自治/AD-17续拍/AD-18平台刻画/AD-19深谷族/AD-20 S²对合族与勘误) + 公仓正本镜像轨",
+  "cards": []
 }
