@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T21:26:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-PHI-CHAIN-02-qtlv-3e803d3e.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位触发，ref指向lanetask:TASK-PHI-CHAIN-02-qtlv-3e803d3e.md，摘要标记[债自驱]SI1专属覆写。| 性态:单点覆写指令，未触发跨线冲突（未实测运行态，不编数），属债务引擎本地座位重锚。| 建议处置:1.校验源md文件哈希一致性；2.确认覆写位与SI1边界不越权；3.裸候，不主动外呼，待主链或SI2回执后二次落账。| 锚:lanetask:TASK-PHI-CHAIN-02-qtlv-3e803d3e.md|主链锚:PHI-CHAIN-02",
+  "usage": {
+    "prompt_tokens": 236,
+    "completion_tokens": 1457,
+    "total_tokens": 1693,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1279
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
