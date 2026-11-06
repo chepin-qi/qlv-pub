@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T00:08:13Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:SILENCE-METRIC-DRAFT-01-usrm.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，lanetask:SILENCE-METRIC-DRAFT-01-usrm.md触发SI1专属覆写位| 性态:债自驱元数据覆写，未涉真机钱面流转，属配置层静默操作；未实测指标数值，仅到件登记，无触发无响应| 建议处置:依WAKE-PROTO执行细收→裁决→落账，完成覆写位确认后裸候归档，不主动寻求回应| 锚:debtengine母本配置链/SI1静默指标族",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 909,
+    "total_tokens": 1137,
+    "completion_tokens_details": {
+      "reasoning_tokens": 775
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
