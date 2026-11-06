@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T03:38:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify促件升至L16(塔FIX-08/09/10效验+runs归正)| 性态:自债候长期未结，本件真机效验未实测，不编数；无法判定属「未触发」或「触发未响应」，属高阶催促噪音| 建议处置:按AUTH-OTP-02停止刷屏升级，裸候归档；如需推进，须补实测runs归正落账，否则转线下裁决冻结| 锚:塔线debt-registry#tower-verify-history",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1163,
+    "total_tokens": 1383,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1033
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

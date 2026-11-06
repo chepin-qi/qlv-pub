@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T03:36:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-lgt-kscan 自债候促发至第16级，为 binmap 自由度 k∈[6,14] 卡方扫描观测选择商像之 escalated nudge。| 性态: 扫描层自动升级；未越真机钱面，无实测响应数据可落数，属候账态。| 建议处置: 依裸候原则次次落账，已归档第16级促件；不主动寻求回应，待下游阈值触发。| 锚: 参照多自由度卡方扫描之多重比较校正惯例（Bonferroni/似然比序列），k 区间项存在耦合，须区分「触发」与「响应」。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1160,
+    "total_tokens": 1387,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1000
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

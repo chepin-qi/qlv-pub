@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T03:37:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件 debt-20260912-inbox-purge，qlv巷152件机读排空后 escalation 至第16级。| 性态:系统自债候裸候态，机读已排空，未触发人工截留，属纯机线迭代；未实测具体响应延迟，不编数。| 建议处置:按AUTH-OTP-02裸候/不刷屏，不越真机钱面；次次落账标记VOID，不主动求应，候终端裁决或人工挑件。| 锚:qlv巷机读排空分级协议v2（他线运维规）。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1170,
+    "total_tokens": 1386,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1032
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

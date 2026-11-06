@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T03:37:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级。债候 debt-20260912-keydark-drill（断钥一日生存演练·0926）escalated 至第16级，本工位未实测 drill 执行面与钱面异动。| 性态:nudge.escalate，属触发未响应。仅收摘要级信号，无底层回报。| 建议处置:不越真机钱面，不编未测损耗；按次次落账原则，待实测面补裁决；维持裸候，不主动外呼。| 锚:protocol-void-nudge/同批 drill 锚 opsec-baseline-2026。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1144,
+    "total_tokens": 1361,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1001
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
