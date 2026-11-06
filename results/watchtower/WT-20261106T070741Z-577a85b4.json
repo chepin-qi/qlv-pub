@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T07:07:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候CAP-01旁路补位件(ref:debt-20260912-orbit-cap01-bypass)滞qfa约19h，促件升至第16级| 性态:已触发未闭环，旁路补位义务超期未落账，属escalate态| 建议处置:即刻执行补位闭环或落账为裸候；若真机不可触，禁止越钱面，次次落账止升| 锚:ops-debt-slo「超16级自债须熔断或人工接管」|",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 883,
+    "total_tokens": 1110,
+    "completion_tokens_details": {
+      "reasoning_tokens": 753
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T07:07:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候debt-20260912-orbit-cap02-lgt因CAP-02下下站旁路权行使触发促件，升至第16级候位。| 性态:nudge.escalate，属旁路权迭代催办的高阶施压态；未触发实测响应，不作结清预估。| 建议处置:依AUTH-OTP-02裸候、次次落账，不主动寻应；已达16级宜冻结旁路增量，转WAKE-PROTO裁决层裁定核销或出栈。| 锚:orbital-cap系历史候件极限阈值惯例，旁路权迭代序列未完结。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1002,
+    "total_tokens": 1224,
+    "completion_tokens_details": {
+      "reasoning_tokens": 858
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

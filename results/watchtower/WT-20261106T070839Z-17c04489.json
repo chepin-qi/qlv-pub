@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T07:08:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap03-ring促件升至16级，nudge.escalate类，无实测越界数据。| 性态:CAP-03自发环巡归持续内压，属系统候账态，未触发主体响应，亦未越真机钱面。| 建议处置:裸候留置，不主动外呼；待下一落账周期复核，若触及人工阈值则转裁。| 锚:qlv-debt-escalation-cap03-lv16",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 866,
+    "total_tokens": 1083,
+    "completion_tokens_details": {
+      "reasoning_tokens": 748
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
