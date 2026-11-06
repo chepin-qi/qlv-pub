@@ -2735,3 +2735,6 @@
 {"ts": "2026-11-06T06:02:51Z", "kind": "beat.begin", "seg": "debtengine"}
 {"ts": "2026-11-06T06:12:51Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-06T06:13:23Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 632.7, "ev_n": 1}
+{"ts": "2026-11-06T06:13:33Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-11-06T06:23:33Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T06:23:33Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
