@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T11:29:12Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat接收SI1专属覆写位任务，ref指向TASK-CISVR-ORDER-KEYFP-OVR-01.md配置覆写| 性态:债自驱席位配置变更，属任务级覆写指令，非交易钱面，无裸候响应需求| 建议处置:按AUTH-OTP-02静默落账，确认覆写位映射生效后即冻结本席干预，留痕待审计，次次落账不主动寻应| 锚:lanetask:TASK-CISVR-ORDER-KEYFP-OVR-01.md",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 917,
+    "total_tokens": 1143,
+    "completion_tokens_details": {
+      "reasoning_tokens": 784
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
