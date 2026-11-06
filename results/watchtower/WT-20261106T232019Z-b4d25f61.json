@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T23:19:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-QLV-SPECTRA-01-20260911T0155Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat报件，SI1专属TASK-QLV-SPECTRA-01-20260911T0155Z.md覆写位占用| 性态:债自驱覆写，未触发异常告警；覆写位真伪待验，需区分主动覆写与位冲突| 建议处置:循WAKE-PROTO扫描→细收→裁决→落账；冻结覆写扩散，锚定SI1前值；无AUTH-OTP-02授权则裸候不回写| 锚:lanetask:SI1-PRE-20260911T0155Z.md; qlv:spectra:seat:VOID",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 1038,
+    "total_tokens": 1272,
+    "completion_tokens_details": {
+      "reasoning_tokens": 892
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
