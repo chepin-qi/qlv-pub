@@ -2741,12 +2741,12 @@
 {"ts": "2026-11-06T06:33:55Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-11-06T06:43:55Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-06T06:43:55Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-11-06T06:44:04Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-11-06T06:54:04Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-06T06:56:34Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 750.0, "ev_n": 4}
-{"ts": "2026-11-06T07:08:51Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-11-06T07:19:01Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-06T07:19:01Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 610.2, "ev_n": 0}
-{"ts": "2026-11-06T07:29:34Z", "kind": "beat.begin", "seg": "orbit"}
-{"ts": "2026-11-06T07:39:34Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-06T07:39:35Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.4, "ev_n": 0}
+{"ts": "2026-11-06T06:56:44Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-06T07:06:44Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T07:08:39Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 714.6, "ev_n": 4}
+{"ts": "2026-11-06T07:19:13Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-06T07:29:24Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T07:29:24Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.3, "ev_n": 0}
+{"ts": "2026-11-06T07:39:46Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-11-06T07:49:46Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T07:49:46Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.4, "ev_n": 0}
