@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-06T15:46:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-EVAL-WAVE-01-qlv-qtlv-qtlv-t36-d01b67.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat 到件，SI1 专属 lanetask:TASK-EVAL-WAVE-01-qlv-qtlv-qtlv-t36-d01b67.md 申请覆写位| 性态:元数据层配置干预，非资金流水，未触发实测，无数不编| 建议处置:裸候。OTP-02 校验 SI1 权限及波次完整性，核验后落账，异常挂起| 锚:qtlv-t36 共线锚 d01b67",
+  "usage": {
+    "prompt_tokens": 244,
+    "completion_tokens": 1297,
+    "total_tokens": 1541,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1173
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
