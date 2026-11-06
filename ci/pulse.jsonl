@@ -2798,3 +2798,6 @@
 {"ts": "2026-11-06T12:10:53Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-06T12:20:53Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-06T12:20:53Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.4, "ev_n": 0}
+{"ts": "2026-11-06T12:21:03Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-06T12:31:08Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-06T12:31:08Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.2, "ev_n": 0}
