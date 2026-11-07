@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T19:24:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T123352-97fafbe5.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱任务(ref:auto-otp-20260906T123352-97fafbe5.json)对debtengine.seat发起覆写位操作| 性态:auto-otp自驱触发，摘要仅示覆写意图；未实测目标位occupancy及系统回执，不编数，暂标裸候| 建议处置:依WAKE-PROTO锁定位→细收当前席位状态→裁决SI1专属权限→合法则落账，越权则拒写| 锚:debtcore.seat-ledger/occupancy.check",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1189,
+    "total_tokens": 1417,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1058
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
