@@ -32,7 +32,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-11-06",
+    "date": "2026-11-07",
     "beacon_comments": 0
   },
   "qgl_head": "e2e54a43e4185cf3282b490d070adfd0b6a8a93c",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 991,
+  "seg_cursor": 992,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -403,11 +403,6 @@
     "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:TASK-USRM-QLV-SHA-ANCHOR-02.json",
       "note": "lane任务件候机答/转派",
@@ -1614,9 +1609,14 @@
       "id": "lanetask:TASK-QLV-SPECTRA-01-20260911T0155Z.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-11-06T23:19:54Z"
+    },
+    {
+      "id": "lanetask:TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-11-07T01:54:26Z"
     }
   ],
-  "debt_backlog": 119,
+  "debt_backlog": 118,
   "lane_inbox_count_ci": 32,
   "ucif2_seen": [],
   "fedeye_seen": [
