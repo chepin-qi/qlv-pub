@@ -3038,3 +3038,6 @@
 {"ts": "2026-11-07T08:33:43Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-07T08:43:43Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-07T08:43:43Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-07T08:43:51Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-07T08:53:55Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-07T08:53:55Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 603.5, "ev_n": 0}
