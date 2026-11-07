@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T12:02:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T120-b99531eb.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属auto-otp JSON覆写位指令(ref:b99531eb)|性态:摘要仅标\"→覆写位\"，未实测文件哈希及目标位现态，属未校验覆写请求；未触发/未响应待区分，不编数|建议处置:按AUTH-OTP-02校验ref完整性后次次落账执行覆写，裸候下游响应，不越真机钱面|锚:debtengine.seat/auto-otp任务流/OTP-02落账协议",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1134,
+    "total_tokens": 1358,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1009
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
