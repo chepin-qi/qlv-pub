@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T10:19:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist促件升至第17级，触发分布维实测替换骨架(XCHK)催收线| 性态:属技术债务候催升级，无实测数据填入，骨架替换状态未触发终态响应| 建议处置:维持裸候，不主动外呼；落账第17级悬账，待XCHK实测回执后再裁决是否继续escalation| 锚:挂运维审计线(os-audit-esc)及契约冻结面(contract-void-hold)",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 864,
+    "total_tokens": 1086,
+    "completion_tokens_details": {
+      "reasoning_tokens": 740
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

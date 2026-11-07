@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T10:18:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-exp016-xchk触发促件升级(nudge.escalate)，级数升至第17级，属EXP-016交叉验证回件(xchk)。| 性态:该件处于自动催收末段，17级示多轮触达未闭环；当前为系统促件，债务方响应状态未确认，属裸候态。| 建议处置:依WAKE-PROTO扫描→细收→裁决→落账；17级须裁决前复核EXP-016交叉验证回传完整性，排查部分清偿。若持续裸候，按AUTH-OTP-02诚实边界次次落账，转呆账或法诉预备。| 锚:征信回执线/EXP-016源线。",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1472,
+    "total_tokens": 1687,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1302
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

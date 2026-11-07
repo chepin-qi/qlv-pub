@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T10:18:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-seg9-verify促件升至第17级，塔⑨段五件效验(runs直读)| 性态:nudge.escalate，债务侧裸候压件；未触发效验响应，无实测runs数据，诚不编数| 建议处置:细收五件直读状态，裁决落账阈值；未达则次次落账标记17级，维持裸候，不越真机钱面| 锚:AUTH-OTP-02(裸候/诚实边界); WAKE-PROTO(细收→裁决); 米田边律(他线锚)",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1367,
+    "total_tokens": 1591,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1220
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
