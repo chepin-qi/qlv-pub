@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:09:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件 debt-20260912-orbit-cap03-ring 自发环巡归 escalate 至第17级| 性态:CAP-03环巡自债候高阶堆叠，clock=VOID 故时标冻结，属系统内生 nudge 升级，未涉真机钱面| 建议处置:核验环巡上限，17级若触顶即封增，落账为裸候态；不刷屏、不越真机钱面、不主动外求回应，次次落账| 锚:AUTH-OTP-02裸候条款 / 米田边律他线锚定",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1273,
+    "total_tokens": 1490,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1132
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

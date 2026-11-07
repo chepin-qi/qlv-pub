@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:08:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap01-bypass促件升至第17级,CAP-01旁路补位滞qfa约19h| 性态:高阶裸候,未触发实机钱面动作,第17级属序列爬升| 建议处置:维持裸候,不主动外呼,不越真机钱面,次次落账备查;滞qfa≥24h再议| 锚:VOID钟锚/CAP-01主链路缺省态",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1404,
+    "total_tokens": 1631,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1286
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:09:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap02-lgt 促件自债候，CAP-02下下站旁路权行使已堆叠至第17级升级。| 性态: nudge.escalate，属高频复催跨越阈值，旁路权持续激活但无应答反馈，处于裸候高压态。| 建议处置: 次次落账，冻结进一步主动升压；维持CAP-02旁路权备案，不越真机钱面，裸候不唤，仅记痕。| 锚: 参照CAP-02下下站旁路权行使规则，17级触顶需收束而非外扩。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 870,
+    "total_tokens": 1092,
+    "completion_tokens_details": {
+      "reasoning_tokens": 721
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

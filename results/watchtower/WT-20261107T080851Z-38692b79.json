@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:08:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-edge-throttle促件升至第17级，器课十二株边缘限流族立档未决，子项冷却突发律、git道绕行、HTTP/1.1方候结| 性态:nudge.escalate，债候积压；未触发实测，不编数，原档触发未响应，非未触发| 建议处置:细收三子项边界条件，裁决拆分或合并后落账；依AUTH-OTP-02裸候，不主动寻求回应，次次落账| 锚:debt-infra-2026-Q3-edge-policy(他线锚)",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1102,
+    "total_tokens": 1335,
+    "completion_tokens_details": {
+      "reasoning_tokens": 955
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
