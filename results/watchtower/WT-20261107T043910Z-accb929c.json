@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T04:38:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-USRM-QLV-SHA-ANCHOR-02.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收到SI1专属债自驱任务覆写位请求，ref锚定TASK-USRM-QLV-SHA-ANCHOR-02.json，摘要标识为覆写位操作。| 性态:属配置层位覆写，未触发执行态变更，当前为静态覆写待落账。| 建议处置:校验SI1覆写授权边界，确认.jsonschema完整性，执行落账并裸候回执。| 锚:usrm.qlv.sha.anchor-01.taskledger",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 939,
+    "total_tokens": 1165,
+    "completion_tokens_details": {
+      "reasoning_tokens": 821
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
