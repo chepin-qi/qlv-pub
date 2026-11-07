@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T09:14:14Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TRG-USRM-PING-01-20260912T1255Z.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1债自驱覆写位到件,ref=TRG-USRM-PING-01| 性态:触发态;系单向状态覆写,响应体未明,未实测不编数| 建议处置:按SI1规程直落覆写账,不回溯,裸候下一心跳| 锚:cross-seal@qlv-void|debtengine.seat覆写属单向注入,无应答链",
+  "usage": {
+    "prompt_tokens": 232,
+    "completion_tokens": 1262,
+    "total_tokens": 1494,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1160
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
