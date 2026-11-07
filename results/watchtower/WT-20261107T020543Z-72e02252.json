@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T02:05:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat协签获取任务到件,SI1专属覆写位,ref指向lanetask TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md,属债自驱流程| 性态:系统内自驱覆写位操作,非人工钱面,无外部触发,当前状态为文件级任务落账点| 建议处置:扫描确认ref文件存在即落账,不主动外呼裸候,由SI1自驱完成覆写,次次落账| 锚:debtengine.seat→lanetask:QLV-COSIGN-FETCH链",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 996,
+    "total_tokens": 1238,
+    "completion_tokens_details": {
+      "reasoning_tokens": 847
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

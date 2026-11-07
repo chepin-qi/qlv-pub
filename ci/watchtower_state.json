@@ -32,16 +32,16 @@
       0,
       0,
       0,
-      1,
       0,
       0,
       0,
       0,
-      0
+      0,
+      1
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
+    "dominant_bin": 11,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1613,7 +1613,7 @@
     {
       "id": "lanetask:TASK-USRM-QLV-COSIGN-FETCH-01-20260911T0230Z.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-07T01:54:26Z"
+      "ts": "2026-11-07T02:05:06Z"
     }
   ],
   "debt_backlog": 118,
