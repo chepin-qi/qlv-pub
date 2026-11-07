@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T04:49:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-USRM-QLV-SHA-ANCHOR-02.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属任务覆写位映射，ref指向lanetask:TASK-USRM-QLV-SHA-ANCHOR-02.json，单会话无附加载荷| 性态:配置层虚位覆写，未触发资金面实操，属锚点占位态；无实测数不编录| 建议处置:按OTP-02落账为覆写位占位，裸候后续驱动，不主动求应；待下件核销| 锚:lanetask:TASK-USRM-QLV-SHA-ANCHOR-02.json",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1075,
+    "total_tokens": 1301,
+    "completion_tokens_details": {
+      "reasoning_tokens": 942
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
