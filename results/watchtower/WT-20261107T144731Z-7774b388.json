@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T14:47:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T120206-7c5ccb30.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属债自驱任务覆写位(debtengine.seat)，ref指向lanetask:auto-otp-20260906T120206-7c5ccb30.json。| 性态:覆写位落账完成；clock=VOID，无实测流，未触发与触发未响应不可辨，严守诚实边界。| 建议处置:依AUTH-OTP-02次次落账，裸候不刷屏，不越真机钱面；待实测信号后扫描覆写完整性再裁决。| 锚:lanetask:auto-otp-20260906T120206-7c5ccb30.json",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 977,
+    "total_tokens": 1207,
+    "completion_tokens_details": {
+      "reasoning_tokens": 837
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
