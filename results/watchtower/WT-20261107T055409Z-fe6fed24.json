@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T05:53:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件escalate，ref debt-20260912-keydark-drill，断钥一日生存演练(0926)升至第17级| 性态:演练锚定件，无实机钱面越界，属压力测试/预案校验，当前为轻推升级，未触发实偿响应| 建议处置:维持裸候，不主动外呼；记录escalate路径与断钥阈值；待0926演练窗口关闭后落账归档| 锚:drill-ops压力测试线/债务预案校验帧",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 922,
+    "total_tokens": 1139,
+    "completion_tokens_details": {
+      "reasoning_tokens": 797
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T05:54:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件自债候 debt-20260912-inbox-purge，qlv巷152件机读排空后 escalation 至第17级| 性态:机读空转，未触发真机响应；系系统催态自累，非人工实测| 建议处置:次次落账，记L17裸候；不越真机钱面，不主动外求回应，冻结 escalation 待真机下件| 锚:巷机排空为纯自动行为，未涉实测，不编数，守诚实边界。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1740,
+    "total_tokens": 1956,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1614
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
