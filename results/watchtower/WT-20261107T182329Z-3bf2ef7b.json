@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T18:22:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "e629e725",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa仓库main分支HEAD迁移，由0959b574前移至e629e725| 性态:常规版本推进/代码迭代beat，属正常ref变更| 建议处置:1.核验新头commit签名与CI通过状态；2.确认迁移路径无异常快进或合流；3.归档ref变更日志。当前无需拦截| 锚:git-obj锚:e629e725树完整性与父链校验; beat锚:该迁移是否触发下游qfa构建流水线",
+  "usage": {
+    "prompt_tokens": 194,
+    "completion_tokens": 1317,
+    "total_tokens": 1511,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1202
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
