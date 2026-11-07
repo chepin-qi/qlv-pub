@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T05:41:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件自债候 ref=debt-20260912-keydark-drill，断钥一日生存演练(0926) escalation 至第17级，clock=VOID 无时效锚定。| 性态:属债务侧压力测试之 nudge.escalate，演练态等级推进，无实测偿付响应，按「触发未响应」悬空件论。| 建议处置:遵裸候原则不主动追呼，次次落账记录等级变迁，待 0926 演练窗口失效后核销或转实触发。| 锚:关联 keydark 断钥场景下债权连续性之应急承压谱系。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1048,
+    "total_tokens": 1265,
+    "completion_tokens_details": {
+      "reasoning_tokens": 904
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

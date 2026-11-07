@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T05:41:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge nudge.escalate| 性态:qlv巷152件机读排空候件压至第17级促，属自债内循环积压，未触发人审接口，裸候态| 建议处置:依WAKE-PROTO裁决落账，守AUTH-OTP-02不越真机钱面，不主动外寻回应，次次裸候待清| 锚:cross-ref.finance-void.debt-purge.lv17",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1025,
+    "total_tokens": 1241,
+    "completion_tokens_details": {
+      "reasoning_tokens": 906
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

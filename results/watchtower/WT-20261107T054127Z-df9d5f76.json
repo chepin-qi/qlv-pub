@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T05:40:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件escalate|ref=debt-20260912-lgt-kscan，binmap k∈[6,14]卡方扫描落第17级|性态:候件超稳态被动升级；卡方值未实测不编数，暂无法区分未触发与触发未响应|建议处置:遵WAKE-PROTO回扫细收，裸候不主动求应，次次落账，不越真机钱面|锚:cross-ref:ledger-void/pool/20260912",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1454,
+    "total_tokens": 1681,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1332
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
