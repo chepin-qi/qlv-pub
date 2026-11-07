@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:22:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-orbit-cap03-ring经CAP-03自发环巡归升至第17级| 性态:单线内自动escalation，系统循环催收节点，未触发他线交叉| 建议处置:执行WAKE-PROTO落账；遵AUTH-OTP-02裸候，不主动寻求回应、不越真机钱面，次次落账归档| 锚:未触发他线锚定/单线自足，clock=VOID，无实测外响应",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1088,
+    "total_tokens": 1305,
+    "completion_tokens_details": {
+      "reasoning_tokens": 968
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

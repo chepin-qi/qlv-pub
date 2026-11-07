@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:21:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap01-bypass，CAP-01旁路补位债候滞qfa~19h促至第17级| 性态:纯nudge.escalate息压，未涉真机钱面划转；滞时系系统标值，未实测，不编数| 建议处置:裸候。不主动求应，待CAP-01主路复归或他线确权后补落账，今仅级次留痕| 锚:CAP-01主路确权线/结算对账线",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1352,
+    "total_tokens": 1579,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1222
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

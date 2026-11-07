@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:20:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：促件升级。债候debt-20260912-edge-throttle因边缘限流族立档（冷却突发律+git绕行+HTTP/1.1方）积压至第17级。| 性态：器课第十二株裸候态升级，未触发与触发未响应边界不清，存立档真空及流程绕行风险。| 建议处置：依AUTH-OTP-02次次落账，即刻裁决：或补立档入册，或明令废弃留痕；禁无账绕行。| 锚：WAKE-PROTO裁决→落账节；他线锚：HTTP/1.1队头阻塞与git hook预检同属边缘限流族实践（RFC 7230 §6.3 / git-scm）。",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1683,
+    "total_tokens": 1916,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1514
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

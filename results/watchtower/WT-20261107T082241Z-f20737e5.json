@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T08:22:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-orbit-cap02-lgt因CAP-02下下站旁路权行使升至第17级| 性态:属规则内压力递增，旁路权已呈递但实效未实测；未触发真机钱面越界，裸候态持续| 建议处置:不扩频、不刷屏，维持裸候；次次落账，待终局条件或对端响应| 锚:参照CAP-02旁路权先例链及债务轨道通用候偿规程",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1032,
+    "total_tokens": 1254,
+    "completion_tokens_details": {
+      "reasoning_tokens": 911
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
