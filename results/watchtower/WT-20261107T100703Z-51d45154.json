@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T10:06:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk交叉验证回件第17级促发 | 性态:裸候态，EXP-016核验后原债悬置，系触发未响应累积至第17级，未达清结阈值 | 建议处置:维持裸候，不主动催收，次次落账，不越真机钱面；候他线响应 | 锚:debt-20260912-exp016主件流水/EXP-016校验协议存档（他线）",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1318,
+    "total_tokens": 1533,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1201
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

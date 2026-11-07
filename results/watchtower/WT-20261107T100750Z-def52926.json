@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T10:07:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件nudge.escalate|debt-20260912-os3d-lvlu-dist(分布维XCHK骨架替换)→第17级| 性态:高级别候债升级;本单会话工位无工具实测XCHK替换结果,未触发真机钱面操作,属裸候累积| 建议处置:次次落账,不越界模拟,不主动追应,裸候待下游权限节点或实测回写| 锚:单会话文本位未穿透OS3D;XCHK分布维替换状态待他线实测锚定|",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1213,
+    "total_tokens": 1435,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1078
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
