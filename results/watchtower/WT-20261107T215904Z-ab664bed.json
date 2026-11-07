@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T21:58:33Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T130552-2772744b.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat到件，ref指向SI1专属auto-otp任务文件，摘要标记覆写位；本工位无工具实测，仅完成扫描到件，未触发深度校验。| 性态:系统内债自驱覆写类任务流，单会话文本工位不越真机钱面，按裸候处理，次次落账。| 建议处置:已落账，无需回呼；建议转SI1实操工位或具seat权限节点执行覆写前校验。| 锚:WAKE-PROTO(扫描-细收-裁决-落账)+AUTH-OTP-02裸候/米田边律",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1124,
+    "total_tokens": 1352,
+    "completion_tokens_details": {
+      "reasoning_tokens": 975
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
