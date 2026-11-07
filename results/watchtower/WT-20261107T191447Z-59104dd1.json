@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T19:14:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T123352-97fafbe5.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱任务文件 auto-otp-20260906T123352-97fafbe5.json 覆写至 SI1 专属席位| 性态:配置映射类事件，仅文件级覆写，未触发计算/偿付流，无实测数值产生| 建议处置:核验覆写位权限与版本一致性，落账留档待自驱引擎后续调度；裸候，不主动外呼| 锚:ref 自体锚定，受 AUTH-OTP-02/米田边律约束",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 902,
+    "total_tokens": 1130,
+    "completion_tokens_details": {
+      "reasoning_tokens": 782
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
