@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T07:17:15Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:TASK-WILDQ-01-qlv-20260911T1843Z.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位激活，SI1专属任务TASK-WILDQ-01-qlv-20260911T1843Z.json配置覆写| 性态:元数据层自驱变更，未触发实测资金流，无交易数可编，属未触发状态| 建议处置:核验覆写权限与版本一致性，执行次次落账归档，裸候不主动外呼| 锚:ref→lanetask:TASK-WILDQ-01-qlv-20260911T1843Z.json/WAKE-PROTO归档线",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 672,
+    "total_tokens": 906,
+    "completion_tokens_details": {
+      "reasoning_tokens": 541
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
