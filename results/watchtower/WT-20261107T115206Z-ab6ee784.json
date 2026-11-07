@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-07T11:51:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T120-b99531eb.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat:SI1专属任务lanetask:auto-otp-20260906T120-b99531eb.json执行覆写位|性态:AUTO-OTP自驱覆写，clock=VOID，未触发实测资金面，属系统内裸候态，无越真机钱面|建议处置:扫描→细收→裁决落账：确认覆写位已落账，次次落账完成，不主动寻求回应|锚:AUTH-OTP-02裸候条款/WAKE-PROTO落账律/SI1自驱边界",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1057,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "reasoning_tokens": 929
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
