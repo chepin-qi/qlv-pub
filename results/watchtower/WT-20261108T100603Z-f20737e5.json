@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T10:05:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件nudge.escalate|自债候debt-20260912-orbit-cap02-lgt于CAP-02下下站旁路权行使序列达第18级,未触发真机钱面响应。|性态:属旁路权能透支压栈,非违约激活态。未实测到账/复位,不编结清数;18级为单线计数溢出,无他线权能核验。|建议处置:停频压,不越真机钱面;落账封存,裸候CAP-02下下站权能复位或真机触发后二次裁决。|锚:ORBIT-CAP02旁路权日志链;他线锚:下下站旁路压栈共识。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1542,
+    "total_tokens": 1764,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1377
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

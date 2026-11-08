@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T10:04:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位自债候(debt-20260912-orbit-cap01-bypass)滞qfa~19h，促件升至第18级| 性态:自动候补队列旁路通道滞留，属nudge.escalate；未触发补位或触发未响应尚待辨，诚不编数| 建议处置:维持裸候，不越真机钱面；投必有件，待实测响应后次次落账，勿刷屏| 锚:[orbital-qfa] he-ledger",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 976,
+    "total_tokens": 1203,
+    "completion_tokens_details": {
+      "reasoning_tokens": 851
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
