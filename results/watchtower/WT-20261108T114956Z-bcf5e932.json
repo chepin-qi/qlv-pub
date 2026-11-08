@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T11:49:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T145243-379ca852.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: auto-otp任务文件(lanetask:auto-otp-20260906T145243-379ca852.json)进入SI1专属覆写位 | 性态: 债自驱通道覆写触发，属席位级文件重定向；未获前置状态实测值，无法区分原席未占用/已占用未响应 | 建议处置: 按AUTH-OTP-02核验OTP签名与覆写前镜像，一致性确认后落账；若状态冲突则挂起裸候，不主动刷屏 | 锚: [ledger.cross]覆写位变动需双工位确认",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 748,
+    "total_tokens": 974,
+    "completion_tokens_details": {
+      "reasoning_tokens": 613
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

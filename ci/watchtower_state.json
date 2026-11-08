@@ -32,16 +32,16 @@
       0,
       0,
       0,
+      1,
       0,
       0,
       0,
       0,
-      0,
-      1
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1613,7 +1613,7 @@
     {
       "id": "lanetask:auto-otp-20260906T145243-379ca852.json",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-08T11:38:47Z"
+      "ts": "2026-11-08T11:49:34Z"
     }
   ],
   "debt_backlog": 105,
