@@ -36,12 +36,12 @@
       0,
       0,
       0,
-      4,
+      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1091,
+  "seg_cursor": 1092,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -125,19 +125,19 @@
       "n": 18
     },
     "debt-20260912-edge-throttle": {
-      "t": 1794132266.4870021,
+      "t": 1794131535.2519531,
       "n": 18
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1794132266.487008,
+      "t": 1794131535.2519596,
       "n": 18
     },
     "debt-20260912-orbit-cap02-lgt": {
-      "t": 1794132266.48701,
+      "t": 1794131535.251961,
       "n": 18
     },
     "debt-20260912-orbit-cap03-ring": {
-      "t": 1794132266.4870114,
+      "t": 1794131535.251962,
       "n": 18
     },
     "debt-20260912-tower-seg9-verify": {
