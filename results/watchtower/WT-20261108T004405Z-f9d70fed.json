@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T00:43:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T134248-de925e26.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属auto-otp任务(lanetask:auto-otp-20260906T134248-de925e26.json)，指令指向覆写位。| 性态:属债自驱引擎内控自动化流转，由auto-otp触发席位覆写。当前仅见摘要下发，未实测执行回执、授权校验及落账状态，判为触发未响应裸候件。| 建议处置:依AUTH-OTP-02，必须稽核授权令牌与次次落账回执；无回执则挂起裸候，不越真机钱面，不主动寻求回应。| 锚:lanetask主链路审计锚。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1131,
+    "total_tokens": 1357,
+    "completion_tokens_details": {
+      "reasoning_tokens": 977
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
