@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T17:10:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T013326-9aa7605a.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 收到 SI1 债自驱覆写位，ref 为 auto-otp 20260907 任务文件。| 性态: 仅摘要到达，未触发实测；无法区分覆写位是「未触发」或「触发未响应」，无真机钱面交互凭证。| 建议处置: 执行 WAKE-PROTO 落账为索引登记，不越界覆写；按 AUTH-OTP-02 裸候 SI1 二次投件，如需执行须补实测锚件。| 锚: ref:lanetask:auto-otp-20260907T013326-9aa7605a.json; xline:debtledger/SI1-覆写待决",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1417,
+    "total_tokens": 1647,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1254
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
