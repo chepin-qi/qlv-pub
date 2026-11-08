@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T18:44:05Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "bbe81e1c",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主分支HEAD迁移，ref由e629e725更新至bbe81e1c，属代码库引用变更。| 性态:常规提交/合并推进，无告警标识，未触发异常响应，亦无阻塞迹象。| 建议处置:按落账原则记备该次ref漂移；校验bbe81e1c是否经CI门禁及审计签名，持续裸候后续beat。| 锚:git-ref(bbe81e1c)/main-head-drift",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 824,
+    "total_tokens": 1020,
+    "completion_tokens_details": {
+      "reasoning_tokens": 714
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
