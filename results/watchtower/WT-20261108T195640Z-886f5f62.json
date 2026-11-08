@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T19:56:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T014216-b0aee5fe.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat SI1专属覆写位，ref=auto-otp-20260907T014216-b0aee5fe.json，clock=VOID。| 性态:系统自驱配置覆写，未触发资金交割（摘要无资金字段），属席位参数重映射；因clock=VOID，时态锚定失效，需区分「未触发」与「触发未响应」——当前仅为覆写位指令到件，无实测响应数据。| 建议处置:1)核验覆写前后席位diff，防止越权抹账；2)补录有效clock或标记VOID原因；3)若涉债权参数变更，次次落账并回传底账校验。| 锚:debtengine.seat/SI1覆写位/auto-otp JSON/clock_VOID",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1022,
+    "total_tokens": 1252,
+    "completion_tokens_details": {
+      "reasoning_tokens": 842
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
