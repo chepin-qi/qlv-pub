@@ -33,7 +33,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1072,
+  "seg_cursor": 1073,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1613,7 +1613,7 @@
     {
       "id": "lanetask:auto-otp-20260906T140133-7de41fd7.json",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-08T03:38:31Z"
+      "ts": "2026-11-08T03:27:47Z"
     }
   ],
   "debt_backlog": 108,
