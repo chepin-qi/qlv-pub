@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T12:52:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-tower-seg9-verify升至L18| 性态:塔⑨段五件效验runs直读,属债候内部escalation链,级跳未触发外场实测,无裸候外响应| 建议处置:WAKE-PROTO裁决→校验seg9五件runs直读一致性→落账;若持续无响应则锁锚待决| 锚:debt-20260912-tower-seg9-verify/L18",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 869,
+    "total_tokens": 1093,
+    "completion_tokens_details": {
+      "reasoning_tokens": 754
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

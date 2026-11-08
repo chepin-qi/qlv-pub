@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T12:53:08Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件 debt-20260912-exp016-xchk 因 EXP-016 交叉验证回件触发第18级促件升级(nudge.escalate)| 性态:属高频裸候累积，交叉验证链路持续未闭环，本次为自动 escalation 机械升级，无新增实质要件；未触发真机钱面异常，亦未产生人工响应| 建议处置:止刷屏，冻结自动升级序列，落账为「候验挂账」态；设裸候时钟，待真机回件或人工勘验前不再主动 nudge| 锚:同宗主件 debt-20260912 及 EXP-016 交叉验证规约条款",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1179,
+    "total_tokens": 1394,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1024
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

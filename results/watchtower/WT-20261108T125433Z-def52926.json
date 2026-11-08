@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T12:53:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist促件escalate至第18级，分布维XCHK骨架替换实测完成| 性态:骨架级触发态，真机钱面边界未越，属待落账候场| 建议处置:裸候不主动求应，按WAKE-PROTO裁决→落账；响应回流前不编未测数，次次落账| 锚:同ref入lvlu-dist账册，挂XCHK骨架校验链为他线锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1194,
+    "total_tokens": 1416,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1073
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
