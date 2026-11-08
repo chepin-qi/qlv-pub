@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T06:12:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T140541-afad5c06.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位,ref=lanetask:auto-otp-20260906T140541-afad5c06.json,SI1专属债自驱任务,无实测触发/响应数据| 性态:覆写位待决,未触发裸候态| 建议处置:细收覆写目标位一致性,次次落账,不越真机钱面,裸候不主动寻应| 锚:cross-ref:otp-seat:si1-debtengine-ledger-sync",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1110,
+    "total_tokens": 1338,
+    "completion_tokens_details": {
+      "reasoning_tokens": 991
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
