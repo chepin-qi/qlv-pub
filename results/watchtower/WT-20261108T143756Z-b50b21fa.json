@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T14:37:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T161540-aab562b3.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位到件|性态:到件已触发，真机响应未实测，VOID时钟，不编数|建议处置:裸候不刷，不越钱面，待实机落账后补全|锚:ref@auto-otp-20260906T161540-aab562b3.json/SI1覆写位;他线锚:debtengine.seat未实测状态",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1969,
+    "total_tokens": 2197,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1867
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
