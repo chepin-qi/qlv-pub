@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T22:30:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T021520-c22a1096.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 接收 SI1 债自驱覆写位(ref: lanetask:auto-otp-20260907T021520-c22a1096.json)| 性态: 系统自驱覆写，未触发异常阻断；属 OTP 任务流正常位更新，无未落账冲突表征| 建议处置: 依 AUTH-OTP-02 次次落账执行覆写确认，裸候回执，不主动寻求响应；异常则转拦截| 锚: crossline://otp-ledger/覆写校验#v2.1",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1219,
+    "total_tokens": 1447,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1087
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
