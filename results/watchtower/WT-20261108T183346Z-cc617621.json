@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T18:33:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "bbe81e1c",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主链头指针迁移(e629e725→bbe81e1c)|性态:版本控制常规beat，头引用正常前移，属预期内提交落账，无异常分支或回退迹象|建议处置:归档备查，无需拦截；若后续beat跳变或孤儿提交连发，再触发细收|锚:git-rev-parse/heads/main",
+  "usage": {
+    "prompt_tokens": 196,
+    "completion_tokens": 585,
+    "total_tokens": 781,
+    "completion_tokens_details": {
+      "reasoning_tokens": 496
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
