@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T09:52:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap01-bypass（CAP-01旁路补位）于qfa滞留约19h，触发促件并升至第18级|性态:旁路补位类债务工单超期未决，escalation已达高阶节点，存在流程淤积及过度升级风险|建议处置:①根因核查（区分未触发/触发未响应）；②验证CAP-01旁路有效性与补位覆盖；③收敛升级链，冻结空转|锚:cross→qfa-ttl/T-19h（超时升级阈值锚）",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1297,
+    "total_tokens": 1524,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1163
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

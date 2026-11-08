@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T09:53:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：debt-20260912-orbit-cap03-ring自债候促件升至第18级，CAP-03自发环巡归触发。| 性态：系统环巡未获响应后的自动escalation，当前无实体介入，属裸候空转，已越常规静默阈值。| 建议处置：恪守不主动寻求回应原则，冻结升级链，次次落账后归档，待实体回拨或满期自动出表。| 锚：heimu-ledger/void-audit双线备查。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 735,
+    "total_tokens": 952,
+    "completion_tokens_details": {
+      "reasoning_tokens": 615
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
