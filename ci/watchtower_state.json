@@ -27,21 +27,21 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       1,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 1,
+    "dominant_bin": 10,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1613,7 +1613,7 @@
     {
       "id": "lanetask:auto-otp-20260907T013326-9aa7605a.json",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-08T17:10:56Z"
+      "ts": "2026-11-08T17:21:43Z"
     }
   ],
   "debt_backlog": 103,

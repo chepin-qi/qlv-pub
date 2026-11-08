@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T17:21:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T013326-9aa7605a.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat接收lanetask:auto-otp-20260907T013326-9aa7605a.json，SI1债自驱流程触发覆写位。| 性态:系统自动覆写位动作，无人工介入，未触实机钱面，属常规席位配置流转。| 建议处置:核对SI1专属参数与覆写位一致性后落账；裸候，不主动求应。| 锚:debtengine.seat|lanetask:auto-otp|SI1覆写位",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 991,
+    "total_tokens": 1221,
+    "completion_tokens_details": {
+      "reasoning_tokens": 870
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
