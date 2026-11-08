@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:16:23Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件 debt-20260912-keydark-drill 断钥一日生存演练(0926) escalate至第18级，债候长期悬置。| 性态:件面呈\"触发未响应\"态，候时纵深但无演练资源到位实测数，不越真机钱面臆断偿付力。| 建议处置:按裸候原则，不再主动追加声压，次次落账，待0926演练日自然校验并归档。| 锚:演练-物资校验线/生存储备日志",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1103,
+    "total_tokens": 1320,
+    "completion_tokens_details": {
+      "reasoning_tokens": 983
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

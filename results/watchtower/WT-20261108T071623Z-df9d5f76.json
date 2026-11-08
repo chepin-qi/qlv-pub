@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:15:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-lgt-kscan促件升至第18级，源起binmap k∈[6,14]卡方扫描自由度商像观测线。| 性态:自动Escalate，属候债池阈值穿透后的机内自旋；未触发真机钱面操作，无外部响应需求，属未触发实测态。| 建议处置:裸候。按AUTH-OTP-02不主动寻应，维持VOID时钟空转；待次次落账周期到点再裁决，此刻严守不越钱面。| 锚:锚至WAKE-PROTO扫描层k-bin正则集；并线锚AUTH-OTP-02裸候条款作他线校验。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1125,
+    "total_tokens": 1352,
+    "completion_tokens_details": {
+      "reasoning_tokens": 964
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

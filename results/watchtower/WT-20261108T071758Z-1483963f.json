@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:17:32Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-tower-verify因塔FIX-08/09/10效验及runs归正未结，升至第18级促件。| 性态:长线债候积压，效验链悬置，属被动escalate，未触发闭合信号。| 建议处置:①复核塔FIX-08/09/10效验日志，区分「未触发vs触发未响应」；②推进runs归正，逐条落账不刷屏；③未实测项留空不编数；④按AUTH-OTP-02裸候，不主动索应。| 锚:MAINT-2026-TOWER-CYCLE-03",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 875,
+    "total_tokens": 1095,
+    "completion_tokens_details": {
+      "reasoning_tokens": 724
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

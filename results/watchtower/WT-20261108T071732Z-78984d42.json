@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:16:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge自债候促件，qlv巷152件机读排空，escalation至第18级| 性态:内旋空转。机读已实质处理，级数自旋未落账，属伪高催| 建议处置:核验152件机读排空实态。若确已清空，即刻落账关闭本件，终止第18级空转；若有未决，裸候不刷，逐件次次落账| 锚:clock=VOID/qlv巷末级旋",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1249,
+    "total_tokens": 1465,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1118
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
