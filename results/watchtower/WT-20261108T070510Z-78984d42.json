@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:04:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-inbox-purge 自债候机读排空152件，escalation触顶第18级| 性态:机读后未人工复核落账，系统自动purge并持续升级，属空转积压或真遗漏待甄别| 建议处置:即刻冻结第18级告警；倒查152件机读日志，未落账件补录，确认空转则打标归档；裸候人巡| 锚:qlv巷机读purge规则同debt-2026系批次，参照同巷第17级先例锚",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 965,
+    "total_tokens": 1181,
+    "completion_tokens_details": {
+      "reasoning_tokens": 833
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

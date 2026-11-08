@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:03:42Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-lgt-kscan促件升至第18级，触发binmap k∈[6,14]卡方扫描观测选择自由度商像。| 性态:自动化escalate信号；k区间显示统计偏离。clock=VOID，未触发实测响应，状态为\"系统自旋/触发未确认\"，无真机钱面实测数据。| 建议处置:按WAKE-PROTO落账；维持裸候，不主动外呼/扣划；设熔断阈值第20级，冻结自动升级，候人工复核。| 锚:交叉锚定同批次lgt线邻日候件(debt-20260911/13-lgt-kscan)的k-scan分布，以辨个案异常或批次自由度塌缩。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1221,
+    "total_tokens": 1448,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1049
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

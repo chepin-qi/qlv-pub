@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:04:19Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-keydark-drill升至第18级| 性态:drill演练，非真机钱面，属断钥生存压力测试| 建议处置:依演练协议硬落账，不越真机钱面，裸候归档，不主动求应| 锚:debt候场演练锚",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 794,
+    "total_tokens": 1011,
+    "completion_tokens_details": {
+      "reasoning_tokens": 711
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

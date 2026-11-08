@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T07:05:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-tower-verify因塔FIX-08/09/10效验与runs归正未结，被催升至第18级。| 性态:级次过载，属压力传导态，实质仍缺效验闭环，未达核销或终裁触发点。| 建议处置:裸候停促，不越真机钱面；待效验归正后逐笔落账，不主动求回应。| 锚:塔线候债过15级者，按常例压栈静默，不再接受无件空转。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 965,
+    "total_tokens": 1185,
+    "completion_tokens_details": {
+      "reasoning_tokens": 832
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
