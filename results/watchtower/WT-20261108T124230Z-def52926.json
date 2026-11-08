@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T12:41:58Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件 debt-20260912-os3d-lvlu-dist 经分布维实测替换骨架(XCHK)递达第18级促件节点。| 性态:系统内 escalated nudge，未附实测响应，属裸候态，无越真机钱面之实。| 建议处置:依AUTH-OTP-02次次落账，不主动索应，裸候他线实测回传；骨架替换已收讫，不刷屏。| 锚:XCHK级数锚定同维debt-routing他线判例骨架替换阈值。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1251,
+    "total_tokens": 1473,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1118
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

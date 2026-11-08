@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T12:41:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk(EXP-016交叉验证回件)自债候第18级促件升级| 性态:长候悬置,交叉验证回件未落账,触发nudge.escalate第18级;未实测真机钱面响应,属触发未响应态| 建议处置:循WAKE-PROTO扫描→细收→裁决→落账;维持裸候,不刷屏不越真机钱面;次次落账,满级移交真机| 锚:qlv线/nudge.escalate/debt-xchk-18级堆栈",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1507,
+    "total_tokens": 1722,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1363
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

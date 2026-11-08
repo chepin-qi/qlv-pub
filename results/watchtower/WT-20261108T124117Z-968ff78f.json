@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T12:40:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-seg9-verify塔⑨段五件效验促件升至第18级(runs直读),自债候裸候|性态:nudge.escalate,属自债务效验序列高阶促发,未越真机钱面,候件存续|建议处置:依WAKE-PROTO完成细收裁决落账;临界18级需备终裁或移交,保持裸候不主动寻求回应;runs直读诚实标记,未实测不编数|锚:塔系seg9效验池他线候件",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 971,
+    "total_tokens": 1195,
+    "completion_tokens_details": {
+      "reasoning_tokens": 837
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
