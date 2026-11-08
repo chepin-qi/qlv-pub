@@ -3302,9 +3302,12 @@
 {"ts": "2026-11-08T13:25:34Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-08T13:35:34Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-08T13:35:34Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-11-08T13:45:57Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-11-08T13:56:02Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-08T13:56:02Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.4, "ev_n": 0}
-{"ts": "2026-11-08T14:06:21Z", "kind": "beat.begin", "seg": "lanesweep"}
-{"ts": "2026-11-08T14:16:21Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-08T14:16:21Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-08T13:35:43Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-08T13:45:49Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-08T13:45:49Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.1, "ev_n": 0}
+{"ts": "2026-11-08T13:56:12Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-11-08T14:06:12Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-08T14:06:12Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-08T14:16:30Z", "kind": "beat.begin", "seg": "debtengine"}
+{"ts": "2026-11-08T14:26:30Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-08T14:27:00Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 629.9, "ev_n": 1}
