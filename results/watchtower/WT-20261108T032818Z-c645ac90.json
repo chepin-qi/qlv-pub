@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T03:27:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T140133-7de41fd7.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanetask:auto-otp-20260906T140133-7de41fd7.json覆写位到件，SI1债自驱引擎专属任务节点| 性态:系统内覆写位自驱，无真机钱面越界，未产生实测资金流动；状态裸候，未触发人机响应| 建议处置:按WAKE-PROTO裁决落账，校验覆写位与SI1死库一致性，封存该json座席件，不主动外询| 锚:AUTH-OTP-02「投必有件/次次落账」/debtengine.seat死库覆写规范",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1373,
+    "total_tokens": 1603,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1228
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
