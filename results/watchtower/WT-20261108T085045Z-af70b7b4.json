@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T08:50:01Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T143724-c5aa40e9.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat lanetask OTP文件(c5aa40e9)覆写位|性态:债自驱SI1专属覆写，无实测触发与响应，不编数；属静默位变更，未触发执行态|建议处置:遵AUTH-OTP-02投件落账，裸候不越真机钱面；复核覆写来源与seat域完整性后归档|锚:debtengine.core/seat-rewrite@lanetask-otp",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1307,
+    "total_tokens": 1537,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1195
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
