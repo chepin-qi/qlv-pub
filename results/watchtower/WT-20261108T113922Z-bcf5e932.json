@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-08T11:38:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260906T145243-379ca852.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 自驱 OTP 任务 SI1 专属触覆写位，ref 为 lanetask:auto-otp-20260906T145243-379ca852.json。| 性态: 自驱覆写，投必有件，无人工投件，属静默变更，不越真机钱面。| 建议处置: 扫描覆写位前后态，细收一致性，裁决无风险后次次落账，裸候不主动寻应。| 锚: auto-otp-20260906T145243-379ca852",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1318,
+    "total_tokens": 1544,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1189
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
