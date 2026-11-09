@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T12:50:41Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级，债候debt-20260912-tower-seg9-verify（塔九段五件效验runs直读）升至第19级。|性态:纯escalation信号。本工位无工具直读runs，未实测效验五件状态，诚实边界内无法区分「未触发」与「触发未响应」；第19级指示债候已多轮未落账。|建议处置:裸候不主动求应，已次次落账记备第19级；建议有权工位介入效验或释放锁止，避免空转。|锚:AUTH-OTP-02裸候/落账条款；米田边律每件≥1他线锚已足。",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1144,
+    "total_tokens": 1368,
+    "completion_tokens_details": {
+      "reasoning_tokens": 981
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

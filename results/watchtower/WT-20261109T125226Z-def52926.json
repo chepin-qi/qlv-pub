@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T12:51:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件到件|债候debt-20260912-os3d-lvlu-dist分布维实测触发骨架(XCHK)替换并升至第19级| 性态:系统内自动升级;骨架已更替;级数临阈;clock=VOID,外部实测未回传,处裸候态| 建议处置:循WAKE-PROTO扫描落账;挂账候决,不主动寻应;待实测补全后裁决,未实测不编数| 锚:XCHK骨架替换协议/第19级阈值线",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1350,
+    "total_tokens": 1572,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1224
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
