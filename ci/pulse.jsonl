@@ -3407,12 +3407,12 @@
 {"ts": "2026-11-09T00:44:46Z", "kind": "beat.begin", "seg": "debtengine"}
 {"ts": "2026-11-09T00:54:46Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-09T00:55:19Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 633.0, "ev_n": 1}
-{"ts": "2026-11-09T00:55:29Z", "kind": "beat.begin", "seg": "keyhealth"}
-{"ts": "2026-11-09T01:05:29Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-09T01:05:29Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
-{"ts": "2026-11-09T01:15:48Z", "kind": "beat.begin", "seg": "secrets-meta"}
-{"ts": "2026-11-09T01:25:48Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-09T01:25:48Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-11-09T01:36:08Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-11-09T01:46:08Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-09T01:46:08Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
+{"ts": "2026-11-09T01:05:39Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-11-09T01:15:39Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-09T01:15:39Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-09T01:25:57Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-11-09T01:35:58Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-09T01:35:58Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-09T01:46:18Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-09T01:56:18Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-09T01:56:18Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
