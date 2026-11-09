@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T06:12:47Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T025647-qlv.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属lanetask覆写位指令,ref=auto-otp-20260907T025647-qlv,摘要明示覆写动作| 性态:属债自驱系统内部席位覆写,未触发外部资金面操作,状态为待落账| 建议处置:执行WAKE-PROTO落账,覆写位确认后不越真机钱面,裸候不主动寻应| 锚:auth-otp-02/米田边律",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1046,
+    "total_tokens": 1270,
+    "completion_tokens_details": {
+      "reasoning_tokens": 928
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
