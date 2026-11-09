@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T10:47:06Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T030238-d074d2ba.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属lanetask覆写位指令,ref已扫| 性态:系统自驱覆写位动作,内建指令;实际数据变更未实测,不编数,处「指令到达/结果未响应」态| 建议处置:裁决内建覆写,本件已落账;无回应需求,裸候,不越真机钱面| 锚:lanetask:auto-otp/SI1他线",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1215,
+    "total_tokens": 1443,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1104
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
