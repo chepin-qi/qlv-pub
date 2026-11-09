@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T20:28:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T044346-4f93b720.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属任务auto-otp-20260907T044346-4f93b720.json触发覆写位| 性态:引擎级OTP自动覆写，系债务自驱流程之状态清算/位重置；摘要无异常上报，属常规落账覆写| 建议处置:核对覆写位与SI1预期债态一致，票据归档，无回执异常则裸候，不主动刷屏| 锚:#debtengine.seat→ref:lanetask:auto-otp-20260907T044346-4f93b720.json;SI1专属覆写域",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1491,
+    "total_tokens": 1721,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1349
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
