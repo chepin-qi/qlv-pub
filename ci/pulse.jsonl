@@ -3659,3 +3659,6 @@
 {"ts": "2026-11-09T21:09:41Z", "kind": "beat.begin", "seg": "pulse"}
 {"ts": "2026-11-09T21:19:53Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-09T21:19:53Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.5, "ev_n": 0}
+{"ts": "2026-11-09T21:20:02Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-11-09T21:30:02Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-09T21:30:02Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
