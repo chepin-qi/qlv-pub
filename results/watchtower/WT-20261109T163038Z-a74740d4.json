@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T16:30:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b060aad4",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa主线头指针迁移，源bbe81e1c→目标b060aad4，属例行beat同步| 性态:正常落账，无冲突告警，未触发异常分支，变更单向推进| 建议处置:已收束，落账b060aad4；无需回退或干预；裸候后续beat| 锚:git-head-sync-protocol/line-qfa",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 769,
+    "total_tokens": 964,
+    "completion_tokens_details": {
+      "reasoning_tokens": 677
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
