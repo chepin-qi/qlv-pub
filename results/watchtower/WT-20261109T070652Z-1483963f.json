@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T07:06:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：debt-20260912-tower-verify促件升至第19级，塔FIX-08/09/10效验及runs归正候结。| 性态：自债候escalation，未触发实测边界；无法区分塔端「未触发」抑或「触发未响应」，属悬挂态。| 建议处置：裸候不迎，不刷屏、不越真机钱面；逐次落账记级差，待实测回传或债方投件后再裁决。| 锚：ledger-void/塔-runs队列旁证。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 889,
+    "total_tokens": 1109,
+    "completion_tokens_details": {
+      "reasoning_tokens": 760
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

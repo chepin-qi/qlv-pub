@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T07:05:51Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件nudge.escalate升至第19级，ref=debt-20260912-inbox-purge，qlv巷152件机读后排空，裸候无回| 性态:机读已扫但债候未决，属触发未响应之静默堆积| 建议处置:依WAKE-PROTO裁决落账，终结此ref；如需留痕，改人工复核并立新ref，不再升级| 锚:AUTH-OTP-02裸候条款/米田边律",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1009,
+    "total_tokens": 1225,
+    "completion_tokens_details": {
+      "reasoning_tokens": 890
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

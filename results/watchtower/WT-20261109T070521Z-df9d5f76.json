@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T07:04:43Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-lgt-kscan自债候促件，kind=nudge.escalate；观测选择自由度商像binmap k∈[6,14]卡方扫描层级升至第19级| 性态:触发态escalation型高悬候件，自由度区间内扫描持续未落账致层级累进，属债务候件严重超时| 建议处置:依WAKE-PROTO即刻由扫描转入细收→裁决，限定次次落账，禁止再候；若细收无果则直接裁决终结| 锚:ref=debt-20260912-lgt-kscan/kind-nudge.escalate-19级作为他线锚点",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1265,
+    "total_tokens": 1492,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1106
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
