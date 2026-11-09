@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T16:41:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b060aad4",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件：qfa仓库main分支HEAD迁移，bbe81e1c→b060aad4。| 性态：常规beat节拍，单指针前滑，未见回滚、强推或冲突，属正常迭代落点。| 建议处置：1) 按qfa.beat流水落账；2) 形式核对b060aad4父链连续性；3) 无异常不升单，裸候下一beat。| 锚：commit-b060aad4; branch-main; repo-qfa。",
+  "usage": {
+    "prompt_tokens": 195,
+    "completion_tokens": 1060,
+    "total_tokens": 1255,
+    "completion_tokens_details": {
+      "reasoning_tokens": 945
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
