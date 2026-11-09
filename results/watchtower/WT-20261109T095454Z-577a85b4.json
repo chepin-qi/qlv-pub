@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T09:54:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位候单(debt-20260912-orbit-cap01-bypass)促件升至第19级,滞qfa约19h| 性态:高压逃逸/裸候未结,旁路悬账| 建议处置:次次落账,即转真机裁决或人工闭环;禁越钱面垫付,不裸候| 锚:debt主链/orbit-cap01;qfa-19h滞标线",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1121,
+    "total_tokens": 1348,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1013
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

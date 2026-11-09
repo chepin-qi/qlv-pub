@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T09:55:31Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候ref升级至第19级(CAP-03自发环巡归), kind=nudge.escalate, 未见实测到账信号。| 性态:系统内自旋催件,属触发未响应态;无外部支付脉冲,未越真机钱面。| 建议处置:维持裸候,不主动外寻回应;按OTP-02冻结人工刷屏,待自发环巡归落账或实测资金锚定后裁决。| 锚:跨线审计轨/void-clock债务阈值协议X-09第19级自旋基准。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 966,
+    "total_tokens": 1183,
+    "completion_tokens_details": {
+      "reasoning_tokens": 836
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

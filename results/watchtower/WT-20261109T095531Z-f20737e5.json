@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T09:54:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债候件debt-20260912-orbit-cap02-lgt因CAP-02下下站旁路权行使触发促件升级，已达第19级。| 性态:nudge.escalate类程序抬级，旁路权介入致候压高迁；未触发清偿落账，无越真机钱面，属规则内 escalation。| 建议处置:循WAKE-PROTO扫描→细收→裁决→落账；保持裸候，不主动外寻回应，次次落账；监控CAP-02旁路权时效，若再升则复核链路权值。| 锚:主轨CAP-02调度协议/旁路权债候通用条款。",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1462,
+    "total_tokens": 1684,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1304
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

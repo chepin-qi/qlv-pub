@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T09:53:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级。debt-20260912-edge-throttle（边缘限流族立档）升至第19级，冷却突发律+git道绕行+HTTP/1.1方长期候件未落账。| 性态:触发未响应。高频nudge表明收束失效，属技术债务悬置，未越真机钱面但已突破诚实边界（次次未落账）。| 建议处置:1)冻结git道绕行增量；2)给HTTP/1.1方设定冷却突发律阈值与回退策略；3)限期内完成落账或正式挂起，终止裸候。| 锚:器课十一株(conn-pool族)同类冷却律已落账，可复用其限流模板。",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1337,
+    "total_tokens": 1570,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1166
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
