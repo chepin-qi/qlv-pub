@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T03:38:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T025457-13daeb6d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属自动OTP任务(ref:13daeb6d)执行覆写位|性态:系统自驱覆写，属自动化落账链路预期动作；未触发异常中断，状态为覆写待确认，未实测前后位差值故不编数|建议处置:按WAKE-PROTO裁决落账，核查覆写前后位一致性确保不越真机钱面；本件投必有件已落账，系统裸候不主动寻应|锚:auth-otp-02投必有件次次落账律",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1091,
+    "total_tokens": 1321,
+    "completion_tokens_details": {
+      "reasoning_tokens": 962
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
