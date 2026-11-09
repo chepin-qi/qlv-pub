@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T07:18:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-inbox-purge 促件，qlv巷152件机读排空升至第19级自债候。| 性态: nudge.escalate积压态；机读已扫但债未销，属触发未响应（非未触发），循环空转。| 建议处置: 依WAKE-PROTO细收→裁决→落账；对该152件逐件扫描裁决，无头件purge核销，有效件每件锚定≥1他线锚后落账，终止19级空转。| 锚: 本线已收，候他线锚回执。",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1024,
+    "total_tokens": 1240,
+    "completion_tokens_details": {
+      "reasoning_tokens": 883
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

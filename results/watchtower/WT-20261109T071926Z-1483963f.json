@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T07:18:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify 第19级促件，塔FIX-08/09/10效验+runs归正债务自债候未结。| 性态:nudge.escalate，前18级无回执，属触发未响应/静默积压，未越真机钱面。| 建议处置:遵AUTH-OTP-02裸候不刷屏，停止无限escalate；本级挂账待回执，超阈值转裁决落账。| 锚:参工单SLA惯例，三级无响应转审计，不堆级数。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1037,
+    "total_tokens": 1257,
+    "completion_tokens_details": {
+      "reasoning_tokens": 904
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

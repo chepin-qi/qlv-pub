@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T07:17:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-lgt-kscan促件升至第19级，源自由度商像binmap k∈[6,14]卡方扫描债候。| 性态:连升裸候，未触发实测数值（无卡方/p值回传）；已越常限，逼近诚实边界与真机钱面红线。| 建议处置:按WAKE-PROTO细收-裁决-落账：冻结本候衍息，复核k∈[6,14]参数有效性，无响应则强制落账或升仲裁。| 锚:风控线VII-卡方阈值超限/AUTH-OTP-02第4律(不越真机钱面)。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1554,
+    "total_tokens": 1781,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1396
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

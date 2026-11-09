@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T07:17:52Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候演练 debt-20260912-keydark-drill（断钥一日生存演练，窗口0926）促件升至第19级。| 性态:演练型 escalation，属压力测试链路；无实测资损触发，升级动作已落账，响应面裸候。| 建议处置:维持裸候，不越真机钱面；待0926演练窗口实测后裁决是否降级或实兵介入。| 锚:外系 escalation-L19 处置手册/同系列 debt-2026 历史演练基线。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1099,
+    "total_tokens": 1316,
+    "completion_tokens_details": {
+      "reasoning_tokens": 975
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
