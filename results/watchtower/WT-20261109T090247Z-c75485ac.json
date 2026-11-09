@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T09:02:17Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T025859-7fab1642.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位触发，ref=lanetask:auto-otp-20260907T025859-7fab1642.json，属SI1专属债自驱件| 性态:系统自驱覆写，非人工投件；未触发实测响应状态记为“待覆写”，已区分未触发与触发未响应；按AUTH-OTP-02投必有件、次次落账| 建议处置:执行覆写位落账，裸候后续脉冲，不主动寻求回应，严守诚实边界不越真机钱面| 锚:lanetask:auto-otp-20260907T025859-7fab1642.json",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1018,
+    "total_tokens": 1246,
+    "completion_tokens_details": {
+      "reasoning_tokens": 864
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
