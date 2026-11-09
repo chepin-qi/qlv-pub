@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-09T13:03:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-exp016-xchk升至第19级，系EXP-016交叉验证回件| 性态:clock=VOID时效冻结，级数虽高，未实测debtor触达与响应，属裸候/候应未决；诚实边界内不区分未触发或触发未响应| 建议处置:依WAKE-PROTO落账封存，不越真机钱面，不主动外求回应，裸候待件自至| 锚:xref:exp016-root/debt-20260912-base",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1181,
+    "total_tokens": 1396,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1052
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
