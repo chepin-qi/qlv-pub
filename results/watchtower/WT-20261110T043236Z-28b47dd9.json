@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T04:32:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T051058-04a90281.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat覆写位，SI1专属lanetask(auto-otp-20260907T051058-04a90281.json)到件| 性态:系统自驱覆写指令，未触发实测数据，属裸候态| 建议处置:按AUTH-OTP-02次次落账，不越真机钱面，待主控裁决后执行覆写| 锚:ref:04a90281.json→debtengine.seat",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 922,
+    "total_tokens": 1150,
+    "completion_tokens_details": {
+      "reasoning_tokens": 810
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
