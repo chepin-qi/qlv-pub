@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T10:35:16Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债候debt-20260912-edge-throttle促至第20级，属器课十二株边缘限流族立档，含冷却突发律、git道绕行及HTTP/1.1方案，长期候场未结。| 性态:慢性债务堆积触发nudge.escalate；未触发真机钱面实测，无响应数据可落。| 建议处置:依WAKE-PROTO裁决落账，或结项归档，或转续命档释放升级信道，止第20级空转。| 锚:debt-20260912-edge-throttle本体档;器课限流族立档。",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1062,
+    "total_tokens": 1295,
+    "completion_tokens_details": {
+      "reasoning_tokens": 916
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

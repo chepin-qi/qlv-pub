@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T10:35:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候debt-20260912-orbit-cap01-bypass因CAP-01旁路补位滞qfa约19h，自动促件升至第20级。| 性态:长滞触发多级升级，属触发未响应态；旁路补位持续占用，主路恢复时点未明。| 建议处置:冻结自动升级链，维持裸候不刷屏；次次落账，待主路CAP-01复位或人工接管，不越真机钱面。| 锚:qlv-orbit-cap01-bypass-sop §滞候19h/20级阈值线|",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1268,
+    "total_tokens": 1495,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1130
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

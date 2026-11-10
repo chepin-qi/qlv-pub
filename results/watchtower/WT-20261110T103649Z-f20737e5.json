@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T10:36:20Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-orbit-cap02-lgt自债候因CAP-02下下站旁路权行使升至第20级escalate。| 性态:触发未响应,系统裸候;旁路权悬空,未涉真机钱面实测,不编数。| 建议处置:冻结旁路权倒计时,挂起候场,待有权工位落账复核;不主动求应,维持裸候锚定。| 锚:cross-ledger CAP-02/SEC",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1106,
+    "total_tokens": 1328,
+    "completion_tokens_details": {
+      "reasoning_tokens": 989
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

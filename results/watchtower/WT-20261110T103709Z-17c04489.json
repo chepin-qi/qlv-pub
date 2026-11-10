@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T10:36:50Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-03自发环巡债务(debt-20260912)促件升至第20级，属长期裸候未响应。| 性态:高阶静默催收态，触而未应，债务人持续零交互，符合AUTH-OTP-02裸候定义。| 建议处置:维持环巡落账，不越真机钱面，不主动追加扰动，仅留痕备查。| 锚:RFC-裸候条款/RFC-非侵入式债务追踪规范。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 827,
+    "total_tokens": 1044,
+    "completion_tokens_details": {
+      "reasoning_tokens": 714
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
