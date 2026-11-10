@@ -35,13 +35,13 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 9,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1287,
+  "seg_cursor": 1288,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -403,11 +403,6 @@
     "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:auto-otp-20260907T064442-651351fb.json",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:auto-otp-20260907T064936-ae976f0e.json",
       "note": "lane任务件候机答/转派",
@@ -1614,9 +1609,14 @@
       "id": "lanetask:auto-otp-20260907T062217-1c3bfea0.json",
       "note": "lane任务件候机答/转派",
       "ts": "2026-11-10T11:28:14Z"
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T064442-651351fb.json",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-11-10T13:11:13Z"
     }
   ],
-  "debt_backlog": 82,
+  "debt_backlog": 81,
   "lane_inbox_count_ci": 32,
   "ucif2_seen": [],
   "fedeye_seen": [
