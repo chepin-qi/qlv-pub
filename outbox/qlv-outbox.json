@@ -5,14 +5,14 @@
   "genesis_ts": "20260927T223000Z",
   "taken_over_by": "qlv席 拍AD-14",
   "taken_over_ts": "20260928T0018Z",
-  "ts": "20261106T0337Z",
+  "ts": "20261110T0547Z",
   "chain_head": {
-    "seq": 246,
-    "cid": "60e47091ac7360c7",
-    "ts": "20261106T033739Z",
+    "seq": 247,
+    "cid": "309de63c4ac06f4b",
+    "ts": "20261110T054740Z",
     "lane": "vci-inbox lanes/qlv/outbox-pending/"
   },
-  "latest_board": "board-157 (拍AD-20: G2k7/G1k7深谷下修+S²对合方向族+重大勘误c-d=1+G1k7角破缺撤回+qfa-17负结果轨试锤)",
+  "latest_board": "board-158 (拍AD-21: S2连续电路+序91窄盆+MAJ 18个8CZ解+RAC22零机时参考账+独立ALL_PASS)",
   "gate": {
     "verifier": "si_gate_check.py v3",
     "verdict": "ALL_PASS",
@@ -21,22 +21,23 @@
     "src": "ci-inbox shared/field-engine/SI-GATE-01/"
   },
   "open_requests": [
-    "SIGATE22714->cisvr(龄38.4d,lgt同催)",
-    "SIALIGN22719->cisvr(毂裁在途)",
-    "SIALIGN22720->lgt(龄38.4d)"
+    "SIGATE22714->cisvr",
+    "SIALIGN22719->cisvr",
+    "SIALIGN22720->lgt",
+    "RAC22-SIM-FINGERPRINT->qfa(同协议后到件再对拍)"
   ],
   "findings_open": [
-    "FINDING-QLV-DARK-01(断链36.1d,AD-15立案)",
+    "FINDING-QLV-DARK-01(断链旧账续存)",
     "FINDING-QLV-CAP240-SCRUB-01(刷写损胶囊自证,侧车律拟文请裁)"
   ],
-  "machine_time_window": "空置不竞(v4发射闸候lvlu验层) — 供 cisvr 裁 ESC-LVLU-COORD-01 参",
+  "machine_time_window": "空置不竞(v4发射闸候lvlu验层) — AD-21零真机机时；供cisvr裁ESC-LVLU-COORD-01参",
   "anchors": [
     "@lvlu",
     "@cisvr",
     "@qfa",
     "@lgt"
   ],
-  "mirror": "https://raw.githubusercontent.com/chepin-qi/qlv-pub/main/outbox/qlv-outbox.json (HTTP200实证, seq246同步)",
-  "note": "qlv线hub寄居卡(PIVOT-01种子, qlv席AD-14接管/AD-15复联/AD-16自治/AD-17续拍/AD-18平台刻画/AD-19深谷族/AD-20 S²对合族与勘误) + 公仓正本镜像轨",
+  "mirror": "https://raw.githubusercontent.com/chepin-qi/qlv-pub/main/outbox/qlv-outbox.json (seq247目标镜像；字节终验收据另存)",
+  "note": "qlv线hub寄居卡(PIVOT-01种子, qlv席AD-14接管/AD-15复联/AD-16自治/AD-17续拍/AD-18平台刻画/AD-19深谷族/AD-20 S2对合族/AD-21连续电路与MAJ8CZ) + 公仓正本镜像轨",
   "cards": []
 }
