@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T10:04:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T061455-99f49516.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanetask:auto-otp-20260907T061455-99f49516.json覆写，SI1债自驱任务位更新 | 性态:单点文件覆写，属存量配置变更，未触发跨座校验与外部响应，无实测数不编 | 建议处置:依OTP-02次次落账，锁留覆写前后指纹，不越真机钱面，裸候下游拉取 | 锚:debtengine.seat#SI1",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1351,
+    "total_tokens": 1579,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1237
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
