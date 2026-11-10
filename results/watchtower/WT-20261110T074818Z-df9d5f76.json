@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T07:47:44Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-lgt-kscan 自债候促件，由 binmap k∈[6,14] 卡方扫描触发，升至第20级。| 性态: 扫描域内候态跃迁，未触发钱面结算，属纯观测层升级；第20级为细收上限标记。| 建议处置: 按 AUTH-OTP-02 维持裸候，不主动寻求回应，不越真机钱面；次次落账，待衰减或外部响应。| 锚: 锚定 WAKE-PROTO 扫描-细收链，跨线至 qlv 候态追踪库。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1512,
+    "total_tokens": 1739,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1364
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

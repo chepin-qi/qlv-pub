@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T07:48:18Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候 debt-20260912-keydark-drill（断钥一日生存演练）促件升至第20级| 性态:nudge.escalate，drill 类自债候项；摘要呈升级，实机触检与响应状态未实测| 建议处置:裸候，次次落账；不越真机钱面，不主动催应，候自清偿或实机回执| 锚:他线锚定离线密钥失效-恢复演练基线（断钥 drill 以失效响应回环为参照）|",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1827,
+    "total_tokens": 2044,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1697
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
