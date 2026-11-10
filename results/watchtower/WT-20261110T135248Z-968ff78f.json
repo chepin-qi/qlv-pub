@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T13:52:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:自债候debt-20260912-tower-seg9-verify促级|性态:nudge.escalate类,塔⑨段五件效验runs直读已抵第20级,属债务候件链内升级|建议处置:维持直读追踪,确认第20级效验结果后落账,若未闭环则按AUTH-OTP-02次次落账执行|锚:ref=debt-20260912-tower-seg9-verify;clock=VOID",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 812,
+    "total_tokens": 1036,
+    "completion_tokens_details": {
+      "reasoning_tokens": 696
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

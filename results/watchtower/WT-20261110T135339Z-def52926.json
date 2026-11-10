@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T13:53:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist 促件升至第20级，分布维实测替换骨架(XCHK)候验。| 性态:技术债务nudge escalate，骨架替换层级深化；实测反馈未触发，无编数可落，仅作升级标记。| 建议处置:裸候不追呼，次次落账锚定第20级；待XCHK实测返件后裁决，严守诚实边界，不越真机钱面。| 锚:debt骨架替换/分布维XCHK/lv20候验",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 823,
+    "total_tokens": 1045,
+    "completion_tokens_details": {
+      "reasoning_tokens": 695
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
