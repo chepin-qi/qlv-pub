@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T00:15:10Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T045954-dce9ce52.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 触发 SI1 专属自动任务覆写位，ref 指向 lanetask:auto-otp-20260907T045954-dce9ce52.json，摘要标识为[债自驱]专属覆写| 性态: 席位级配置覆写，属债务自驱引擎内部位维护，未涉及外部资金面操作，未触发异常响应| 建议处置: 裸候确认，次次落账，不主动外联；记录覆写完成状态，保持席位静默| 锚: cross-seat: debtengine.seat ↔ ledgercore.void（席位覆写映射至空账核心）",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 845,
+    "total_tokens": 1073,
+    "completion_tokens_details": {
+      "reasoning_tokens": 699
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
