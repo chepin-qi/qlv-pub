@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T01:47:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T050202-d3c3f789.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:lanetask:auto-otp-20260907T050202-d3c3f789.json|性态:债自驱SI1覆写位，clock=VOID，未触发实测流，无钱面越界，属静默覆写|建议处置:裸候覆写落账，不主动求应，次次落账确认|锚:debtengine.seat覆写协议与VOID时钟冻结态",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 941,
+    "total_tokens": 1171,
+    "completion_tokens_details": {
+      "reasoning_tokens": 843
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
