@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T23:10:37Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T090329-73a5795d.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat接收SI1债自驱任务(lanetask:auto-otp-20260907T090329-73a5795d.json)，执行覆写位操作| 性态:系统自动化覆写，属内建OTP指令落地，无人工干预；需核验覆写对象与边界一致性，确保不越真机钱面| 建议处置:按WAKE-PROTO扫描→细收→裁决→落账；遵AUTH-OTP-02：投必有件、次次落账、不刷屏、裸候不主动求应，覆写前二次确认目标位| 锚:ref=lanetask:auto-otp-20260907T090329-73a5795d.json; kind=debtengine.seat; SI1专属通道",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 854,
+    "total_tokens": 1084,
+    "completion_tokens_details": {
+      "reasoning_tokens": 678
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
