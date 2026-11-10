@@ -3935,6 +3935,9 @@
 {"ts": "2026-11-10T18:02:08Z", "kind": "beat.begin", "seg": "debtengine"}
 {"ts": "2026-11-10T18:12:08Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-10T18:12:49Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 641.8, "ev_n": 1}
-{"ts": "2026-11-10T18:23:12Z", "kind": "beat.begin", "seg": "keyhealth"}
-{"ts": "2026-11-10T18:33:13Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-10T18:33:13Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.4, "ev_n": 0}
+{"ts": "2026-11-10T18:13:00Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-11-10T18:23:00Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-10T18:23:00Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-10T18:33:24Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-11-10T18:43:25Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-10T18:43:25Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
