@@ -3881,6 +3881,6 @@
 {"ts": "2026-11-10T14:25:32Z", "kind": "beat.begin", "seg": "faces8"}
 {"ts": "2026-11-10T14:35:37Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-10T14:35:37Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.0, "ev_n": 0}
-{"ts": "2026-11-10T14:35:51Z", "kind": "beat.begin", "seg": "lanesweep"}
-{"ts": "2026-11-10T14:45:52Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-10T14:45:52Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.4, "ev_n": 0}
+{"ts": "2026-11-10T14:46:04Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-11-10T14:56:04Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-10T14:56:04Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.5, "ev_n": 0}
