@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T17:30:54Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "b3a6501e",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa.beat main头迁移 b060aad4→b3a6501e| 性态:HEAD指针常规迁移，摘要未附异常表征，属正常投件| 建议处置:执行WAKE落账，裸候下一拍，无需回退或加急| 锚:ref=b3a6501e",
+  "usage": {
+    "prompt_tokens": 197,
+    "completion_tokens": 894,
+    "total_tokens": 1091,
+    "completion_tokens_details": {
+      "reasoning_tokens": 814
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
