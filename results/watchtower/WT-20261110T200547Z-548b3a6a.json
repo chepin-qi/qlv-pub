@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-10T20:05:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T075648-e2b95c62.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat 自驱覆写位 OTP 到件，ref=auto-otp-20260907T075648-e2b95c62.json，SI1专属覆写指令| 性态: 系统自驱级内部座位更新，无外部触发，属覆写位操作，未涉真机钱面越权| 建议处置: 依 WAKE-PROTO 扫描细收完毕，按 AUTH-OTP-02 次次落账，本件静默裸候归档，不主动寻求回应| 锚: xledger.qlv.debt/覆写位/20260907-e2b95c62",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 915,
+    "total_tokens": 1145,
+    "completion_tokens_details": {
+      "reasoning_tokens": 769
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
