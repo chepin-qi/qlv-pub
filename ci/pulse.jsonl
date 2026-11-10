@@ -3998,3 +3998,6 @@
 {"ts": "2026-11-10T22:30:04Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-10T22:40:04Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-10T22:40:04Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-10T22:40:14Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-10T22:50:20Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-10T22:50:20Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 606.0, "ev_n": 0}
