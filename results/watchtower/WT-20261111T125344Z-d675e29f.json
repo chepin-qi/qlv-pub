@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T12:53:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T121704-5ad2ad60.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:SI1专属OTP任务文件lanetask:auto-otp-20260907T121704-5ad2ad60.json遭遇覆写位。|性态:债自驱引擎座位级文件覆写，原auto-otp实例被覆盖；未实测其触发响应或生成结果，属落账前状态变更，不编数。|建议处置:按AUTH-OTP-02投必有件校验覆写授权；若越真机钱面则拦截回退，未越则次次落账并裸候，不主动寻求回应。|锚:ledger/otp-audit",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1193,
+    "total_tokens": 1423,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1062
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
