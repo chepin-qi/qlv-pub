@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T10:55:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T113541-a59024cc.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属lanetask覆写位指令(ref:20260907T113541-a59024cc.json)| 性态:工单到达，覆写位目标态未实测，不辨未触发或触发未响应，属盲态挂账| 建议处置:按AUTH-OTP-02落账，建议冻结算子待人工复核覆写位内容后执行| 锚:关联debtengine.seat覆写协议及SI1任务流锚点20260907T113541",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1338,
+    "total_tokens": 1564,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1217
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
