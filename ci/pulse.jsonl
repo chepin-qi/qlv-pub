@@ -4043,3 +4043,6 @@
 {"ts": "2026-11-11T02:16:41Z", "kind": "beat.begin", "seg": "pulse"}
 {"ts": "2026-11-11T02:26:54Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-11T02:26:54Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 612.5, "ev_n": 0}
+{"ts": "2026-11-11T02:27:03Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-11-11T02:37:03Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T02:37:03Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
