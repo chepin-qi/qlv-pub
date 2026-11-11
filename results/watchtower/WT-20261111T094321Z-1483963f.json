@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:42:46Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-tower-verify促件至第21级，塔FIX-08/09/10效验+runs归正。|性态:未呈实机触发/响应记录，属债候裸escalation；三版FIX堆叠，runs偏差未闭环。|建议处置:落账第21级，挂候实机效验回执；无响应禁再投。|锚:cross-wire=主链-效验台/塔债池。",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1385,
+    "total_tokens": 1605,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1274
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

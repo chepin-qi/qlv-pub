@@ -4133,6 +4133,6 @@
 {"ts": "2026-11-11T09:08:13Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-11-11T09:18:14Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-11T09:18:14Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
-{"ts": "2026-11-11T09:18:25Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-11-11T09:28:25Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-11T09:30:52Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 747.1, "ev_n": 4}
+{"ts": "2026-11-11T09:31:02Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-11T09:41:02Z", "ev_n": 4, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T09:43:21Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 739.0, "ev_n": 4}

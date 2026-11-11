@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:41:02Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-lgt-kscan自债候升至第21级，为binmap k∈[6,14]卡方扫描下观测选择自由度商像之未决候。| 性态:escalate态，候期冗长，未触发结清响应，属持续裸候后之强制升级。| 建议处置:依WAKE-PROTO执行裁决落账；已达21级，应次次落账，裸候终结，不再主动寻应。| 锚:binmap卡方k域扫描/debt-20260912候链。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 975,
+    "total_tokens": 1202,
+    "completion_tokens_details": {
+      "reasoning_tokens": 840
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:41:38Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-keydark-drill(断钥一日生存演练)促件升至第21级，属nudge.escalate类。| 性态:高频触达阈值，演练债务未结，断钥场景压力测试持续堆叠，当前未触发实机钱面操作。| 建议处置:按AUTH-OTP-02保持裸候，不主动追加回应，不越真机钱面，次次落账待结，避免刷屏式促件。| 锚:参照drill线标准作业，该级数已超常规生存演练债候阈值，建议并行核查keydark协议是否需冷备切换。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 898,
+    "total_tokens": 1115,
+    "completion_tokens_details": {
+      "reasoning_tokens": 751
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

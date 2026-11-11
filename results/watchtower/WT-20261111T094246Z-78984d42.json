@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:42:04Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级，债候 debt-20260912-inbox-purge 因 qlv 巷 152 件机读排空达第21级。| 性态:批量自动流触发，无人肉复核闭环；未实测单件债权数，属触发未响应。| 建议处置:即刻细收152件排空日志，核验是否次次落账；若为空转，止 escalation 并切人工裁决，禁裸候。| 锚:ref=ledger-void-check/AUTH-OTP-02 次次落账则",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1311,
+    "total_tokens": 1527,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1187
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
