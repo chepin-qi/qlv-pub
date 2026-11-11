@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T06:22:56Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T095814-423b8c95.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat 收 SI1 专属 OTP 自驱覆写位指令，ref:lanetask:auto-otp-20260907T095814-423b8c95.json，目标覆写位。| 性态:属系统内部席位状态自更新，非真机钱面动作；未触发外部资金流程，无实测流水，不编数。| 建议处置:执行落账，归档 JSON 件至 SI1 覆写链路，裸候自驱回执，不主动外询。| 锚:同批 OTP 序列 423b8c95 可作他线跨锚，关联时戳 20260907T095814。",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1462,
+    "total_tokens": 1692,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1308
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
