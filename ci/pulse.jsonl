@@ -4205,6 +4205,9 @@
 {"ts": "2026-11-11T15:07:29Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-11-11T15:17:29Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-11T15:17:29Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.1, "ev_n": 0}
-{"ts": "2026-11-11T15:29:32Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-11-11T15:39:32Z", "ev_n": 3, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-11T15:41:12Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 700.3, "ev_n": 3}
+{"ts": "2026-11-11T15:17:45Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-11T15:27:45Z", "ev_n": 3, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T15:29:21Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 695.7, "ev_n": 3}
+{"ts": "2026-11-11T15:41:26Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-11T15:51:34Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T15:51:58Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 632.4, "ev_n": 1}

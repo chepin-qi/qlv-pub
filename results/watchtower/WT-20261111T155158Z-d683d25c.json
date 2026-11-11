@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T15:51:34Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "qfa.beat",
+    "ref": "9b45b591",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:qfa main头迁移 b3a6501e→9b45b591 | 性态:常规版本控制节拍，单提交前移，无冲突/回滚标识，未触发异常守卫 | 建议处置:按qfa.beat次次落账，常规归档，裸候后续CI反馈，不主动追加检询 | 锚:git-head线/节拍落账规范",
+  "usage": {
+    "prompt_tokens": 198,
+    "completion_tokens": 813,
+    "total_tokens": 1011,
+    "completion_tokens_details": {
+      "reasoning_tokens": 721
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
