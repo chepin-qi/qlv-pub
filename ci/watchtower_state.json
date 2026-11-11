@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      1,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-11-10",
+    "date": "2026-11-11",
     "beacon_comments": 0
   },
   "qgl_head": "5c168f018e11ad6e55cf336ddb7e06261a2a0f7e",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1343,
+  "seg_cursor": 1344,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -403,11 +403,6 @@
     "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:auto-otp-20260907T090510-705c2898.json",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md",
       "note": "lane任务件候机答/转派",
@@ -1614,9 +1609,14 @@
       "id": "lanetask:auto-otp-20260907T090329-73a5795d.json",
       "note": "lane任务件候机答/转派",
       "ts": "2026-11-10T23:10:37Z"
+    },
+    {
+      "id": "lanetask:auto-otp-20260907T090510-705c2898.json",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-11-11T01:04:01Z"
     }
   ],
-  "debt_backlog": 75,
+  "debt_backlog": 74,
   "lane_inbox_count_ci": 32,
   "ucif2_seen": [],
   "fedeye_seen": [
