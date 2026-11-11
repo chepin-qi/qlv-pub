@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T14:46:27Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T123306-f33a4f36.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属lanetask覆写位，ref已投件，clock=VOID无时标。| 性态:元数据级投件，未触发真机钱面实测，无响应数，属裸候覆写态。| 建议处置:按WAKE-PROTO落账，遵OTP-02次次落账、不刷屏、不主动求应；待clock有效后细收裁决。| 锚:lanetask::otp-seat-registry",
+  "usage": {
+    "prompt_tokens": 230,
+    "completion_tokens": 1126,
+    "total_tokens": 1356,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1014
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
