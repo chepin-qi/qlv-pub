@@ -4070,12 +4070,12 @@
 {"ts": "2026-11-11T03:49:02Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-11T03:59:02Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-11T03:59:03Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.5, "ev_n": 0}
-{"ts": "2026-11-11T03:59:15Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-11-11T04:09:20Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-11T04:09:20Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.0, "ev_n": 0}
-{"ts": "2026-11-11T04:19:49Z", "kind": "beat.begin", "seg": "lanesweep"}
-{"ts": "2026-11-11T04:29:50Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-11T04:29:50Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.4, "ev_n": 0}
-{"ts": "2026-11-11T04:40:08Z", "kind": "beat.begin", "seg": "debtengine"}
-{"ts": "2026-11-11T04:50:08Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-11T04:50:48Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 640.9, "ev_n": 1}
+{"ts": "2026-11-11T04:09:30Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-11T04:19:37Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T04:19:37Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 607.3, "ev_n": 0}
+{"ts": "2026-11-11T04:29:59Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-11-11T04:39:59Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T04:39:59Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-11T04:50:59Z", "kind": "beat.begin", "seg": "debtengine"}
+{"ts": "2026-11-11T05:00:59Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T05:01:22Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 623.4, "ev_n": 1}
