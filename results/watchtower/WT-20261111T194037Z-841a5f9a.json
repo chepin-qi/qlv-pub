@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T19:40:07Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260908T031917-42571d98.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat接lanetask:auto-otp-20260908T031917-42571d98.json，SI1债自驱流程激活覆写位。| 性态: 属auto-otp投件触发的seat状态覆写；文件含标准哈希后缀，投必有件；覆写动作属正常自驱覆盖，未触发异常分支，但处clock=VOID环境，不涉真机钱面，裸候无回应。| 建议处置: 循WAKE-PROTO扫描-细收-裁决-落账，覆写前态强制快照，次次落账，不主动寻求回应。| 锚: 可锚定同批次lanetask调度队列哈希与SI1 seat-audit trail交叉验证。",
+  "usage": {
+    "prompt_tokens": 228,
+    "completion_tokens": 1195,
+    "total_tokens": 1423,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1027
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
