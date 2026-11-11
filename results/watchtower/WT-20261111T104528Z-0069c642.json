@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T10:44:57Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T113541-a59024cc.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat收SI1专属auto-otp覆写位(ref:lanetask:auto-otp-20260907T113541-a59024cc.json)|性态:系统自驱位域变更，债台配置流，触发源lanetask自动通道，待落账确认|建议处置:按AUTH-OTP-02次次落账，核验覆写位授权链与SI1域边界，确认无越真机钱面后静默归档，裸候|锚:他线锚lanetask:auto-otp流程域(20260907T113541-a59024cc)为父级触发源，本seat为落账端。",
+  "usage": {
+    "prompt_tokens": 226,
+    "completion_tokens": 1111,
+    "total_tokens": 1337,
+    "completion_tokens_details": {
+      "reasoning_tokens": 960
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
