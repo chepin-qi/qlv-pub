@@ -4070,6 +4070,6 @@
 {"ts": "2026-11-11T03:49:02Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-11T03:59:02Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-11T03:59:03Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.5, "ev_n": 0}
-{"ts": "2026-11-11T03:59:15Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-11-11T04:09:20Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-11T04:09:20Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.0, "ev_n": 0}
+{"ts": "2026-11-11T04:09:30Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-11T04:19:37Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T04:19:37Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 607.3, "ev_n": 0}
