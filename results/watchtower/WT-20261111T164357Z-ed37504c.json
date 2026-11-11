@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T16:43:30Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260907T130330-0e7bf7d5.json",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债自驱SI1专属覆写位到件，ref=lanetask:auto-otp-20260907T130330-0e7bf7d5.json已扫描细收|性态:覆写位静默，clock=VOID，实测未触发，无钱面越界|建议处置:次次落账，裸候不主动求应，覆写位归档待命|锚:lanetask:auto-otp-20260907T130330-0e7bf7d5.json/债自驱覆写协议",
+  "usage": {
+    "prompt_tokens": 234,
+    "completion_tokens": 1200,
+    "total_tokens": 1434,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1076
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
