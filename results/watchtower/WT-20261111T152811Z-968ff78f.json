@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T15:27:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-seg9-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件升级|debt-20260912-tower-seg9-verify自债候升至第21级，塔⑨段五件效验(runs直读)流内escalating，当前未触发终裁，属积压候场| 性态:裸候态，依AUTH-OTP-02不主动寻求回应，次次落账；21级已临高危阈，需警觉越真机钱面风险| 建议处置:暂停主动促发，维持裸候；核验runs直读返回，若持续无响应则转死账冻结，不越真机钱面| 锚:引塔⑧段seg8-archive同期效验候时基线比对",
+  "usage": {
+    "prompt_tokens": 224,
+    "completion_tokens": 1064,
+    "total_tokens": 1288,
+    "completion_tokens_details": {
+      "reasoning_tokens": 908
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

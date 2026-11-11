@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T15:28:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist促件升至第21级，系分布维实测替换骨架(XCHK)候场未结| 性态:高阶escalate连续触发，属触发未响应；级数逾阈，逼近刷屏边界，裸候承压| 建议处置:冻结级数递增，不主动寻求回应；XCHK实测未闭环前不编数，次次落账须核验骨架锚点，严守真机钱面| 锚:ref-debt-20260912-os3d-lvlu-dist/XCHK/21级; 他线锚:AUTH-OTP-02刷屏律/裸候规",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1609,
+    "total_tokens": 1831,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1457
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

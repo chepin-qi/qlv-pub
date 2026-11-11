@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T15:28:11Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk EXP-016交叉验证回件升至第21级促件| 性态:级数高企，属自债候内部escalation，未触发外部钱面操作；本件为回件升级，暂无实测响应数据可录| 建议处置:按AUTH-OTP-02裸候，不越真机钱面，不落主动追问，仅将第21级催缴态记入自债候流水；待实测响应或钱面触达后再行落账| 锚:exp-016-xchk回件链路/第21级escalate节点",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 898,
+    "total_tokens": 1113,
+    "completion_tokens_details": {
+      "reasoning_tokens": 757
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
