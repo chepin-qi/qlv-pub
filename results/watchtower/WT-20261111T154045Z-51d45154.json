@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T15:40:03Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-exp016-xchk",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-exp016-xchk(EXP-016交叉验证回件)第21级促件到件|性态:系统nudge.escalate触发，属债务悬置高阶升级；本次为机促事件，非债务人主动响应，未越真机钱面，严守诚实边界|建议处置:落账第21级升级时点，裸候不刷屏，不主动求应，待交叉验证回件或他线终局裁决|锚:债务升级阈值协议(debt-tier-21已逾常规周期，参考exp016-xchk-protocol)",
+  "usage": {
+    "prompt_tokens": 215,
+    "completion_tokens": 1264,
+    "total_tokens": 1479,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1130
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

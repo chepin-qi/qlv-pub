@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T15:40:45Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-os3d-lvlu-dist",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-os3d-lvlu-dist促件升至第21级，分布维实测替换骨架(XCHK)阶段|性态:nudge.escalate类长候悬置；级数高企，暗示多轮未落账或XCHK验证未闭合；未实测具体阻塞点，不编数|建议处置:执行WAKE-PROTO扫描→细收→裁决；核实XCHK骨架替换实测结果，区分「未触发/触发未响应」；若达真机边界则截断落账|锚:qlv-XCHK骨架替换协议/债务分级上限锚",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1054,
+    "total_tokens": 1276,
+    "completion_tokens_details": {
+      "reasoning_tokens": 916
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
