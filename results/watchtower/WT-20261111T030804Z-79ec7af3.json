@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T03:07:35Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debtengine.seat自驱到件，SI1专属lanetask覆写位:DRIVE-qlv-20260927T000146Z-bb8a4c522de1.md态变。| 性态:clock=VOID，属引擎内务位更新，未越真机钱面，诚判为未触发资金响应。| 建议处置:循WAKE-PROTO扫描→细收→裁决→落账，核验覆写位，裸候不主动求应，次次落账。| 锚:qlv线务规/AUTH-OTP-02米田边律。",
+  "usage": {
+    "prompt_tokens": 242,
+    "completion_tokens": 1039,
+    "total_tokens": 1281,
+    "completion_tokens_details": {
+      "reasoning_tokens": 901
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
