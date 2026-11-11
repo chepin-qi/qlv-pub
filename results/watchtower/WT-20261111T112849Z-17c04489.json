@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T11:28:22Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap03-ring",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-03自发环巡归自债候(debt-20260912-orbit-cap03-ring)升至第21级促件，属nudge.escalate类。| 性态:自发环巡高频促发，级数累积至21，未触达真机钱面实测，无响应数据。| 建议处置:依AUTH-OTP-02裸候，不主动寻求回应；按WAKE-PROTO落账归档，维持环巡监视，待实测触达后再裁决。| 锚:orbital-debt-protocol.line7/候级自增环巡锚。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1015,
+    "total_tokens": 1232,
+    "completion_tokens_details": {
+      "reasoning_tokens": 880
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

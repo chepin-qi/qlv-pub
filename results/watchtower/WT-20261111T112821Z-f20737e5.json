@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T11:27:49Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: CAP-02下下站旁路权行使，债候debt-20260912-orbit-cap02-lgt escalation达第21级促件| 性态: 裸候态，clock=VOID无时钟锚定，未触发与触发未响应不可辨，守诚实边界不编数| 建议处置: 不主动寻求回应即裸候，次次落账归档，候其自决；待他线实测反馈再议裁决| 锚: CAP-02下下站观测线/旁路权行使端（他线锚）",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1080,
+    "total_tokens": 1302,
+    "completion_tokens_details": {
+      "reasoning_tokens": 950
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
