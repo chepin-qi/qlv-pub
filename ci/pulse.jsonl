@@ -4046,3 +4046,6 @@
 {"ts": "2026-11-11T02:27:03Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-11T02:37:03Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-11T02:37:03Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-11T02:37:12Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-11T02:47:16Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-11T02:47:16Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 604.9, "ev_n": 0}
