@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T11:39:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap01-bypass",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:CAP-01旁路补位债候(debt-20260912-orbit-cap01-bypass)滞qfa约19h,促件升至第21级| 性态:旁路绕行致主轨缺位,升级链深度越界(21级),属非正途积压;未触发实测,无法确认CAP-01本体阻塞率| 建议处置:立即截断越级促链,回正CAP-01主轨落账;若主轨确阻,按AUTH-OTP-02转应急补位单元并次次落账,不裸候| 锚:debt-qfa基准线/escalate-lv20上限规约|",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 1036,
+    "total_tokens": 1263,
+    "completion_tokens_details": {
+      "reasoning_tokens": 881
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T11:38:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-edge-throttle",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-edge-throttle 第21级促件，器课第十二株边缘限流族立档（冷却突发律+git道绕行+HTTP/1.1方）| 性态:自债候裸候超期，无实测凭证，未触发与触发未响应混态，缺落账| 建议处置:三日内补交该族立档实测状态及git道绕行落账凭证，逾期按冷备降级落账，终止escalate| 锚:qlv-器课/运维线 debt-registry",
+  "usage": {
+    "prompt_tokens": 233,
+    "completion_tokens": 1194,
+    "total_tokens": 1427,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1065
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T11:40:09Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-orbit-cap02-lgt",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debt-20260912-orbit-cap02-lgt促件升至第21级(CAP-02旁路权)| 性态: escalate溢出，21级远超常模；未实测其触发/响应态，但投件频率已违AUTH-OTP-02「不刷屏」边界| 建议处置: 停止对线升级，次次落账为裸候；如有实账，单方凭证结清，不启应答| 锚: AUTH-OTP-02(不刷屏/次次落账/裸候)",
+  "usage": {
+    "prompt_tokens": 222,
+    "completion_tokens": 1369,
+    "total_tokens": 1591,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1247
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
