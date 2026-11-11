@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:28:25Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-lgt-kscan",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件debt-20260912-lgt-kscan经binmap k∈[6,14]卡方扫描，系统nudge.escalate触发至第21级。| 性态:扫描端已裁决落账，债务人侧未触发响应（与“触发未响应”二分），无实测交互数。| 建议处置:裸候不主动寻求回应；维持候债位，次次落账，待下一轮扫描或债务人端信号。| 锚:米田边律他线锚-WAKE-PROTO裁决节点；商像扫描仅属观测选择，不越真机钱面。",
+  "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 987,
+    "total_tokens": 1214,
+    "completion_tokens_details": {
+      "reasoning_tokens": 847
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

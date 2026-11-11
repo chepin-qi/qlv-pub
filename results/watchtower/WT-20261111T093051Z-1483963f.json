@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:29:59Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-tower-verify",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:债务候件debt-20260912-tower-verify因塔FIX-08/09/10效验及runs归正未决，促至第21级| 性态:escalate未次次落账，候件积压；clock=VOID且无实测，不辨未触发或触发未响应，处AUTH-OTP-02裸候态| 建议处置:即刻扫描塔FIX三节点与runs实况，诚实边界内裁决；未触发则补投，触发未响应则裸候归档，不越真机钱面| 锚:按AUTH-OTP-02不刷屏律，第21级属他线超期候件，须交他线复核单次落账|",
+  "usage": {
+    "prompt_tokens": 220,
+    "completion_tokens": 1794,
+    "total_tokens": 2014,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1634
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

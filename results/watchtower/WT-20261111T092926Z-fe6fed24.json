@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:28:53Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-keydark-drill",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:debt-20260912-keydark-drill（断钥一日生存演练0926）自债候促件升至第21级，触 escalation 终点阈值。| 性态:nudge.escalate；递归催促已逼近诚实边界，属触发未响应态，存在越真机钱面与刷屏风险。| 建议处置:即刻裁决落账，封停该 ref 级数增长；核定断钥损控实况，若纯系演练则裸候至0926，不再投件。| 锚:AUTH-OTP-02 不刷屏/次次落账律。",
+  "usage": {
+    "prompt_tokens": 217,
+    "completion_tokens": 1177,
+    "total_tokens": 1394,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1042
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}

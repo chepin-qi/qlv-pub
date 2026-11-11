@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T09:29:26Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "nudge.escalate",
+    "ref": "debt-20260912-inbox-purge",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件:促件nudge.escalate，ref=debt-20260912-inbox-purge，qlv巷152件机读排空，升至第21级| 性态:机读排空属系统自净，未越真机钱面；21级 escalation 为裸候累积，债务人侧未实测，诚实边界内无法区分「未触发 vs 触发未响应」| 建议处置:遵AUTH-OTP-02不刷屏、次次落账，此件已达裸候极限，停止 escalating，落账为「21级终候/强制归档」，转人工冷备或封存| 锚:qlv巷同批机读候件群，锚至 debt-purge-20260912-root主干",
+  "usage": {
+    "prompt_tokens": 216,
+    "completion_tokens": 1167,
+    "total_tokens": 1383,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1002
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
