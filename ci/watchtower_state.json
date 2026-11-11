@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      1,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1415,
+  "seg_cursor": 1416,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -403,11 +403,6 @@
     "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:auto-otp-20260908T031917-42571d98.json",
       "note": "lane任务件候机答/转派",
@@ -1614,9 +1609,14 @@
       "id": "lanetask:auto-otp-20260907T130330-0e7bf7d5.json",
       "note": "lane任务件候机答/转派",
       "ts": "2026-11-11T16:43:30Z"
+    },
+    {
+      "id": "lanetask:DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-11-11T18:07:39Z"
     }
   ],
-  "debt_backlog": 66,
+  "debt_backlog": 65,
   "lane_inbox_count_ci": 32,
   "ucif2_seen": [],
   "fedeye_seen": [

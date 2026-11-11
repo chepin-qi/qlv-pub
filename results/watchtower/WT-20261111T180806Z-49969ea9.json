@@ -1,0 +1,19 @@
+{
+  "ts": "2026-11-11T18:07:39Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:DRIVE-qlv-20260927T000310Z-d0d4f737b925.md",
+    "high_value": true
+  },
+  "verdict": "【WT判词】事件: debtengine.seat到件，SI1专属债自驱任务ref触发覆写位。| 性态: 单线程文件位覆写，属lanetask自驱调度，非交互型，未触发异常响应。| 建议处置: 细收覆写内容完整性，裁决一致性后即落账；依AUTH-OTP-02不刷屏、不越真机钱面，裸候下次时钟触发。| 锚: lanetask:DRIVE协议位",
+  "usage": {
+    "prompt_tokens": 240,
+    "completion_tokens": 829,
+    "total_tokens": 1069,
+    "completion_tokens_details": {
+      "reasoning_tokens": 721
+    }
+  },
+  "beacon_error": "HTTP Error 403: Forbidden"
+}
