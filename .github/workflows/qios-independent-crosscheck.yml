@@ -1,0 +1,151 @@
+name: qios-independent-crosscheck
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_line:
+        description: "Accepted OPEN answer to crosscheck"
+        required: true
+        type: choice
+        options: [usrm, qfa-ai]
+  repository_dispatch:
+    types: [qios-crosscheck]
+
+permissions:
+  contents: read
+
+jobs:
+  crosscheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Independently verify and sign an OPEN crosscheck
+        env:
+          QI_PAT: ${{ secrets.QI_PAT }}
+          QIOS_API_QLV: ${{ secrets.QIOS_API_QLV }}
+          TARGET_LINE: ${{ github.event.inputs.target_line || github.event.client_payload.target_line }}
+        run: |
+          python3 - <<'PY'
+          import copy, datetime, hashlib, hmac, json, os, secrets, urllib.request
+
+          WAVE = "WAVE-QI-LEAN-FED-20261123-01"
+          MARKER = "QI-OS-ANSWER-V1"
+          targets = {
+              "usrm": {
+                  "repo": "chepin-ai/vci-usrm", "issue": 24,
+                  "loop": "LOOP-4c3c5718516c240015cf89a1",
+                  "answer_digest": "651fac25fbab9b9679409a9825561d031dd418c0e1a2bb1c9ff8634a515ccbe9",
+              },
+              "qfa-ai": {
+                  "repo": "chepin-ai/vci-qfa", "issue": 4,
+                  "loop": "LOOP-12e82696205e6df3401a0029",
+                  "answer_digest": "689d2a5838cc0436d8a7c7dbc02978998ef00adcb533309dcaec296e5b613826",
+              },
+          }
+          target = targets[os.environ["TARGET_LINE"]]
+
+          def canonical(value):
+              return json.dumps(value, ensure_ascii=False, sort_keys=True,
+                                separators=(",", ":"), allow_nan=False)
+
+          def digest(value):
+              return hashlib.sha256(canonical(value).encode()).hexdigest()
+
+          def api(repo, path, method="GET", payload=None):
+              request = urllib.request.Request(
+                  f"https://api.github.com/repos/{repo}{path}", method=method,
+                  data=json.dumps(payload).encode() if payload is not None else None,
+                  headers={"Authorization": "Bearer " + os.environ["QI_PAT"],
+                           "Accept": "application/vnd.github+json",
+                           "Content-Type": "application/json",
+                           "User-Agent": "qlv-independent-crosscheck"})
+              with urllib.request.urlopen(request, timeout=40) as response:
+                  raw = response.read()
+                  return json.loads(raw) if raw else {}
+
+          comments = []
+          for page in range(1, 11):
+              batch = api(target["repo"], f"/issues/{target['issue']}/comments?per_page=100&page={page}")
+              comments.extend(batch)
+              if len(batch) < 100:
+                  break
+          else:
+              raise SystemExit("comment pagination limit")
+
+          answers = []
+          existing = []
+          for comment in comments:
+              body = comment.get("body") or ""
+              if not body.startswith(MARKER + "\n"):
+                  continue
+              event = json.loads(body.split("\n", 1)[1])
+              payload = event.get("payload", {})
+              if event.get("kind") != "answer" or payload.get("loop_id") != target["loop"]:
+                  continue
+              if payload.get("role") == "answer" and event.get("origin") == os.environ["TARGET_LINE"]:
+                  answers.append((comment["id"], event))
+              if payload.get("role") == "crosscheck" and event.get("origin") == "qlv" and \
+                      payload.get("target_peer") == os.environ["TARGET_LINE"]:
+                  existing.append((comment["id"], event))
+          if not answers:
+              raise SystemExit("accepted target answer not found")
+          answers.sort(key=lambda item: item[0])
+          answer_comment_id, answer_event = answers[0]
+          answer = {key: answer_event["payload"].get(key) for key in
+                    ("verdict", "claims", "artifacts", "open_items")}
+          answer_digest = digest(answer)
+          if answer_digest != target["answer_digest"]:
+              raise SystemExit("target answer digest drift; refusing to crosscheck a replaced answer")
+          if existing:
+              for comment_id, event in existing:
+                  if event["payload"].get("subject_answer_digest") != answer_digest:
+                      raise SystemExit("conflicting existing QLV crosscheck")
+              print(json.dumps({"status": "IDEMPOTENT_REPLAY", "comment_id": existing[0][0]}))
+              raise SystemExit(0)
+
+          event = {
+              "schema": "qi-event/v1", "origin": "qlv", "kind": "answer",
+              "subject": target["loop"],
+              "payload": {
+                  "loop_id": target["loop"], "role": "crosscheck",
+                  "target_peer": os.environ["TARGET_LINE"], "verdict": "OPEN",
+                  "subject_answer_digest": answer_digest,
+              },
+              "parents": [answer_event["event_id"]],
+              "causation_id": target["loop"], "correlation_id": WAVE,
+              "auth": {"mode": "api", "credential_ref": "QLV",
+                       "nonce": secrets.token_hex(16), "signature": ""},
+          }
+          event["event_id"] = "EVT-" + digest(event)[:24]
+          secret = os.environ["QIOS_API_QLV"].encode()
+          event["auth"]["signature"] = hmac.new(
+              secret, f"{event['event_id']}|{event['auth']['nonce']}".encode(),
+              hashlib.sha256).hexdigest()
+          body = MARKER + "\n" + canonical(event)
+          created = api(target["repo"], f"/issues/{target['issue']}/comments",
+                        "POST", {"body": body})
+          fresh = api(target["repo"], f"/issues/comments/{created['id']}")
+          if fresh.get("body") != body:
+              raise SystemExit("crosscheck readback drift")
+          receipt = {
+              "schema": "qlv-qios-crosscheck-receipt/v1",
+              "observed_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+              "target": os.environ["TARGET_LINE"], "answer_comment_id": answer_comment_id,
+              "comment_id": created["id"], "event_id": event["event_id"],
+              "subject_answer_digest": answer_digest, "verdict": "OPEN",
+              "independence": {"origin": "qlv", "family": "qlv",
+                               "principal": "api:hmac:QLV"},
+          }
+          with open("crosscheck-receipt.json", "w") as handle:
+              json.dump(receipt, handle, ensure_ascii=False, indent=2)
+          print(json.dumps(receipt, ensure_ascii=False))
+          PY
+
+      - name: Publish non-secret crosscheck receipt
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qios-crosscheck-${{ github.run_id }}
+          path: crosscheck-receipt.json
+          if-no-files-found: warn
+          retention-days: 30
