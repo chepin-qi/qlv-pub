@@ -31,7 +31,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 5,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1473,
+  "seg_cursor": 1474,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -102,8 +102,10 @@
     "AI_FULL_PAT": "2026-09-11T20:18:51Z",
     "FED_PAT": "2026-09-12T04:36:13Z",
     "FORMAFLOW_CMD_AUTH": "2026-09-09T08:35:14Z",
+    "GH_PAT_QI_FULL": "2026-11-23T23:07:15Z",
     "KIMI_API_KEY_VCI1": "2026-09-06T11:54:26Z",
-    "QI_PAT": "2026-09-12T04:36:11Z",
+    "QIOS_API_QLV": "2026-11-23T23:32:03Z",
+    "QI_PAT": "2026-11-23T23:07:14Z",
     "QUAFU_TOKEN": "2026-09-06T11:54:27Z",
     "TOWER_PAT": "2026-09-15T03:27:33Z"
   },
