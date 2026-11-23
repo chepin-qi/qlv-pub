@@ -4400,3 +4400,6 @@
 {"ts": "2026-11-23T21:50:01Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-23T22:00:01Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-23T22:00:01Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
+{"ts": "2026-11-23T22:00:21Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-23T22:10:31Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-23T22:10:31Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 609.8, "ev_n": 0}
