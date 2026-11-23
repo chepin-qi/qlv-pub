@@ -30,7 +30,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1455,
+  "seg_cursor": 1456,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -406,11 +406,6 @@
     "OTP-NS-SAT-20261121-02B.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:auto-otp-20260908T073745-3c79f836.json",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:auto-otp-20260908T083831-9e21ae09.json",
       "note": "lane任务件候机答/转派",
@@ -1632,9 +1627,14 @@
       "id": "lanetask:auto-otp-20260908T065150-1af7865b.json",
       "note": "lane任务件候机答/转派",
       "ts": "2026-11-23T17:22:56Z"
+    },
+    {
+      "id": "lanetask:auto-otp-20260908T073745-3c79f836.json",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-11-23T19:15:36Z"
     }
   ],
-  "debt_backlog": 64,
+  "debt_backlog": 63,
   "lane_inbox_count_ci": 45,
   "ucif2_seen": [],
   "fedeye_seen": [
