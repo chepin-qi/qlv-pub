@@ -28,9 +28,9 @@
     "w12": [
       0,
       0,
+      0,
+      0,
       1,
-      0,
-      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1631,7 +1631,7 @@
     {
       "id": "lanetask:auto-otp-20260908T052618-f161e9fe.json",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-23T15:39:51Z"
+      "ts": "2026-11-23T15:50:17Z"
     }
   ],
   "debt_backlog": 65,
