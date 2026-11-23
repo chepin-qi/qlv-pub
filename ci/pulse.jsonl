@@ -4280,6 +4280,6 @@
 {"ts": "2026-11-11T20:11:48Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-11T20:21:48Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-11T20:21:48Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
-{"ts": "2026-11-23T11:42:58Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-11-23T11:43:08Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-23T11:43:09Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 11.5, "ev_n": 1}
+{"ts": "2026-11-23T11:43:22Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-23T11:53:32Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-23T11:53:34Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.9, "ev_n": 1}
