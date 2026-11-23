@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "9b45b591f9eaafaf3722a6aa67686ef86c3e7bdb",
+  "qfa_head": "a7a26b81cf841ecdfb88ea410dd2951c8bd87881",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0",
@@ -32,7 +32,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-11-11",
+    "date": "2026-11-23",
     "beacon_comments": 0
   },
   "qgl_head": "1b435e3ec67f34c6c14b2066cc059ebc481aea0e",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1427,
+  "seg_cursor": 1428,
   "keydark": {
     "fails": 0,
     "dark": false
