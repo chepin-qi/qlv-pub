@@ -29,19 +29,19 @@
       0,
       0,
       0,
+      3,
       0,
       0,
       0,
       0,
       0,
       0,
-      2,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 9,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1430,
+  "seg_cursor": 1431,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -400,7 +400,10 @@
     "ANS-SISIGN22715-SIALIGN22717-qfa-20261009T091446Z.md",
     "NOTICE-MBCLOUD-LVLU-01-20261031T0118Z.md",
     "NOTICE-NORTHSTAR-QFA-02-qfa-20261010T200627Z.md",
-    "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md"
+    "NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md",
+    "NOTICE-HOLO-SURGE-20261122-02-qlv.md",
+    "OTP-NS-SAT-20261121-02A.md",
+    "OTP-NS-SAT-20261121-02B.md"
   ],
   "debt_queue": [
     {
@@ -720,6 +723,21 @@
     },
     {
       "id": "lanetask:NOTICE-TIANYAN-FREETIER-DEAD-LVLU-01-20261007T0416Z.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:NOTICE-HOLO-SURGE-20261122-02-qlv.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-NS-SAT-20261121-02A.md",
+      "note": "lane任务件候机答/转派",
+      "si0_solvable": false
+    },
+    {
+      "id": "lanetask:OTP-NS-SAT-20261121-02B.md",
       "note": "lane任务件候机答/转派",
       "si0_solvable": false
     }
