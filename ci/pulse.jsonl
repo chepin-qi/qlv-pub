@@ -4415,6 +4415,6 @@
 {"ts": "2026-11-23T23:12:25Z", "kind": "beat.begin", "seg": "debtengine"}
 {"ts": "2026-11-23T23:22:25Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-23T23:22:27Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 601.7, "ev_n": 1}
-{"ts": "2026-11-23T23:22:40Z", "kind": "beat.begin", "seg": "keyhealth"}
-{"ts": "2026-11-23T23:32:41Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-23T23:32:41Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-23T23:33:00Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-11-23T23:43:00Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-23T23:43:00Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.3, "ev_n": 0}
