@@ -4481,3 +4481,6 @@
 {"ts": "2026-11-24T05:01:05Z", "kind": "beat.begin", "seg": "faces8"}
 {"ts": "2026-11-24T05:11:10Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-24T05:11:10Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 604.3, "ev_n": 0}
+{"ts": "2026-11-24T05:11:22Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-11-24T05:21:23Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-24T05:21:23Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.3, "ev_n": 0}
