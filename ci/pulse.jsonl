@@ -4685,12 +4685,15 @@
 {"ts": "2026-11-24T21:50:12Z", "kind": "beat.begin", "seg": "secrets-meta"}
 {"ts": "2026-11-24T22:00:12Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-24T22:00:12Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-11-24T22:10:40Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-11-24T22:20:40Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-24T22:20:40Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
-{"ts": "2026-11-24T22:31:16Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-11-24T22:41:27Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-24T22:41:27Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.6, "ev_n": 0}
-{"ts": "2026-11-24T22:51:51Z", "kind": "beat.begin", "seg": "orbit"}
-{"ts": "2026-11-24T23:01:51Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-24T23:01:52Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.4, "ev_n": 0}
+{"ts": "2026-11-24T22:00:30Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-24T22:10:30Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-24T22:10:30Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
+{"ts": "2026-11-24T22:20:52Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-24T22:31:04Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-24T22:31:04Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.5, "ev_n": 0}
+{"ts": "2026-11-24T22:41:38Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-11-24T22:51:38Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-24T22:51:39Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-24T23:02:05Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-24T23:12:10Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-24T23:12:10Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 604.9, "ev_n": 0}
