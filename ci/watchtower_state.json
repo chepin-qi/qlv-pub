@@ -37,11 +37,11 @@
       0,
       0,
       0,
-      4
+      0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 11,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1531,
+  "seg_cursor": 1532,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -111,19 +111,19 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1795532836.6853516,
+      "t": 1795532168.4703186,
       "n": 23
     },
     "debt-20260912-keydark-drill": {
-      "t": 1795532836.6853588,
+      "t": 1795532168.4703252,
       "n": 23
     },
     "debt-20260912-inbox-purge": {
-      "t": 1795532836.6853614,
+      "t": 1795532168.4703283,
       "n": 23
     },
     "debt-20260912-tower-verify": {
-      "t": 1795532836.685362,
+      "t": 1795532168.4703298,
       "n": 23
     },
     "debt-20260912-edge-throttle": {
