@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "08387a447122ab04c103427d8ca6d0b61d9cb980",
+  "qfa_head": "1137de795e183199f3b0d33e83630212823676c4",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0",
@@ -29,7 +29,7 @@
       0,
       0,
       0,
-      4,
+      1,
       0,
       0,
       0,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1539,
+  "seg_cursor": 1540,
   "keydark": {
     "fails": 0,
     "dark": false
