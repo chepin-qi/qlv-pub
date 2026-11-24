@@ -4664,6 +4664,6 @@
 {"ts": "2026-11-24T20:07:31Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-24T20:17:31Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-24T20:17:31Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
-{"ts": "2026-11-24T20:17:42Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-11-24T20:27:52Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-24T20:27:52Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 609.9, "ev_n": 0}
+{"ts": "2026-11-24T20:28:12Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-24T20:38:24Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-24T20:38:24Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.3, "ev_n": 0}
