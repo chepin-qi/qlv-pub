@@ -4562,3 +4562,6 @@
 {"ts": "2026-11-24T11:51:30Z", "kind": "beat.begin", "seg": "keyhealth"}
 {"ts": "2026-11-24T12:01:31Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-24T12:01:31Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.5, "ev_n": 0}
+{"ts": "2026-11-24T12:01:41Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-11-24T12:11:41Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-24T12:11:41Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
