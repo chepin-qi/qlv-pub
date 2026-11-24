@@ -1,0 +1,10 @@
+{
+  "ts": "2026-11-24T03:49:00Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:auto-otp-20260908T101209-b89946f6.json",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
