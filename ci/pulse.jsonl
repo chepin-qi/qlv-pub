@@ -4754,12 +4754,12 @@
 {"ts": "2026-11-25T03:59:56Z", "kind": "beat.begin", "seg": "keyhealth"}
 {"ts": "2026-11-25T04:09:56Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-25T04:09:56Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-11-25T04:10:09Z", "kind": "beat.begin", "seg": "secrets-meta"}
-{"ts": "2026-11-25T04:20:09Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-25T04:20:09Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-11-25T04:30:34Z", "kind": "beat.begin", "seg": "nudge"}
-{"ts": "2026-11-25T04:40:34Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-25T04:40:34Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
-{"ts": "2026-11-25T04:51:00Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-11-25T05:01:11Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-25T05:01:11Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 610.5, "ev_n": 0}
+{"ts": "2026-11-25T04:20:21Z", "kind": "beat.begin", "seg": "secrets-meta"}
+{"ts": "2026-11-25T04:30:21Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-25T04:30:21Z", "kind": "beat.end", "seg": "secrets-meta", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-25T04:40:48Z", "kind": "beat.begin", "seg": "nudge"}
+{"ts": "2026-11-25T04:50:48Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-25T04:50:48Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
+{"ts": "2026-11-25T05:01:23Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-25T05:11:35Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-25T05:11:35Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.3, "ev_n": 0}
