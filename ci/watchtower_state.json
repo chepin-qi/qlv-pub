@@ -26,24 +26,24 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -1633,7 +1633,7 @@
     {
       "id": "lanetask:auto-otp-20260909T113937-526e0172.json",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-25T22:09:02Z"
+      "ts": "2026-11-25T22:19:15Z"
     }
   ],
   "debt_backlog": 39,
