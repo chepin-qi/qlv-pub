@@ -32,7 +32,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 6,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1711,
+  "seg_cursor": 1712,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -408,11 +408,6 @@
     "OTP-NS-SAT-20261121-02B.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md",
       "note": "lane件>24h未理升己",
@@ -1634,9 +1629,14 @@
       "id": "lanesweep:lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-11-26T12:40:36Z"
+    },
+    {
+      "id": "lanesweep:lvlu-invite-20260911T023820Z-TH-SI-COUPLING-01.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-11-26T15:14:35Z"
     }
   ],
-  "debt_backlog": 32,
+  "debt_backlog": 31,
   "lane_inbox_count_ci": 45,
   "ucif2_seen": [],
   "fedeye_seen": [
