@@ -27,7 +27,7 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      0,
+      3,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1730,
+  "seg_cursor": 1731,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -143,16 +143,16 @@
       "n": 25
     },
     "debt-20260912-tower-seg9-verify": {
-      "t": 1795638991.3108356,
-      "n": 24
+      "t": 1795728836.1074204,
+      "n": 25
     },
     "debt-20260912-exp016-xchk": {
-      "t": 1795638991.3108418,
-      "n": 24
+      "t": 1795728836.1074264,
+      "n": 25
     },
     "debt-20260912-os3d-lvlu-dist": {
-      "t": 1795638991.310844,
-      "n": 24
+      "t": 1795728836.107428,
+      "n": 25
     }
   },
   "nudge_backlog": 0,
