@@ -26,13 +26,13 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 6,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -1633,7 +1633,7 @@
     {
       "id": "lanesweep:lvlu-excite-20260911T014411Z-keyreq要约-谱重合基线.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-11-26T12:40:36Z"
+      "ts": "2026-11-26T12:50:51Z"
     }
   ],
   "debt_backlog": 32,
