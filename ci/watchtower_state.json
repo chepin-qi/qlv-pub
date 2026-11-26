@@ -33,7 +33,7 @@
       0,
       0,
       0,
-      1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 7,
+    "dominant_bin": null,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1728,
+  "seg_cursor": 1729,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1633,7 +1633,7 @@
     {
       "id": "lanesweep:otp-20260910T232733Z-浪涌一号-lvlu.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-11-26T20:53:09Z"
+      "ts": "2026-11-26T20:42:55Z"
     }
   ],
   "debt_backlog": 29,
