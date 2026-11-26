@@ -1,0 +1,10 @@
+{
+  "ts": "2026-11-26T07:22:21Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:cisvr-direct-beat35-20260909T135238-qlv.json",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
