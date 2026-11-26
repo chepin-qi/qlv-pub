@@ -5177,12 +5177,12 @@
 {"ts": "2026-11-26T20:02:15Z", "kind": "beat.begin", "seg": "faces8"}
 {"ts": "2026-11-26T20:12:21Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-26T20:12:21Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 606.1, "ev_n": 0}
-{"ts": "2026-11-26T20:12:32Z", "kind": "beat.begin", "seg": "lanesweep"}
-{"ts": "2026-11-26T20:22:33Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-26T20:22:33Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.3, "ev_n": 0}
-{"ts": "2026-11-26T20:32:55Z", "kind": "beat.begin", "seg": "debtengine"}
-{"ts": "2026-11-26T20:42:55Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-26T20:42:56Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 601.3, "ev_n": 1}
-{"ts": "2026-11-26T20:53:22Z", "kind": "beat.begin", "seg": "keyhealth"}
-{"ts": "2026-11-26T21:03:22Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-26T21:03:22Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.2, "ev_n": 0}
+{"ts": "2026-11-26T20:22:43Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-11-26T20:32:43Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-26T20:32:43Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-26T20:43:09Z", "kind": "beat.begin", "seg": "debtengine"}
+{"ts": "2026-11-26T20:53:09Z", "ev_n": 1, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-26T20:53:10Z", "kind": "beat.end", "seg": "debtengine", "elapsed_s": 601.9, "ev_n": 1}
+{"ts": "2026-11-26T21:03:33Z", "kind": "beat.begin", "seg": "keyhealth"}
+{"ts": "2026-11-26T21:13:33Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-26T21:13:33Z", "kind": "beat.end", "seg": "keyhealth", "elapsed_s": 600.2, "ev_n": 0}
