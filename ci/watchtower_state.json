@@ -28,9 +28,9 @@
     "w12": [
       0,
       0,
-      0,
-      0,
       1,
+      0,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 4,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1633,7 +1633,7 @@
     {
       "id": "lanetask:cisvr-degrade-mailman-20260909T154841-qlv.json",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-26T04:48:35Z"
+      "ts": "2026-11-26T04:58:48Z"
     }
   ],
   "debt_backlog": 35,
