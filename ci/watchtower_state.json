@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      4,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1722,
+  "seg_cursor": 1723,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -127,20 +127,20 @@
       "n": 25
     },
     "debt-20260912-edge-throttle": {
-      "t": 1795629745.9730294,
-      "n": 24
+      "t": 1795719613.2742064,
+      "n": 25
     },
     "debt-20260912-orbit-cap01-bypass": {
-      "t": 1795629745.9730363,
-      "n": 24
+      "t": 1795719613.274213,
+      "n": 25
     },
     "debt-20260912-orbit-cap02-lgt": {
-      "t": 1795629745.973039,
-      "n": 24
+      "t": 1795719613.274215,
+      "n": 25
     },
     "debt-20260912-orbit-cap03-ring": {
-      "t": 1795629745.97304,
-      "n": 24
+      "t": 1795719613.2742157,
+      "n": 25
     },
     "debt-20260912-tower-seg9-verify": {
       "t": 1795638991.3108356,
