@@ -29,19 +29,19 @@
       0,
       0,
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1633,7 +1633,7 @@
     {
       "id": "lanetask:cisvr-draft-beat37-20260909T1608Z-qlv.json",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-26T09:56:17Z"
+      "ts": "2026-11-26T10:06:33Z"
     }
   ],
   "debt_backlog": 33,
