@@ -5078,6 +5078,9 @@
 {"ts": "2026-11-26T08:54:48Z", "kind": "beat.begin", "seg": "orbit"}
 {"ts": "2026-11-26T09:04:48Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-26T09:04:49Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.2, "ev_n": 0}
-{"ts": "2026-11-26T09:15:25Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-11-26T09:25:30Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-26T09:25:30Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 605.1, "ev_n": 0}
+{"ts": "2026-11-26T09:05:00Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-26T09:15:07Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-26T09:15:07Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 607.2, "ev_n": 0}
+{"ts": "2026-11-26T09:25:44Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-11-26T09:35:44Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-26T09:35:44Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.5, "ev_n": 0}
