@@ -28,10 +28,10 @@
     "w12": [
       0,
       0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 5,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1633,7 +1633,7 @@
     {
       "id": "lanesweep:nudge-20260913T000131Z-SI5CLOUD-QLV-lvlu.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-11-26T17:59:02Z"
+      "ts": "2026-11-26T18:09:15Z"
     }
   ],
   "debt_backlog": 30,
