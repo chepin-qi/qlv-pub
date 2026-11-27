@@ -5219,3 +5219,6 @@
 {"ts": "2026-11-26T23:46:54Z", "kind": "beat.begin", "seg": "pulse"}
 {"ts": "2026-11-26T23:57:06Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-26T23:57:06Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 612.1, "ev_n": 0}
+{"ts": "2026-11-26T23:57:17Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-11-27T00:07:17Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-27T00:07:17Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.6, "ev_n": 0}
