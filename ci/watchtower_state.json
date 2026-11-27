@@ -29,7 +29,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -60,7 +60,7 @@
     "date": "2026-11-27",
     "beacon_comments": 0
   },
-  "qgl_head": "142cfaf765cffbed92b0acd447b99dda809598b7",
+  "qgl_head": "0cb73be100ffb4e5579ca1e785ea71e8f2befb8e",
   "_probe_err": {
     "ci-inbox/commits": {
       "n": 1,
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1749,
+  "seg_cursor": 1750,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -1637,7 +1637,7 @@
     }
   ],
   "debt_backlog": 27,
-  "lane_inbox_count_ci": 45,
+  "lane_inbox_count_ci": 46,
   "ucif2_seen": [],
   "fedeye_seen": [
     "02a969e2c7ad",
