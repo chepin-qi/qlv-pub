@@ -1,6 +1,6 @@
 {
   "beacon_max": 5564921753,
-  "qfa_head": "b541655a44afd2c4fa7bc174ec815785e34b4b86",
+  "qfa_head": "c26fc57098e8735715b5711fa1e59f3905d4496d",
   "quafu": {
     "8CA608102028586C": "0",
     "8BB169201FA3F5D4": "0",
@@ -30,18 +30,18 @@
       0,
       0,
       0,
+      1,
       0,
       0,
       0,
       0,
       0,
       0,
-      4,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 10,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1795,
+  "seg_cursor": 1796,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -111,19 +111,19 @@
   },
   "nudge_cd": {
     "debt-20260912-lgt-kscan": {
-      "t": 1795798314.4093304,
+      "t": 1795797696.7464228,
       "n": 26
     },
     "debt-20260912-keydark-drill": {
-      "t": 1795798314.4093378,
+      "t": 1795797696.7464292,
       "n": 26
     },
     "debt-20260912-inbox-purge": {
-      "t": 1795798314.4093406,
+      "t": 1795797696.7464318,
       "n": 26
     },
     "debt-20260912-tower-verify": {
-      "t": 1795798314.4093425,
+      "t": 1795797696.746433,
       "n": 26
     },
     "debt-20260912-edge-throttle": {
