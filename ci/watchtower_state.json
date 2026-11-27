@@ -26,9 +26,9 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
-      0,
       1,
+      0,
+      0,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 2,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -1633,7 +1633,7 @@
     {
       "id": "lanesweep:qfa-si5ring-answer-20260910T231548Z.md",
       "note": "lane件>24h未理升己",
-      "ts": "2026-11-27T18:14:11Z"
+      "ts": "2026-11-27T18:24:23Z"
     }
   ],
   "debt_backlog": 20,
