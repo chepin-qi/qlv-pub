@@ -5363,12 +5363,12 @@
 {"ts": "2026-11-27T14:18:21Z", "kind": "beat.begin", "seg": "pulse"}
 {"ts": "2026-11-27T14:28:31Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-27T14:28:31Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 609.5, "ev_n": 0}
-{"ts": "2026-11-27T14:28:51Z", "kind": "beat.begin", "seg": "orbit"}
-{"ts": "2026-11-27T14:38:51Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-27T14:38:51Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.4, "ev_n": 0}
-{"ts": "2026-11-27T14:49:17Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-11-27T14:59:21Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-27T14:59:21Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 604.2, "ev_n": 0}
-{"ts": "2026-11-27T15:09:52Z", "kind": "beat.begin", "seg": "lanesweep"}
-{"ts": "2026-11-27T15:19:52Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-27T15:19:52Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.4, "ev_n": 0}
+{"ts": "2026-11-27T14:39:05Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-11-27T14:49:05Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-27T14:49:05Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
+{"ts": "2026-11-27T14:59:37Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-27T15:09:41Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-27T15:09:41Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 604.2, "ev_n": 0}
+{"ts": "2026-11-27T15:20:05Z", "kind": "beat.begin", "seg": "lanesweep"}
+{"ts": "2026-11-27T15:30:05Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-27T15:30:05Z", "kind": "beat.end", "seg": "lanesweep", "elapsed_s": 600.3, "ev_n": 0}
