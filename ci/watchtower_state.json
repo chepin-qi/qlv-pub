@@ -30,7 +30,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 4,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "beacon_comments": 0
   },
   "qgl_head": "142cfaf765cffbed92b0acd447b99dda809598b7",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1743,
+  "seg_cursor": 1744,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -408,11 +408,6 @@
     "OTP-NS-SAT-20261121-02B.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:qfa-mech-call-01-20260910T223007Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanesweep:qfa-resp-eval2-20260910T225907Z.md",
       "note": "lane件>24h未理升己",
@@ -1634,9 +1629,14 @@
       "id": "lanesweep:otp-20260911T022116Z-浪涌三号-lvlu.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-11-26T22:45:29Z"
+    },
+    {
+      "id": "lanesweep:qfa-mech-call-01-20260910T223007Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-11-27T01:08:40Z"
     }
   ],
-  "debt_backlog": 28,
+  "debt_backlog": 27,
   "lane_inbox_count_ci": 45,
   "ucif2_seen": [],
   "fedeye_seen": [

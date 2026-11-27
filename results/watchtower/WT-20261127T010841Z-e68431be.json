@@ -1,0 +1,10 @@
+{
+  "ts": "2026-11-27T01:08:40Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanesweep:qfa-mech-call-01-20260910T223007Z.md",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}
