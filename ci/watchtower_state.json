@@ -26,7 +26,7 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
-      0,
+      1,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
-    "C_streak": 0,
-    "verdict": "进行式"
+    "dominant_bin": 0,
+    "C_streak": 1,
+    "verdict": "C-窗"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1751,
+  "seg_cursor": 1752,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -408,11 +408,6 @@
     "OTP-NS-SAT-20261121-02B.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanesweep:qfa-resp-eval2-20260910T225907Z.md",
-      "note": "lane件>24h未理升己",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:qfa-resp-govpair-20260910.md",
       "note": "lane任务件候机答/转派",
@@ -1634,9 +1629,14 @@
       "id": "lanesweep:qfa-mech-call-01-20260910T223007Z.md",
       "note": "lane件>24h未理升己",
       "ts": "2026-11-27T01:08:40Z"
+    },
+    {
+      "id": "lanesweep:qfa-resp-eval2-20260910T225907Z.md",
+      "note": "lane件>24h未理升己",
+      "ts": "2026-11-27T03:11:33Z"
     }
   ],
-  "debt_backlog": 27,
+  "debt_backlog": 26,
   "lane_inbox_count_ci": 46,
   "ucif2_seen": [],
   "fedeye_seen": [
