@@ -29,7 +29,7 @@
       0,
       0,
       0,
-      0,
+      1,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": null,
+    "dominant_bin": 3,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -57,7 +57,7 @@
   "lane_inbox_count_qlvlab": 7,
   "loops_open": 18,
   "post_budget": {
-    "date": "2026-11-27",
+    "date": "2026-11-28",
     "beacon_comments": 0
   },
   "qgl_head": "efcaa2850c5105883cf158ad258112f1abd35176",
@@ -88,7 +88,7 @@
     }
   },
   "_probe_err_sig": "d0529ec96f",
-  "seg_cursor": 1823,
+  "seg_cursor": 1824,
   "keydark": {
     "fails": 0,
     "dark": false
@@ -408,11 +408,6 @@
     "OTP-NS-SAT-20261121-02B.md"
   ],
   "debt_queue": [
-    {
-      "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
-      "note": "lane任务件候机答/转派",
-      "si0_solvable": false
-    },
     {
       "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
       "note": "lane任务件候机答/转派",
@@ -1634,9 +1629,14 @@
       "id": "lanetask:qtlv-spectra-x11-qsca7fce6884.md",
       "note": "lane任务件候机答/转派",
       "ts": "2026-11-27T22:10:02Z"
+    },
+    {
+      "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq11.md",
+      "note": "lane任务件候机答/转派",
+      "ts": "2026-11-28T00:44:03Z"
     }
   ],
-  "debt_backlog": 18,
+  "debt_backlog": 17,
   "lane_inbox_count_ci": 46,
   "ucif2_seen": [],
   "fedeye_seen": [
