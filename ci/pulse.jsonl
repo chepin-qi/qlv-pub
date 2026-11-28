@@ -5480,12 +5480,12 @@
 {"ts": "2026-11-28T01:35:17Z", "kind": "beat.begin", "seg": "nudge"}
 {"ts": "2026-11-28T01:45:17Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
 {"ts": "2026-11-28T01:45:17Z", "kind": "beat.end", "seg": "nudge", "elapsed_s": 600.0, "ev_n": 0}
-{"ts": "2026-11-28T01:45:28Z", "kind": "beat.begin", "seg": "pulse"}
-{"ts": "2026-11-28T01:55:39Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-28T01:55:39Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 611.4, "ev_n": 0}
-{"ts": "2026-11-28T02:06:12Z", "kind": "beat.begin", "seg": "orbit"}
-{"ts": "2026-11-28T02:16:12Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-28T02:16:13Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.3, "ev_n": 0}
-{"ts": "2026-11-28T02:26:38Z", "kind": "beat.begin", "seg": "faces8"}
-{"ts": "2026-11-28T02:36:46Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
-{"ts": "2026-11-28T02:36:46Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 607.3, "ev_n": 0}
+{"ts": "2026-11-28T01:55:50Z", "kind": "beat.begin", "seg": "pulse"}
+{"ts": "2026-11-28T02:06:01Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-28T02:06:01Z", "kind": "beat.end", "seg": "pulse", "elapsed_s": 610.9, "ev_n": 0}
+{"ts": "2026-11-28T02:16:25Z", "kind": "beat.begin", "seg": "orbit"}
+{"ts": "2026-11-28T02:26:25Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-28T02:26:26Z", "kind": "beat.end", "seg": "orbit", "elapsed_s": 600.5, "ev_n": 0}
+{"ts": "2026-11-28T02:36:58Z", "kind": "beat.begin", "seg": "faces8"}
+{"ts": "2026-11-28T02:47:02Z", "ev_n": 0, "probe_err_faces": [], "fedeye_seen": 209, "keydark": false, "key_via": "QI_PAT"}
+{"ts": "2026-11-28T02:47:02Z", "kind": "beat.end", "seg": "faces8", "elapsed_s": 603.3, "ev_n": 0}
