@@ -1,0 +1,10 @@
+{
+  "ts": "2026-11-28T03:27:55Z",
+  "clock": "VOID",
+  "event": {
+    "kind": "debtengine.seat",
+    "ref": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
+    "high_value": true
+  },
+  "verdict_error": "HTTP Error 429: Too Many Requests"
+}

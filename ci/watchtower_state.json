@@ -28,8 +28,8 @@
     "w12": [
       0,
       0,
-      0,
       1,
+      0,
       0,
       0,
       0,
@@ -41,7 +41,7 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 3,
+    "dominant_bin": 2,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1633,7 +1633,7 @@
     {
       "id": "lanetask:FRAC-01-QUERY-qfa-20260927T205438Z-seq15.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-28T03:17:40Z"
+      "ts": "2026-11-28T03:27:55Z"
     }
   ],
   "debt_backlog": 16,
