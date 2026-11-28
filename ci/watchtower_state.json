@@ -27,21 +27,21 @@
     "v": "METER-CADENCE-01-cand",
     "w12": [
       0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       0,
       0,
       0
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 8,
+    "dominant_bin": 1,
     "C_streak": 0,
     "verdict": "进行式"
   },
@@ -1633,7 +1633,7 @@
     {
       "id": "lanetask:ANS-NOTICE-QRAC-V2RC-LVLU-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-28T10:17:50Z"
+      "ts": "2026-11-28T10:28:07Z"
     }
   ],
   "debt_backlog": 13,
