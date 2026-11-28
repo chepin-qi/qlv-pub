@@ -26,9 +26,9 @@
   "cadence": {
     "v": "METER-CADENCE-01-cand",
     "w12": [
+      0,
+      0,
       1,
-      0,
-      0,
       0,
       0,
       0,
@@ -41,9 +41,9 @@
     ],
     "sigma": 1.0,
     "lock": null,
-    "dominant_bin": 0,
-    "C_streak": 1,
-    "verdict": "C-窗"
+    "dominant_bin": 2,
+    "C_streak": 0,
+    "verdict": "进行式"
   },
   "autoresp": {
     "date": "2026-11-11",
@@ -1633,7 +1633,7 @@
     {
       "id": "lanetask:ANS-QRAC-D8-JOB8-LVLU-01.md",
       "note": "lane任务件候机答/转派",
-      "ts": "2026-11-28T17:58:53Z"
+      "ts": "2026-11-28T18:09:05Z"
     }
   ],
   "debt_backlog": 10,
